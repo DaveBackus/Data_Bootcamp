@@ -8,7 +8,8 @@ Materials for a future course using Python to study economic and financial data 
 
 >What are the prerequisites?  There are none, other than the courage to take on a challenge and the patience to debug programs that don’t quite work (and they never work the first time).  The course is aimed at students with little or no programming experience.  We will teach you what you need to know.  
 
->Where will this lead?  You will come out of the course somewhere between Brad Pitt and Jonah Hill in “Moneyball,” with the knowledge and tools to deal with whatever data that comes up in your business or life.  If you’d like to do more along similar lines, our IOMS group has an extensive collection of courses on business analytics and data science.  It's cool stuff, you should check it out.    
+>Where will this lead?  You will come out of the course somewhere between Brad Pitt and Jonah Hill in “Moneyball,” with the knowledge and tools to deal with whatever data that comes up in your business or life.  If you’d like to do more along similar lines, our 
+[IOMS group](http://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/academic-departments/ioms-dept/) has an extensive collection of courses on business analytics and data science.  It's cool stuff, you should check it out.    
 
 >Should you take this course if you already know how to code?  Probably not, there are more advanced options that would suit you better.  If you take it anyway, please don’t scare the other students, they're our focus.  
 
