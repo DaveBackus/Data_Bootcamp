@@ -13,6 +13,6 @@ Materials for a future course using Python to study economic and financial data 
 
 >**Should you take this course if you already know how to code?**  Probably not, there are more advanced options that would suit you better.  If you take it anyway, please don’t scare the other students, they're the focus.   
 
-Send comments and questions to Dave Backus @ NYU:  db3@nyu.edu. 
+This is work in progress, suggestions welcome.  Add them to the wiki or send them to Dave Backus @ NYU:  db3@nyu.edu. 
 
 Part of the #nyuecon collection.
