@@ -11,7 +11,7 @@ Materials for a future course using Python to study economic and financial data 
 >**Where will this lead?**  You will come out of the course somewhere between Brad Pitt and Jonah Hill in “Moneyball,” with a good start on the skills needed to deal with whatever data comes up in your business or life.  You'll also be well prepared to do more along similar lines, including the extensive collection of courses on business analytics and data science offered by our 
 [IOMS group](http://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/academic-departments/ioms-dept/).  It's cool stuff, you should check it out.    
 
->**Should you take this course if you already know how to code?**  Probably not, there are more advanced options that would suit you better.  If you take it anyway, please don’t scare the other students, they're the focus.   
+>**Should you take this course if you already know how to code?**  Probably not, there are more advanced options that would suit you better.  If you take it anyway, please don’t scare the other students.   
 
 This is work in progress, suggestions welcome.  Add them to the wiki or send them to Dave Backus @ NYU:  db3@nyu.edu. 
 
