@@ -1,4 +1,4 @@
-###Data_Bootcamp
+###Data Bootcamp
 
 Materials for a future course using Python to study economic and financial data with graphical methods. Current draft of sales pitch:
 
