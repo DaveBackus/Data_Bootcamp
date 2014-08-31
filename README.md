@@ -18,7 +18,10 @@ Materials for a future course using Python to study economic and financial data 
 This is ongoing, with more to do than has been done.  Progress will be uploaded to 
 * This repository:  https://github.com/DaveBackus/Data_Bootcamp/tree/master/Code/Python
 * Related:  https://github.com/DaveBackus/MFAP/tree/master/Code/Python
+Other useful resources:
+* Quant-Econ:  http://quant-econ.net/
+* ..
 
-This is work in progress, suggestions welcome.  Add them to the wiki or send them to Dave Backus @ NYU:  db3@nyu.edu. 
+Suggestions welcome.  Add them to the wiki or send them to Dave Backus @ NYU:  db3@nyu.edu. 
 
 Part of the #nyuecon collection. 
