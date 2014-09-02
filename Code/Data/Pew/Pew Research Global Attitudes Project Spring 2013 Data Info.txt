@@ -1,0 +1,29 @@
+PEW RESEARCH CENTER - Global Attitudes Project
+
+Spring 2013 39-Nation Survey
+
+It is important to read this information before using the 2013 Pew Global Attitudes Survey dataset. 
+
+ 
+1.	General population weight:
+	
+	The weight that must be used when analyzing the attitudes and opinions of the general populations are:
+		
+	General population variable name:  Weight
+			
+	Weight by weight for this analysis. 
+
+
+2.	The full topline results are for the general populations, unless otherwise stated. To access topline trends, please use the Pew Global Attitudes Project Question Database on our website: http://www.pewglobal.org/question-search/     
+
+
+3.	The questionnaire includes full question wording as well as answer category values.
+
+
+4.	The Methods in Detail provides methodological overviews of each survey country, including sample design, mode, languages, fieldwork dates, sample size, margin of error, and representativeness.  
+
+
+5.	Certain variables have been eliminated from the dataset either because of disclosure sensitivities or because of administrative errors.  
+
+
+ 
