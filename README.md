@@ -16,4 +16,7 @@ Materials for a future course using Python to study economic and financial data 
 
 This is work in progress.  The working outline is in the Wiki (link upper right).  Working examples are posted in the Code directory.  Suggestions welcome, either add them to the wiki or (perferred) email me:  db3@nyu.edu (Dave Backus @ NYU). Thanks in advance. 
 
+**Acknowledgements.**
+This was Glenn Okun's idea, so I should probably thank him, although he really should have done this himself.  I know I should thank Chase Coleman and Spencer Lyon, aka Sargent's Python Team.  They're responsible for most of what I've done here.  
+
 Part of the #nyuecon collection. 
