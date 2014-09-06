@@ -14,6 +14,6 @@ Materials for a future course using Python to study economic and financial data 
 
 >**Should you take this course if you already know how to code?**  Probably not, there are more advanced options that would suit you better.  If you take it anyway, please don’t scare the other students.  
 
-This is work in progress.  The working outline is in the Wiki (link upper right).  Working examples are posted in the Code directory.  Suggestions welcome, either add them to the wiki or email me:  db3@nyu.edu (Dave Backus @ NYU). 
+This is work in progress.  The working outline is in the Wiki (link upper right).  Working examples are posted in the Code directory.  Suggestions welcome, either add them to the wiki or (perferred) email me:  db3@nyu.edu (Dave Backus @ NYU). Thanks in advance. 
 
 Part of the #nyuecon collection. 
