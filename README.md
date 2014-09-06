@@ -6,7 +6,7 @@ Materials for a future course using Python to study economic and financial data 
 
 >**Why should you take this course?**  It’s an investment in your future.  You will be able to process data and communicate its content much more efficiently than with a spreadsheet program.  And that’s a huge understatement.  After this course, you will be more valuable to current and future employers -- and Excel will remind you of doing arithmetic on your fingers.  
 
->**What are the prerequisites?**  There are none, other than the courage to take on a challenge and the patience to debug programs that don’t quite work (and they never work the first time).  The course is designed for students with little or no programming experience.  We will teach you what you need to know.  
+>**What are the prerequisites?**  There are none, other than the courage to take on a challenge and the patience to debug programs that don’t quite work -- and they never work the first time, and often not the second or third either.  The course is designed for students with little or no programming experience.  We will teach you what you need to know.  
 
 >**Where will this lead?**  You will come out of the course somewhere between Brad Pitt and Jonah Hill in 
 “[Moneyball](http://en.wikipedia.org/wiki/Moneyball_(film))," with a solid foundation for dealing with whatever data comes up in your business or life.  You will also be well prepared to do more along similar lines, including the extensive collection of courses on business analytics and data science offered by our 
