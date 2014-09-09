@@ -12,6 +12,8 @@ Materials for a future course using Python to study economic and financial data 
 “[Moneyball](http://en.wikipedia.org/wiki/Moneyball_(film))," with a solid foundation for dealing with whatever data comes up in your business or life.  You will also be well prepared to do more along similar lines, including the extensive collection of courses on business analytics and data science offered by our 
 [IOMS group](http://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/academic-departments/ioms-dept/).  It's cool stuff, you should check it out.    
 
+>**Tell me more about patience.** If you don't have it, you should do something else.  You'll have more power over information than you did before, but you'll also run into situations [like this](http://junkcharts.typepad.com/numbersruleyourworld/2011/11/three-hours-in-the-life-of-a-glorified-data-scientist.html). 
+
 >**Should you take this course if you already know how to code?**  Probably not, there are more advanced options that would suit you better.  If you take it anyway, please don’t scare the other students.  
 
 This is work in progress.  The working outline is in the Wiki (link upper right).  Working examples are posted in the Code directory.  Suggestions welcome, either add them to the wiki or (perferred) email me:  db3@nyu.edu (Dave Backus @ NYU). Thanks in advance. 
