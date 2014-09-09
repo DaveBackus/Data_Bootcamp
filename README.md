@@ -8,12 +8,12 @@ Materials for a future course using Python to study economic and financial data 
 
 >**What are the prerequisites?**  There are none, other than the courage to take on a challenge and the patience to debug programs that don’t quite work -- and they never work the first time, and often not the second or third either.  The course is designed for students with little or no programming experience.  We will teach you what you need to know.  
 
+>**Are you kidding about patience?** No. If you don't have it, you should do something else.  You'll have more power over information than you did before, but you'll also run into situations [like this](http://junkcharts.typepad.com/numbersruleyourworld/2011/11/three-hours-in-the-life-of-a-glorified-data-scientist.html). But remember, [grasshopper](http://en.wikipedia.org/wiki/Kwai_Chang_Caine), 
+that Zen-like enlightenmihgt follows working through difficult problems and overcoming them.  
+
 >**Where will this lead?**  You will come out of the course somewhere between Brad Pitt and Jonah Hill in 
 “[Moneyball](http://en.wikipedia.org/wiki/Moneyball_(film))," with a solid foundation for dealing with whatever data comes up in your business or life.  You will also be well prepared to do more along similar lines, including the extensive collection of courses on business analytics and data science offered by our 
 [IOMS group](http://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/academic-departments/ioms-dept/).  It's cool stuff, you should check it out.    
-
->**Are you kidding about patience?** No. If you don't have it, you should do something else.  You'll have more power over information than you did before, but you'll also run into situations [like this](http://junkcharts.typepad.com/numbersruleyourworld/2011/11/three-hours-in-the-life-of-a-glorified-data-scientist.html). But remember, [grasshopper](http://en.wikipedia.org/wiki/Kwai_Chang_Caine), 
-that Zen-like enlightenmihgt follows working through difficult problems and overcoming them.  
 
 >**Should you take this course if you already know how to code?**  Probably not, there are more advanced options that would suit you better.  If you take it anyway, please don’t scare the other students.  
 
