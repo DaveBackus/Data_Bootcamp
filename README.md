@@ -8,7 +8,7 @@ Materials for a future course using Python to study economic and financial data 
 
 >**What are the prerequisites?**  There are none, other than the courage to take on a challenge and the patience to debug programs that don’t quite work -- and they never work the first time, and often not the second or third either.  The course is designed for students with little or no programming experience.  We will teach you what you need to know.  
 
->**Are you kidding about patience?** No. If you don't have it, you should do something else.  You'll have more power over information than you did before, but you'll also run into [situations that challenge your sanity] (http://junkcharts.typepad.com/numbersruleyourworld/2011/11/three-hours-in-the-life-of-a-glorified-data-scientist.html). But remember, [grasshopper](http://en.wikipedia.org/wiki/Kwai_Chang_Caine), 
+>**Are you exaggerating about patience?** No. If you don't have it, you should do something else.  You'll have more power over information than you did before, but you'll also run into [situations that challenge your sanity] (http://junkcharts.typepad.com/numbersruleyourworld/2011/11/three-hours-in-the-life-of-a-glorified-data-scientist.html). But remember, [grasshopper](http://en.wikipedia.org/wiki/Kwai_Chang_Caine), 
 that enlightenment comes from working through difficult situations and overcoming them.  
 
 >**Where will this lead?**  You will come out of the course somewhere between Brad Pitt and Jonah Hill in 
