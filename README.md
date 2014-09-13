@@ -17,7 +17,7 @@ that enlightenment comes from working through difficult situations and overcomin
 
 >**Should you take this course if you already know how to code?**  Probably not, there are more advanced options that would suit you better.  If you take it anyway, please don’t scare the other students.  
 
-This is work in progress.  The working outline is in the Wiki (link upper right).  Working examples are posted in the Code directory.  Suggestions welcome, either add them to the wiki or (perferred) email me:  db3@nyu.edu (Dave Backus @ NYU). Thanks in advance. 
+This is work in progress.  Working examples are posted in the Code directory.  Suggestions welcome: either post them at the "Issues" link on the upper right or email me:  db3@nyu.edu (Dave Backus @ NYU). Thanks in advance. 
 
 **Acknowledgements.**
 This was Glenn Okun's idea, so I should probably thank him, although he really should have done this himself.  I do appreciate his support.  And I know I should thank Chase Coleman and Spencer Lyon, aka Tom Sargent's Python Team, and Paul Backus.  They're responsible for most of what I've done here, either directly or indirectly.  
