@@ -23,5 +23,6 @@ Suggestions welcome: either post them at the "Issues" link on the upper right or
 
 **Acknowledgements.**
 This was Glenn Okun's idea, so I should probably thank him, although he really should have done this himself.  I do appreciate his support.  And I know I should thank Chase Coleman and Spencer Lyon, aka Tom Sargent's Python Team, and Paul Backus.  They're responsible for most of what I've done here, either directly or indirectly.  
+You may notice some resemblance to Tom Sargent and John Stachurski's [Quantitative Economics](http://quant-econ.net/), a wonderful Python-based course in dynamic macroeconomic theory. We will use as much of their material as we can, but focus on data rather than theory.   
 
 Part of the #nyuecon collection. 
