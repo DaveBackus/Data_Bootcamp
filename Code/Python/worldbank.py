@@ -44,6 +44,8 @@ mpl.rcParams['legend.handlelength'] = 3
 
 import matplotlib.pylab as plt
 
+
+
 """
 1. Read in GDP and expenditure components from World Bank  
 """
