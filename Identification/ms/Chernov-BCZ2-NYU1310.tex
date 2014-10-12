@@ -1,0 +1,520 @@
+\documentclass[handout]{beamer}
+%\documentclass[slidestop,xcolor=pst,dvips]{beamer}
+\usepackage{pstricks}
+\usepackage{pgf,pgfarrows,pgfnodes}
+%\usepackage{pgfpages}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{subfigure}
+\usepackage{pgflibraryshapes}
+\usepackage{pgflibrarysnakes}
+\usepackage{pslatex}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{comment}
+\usepackage{booktabs}
+%\usepackage{tikz}
+%\usepackage{beamerthemeBerkeley}
+% Use either the one above or the one below
+%\usetheme{Montpellier}
+%\usetheme{Berkeley}
+%\usetheme{Goettingen}
+%\usetheme{Hannover}
+\usetheme{default}
+
+\newcommand{\eps}{\varepsilon}
+
+%\setbeamerfont{frametitle}{size=\LARGE}
+%\setbeamercolor{frametitle}{fg!100!bg}
+\setbeamercolor{mycolor}{parent=palette primary}
+{\usebeamercolor{mycolor}}
+\setbeamercolor{shad}{fg=black,bg=black!0}
+\setbeamercolor{frametitle}{bg=gray!5}
+
+\setbeamertemplate{frametitle}{
+
+  \vskip6pt
+  %\begin{beamercolorbox}[rounded=true,shadow=true, center]{}
+%  \LARGE\insertframetitle
+%  \end{beamercolorbox}
+   %\shadowbox{\usebeamercolor{shad} \LARGE\insertframetitle}
+%  \LARGE\insertframetitle
+%  \end{beamercolorbox}
+    %\usebeamercolor{shad}
+    \begin{beamerboxesrounded}[upper=block body,lower=block body,shadow=true]{}
+    \begin{center}
+    \LARGE\insertframetitle
+    \end{center}
+     \end{beamerboxesrounded}
+
+  %\vskip-2pt
+  %\insertvrule{1.0pt}{mycolor.fg!90!bg}%
+}
+
+\definecolor{DB}{rgb}{0,0.0,0.8}
+\definecolor{DB1}{rgb}{0.5, 0, 0.2}
+
+%\logo{\includegraphics[height=0.5cm]{logo_skyline_large.eps}}
+%\logo{\includegraphics[height=0.5cm]{lse.eps}}
+\setbeamersize{description width=5pt}
+\setbeamertemplate{items}[ball]
+\setbeamertemplate{blocks}[rounded][shadow=true]
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+\def\stackunder#1#2{\mathrel{\mathop{#2}\limits_{#1}}}
+
+%\title{Disasters Implied by Equity Index Options}
+%\author{David Backus\inst{1} \and Mikhail Chernov\inst{2} \and Ian Martin\inst{3} }
+%\institute{\inst{1}NYU Stern and NBER \and \inst{2}London Business School and CEPR \and \inst{3}Stanford GSB and NBER}
+%\vspace{7cm}
+%\date{CEPR/Gerzensee Asset Pricing \\ July 2009}
+
+%****************************************************************************
+\begin{document}
+
+%\frame{\titlepage}
+
+%\begin{comment}
+%\begin{frame}
+\vspace*{0.5in}
+\centerline{\textcolor{DB}{\Large\bf Identifiying Taylor Rules}}
+\centerline{\textcolor{DB}{\Large\bf in macro-finance models}}
+%\centerline{\textcolor{DB}{\Large\bf Representative Agent Models }}
+
+\bigskip\bigskip%\bigskip%\bigskip
+\centerline{David Backus (NYU), Mikhail Chernov (UCLA), }
+\centerline{and Stanley Zin (NYU)}
+
+\bigskip\bigskip%\bigskip%\bigskip
+\centerline{Tom Cooley Conference @ NYU $|$ October 2013}
+
+\vfill
+{\tiny This version: \today}
+
+
+%\end{document}
+%\begin{comment}
+
+
+
+
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{The Taylor rule}
+
+\begin{itemize} \itemsep=\bigskipamount
+   \item Taylor rule (TR) is a central equation in many models
+      \begin{eqnarray*}
+            i_t = r + \tau \pi_t + s_t,
+      \end{eqnarray*}
+where $i_t$ is the policy rate (nominal), $r$ is the long-term real rate, $\pi_t$ is inflation, and $s_t$ is a monetary policy (MP) shock.
+\pause
+  \item In macro models it affects inflation, output
+  \item In finance models it affects bond yields and prices of other assets
+  \item Can we identify $\tau$ ?
+\end{itemize}
+\end{frame}
+
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Identification}
+
+\begin{itemize} \itemsep=\bigskipamount
+  % \item The statistical question of identification is how many and which parameters of a given model can be estimated given a specific (possibly infinite) sample
+  % \item The question that we are interested in is whether, given the required statistical identification assumptions, one can estimate $\tau$ or infer it from the parameters that can be estimated
+   \item The consensus: the answer is ``No''
+       \begin{itemize}
+            \item Finance: affine term structure models simply do not have enough structure to say anything useful about the economics of the problem
+            \item Macro: the elaborate structure does not help in identifying $\tau$
+       \end{itemize}
+   \pause
+    \item What we do:
+        \begin{itemize}
+            \item Revisit the question systematically, in the context of forward-looking models
+            \item  Outline when $\tau$ can and cannot be identified
+          \end{itemize}
+\end{itemize}
+
+
+\end{frame}
+
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Outline}
+
+\begin{itemize} \itemsep=\bigskipamount
+  \item Two examples where TR is not identified
+  \item Rational expectations solutions and identification
+  \item The ``typical'' setup: the Phillips curve
+  \item Unobserved state
+\end{itemize}
+
+
+
+\end{frame}
+
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{The setup}
+
+\begin{itemize} \itemsep=\bigskipamount
+\item States
+\begin{align*}
+   x_{t+1} = A x_t + C w_{t+1}
+\end{align*}
+\item Variance $V_x$ solves:
+ \begin{align*}
+   V_x = A V_x A^{\top} + CC^{\top}
+\end{align*}
+\item Initially assume that $x_t$ is observable, relax later
+\item Shocks
+\begin{align*}
+    s_{it}  = d_i^\top x_t
+\end{align*}
+\item Shocks are not observable when $d_i$'s are unknown
+\end{itemize}
+
+\end{frame}
+
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Cochrane's example}
+
+\begin{itemize} \itemsep=\bigskipamount
+\item Equations %(``Taylor rule'')
+\begin{align*}
+    i_t &\;\;=\;\; E_t \pi_{t+1}  \tag{Fisher equation} \\
+    i_t &\;\;=\;\;  \tau \pi_{t} + s_t \tag{Taylor rule} \\
+\end{align*}
+\item The forward-looking equation
+\begin{align*}
+   E_t \pi_{t+1} = \tau \pi_{t} + s_t
+\end{align*}
+\item Guess $\pi_t=b^\top x_t$
+\item Solution: $b^\top=-d^{\top}(\tau I-A)^{-1}$
+\item OLS of $i_t$ on $\pi_t$ produces $(b^{\top}V_x b)^{-1} b^{\top} A V_x b$ instead of $\tau$
+%\item Because $x_t$ is observed:
+%     \begin{itemize}
+%        \item Can estimate $A$ from VAR on $x_t$
+%        \item Can estimate $b$ from OLS of $\pi_t$ on $x_t$
+%     \end{itemize}
+ \item Moreover,  cannot establish $\tau$ without knowing $d$
+\end{itemize}
+
+\end{frame}
+
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Affine term structure example}
+
+\begin{itemize} \itemsep=\bigskipamount
+\item Sims and Zha (2006): \\
+
+\medskip
+\begin{itemize}
+\item[]
+\parbox[c]{0.85\textwidth}
+{\it \raggedright
+The ... problem ... is that the Fisher relation is always lurking in the background. The Fisher
+relation connects current nominal rates to expected future inflation rates and to real interest
+rates[.] ... So one might easily find an equation that had the form of the forward-looking
+Taylor rule, satisfied the identifying restrictions, but was something other than a policy
+reaction function.%\\
+%``The question is,'' said Alice, ``whether you can make words mean
+%so many different things.'' \\
+%``The question is,'' said Humpty Dumpty, ``which is to be master ---
+%that's all.''
+}
+\end{itemize}
+\pause
+\item Equations %(``Taylor rule'')
+\begin{align*}
+     m^{\$}_{t+1} \;\;=\;\;  - \lambda^\top \lambda/2 - \delta^\top x_{t} + \lambda^\top w_{t+1}  \tag{Pricing kernel} \\
+     i_t  \;\;=\;\; - \log E_t \exp(m^{\$}_{t+1})
+        \;\;=\;\; \delta^\top x_t \tag{Euler equation} \\
+\end{align*}
+\item  If $x_{it}=\pi_t,$ one is tempted to conclude that $\delta_i=\tau.$ Is it?
+%   \begin{itemize}
+%        \item As in the first example, we can estimate $b$ from OLS of $\pi_t$ on $x_t$
+%       \item The Taylor rule: $i_t=\tau \pi_t + s_t = \tau b^{\top} x_t + d^{\top} x_t$
+%  \end{itemize}
+  \item OLS of $i_t$ on $x_t$ produces $\delta^{\top}=\tau b^{\top} + d^{\top},$ so $\delta_i \ne \tau_i$
+  \item Moreover,  cannot establish $\tau$ without knowing $d$
+\end{itemize}
+
+\end{frame}
+
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Follow-up questions}
+
+\begin{itemize} \itemsep=\bigskipamount
+\item Would extra shocks help?
+   \begin{align*}
+    i_t &\;\;=\;\; E_t \pi_{t+1} +s_{1t} \\
+    i_t &\;\;=\;\;  \tau \pi_{t} + s_{2t}
+\end{align*}
+\begin{itemize}
+      \item If $s_{it}$'s are independent, then $s_{1t}$ can be used as an instrument for $\pi_t$
+      \item Note the independence assumption -- more generally, a restriction
+\end{itemize}
+\item Would financial data (e.g., the yield curve) help?
+\begin{itemize}
+      \item We can estimate the state, but the state is assumed to be observed in the examples
+\end{itemize}
+\end{itemize}
+
+\end{frame}
+
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{A representative-agent model}
+\begin{footnotesize}
+\begin{itemize} %\itemsep=\bigskipamount
+\item Equations %(``Taylor rule'')
+\begin{align*}
+    i_t &\;\;=\;\; - \log E_t \exp(m_{t+1}-\pi_{t+1}) \tag{Euler/Fisher equation} \\
+        m_t &\;\;=\;\;  - \rho - \alpha g_t  \tag{Pricing kernel}\\
+            g_t &\;\;=\;\;  g + s_{1t}  \tag{Consumption growth / output gap} \\
+    i_t &\;\;=\;\;  \tau \pi_{t} + s_{2t} \tag{Taylor rule}
+\end{align*}
+\pause
+\item Guess $\pi_t=b^\top x_t$
+\item First three equations imply:
+\begin{eqnarray*}
+   i_t &=&  \rho+\alpha g - V_m/2  + a^\top x_t \\
+    a^\top &=& (\alpha d_1^\top + b^\top)  A  \\
+    V_m     &=& a^\top C C^\top a
+\end{eqnarray*}
+\item Solution: $b^\top \;\;=\;\; (\alpha d_1^\top - d_2^\top) (\tau I -  A )^{-1} \Leftrightarrow     a^\top = \tau b^\top + d_2^\top$
+\item Estimate $a$ and $b$ from OLS of $i_t$ and $\pi_t$ on $x_t$
+ \item We have $n$ knowns $a$ and $n+1$ unknowns  $(\tau,d_2)$
+ \item One exclusion restriction is sufficient to identify $\tau,$ e.g., independence of shocks $s_{1t}$ and $s_{2t}$, $d_1^{\top}V_x d_2=0.$
+\end{itemize}
+\end{footnotesize}
+\end{frame}
+
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{An exponential-affine model}
+\begin{footnotesize}
+\begin{itemize} %\itemsep=\bigskipamount
+\item Equations %(``Taylor rule'')
+\begin{align*}
+    i_t &\;\;=\;\; - \log E_t \exp(m_{t+1}-\pi_{t+1}) \tag{Euler/Fisher equation} \\
+        m_t &\;\;=\;\;  -\rho - s_{1t} + \lambda^\top w_{t+1}   \tag{Pricing kernel}\\
+%            g_t &\;\;=\;\;  g + s_{1t}  \tag{Consumption growth / output gap} \\
+    i_t &\;\;=\;\;  \tau \pi_{t} + s_{2t} \tag{Taylor rule}
+\end{align*}
+\pause
+\item Guess $\pi_t=b^\top x_t$
+\item First two equations imply:
+\begin{eqnarray*}
+   i_t &=&  \rho - V_m/2  + a^\top x_t \\
+    a^\top &=& \delta^\top A + b^\top  \\
+    V_m     &=& (\lambda^\top - b^\top C)(\lambda - C^\top b)
+\end{eqnarray*}
+\item Solution: $b^\top \;\;=\;\;  (\delta^\top - d^\top) (\tau I -  A )^{-1}  \Leftrightarrow     a^\top = \tau b^\top + d^\top$
+\item Estimate $a$ and $b$ from OLS of $i_t$ and $\pi_t$ on $x_t$
+ \item We have $n$ knowns $a$ and $n+1$ unknowns  $(\tau,d)$
+ \item One exclusion restriction is sufficient to identify $\tau,$ e.g., $d_{2i}=0.$
+\end{itemize}
+\end{footnotesize}
+\end{frame}
+
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Observations}
+
+\begin{itemize} \itemsep=\bigskipamount
+    \item OLS of $i_t$ on $\pi_t$ does not recover $\tau$
+    \item The ``right'' OLS helps to recover $\tau:$ separate OLS of $i_t$ and $\pi_t$ on state
+     \item  One restriction on MP shock suffices to identify the Taylor rule
+     \item Note: it does not matter whether they are shocks in the Euler equation or not
+     \item This success reflects what Hansen and Sargent call the hallmark of rational expectations models: that cross-equation restrictions connect the parameters in one equation to those in the others
+     \item What about more elaborate models?
+\end{itemize}
+
+\end{frame}
+
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{A Phillips curve}
+\begin{footnotesize}
+\begin{itemize} %\itemsep=\bigskipamount
+\item Equations %(``Taylor rule'')
+\begin{align*}
+    i_t &\;\;=\;\; - \log E_t \exp(m_{t+1}-\pi_{t+1}) \tag{Euler equation} \\
+        m_t &\;\;=\;\;  - \rho - \alpha g_t  \tag{Pricing kernel}\\
+            \pi_t &\;\;=\;\;  \beta E_t \pi_{t+1} + \kappa g_t + s_{1t}  \tag{Phillips curve} \\
+    i_t &\;\;=\;\;  \tau_1 \pi_{t} + \tau_2 g_t+ s_{2t} \tag{Taylor rule}
+\end{align*}
+\pause
+\item Guess $\pi_t=b^\top x_t$ and $g_t = c^{\top} x_t$
+\item First two equations imply:
+\begin{eqnarray*}
+   i_t &=&  \rho - V_m/2  + a^\top x_t \\
+    a^\top &=& (\alpha c^\top + b^\top)  A  \\
+    V_m     &=& a^\top C C^\top a
+\end{eqnarray*}
+\item Last two equations imply:
+\begin{eqnarray*}
+           b^\top &=& \beta  A  b^\top + \kappa c^\top + d_1^\top \\
+                     a^\top &=& \tau_1 b^\top + \tau_2 c^\top + d_2^\top
+\end{eqnarray*}
+%\item Solution: $b^\top \;\;=\;\; (\alpha d_1^\top - d_2^\top) (\tau I -  A )^{-1} \Leftrightarrow     a^\top = \tau b^\top + d_2^\top$
+\item Estimate $a$, $b$ and $c$ from OLS of $i_t$, $\pi_t$ and $g_t$ on $x_t$
+ \item In the 2nd eq-n we have $n$ knowns $a$ and $n+2$ unknowns  $(\tau_1, \tau_2,  d_2)$
+ \item Two exclusion restrictions is sufficient to identify $\tau_1$ (and $\tau_2$), e.g., independence of shocks $s_{1t}$ and $s_{2t}$, $d_1^{\top}V_x d_2=0.$
+\end{itemize}
+\end{footnotesize}
+\end{frame}
+
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Unobserved state}
+
+\begin{itemize} \itemsep=\bigskipamount
+    \item Until now we have assumed observed state
+        \begin{itemize}
+            \item This assumption allowed us to run the OLS critical for identification
+        \end{itemize}
+      \item What changes when the state has to be estimated?
+        \begin{itemize}
+            \item Nothing
+        \end{itemize}
+        \item Have to discuss identification and estimation of the state
+\end{itemize}
+
+\end{frame}
+
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Identifying the state}
+
+\begin{itemize} %\itemsep=\bigskipamount
+    \item The state can be ``rotated'', $\hat{x}_t = T x_t,$ without affecting implications for observed variables
+    \item The new state is:
+    \begin{eqnarray*}
+    \hat{x}_{t+1} &=& T A T^{-1} \hat{x}_t + T C w_{t+1}
+            \;\;=\;\; \hat{A} \hat{x}_t + \hat{C} w_{t+1} .
+\end{eqnarray*}
+   \item The interest rate is $ i_t =r+a^\top T^{-1} \hat{x}_t = r + \hat{a}^{\top} \hat{x}_t$
+   \item Similarly, $ \hat{b}^{\top} = b^\top T^{-1}$
+   \item The Taylor rule  implies
+\begin{eqnarray*}
+    \hat{a}^{\top} &=& \tau \hat{b}^{\top} + \hat{d}^{\top}_2 ,
+\end{eqnarray*}
+  \item Identification of $\tau$ is exactly the same as before
+\item Have to impose restrictions to fix a state: $C=I$ and lower-triangular $A$ is a common choice
+\end{itemize}
+
+\end{frame}
+
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Transformation-invariant restrictions}
+
+\begin{itemize} \itemsep=1.25 \bigskipamount
+    \item The impact on restrictions: $d_2^{\top} e=0$ translates into $\hat{d}^{\top}_2 \hat{e} =0$ with  $\hat{e}=Te.$
+  \item If $T$ is unknown, can we deduce $\hat{e}$?
+    \item Ex. 1: The TR shocks is uncorrelated with the other (Euler equation) shock -- standard in the New-Keynesian literature
+    \begin{eqnarray*}
+         \hat{d}_2^{\top} E(\hat{x}\hat{x}^{\top})\hat{d_1}=(d_2^{\top}T^{-1})(TV_xT^{\top})(d_1^{\top}T^{-1})^{\top}=d_2^{\top}V_x d_1
+    \end{eqnarray*}
+    \item Ex. 2: In the optimal monetary policy setting all variables are affected by $s_{1t},$ thus $s_{2t}=ks_{1t}$
+        \begin{itemize}
+            \item The implied restriction is $d_2^{\top}-kd_1^{\top}=0$
+            \item In terms of the transformed state:
+            \begin{eqnarray*}
+                 \hat{d}_2^{\top}-k\hat{d}_1^{\top}=d_2^{\top}T^{-1}-kd_1^{\top}T^{-1} = (d_2^{\top}-kd_1^{\top})T^{-1}=0
+            \end{eqnarray*}
+        \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Estimating the state}
+
+\begin{itemize} %\itemsep=\bigskipamount
+    \item Introduce a measurement equation:
+    \begin{eqnarray*}
+    y_t &=& G x_t + H v_t .
+        %\label{eq:meas}
+\end{eqnarray*}
+    \item The Kalman filter, ${x}_{t|t}=E(x_t|y^t),$ recovers all states when $(A,G)$ is observable:
+    \begin{eqnarray*}
+    rank
+    \left[
+    \begin{array}{c}
+        G \\ G  A  \\ \vdots \\ G  A ^{n-1}
+    \end{array}
+    \right] =n
+\end{eqnarray*}
+\item As a result, $i_t=a^{\top}{x}_{t|t}+a^{\top}\varepsilon_t,$ $\varepsilon_t\perp y^t$
+\item All the earlier logic applies still by replacing $x_t$ with ${x}_{t|t}$
+\end{itemize}
+
+\end{frame}
+
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Example: Term Structure}
+
+\begin{itemize} %\itemsep=\bigskipamount
+    \item $q_t^h$ is the price at date $t$ if a claim to one dollar at $t+h$
+    \item Forward rates are defined by $ f^h_t = \log (q^h_t/q^{h+1}_t),$ $f^0_t=i_t$
+   \item In our model, $f^h_t = a^{\top} A^h x_t$
+   \item The vector $f_t$ of the first $h$ forward rates has the form
+\begin{eqnarray*}
+    f_t  \;\;=\;\; \left[  \begin{array}{c} f^0_t \\ f^1_t \\ \vdots \\ f^{h-1}_t \end{array} \right]
+        &=&
+    \left[  \begin{array}{c} a^\top \\ a^\top A \\ \vdots \\ a^\top A^{h-1} \end{array} \right]         \left[ x_t \right]
+    \;\;=\;\; U x_t .
+\end{eqnarray*}
+ \item If $U$ is invertible, we can use the vector of forward rates as the state. %The same holds for yields, defined by $ i^h_t = h^{-1} \sum_{j=1}^h f^{j-1}_t $.
+ \item Usually $x_t$ is low-dimensional and $dim(f_t)$ is large. In these cases, researchers attach measurement errors to all forward rates and  use  the Kalman filter to estimate the state.
+\end{itemize}
+
+\end{frame}
+
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Example: Surveys}
+
+\begin{itemize} %\itemsep=\bigskipamount
+    \item Rich data on survey forecasts of macro and financial variables:
+    \begin{eqnarray*}
+     F_t(i_{t+h})&=&E_t(i_{t+h})+v_t=a^{\top} A^h x_t + v_t \\
+   F_t(\pi_{t+h})&=&E_t(\pi_{t+h})+v_t=b^{\top} A^h x_t + v_t \\
+    F_t(g_{t+h})&=&E_t(g_{t+h})+v_t=c^{\top} A^h x_t + v_t
+\end{eqnarray*}
+\item Can use Kalman filter to estimate the state
+\end{itemize}
+
+\end{frame}
+
+
+
+
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Conclusion}
+
+\begin{itemize} \itemsep=\bigskipamount
+    \item Brute-force identification of the Taylor rule is impossible
+    \item Rational expectations framework brings information from the whole system to bear on the TR coefficients
+    \item We offer a constructive approach towards identification
+    \item In general, one needs exclusion restrictions on  MP shocks to identify TR; typical models impose more than what's required
+\end{itemize}
+
+\end{frame}
+
+\end{document}
+

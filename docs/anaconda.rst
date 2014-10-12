@@ -1,0 +1,109 @@
+Getting started with Python
+---------------------------
+
+**Python.**  Python is a popular general-purpose programming language that has been used 
+for a broad range of applications.  
+Dropbox, for example, is written entirely in Python.  
+
+We'll use Python to study economic and financial data, but the same methods 
+-- and more -- can be applied to data from any source.  
+One of our former students is using it to study patterns of 
+survival on the Titanic (http://www.kaggle.com/c/titanic-gettingStarted). 
+Another is using it to 
+process text (http://www.nltk.org/) from analyst reports.  
+Thanks to AQR (http://pandas.pydata.org/community.html#history-of-development) 
+and others, the data analytic toolsets in Python now rival stat-focused languages like R.   
+
+**Python on the Cloud.**
+The easiest way to get started with Python is to run it on the Cloud with 
+Wakari(https://wakari.io/).  Just click on the link and sign up for an account.  
+In our experience, it's virtually instantaneous.  
+Wakari runs what are called IPython Notebooks, which are a combination of Python code and text, 
+with the code executable in chunks.  The text allows us to document what we're doing as we go.  
+A former student (one who is reasonably tech savvy) writes:  "IPython seems best for beginners. 
+The structure almost forces good documentation and you can build the script over time versus building 
+and running it all at once."
+
+One downside we've found to this is that the Wakari default uses a older version of Python that 
+does not allow some of the cool web tools for data input.  
+The interface for Yahoo Options data, for example, doesn't quite work (close, but not quite).  
+We can probably tell Wakari to use a newer version, 
+or write a workaround for this version, but we're not there yet.  
+Another downside is that the server is sometimes too busy to execute your code.  
+You'll notice that an asterisk appears to 
+the left of the code segment and nothing happens.  Sometimes it goes away shortly, sometimes not.  
+
+If you'd like to give Wakari a try, set up an account and give it a try.  
+It's pretty close to self-explanatory.  
+
+**Python on your computer.** We find this more user-friendly, but it's trickier to set up initially.  
+Here's what's involved:  
+
+*Step 1: Download and install the Anaconda distribution of Python.*  Anaconda is a combination of 
+basic Python and toolsets called packages -- what aficionados call a "code distribution."  
+Anaconda has all the basics and covers most of what we plan to do.  
+It has options for most operating systems (Windows, Mac OS, Linux, all of various vintages) 
+and versions of Python (we use version 3.4).  Follow these steps:      
+
+* Download the installer. Click on [this link](http://continuum.io/downloads).  
+  Below the words "Download Anaconda" you'll see in caps:  "CHOOSE YOUR INSTALLER."  
+  To the right you'll see three logos and the words "I WANT PYTHON 3.4."  
+  First, choose your computer's operating system by clicking on the appropriate logo 
+  (window panes, apple, or penguin).  
+  The site usually guesses this, which you can tell because it will be blue rather than gray.  
+  Second, click on "I WANT PYTHON 3.4."  
+  Yup, only the newest and best for you!  
+  Finally, immediately below the words "CHOOSE YOUR INSTALLER" 
+  you'll see a box with words like "[Op System] 64-bit / Python 3.4 / Graphical Installer."  
+  Click on it to download the installer.  
+
+* Install Python.  Once you've downloaded the installer, click on it and follow instructions.  
+  This is no different from any other installation you've done.  
+
+*Step 2:  Running Python.* You should now have Python on your computer.  
+There are two standard ways to run Python:   
+
+* Spyder. Our preferred method is to run Python in Spyder.  We'd like to say:  
+  Start it up as you would any program.  
+  That's intentionally glib, we've had difficulty finding the on button in some environments, 
+  but there's no single solution, every operating system is different.  
+  In Windows 7, for example, installation usually puts a Spyder icon on the desktop. 
+  Click on it and you're good to go.  
+  In Windows 8.1, we managed to locate Spyder in the apps, but it's well hidden.  
+
+* Spyder, continued.  Once you get Spyder going, you'll have a pretty standard graphical user interface, 
+  similar to what you'd have with Matlab or R (RStudio, for example).  
+  There's an editor, typically on the left, where you can write and edit code.  
+  There are buttons at the top for running it.  
+  There's an IPython console where you can try out commands or ask for help.  
+  We'll do a lot of this, but not right now.    
+
+* IPython.  To create or run an IPython Notebook, you need to do something like:  
+  go to the command line and type 'ipython notebook'. 
+  If it works, it will look a lot like Wakari, 
+  but you'll be running IPython on your computer with whatever version of Python you have installed.  
+  As with Spyder, getting it going is harder in some systems than others.  Good luck!      
+
+**Advice.** There's a steep learning curve at the start of any effort like this.  
+You'll get through it in time, but it takes patience and persistence.  We suggest:
+
+* Take your time.  This won't happen overnight.  But it won't take weeks, either, 
+  before you're doing cool things.  
+
+* Ask for help.  This is much easier to do if you have friends doing the same thing.  
+  Or even better, friends who are ahead of you.  You'll probably find you need a lot of help at the start, 
+  but once you get going you'll be able to help yourself.  
+
+* Google fu.  Once you've made some progress, you can learn a lot just by Googling your issue.  
+  The best links are often the Python documentation and Stack Overflow.  
+
+* Start from templates.  The easiest place to start is with programs that work.  
+  Start with one and tweak it till you get what you want.  The documentation includes lots of examples.  
+  And we'll have examples of our own.  
+
+**Wordplay.** Python is named for Monty Python.  
+Idle, a well-know Python editor, is a reference to Eric Idle.  
+The Python Package Index, a repository of packages, 
+is commonly known as the [CheeseShop](http://youtu.be/PPN3KTtrnZM).  
+Anaconda is, of course, a play on the snake theme.   
+

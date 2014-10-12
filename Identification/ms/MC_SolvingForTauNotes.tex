@@ -1,0 +1,59 @@
+\documentclass[11pt]{article}
+
+\oddsidemargin=0.25truein \evensidemargin=0.25truein
+\topmargin=-0.5truein \textwidth=6.0truein \textheight=8.75truein
+
+%\RequirePackage{graphicx} 
+\RequirePackage[hypertex]{hyperref}
+\RequirePackage{comment}
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\newcommand{\var}{\mbox{\it Var\/}}
+\def\stackunder#1#2{\mathrel{\mathop{#2}\limits_{#1}}}
+
+% document starts here
+\begin{document}
+\parskip=\bigskipamount
+\parindent=0.0in
+\thispagestyle{empty}
+\begin{flushright} Backus, Chernov, \& Zin \end{flushright}
+
+\bigskip
+\centerline{\Large \bf Notes on how to solve for tau given exclusion restrictions%
+\footnote{Working notes, no guarantee of accuracy or sense.}}
+\centerline{(Started: July 23, 2013; Revised: \today)}
+
+%State space.
+
+Consider the representative-agent case. The interest rate equation (9) implies:
+\begin{eqnarray*}
+   a^{\top}=\alpha d_1^{\top}A+b^{\top}A.
+\end{eqnarray*}
+The equilibrium condition implies
+\begin{eqnarray*}
+      a^{\top}=\tau b^{\top} +d_2^{\top}.
+\end{eqnarray*} 
+Now, consider the exclusion restriction requiring independence of the two shocks: $d_1^{\top} V_x d_2=0.$ Use the expressions above to substitute for $d_1$ and $d_2:$
+\begin{eqnarray*}
+    \alpha^{-1}(a^{\top}-b^{\top}A)A^{-1} V_x (a-\tau b)=0.
+\end{eqnarray*}
+Therefore,
+\begin{eqnarray*}
+    \tau = (a^{\top}-b^{\top}A)A^{-1} V_x a  [(a^{\top}-b^{\top}A)A^{-1} V_x b]^{-1}.
+\end{eqnarray*}
+
+Is this exclusion restriction rotation-invariant? Consider $x_t^{\prime}=Qx_t$ and the corresponding constraint  $d_1^{\prime \top} V_x^{\prime} d_2^{\prime}=0,$ where $d_i^{\prime \top} = d_i^{\top}Q^{-1}$ (see section 5.1).
+Next,
+\begin{eqnarray*}
+    V_x^{\prime}=E(x_t^{\prime}x_t^{\prime\top})=E(Qx_tx_t^{\top}Q^{\top})=QV_xQ^{\top}. 
+\end{eqnarray*}
+Therefore, the exclusion restriction is:
+\begin{eqnarray*}
+    0=d_1^{\prime \top} V_x^{\prime} d_2^{\prime}=d_1^{\top}Q^{-1} QV_xQ^{\top} (Q^{-1})^{\top} d_2 = d_1^{\top} V_x d_2.
+\end{eqnarray*}
+QED
+
+My guess is that this works because all elements of the exclusion restrictions are changing with rotation in a specific way dictated by this rotation. This allows rotation itself, as manifested by the matrix $Q$ to cancel out. Consider, a more general restriction $f^{\top}d_2=0$. The restriction above is a particular case if $f^{\top}=d_1^{\top} V_x.$ For $x^{\prime}_t$ the restriction becomes $f^{\prime \top}d_2^{\prime}=0.$ But what is $f^{\prime}$? $f^{\prime}=Qf,$ so we cannot git rid of $Q$, in general.
+
+
+\end{document}

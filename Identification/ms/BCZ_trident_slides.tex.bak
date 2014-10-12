@@ -1,0 +1,830 @@
+\documentclass{beamer}
+%\documentclass[leqno]{beamer}
+
+\mode<presentation>
+
+%\usepackage{graphicx}
+\usepackage{comment}
+\usepackage{booktabs}
+\usepackage{amsmath}
+
+\usepackage{hyperref}
+\hypersetup{
+%    colorlinks=true,        % kills boxes
+%    allcolors=blue,
+    pdftitle={Identification},
+    pdfauthor={Backus, Chernov, \& Zin},
+    pdfcreator={Dave Backus @ NYU},
+%    pdfsubject={Identification of Taylor rules}
+    pdfstartview={FitH},
+    pdfpagemode={UseNone},
+    pdfdisplaydoctitle=True,
+    pdfnewwindow=true,      % links in new window
+%    linkcolor=blue,         % color of internal links
+%    citecolor=blue,         % color of links to bibliography
+%    filecolor=blue,         % color of file links
+%    urlcolor=blue           % color of external links
+%% see:  http://www.tug.org/applications/hyperref/manual.html
+}
+
+\usepackage{enumitem}
+\setitemize{topsep=0.75\bigskipamount} %, itemsep=0.5\bigskipamount}
+\usepackage{embedfile}
+   \embedfile[desc={LaTeX source file}]{\jobname.tex}
+
+% Beamer
+\usetheme[secheader]{Boadilla}
+%\setbeamercovered{transparent}
+\beamertemplatenavigationsymbolsempty
+%\setbeamertemplate{items}[square]
+%\setbeamertemplate{itemize items}[default]
+
+% not needed
+%\special{landscape}
+
+% Basic input for footer
+\title[Identifying Taylor Rules]{}
+\author[Backus, Chernov, \& Zin]{}
+\institute[NYU, UCLA]{}
+\date[]{\today}
+
+%****************************************************************************
+\begin{document}
+\vspace*{0.65in}
+\centerline{\Large\bf Identifying Taylor Rules}
+\vspace*{0.05in}
+\centerline{\Large\bf In Macro-Finance Models}
+
+\bigskip\bigskip\bigskip\medskip
+\centerline{David Backus, Mikhail Chernov,}
+\centerline{and Stanley Zin}
+
+\bigskip\medskip\medskip\medskip
+\centerline{Cooley Conference @ NYU $|$ October 5, 2013}
+
+\vfill
+{\tiny \hspace{7pt}This version: \today}
+{\hfill \includegraphics[scale=0.25]{stern_logo3.pdf}}
+
+%\end{document}
+%\begin{comment}
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Identifying the Taylor rule}
+\begin{itemize} %\itemsep=\bigskipamount
+\item Long-term goal
+\begin{itemize}
+\item Integrate models of bond pricing and monetary policy
+\end{itemize}
+\item Open question
+\begin{itemize}
+\item Can we identify the monetary policy parameter(s)?
+\item Can we distinguish systematic policy from shocks to it?
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Identifying the Taylor rule}
+\begin{itemize}
+\item Common views
+\begin{itemize}
+\item Macro: not identified
+\item Finance: can't extract policy component from affine model
+\end{itemize}
+\item What we do
+\begin{itemize}
+\item Describe conditions for identification
+\item Revisit earlier work on dynamic rational expectations models
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Outline}
+\begin{itemize} \itemsep=\bigskipamount
+\item Setup
+\item Two examples
+\item Rational expectations solutions and identification
+\item More complex models
+\item What if you don't see the state?
+\end{itemize}
+\end{frame}
+
+\begin{comment}
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Taylor rule}
+\begin{itemize} \itemsep=\bigskipamount
+\item Taylor rule is a central feature of many models
+\begin{itemize}
+\item Governs monetary policy
+\item Designed to influence inflation and output
+\item Also affects bond yields and other asset prices
+\end{itemize}
+\item Question:  can we infer its parameters from data?
+\end{itemize}
+\end{frame}
+
+%\end{document}
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{The problem}
+\begin{itemize} \itemsep=0.5\bigskipamount
+\item Model:  forward-looking difference equation
+\begin{eqnarray*}
+    y_t &=& \lambda E_t y_{t+1} + x_{1t} + x_{2t} \phantom{xxx}
+\end{eqnarray*}
+\item Questions \\
+\begin{itemize}
+\item How do we identify $\lambda$?
+\item Do we need to observe the shocks $(x_1,x_2)$?
+\item Are forecasts and asset prices helpful? Cross-equation restrictions?
+%\item Connection to methods that identify shocks?
+\end{itemize}
+\item Answers \\
+\begin{itemize}
+\item We need some combination of observables and structure
+\item We need to observe something, but not everything
+\item Yes and yes %Forecasts, asset prices, and economic structure all help
+%\item Identifying $\lambda$ and $x$ closely related
+\end{itemize}
+\end{itemize}
+\end{frame}
+%\end{document}
+\end{comment}
+
+\begin{comment}
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Rules of the game}
+\begin{itemize} \itemsep=\bigskipamount
+\item Model \\
+\begin{itemize}
+\item Forward-looking difference equation + shock(s)
+\item Agents observe everything
+\item Enough conditions to deliver unique stationary solution
+\end{itemize}
+\item Question:  Can we identify parameters when we observe \\
+\begin{itemize}
+\item all the shocks?
+\item none of the shocks?
+\item some of the shocks?
+\item forecasts or asset prices?
+\end{itemize}
+\end{itemize}
+\end{frame}
+\end{comment}
+%\end{document}
+
+\section{Two examples}
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Setup}
+\begin{itemize} \itemsep=\bigskipamount
+\item State
+\begin{eqnarray*}
+    x_{t+1} &=& A x_t + C w_{t+1} \phantom{} \phantom{\sum_X} \\
+%    \mbox{Var}(x)
+       V_x  &=& A V_x A^\top + C C^\top
+\end{eqnarray*}
+\item Shocks
+\begin{eqnarray*}
+    s_{it} &=& d_i^\top x_t \phantom{xxxxi} \phantom{\sum_X}
+\end{eqnarray*}
+\item Identification issue:  we observe state $x$, but not shock $s_i$
+\end{itemize}
+\end{frame}
+
+%\end{document}
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Cochrane's example}
+\begin{itemize} \itemsep = \bigskipamount
+\item Model
+\begin{align*}
+    \phantom{xxxxxxxxxx}
+    i_t &\;\;=\;\; r + E_t \pi_{t+1}  \tag{Fisher equation} \\
+    i_t &\;\;=\;\; r + \tau \pi_{t} +  s_{t} \tag{Taylor rule}
+\end{align*}
+\item Expectational difference equation
+\begin{eqnarray*}
+    E_t \pi_{t+1} &=& \tau \pi_t + s_t
+\end{eqnarray*}
+\item Solution:  $\pi_t = b^\top x_t $ with
+    $b^\top = - d^\top (\tau I - A)^{-1} $
+\item Identification problem:  any $\tau$ works for some $d$
+\begin{eqnarray*}
+    b^\top A &=& \tau b^\top + d^\top
+\end{eqnarray*}
+\end{itemize}
+\end{frame}
+
+%\end{document}
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Affine example}
+\begin{itemize} \itemsep = \bigskipamount
+\item Model
+\begin{align*}
+    \phantom{xxxxx}
+    m^\$_{t+1} &\;\;=\;\; -\lambda^\top \lambda - \delta x_t + \lambda^\top w_{t+1}
+            \tag{Pricing kernel} \\
+    i_t &\;\;=\;\; - \log E_t m^\$_{t+1} \;\;=\;\; \delta^\top x_t  \tag{Euler equation}
+\end{align*}
+\item Expectational difference equation
+\begin{eqnarray*}
+    E_t \pi_{t+1} &=& \tau \pi_t + s_t
+\end{eqnarray*}
+\item Is second equation a Taylor rule?
+\begin{eqnarray*}
+    \delta &=& \tau b^\top + d^\top
+\end{eqnarray*}
+\end{itemize}
+\end{frame}
+
+%\end{document}
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Questions}
+\begin{itemize}
+\item Would an extra shock help?
+\begin{align*}
+    \phantom{xxxxxxxxxx}
+    i_t &\;\;=\;\; E_t \pi_{t+1}+  s_{1t}  \tag{Fisher equation} \\
+    i_t &\;\;=\;\; \tau \pi_{t} +  s_{2t} \tag{Taylor rule}
+\end{align*}
+\begin{itemize}
+\item If shocks are independent, can use $s_{1t}$ as an instrument
+\end{itemize}
+\item Would long rates help?
+\begin{itemize}
+\item May span state, but we see state anyway
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\end{document}
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Observable shock}
+\begin{itemize}  \itemsep=\bigskipamount
+\item $(x,y)$ \\
+\begin{itemize}
+\item Joint process but degenerate (same innovations)
+\item Cross-equation restrictions on parameters ($\beta$ depends on $\alpha, \lambda$)
+\end{itemize}
+\item Observe variable $y$ (always) \\
+\begin{itemize}
+\item Estimate $\beta$
+\end{itemize}
+\item Observe shock $x$ \\
+\begin{itemize}
+\item Estimate $\alpha$
+\item Use mapping $\beta(\alpha,\lambda)$ to infer $\lambda$
+\item $\lambda$ overdetermined if $x$ is MA($q$) and $q>1$
+\end{itemize}
+\end{itemize}
+\end{frame}
+%\end{document}
+
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Hidden shock}
+\begin{itemize}  \itemsep=\bigskipamount
+\item $(x,y)$ still joint process, but we don't observe $x$
+\item Observe variable $y$ \\
+\begin{itemize}
+\item Estimate $\beta$
+\item But without $x$, we can't distinguish roles of $\alpha$ and $\lambda$
+\end{itemize}
+\item Do forecasts help?
+\begin{eqnarray*}
+    f^k_t \;\;=\;\; E_t y_{t+k} &=& \left[ \beta(L)/L^k\right]_+ w_t  \phantom{xxxx}
+\end{eqnarray*}
+\hspace{0.4in}[Nope, depends only on $\beta$, can't tell us about $(\lambda,\alpha)$]
+%\begin{itemize}
+%\item[] Adds no information beyond $y$, which we already know
+%\end{itemize}
+\end{itemize}
+\end{frame}
+%\end{document}
+
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Partly observable shock}
+\begin{itemize}  \itemsep=\bigskipamount
+\item Model and solution
+\begin{eqnarray*}
+    y_t &=& \lambda E_t y_{t+1} + x_{1t} + x_{2t} \\
+    x_{it} &=& \alpha_{i}(L) w_{it}, \;\;\; (w_{1t},w_{2t}) \sim \mbox{NID}(0,I)
+                \phantom{xxxxxx} \\
+    \Rightarrow \;\;\;
+    y_t &=&  \beta_1(L) w_{1t} + \beta_2(L) w_{2t}
+\end{eqnarray*}
+\item Observe variable $y$ and shock $x_1$ --- but not $x_2$ \\
+\begin{itemize}
+\item Estimate $\alpha_{1}$ and $\beta_{1}$
+\item Use mapping $\beta_1(\alpha_1,\lambda)$ to infer $\lambda$
+\end{itemize}
+\item Do forecasts help?  \\
+\begin{itemize}
+\item They help us identify the $w_i$'s
+\item Then we can recover $x_2$ from the difference equation
+\end{itemize}
+\end{itemize}
+\end{frame}
+%\end{document}
+
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Model with Taylor rule}
+\begin{itemize} \itemsep=\bigskipamount
+\item Model ($p$ = inflation, $i$ = nominal interest rate)
+\begin{align*}
+    i_t &\;\;=\;\; r + E_t p_{t+1} + x_{1t} \tag{Euler equation} \\
+    i_t &\;\;=\;\; r + \tau p_{t} +  x_{2t} \tag{Taylor rule} \\
+    x_{it} &\;\;=\;\; \alpha_i(L) w_{it}, \;\;\; (w_{1t},w_{2t}) \sim \mbox{NID}(0,I)
+            \phantom{xx}
+\end{align*}
+\item Solution
+\begin{eqnarray*}
+%    p_t &=&  \tau^{-1} E_t p_{t+1} + \tau^{-1} (x_{1t} - x_{2t})
+%        \phantom{\sum} \\
+%    \phantom{x}
+%    \Rightarrow \;\;\;
+    \phantom{xxxx}
+    p_t &=& \beta_1(L) w_{1t} + \beta_2(L) w_{2t} \\
+    i_t &=& r + [\beta_1(L)/L]_+ w_{1t} + [\beta_2(L)/L]_+ w_{2t} + x_{1t}
+             \phantom{xx}
+\end{eqnarray*}
+\item What do we need to estimate $\lambda = \tau^{-1}$?
+\end{itemize}
+\end{frame}
+%\end{document}
+
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Taylor rule:  observable shocks}
+\begin{itemize}  \itemsep=\bigskipamount
+\item $(x_1,x_2,p,i)$ \\
+\begin{itemize}
+\item Joint process but degenerate (two-dimensional innovation)
+\item Cross-equation restrictions on parameters
+\end{itemize}
+\item Observe shocks $(x_1,x_2)$ \\
+\begin{itemize}
+\item Estimate $\alpha_i$'s
+\end{itemize}
+\item Observe variables $(p,i)$ \\
+\begin{itemize}
+\item Estimate $\beta_i$'s
+\item Use mapping $\beta_i(\alpha_i,\lambda)$ to infer $\lambda = \tau^{-1}$
+%\item Generally overdetermined
+\end{itemize}
+\end{itemize}
+\end{frame}
+%\end{document}
+
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Taylor rule:  hidden shock (``Cochrane version'')}
+\begin{itemize}  \itemsep=\bigskipamount
+\item Shocks:  $x_1 = 0$, $x_2$ hidden
+\item Observe variable $p$  \\
+\begin{itemize}
+\item Estimate $\beta_2$  (possible because shock is one dimensional)
+\item Can't distinguish roles of $\alpha_2$ and $\lambda$
+\end{itemize}
+\item Does extra variable $i$ help?  \\
+\begin{itemize}
+\item No, contains no information not in $p$
+\end{itemize}
+\item Do forecasts help? \\
+\begin{itemize}
+\item No, same reason
+\end{itemize}
+\end{itemize}
+\end{frame}
+%\end{document}
+
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Taylor rule:  partly observable shock (``Gertler version'')}
+\begin{itemize}  \itemsep=\bigskipamount
+\item Observe variables $(p,i)$ and shock $x_1$ \\
+\begin{itemize}
+\item Estimate $\alpha_{1}$ and $\beta_{1}$
+\item Use mapping  $\beta_1(\alpha_1,\lambda)$ to infer $\lambda$
+\end{itemize}
+\item Key insight \\
+\begin{itemize}
+\item $i$ gives us an additional observable when $x_1 \neq 0$
+%\item Allows us to identify $\lambda$
+\end{itemize}
+\item How might we observe $x_1$?  \\
+\begin{itemize}
+\item Observe directly
+\item Or observe $E_t p_{t+1}$ and back out of Euler equation
+%\item ?? make sure this lines up with later stuff
+\end{itemize}
+\end{itemize}
+\end{frame}
+%\end{document}
+
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Example 1:  summary}
+\begin{itemize} \itemsep=\bigskipamount
+\item Identification possible with partial observability
+\item Observability facilitated by forecasts
+\item Independence needs further investigation
+\item For later:  Where does the Euler equation shock come from?
+\end{itemize}
+\end{frame}
+%\end{document}
+
+\section{Example 2: correlated shocks}
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Example 2:  correlated shocks}
+\begin{itemize} \itemsep=\bigskipamount
+\item Correlated shocks in state-space model
+\item Vary what we observe
+\item Apply to model with Taylor rule
+\end{itemize}
+\end{frame}
+%\end{document}
+
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Example 2:  correlated shocks}
+\begin{itemize} \itemsep=\bigskipamount
+\item Model
+\begin{eqnarray*}
+    y_t &=& \lambda E_t y_{t+1} + e^\top x_t  \\
+    x_{t+1} &=& A x_{t} + C w_{t+1},
+            \;\;\;\{ w_t \} \sim \mbox{NID}(0,I)
+\end{eqnarray*}
+[$|\lambda|<1$, $A$ stable \& ``regular'']
+\item Solution %    (agents observe everything)
+\begin{eqnarray*}
+    y_t &=&  e^\top (I-\lambda A)^{-1} x_t \;\;=\;\; \beta^\top x_t
+        \phantom{xxx}
+\end{eqnarray*}
+%\smallskip
+\item What do we need to estimate $\lambda$? %\\
+%\begin{itemize}
+%\item Two observability issues:  state $x$ and shock $e^\top x$
+%\end{itemize}
+\end{itemize}
+\end{frame}
+%\end{document}
+
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Observable state and shock}
+\begin{itemize}  \itemsep=\bigskipamount
+\item Observe state $x$ and vector $e$ (hence shock $e^\top x$)\\
+\begin{itemize}
+\item Estimate $A$ %\;\; [$C$, too, but it's not needed here]
+\end{itemize}
+\item Observe variable $y$ \\
+\begin{itemize}
+\item Estimate $\beta$, use $A$ to infer $\lambda$
+\begin{eqnarray*}
+    \lambda \beta^\top &=& (\beta - e)^\top A^{-1}
+    \phantom{xxxxxx}
+     %\;\;\; (\lambda \mbox { is overdetermined)}
+\end{eqnarray*}
+\item[] [$\lambda$ typically overdetermined]
+\end{itemize}
+\item Forecasts redundant
+\begin{eqnarray*}
+    f^k_t \;\;=\;\; E_t y_{t+k} &=& \beta^\top A^k x_t \phantom{xxxxx}
+\end{eqnarray*}
+\end{itemize}
+\end{frame}
+%\end{document}
+
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Digression on hidden shock \& state}
+\begin{itemize}  \itemsep=\bigskipamount
+\item What's hidden, state $x$ or shock $e^\top x$?
+\item One line of thought (Hansen-Sargent) \\
+\begin{itemize}
+\item Only part of state observed
+\item $\Rightarrow$ can't estimate $\beta$, innovations may not be fundamental
+\end{itemize}
+\item We suggest:  observe the state, not the shock  \\
+\begin{itemize} \itemsep=0.25\bigskipamount
+\item Lots of econometric approaches  \\
+\item Or:  build it from forecasts of $y$
+\begin{eqnarray*}
+    f_t &=& [ y_t, f^1_t, \cdots, f^{n-1}_t ]^\top
+            \phantom{xxxxxx}
+\end{eqnarray*}
+$f_t$ spans state $x$ if $A$ is regular and $n = \dim(x)$
+%\item This leads to transformed state-space equations
+%\begin{eqnarray*}
+%    f_t &=&  F x_t  \\
+%    \;\;\; \Rightarrow
+%    f_{t+1} &=& F^{-1} A F f_t + F^{-1} C w_{t+1}
+%        \;\;=\;\; \widehat{A} f_{t} + \widehat{C} w_{t+1} \\
+%    y_t &=& e^\top F^{-1} (I-\lambda \widehat{A})^{-1} f_t
+%            \;\;=\;\;
+%            \widehat{e}^\top (I-\lambda \widehat{A})^{-1} f_t \;\;=\;\; %\widehat{\beta}^{\top} f_t
+%            \phantom{xxxxxxxxxx}
+%\end{eqnarray*}
+\end{itemize}
+%\item From here on:  assume we observe $x$
+\end{itemize}
+\end{frame}
+%\end{document}
+
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Hidden shock}
+\begin{itemize}  \itemsep=\bigskipamount
+\item Shock $e^\top x$ not observed ($e$ not known)
+\item Observe variable $y$, state $x$ \\
+\begin{itemize}
+\item From $y$:  estimate $\beta$
+\item From $x$:  estimate $A$
+\item But since we don't know $e$, can't infer $\lambda$
+\end{itemize}
+\item Do forecasts help? \\
+\begin{itemize}
+\item They span the state, not otherwise helpful
+\end{itemize}
+\end{itemize}
+\end{frame}
+%\end{document}
+
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Partly observable shock}
+\begin{itemize}  \itemsep=\bigskipamount
+\item Model
+\begin{eqnarray*}
+    y_t &=& \lambda E_t y_{t+1} + e_1^\top x_{t} + e_2^\top x_{t}
+    \\
+   \Rightarrow  \;\;\;
+    y_t &=&  (e_1+e_2)^\top (I-\lambda A)^{-1} x_t \;\;=\;\; \beta^\top x_t
+    \phantom{xxxxx}
+\end{eqnarray*}
+\item Observe variable $y$, state $x$ \\
+\begin{itemize}
+\item From $y$:  estimate $\beta$
+\item From $x$:  estimate $A$
+\end{itemize}
+\item Is it enough to observe shock $e_1^\top x$?  \\
+\begin{itemize}
+\item Can't easily disentangle effects of $e_1$ and $e_2$ \\
+\end{itemize}
+\end{itemize}
+\end{frame}
+%\end{document}
+
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Partly observable shock (continued)}
+\begin{itemize}  \itemsep=\bigskipamount
+\item Reminder:  solution is
+\begin{eqnarray*}
+     \beta^\top  &=&  (e_1+e_2)^\top (I-\lambda A)^{-1}
+    \phantom{xxxxx}
+\end{eqnarray*}
+\item What we know:  $\beta$ ($n$ knowns)
+\item What we don't know:  $e_1, \lambda$ ($n+1$ unknowns)
+\item Needed:  one or more restrictions \\
+\begin{itemize}
+\item Uncorrelated shocks
+\item Zero restrictions on $e_2$
+\item Tight economic structure
+\end{itemize}
+\end{itemize}
+\end{frame}
+%\end{document}
+
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Model with Taylor rule}
+\begin{itemize}  \itemsep=\bigskipamount
+\item Model ($p$ = inflation, $i$ = nominal interest rate)
+\begin{align*}
+    \phantom{xxxxxxxx}
+    i_t &\;\;=\;\;  r +  E_t p_{t+1} + e_1^\top x_t  \tag{Euler equation} \\
+    i_t &\;\;=\;\;  r + \tau p_{t} +  e_2^\top x_{t} \tag{Taylor rule} \\
+    x_{t+1} &\;\;=\;\; A x_{t} + C w_{t+1},
+            \;\;\;\{ w_t \} \sim \mbox{NID}(0,I)
+\end{align*}
+\item Solution:  $ p_t = \beta^\top x_t $
+\begin{eqnarray*}
+    \beta^\top &=& (e_1 - e_2)^\top (\tau I - A)^{-1}
+    \phantom{xxxxx}
+\end{eqnarray*}
+\item What do we need to estimate $\lambda = \tau^{-1}$?  \\
+\begin{itemize}
+\item Same structure as example
+\item One restriction on $e_2$ is enough
+\end{itemize}
+\end{itemize}
+\end{frame}
+%\end{document}
+
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Example 2:  summary}
+\begin{itemize} \itemsep=\bigskipamount
+\item Forecasts helpful in observing state
+\item Identification then possible with \\
+\begin{itemize}
+\item Partial observability of shocks
+\item Restriction(s) on hidden (monetary policy) shock
+\end{itemize}
+\item Identifying parameters and shocks are related
+\item Next up:  Where does the Euler equation shock come from?
+\end{itemize}
+\end{frame}
+%\end{document}
+
+\section{Example 3: bond pricing models}
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Example 3:  bond pricing models}
+\begin{itemize} \itemsep=\bigskipamount
+\item Shocks to Euler equation follow naturally
+\item Additional restrictions between means and variances
+\item Representative agent (now) and ``affine'' examples (later)
+\end{itemize}
+\end{frame}
+%\end{document}
+
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Representative agent model}
+\begin{itemize} \itemsep=\bigskipamount
+\item Model
+\begin{align*}
+    i_t &\;\;=\;\;  - \log E_t \left[ m_{t+1} \exp(-p_{t+1}) \right]
+                \tag{Euler equation} \\
+    i_t &\;\;=\;\;  r + \tau p_{t} +  e_2^\top x_{t} \tag{Taylor rule} \\
+    \log m_{t+1} &\;\;=\;\; - \delta - \alpha \log g_{t+1}  \\
+    \log g_{t+1} &\;\;=\;\; g + e_1^\top x_t \\
+    x_{t+1} &\;\;=\;\; A x_{t} + C w_{t+1},
+            \;\;\;\{ w_t \} \sim \mbox{NID}(0,I)
+\end{align*}
+
+\item Solution:  $ p_t = \beta^\top x_t $
+\begin{eqnarray*}
+    \beta^\top &=& (\alpha e_1 - e_2)^\top (\tau I - A)^{-1} \\
+    r &=& \delta + \alpha g - (\alpha e_1 + \beta)^\top C C^\top (\alpha e_1 + \beta)/2
+\end{eqnarray*}
+\end{itemize}
+\end{frame}
+%\end{document}
+
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Representative agent model: identification}
+\begin{itemize} \itemsep=\bigskipamount
+\item What do we need to estimate $\lambda = \tau^{-1}$?
+\item Reminder:   solution is
+\begin{eqnarray*}
+    \beta^\top &=& (\alpha e_1 - e_2)^\top (\tau I - A)^{-1} \\
+    r &=& \delta + \alpha g - (\alpha e_1 + \beta)^\top C C^\top (\alpha e_1 + \beta)/2
+\end{eqnarray*}
+\item Identification strategies \\
+\begin{itemize}
+\item Observe $\log g_{t}$, $e_1$
+\item Long bond yields span state $x$ (they're like forecasts here)
+\item Risk aversion $\alpha$:  match equity premium
+\item One restriction on $e_2$
+\item {\bf NEW:} Additional information from mean bond yields
+\end{itemize}
+\end{itemize}
+\end{frame}
+%\end{document}
+
+\begin{comment}
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Example 3:  summary}
+\begin{itemize} \itemsep=\bigskipamount
+\item Shocks to Euler equation follow naturally
+\item Additional restrictions between means and variances
+\item Representative agent (now) and ``affine'' examples (later)
+\end{itemize}
+\end{frame}
+\end{comment}
+%\end{document}
+
+\section{ }
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Summary and conclusions}
+
+\begin{itemize} \itemsep=\bigskipamount
+\item Identification never a free lunch
+\item We suggest \\
+\begin{itemize}
+\item Forecasts and bond yields allow us to observe the state
+\item Additional restrictions can identify shock and ``Taylor rule''
+\item Common bond pricing models generate such restrictions
+\end{itemize}
+\item The biggest challenge is not identification but fit
+\item Open questions \\
+\begin{itemize}
+\item What kinds of models do we need to approximate the data?
+\item Do bond yields span the state?
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\section{ }
+% --------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Related work (some of it)}
+
+\begin{itemize} \itemsep=0.5\bigskipamount
+\item Identifying monetary policy shocks \\
+\begin{itemize}
+\item Christiano-Eichenbaum-Evans,
+Clarida-Gali-Gertler,
+Cochrane, Hansen-Sargent,
+Leeper-Sims-Zha
+\end{itemize}
+
+\item Factor models \\
+\begin{itemize}
+\item Sargent-Sims, Stock-Watson
+\end{itemize}
+
+\item Macro bond pricing models  \\
+\begin{itemize}
+\item Gallmeyer-Hollifield(-Palomino)-Zin,
+Gurkaynak-Sack-Swanson,
+Piazzesi-Schneider,
+Rudebusch-Swanson,
+Smith-Taylor
+\end{itemize}
+
+\item Markov property of bond yields   \\
+\begin{itemize}
+\item Cochrane-Piazzesi, Collin-Dufresne-Goldstein
+\end{itemize}
+
+\end{itemize}
+\end{frame}
+
+
+\end{document}
+
+% --------------------------------------------------------------------------
+% --------------------------------------------------------------------------
+NYU, March 2012
+
+This paper started with a conversation Stan and I had with Mark several years ago,
+but I'll set that aside for a moment.
+
+The issue is how you identify the Taylor rule: if the Fed changes its
+policy rule, how would you see that in the data?
+The issue, as commonly addressed, is one of how much we observe.
+If we don't observe the shock to the monetary policy rule,
+can we still identify the response of the interest rate to inflation?
+
+We're going
+
+
+Mike, Stan, and I :
+eg, equity premium.
+Another is the term structure.
+
+
+% --------------------------------------------------------------------------
+Minnesota, May 2012
+This is an old school paper, which I like,
+but it's also an attempt to make up for missing out on Minn in the 1970s.
+
+When we were graduate students at Yale,
+Tim and I were sitting around reading Samuelson's Foundations...
+
+Now what we didn't realize at the time was that the 1970s was a great
+time to study economics --- at Minnesota.
+With Patrick's help...  We read papers by Sargent, Wallce, Sims, and their students
+and tried to get up to speed.
+A little later, we met the authors.  And we said to ourselves, that's it?
+
+This paper...
+The idea is to use
+
+We build on work by Lars, Tom, and Chris.
+Mike's guess is that Lars will tell us he knew this in 1979,
+and he probably did,
+that Chris will say it's wrong,
+and that Tom will agree with both of them.
+

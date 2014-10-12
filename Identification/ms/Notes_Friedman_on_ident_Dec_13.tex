@@ -1,0 +1,621 @@
+\documentclass[11pt,letterpaper]{article}
+
+\oddsidemargin=0.25truein \evensidemargin=0.25truein
+\topmargin=-0.5truein \textwidth=6.0truein \textheight=8.75truein
+
+%\usepackage[pass]{geometry}
+%\usepackage{graphicx}
+\usepackage{comment}
+%\usepackage{amssymb}
+%\usepackage{amsfonts}
+%\usepackage{booktabs}
+\usepackage[small, compact]{titlesec}
+
+% list spacing
+\usepackage{enumitem}
+\setitemize{leftmargin=*, topsep=0pt}
+\setenumerate{leftmargin=*, topsep=0pt}
+
+\usepackage{needspace}
+% example:  \needspace{4\baselineskip} makes sure we have four lines available before pagebreak
+
+\usepackage{hyperref}
+\hypersetup{
+    letterpaper=true,
+    colorlinks=true,        % kills boxes
+    allcolors=blue,
+%    pdftitle={Demography and Capital Flows},
+%    pdfsubject={Sources of Entropy},
+    pdfauthor={Dave Backus @ NYU},
+    pdfstartview={FitH},
+    pdfpagemode={UseNone},
+    pdfnewwindow=true,      % links in new window
+%    pdfpagelabels=true,
+%    linkcolor=blue,         % color of internal links
+%    citecolor=blue,         % color of links to bibliography
+%    filecolor=blue,         % color of file links
+%    urlcolor=blue           % color of external links
+% see:  http://www.tug.org/applications/hyperref/manual.html
+}
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\newcommand{\var}{\mbox{\it Var\/}}
+
+% document starts here
+\begin{document}
+\parskip=0.5\bigskipamount
+\parindent=0.0in
+\thispagestyle{empty}
+\begin{flushright} Dave Backus @ NYU \end{flushright}
+
+\bigskip
+\centerline{\Large \bf Milton Friedman --- and Others --- on Identification%
+\footnote{Working notes, no guarantee of accuracy or sense.}
+}
+\centerline{(Started: December 15, 2013; Revised: \today)}
+
+\bigskip
+Some thoughts about identification and empirical work in economics.
+This started with a comment Tom Sargent made at a seminar,
+that Milton Friedman had some interesting things to say about identification.
+I tracked them down in  ``The methodology of positive economics,''
+the first chapter of  {\it Essays in Positive Economics\/}.
+Section 1 is my summary.
+After I wrote that, Allan Collard-Wexler
+sent me a link to a talk by David Card
+and Tom sent a draft of a book review by John Rust,
+so I worked them in, too.
+As a result, this kind of meanders, but I think the content,
+if not the presentation, has some inherent interest.
+
+No guarantees that any of this makes sense --- it's simply my attempt
+to think through the logic of empirical work in economics.
+Comments welcome on any or all of this.
+
+Warning:  I've streamlined the quotations to make them read better.
+
+
+\section{Friedman on positive economics and identification}
+
+This is my summary of Milton Friedman's comments,
+but let me know if you think I missed something.
+
+On positive science (page 7):
+\begin{quote}
+The ultimate goal of a positive science is a theory or hypothesis
+that yields meaningful predictions.
+Such a theory is, in general, a mixture of two elements:
+a language or filing system to promote organized thought
+and factual evidence
+that shows whether this language is is useful for analyzing
+concrete problems.
+\end{quote}
+
+On supply and demand (pp 7-8):
+\begin{quote}
+The example of supply and demand illustrates the approach.
+Viewed as elements of the language of economics,
+they provide categories of factors affecting prices.
+Their usefulness depends on the empirical generalization that
+the forces affecting demand and supply will yield two lists that contain
+few items in common.
+%\end{quote}
+
+%\begin{quote}
+This generalization is valid for markets like the final market for a consumer good.
+In such a market there is a clear distinction between
+ the economic units that demand the product
+and those that supply it.
+There is seldom much doubt whether a particular factor should be classified
+as affecting supply or demand.
+But the generalization is not always valid.
+For example, it is not valid for the day-to-day fluctuations of prices
+in a speculative market.
+Here almost every factor can be classified with as much justification
+under the heading ``supply'' as under the heading ``demand.''
+These concepts can still be used, but they are less useful
+because they have no meaningful empirical counterpart.
+\end{quote}
+Comment:
+It's not hard to interpret this last example in the context
+of a rational expectations model, where supply and demand
+get scrambled.
+
+
+\needspace{4\baselineskip}
+On the multiplicity of hypotheses consistent with evidence (pp 11-12):
+\begin{quote}
+The validity of a hypothesis in this sense is not by itself sufficient.
+Observed facts are necessarily finite in number;
+possible hypotheses, infinite.
+If there is one hypothesis that is consistent with the available evidence,
+there are always an infinite number that are. ...
+Additional evidence may rule out some of these possibilities;
+it can never reduce them to a single possibility alone capable of being consistent with the finite evidence.
+The choice must to some extent be arbitrary.
+\end{quote}
+%\needspace{2\baselineskip}
+Comment: This sounds like identification, but I think he's alluding to
+something deeper.
+We continue...
+
+On the Cowles Commission's work (pp 12-13, incl fn 11):
+%
+\begin{quote}
+Empirical evidence is vital at two different stages:
+in constructing hypotheses and in testing their validity.
+Full and comprehensive evidence is needed to assure that a hypothesis
+explains what it sets out to explain ---
+that its implications are not contradicted in advance.
+Further testing involves deducing new facts and
+checking them against additional evidence.
+
+Economists associated with the Cowles Commission have divided the
+step of selecting a hypothesis consistent with known evidence
+into two substeps:
+first, the selection of a class of admissible hypotheses
+(the choice of a ``model'');
+second, the selection of one hypothesis from this class (the ``structure'').
+This subdivision may be heuristically valuable [but] from
+a methodological point of view it is entirely arbitrary.
+
+One consequence is the so-called ``identification'' problem. ...
+It may be that the evidence used to select the final hypothesis
+from the subclass can be consistent with at most one hypothesis in it,
+in which case the ``model'' is said to be ``identified.''
+But this way of describing the concept of ``identification'' is essentially
+a special case of the more general problem of selecting among alternative
+hypotheses consistent with the evidence --- a problem
+that must be decided by some such arbitrary principle as Occam's razor.
+\end{quote}
+%
+My take:  He's saying, I think, that
+the Cowles Commission trivialized the process of selecting
+one of many evidence-consistent hypotheses by restricting the choice set.
+In applications, there are always alternatives that go beyond this.
+He concludes fn 11 this way:
+``However useful the two substeps may be in some contexts,
+they raise the danger that different criteria will unwittingly be used
+at the two stages.''
+In short:  They solved a narrow technical problem (beautifully, I would say)
+but didn't really address all the possible alternative models that might be consistent
+with the evidence.
+
+
+
+\section{Rust, Sims, and Card on identification}
+
+Colleagues sent links to related comments by David Card and John Rust.
+Both do work well outside my own areas of research,
+so I don't guarantee I get all of this, but here's my take.
+I've added some comments by Chris Sims, at his best as a critic.
+
+{\it Single-equation methods and instrumental variables.\/}
+Rust and Sims raise the issue of single-equation methods, particularly
+instrumental variables.
+Rust's lovely rant includes this comment:
+%
+\begin{quote}
+Levitt exemplifies recent generations of MIT graduates
+who have been taught that the only tools one really needs in order to be a successful
+applied economist is a little knowledge of regression and instrumental variables.
+\end{quote}
+See
+\href{http://gemini.econ.umd.edu/jrust/research/keane_comments.pdf}{here}
+or
+\href{http://www.sciencedirect.com/science/article/pii/S030440760900195X}{here}.
+Rust argues, I think, that you need more than a ``magic instrument''
+to make an interpretation of the evidence persuasive.
+
+Sims has a delightful rant of his own in his Rudebusch comment,
+which includes
+%
+\begin{quote}
+The identified VAR literature has begun attracting
+vigorous criticism from economists comfortable with the currently fashionable view that macroeconomics, properly executed, never requires thinking about
+more than one regression equation at a time.
+\end{quote}
+See
+\href{http://pages.stern.nyu.edu/~dbackus/Identification/Sims_on_Rudebusch_IER_98.pdf}{here}.
+His comments on Angrist and Pischke expand on the same idea:
+\begin{quote}
+Recent enthusiasm for single-equation, linear, instrumental variables
+approaches in applied microeconomics has led many in these fields to avoid
+undertaking research that would require them to think formally and carefully about
+the central issues of nonexperimental inference. ...
+
+The Ehrlich work on capital punishment [does capital punishment affect murder rates?]
+is a good example.
+I read that work with interest at the time. ...
+What made me most uncomfortable was that it assumed a list of
+exogenous variables without discussing why they were both plausibly
+exogenous and, probably more important in that case, why the pattern of exclusion
+restrictions on those variables was reasonable. ...
+%So we were
+%asked to believe as an a priori restriction, for example, that unemployment a year
+%ago had an effect on this year's murder rate only via an effect on the endogenous
+%deterrence variables, while current unemployment had a direct effect on this year's
+%murder rate.
+But using instrumental variables while simply listing the
+instruments, with little or no discussion of what kind of larger multivariate system
+would justify isolating the single equation or small system to which the formulas
+are applied, was, and to some extent still is, a common practice. %...
+%
+%I would like to see a serious attempt at modeling
+%the dynamic interactions among murder rates, policing inputs, judicial and jury
+%choices about punishment, economic variables, drug prices and prevalence, and other factors.
+\end{quote}
+See
+\href{http://isc.temple.edu/economics/Econ8190/Readings/jep.24.2.59.pdf}{here}, pp 59-62.
+
+Both comments fit, I think, in the Cowles Commission tradition:
+identification in simultaneous equations models involves the other equations.
+So what are they?
+Without that step of thinking ``formally and carefully'' about the rest of the model,
+it's not clear what we end up with.
+
+{\it Identification and alternative theories.\/}
+Sims and Rust go on to echo Friedman on the broad range of alternative theories
+that might account for the evidence.
+Sims (pp 60-61) again:
+\begin{quote}
+The same data generally are subject to multiple interpretations.
+It is not that we learn nothing from data, but that we have at best the ability to
+narrow the range of substantive disagreement.
+%We are always combining
+%the objective information in the data with judgment, opinion and/or prejudice
+%to reach conclusions. Doing this well can require technically complex modeling.
+%Doing it in a scientific spirit requires recognizing and taking account of the range
+%of opinions about the subject matter that may exist in one's audience. That is, it
+%requires balancing the need to use restrictive assumptions on which there may be
+%substantial agreement against the need to leave lightly restricted those aspects of
+%the model on which the data might help resolve disagreement.
+\end{quote}
+%
+Rust's review of Ken Wolpin's book (``Limits of inference'')
+includes these comments (page numbers in parentheses):
+\begin{quote}
+There are a number of inherent limits to inference that may be insuperable.  (4)
+
+I think structural econometricians need to think more deeply about whether
+they can justify whether {\it any\/} parameters are really ``structural''
+in the sense of being policy-invariant. (9)
+
+The curse of dimensionality forces us to work with fairly simple models
+because we can't solve bigger, more realistic ones.  (10)
+
+The most daunting limit to knowledge is the {\it identification problem\/}
+of trying to infer the {\it structure\/} --- [the] set of
+{\it primitives\/} that imply a probability distribution for
+the observable variables.
+Structural models depend on {\it maintained assumptions\/} that are outside the domain
+of the identification analysis. ...
+[For example], most structural  models allow for unobserved state variables.
+Common maintained assumptions are {\it additive separability\/}
+(the unobserved state variables enter the utility function in an additive way)
+and {\it conditional independence\/}
+(the unobserved state variables ... do not directly affect
+the distribution of observed state variables).
+[Even this may not be enough.]
+(10-11)
+
+I believe that most interesting economic models are either non-parametrically
+unidentified or at best partially identified.
+%If we allow the huge freedom of an infinite dimensional structural ``parameter space''
+%and find that we can rationalize any behavior in many different ways, have we really learned anything?
+%I think the answer is no: a theory that provides so much freedom
+%that it can explain everything actually explains nothing.
+(14)
+\end{quote}
+%
+Like Sims, he's suggesting there's no unique path to identifying
+the primitives underlying the distribution of observables.
+Note, too, that he goes beyond the canonical simultaneous equations setup
+to include the possibility that there are some things we don't observe.
+That's pretty much always the case in applied work.
+The macro version of this was laid out by Hansen and Sargent (JEDC, 1980)
+in a relatively simple one-dimensional example of a dynamic optimization problem.
+Similarly, in lots of modern work in IO,
+theoretical structure is used to overcome lack of data about
+some of the key variables.
+
+
+{\it The role of structure.\/}
+Rust starts with Koopmans' famous
+\href{http://elaine.ihs.ac.at/~blume/koopmansres.pdf}{measurement without theory}
+critique atheoretical business cycle research.
+Here's a longer version of a  Koopmans quotation (p 172) he uses:
+\begin{quote}
+The [Burns and Mitchell]
+book is unbendingly empiricist in outlook. Granted this basic attitude,
+it shows great perseverance and circumspection
+on the part of the authors in handling a vast
+amount of statistical data. ...
+But the decision not to use theories of man's economic behavior,
+even hypothetically, limits the value to economic science and to the maker of policies.
+\end{quote}
+%
+I'd say Burns and Mitchell look pretty good in retrospect.
+They established some properties of business cycles,
+and any theory of their time is unlikely to be as useful to us as this has been.
+Koopmans (p 161) makes a similar point in passing:
+\begin{quote}
+Burns and Mitchell are more consistently empiricist than Kepler was.
+The latter made no secret of his predilection for the
+principle of circular motion until observations
+spoke decisively for the elliptical orbit. He
+held other speculative views as to the role of
+the five regular solids and of musical intervals
+in the proportions of the planetary system.
+\end{quote}
+He's arguing that Kepler was more theoretical than Burns and Mitchell,
+hinting this is a good thing,
+but his examples of Kepler's theories suggest instead they weren't all that helpful.
+Although maybe an incorrect theory (circular orbits) was helpful
+in thinking about the evidence.
+
+But let's consider the role of structure in empirical work.
+Surely structure is good if it's right, but how do we know that?
+Sims is agnostic:
+\begin{quote}
+
+[Econometricians] should be able to fit loosely interpreted models that characterize patterns
+in the data, to impose identifying restrictions that allow richer interpretations, to
+compare the fit of alternative sets of restrictions, and to describe uncertainty about
+results, both in parameter estimates and across models.
+\end{quote}
+Hard to argue with that.
+But Rust is pessimistic about ultimate success:
+\begin{quote}
+[I]t is fair to ask whether structural models really have succeeded,
+and resulted in significantly more accurate and reliable policy forecasting
+and evaluation.
+I think the jury is still out on this, because even though Wolpin
+has offered some compelling examples of successful use of structural models for policy evaluation, there are still relatively few
+clear-cut successes where structural models have had a
+clearly measurable positive practical impact on policymaking.
+\end{quote}
+It seems we're a long way from Koopmans' vision of theory guiding empirical work.
+That said, John has been a strong advocate for structural econometric work.
+My own take (next section) is that models are helpful in
+giving us precise interpretations of the data,
+but we always run the risk that we don't have the best interpretation.
+Science works that way:  we come up with better interpretations all the time.
+
+
+{\it Card's perspective.\/}
+Card, of course, is an expert in the kind of thing Rust and Sims are complaining about.
+My knowledge of his work is hearsay at best,
+but I've watched a
+\href{http://www.youtube.com/watch?v=S6xSEiB6E2s}{video}
+of his Woytinsky lecture and scanned the
+\href{http://davidcard.berkeley.edu/lectures/woytinsky.pdf}{slides}.
+I recommend the video, it's terrific.
+
+\needspace{2\baselineskip}
+Some of his points:
+%
+\begin{itemize}
+\item Causality.
+Two common views of causality:
+model-based (theoretical model tells us what's exogenous and what's endogenous
+and how they're connected)
+and design-based (manipulations of $x$ lead to changes in $y$).
+Neither is enough on its own.
+Astronomy has no design elements (what's the manipulation?) and medicine
+often has little in the way of a model (how does aspirin work?).
+\href{http://www.jstor.org/stable/1906935}{Haavelmo} 
+(Econometrica, 1944) says we need both.
+\item Models.
+All papers in economics have models, but they vary in how explicit they are.
+McFadden's work on discrete choice is explicit.
+Levitt's work on police and crime is implicit. Ditto much of Card's work.
+One of the challenges of work with implicit models is extrapolation:
+you estimate the impact of a given manipulation, but can't say much about others.
+\item Identification.
+Econometric identification: exclusion restrictions, classic Cowles and modern variants.
+Substantive identification:  ruling out alternatives, more art than science.
+
+\item Welfare.
+``I've always been uncomfortable with this, but you need a model to do it.''
+\end{itemize}
+%
+My summary:
+We often don't know much about the model,
+but we can learn things in a relatively robust way
+from natural experiments.
+%Even so, results have been mixed.
+
+
+\section{Approaches to empirical work}
+
+What does this have to do with me?
+I'm not sure.
+I'm a macroeconomist, and in my field I see several useful
+steps in the empirical research program that constitutes much
+of mainstream macro.
+Good work can take any of these forms:
+%
+\begin{itemize}
+\item {\it Facts.\/}
+Summaries of data properties ---
+what you might think of as exploratory data analysis.
+The idea is to establish some basic facts a line of research is attempting
+to explain.
+Card (1:17) echoes this at the end of his talk:
+``There's a need for many different kinds of applied work.
+... There's a lot of room for what I would call descriptive work,
+where you pull the facts together.''
+
+Obvious examples:  means and standard deviations,
+correlations, cross-correlation functions, principle components, and so on.
+In macro, we might list dynamic factor models (Sargent-Sims, Stock-Watson),
+(bivariate) cross-correlation functions (Hodrick-Prescott),
+and Sims's work with VARs.
+Burns and Mitchell's work on business cycles is similar in spirit,
+although we now have better tools.
+
+One interesting feature of much of this work is that
+there's no distinction between endogenous and exogenous variables,
+we treat them all the same.
+Sims's
+\href{http://www.jstor.org/stable/25703499}{discussion}
+of Angrist and Pischke has some of this flavor.
+He notes, with regard to Ehrlich's work on capital pubishment,
+that there's a lot of variation in murder rates across states,
+little of it connected to capital punishment.
+That suggests we might think about where this variation comes from
+before we get bogged down arguing whether capital punishment deters murder.
+
+\item {\it Screening tests.\/}  Establish essential features of the data
+ and use them as (in Richard Rogerson's terminology) ``screening tests.''
+ If a model doesn't have these features, we move on to the next one.
+ There's not a clear separation between this bullet and the previous one,
+but I had in mind here a modest use of theory that focusses
+our attention on specific features of the data.
+
+Examples:
+(i)~Rogerson has in mind volatility and comovement in business cycle models:
+investment is more volatile than output, and consumption less volatile,
+and all of them are strongly and positively correlated.
+The theory content here is our understanding of consumption smoothing from
+earlier work, which is built into most macro models.
+(ii)~Another example is measurement based on an aggregate production function.
+Whether we think of it as a sensible object or not,
+it's a useful measurement tool for things like growth accounting and the Solow residual.
+We can ask of models whether they generate residuals like those we see in data.
+(iii)~Shimer's work on search models.
+(iv)~Perhaps my favorite example is the Hansen-Jagannathan bound.
+Lars Hansen has a nice description of the general approach:
+``You can do something without doing everything.
+Suppose you're interested in the connections between financial markets and the macro economy.
+In order to do that using statistical methods, you have to have a formal model,
+and to do that requires a whole lot of inputs.
+So the question is how you do that without having a full-blown model of everything.''
+See
+\href{http://business.time.com/2013/10/23/nobel-prize-winner-lars-peter-hansen-on-how-economics-has-helped-you/#ixzz2o2qQxByr}
+{here}.
+
+In macro we're often stuck trying to find models that pass basic screening tests.
+That is, we have models with some obvious flaws, but hopefully
+provide some insight nevertheless.
+This is a step prior to Friedman's suggestion that we have lots of models
+that account for the evidence,
+but it's where we are right now.
+To paraphrase Rust, we're not looking for truth, we're looking
+for approximations that capture some of the obvious features of the data.
+That's turned out to be hard enough.
+
+
+Question:  Can we think of design-based methods like this?
+Would Card argue that he's reporting some features of the data without
+being explicit about the rest of the model?
+
+\item {\it Models.\/}  I think of a model as an interpretation of the data.
+BLP strikes me as in this spirit:
+a concrete interpretation of price and quantity data for cars.
+%Ditto Kydland and Prescott.
+
+
+This kind of work can be very helpful in overcoming lack of data
+and in extrapolating to policies well outside what we've observed.
+Antitrust applications in IO, for example.
+But as Rust says, anything of this sort is founded on maintained assumptions that deserve
+a closer look.
+Card puts it this way (1:00:45):
+``They're showing that a model can describe reality
+and then using it to illustrate what would happen in an alternative reality
+that doesn't exist.''
+
+\item {\it Identification.\/}
+Can we tell alternative models (interpretations) apart?  How?
+Card calls this {\it substantive identification\/}:
+``ruling out alternative explanations for the data (getting past the identification police).''
+In applications, we often worry about alternatives based on reverse causality,
+selection, or unobservables.
+As Rust says, it's not clear we're capable of this.
+Or as Sims says:  there are typically multiple interpretations of the evidence.
+Any model, then, is simply one possible interpretation.
+
+But I'd say that's what we do:  we give interpretations to what we see.
+We'll never know if we have the only or the best interpretation, but it's part
+of the process of understanding economic behavior.
+I think that's true outside of academics, too.
+Here's a line from Susan Athey about data scientists in the business world:
+\begin{quote}
+I think when you have large amounts of data, ... %if you ask it the right questions,
+you have a greater ability to let the data speak, and so you can be much less reliant on assumptions. But you still need a strong conceptual framework to understand what's coming out.
+Among data scientists, the ones who can define a question and introduce a new way of looking at the data --- those data scientists are rock stars. They're pursued by every company and they move up the hierarchy very quickly.  And there are never enough of them.
+\end{quote}
+See
+\href{http://www.minneapolisfed.org/publications_papers/pub_display.cfm?id=5112}{here}.
+\end{itemize}
+%
+All of which reminds me of a comment Lucas made years ago
+about the assumption of policy-invariance:
+some things are good bets, some are not.
+Rust and Card would agree, I think, that it's not clear there are
+any invariant deep structural parameters,
+but I still think there are some good bets out there.
+
+\needspace{2\baselineskip}
+So where does that leave us?
+To quote Rust (p 17) again:
+\begin{quote}
+[M]odels are necessarily highly oversimplified approximations to reality and can never be correct.
+``Econometrics as a search for truth''
+may be too idealistic a goal, given the limits to inference that we face.
+It might be better cast as a ``search
+for models that provide reasonably good approximations'' to complex phenomena.
+\end{quote}
+%
+Sounds right to me.
+I'd add that it would be helpful if at least some empirical work could be
+done in a way that's somewhat model-independent,
+so that features of the data can be established that would be useful
+even if someone in the future has a different theoretical model
+in mind.
+Given the uncertainty about what kind of model is appropriate,
+there's clearly value in separating the search for facts from the search
+for interpretations of them.
+
+%
+%A question that's come up in seminars more than once
+%is how we should think about
+%identification when there is no formal model on the table.
+%What are we identifying?
+%How should we think about this?
+%
+%
+%
+%IV?
+
+%\section{Leftover quotes}
+
+
+\end{document}
+
+Some highlights:
+\begin{itemize}
+\item On supply and demand:
+
+\item
+\end{itemize}
+
+Sargent supply and demand...  http://www.jstor.org/stable/1802363
+
+http://cowles.econ.yale.edu/P/au/koopmans.htm
+
+Koopmans, Tjalling C., "Measurement with
+Theory," Review of Economics and Statis-
+tics, August 1947, 29, 161-72.
+
+---, Three Essays on the State of Eco-
+nomic Science, New York: McGraw-Hill,
+1957.
+
+
+\end{document}
+
+
+

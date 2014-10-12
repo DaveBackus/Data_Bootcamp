@@ -1,0 +1,279 @@
+\documentclass[11pt]{article}
+
+\oddsidemargin=0.25truein \evensidemargin=0.25truein
+\topmargin=-0.5truein \textwidth=6.0truein \textheight=8.75truein
+
+%\RequirePackage{graphicx}
+\RequirePackage[hypertex]{hyperref}
+\RequirePackage{comment}
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\newcommand{\var}{\mbox{\it Var\/}}
+\def\stackunder#1#2{\mathrel{\mathop{#2}\limits_{#1}}}
+
+% document starts here
+\begin{document}
+\parskip=\bigskipamount
+\parindent=0.0in
+\thispagestyle{empty}
+\begin{flushright} Backus, Chernov, \& Zin \end{flushright}
+
+\bigskip
+\centerline{\Large \bf Notes on Identification of Taylor Rules%
+\footnote{Working notes, no guarantee of accuracy or sense.}}
+\centerline{(Started: July 23, 2010; Revised: \today)}
+
+%State space.
+
+\subsubsection*{Using yields}
+
+Suppose under $Q,$ the state follows:
+\begin{eqnarray}
+     x_{t+1}=\Phi^Q x_t + \Sigma \epsilon_{t+1},
+\end{eqnarray}
+where $\Phi^Q$ is a diagonal matrix and the diagonal of the covariance matrix $\Sigma \Sigma^{\prime}$ is full of ones. These are restrictions that ensure identification of the $Q$ parameters based on yields. Then under $P,$ we have
+\begin{eqnarray}
+     x_{t+1}=\mu+\Phi x_t + \Sigma \epsilon_{t+1}.
+\end{eqnarray}
+There are no restrictions on $\mu$ and $\Phi.$ These two equations define risk premia $\Lambda_t=\Lambda_0+\Lambda_x^{\prime} x_t$ via:
+\begin{eqnarray}
+\label{L1}
+   \Phi^Q&=& \Phi-\Sigma\Lambda_x^{\prime} \\
+\label{L0}
+   0 &=& \mu-\Sigma\Lambda_0.
+\end{eqnarray}
+
+Normally, one specifies the nominal interest rate as a linear function of these state variables, $i_t=\delta^{'}x_t.$ Yields data allow one to estimate the following set of parameters $(\Phi^Q, \Sigma, \mu, \Phi, \delta).$
+
+Assume that inflation is a linear function of these state variables, $\pi_t=\alpha^{\prime} x_t.$ Because we imposed a restriction on the diagonal of the covariance matrix, $\alpha$ can be free.  Denote the real interest rate by $r_t.$ Then the nominal and real log pricing kernels are related via:
+\begin{eqnarray}
+    m_{t+1}^{\$}=m_{t+1} - \pi_{t+1} = - r_t - 1/2 \cdot \Lambda_t^{\prime} \Lambda_t - \Lambda_t^{\prime} \epsilon_{t+1} - \alpha^{\prime} x_{t+1}.
+\end{eqnarray}
+Therefore, the nominal interest rate rate is:
+\begin{eqnarray}
+    i_t&=&y^{\$}_t(1)=-\log P^{\$}_t(1) = -E_t(m_{t+1}-\pi_{t+1})-\frac{1}{2}\mbox{Var}_t(m_{t+1}-\pi_{t+1})\nonumber \\
+    &=&r_t+\stackunder{E_t{\pi_{t+1}}}{\alpha^{\prime}\left(\mu+\Phi x_t \right)} -\stackunder{\mbox{convexity}}{1/2\cdot  \alpha^{\prime} \Sigma \Sigma^{\prime} \alpha} - \stackunder{\mbox{inflation premium}}{\alpha^{\prime} \Sigma \Lambda_t}.
+\end{eqnarray}
+This is a modern version of the Fisher equation that incorporates risk premia. Equations (\ref{L1}), (\ref{L0}) imply
+\begin{eqnarray}
+    i_t=r_t+\alpha^{\prime}\Phi^Q x_t  -1/2\cdot  \alpha^{\prime} \Sigma \Sigma^{\prime} \alpha.
+\end{eqnarray}
+
+This expression for the nominal interest rate must imply the same as the original $i_t=\delta^{'}x_t.$ If one specifies the real rate $r_t$ as a linear function of $x$, then one can explicitly compute $\delta$ if the set of loadings for $r_t$ and $\alpha$ are known, or vice-versa, one can infer $\alpha$ if $\delta$ and the set of loadings for $r_t$ are known. Here we do not want to take a stand on the real rate and treat $\delta$ as a nuisance parameter. Instead, we infer $\alpha$ from the monetary policy. We postulate monetary policy (MP) via the Taylor rule:
+\begin{eqnarray}
+      TR_t = \gamma_0 + r_t + \gamma_{\pi} \pi_t + \gamma^{\prime} x_t.
+\end{eqnarray}
+
+In equilibrium,  $i_t=TR_t,$ and we can solve for $\pi_t$ by solving for $\alpha:$
+\begin{eqnarray}
+    \alpha^{\prime}\Phi^Q x_t  -1/2\cdot  \alpha^{\prime} \Sigma \Sigma^{\prime} \alpha=  \gamma_0 + \gamma_{\pi}\alpha^{\prime}x_t+ \gamma^{\prime} x_t.
+\end{eqnarray}
+    We obtain a system of two equations:
+ \begin{eqnarray}
+     \alpha^{\prime}\Phi^Q x_t & = &\gamma_{\pi}\alpha^{\prime}x_t+ \gamma^{\prime} x_t \\
+     -1/2\cdot  \alpha^{\prime} \Sigma \Sigma^{\prime} \alpha &=& \gamma_0.
+ \end{eqnarray}
+ The first equation implies:
+ \begin{eqnarray}
+     \alpha^{\prime}=\gamma^{\prime} \left(\Phi^Q-\gamma_{\pi} I\right)^{-1}.
+ \end{eqnarray}
+Because $\Phi^Q$ is diagonal, $\alpha_i=\gamma_i /(\phi_{ii}^Q-\gamma_{\pi}).$ %Thus, as we change MP responses, $\alpha$ changes as well. Thus, MP is not identified.
+
+Compare this to the usual implementation of Taylor rules in affine term structure models. Authors specify the nominal interest rate in the form $i_t=\psi^{\prime}x_t+\psi_{\pi}\pi_t$ and interpret $\psi_{\pi}$ at the degree of the policy response. However, $\pi_t=\alpha^{\prime}x_t$ implies that $x_{jt}=\alpha_j^{-1}\pi_t-\alpha_{-j}^{\prime}\alpha_j^{-1}x_{-jt}.$ Therefore, $i_t=(\psi_{\pi}+\psi_j \alpha_j^{-1})\pi_t + f(x_{-jt})$ and the policy response is not identified.
+
+Back to identification, the vector $y_t=(\pi_t, i_t)^{\prime}$ is related to the shocks $x_t$ (ignoring constants and $r_t$) via
+\begin{eqnarray}
+    y_t=Cx_t,
+\end{eqnarray}
+where, assuming  that $x=(x_1, x_2, \ldots, x_n)^{\prime},$
+\begin{eqnarray}
+    C=
+\left(
+\begin{array}{cccc}
+\gamma_1 /(\phi_{11}^Q-\gamma_{\pi})  &   \gamma_2/(\phi_{22}^Q-\gamma_{\pi}) &  \ldots & \gamma_n/(\phi_{nn}^Q-\gamma_{\pi})   \\
+\gamma_1 \phi_{11}^Q/(\phi_{11}^Q-\gamma_{\pi})  &   \gamma_2\phi_{22}^Q/(\phi_{22}^Q-\gamma_{\pi}) & \ldots &  \gamma_n\phi_{nn}^Q/(\phi_{nn}^Q-\gamma_{\pi} )
+\end{array}
+\right).
+\end{eqnarray}
+The $y_t$ follows the following VAR :
+\begin{eqnarray}
+   y_t= C \Phi C^{-1} y_{t-1} + \mbox{shock}.
+\end{eqnarray}
+
+%Suppose, we know $\Phi^Q$ from yields. Then we can estimate four parameters of $\Phi^*=C \Phi C^{-1},$ while we have 7 unknowns (4 elements of $\Phi$ and  the three $\gamma$'s). Suppose we care about $\gamma_{\pi}$ out of the three  $\gamma$'s. So fix $\gamma_i$ at some values, e.g., 1. We can try to achieve identification, by imposing restrictions on the risk premia $\Lambda_t.$
+%For example, assume that $\lambda_{11}^1=0.$ Then, $\phi_{11}=\phi_{11}^Q.$
+
+We can estimate $n^2$ parameters of $\Phi^*=C \Phi C^{-1},$ while we have $n+1$ unknowns ($n$ $\gamma$'s and $\gamma_{\pi}$, $\Phi$ and $\Phi^Q$ are known from yields). So if we have more than one factor in a model, all the parameters, including $\gamma_{\pi},$ should be identified.  Suppose $\Phi$ is not known either (why would this be? -- the model is estimated by NLS). Then $n+1$ parameters are not identified.  How could we achieve identification with additional restrictions?
+\begin{enumerate}
+     \item One strategy is to say that $\Lambda_t$ is too flexible and restrict risk premia, make $\Phi$ as close to $\Phi^Q$ as possible. This idea is connected to the literature stemming from the CP factor and constrained Sharpe ratios. For example, we can set $n+1$ elements of $\Lambda_1$ to zero. Note that Cochrane's example corresponds to $n=2$ with all elements $\Lambda_1$ equal to zero. This is an overly restricted model.
+     \item Another strategy is to control how many $x$'s act as shocks to the Taylor rule. Note that at most, we can impose $n$ restrictions as there $n$ $\gamma$'s. Thus, this strategy on its own is not sufficient.
+     \end{enumerate}
+
+\subsubsection*{Using survey-based inflation expectations}
+
+Another way to write the equilibrium $i=TR$ is
+\begin{eqnarray}
+   E_t(\pi_{t+1}) - \alpha^{\prime} \Sigma \Lambda_t = \gamma_{\pi} \pi_t + \gamma^{\prime} x_t.
+\end{eqnarray}
+
+
+\subsection*{Forward-looking Taylor rule}
+
+[xxx Incomplete xxx]
+
+We postulate monetary policy (MP) via the forward-looking Taylor rule:
+\begin{eqnarray}
+      TR_t = \gamma_0 + r_t + \gamma_{\pi}\frac{1}{\tau} E_t \left(\sum_{j=1}^{\tau} \pi_{t+j} \right) + \gamma^{\prime} x_t.
+\end{eqnarray}
+The expected inflation can be computed
+\begin{eqnarray}
+   E_t \left(\sum_{j=1}^{\tau} \pi_{t+j} \right)= \alpha^{\prime}\left(\Psi^{\tau}\mu+\Phi^{\tau}x_t\right),
+\end{eqnarray}
+where
+\begin{eqnarray}
+   \label{psinot}
+   \Psi^{\tau}\equiv \sum_{k=0}^{\tau-1}\Phi^k=\left(I-\Phi\right)^{-1}\left(I-\Phi^{\tau}\right).
+\end{eqnarray}
+In equilibrium,  $i_t=TR_t,$ and we can solve for $\pi_t$ by solving for $\alpha:$
+\begin{eqnarray}
+    \alpha^{\prime}\Phi^Q x_t  -1/2\cdot  \alpha^{\prime} \Sigma \Sigma^{\prime} \alpha=  \gamma_0 + \tilde{\gamma}_{\pi}\alpha^{\prime}\left(\Psi^{\tau}\mu+\Phi^{\tau}x_t\right)+ \gamma^{\prime} x_t,
+\end{eqnarray}
+where $\tilde{\gamma}_{\pi}=\gamma_{\pi}/\tau.$ We obtain a system of two equations:
+ \begin{eqnarray}
+     \alpha^{\prime}\Phi^Q x_t & = &\gamma_{\pi}\alpha^{\prime}\Phi^{\tau}x_t+ \gamma^{\prime} x_t \\
+     -1/2\cdot  \alpha^{\prime} \Sigma \Sigma^{\prime} \alpha &=& \gamma_0 + \tilde{\gamma}_{\pi}\alpha^{\prime}\Psi^{\tau}\mu.
+ \end{eqnarray}
+ The first equation implies:
+ \begin{eqnarray}
+     \alpha^{\prime}=\gamma^{\prime} \left(\Phi^Q-\tilde{\gamma}_{\pi} \Phi^{\tau}\right)^{-1}.
+ \end{eqnarray}
+
+ \subsection*{Using nominal yields, start with the real ones}
+
+ Suppose under $Q,$ the state follows:
+\begin{eqnarray}
+     x_{t+1}=\Phi^Q x_t + \Sigma \epsilon_{t+1},
+\end{eqnarray}
+where $\Phi^Q$ is a diagonal matrix and the diagonal of the covariance matrix $\Sigma \Sigma^{\prime}$ is full of ones. These are restrictions that ensure identification of the $Q$ parameters based on yields.
+
+Assume that the the real interest rate is
+\begin{eqnarray}
+     r_t=\rho_0 +  \rho_x^{\prime} x_t
+\end{eqnarray}
+and the real pricing kernel is
+\begin{eqnarray}
+     \log m_{t+1} = -r_t - \Lambda_t^{\prime}\Lambda_t - \Lambda_t  \epsilon_{t+1},
+\end{eqnarray}
+where
+\begin{eqnarray}
+    \Lambda_t = \Lambda_0+\Lambda_x^{\prime} x_t.
+\end{eqnarray}
+
+Now, suppose we have a nominal shock $z_t$ that is independent from $x.$ Under $Q$ $z$ is:
+\begin{eqnarray}
+    z_{t+1}=\phi_z^Q z_t+u_{t+1}.
+\end{eqnarray}
+Assume inflation is a linear function of all the factors:
+\begin{eqnarray}
+      \pi_t=\alpha_0+\alpha_x^{\prime}x_t+\alpha_z z_t.
+\end{eqnarray}
+
+Then the nominal and real log pricing kernels are related via:
+\begin{eqnarray}
+    \log m_{t+1}^{\$}=\log m_{t+1} - \pi_{t+1} = - r_t - 1/2 \cdot \Lambda_t^{\prime} \Lambda_t - \Lambda_t^{\prime} \epsilon_{t+1} - \alpha_0 - \alpha_x^{\prime} x_{t+1} - \alpha_z z_{t+1}.
+\end{eqnarray}
+Therefore, the nominal interest rate rate is:
+\begin{eqnarray}
+    i_t&=&y^{\$}_t(1)=-\log P^{\$}_t(1) = -E_t(\log m_{t+1}-\pi_{t+1})-\frac{1}{2}\mbox{Var}_t(\log m_{t+1}-\pi_{t+1})\nonumber \\
+    &=&r_t+E_t{\pi_{t+1}} -\stackunder{\mbox{convexity}}{ [ \alpha_x^{\prime} \Sigma \Sigma^{\prime} \alpha_x+\alpha_z^2]/2} - \stackunder{\mbox{inflation premium}}{\alpha_x^{\prime} \Sigma \Lambda_t} \nonumber \\
+    & = & \rho_0 +  \rho_x^{\prime} x_t + \alpha_0+\alpha_x^{\prime}\Phi^Q x_t + \alpha_z \phi_z^Q  z_t- [ \alpha_x^{\prime} \Sigma \Sigma^{\prime} \alpha_x+\alpha_z^2]/2.
+\end{eqnarray}
+
+
+We postulate monetary policy (MP) via the Taylor rule:
+\begin{eqnarray}
+      TR_t = \gamma_0 + \gamma_{\pi} \pi_t +\gamma_z z_t.
+ \end{eqnarray}
+
+In equilibrium,  $i_t=TR_t,$ and we can solve for $\pi_t$ by solving for $\alpha:$
+\begin{eqnarray}
+     \rho_0 +  \rho_x^{\prime} x_t + \alpha_0+\alpha_x^{\prime}\Phi^Q x_t + \alpha_z \phi_z^Q z_t- [ \alpha_x^{\prime} \Sigma \Sigma^{\prime} \alpha_x+\alpha_z^2]/2 = \gamma_0 + \gamma_{\pi} \pi_t+\gamma_z z_t.
+\end{eqnarray}
+    We obtain a system of two equations:
+ \begin{eqnarray}
+     \rho_x^{\prime} x_t + \alpha_x^{\prime}\Phi^Q x_t + \alpha_z \phi_z^Q z_t & = &\gamma_{\pi}\alpha_x^{\prime}x_t+ \gamma_{\pi} \alpha_z z_t +\gamma_z z_t\\
+    \rho_0 + \alpha_0 -[ \alpha_x^{\prime} \Sigma \Sigma^{\prime} \alpha_x+\alpha_z^2]/2 &=& \gamma_0 +\gamma_{\pi}\alpha_0.
+ \end{eqnarray}
+ The first equation implies:
+ \begin{eqnarray}
+  & &    \rho_x^{\prime}+\alpha_x^{\prime}\Phi^Q=\gamma_{\pi}\alpha_x^{\prime} \\
+  & &    \alpha_z \phi_z^Q = \gamma_{\pi} \alpha_z + \gamma_z
+ \end{eqnarray}
+ and
+ \begin{eqnarray}
+    \alpha_x&=&-\rho_x^{\prime}(\Phi^Q-\gamma_{\pi}I)^{-1} \\
+    \alpha_z&=&\gamma_{z}/(\phi_z^Q-\gamma_{\pi})
+ \end{eqnarray}
+
+ Back to identification, the vector $y_t=(\pi_t, i_t)^{\prime}$ is related to the shocks $\tilde{x}_t=(x_t^{\prime},z_t)^{\prime}$ via (ignoring constants)
+\begin{eqnarray}
+    y_t=C \tilde{x}_t,
+\end{eqnarray}
+where, assuming  that $x=(x_1, x_2, \ldots, x_n)^{\prime},$
+\begin{eqnarray}
+    C=
+\left(
+\begin{array}{cccc}
+-\rho_{x,1} /(\phi_{11}^Q-\gamma_{\pi})  &    \ldots &-\rho_{x,n} /(\phi_{nn}^Q-\gamma_{\pi})  &  \gamma_{z}/(\phi_z^Q-\gamma_{\pi})\\
+\rho_{x,1} (1-\phi_{11}^Q/(\phi_{11}^Q-\gamma_{\pi}))   & \ldots &  \rho_{x,n} (1-\phi_{nn}^Q/(\phi_{nn}^Q-\gamma_{\pi}) ) &  \gamma_{z}\phi_z^Q/(\phi_z^Q-\gamma_{\pi})
+\end{array}
+\right).
+\end{eqnarray}
+The $y_t$ follows the following VAR :
+\begin{eqnarray}
+   y_t= C \Phi C^{-1} y_{t-1} + \mbox{shock}.
+\end{eqnarray}
+We can estimate $(n+1)^2$ parameters of $\Phi^*=C \Phi C^{-1},$ while we have $2$ unknowns ( $\gamma_{\pi}$ and $\gamma_z$, $\rho_x,$ $\Phi$ and $\Phi^Q$ are known from yields). So if we have more than one factor in a model, all the parameters, including $\gamma_{\pi},$ should be identified.
+
+ \subsection*{Square-root case}
+
+
+
+
+\end{document}
+
+\begin{comment}
+
+and the nominal pricing kernel is
+\begin{eqnarray}
+      \log m_{t+1}^{\$} = - i_t - \tilde{\Lambda}_t^{\prime}\tilde{\Lambda}_t -\tilde{ \Lambda}_t  ( \epsilon_{t+1}^{\prime}, u_{t+1} )^{\prime},
+\end{eqnarray}
+where
+\begin{eqnarray}
+     \tilde{\Lambda}_t =
+\left(
+\begin{array}{c}
+\Lambda_t+\alpha_x     \\
+   \alpha_z
+\end{array}
+\right).
+\end{eqnarray}
+
+Therefore,under $P,$ we have
+\begin{eqnarray}
+     x_{t+1}=\mu+\Phi x_t + \Sigma \epsilon_{t+1},
+\end{eqnarray}
+where
+\begin{eqnarray}
+\label{L1}
+   \Phi&=& \Phi^Q+\Sigma\Lambda_x^{\prime} \\
+\label{L0}
+   \mu &=& \Sigma\Lambda_0.
+\end{eqnarray}
+Then
+\begin{eqnarray}
+     z_{t+1}=\mu_z+\phi_z z_t + u_{t+1},
+\end{eqnarray}
+where
+
+ \end{comment}

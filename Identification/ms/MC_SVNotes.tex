@@ -1,0 +1,69 @@
+\documentclass[11pt]{article}
+
+\oddsidemargin=0.25truein \evensidemargin=0.25truein
+\topmargin=-0.5truein \textwidth=6.0truein \textheight=8.75truein
+
+%\RequirePackage{graphicx} 
+\RequirePackage[hypertex]{hyperref}
+\RequirePackage{comment}
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\newcommand{\var}{\mbox{\it Var\/}}
+\def\stackunder#1#2{\mathrel{\mathop{#2}\limits_{#1}}}
+
+% document starts here
+\begin{document}
+\parskip=\bigskipamount
+\parindent=0.0in
+\thispagestyle{empty}
+\begin{flushright} Backus, Chernov, \& Zin \end{flushright}
+
+\bigskip
+\centerline{\Large \bf Notes on SV%
+\footnote{Working notes, no guarantee of accuracy or sense.}}
+\centerline{(Started: April 23, 2013; Revised: \today)}
+
+%State space.
+
+State:
+\begin{eqnarray*}
+    x_{t+1} =  A  x_t + C_t w_{t+1} ,
+    \label{eq:state-dynamics}
+\end{eqnarray*}
+where
+\begin{eqnarray*}
+   C_t &=& C \sqrt{S_t}, \quad S_{ii t} = \alpha_i+\beta_i v_t, \quad S_{ijt}=0, \\
+       v_t &=& (1-\nu) v + \nu v_{t-1} + \sigma_v \sqrt{v_{t-1}} \varepsilon_t^v, \quad \sigma_v^2/2<(1-\nu)v
+\end{eqnarray*}
+[If $v_t$ is not observed, id requires $\alpha_i=1$ and $\sigma_v=1.$] The shocks are
+$s_{it}=d_i^{\top}x_t+d_{iv}v_t.$
+
+The rep agent model consists of
+\begin{eqnarray*}
+    i_t &=& %- \log E_t \exp(m^{\$}_{t+1})
+            %\;\;=\;\;
+            - \log E_t \exp(m_{t+1}-\pi_{t+1})
+        \label{eq:macrofin-euler} \\
+    m_t &=& - \rho - \alpha g_t \nonumber \\
+    g_t &=& g + s_{1t}   \nonumber \\
+    i_t &=& r + \tau \pi_t + s_{2t} .
+        \label{eq:macrofin-taylor}
+\end{eqnarray*}
+
+Guess $\pi_t=b^{\top}x_t + b_v v_t.$ The Euler equation gives us:
+\begin{eqnarray*}
+    i_t = \rho + \alpha g - a^{\top} C_t C_t^{\top} a/2 + a^{\top} x_t + \nu (b_v+\alpha d_{1v}) v_t + (b_v+\alpha d_{1v})^2 v_t/2,
+\end{eqnarray*}
+where $a$ is the same as before.
+
+Think of $i_t=a^{\top}x_t+a_v v_t.$ Equalizing to the Taylor rule we get:
+\begin{eqnarray*}
+     a^{\top}&=&\tau b^{\top} +d_2^{\top}, \\
+     a_v=- a^{\top} C [\beta]C^{\top} a/2 + \nu (b_v+\alpha d_{1v}) + (b_v+\alpha d_{1v})^2 /2 &=& \tau b_v + d_{2v},
+\end{eqnarray*}
+where $ [\beta]$ is diagonal matrix with $\beta_i$'s as elements.
+
+So we get one more equation and one more parameter ($d_{2v}$). So SV does not help or hurt in this reasonable general setting.
+
+
+\end{document}
