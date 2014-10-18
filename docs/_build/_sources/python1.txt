@@ -1,0 +1,14 @@
+-------------
+Python basics
+-------------
+
+.. toctree::
+   :maxdepth: 2
+   
+   assign
+   print 
+   strings
+   lists 
+   examples1  
+
+testing...  

@@ -17,11 +17,3 @@ the first class.
 More on both below.  
 
 
-
-
-
-
-##Anaconda 
-
-
-

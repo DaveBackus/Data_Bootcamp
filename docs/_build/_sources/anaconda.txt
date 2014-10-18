@@ -8,13 +8,15 @@ Dropbox, for example, is written entirely in Python.
 We'll use Python to study economic and financial data, but the same methods 
 -- and more -- can be applied to data from any source.  
 One of our former students is using it to study patterns of 
-`survival on the Titanic <http://www.kaggle.com/c/titanic-gettingStarted>'. Another is using it to 
-[process text](http://www.nltk.org/) from analyst reports.  
-Thanks to [AQR](http://pandas.pydata.org/community.html#history-of-development) and others, the data analytic toolsets in Python now rival stat-focused languages like R.   
+survival on the Titanic (http://www.kaggle.com/c/titanic-gettingStarted). 
+Another is using it to 
+process text (http://www.nltk.org/) from analyst reports.  
+Thanks to AQR (http://pandas.pydata.org/community.html#history-of-development) 
+and others, the data analytic toolsets in Python now rival stat-focused languages like R.   
 
 **Python on the Cloud.**
 The easiest way to get started with Python is to run it on the Cloud with 
-[Wakari](https://wakari.io/).  Just click on the link and sign up for an account.  
+Wakari(https://wakari.io/).  Just click on the link and sign up for an account.  
 In our experience, it's virtually instantaneous.  
 Wakari runs what are called IPython Notebooks, which are a combination of Python code and text, 
 with the code executable in chunks.  The text allows us to document what we're doing as we go.  
@@ -83,7 +85,7 @@ There are two standard ways to run Python:
   As with Spyder, getting it going is harder in some systems than others.  Good luck!      
 
 **Advice.** There's a steep learning curve at the start of any effort like this.  
-You'll get through it in time, but it takes patience and persistence  We suggest:
+You'll get through it in time, but it takes patience and persistence.  We suggest:
 
 * Take your time.  This won't happen overnight.  But it won't take weeks, either, 
   before you're doing cool things.  

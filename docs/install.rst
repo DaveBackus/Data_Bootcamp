@@ -1,0 +1,161 @@
+-----------------
+Installing Python
+-----------------
+
+There are lots of ways to use Python, but we recommend two.  
+Don't get cute, just follow these directions.  
+
+
+Python on the cloud
+^^^^^^^^^^^^^^^^^^^
+
+The easiest way to get started with Python is to run it on the cloud with 
+`Wakari <https://wakari.io/>`_.  
+Just click on the link and sign up for an account.  
+In our experience, it's virtually instantaneous.  
+Wakari runs IPython Notebooks, which are a combination of Python code and text, 
+with the code executable in chunks.  The text allows us to document what we're doing as we go.  
+A former student (one who is reasonably tech savvy) writes:  "IPython seems best for beginners. 
+The structure almost forces good documentation and you can build the script over time versus building 
+and running it all at once."  That's not our view, but it's a reasonable one.  
+
+One downside is that the Wakari default uses an older version of Python that 
+does not allow some of the newer web tools for data input.  
+The interface for Yahoo Options data, for example, doesn't quite work (close, but not quite).  
+We can probably tell Wakari to use a newer version, 
+or write a workaround for this version, but we're not there yet.  
+Another downside is that the server is sometimes too busy to execute your code.  
+An asterisk appears to the left of the code segment and nothing happens.  
+Sometimes it goes away, sometimes not.  
+
+If you'd like to give Wakari a try, set up an account.  
+It's pretty close to self-explanatory. 
+
+
+Python on your computer
+^^^^^^^^^^^^^^^^^^^^^^^
+
+We prefer this, but it's trickier to set up.  
+Here's what's involved:  
+
+**Step 1. Download and install the Anaconda distribution of Python.**  
+Anaconda is a combination of 
+basic Python and toolsets called packages -- what aficionados call a "code distribution."  
+Anaconda has all the basics and covers almost all of what we plan to do.  
+It has options for most operating systems (Windows, Mac OS, Linux, all of various vintages) 
+and versions of Python (we use version 3.4).  
+TO install it, follow these steps:      
+
+* *Download the installer.* Click on 
+  `this link <http://continuum.io/downloads>`_.  
+  Below the words "Download Anaconda" you'll see in caps:  "CHOOSE YOUR INSTALLER."  
+  To the right you'll see three logos and the words "I WANT PYTHON 3.4."  
+  First, choose your computer's operating system by clicking on the appropriate logo 
+  (window panes, apple, or penguin).  
+  The site usually guesses this, which you can tell because the appropriate logo 
+  will be blue rather than gray.  
+  Second, click on "I WANT PYTHON 3.4."  
+  Yup, only the newest and best for you!  
+  Finally, immediately below the words "CHOOSE YOUR INSTALLER" 
+  you'll see a box with words like "[Op System] 64-bit / Python 3.4 / Graphical Installer."  
+  Click on it to download the installer.  
+
+* *Install Python.*  Once you've downloaded the installer, click on it and follow the instructions.  
+  This is no different from any other installation you've done.  
+
+**Step 2:  Run Python.** 
+You should now have Python on your computer.  
+There are two ways to run it, Spyder (recommended) and IPython (same as Wakari, but on your computer):     
+
+* Spyder. Our preferred method.  
+  We'd like to say:  
+  Start it up as you would any program.  
+  That's intentionally glib, we've had difficulty finding the on button in some environments, 
+  but there's no one-size-fits-all solution, every operating system is different.  
+  In Windows 7, for example, installation usually puts a Spyder icon on the desktop. 
+  Click on it and you're good to go.  
+  In Windows 8.1, we managed to locate Spyder in the apps, but it's well hidden and took us a while.  
+
+  Once you get Spyder running, you'll have a pretty standard graphical user interface, 
+  similar to what you'd have with Matlab or R (RStudio, for example).  
+  There's an editor, typically on the left, where you can write and edit code.  
+  There are buttons at the top for running it.  
+  There's an IPython console where you can try out commands or ask for help.  
+  We'll do a lot of this, but not right now.    
+
+* IPython.  To create or run an IPython Notebook, you need to do something like:  
+  go to the command line and type 'ipython notebook'. 
+  This will open a tab in your browser where you can write and execute IPython notebooks. 
+  The opening screen is a directory, but you can open a new or old notebook 
+  and navigate through the directory and save it wherever you like.  
+  It will look just like Wakari,  
+  but you'll be running IPython on your computer with whatever version of Python you have installed.  
+  As with Spyder, getting it going is harder in some systems than others.  Good luck!  
+
+
+Free advice 
+^^^^^^^^^^^
+
+And worth what you paid for it!  
+
+There's a steep learning curve at the start of any effort like this.  
+You'll get through it, but it takes patience and persistence.  
+Some suggestions:  
+
+**Take your time.**  This won't happen overnight.  But it won't take weeks, either, 
+before you're doing cool things.  
+
+**Work with others.**  This is much easier to do if you have friends doing the same thing.  
+Or even better, friends who are ahead of you.  You'll probably find that you need a lot of help at the start, 
+but once you get going you'll be able to help yourself.  
+
+**Google fu.**  Once you've made some progress, you can learn a lot just by Googling your issue.  
+The best links are often the Python documentation (unusually good, on the whole) and 
+`Stack Overflow <http://stackoverflow.com/questions/tagged/python>`_ 
+(the go-to place for code questions).  
+
+**Start from examples.**  The easiest place to start is with programs that work.  
+Start with one  and tweak it till you get what you want.
+Play around with the details and see what happens.    
+The documentation includes lots of examples.  
+And we'll have lots of examples of our own.  
+
+
+References and more   
+^^^^^^^^^^^^^^^^^^^
+
+`Python tutorial <https://docs.python.org/3/tutorial/introduction.html>`_.
+The basics of the language presented in a user-friendly way.  
+Start up Python and copy what they do there.  
+Note, too, the box in the upper left corner for the version of Python you're using.
+We'll stick with Version 3.4 for now, but the major differences are between Python 2.x
+and 3x.  Avoid 2.x unless you really know what you're doing.     
+
+`Spyder interface <https://pythonhosted.org/spyder/>`_.
+We'll go over this in class, but you can skim through the documentation yourself.  
+The key components:  (i) On the left is an editor where you write programs.
+(ii) In the lower right corner, there's what they call an IPython console, where you can type
+in commands one at a time to see what they do.  
+(iii) In the upper right corner there's what they call the Object inspector, which gives you access
+to documentation about specific commands.  Type in the command and its documentation pops up.  
+
+`IPython tutorial <http://ipython.org/ipython-doc/stable/interactive/tutorial.html>`_.
+We recommend you use Spyder.  If you want to run code in small chunks, you can do that. 
+But if you nevertheless decide to use IPython, here's where you start.  
+
+`Quant Econ <http://quant-econ.net/py/learning_python.html>`_.
+The Sargent-Stachurski Quantitative Economics site has a really nice introduction
+to Python.  It covers much of what we'll do, but in a relatively terse way.  
+Their emphasis is on macroeconomic theory, but the early sections touch on data work.  
+We'll do the same in (much) more detail.  
+
+
+Wordplay
+^^^^^^^^
+
+Python is named for Monty Python.  
+Idle, a well-know Python editor, is a reference to Eric Idle.  
+The `Python Package Index <https://pypi.python.org/pypi>_, a repository of packages, 
+is commonly known as the 
+`CheeseShop <http://youtu.be/PPN3KTtrnZM>`_.  
+Anaconda is, of course, a play on the snake theme.   
