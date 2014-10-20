@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Getting started with Python &mdash; Data_Bootcamp 0.0.1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="top" title="Data_Bootcamp 0.0.1 documentation" href="index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li><a href="index.html">Data_Bootcamp 0.0.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="getting-started-with-python">
+<h1>Getting started with Python<a class="headerlink" href="#getting-started-with-python" title="Permalink to this headline">¶</a></h1>
+<p><strong>Python.</strong>  Python is a popular general-purpose programming language that has been used
+for a broad range of applications.
+Dropbox, for example, is written entirely in Python.</p>
+<p>We&#8217;ll use Python to study economic and financial data, but the same methods
+&#8211; and more &#8211; can be applied to data from any source.
+One of our former students is using it to study patterns of
+survival on the Titanic (<a class="reference external" href="http://www.kaggle.com/c/titanic-gettingStarted">http://www.kaggle.com/c/titanic-gettingStarted</a>).
+Another is using it to
+process text (<a class="reference external" href="http://www.nltk.org/">http://www.nltk.org/</a>) from analyst reports.
+Thanks to AQR (<a class="reference external" href="http://pandas.pydata.org/community.html#history-of-development">http://pandas.pydata.org/community.html#history-of-development</a>)
+and others, the data analytic toolsets in Python now rival stat-focused languages like R.</p>
+<p><strong>Python on the Cloud.</strong>
+The easiest way to get started with Python is to run it on the Cloud with
+Wakari(<a class="reference external" href="https://wakari.io/">https://wakari.io/</a>).  Just click on the link and sign up for an account.
+In our experience, it&#8217;s virtually instantaneous.
+Wakari runs what are called IPython Notebooks, which are a combination of Python code and text,
+with the code executable in chunks.  The text allows us to document what we&#8217;re doing as we go.
+A former student (one who is reasonably tech savvy) writes:  &#8220;IPython seems best for beginners.
+The structure almost forces good documentation and you can build the script over time versus building
+and running it all at once.&#8221;</p>
+<p>One downside we&#8217;ve found to this is that the Wakari default uses a older version of Python that
+does not allow some of the cool web tools for data input.
+The interface for Yahoo Options data, for example, doesn&#8217;t quite work (close, but not quite).
+We can probably tell Wakari to use a newer version,
+or write a workaround for this version, but we&#8217;re not there yet.
+Another downside is that the server is sometimes too busy to execute your code.
+You&#8217;ll notice that an asterisk appears to
+the left of the code segment and nothing happens.  Sometimes it goes away shortly, sometimes not.</p>
+<p>If you&#8217;d like to give Wakari a try, set up an account and give it a try.
+It&#8217;s pretty close to self-explanatory.</p>
+<p><strong>Python on your computer.</strong> We find this more user-friendly, but it&#8217;s trickier to set up initially.
+Here&#8217;s what&#8217;s involved:</p>
+<p><em>Step 1: Download and install the Anaconda distribution of Python.</em>  Anaconda is a combination of
+basic Python and toolsets called packages &#8211; what aficionados call a &#8220;code distribution.&#8221;
+Anaconda has all the basics and covers most of what we plan to do.
+It has options for most operating systems (Windows, Mac OS, Linux, all of various vintages)
+and versions of Python (we use version 3.4).  Follow these steps:</p>
+<ul class="simple">
+<li>Download the installer. Click on [this link](<a class="reference external" href="http://continuum.io/downloads">http://continuum.io/downloads</a>).
+Below the words &#8220;Download Anaconda&#8221; you&#8217;ll see in caps:  &#8220;CHOOSE YOUR INSTALLER.&#8221;
+To the right you&#8217;ll see three logos and the words &#8220;I WANT PYTHON 3.4.&#8221;
+First, choose your computer&#8217;s operating system by clicking on the appropriate logo
+(window panes, apple, or penguin).
+The site usually guesses this, which you can tell because it will be blue rather than gray.
+Second, click on &#8220;I WANT PYTHON 3.4.&#8221;
+Yup, only the newest and best for you!
+Finally, immediately below the words &#8220;CHOOSE YOUR INSTALLER&#8221;
+you&#8217;ll see a box with words like &#8220;[Op System] 64-bit / Python 3.4 / Graphical Installer.&#8221;
+Click on it to download the installer.</li>
+<li>Install Python.  Once you&#8217;ve downloaded the installer, click on it and follow instructions.
+This is no different from any other installation you&#8217;ve done.</li>
+</ul>
+<p><em>Step 2:  Running Python.</em> You should now have Python on your computer.
+There are two standard ways to run Python:</p>
+<ul class="simple">
+<li>Spyder. Our preferred method is to run Python in Spyder.  We&#8217;d like to say:
+Start it up as you would any program.
+That&#8217;s intentionally glib, we&#8217;ve had difficulty finding the on button in some environments,
+but there&#8217;s no single solution, every operating system is different.
+In Windows 7, for example, installation usually puts a Spyder icon on the desktop.
+Click on it and you&#8217;re good to go.
+In Windows 8.1, we managed to locate Spyder in the apps, but it&#8217;s well hidden.</li>
+<li>Spyder, continued.  Once you get Spyder going, you&#8217;ll have a pretty standard graphical user interface,
+similar to what you&#8217;d have with Matlab or R (RStudio, for example).
+There&#8217;s an editor, typically on the left, where you can write and edit code.
+There are buttons at the top for running it.
+There&#8217;s an IPython console where you can try out commands or ask for help.
+We&#8217;ll do a lot of this, but not right now.</li>
+<li>IPython.  To create or run an IPython Notebook, you need to do something like:
+go to the command line and type &#8216;ipython notebook&#8217;.
+If it works, it will look a lot like Wakari,
+but you&#8217;ll be running IPython on your computer with whatever version of Python you have installed.
+As with Spyder, getting it going is harder in some systems than others.  Good luck!</li>
+</ul>
+<p><strong>Advice.</strong> There&#8217;s a steep learning curve at the start of any effort like this.
+You&#8217;ll get through it in time, but it takes patience and persistence.  We suggest:</p>
+<ul class="simple">
+<li>Take your time.  This won&#8217;t happen overnight.  But it won&#8217;t take weeks, either,
+before you&#8217;re doing cool things.</li>
+<li>Ask for help.  This is much easier to do if you have friends doing the same thing.
+Or even better, friends who are ahead of you.  You&#8217;ll probably find you need a lot of help at the start,
+but once you get going you&#8217;ll be able to help yourself.</li>
+<li>Google fu.  Once you&#8217;ve made some progress, you can learn a lot just by Googling your issue.
+The best links are often the Python documentation and Stack Overflow.</li>
+<li>Start from templates.  The easiest place to start is with programs that work.
+Start with one and tweak it till you get what you want.  The documentation includes lots of examples.
+And we&#8217;ll have examples of our own.</li>
+</ul>
+<p><strong>Wordplay.</strong> Python is named for Monty Python.
+Idle, a well-know Python editor, is a reference to Eric Idle.
+The Python Package Index, a repository of packages,
+is commonly known as the [CheeseShop](<a class="reference external" href="http://youtu.be/PPN3KTtrnZM">http://youtu.be/PPN3KTtrnZM</a>).
+Anaconda is, of course, a play on the snake theme.</p>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/anaconda.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li><a href="index.html">Data_Bootcamp 0.0.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2014, Dave Backus.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.2.
+    </div>
+  </body>
+</html>
