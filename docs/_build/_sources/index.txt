@@ -7,42 +7,30 @@ Data Bootcamp
 
 **Work in progress, use at your own risk.**
 
-Current version of this material:  ??
+Current version of this material:  http://davebackus.github.io/Data_Bootcamp/ 
 
-We have students every term who would like to get some programming experience in the belief
-that it will expand their career opportunities.  
+We have students every term who would like to get some programming experience, 
+which they think will expand their career opportunities.  
 As one student put it:  "I can do most things in Excel, but I don't think that will be true in five years."
 We think they're right.  
-Excel is fine, but for lots of data applications, Python offers a more powerful and efficient platform.
+Excel is fine, but for lots of data applications Python offers a more powerful and efficient platform.
 In economic terms:  learning Python is a significant investment, but once you've made it 
 the marginal cost of data work will be a lot lower.
 
 We developed (or rather, are developing) this document with the idea 
 of teaching a data courses at NYU Stern that uses Python to study economic, financial, and business data. 
-It's intended for classroom use, which means you may find it somewhat mysterious 
-if you try to work through it on your own.  
+It's intended for classroom use; 
+if you try to work through it on your own you'll probably find it somewhat mysterious.  
 And probably even more mysterious than that because it's work in progress.  
-We're posting it now only because we're doing an informal version for a few interested students.    
+We're posting it now only because we're doing an informal version for a few interested students.  
 
 Comments welcome on all of this:  the idea, the execution, the details.  
 
 
-Contents 
---------
-
-.. toctree::
-   :maxdepth: 2
-   
-   prelim 
-   basics
-   pandas 
-   graphics 
-  
-
 Course description 
 ------------------
 
-This course is about nuts and bolts data analysis.  
+Data Bootcamp is about nuts and bolts data analysis.  
 You will learn about economic, financial, and business data and 
 enough about computer programming to make sense of it.  
 Applications include some or all of:  leading economic indicators; country indicators; 
@@ -52,8 +40,8 @@ We will use Python, a popular high-level computer language that’s widely used 
 and other parts of the business world.  “High-level” means that it’s less painful than most 
 (the hard work is done by the language and its collection of tools), 
 but it’s a serious language with extensive capabilities.  
-“Analysis” means primarily 
-graphical descriptions that summarize the properties of data in ways that are helpful to managers.  
+“Analysis” means primarily graphical descriptions that summarize the 
+properties of data in ways that are helpful to managers.  
 “Bootcamp” is a reminder that you should come willing to work. 
 It will be worth it, but there's no way to avoid doing some work.  
 
@@ -131,7 +119,8 @@ but once you get going you'll be able to help yourself.
 
 *Google fu.*  Once you've made some progress, you can learn a lot just by Googling your issue.  
 Things like:  "python read spreadsheet."  
-The best links are often the Python documentation (unusually good, on the whole) and 
+The best links are often the 
+`Python tutorial <https://docs.python.org/3.4/tutorial/>`_ (it's really good) and 
 `Stack Overflow <http://stackoverflow.com/questions/tagged/python>`_ 
 (the go-to place for code questions).  
 
@@ -159,3 +148,15 @@ We thank them for that, and for their advice and encouragement.
 Part of the #nyuecon collection. 
 Address comments to Dave Backus or Glenn Okun.  
 
+
+Contents 
+--------
+
+.. toctree::
+   :maxdepth: 1
+   
+   prelim 
+   basics
+   pandas 
+   graphics 
+  

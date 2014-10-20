@@ -4,9 +4,9 @@
 Installing Python
 -----------------
 
-There are lots of ways to use Python, but we recommend two.  
-Don't get cute, just follow these directions.  
-
+There are lots of ways to install and use Python, but we recommend one.
+We'll mention two, but we recommend just one.  
+Don't get cute, just follow these instructions.  
 
 
 .. _tut-wakari:  
@@ -42,7 +42,7 @@ It's pretty close to self-explanatory.
 Python on your computer
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-We prefer this, but it's trickier to set up.  
+We prefer to run Python with Spyder, but it's trickier to set up.  
 Here's what's involved:  
 
 *Step 1. Download and install the Anaconda distribution of Python.*
@@ -52,7 +52,7 @@ basic Python and toolsets called packages -- what aficionados call a "code distr
 Anaconda has all the basics and covers almost all of what we plan to do.  
 It has options for most operating systems (Windows, Mac OS, Linux, all of various vintages) 
 and versions of Python (we use version 3.4).  
-TO install it, follow these steps:      
+To install it, follow these steps:      
 
 * *Download the installer.* Click on 
   `this link <http://continuum.io/downloads>`_.  
@@ -66,7 +66,7 @@ TO install it, follow these steps:
   Yup, only the newest and best for you!  
   Finally, immediately below the words "CHOOSE YOUR INSTALLER" 
   you'll see a box with words like "[Op System] 64-bit / Python 3.4 / Graphical Installer."  
-  Click on it to download the installer.  
+  Click on it to download the installer.  |
 
 * *Install Python.*  Once you've downloaded the installer, click on it and follow the instructions.  
   This is no different from any other installation you've done.  
@@ -76,28 +76,28 @@ TO install it, follow these steps:
 You should now have Python on your computer.  
 There are two ways to run it, Spyder (recommended) and IPython (same as Wakari, but on your computer):     
 
-* Spyder. Our preferred method.  
-  We'd like to say:  
-  Start it up as you would any program.  
-  That's intentionally glib, we've had difficulty finding the on button in some environments, 
-  but there's no one-size-fits-all solution, every operating system is different.  
+* **Spyder!!!** 
+  You might guess from the exclamation points that this is our preferred method.  And it is.  
+  We'd like to say:  "Start it up as you would any program" but we haven't found it that easy.    
+  In some environments we've had difficulty finding the on button, perhaps through our own incompetence. 
+  There doesn't seem to be a one-size-fits-all solution, every operating system is different.  
   In Windows 7, for example, installation usually puts a Spyder icon on the desktop. 
   Click on it and you're good to go.  
   In Windows 8.1, we managed to locate Spyder in the apps, but it's well hidden and took us a while.  
 
   Once you get Spyder running, you'll have a pretty standard graphical user interface, 
   similar to what you'd have with Matlab or R (RStudio, for example).  
-  There's an editor, typically on the left, where you can write and edit code.  
+  There's an editor on the left, where you can write and edit code.  
   There are buttons at the top for running it.  
-  There's an IPython console where you can try out commands or ask for help.  
-  We'll do a lot of this, but not right now.    
+  There's an IPython console where you can try out commands or get help.  And so on.
+  More later.  
 
-* IPython.  To create or run an IPython Notebook, you need to do something like:  
+* *IPython.*  To create or run an IPython notebook, you need to do something like:  
   go to the command line and type 'ipython notebook'. 
   This will open a tab in your browser where you can write and execute IPython notebooks. 
   The opening screen is a directory, but you can open a new or old notebook 
   and navigate through the directory and save it wherever you like.  
-  It will look just like Wakari,  
+  It will look like Wakari,  
   but you'll be running IPython on your computer with whatever version of Python you have installed.  
   As with Spyder, getting it going is harder in some systems than others.  Good luck!  
 
@@ -136,7 +136,7 @@ Wordplay
 
 Python is named for Monty Python.  
 Idle, a well-know Python editor, is a reference to Eric Idle.  
-The `Python Package Index <https://pypi.python.org/pypi>_, a repository of packages, 
+The `Python Package Index <https://pypi.python.org/pypi>`_, a repository of packages, 
 is commonly known as the 
-`CheeseShop <http://youtu.be/PPN3KTtrnZM>`_.  
+`Cheese Shop <http://youtu.be/PPN3KTtrnZM>`_.  
 Anaconda is, of course, a play on the snake theme.   

@@ -38,8 +38,8 @@ packages (add-ons) aimed at stats work.
 It's a great program, and it does lots of things, 
 but it's not a general-purpose programming language. 
 If you want to try it out, let us know, we can point you to some resources.  
-``This one <http://www-bcf.usc.edu/~gareth/ISL/>`_, for example, 
-combines R with a terrific introduction to modern statistical methods.  
+`This one <http://www-bcf.usc.edu/~gareth/ISL/>`_, for example, 
+combines R with an introduction to modern statistical methods.  
 
 
 That leaves us with Python.  

@@ -7,15 +7,27 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.rst",
+			"settings":
+			{
+				"buffer_size": 6739,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 81.0,
 		"selected_items":
 		[
+			[
+				"pyth",
+				"Set Syntax: Python"
+			]
 		],
-		"width": 0.0
+		"width": 392.0
 	},
 	"console":
 	{
@@ -32,6 +44,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/dbackus/AppData/Local/Continuum/Anaconda3/Scripts/ghp-import",
 		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp/docs/python0.rst",
 		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp/docs/basics.rst",
 		"/C/Users/dbackus/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
@@ -39,7 +52,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -53,6 +66,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"git"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -70,8 +84,35 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.rst",
+					"settings":
+					{
+						"buffer_size": 6739,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1291,
+								1291
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/RestructuredText/reStructuredText.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2059.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],

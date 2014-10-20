@@ -38,6 +38,8 @@ packages (add-ons) aimed at stats work.
 It's a great program, and it does lots of things, 
 but it's not a general-purpose programming language. 
 If you want to try it out, let us know, we can point you to some resources.  
+`This one <http://www-bcf.usc.edu/~gareth/ISL/>`_, for example, 
+combines R with an introduction to modern statistical methods.  
 
 
 That leaves us with Python.  
@@ -55,6 +57,11 @@ Another is using it to
 Thanks to 
 `AQR and others <http://pandas.pydata.org/community.html#history-of-development>`_, 
 the data analytic toolsets in Python now rival stat-focused languages like R.   
+
+That's our opinion anyway, but see also
+`this discussion <http://quant-econ.net/about_lectures.html#how-about-other-languages>`_ 
+from Sargent and Stachurski.  
+
 
 
 Before the first class
