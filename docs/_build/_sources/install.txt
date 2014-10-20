@@ -1,3 +1,5 @@
+.. _tut-install: 
+
 -----------------
 Installing Python
 -----------------
@@ -5,6 +7,9 @@ Installing Python
 There are lots of ways to use Python, but we recommend two.  
 Don't get cute, just follow these directions.  
 
+
+
+.. _tut-wakari:  
 
 Python on the cloud
 ^^^^^^^^^^^^^^^^^^^
@@ -32,13 +37,16 @@ If you'd like to give Wakari a try, set up an account.
 It's pretty close to self-explanatory. 
 
 
+.. _tut-anaconda 
+
 Python on your computer
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 We prefer this, but it's trickier to set up.  
 Here's what's involved:  
 
-**Step 1. Download and install the Anaconda distribution of Python.**  
+*Step 1. Download and install the Anaconda distribution of Python.*
+
 Anaconda is a combination of 
 basic Python and toolsets called packages -- what aficionados call a "code distribution."  
 Anaconda has all the basics and covers almost all of what we plan to do.  
@@ -63,7 +71,8 @@ TO install it, follow these steps:
 * *Install Python.*  Once you've downloaded the installer, click on it and follow the instructions.  
   This is no different from any other installation you've done.  
 
-**Step 2:  Run Python.** 
+*Step 2:  Run Python.*
+
 You should now have Python on your computer.  
 There are two ways to run it, Spyder (recommended) and IPython (same as Wakari, but on your computer):     
 
@@ -93,36 +102,8 @@ There are two ways to run it, Spyder (recommended) and IPython (same as Wakari, 
   As with Spyder, getting it going is harder in some systems than others.  Good luck!  
 
 
-Free advice 
-^^^^^^^^^^^
-
-And worth what you paid for it!  
-
-There's a steep learning curve at the start of any effort like this.  
-You'll get through it, but it takes patience and persistence.  
-Some suggestions:  
-
-**Take your time.**  This won't happen overnight.  But it won't take weeks, either, 
-before you're doing cool things.  
-
-**Work with others.**  This is much easier to do if you have friends doing the same thing.  
-Or even better, friends who are ahead of you.  You'll probably find that you need a lot of help at the start, 
-but once you get going you'll be able to help yourself.  
-
-**Google fu.**  Once you've made some progress, you can learn a lot just by Googling your issue.  
-The best links are often the Python documentation (unusually good, on the whole) and 
-`Stack Overflow <http://stackoverflow.com/questions/tagged/python>`_ 
-(the go-to place for code questions).  
-
-**Start from examples.**  The easiest place to start is with programs that work.  
-Start with one  and tweak it till you get what you want.
-Play around with the details and see what happens.    
-The documentation includes lots of examples.  
-And we'll have lots of examples of our own.  
-
-
-References and more   
-^^^^^^^^^^^^^^^^^^^
+References   
+^^^^^^^^^^
 
 `Python tutorial <https://docs.python.org/3/tutorial/introduction.html>`_.
 The basics of the language presented in a user-friendly way.  

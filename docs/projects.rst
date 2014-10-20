@@ -1,9 +1,11 @@
+.. _tut-projects:
+
 ========
 Projects
 ========
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    
 Python -- and computer languages in general -- are tools, 
 and it's hard to know where to start with tools until you have some idea what you want to do with them.  
@@ -62,8 +64,6 @@ Also has a collection of resources.
 
 
 Other suggestions?  
-
-
 
 
 Managing a project

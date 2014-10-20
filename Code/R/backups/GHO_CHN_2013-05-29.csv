@@ -1,0 +1,596 @@
+"Indicator","PUBLISH STATES","Year","WHO region","Country","Age Group","Sex","Display Value","Numeric","Low","High","Comments"
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","<1","Male","
+0.04070
+","0.0407","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","<1","Female","
+0.03942
+","0.03942","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","<1","Both sexes","
+0.04010
+","0.0401","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","1-4","Male","
+0.00271
+","0.00271","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","1-4","Female","
+0.00262
+","0.00262","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","1-4","Both sexes","
+0.00267
+","0.00267","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","5-9","Male","
+0.00103
+","0.00103","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","5-9","Female","
+0.00082
+","8.2E-4","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","5-9","Both sexes","
+0.00093
+","9.3E-4","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","10-14","Male","
+0.00084
+","8.4E-4","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","10-14","Female","
+0.00066
+","6.6E-4","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","10-14","Both sexes","
+0.00076
+","7.6E-4","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","15-19","Male","
+0.00091
+","9.1E-4","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","15-19","Female","
+0.00070
+","7.0E-4","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","15-19","Both sexes","
+0.00081
+","8.1E-4","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","20-24","Male","
+0.00124
+","0.00124","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","20-24","Female","
+0.00100
+","0.0010","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","20-24","Both sexes","
+0.00112
+","0.00112","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","25-29","Male","
+0.00159
+","0.00159","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","25-29","Female","
+0.00128
+","0.00128","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","25-29","Both sexes","
+0.00144
+","0.00144","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","30-34","Male","
+0.00186
+","0.00186","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","30-34","Female","
+0.00146
+","0.00146","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","30-34","Both sexes","
+0.00167
+","0.00167","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","35-39","Male","
+0.00218
+","0.00218","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","35-39","Female","
+0.00160
+","0.0016","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","35-39","Both sexes","
+0.00191
+","0.00191","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","40-44","Male","
+0.00352
+","0.00352","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","40-44","Female","
+0.00247
+","0.00247","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","40-44","Both sexes","
+0.00301
+","0.00301","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","45-49","Male","
+0.00537
+","0.00537","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","45-49","Female","
+0.00382
+","0.00382","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","45-49","Both sexes","
+0.00464
+","0.00464","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","50-54","Male","
+0.00800
+","0.0080","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","50-54","Female","
+0.00564
+","0.00564","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","50-54","Both sexes","
+0.00689
+","0.00689","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","55-59","Male","
+0.01287
+","0.01287","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","55-59","Female","
+0.00883
+","0.00883","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","55-59","Both sexes","
+0.01094
+","0.01094","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","60-64","Male","
+0.02164
+","0.02164","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","60-64","Female","
+0.01490
+","0.0149","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","60-64","Both sexes","
+0.01835
+","0.01835","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","65-69","Male","
+0.03664
+","0.03664","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","65-69","Female","
+0.02509
+","0.02509","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","65-69","Both sexes","
+0.03076
+","0.03076","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","70-74","Male","
+0.05603
+","0.05603","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","70-74","Female","
+0.04048
+","0.04048","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","70-74","Both sexes","
+0.04787
+","0.04787","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","75-79","Male","
+0.09188
+","0.09188","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","75-79","Female","
+0.06810
+","0.0681","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","75-79","Both sexes","
+0.07851
+","0.07851","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","80-84","Male","
+0.14223
+","0.14223","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","80-84","Female","
+0.10731
+","0.10731","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","80-84","Both sexes","
+0.12068
+","0.12068","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","85-89","Male","
+0.21267
+","0.21267","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","85-89","Female","
+0.16510
+","0.1651","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","85-89","Both sexes","
+0.18054
+","0.18054","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","90-94","Male","
+0.30718
+","0.30718","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","90-94","Female","
+0.24800
+","0.248","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","90-94","Both sexes","
+0.26377
+","0.26377","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","95-99","Male","
+0.42857
+","0.42857","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","95-99","Female","
+0.36371
+","0.36371","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","95-99","Both sexes","
+0.37648
+","0.37648","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","100+","Male","
+0.57757
+","0.57757","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","100+","Female","
+0.52080
+","0.5208","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","1990","Western Pacific","China","100+","Both sexes","
+0.52943
+","0.52943","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","<1","Male","
+0.03000
+","0.03","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","<1","Female","
+0.02905
+","0.02905","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","<1","Both sexes","
+0.02957
+","0.02957","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","1-4","Male","
+0.00163
+","0.00163","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","1-4","Female","
+0.00157
+","0.00157","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","1-4","Both sexes","
+0.00160
+","0.0016","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","5-9","Male","
+0.00053
+","5.3E-4","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","5-9","Female","
+0.00043
+","4.3E-4","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","5-9","Both sexes","
+0.00048
+","4.8E-4","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","10-14","Male","
+0.00046
+","4.6E-4","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","10-14","Female","
+0.00035
+","3.5E-4","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","10-14","Both sexes","
+0.00041
+","4.1E-4","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","15-19","Male","
+0.00084
+","8.4E-4","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","15-19","Female","
+0.00059
+","5.9E-4","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","15-19","Both sexes","
+0.00072
+","7.2E-4","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","20-24","Male","
+0.00138
+","0.00138","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","20-24","Female","
+0.00099
+","9.9E-4","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","20-24","Both sexes","
+0.00119
+","0.00119","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","25-29","Male","
+0.00137
+","0.00137","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","25-29","Female","
+0.00096
+","9.6E-4","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","25-29","Both sexes","
+0.00117
+","0.00117","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","30-34","Male","
+0.00154
+","0.00154","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","30-34","Female","
+0.00103
+","0.00103","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","30-34","Both sexes","
+0.00129
+","0.00129","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","35-39","Male","
+0.00217
+","0.00217","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","35-39","Female","
+0.00135
+","0.00135","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","35-39","Both sexes","
+0.00177
+","0.00177","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","40-44","Male","
+0.00319
+","0.00319","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","40-44","Female","
+0.00202
+","0.00202","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","40-44","Both sexes","
+0.00263
+","0.00263","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","45-49","Male","
+0.00400
+","0.0040","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","45-49","Female","
+0.00268
+","0.00268","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","45-49","Both sexes","
+0.00337
+","0.00337","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","50-54","Male","
+0.00702
+","0.00702","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","50-54","Female","
+0.00470
+","0.0047","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","50-54","Both sexes","
+0.00589
+","0.00589","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","55-59","Male","
+0.01202
+","0.01202","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","55-59","Female","
+0.00805
+","0.00805","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","55-59","Both sexes","
+0.01011
+","0.01011","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","60-64","Male","
+0.01896
+","0.01896","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","60-64","Female","
+0.01284
+","0.01284","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","60-64","Both sexes","
+0.01601
+","0.01601","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","65-69","Male","
+0.03178
+","0.03178","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","65-69","Female","
+0.02151
+","0.02151","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","65-69","Both sexes","
+0.02669
+","0.02669","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","70-74","Male","
+0.05416
+","0.05416","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","70-74","Female","
+0.03820
+","0.0382","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","70-74","Both sexes","
+0.04592
+","0.04592","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","75-79","Male","
+0.08834
+","0.08834","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","75-79","Female","
+0.06430
+","0.0643","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","75-79","Both sexes","
+0.07507
+","0.07507","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","80-84","Male","
+0.13202
+","0.13202","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","80-84","Female","
+0.10249
+","0.10249","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","80-84","Both sexes","
+0.11476
+","0.11476","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","85-89","Male","
+0.18621
+","0.18621","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","85-89","Female","
+0.15387
+","0.15387","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","85-89","Both sexes","
+0.16553
+","0.16553","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","90-94","Male","
+0.31091
+","0.31091","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","90-94","Female","
+0.26446
+","0.26446","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","90-94","Both sexes","
+0.27803
+","0.27803","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","95-99","Male","
+0.42721
+","0.42721","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","95-99","Female","
+0.35683
+","0.35683","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","95-99","Both sexes","
+0.37254
+","0.37254","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","100+","Male","
+0.57147
+","0.57147","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","100+","Female","
+0.54298
+","0.54298","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2000","Western Pacific","China","100+","Both sexes","
+0.54800
+","0.548","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","<1","Male","
+0.01291
+","0.01291","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","<1","Female","
+0.01255
+","0.01255","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","<1","Both sexes","
+0.01274
+","0.01274","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","1-4","Male","
+0.00051
+","5.1E-4","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","1-4","Female","
+0.00050
+","5.0E-4","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","1-4","Both sexes","
+0.00051
+","5.1E-4","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","5-9","Male","
+0.00022
+","2.2E-4","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","5-9","Female","
+0.00021
+","2.1E-4","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","5-9","Both sexes","
+0.00021
+","2.1E-4","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","10-14","Male","
+0.00027
+","2.7E-4","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","10-14","Female","
+0.00021
+","2.1E-4","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","10-14","Both sexes","
+0.00024
+","2.4E-4","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","15-19","Male","
+0.00059
+","5.9E-4","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","15-19","Female","
+0.00046
+","4.6E-4","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","15-19","Both sexes","
+0.00053
+","5.3E-4","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","20-24","Male","
+0.00095
+","9.5E-4","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","20-24","Female","
+0.00071
+","7.1E-4","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","20-24","Both sexes","
+0.00084
+","8.4E-4","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","25-29","Male","
+0.00107
+","0.00107","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","25-29","Female","
+0.00082
+","8.2E-4","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","25-29","Both sexes","
+0.00095
+","9.5E-4","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","30-34","Male","
+0.00134
+","0.00134","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","30-34","Female","
+0.00098
+","9.8E-4","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","30-34","Both sexes","
+0.00116
+","0.00116","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","35-39","Male","
+0.00147
+","0.00147","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","35-39","Female","
+0.00102
+","0.00102","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","35-39","Both sexes","
+0.00125
+","0.00125","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","40-44","Male","
+0.00223
+","0.00223","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","40-44","Female","
+0.00151
+","0.00151","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","40-44","Both sexes","
+0.00188
+","0.00188","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","45-49","Male","
+0.00307
+","0.00307","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","45-49","Female","
+0.00220
+","0.0022","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","45-49","Both sexes","
+0.00264
+","0.00264","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","50-54","Male","
+0.00501
+","0.00501","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","50-54","Female","
+0.00365
+","0.00365","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","50-54","Both sexes","
+0.00435
+","0.00435","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","55-59","Male","
+0.00798
+","0.00798","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","55-59","Female","
+0.00564
+","0.00564","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","55-59","Both sexes","
+0.00685
+","0.00685","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","60-64","Male","
+0.01352
+","0.01352","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","60-64","Female","
+0.00963
+","0.00963","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","60-64","Both sexes","
+0.01160
+","0.0116","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","65-69","Male","
+0.02525
+","0.02525","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","65-69","Female","
+0.01755
+","0.01755","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","65-69","Both sexes","
+0.02140
+","0.0214","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","70-74","Male","
+0.04418
+","0.04418","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","70-74","Female","
+0.03174
+","0.03174","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","70-74","Both sexes","
+0.03783
+","0.03783","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","75-79","Male","
+0.06777
+","0.06777","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","75-79","Female","
+0.05060
+","0.0506","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","75-79","Both sexes","
+0.05857
+","0.05857","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","80-84","Male","
+0.11356
+","0.11356","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","80-84","Female","
+0.08768
+","0.08768","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","80-84","Both sexes","
+0.09884
+","0.09884","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","85-89","Male","
+0.15335
+","0.15335","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","85-89","Female","
+0.12557
+","0.12557","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","85-89","Both sexes","
+0.13625
+","0.13625","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","90-94","Male","
+0.31303
+","0.31303","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","90-94","Female","
+0.26505
+","0.26505","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","90-94","Both sexes","
+0.28114
+","0.28114","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","95-99","Male","
+0.44621
+","0.44621","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","95-99","Female","
+0.39911
+","0.39911","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","95-99","Both sexes","
+0.41313
+","0.41313","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","100+","Male","
+0.65233
+","0.65233","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","100+","Female","
+0.59919
+","0.59919","","",""
+"nMx - age-specific death rate between ages x and x+n","Published","2011","Western Pacific","China","100+","Both sexes","
+0.61037
+","0.61037","","",""
+
