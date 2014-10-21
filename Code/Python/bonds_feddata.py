@@ -23,6 +23,7 @@ With help, as always, from Chase Coleman and Spencer Lyon
 Created with Python 3.4 
 """
 import pandas as pd 
+from math import exp
 #import datetime as dt 
 #import os
 #import urllib
@@ -47,14 +48,39 @@ df.head()
 
 # convert to monthly, last obs of month
 # this seems to sort it, too
-resampled_df = df.resample("M", "last")
-resampled_df.head()
-
-#%%
 # http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.sort.html
-resampled_df.sort()
+resampled_df = df.resample("M", "last").sort()
 
 #%%
-df.head()
-
+# creating a one-row DF in order to build the structure for calculating
+# the forward rates and puting them into a graph.
+# Later this will be for the entire resampled_df table
+sample = resampled_df[:1]
+# replacing all empty cells with value 0
+sample = sample.replace('', 0, regex=True)
 #%%
+# this goes through each row of the DF one by one and plugs the values
+# into an equation to determine forward rates while N = 1, 2, 5, 12
+for index, i in sample.iterrows():
+    b0 = i['BETA0']
+    b1 = i['BETA1']
+    b2 = i['BETA2']
+    b3 = i['BETA3']
+    t1 = i['TAU1']
+    t2 = i['TAU2']
+    n_list = [1, 2, 5, 10]
+    forward_rates = []
+    while len(n_list) > 0:
+        n = n_list[0]
+        if b3 > 0 and t2 >0:
+            f_rate = b0 + b1*exp(-n/t1) + b2*(n/t1)*exp(-n/t1)+b3*(n/t2)*exp(-n/t2)
+        else: 
+            f_rate = b0 + b1*exp(-n/t1) + b2*(n/t1)*exp(-n/t1)
+        forward_rates.append(f_rate)
+        n_list.pop(0)
+        print f_rate
+    val1 = 1, forward_rates[0]
+    val2 = 2, forward_rates[1]
+    val3 = 5, forward_rates[2]
+    val4 = 10, forward_rates[3]    
+    

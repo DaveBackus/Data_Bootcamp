@@ -11,7 +11,39 @@
 			"file": "index.rst",
 			"settings":
 			{
-				"buffer_size": 6739,
+				"buffer_size": 6758,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "overview.rst",
+			"settings":
+			{
+				"buffer_size": 2892,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "install.rst",
+			"settings":
+			{
+				"buffer_size": 6937,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "projects.rst",
+			"settings":
+			{
+				"buffer_size": 4748,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "basics.rst",
+			"settings":
+			{
+				"buffer_size": 5021,
 				"line_ending": "Windows"
 			}
 		}
@@ -84,7 +116,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -92,15 +124,15 @@
 					"file": "index.rst",
 					"settings":
 					{
-						"buffer_size": 6739,
+						"buffer_size": 6758,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1291,
-								1291
+								5425,
+								5425
 							]
 						],
 						"settings":
@@ -108,7 +140,114 @@
 							"syntax": "Packages/RestructuredText/reStructuredText.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2059.0,
+						"translation.y": 1506.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "overview.rst",
+					"settings":
+					{
+						"buffer_size": 2892,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2890,
+								2890
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/RestructuredText/reStructuredText.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 495.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "install.rst",
+					"settings":
+					{
+						"buffer_size": 6937,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3187,
+								3187
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/RestructuredText/reStructuredText.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 765.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "projects.rst",
+					"settings":
+					{
+						"buffer_size": 4748,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4329,
+								4329
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/RestructuredText/reStructuredText.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1163.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "basics.rst",
+					"settings":
+					{
+						"buffer_size": 5021,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								783,
+								783
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/RestructuredText/reStructuredText.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 135.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
