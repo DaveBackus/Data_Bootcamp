@@ -11,7 +11,7 @@
 			"file": "index.rst",
 			"settings":
 			{
-				"buffer_size": 6758,
+				"buffer_size": 6952,
 				"line_ending": "Windows"
 			}
 		},
@@ -116,7 +116,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -124,15 +124,15 @@
 					"file": "index.rst",
 					"settings":
 					{
-						"buffer_size": 6758,
+						"buffer_size": 6952,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5425,
-								5425
+								2587,
+								2587
 							]
 						],
 						"settings":
@@ -140,7 +140,7 @@
 							"syntax": "Packages/RestructuredText/reStructuredText.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1506.0,
+						"translation.y": 315.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

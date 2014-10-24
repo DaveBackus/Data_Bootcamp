@@ -7,7 +7,11 @@ Data Bootcamp
 
 **Work in progress, use at your own risk.**
 
-Current version of this material:  http://davebackus.github.io/Data_Bootcamp/ 
+Current version of this material:  http://pages.stern.nyu.edu/~dbackus/bootcamp/
+
+We hope to host this on GitHub but we're not there yet.  
+When we do, the link will be http://davebackus.github.io/Data_Bootcamp/ 
+(What's there now is not up to date.)
 
 We have students every term who would like to get some programming experience, 
 which they think will expand their career opportunities.  
@@ -52,8 +56,8 @@ Testimonials
 Coming... 
 
 
-Questions
----------
+Answers to questions
+--------------------
 
 *Why take this course?*  
 
