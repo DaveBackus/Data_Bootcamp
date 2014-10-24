@@ -15,6 +15,8 @@ x = 2*3
 y = 2**3 
 z = 2/3 
 
+#%%
+
 """
 Strings  
 """
@@ -46,6 +48,7 @@ import pandas as pd
 file = '../Data/test1.csv'
 df = pd.read_csv(file)
 
+#%%
 # some properties
 print(df) 
 print(type(df))
