@@ -1,0 +1,65 @@
+\documentclass[11pt]{article}
+
+\input{../LaTeX/preamble.tex}
+
+% document starts here
+\begin{document}
+\parskip=\bigskipamount
+\parindent=0.0in
+\thispagestyle{empty}
+\input{../LaTeX/header.tex}
+
+\bigskip\bigskip
+\centerline{\Large \bf Data Bootcamp:  Class \#1}
+\centerline{Revised: \today}
+
+
+\section{Overview}
+
+\begin{itemize}
+\item Objective:  Learn enough about Python to do useful things with data.
+\item Team:  Dave Backus, Glenn Okun, Sarah Beckett-Hile, and a rotating group of ninjas.
+\item Trigger warning:  This will take some effort.  Worth it, but not painless.
+\end{itemize}
+
+\section{Today's plan}
+
+\begin{itemize}
+\item Python basics.
+\item Reading csv and xls files.
+\item Projects.
+\item Examples.
+\end{itemize}
+
+\section{Python basics}
+
+\begin{itemize}
+\item Environment:  Python 3.4 in Spyder with IPython console.
+\item Operations:  \verb: 2*3, 2/3, 2^3, 2**3, log(3), etc :
+% http://en.wikibooks.org/wiki/LaTeX/Paragraph_Formatting#Verbatim_text 
+\item Assignments:  {\tt x = 2, y = 3.5, z = x/y, etc }
+\item Comments and print command:  \verb: #, """, print(x), etc. :
+\item Strings:  {\tt a = 'some', b = 'thing', c = a+b, etc.}
+\item Slicing:  find an element of {\tt a}, {\tt a[1], a[0], a[-1], a[:2], etc.} 
+\item {\bf Exercise.}  Set {\tt first} equal to your first name, {\tt last} equal to your last name.
+\begin{enumerate}[label=(\alph*)]
+\item Set {\tt full} equal to your first and last names together with a space between them.
+\item Set {\tt lastfirst} equal to your last name, comma, space, first name.  
+\end{enumerate}
+\item Objects and methods:  Most things are objects (for example, {\tt x, y, first}), 
+methods are things we can do with them.  
+To get a list, type in the IPython console: {\tt object.[tab]}.
+Get 
+\item {\bf Exercise.}  Take {\tt lastfirst} and see what methods are available. 
+\begin{enumerate}[label=(\alph*)]
+\item Use {\tt lastfirst.find} to find the location of the comma and 
+decompose {\tt lastfirst} into {\tt first} and {\tt last}.
+\item Find a method that converts {\it last} to lower case.
+\item Two commands:  {\tt } 
+\end{enumerate}
+\end{itemize}
+
+
+
+
+\end{document}
