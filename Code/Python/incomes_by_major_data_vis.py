@@ -7,6 +7,7 @@ Created on Sun Nov  2 16:40:08 2014
 # documentation for pandas.plot:
 # http://pandas.pydata.org/pandas-docs/dev/generated/pandas.DataFrame.plot.html
 import pandas as pd
+from pylab import savefig
 #%%
 # Import data into dataframe with read_csv:
 df = pd.read_csv('https://raw.githubusercontent.com/fivethirtyeight/data/master/college-majors/recent-grads.csv')
@@ -14,7 +15,7 @@ df = pd.read_csv('https://raw.githubusercontent.com/fivethirtyeight/data/master/
 # sanity check to make sure the import went through ok: 
 df.head()
 #%%
-# everything looks fine, so look at column names (.tolist() isn't necessary but it's so much easier to read)
+# look at column names (.tolist() isn't necessary but easier to read)
 df.columns.tolist()
 
 #%%
@@ -118,7 +119,11 @@ ax5.set_xlabel('Mean of Median Salaries')
 # importing seaborn makes graphs just a little more attractive. You don't have to do anything else after you import it - it just works 
 import seaborn as sns
 #%%
-ax6 = group_df.plot(y = 'Median', kind='barh', colormap='Paired')
+ax6 = group_df.plot(
+    y = 'Median', 
+    kind='barh', 
+    colormap='Paired'
+    )
 ax6.set_xlabel('Mean of Median Salaries')
 #%%
 # but, if you want to change more, you have lots of options with seaborn
@@ -129,15 +134,14 @@ ax7 = group_df.plot(y = 'Median', kind='barh', colormap = 'Paired')
 ax7.set_xlabel('Mean of Median Salaries')
 #%%
 # use grid(False) to get rid of the grid. Use despine() to get rid of the top and right spines
-ax6 = group_df.plot(
+ax8 = group_df.plot(
     y = 'Median', 
     kind='barh', 
     colormap = 'Paired', 
     linewidth = 0
     )
-ax6.errorbar(x=30000, y=10, xerr=5000, fmt='-o')
-ax6.set_xlabel('Mean of Median Salaries')
-ax6.grid(False)
+ax8.set_xlabel('Mean of Median Salaries')
+ax8.grid(False)
 sns.despine()
 #%%
 '''
@@ -162,34 +166,14 @@ sns.set_context('poster')
 sns.boxplot(quartile_df,  vert=False, linewidth=3)
 sns.despine()
 #%%
-# set up different color paletts and set them with color=
-# http://web.stanford.edu/~mwaskom/software/seaborn/tutorial/color_palettes.html
-sns.set_context('talk')
-sns.set_palette('hls')
-sns.boxplot(quartile_df,  vert=False, linewidth = 3)
-sns.despine()
-#%%
-# walk through what's going on here
+# new df, look at just a partiicular major cateogry, segment by major
 hdf = df[df.Major_category == 'Humanities & Liberal Arts'][['Major', 'Median', 'P25th', 'P75th']].set_index('Major').sort().transpose()
 hdf
 #%%
-from matplotlib import pyplot as plt
+# try boxplot from the Pandas package instead of from seaborn to sea how different modules use matplotlib differently
 #%%
 hdf.boxplot(figsize=(4,5), grid=False, vert=False)
-
 #%%
-plt.bar([1,2,3,4], [2,2.5,5,3], bottom=[0,-1,1,2])
-#%%
-group_df.head()
-#%%
-ax6 = group_df.plot(
-    y = 'Median', 
-    kind='barh', 
-    colormap = 'Paired', 
-    linewidth = 0
-    )
-ax6.errorbar(x=30000, y=10, xerr=5000, fmt='-o')
-ax6.set_xlabel('Mean of Median Salaries')
-ax6.grid(False)
-sns.despine()
+path = '/Users/sarahbeckett-hile/Desktop/figure.png'
+savefig(path)
 

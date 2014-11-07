@@ -93,7 +93,7 @@ y_min = floor(min(forward_rate_list)) # floor rounds down
 # (*) To communicate with Plotly's server, sign in with credentials file
 import plotly.plotly as py 
 #%% 
-#py.sign_in("sebecketthile", "a649z2ue29")
+py.sign_in("sebecketthile", "a649z2ue29")
 
 #%%
 

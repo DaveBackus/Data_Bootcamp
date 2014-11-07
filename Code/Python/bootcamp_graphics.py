@@ -56,9 +56,10 @@ year = [2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013]
 
 #%%
 # line plot 
-plt.plot(year, gdp, color='blue', linewidth=2, alpha=0.8) 
-plt.plot(year, pce, color='magenta', linewidth=2)  
-
+plt.plot(year, gdp, color='#ffcc00', linewidth=2, 
+         marker='o', alpha=0.8) 
+plt.plot(year, pce, color='magenta', linewidth=2, alpha=0.5)  
+#%%
 # dress up the figure 
 plt.title('US Real GDP and Consumption') 
 plt.ylabel('Billions of 2009 USD')
@@ -74,9 +75,10 @@ plt.show()                                  # this closes the plot
 # bar charts 
 
 # Example 1 
-plt.bar(year, gdp)                          # bar(x,y) 
+plt.bar(year, gdp)   
+#%%                       # bar(x,y) 
 # prettier version 
-plt.bar(year, gdp, width=0.9, color='blue', align='center', alpha=1)
+plt.bar(year, gdp, width=0.8, color='blue', align='center', alpha=1)
 plt.show()
 
 #%%
