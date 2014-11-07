@@ -1,0 +1,812 @@
+\documentclass[11pt]{article}
+
+\input{../LaTeX/preamble.tex}
+
+% document starts here
+\begin{document}
+\parskip=\bigskipamount
+\parindent=0.0in
+\thispagestyle{empty}
+\input{../LaTeX/header.tex}
+
+\bigskip\bigskip
+\centerline{\Large \bf Data Bootcamp:  Class \#2}
+\centerline{Revised: \today}
+
+
+\begin{comment}
+* Today:  graphics
+* Something to do:  look for cool graphics, think about how you'd do it, also data
+* Warning:  need to work.  Introduce yourself to your neighbor.  Raise your hand if you have trouble.
+* Before we start
+    - start Spyder
+    - download bootcamp_graphics.py
+\end{comment}
+
+
+\section{Course overview}
+
+\begin{itemize}
+\item Objective:  Learn enough about Python to do useful things with data.
+\item Target audience:  Programming newbies.
+Anyone can do this with a little persistence and the help of friends.
+\item Trigger warning:  This will take some effort.  But it's worth it.
+
+\item {\bf Work habits:}
+\begin{itemize}
+\item Advice.  This will seem mysterious at first, but if you stick with it,
+you'll find it starts to look familiar, even make sense.
+\item Practice.  Any time you have something to do with data, try it out in Python.
+Play around.  Have fun!
+\item Friends.  Work with friends, and make new friends who know how to code.
+\item Help.  If you get stuck, ask for help --- from friends,
+from the Bootcamp group (post a problem), Stack Overflow, etc.
+\end{itemize}
+\item Team:  Dave Backus, Glenn Okun, Sarah Beckett-Hile, and a rotating group of ninjas.
+
+\item Resources:
+\begin{itemize}
+\item Bootcamp Group:  \url{https://groups.google.com/forum/#!forum/nyu_data_bootcamp}.
+Post comments and questions here.
+
+\item GitHub repository:  \url{https://github.com/DaveBackus/Data_Bootcamp}.
+All the docs and programs are here.  This document is in the Notes folder.
+
+\item This document:  The online version comes with links.
+\end{itemize}
+
+\end{itemize}
+
+
+\section{Overall plan}
+
+\begin{itemize}
+\item First class:  Python basics, examples.
+\item Today's class:  graphics.
+\item Next (and last class) in two weeks:  data management, SQL
+\item {\bf It's possible we'll run a more formal course in January}
+\end{itemize}
+
+
+\section{Today's plan}
+
+\begin{itemize}
+\item Theme:  graphics.
+\item Standard ``scientific'' packages.
+\item Reminders.
+\item Graphics with Matplotlib: two routes, one destination.
+\item Exercise review (Sarah).
+\end{itemize}
+
+
+\section{Standard packages}
+
+Python is not just a program, it's an open source collection of tools
+that includes both basic
+Python and a collection of packages written by different people.
+The good news is that you can often find a package to do whatever it is
+you want to do.
+The bad news is that there's not necessarily any uniformity or quality control.
+The standard packages --- which we'll talk more about in a minute ---
+are well written, well documented, and have armies of users who spot and correct
+problems.
+Some of the others less so.
+Our suggestion is to stick to the mainstream packages, such as those in the
+\href{http://docs.continuum.io/anaconda/pkg-docs.html}{Anaconda distribution},
+until you're reasonably comfortable with Python.
+
+
+Some of the leading mainstream packages for numerical (``scientific'') computation ---
+ all of which are in the Anaconda --- are
+\begin{itemize}
+\item \href{http://www.numpy.org/}{NumPy}.
+Tools for numerical computing, including linear algebra.
+Compare this to Excel, where the basic unit is a cell, a single number.
+In NumPy the basic unit is a vector (a column) or matrix (a table).
+In this respect, it's a direct competitor to Matlab.
+We won't see much of NumPy here, but it's the foundation for Pandas.
+
+\item \href{http://matplotlib.org/index.html}{Matplotlib}.
+The leading graphics library for Python and our focus today.
+
+\item \href{http://pandas.pydata.org/}{Pandas}.
+Tools for managing and manipulating data.
+The basic unit is a DataFrame, which is a table of data with labels
+for observations and variables.
+If you've used R, you'll be familiar with the idea.
+If not, you'll be familiar with it in a couple weeks.
+We'll touch on this today and spend a fair amount of time with it at
+our next meeting.
+\end{itemize}
+
+We love the term ``wrapper,'' it makes it sound like we know what we're doing.
+It's an informal programming term that means a simplified interface
+for more basic programming functions. Cool, eh?
+Here are some popular wrappers for Matplotlib:
+\begin{itemize}
+\item \href{http://matplotlib.org/users/pyplot_tutorial.html}{Pyplot}.
+This has two interfaces for Matplotlib,
+a simple one similar to Matlab and a more complicated object-oriented one
+(which means we'll use objects and methods).
+We'll describe both.
+
+\item \href{http://web.stanford.edu/~mwaskom/software/seaborn/}{Seaborn}.
+Another interface for Matplotlib.  Not part of the Anaconda distribution,
+but it seems to us to have some potential.
+Take a look at the examples, see what you think.
+
+\item \href{http://wiki.scipy.org/PyLab}{PyLab}.
+A combination of (basically) NumPy and Pyplot designed to replace Matlab.
+Convenient if you're familiar with Matlab, probably not otherwise.
+The
+\href{http://matplotlib.org/dev/faq/usage_faq.html#matplotlib-pylab-and-pyplot-how-are-they-related}
+{Matplotlib FAQ}
+adds:  ``it is no longer recommended.''
+
+\end{itemize}
+We'll use Pyplot today.
+And Sarah may use Seaborn when she goes through last week's exercise.
+
+
+\section{Reminders}
+
+\begin{itemize}
+\item Environment:  Python 3.4 in Spyder.
+\item Assignments, strings, lists, slicing:
+\begin{verbatim}
+x, y, z = 2*3, 2**3, 2/3    # yes, three at once!
+a, b = 'some', 'thing'
+c = a + b
+
+numbers = [x, y, z]
+strings = [a, b, c]
+all = numbers + strings
+print(all)
+print([type(all), all[:3], all[3:])
+\end{verbatim}
+
+\item Objects and methods.  Most of the things we've seen are objects:  {\tt x, a, all}, etc.
+They have methods defined for them -- useful things you can do with them.
+For more on the methods available for the object {\tt all},
+go to the IPython console and type {\tt all.[tab]}.
+We call this ``tab completion.''
+For more on a specific method called {\tt foo},
+go to the Object explorer and type {\tt all.foo}.
+
+\item Reading csv files.
+This was part of last week's assignment:
+\begin{verbatim}
+import pandas as pd
+url1 = 'https://raw.githubusercontent.com/fivethirtyeight/data/master/'
+url2 = 'college-majors/recent-grads.csv'
+df = pd.read_csv(url1+url2)
+\end{verbatim}
+What is {\tt df}?  What's in it?
+\begin{verbatim}
+properties = [type(df), df.columns, df.index, df.shape, df.head()]
+for property in properties :
+    print(property, end='\n\n')
+\end{verbatim}
+Use tab completion to find more.
+
+
+\item {\bf Exercises.}
+\begin{itemize}
+\item How do we find the first item in the list {\tt all}?  The last?
+\item What is {\tt len(all)}?  
+\item How do we find the third column name in {\tt df}?  What is it?
+\end{itemize}
+
+\end{itemize}
+
+
+\section{Graphics overview}
+
+Graphics are horrendously complicated.  Programs like Excel
+do their best to hide this fact, but if you ever try to customize
+a chart it quickly rears its ugly head.
+A graph might include, for example:  the type (line, bar, etc);
+the color and thickness of lines, bars, or markers;
+title and axis labels;
+their location, fonts, and font sizes;
+tick marks (location, size);
+background color;
+and so on.
+
+Matplotlib gives you control over all of these things and more ---
+but it's complicated, there are lots of moving parts.
+The set of defaults is collected in what they call the
+{\tt matplotlibrc} file, and
+\href{http://matplotlib.org/1.4.0/users/customizing.html}{it's enormous}.
+That's why people have come up with simpler interfaces,
+Pyplot and Seaborn among them.
+
+Bottom line:  Graphics are complicated, but that's the nature of the beast,
+not something specific to Python.
+What Python gives you is total control.
+As always, you should start simple, work up to more complicated things gradually.
+
+
+\section{Pyplot's simple interface}
+
+\begin{itemize}
+\item Overview.  Pyplot is a module of Matplotlib.
+Here we'll use its simple interface.
+It looks like Matlab, but if that means nothing to you forget we said it.
+Either way, it's a good place to start.
+
+\item References:
+\begin{itemize}
+\item Matplotlib's
+\href{http://matplotlib.org/users/pyplot_tutorial.html}{Pyplot tutorial}.
+(This is excellent, check it out.)
+\item Matplotlib's
+\href{http://matplotlib.org/gallery.html}{gallery of examples}.
+Graphs along with the code that produced them, a great place to start.
+\item Sargent and Stachurski's ``Quantitative Economics,''
+the section on
+\href{http://quant-econ.net/py/matplotlib.html}{Matplotlib}.
+Good, but a little terse for our taste.
+\end{itemize}
+
+\item Line plots.
+Here we take 11 years of annual US GDP data and plot it against time.
+Also consumption (``personal consumption expenditures''), so that we can
+show how to add a second line to a graph.
+We put all of these things, plus time, in lists and go to work:
+\begin{verbatim}
+import matplotlib.pyplot as plt     # import pyplot module
+
+# data
+gdp  = [13271.1, 13773.5, 14234.2, 14613.8, 14873.7, 14830.4, 14418.7,
+        14783.8, 15020.6, 15369.2, 15710.3]
+pce  = [8867.6, 9208.2, 9531.8, 9821.7, 10041.6, 10007.2, 9847.0, 10036.3,
+        10263.5, 10449.7, 10699.7]
+year = [2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013]
+
+# plot
+plt.plot(year, gdp)         #  plot(x,y)
+\end{verbatim}
+We can do lots of things to dress up the plot.
+Here are some examples, but find your own with {\tt plt.[tab]}:
+\begin{verbatim}
+plt.plot(year, pce, color='magenta', linewidth=2)  # add another line
+plt.title('US Real GDP and Consumption')    # title
+plt.ylabel('Billions of 2009 USD')          # y axis label
+plt.legend(('GDP', 'Consumption'), loc=0)   # legend
+plt.text(2010, 14000, 'GDP')                # add text at specific location
+plt.text(2010, 9200, 'Consumption')         # same again
+plt.ylim((0, 16000))                        # change y axis limits
+plt.tick_params(length=6, width=2, colors='red')    # yikes!
+plt.savefig('bootcamp_test.pdf')            # export as (in this case) pdf
+plt.show()                                  # close plot
+\end{verbatim}
+
+\item {\bf Exercise.} Run the basic plot GDP on your computer and
+\begin{itemize}
+\item Change the color of the GDP line to green.
+\item Add a marker.
+\item Left-justify the title.
+\item Extra credit.  Change the title's font size to 20.
+\item More extra credit.  What does the {\tt plot} argument {\tt alpha=0.5} do?
+\end{itemize}
+
+
+\item Bar charts.
+We'll work with two examples here.
+The first is to express our line plot of US GDP as a bar chart.
+We do that with the command:
+\begin{verbatim}
+plt.bar(year, gdp)                          # bar(x,y)
+\end{verbatim}
+This isn't the most attractive bar chart in the world, but it works.
+Here's an example that looks better:
+\begin{verbatim}
+plt.bar(year, gdp, width=0.9, color='blue', align='center', alpha=0.7)
+plt.show()
+\end{verbatim}
+
+
+Here's another example, a standard chart in the MBA Global Economy class.
+The difference here is that one axis is a country, which is not numerical data.
+(There's a similar
+\href{http://matplotlib.org/examples/lines_bars_and_markers/barh_demo.html}{example}
+in the Matplotlib gallery.)
+Here's the data:
+\begin{verbatim}
+codes     = ['USA', 'FRA', 'JPN', 'CHN', 'IND', 'BRA', 'MEX']
+countries = ['United States', 'France', 'Japan', 'China', 'India',
+             'Brazil', 'Mexico']
+gdppc     = [53.1, 36.9, 36.3, 11.9, 5.4, 15.0, 16.5]
+\end{verbatim}
+Now think about constructing a bar chart.
+The Pyplot command is {\tt bar},
+which works just like {\tt plot}:  the first two arguments
+are the x and y axes.
+Here there's no obvious x axis --- the country codes and names won't work ---
+so we need to make one.
+These two lines (i)~make up a counter of the same length as {\tt gdppc}
+that we can use
+and (ii)~generate a bar chart.
+\begin{verbatim}
+other_axis = range(len(gdppc))
+print(other_axis)
+plt.bar(other_axis, gdppc, align='center')
+\end{verbatim}
+This isn't the most elegant chart you'll see, but it's functional.
+
+You might stop here and think:  What would you do to dress this chart up,
+make it more attractive and compelling?
+
+Here are some examples that might get you started:
+\begin{verbatim}
+plt.xticks(other_axis, codes, fontsize=12)
+plt.xlim((-0.75, 6.75))
+plt.ylabel('GDP Per Capita (thousands of USD)')
+plt.title('GDP Per Capita', fontsize=16, loc='left')
+\end{verbatim}
+What do you think?  What would you add?
+
+\item Horizontal bar charts.
+The same chart looks better if we rotate it.
+That's easily done by replacing the command {\tt bar} with {\tt barh}.
+Even better, we now have room to add the country names, not just the three-letter
+country codes.
+\begin{verbatim}
+plt.barh(other_axis, gdppc, align='center', alpha=0.7)
+plt.ylim((-0.6, 6.6))
+plt.yticks(other_axis, countries, fontsize=14)
+\end{verbatim}
+
+\end{itemize}
+
+
+
+\section{Pyplot's object-oriented interface}
+
+\begin{itemize}
+\item Overview.
+This is close to classic Matplotlib,
+which is said to give you greater flexibility and control.
+You'll have to decide for yourself whether it's worth it.
+Eventually yes, but it probably makes sense to start with simple interface.
+We'll go through this at high speed to give you a sense
+of the syntax.
+
+\item References:
+\begin{itemize}
+\item \href{http://matplotlib.org/index.html}{Matplotlib}
+doesn't have a tutorial.
+The documentation sends you to the gallery of examples and outside sources.
+\item Sargent and Stachurski's ``Quantitative Economics'' is pretty good, if a little terse.
+See the section on
+\href{http://quant-econ.net/py/matplotlib.html}{Matplotlib}.
+\end{itemize}
+
+\item Basic syntax.  A typical graph has commands like these:
+\begin{verbatim}
+import matplotlib.pyplot as plt
+fig, ax = plt.subplot()
+\end{verbatim}
+{\tt fig} and {\tt ax} here are variable names;
+we can call them anything we want, but these are standard.
+{\tt fig} is referred to as a figure object, it controls the overall figure area.
+If we stop here, we just get a blank box.
+{\tt ax} is referred to as an axis object,
+ it controls the content of the figure.
+ We'll give some examples below.
+
+\item Line plots.  We'll start with the same data we used earlier:
+\begin{verbatim}
+gdp  = [13271.1, 13773.5, 14234.2, 14613.8, 14873.7, 14830.4, 14418.7,
+        14783.8, 15020.6, 15369.2, 15710.3]
+pce  = [8867.6, 9208.2, 9531.8, 9821.7, 10041.6, 10007.2, 9847.0, 10036.3,
+        10263.5, 10449.7, 10699.7]
+year = [2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013]
+\end{verbatim}
+To generate a plot of US real GDP, we apply the method {\tt plot}
+to {\tt ax} much as we did before:
+\begin{verbatim}
+fig, ax = plt.subplots()                    # sets up single plot
+ax.plot(year, gdp, color='blue', linewidth=2, alpha=0.8)
+plt.show()                                  # closes plot
+\end{verbatim}
+
+\item Multiple plots.
+\begin{verbatim}
+fig, ax = plt.subplots(nrows=2, ncols=1, sharex=True)
+# first figure
+ax[0].plot(year, gdp, color='blue', linewidth=2, alpha=0.8)
+ax[0].text(2010, 14000, 'GDP')
+# second figure
+ax[1].plot(year, pce, color='magenta', linewidth=2, alpha=0.8)
+ax[1].text(2010, 9200, 'Consumption')
+plt.show()
+\end{verbatim}
+
+\item {\bf Exercise.}
+Convert the double line plot above to bar charts.
+
+
+\end{itemize}
+
+
+
+\section{Before the next class}
+
+{\bf Exercise.}
+Randy Olson has a
+\href{http://www.randalolson.com/2014/06/28/how-to-make-beautiful-data-visualizations-in-python-with-matplotlib/}
+{nice blog post} (search ``randy olson beautiful'')
+about creating effective graphics.
+He starts with this gif:
+\url{http://gfycat.com/ImprobableFemaleBasenji}.
+Skim his post, play the gif, and
+%
+\begin{itemize}
+\item  Write a Python script that recreates the data in the figure,
+both numbers and labels.
+(There are only a few points, you can just type them into lists.)
+\item Approximate the various graphs using Matplotlib.
+\item Play around with the graphics parameters.
+What is the best graph you can produce?
+What do you like about it?
+\item Variant:  Do the same with our GDP per capita bar charts.
+\end{itemize}
+
+
+\section*{Today's code}
+
+Attached.  Download this pdf file, open in Adobe Acrobat or the equivalent,
+and click on the pushpins:
+\attachfile{../Code/Python/bootcamp_graphics.py}
+
+Also here:
+{\small
+\verbatiminput{../Code/Python/bootcamp_graphics.py}
+}
+
+
+\end{document}
+
+
+\section{Python basics}
+
+\begin{itemize}
+\item Environments:  Python 3.4 in Spyder, editor, IPython console.
+\item Reference:
+{Python tutorial},
+\href{https://docs.python.org/3.4/tutorial/introduction.html}{Section 3}.
+
+\item Operations:  \verb: 2*3, 2 * 3, 2/3, 2^3, 2**3, log(3), etc :
+% http://en.wikibooks.org/wiki/LaTeX/Paragraph_Formatting#Verbatim_text
+
+\item Assignments:  {\tt x = 2, y = 3.5, z = x/y, etc }
+\item Comments and {\tt print}:  \verb:#, """, #%%, print(x), etc. :
+\item Strings:  {\tt a = 'some', b = 'thing', c = a+b, d = '11.32', etc.}
+
+\item Two commands,  {\tt len} and {\tt type}:
+{\tt len(first), len(x), type(first), type(x)}.
+
+\item Slicing.  Find an element of {\tt a}: {\tt a[1], a[0], a[1:3], a[-1], a[:2], a[1] = 'z', etc.}
+
+\item {\bf Exercise.}  Set {\tt first} equal to your first name, {\tt last} equal to your last name.
+\begin{enumerate}[label=(\alph*)]
+\item Set {\tt full} equal to your first and last names together with a space between them.
+\item Set {\tt lastfirst} equal to your last name, comma, space, first name.
+\end{enumerate}
+
+\item Objects and methods.
+Most things in Python are {\bf objects}
+(for example, {\tt x, z, first}).
+{\bf Methods} are ready-to-go things we can do with them.
+The available methods depend on the object.
+To get a list of available methods for a given object,
+type in the IPython console: {\tt object.[tab]}.
+When you find a method you're interested in,
+go to Spyder's Object explorer
+and type {\tt object.method} for a description and syntax.
+Examples:  \verb:first.find('a'), x.is_integer():.
+
+\item {\bf Exercise.}  Take {\tt lastfirst} and see what methods are available.
+\begin{enumerate}[label=(\alph*)]
+\item Use {\tt lastfirst.find} to find the location of the comma and
+decompose {\tt lastfirst} into {\tt first} and {\tt last}.
+\item Find a method that converts {\tt last} to all lower case.
+\end{enumerate}
+
+\item Lists: collections of things, possibly different, defined by square brackets
+{\tt []} with commas between items.
+Slicing conventions similar to strings.
+Examples:  {\tt numbers = [x, y, z], type(numbers),
+print(numbers),
+strings = [a, b, c, d],
+all = numbers + strings, type(all),
+print(all),
+all[0], all[-1], all[3:], etc.}
+
+\end{itemize}
+
+
+\section{Inputting data}
+\begin{itemize}
+\item Packages:  Collections of commands that do more than basic Python.
+There are packages that do almost anything, but we'll focus on a couple:
+Matplotlib and pandas.  Matplotlib is a graphics package, we'll talk about it
+another time.
+We touch on pandas --- briefly --- below.
+
+In Python --- and many other languages --- we need to tell Python to make them available.
+Here are some options for doing this with a mythical package {\tt xyz}:
+\begin{itemize}
+\item {\tt from xyz import *}.
+This imports all the commands from the package {\tt xyz}.
+You can replace the star
+with specific commands and import only them.
+A command {\tt foo} is then executed by typing {\tt foo}.
+\item {\tt import xyz}.  This imports the whole thing.
+A command {\tt foo} is then executed by adding {\tt xyz.}
+(note the period) before its name:  {\tt xyz.foo}.
+\item {\tt import xyz as x} is the most common syntax.
+It allows the shorthand {\tt x.foo}.
+We'll do this momentarily with the package {\tt pandas}.
+\end{itemize}
+For more, see the
+\href{https://docs.python.org/3.4/tutorial/modules.html}{Section 6}
+of the Python tutorial.
+This refers to modules, which could be packages, subsets of packages, or even
+code you've written yourself.
+
+\item The pandas package:  pandas = (Python Data Analysis Library).
+This is the central package for data work,
+it allows you to use Python for data management along similar
+lines to the program R.
+We'll import it typically with the command {\it import pandas as pd}
+and execute commands with syntax of the form {\t pd.command}.
+
+\item Reference:  pandas has the usual high-quality
+{documentation}
+we expect from Python packages.
+Search ``python pandas'' or go to
+\url{http://pandas.pydata.org/}.
+We'll focus here on the input-output tools:
+\url{http://pandas.pydata.org/pandas-docs/stable/io.html}.
+
+\item Reading csv files.  We've found that csv files
+are the most useful data format, far better than xls or xlsx.
+Its simple structure (entries separated by commas or similar) allows easy and rapid input.
+That's a general statement, not a statement about Python.
+
+Suppose you have (as we do) a csv file in a parallel directory {\tt Data}.
+Then we can read it with the \verb:read_csv: command in pandas:
+\begin{verbatim}
+import pandas as pd
+file = '../Data/test1.csv'
+df = pd.read_csv(file)
+\end{verbatim}
+This reads the file {\tt test1.csv} into {\tt df}.
+If you try {\tt type(df)} you'll find that {\tt df} is a DataFrame,
+the standard object type in pandas.
+Some of the methods you could try:
+{\tt df.columns} (the column labels),
+{\tt df.index} (the row labels),
+{\tt df.head(2)} (the top two rows),
+and {\tt df.tail(2)} (the bottom two rows).
+There are only three rows in this one, so you could simply
+print the whole thing, but with large data sets this is very useful.
+
+{\bf Comment.}
+The tricky part of this is setting the working directory:
+where Python looks for things.
+More on that another time.
+% ??
+
+
+\item Reading csv's from url's.
+Even better, {\tt read\_csv} also reads from url's.
+The same file is in our GitHub repository (talk about how to find it,
+and the Raw button).
+We can read it with
+\begin{verbatim}
+import pandas as pd     # this is redundant if we've already imported it
+url = 'https://raw.githubusercontent.com/DaveBackus/Data_Bootcamp/master/Code/Data/test1.csv'
+df = pd.read_csv(url)
+\end{verbatim}
+Or we could read the World Economic Outlook (WEO) database from the IMF.
+This reads in the whole thing:
+\begin{verbatim}
+url = 'http://www.imf.org/external/pubs/ft/weo/2014/01/weodata/WEOApr2014all.xls'
+weo = pd.read_csv(url, sep='\t')    # tab = \t
+\end{verbatim}
+%{\bf Exercise.}
+Try this and list the contents.
+What does the file look like?
+
+\item Spreadsheets.  They have a more complex structure and the possibility
+of more than one sheet.
+Here's an example that reads in the first sheet:
+\begin{verbatim}
+file = '../Data/test2.xlsx'
+xls = pd.read_excel(file)       # default is first sheet
+\end{verbatim}
+% ***********  ?? more at some point
+
+
+\item Copying from url's.
+Here's an example that copies a file from a url:
+\begin{verbatim}
+import urllib.request           # this is a module from the package urllib
+file = 'foo.csv'
+url = 'https://raw.githubusercontent.com/DaveBackus/Data_Bootcamp/master/Code/Data/test1.csv'
+urllib.request.urlretrieve(url, file)
+\end{verbatim}
+This way you can copy the file to your own computer and read it in from there.
+This does the same thing, courtesy of Sarah:
+\begin{verbatim}
+f = urllib.request.urlopen(url)
+file = 'foo_sbh.csv'
+with open(file, 'wb') as local_file:
+    local_file.write(f.read())
+\end{verbatim}
+
+\item {\bf Exercise.}  Create a spreadsheet and save it as both csv and xlsx.
+Write code to read them into Python.
+
+
+\item Zip files.  The {\tt zipfile} module (part of basic Python)
+lets you do whatever you want with zip files.
+Some examples:
+\begin{verbatim}
+import pandas as pd
+import urllib
+import zipfile
+import os
+
+url  = 'http://databank.worldbank.org/data/download/WDI_csv.zip'
+file = os.path.basename(url)            # strip out file name
+urllib.request.urlretrieve(url, file)   # copy to disk
+
+# see what's there
+print(['Is zipfile?', zipfile.is_zipfile(file)])
+zf = zipfile.ZipFile(file, 'r')
+print('List of zipfile contents (two versions)')
+[print(file) for file in zf.namelist()]
+zf.printdir()
+
+# extract a component
+csv = zf.extract('WDI_Data.csv')        # copy to disk
+df1 = pd.read_csv('WDI_Data.csv')       # read
+print(df1.columns)                      # check contents
+
+# alternative:  open and read
+csv = zf.open('WDI_Data.csv')
+df2 = pd.read_csv(csv)
+print(df3.columns)
+\end{verbatim}
+For more, see the section of the Python tutorial that describes the
+\href{https://docs.python.org/3.4/library/zipfile.html#module-zipfile}{zipfile module}.
+
+\end{itemize}
+
+\section{Projects}
+
+
+It's best to have a goal, something you're working toward.
+Might be something you can show potential employers to
+demonstrate your skill set.
+
+
+\section{Examples}
+
+These illustrate some of the possibilities of Python
+with data that's available free from online sources.
+This goes beyond what we've learned so far, but gives you a sense
+of what we'll be doing.
+Some examples:
+\begin{itemize}
+\item FRED.  Great online source of macroeconomic data.
+\item Fama-French.  Great source of equity returns on portfolios sorted by type and industry.
+Used to illustrate boxplots.
+\item World Bank.  Country indicators. Used to illustrate bubble plot (scatter plot with third variable
+indicated by size of ``bubble'').
+\end{itemize}
+See the code for details.
+We're still working on Yahoo's Options data,
+which went from working to not working in the last week.
+
+What examples would you like to see?
+Tell us, or post a suggestion on the Group.
+
+
+\section{Coming attractions}
+
+In the works:
+\begin{itemize}
+\item Basic programming tools:  control flow, functions.
+\item Data:  the pandas package.
+\item Graphics:  the Matplotlib package.
+\end{itemize}
+
+If there's interest:
+\begin{itemize}
+\item SQL databases.
+\item Scraping data from websites.
+\item Interactive web graphics:  Plot.ly and Google charts.
+\item Anything else?
+\end{itemize}
+
+\section{Before the next class}
+
+\begin{itemize}
+\item Play around with Python.
+Play around with some of the code snippets you've seen.
+Experiment with new methods.
+Try to read data you're using for other purposes.
+Run programs you find in the documentation.
+
+\item Think about projects.
+Skim through our list of projects and data sources, see if anything crosses your mind.
+Or ask your employer.  Or anywhere else you find data.
+
+\item Do the assignment below.  Really, give it a try.  Tell us what undergrad major pays the most.
+Think about graphics you can use to make the case.
+Bounce around ideas for a (small) project of your own.
+
+\item Get help when you need it.
+If you get stuck, ask friends for help, or post a question on the Google Group.
+Uee StackOverflow rules if possible:  include a self-contained example of your problem, code that others can fix.
+
+\item {\bf Exercise.}
+Read the article from the FiveThirtyEight (first link below) about income
+by college major of recent graduates.
+It takes data from a survey run by the US government (the American Community Survey) and
+produces figures summarizing the salaries of students who majored in
+various subjects.  They've kindly posted the data online --- also the R
+code --- in the second link.
+
+Your mission:
+
+(a) Read the data in the file {\tt recent-grads.csv} in the 538 GitHub
+repository (link below).
+You should be able to read it into Python straight from the url.
+Make sure you use the link from the Raw file.
+How many data points do you have?  How many
+variables?
+
+(b) Think about graphs you'd like to see, whether in the article or
+not.  You could, for example, look through the Matplotlib gallery
+(link below) and see if there are any graph types that you think you
+could use to present this data effectively.
+
+(d) If you're feeling brave, produce a graph of your own.  We haven't
+talked much about graphics yet, so if you get stuck, ask questions or stop.
+
+{\it Links\/} \\
+Article:  \url{http://fivethirtyeight.com/features/the-economic-guide-to-picking-a-college-major/} \\
+Code and data:
+\url{https://github.com/fivethirtyeight/data/tree/master/college-majors} \\
+Gallery:  \url{http://matplotlib.org/1.2.1/gallery.html}
+
+
+\end{itemize}
+
+%\pagebreak
+\section*{Python code}
+
+Attached.  Download this pdf file, open in Adobe Acrobat or the equivalent,
+and click on the pushpins:
+\attachfile{../Code/Python/bootcamp_basics.py}
+\attachfile{../Code/Python/bootcamp_examples.py}
+
+\subsection*{Basics}
+{\small
+\verbatiminput{../Code/Python/bootcamp_basics.py}
+}
+
+\subsection*{Examples}
+
+{\small
+\verbatiminput{../Code/Python/bootcamp_examples.py}
+}
+
+\end{document}

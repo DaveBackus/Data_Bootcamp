@@ -14,22 +14,34 @@
 \centerline{Revised: \today}
 
 
-\section{Overview}
+\section{Course overview}
 
 \begin{itemize}
 \item Objective:  Learn enough about Python to do useful things with data.
-\item Target audience:  programming newbies.  Really,
-anyone can do with with a little persistence.
+\item Target audience:  Programming newbies.
+Anyone can do this with a little persistence and the help of friends.
 \item Trigger warning:  This will take some effort.  Worth it, but not painless.
 \item Team:  Dave Backus, Glenn Okun, Sarah Beckett-Hile, and a rotating group of ninjas.
-
+\item High-level languages:
+\href{http://en.wikipedia.org/wiki/Python_(programming_language)}{Python},
+\href{http://en.wikipedia.org/wiki/R_(programming_language)}{R},
+and
+\href{http://en.wikipedia.org/wiki/MATLAB}{Matlab}.
+We think Python is the tool of choice.
+It's a general purpose program, which means it has more flexibility than the others,
+and it's gradually building up comparable or better functionality in specific areas we care about:
+graphics, data management, and so on.
+And it's free.
 \item Resources:
 \begin{itemize}
-\item GitHub repository:  \url{https://github.com/DaveBackus/Data_Bootcamp}
-\item Bootcamp Group:  \url{https://groups.google.com/forum/#!forum/nyu_data_bootcamp}
-\item This document:  \url{https://www.dropbox.com/s/k2g1tdxj100a4sw/mini_class1.pdf?dl=0}
+\item Bootcamp Group:  \url{https://groups.google.com/forum/#!forum/nyu_data_bootcamp}.
+
+\item GitHub repository:  \url{https://github.com/DaveBackus/Data_Bootcamp}.
+(This document is in the Notes folder.)
+
 \end{itemize}
 \end{itemize}
+
 
 \section{Today's plan}
 
@@ -44,20 +56,24 @@ anyone can do with with a little persistence.
 
 \begin{itemize}
 \item Environments:  Python 3.4 in Spyder, editor, IPython console.
-\item Reference:
-\href{https://docs.python.org/3.4/tutorial/introduction.html}{Python tutorial},
-Section 3.
-\item Operations.  Examples:  \verb: 2*3, 2 * 3, 2/3, 2^3, 2**3, log(3), etc :
+\item References:
+ {Python tutorial},
+\href{https://docs.python.org/3.4/tutorial/introduction.html}{Section 3}.
+
+%\begin{itemize}
+%\item Scipy lectures,
+%\end{itemize}
+\item Operations:  \verb: 2*3, 2 * 3, 2/3, 2^3, 2**3, log(3), etc :
 % http://en.wikibooks.org/wiki/LaTeX/Paragraph_Formatting#Verbatim_text
 
-\item Assignments.  Examples:  {\tt x = 2, y = 3.5, z = x/y, etc }
-\item Comments and {\tt print}.  \verb: #, """, #%%, print(x), etc. :
+\item Assignments:  {\tt x = 2, y = 3.5, z = x/y, etc }
+\item Comments and {\tt print}:  \verb:#, """, #%%, print(x), etc. :
 \item Strings:  {\tt a = 'some', b = 'thing', c = a+b, d = '11.32', etc.}
 
 \item Two commands,  {\tt len} and {\tt type}:
 {\tt len(first), len(x), type(first), type(x)}.
 
-\item Slicing.  Find an element of {\tt a}: {\tt a[1], a[0], a[1:3], a[-1], a[:2], etc.}
+\item Slicing.  Find an element of {\tt a}: {\tt a[1], a[0], a[1:3], a[-1], a[:2], a[1] = 'z', etc.}
 
 \item {\bf Exercise.}  Set {\tt first} equal to your first name, {\tt last} equal to your last name.
 \begin{enumerate}[label=(\alph*)]
@@ -65,13 +81,17 @@ Section 3.
 \item Set {\tt lastfirst} equal to your last name, comma, space, first name.
 \end{enumerate}
 
-\item Objects and methods:  Most things in Python are {\bf objects}
+\item Objects and methods.
+Most things in Python are {\bf objects}
 (for example, {\tt x, z, first}).
+(Experts may say at this point:  an {\bf object} is an {\bf instance} of a {\bf class}.
+Ignore them.)
 {\bf Methods} are ready-to-go things we can do with them.
 The available methods depend on the object.
 To get a list of available methods for a given object,
 type in the IPython console: {\tt object.[tab]}.
-When you find a method you're interested in, go to Spyder's Object explorer
+When you find a method you're interested in,
+go to Spyder's Object explorer
 and type {\tt object.method} for a description and syntax.
 Examples:  \verb:first.find('a'), x.is_integer():.
 
@@ -82,7 +102,7 @@ decompose {\tt lastfirst} into {\tt first} and {\tt last}.
 \item Find a method that converts {\tt last} to all lower case.
 \end{enumerate}
 
-\item Lists: Collections of things, possibly different, defined by square brackets
+\item Lists: collections of things, possibly different, defined by square brackets
 {\tt []} with commas between items.
 Slicing conventions similar to strings.
 Examples:  {\tt numbers = [x, y, z], type(numbers),
@@ -103,8 +123,8 @@ Matplotlib and pandas.  Matplotlib is a graphics package, we'll talk about it
 another time.
 We touch on pandas --- briefly --- below.
 
-In Python and many other languages, we need to tell Python to load them.
-Here are some options for a mythical package {\tt xyz}:
+In Python --- and many other languages --- we need to tell Python to make them available.
+Here are some options for doing this with a mythical package {\tt xyz}:
 \begin{itemize}
 \item {\tt from xyz import *}.
 This imports all the commands from the package {\tt xyz}.
@@ -142,6 +162,7 @@ We'll focus here on the input-output tools:
 \item Reading csv files.  We've found that csv files
 are the most useful data format, far better than xls or xlsx.
 Its simple structure (entries separated by commas or similar) allows easy and rapid input.
+That's a general statement, not a statement about Python.
 
 Suppose you have (as we do) a csv file in a parallel directory {\tt Data}.
 Then we can read it with the \verb:read_csv: command in pandas:
@@ -161,16 +182,23 @@ and {\tt df.tail(2)} (the bottom two rows).
 There are only three rows in this one, so you could simply
 print the whole thing, but with large data sets this is very useful.
 
+{Comment.}
+The tricky part of this is setting the working directory, 
+where Python looks for things.
+More on this another time.
+% ??
 
 
-
+\item Reading csv's from url's.
 Even better, {\tt read\_csv} also reads from url's.
 The same file is in our GitHub repository (talk about how to find it,
 and the Raw button).
 We can read it with
 \begin{verbatim}
 import pandas as pd     # this is redundant if we've already imported it
-url = 'https://raw.githubusercontent.com/DaveBackus/Data_Bootcamp/master/Code/Data/test1.csv'
+url1 = 'https://raw.githubusercontent.com/DaveBackus/'
+url2 = 'Data_Bootcamp/master/Code/Data/test1.csv'
+url = url1 + url2
 df = pd.read_csv(url)
 \end{verbatim}
 Or we could read the World Economic Outlook (WEO) database from the IMF.
@@ -193,12 +221,11 @@ xls = pd.read_excel(file)       # default is first sheet
 % ***********  ?? more at some point
 
 
-\item Copying from url.
+\item Copying from url's.
 Here's an example that copies a file from a url:
 \begin{verbatim}
 import urllib.request           # this is a module from the package urllib
 file = 'foo.csv'
-url = 'https://raw.githubusercontent.com/DaveBackus/Data_Bootcamp/master/Code/Data/test1.csv'
 urllib.request.urlretrieve(url, file)
 \end{verbatim}
 This way you can copy the file to your own computer and read it in from there.
@@ -352,7 +379,7 @@ Gallery:  \url{http://matplotlib.org/1.2.1/gallery.html}
 \end{itemize}
 
 %\pagebreak
-\section*{Python code}
+\section*{Today's code}
 
 Attached.  Download this pdf file, open in Adobe Acrobat or the equivalent,
 and click on the pushpins:

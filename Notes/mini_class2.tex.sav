@@ -10,59 +10,154 @@
 \input{../LaTeX/header.tex}
 
 \bigskip\bigskip
-\centerline{\Large \bf Data Bootcamp:  Class \#1}
+\centerline{\Large \bf Data Bootcamp:  Class \#2}
 \centerline{Revised: \today}
 
-
-\section{Course overview}
+\section{Overview}
 
 \begin{itemize}
 \item Objective:  Learn enough about Python to do useful things with data.
-\item Target audience:  Programming newbies.
+\item Target audience:  Programming newbies.  
 Anyone can do this with a little persistence and the help of friends.
-\item Trigger warning:  This will take some effort.  But it's worth it.
+\item Trigger warning:  This will take some effort.  Worth it, but not painless.
 \item Team:  Dave Backus, Glenn Okun, Sarah Beckett-Hile, and a rotating group of ninjas.
-\item High-level languages:
-\href{http://en.wikipedia.org/wiki/Python_(programming_language)}{Python},
-\href{http://en.wikipedia.org/wiki/R_(programming_language)}{R},
-and
-\href{http://en.wikipedia.org/wiki/MATLAB}{Matlab}.
-We think Python is the tool of choice.
-It's a general purpose program, which means it has more flexibility than the others,
-and it's gradually building up comparable or better functionality in specific areas we care about:
-graphics, data management, and so on.
-And it's free.
 \item Resources:
 \begin{itemize}
 \item Bootcamp Group:  \url{https://groups.google.com/forum/#!forum/nyu_data_bootcamp}.
 
 \item GitHub repository:  \url{https://github.com/DaveBackus/Data_Bootcamp}.
 (This document is in the Notes folder.)
-
+\end{itemize}
+\item {\bf Work habits:}
+\begin{itemize}
+\item Practice.  Any time you have something to do with data, try it out in Python.  Play around.  Have some fun!
+\item Friends.  Work with friends, help each other, get to know people who know how to code.
+\item Help.  If you get stuck, ask for help --- from friends,
+from the Bootcamp group (post a problem), Stack Overflow, etc.
 \end{itemize}
 \end{itemize}
-
 
 \section{Today's plan}
 
 \begin{itemize}
-\item Python basics.
-\item Reading csv and xls files.
-\item Projects.
-\item Examples.
+\item Reminders.
+\item Standard ``scientific'' packages.
+\item Graphics with Matplotlib.
+\item Exercise review (Sarah).
+%\item Data management with pandas.
 \end{itemize}
+
+
+
+\section{Reminders}
+
+\begin{itemize}
+\item Assignments, strings, lists
+\begin{verbatim}
+xxx
+\end{verbatim}
+
+\item Reading csv files
+\begin{verbatim}
+read majors data
+copy on hard drive
+\end{verbatim}
+
+\end{itemize}
+
+
+\section{Scientific packages} 
+
+
+The leading packages for numerical (``scientific'') computation are 
+\begin{itemize}
+\item NumPy.  Tools for numerical computing, including linear algebra.   
+More prosaically, the basic unit in Excel is a cell, a single number.  
+In NumPy (and Matlab) the basic unit is a vector (a column) or matrix (a table).
+In this respect, it's a competitor to Matlab.  
+We won't see much of NumPy here, but it's the foundation for Pandas.  
+
+\item Matplotlib.  The leading graphics library for Python.  
+
+\item Pandas.  Tools for managing and manipulating data.  
+The basic unit is a DataFrame, which is a table of data with labels
+for observations and variables.  
+If you've used R, you'll be familiar with the idea.
+\end{itemize} 
+
+Close relatives:   
+\begin{itemize}
+\item Pyplot.  A simple interface for Matplotlib with commands
+that mirror those in Matlab.  
+\item PyLab.  A combination of  (basically) NumPy and Matplotlib 
+for numerical computing and associated graphics.  
+\end{itemize}
+
+
+\section{Control flow language and functions} 
+
+
+
+
+\section{Graphics overview}
+
+Matplotlib...
+
+Graphics are horrendously complicated.  Programs like Excel
+do their best to hide this fact, but if you ever try to customize
+a chart it quickly rears its ugly head.
+A graph might include, for example:  the type (line, bar, etc);
+the color and thickness of lines, bars, or markers;
+title and axis labels;
+their location, fonts, and font sizes;
+tick marks (location, size);
+background color;
+and so on.
+
+
+\section{pyplot}
+
+pylab or matplotlib.
+
+
+\section{matplotlib} 
+
+
+
+\section{Before the next class}
+
+{\bf Exercise.}
+Randy Olson has a
+\href{http://www.randalolson.com/2014/06/28/how-to-make-beautiful-data-visualizations-in-python-with-matplotlib/}
+{nice blog post} (search ``randy olson beautiful'')
+about creating effective graphics.
+He starts with this gif:
+\url{http://gfycat.com/ImprobableFemaleBasenji}.
+You mission is to skim his post, play the gif, and:
+%
+\begin{itemize}
+\item  Write a Python script and enter the data, 
+both the numbers and the labels.
+(There are only a few points, you can just type them into lists or a DataFrame.)
+\item Approximate the various graphs using Matplotlib.
+\item Play around with the graphics parameters.
+What is the best graph you can produce?
+What do you like about it?
+\end{itemize}
+
+
+
+\end{document}
+
 
 \section{Python basics}
 
 \begin{itemize}
 \item Environments:  Python 3.4 in Spyder, editor, IPython console.
-\item References:
- {Python tutorial},
+\item Reference:
+{Python tutorial},
 \href{https://docs.python.org/3.4/tutorial/introduction.html}{Section 3}.
 
-%\begin{itemize}
-%\item Scipy lectures,
-%\end{itemize}
 \item Operations:  \verb: 2*3, 2 * 3, 2/3, 2^3, 2**3, log(3), etc :
 % http://en.wikibooks.org/wiki/LaTeX/Paragraph_Formatting#Verbatim_text
 
@@ -84,8 +179,6 @@ And it's free.
 \item Objects and methods.
 Most things in Python are {\bf objects}
 (for example, {\tt x, z, first}).
-(Experts may say at this point:  an {\bf object} is an {\bf instance} of a {\bf class}.
-Ignore them.)
 {\bf Methods} are ready-to-go things we can do with them.
 The available methods depend on the object.
 To get a list of available methods for a given object,
@@ -182,10 +275,10 @@ and {\tt df.tail(2)} (the bottom two rows).
 There are only three rows in this one, so you could simply
 print the whole thing, but with large data sets this is very useful.
 
-{Comment.}
-The tricky part of this is setting the working directory, 
+{\bf Comment.}
+The tricky part of this is setting the working directory:
 where Python looks for things.
-More on this another time.
+More on that another time.
 % ??
 
 
@@ -196,9 +289,7 @@ and the Raw button).
 We can read it with
 \begin{verbatim}
 import pandas as pd     # this is redundant if we've already imported it
-url1 = 'https://raw.githubusercontent.com/DaveBackus/'
-url2 = 'Data_Bootcamp/master/Code/Data/test1.csv'
-url = url1 + url2
+url = 'https://raw.githubusercontent.com/DaveBackus/Data_Bootcamp/master/Code/Data/test1.csv'
 df = pd.read_csv(url)
 \end{verbatim}
 Or we could read the World Economic Outlook (WEO) database from the IMF.
@@ -226,6 +317,7 @@ Here's an example that copies a file from a url:
 \begin{verbatim}
 import urllib.request           # this is a module from the package urllib
 file = 'foo.csv'
+url = 'https://raw.githubusercontent.com/DaveBackus/Data_Bootcamp/master/Code/Data/test1.csv'
 urllib.request.urlretrieve(url, file)
 \end{verbatim}
 This way you can copy the file to your own computer and read it in from there.
@@ -379,7 +471,7 @@ Gallery:  \url{http://matplotlib.org/1.2.1/gallery.html}
 \end{itemize}
 
 %\pagebreak
-\section*{Today's code}
+\section*{Python code}
 
 Attached.  Download this pdf file, open in Adobe Acrobat or the equivalent,
 and click on the pushpins:

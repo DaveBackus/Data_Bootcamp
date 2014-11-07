@@ -1,10 +1,13 @@
 """
 For Class #1 of an informal mini-course at NYU Stern, Fall 2014.
 
+Topics:  calculations, assignments, strings, slicing, lists, data frames, 
+reading csv and xls files 
+
 Repository of materials (including this file): 
 * https://github.com/DaveBackus/Data_Bootcamp 
 
-Prepared by Dave Backus, Sarah Beckett-Hile, and Glenn Okun 
+Written by Dave Backus, Sarah Beckett-Hile, and Glenn Okun 
 Created with Python 3.4 
 """
 
