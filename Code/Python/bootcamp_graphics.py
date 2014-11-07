@@ -21,8 +21,8 @@ c = a + b
 
 numbers = [x, y, z]
 strings = [a, b, c]
-all = numbers + strings
-print([type(all), all[:3], all[3:]])
+combined = numbers + strings
+print([type(combined), combined[:3], combined[3:]])
 
 #%%
 """
@@ -36,8 +36,8 @@ df = pd.read_csv(url1+url2)
 #%%
 # print various properties of df one at a time 
 properties = [type(df), df.columns, df.index, df.shape, df.head()] 
-for property in properties :
-    print(property, end='\n\n')
+for prop in properties :
+    print(prop, end='\n\n')
 
 #%%
 """
