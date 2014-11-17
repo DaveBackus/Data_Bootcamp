@@ -38,8 +38,8 @@ Lists
 numbers = [x, y, z]
 strings = [a, b, c]
 
-all = numbers + strings
-print(['all[3:]', all[3:]])
+both = numbers + strings
+print(['both[3:]', both[3:]])
 
 #%%
 """

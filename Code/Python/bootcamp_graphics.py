@@ -21,8 +21,8 @@ c = a + b
 
 numbers = [x, y, z]
 strings = [a, b, c]
-combined = numbers + strings
-print([type(combined), combined[:3], combined[3:]])
+both = numbers + strings
+print([type(both), both[:3], both[3:]])
 
 #%%
 """

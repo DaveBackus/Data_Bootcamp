@@ -20,7 +20,7 @@
 \item Objective:  Learn enough about Python to do useful things with data.
 \item Target audience:  Programming newbies.
 Anyone can do this with a little persistence and the help of friends.
-\item Trigger warning:  This will take some effort.  Worth it, but not painless.
+\item Trigger warning:  This will take some effort.  But it's worth it.
 \item Team:  Dave Backus, Glenn Okun, Sarah Beckett-Hile, and a rotating group of ninjas.
 \item High-level languages:
 \href{http://en.wikipedia.org/wiki/Python_(programming_language)}{Python},
@@ -183,9 +183,11 @@ There are only three rows in this one, so you could simply
 print the whole thing, but with large data sets this is very useful.
 
 {Comment.}
-The tricky part of this is setting the working directory, 
+The tricky part of this is setting the working directory,
 where Python looks for things.
 More on this another time.
+
+[??  Check to see if file is there ??]
 % ??
 
 
