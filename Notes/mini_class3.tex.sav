@@ -488,31 +488,16 @@ We can do more some other time.
 \item Selecting observations.  We can slice them as we did with strings 
 and lists.  Remember that numbering starts with zero.  
 To get the first three observations of our GDP DataFrame {\tt df} we type:
-{\tt df[0:3]}.
-(Ask yourself:  why 0:3?) 
-
-\item Selecting variables.  This is cooler.  
-We can refer to the variable {\tt x} above equivalently as
-{\tt df.x} or {\tt df[x]}.  
-
-We can also select subsets of data with a list of variable names.  
-Here's an example for our GDP data:  
-\begin{verbatim}
-keep = ['gdp', 'country']
-other = df[keep]
-print(other)
-\end{verbatim} 
+{\tt 
 \end{itemize}
 
-\item Constructing new variables.  
-We can use similar syntax to construct new variables from old ones.
-For example, population is the ratio of GDP to GDP per capita.  
-We can construct it from either of these lines of code:  
-\begin{verbatim}
-df.pop = df.gdp/df.gdppc
-df['pop'] = df['gdp']/df['gdppc']
-\end{verbatim}
+Variables...  
 
+Observations.... 
+
+\item Creating Data Frames.  
+
+\item Modifying DataFrames.  
 
 \end{itemize}
 

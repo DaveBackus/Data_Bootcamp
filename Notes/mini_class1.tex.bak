@@ -20,26 +20,66 @@
 \item Objective:  Learn enough about Python to do useful things with data.
 \item Target audience:  Programming newbies.
 Anyone can do this with a little persistence and the help of friends.
-\item Trigger warning:  This will take some effort.  But it's worth it.
+\item Trigger warning:  This will take some effort ---  but it's worth it.
 \item Team:  Dave Backus, Glenn Okun, Sarah Beckett-Hile, and a rotating group of ninjas.
+
 \item High-level languages:
 \href{http://en.wikipedia.org/wiki/Python_(programming_language)}{Python},
 \href{http://en.wikipedia.org/wiki/R_(programming_language)}{R},
 and
 \href{http://en.wikipedia.org/wiki/MATLAB}{Matlab}.
-We think Python is the tool of choice.
+All of these languages are useful, but we think Python is the tool of choice.
 It's a general purpose program, which means it has more flexibility than the others,
 and it's gradually building up comparable or better functionality in specific areas we care about:
-graphics, data management, and so on.
-And it's free.
-\item Resources:
+data management, graphics, and so on.
+Also, it's free (so is R).  
+
+
+\item {\bf Work habits:}
+\begin{itemize}
+\item Advice.  This will seem mysterious at first, but if you stick with it,
+you'll find it starts to look familiar, even make sense.
+\item Practice.  Any time you have something to do with data, try it out in Python.
+Play around.  Have fun!
+\item Friends.  Work with friends, and make new friends who know how to code.
+\item Help.  If you get stuck, ask for help --- from friends,
+from the Bootcamp group (post a problem), Stack Overflow, etc.
+\end{itemize}
+
+\item Course resources:
 \begin{itemize}
 \item Bootcamp Group:  \url{https://groups.google.com/forum/#!forum/nyu_data_bootcamp}.
+Post comments and questions here.  
 
 \item GitHub repository:  \url{https://github.com/DaveBackus/Data_Bootcamp}.
-(This document is in the Notes folder.)
-
+All the docs and programs are here.  
+This document is in the Notes folder;
+the pdf file comes with links.  
+Programs are in the Code folder under Python.
 \end{itemize}
+
+\item Other resources:  
+%
+\begin{itemize} 
+\item {Python the Hard Way}:  \url{http://learnpythonthehardway.org/}.
+Many of our former students say this is the best introduction to Python.
+Click on ``try it now for free'' and ignore the offers to buy books and videos.
+Use the arrows on the right to go to the next or previous lesson. 
+It's more systematic than our introduction 
+(that is, slower and with somewhat more basic programming coverage), 
+but does not go into graphics and data.
+In short:  good starting point, but different focus.  
+
+One thing to be aware of:  It's based on Python 2.
+It's not wildly different from Python 3, which is what we use,
+but the print command has changed from {\tt print x} to {\tt print(x)}.
+
+\item Codecademy:  \url{http://www.codecademy.com/en/tracks/python}.
+This also comes recommended.
+One clear advantage over Hard Way:  you don't need to install Python, 
+you do everything online.  
+\end{itemize}
+If you try either one, let us know what you think.  Ditto other resources.  
 \end{itemize}
 
 
@@ -68,6 +108,10 @@ And it's free.
 
 \item Assignments:  {\tt x = 2, y = 3.5, z = x/y, etc }
 \item Comments and {\tt print}:  \verb:#, """, #%%, print(x), etc. :
+
+%[?? more on print?]
+
+
 \item Strings:  {\tt a = 'some', b = 'thing', c = a+b, d = '11.32', etc.}
 
 \item Two commands,  {\tt len} and {\tt type}:
@@ -160,8 +204,8 @@ We'll focus here on the input-output tools:
 \url{http://pandas.pydata.org/pandas-docs/stable/io.html}.
 
 \item Reading csv files.  We've found that csv files
-are the most useful data format, far better than xls or xlsx.
-Its simple structure (entries separated by commas or similar) allows easy and rapid input.
+are the most useful common data format, far better than xls or xlsx.
+Its simple structure (entries separated by commas, tabs, or spaces) allows easy and rapid input.
 That's a general statement, not a statement about Python.
 
 Suppose you have (as we do) a csv file in a parallel directory {\tt Data}.
@@ -187,9 +231,7 @@ The tricky part of this is setting the working directory,
 where Python looks for things.
 More on this another time.
 
-[??  Check to see if file is there ??]
-% ??
-
+%[??  Check to see if file is there ??]
 
 \item Reading csv's from url's.
 Even better, {\tt read\_csv} also reads from url's.
@@ -215,6 +257,13 @@ What does the file look like?
 
 \item Spreadsheets.  They have a more complex structure and the possibility
 of more than one sheet.
+Most programmers avoid these files when they can:  they create technical problems
+that are hard to predict.
+See, for example, this 
+\href{http://www.win-vector.com/blog/2014/11/excel-spreadsheets-are-hard-to-get-right/}{blog post}.
+
+Neverthless, spreadsheets are extremely common in the business world and elsewhere, 
+so we need to be able to work with them.  
 Here's an example that reads in the first sheet:
 \begin{verbatim}
 file = '../Data/test2.xlsx'
