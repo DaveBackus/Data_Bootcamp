@@ -30,7 +30,7 @@ print(both[:3] + both[3:])
 Conditional statements:  if, else, elif 
 """
 # if statement 
-x = 7       # we can change this later and see what happens
+x = 5       # we can change this later and see what happens
 if x > 6:
     square = x**2 
     print('x**2 =', square)
@@ -39,7 +39,7 @@ print('Done!')
 
 #%%
 # if and else statements  
-x = 5
+x = 25
 if x > 6:
     square = x**2 
     print('x**2 =', square)
@@ -51,6 +51,14 @@ else:
 print('Done!')
 
 #%%
+name1 = 'Dave'
+name2 = 'Allan'
+
+if name1 > name2:
+    print(name2)
+else:
+    print(name1)    
+    
 #%%
 """
 Loops
@@ -64,9 +72,16 @@ for number in range(11):
 # Fibonacci numbers 
 print('\nFibonacci numbers')    # \n skips to the next line
 a, b = 0, 1
-for it in range(10):
+for it in range(20):
     a, b = b, a+b
-    print('At iteration', it, 'b =', b)
+#    print('At iteration', it, 'b =', b)
+    print('Ratio', a/b)
+
+#%%
+sum = 0
+for num in range(1,11):
+    sum += num 
+    print(sum)
 
 #%%
 a, b = 0, 1
@@ -76,7 +91,7 @@ small_num = 1e-4
 for it in range(maxit):
     a, b = b, a+b
     new_ratio = a/b     
-    print('At iteration', it, ' ratio = ', new_ratio)
+    print('At iteration', it, 'ratio =', new_ratio)
     if abs(new_ratio-ratio) < small_num: 
         break       # stop and exit loop break 
     else:  
@@ -107,7 +122,7 @@ while b < 100:
 vowels = 'aeiouy'
 word   = 'anything'
 for letter in word:  
-    if letter in vowels:
+    if letter not in vowels:
         print(letter) 
 
 #%%

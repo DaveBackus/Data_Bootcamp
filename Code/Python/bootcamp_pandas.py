@@ -89,5 +89,7 @@ print(df[0:3])
 """
 Constructing new variables
 """
+df.pop = df.gdp/df.gdppc
+#%%
 df['pop'] = df['gdp']/df['gdppc']
 print(df)
