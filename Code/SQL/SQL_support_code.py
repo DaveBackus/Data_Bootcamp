@@ -35,14 +35,6 @@ def run(query):
     return results
 
 
-# setup join lesson DB
-path = ('../SQL/join_examples.xlsx')
-table_names = xl.open_workbook(path).sheet_names()
-for table in table_names:
-    df = pd.read_excel(path, sheetname='{}'.format(table))
-    con.execute("DROP TABLE IF EXISTS {}".format(table))
-    pd.io.sql.to_sql(df, "{}".format(table), con, index=False)
-
 # show compatibility with joins and different DBs 
 join_df_index = ['JOIN or INNER JOIN', 'LEFT JOIN or LEFT OUTER JOIN', 'RIGHT JOIN or RIGHT OUTER JOIN', 'OUTER JOIN or FULL OUTER JOIN']
 join_df = pd.DataFrame({'SQLite' : pd.Series(['✓', '✓', 'not supported', 'not supported'], index=join_df_index),
