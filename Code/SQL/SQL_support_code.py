@@ -18,7 +18,7 @@ dog_table = pd.read_csv('https://raw.githubusercontent.com/DaveBackus/Data_Bootc
 cat_table = pd.read_csv('https://raw.githubusercontent.com/DaveBackus/Data_Bootcamp/master/Code/SQL/cat_table.csv')
 # make a list of the tables (dataframes) and table names:
 tables = [sales_table, car_table, salesman_table, cust_table, dog_table, cat_table]
-table_names = ['sales_table', 'car_table', 'salesman_table', 'cust_table']
+table_names = ['sales_table', 'car_table', 'salesman_table', 'cust_table', 'dog_table', 'cat_table']
 # drop each table name if it already exists to avoid error if you rerun this bit of code
 # then add it back (or for the first time, if the table didn't already exist)
 for i in range(len(tables)):
