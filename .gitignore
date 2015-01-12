@@ -11,6 +11,9 @@ Samples/
 Code/Data/
 .dropbox
 
+## Video 
+*.mp4
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
