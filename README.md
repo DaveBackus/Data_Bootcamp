@@ -1,7 +1,7 @@
 ###Data Bootcamp
 
-Materials for a course about economic and financial data using Python.  
-The course is targetted at programming newbies who would like to get some programming experience and add to their quantitative skills more broadly.  
+Materials for a course about economic and financial data using Python.  The course is targetted at programming newbies who would like to get some programming experience and add to their quantitative skills more broadly.  
+
 Related materials:  
 
 * [Course description and FAQ](https://docs.google.com/document/d/1EYvjgbeXk-BUGVrrVzJGqsaGaxYng1qSSB_3cxdsyJE/edit?usp=sharing) 
