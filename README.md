@@ -2,7 +2,7 @@
 
 Materials for a course about economic, financial, and business data.  The course uses the Python programming language and is designed to give programming newbies an opportunity to gain programming experience and develop their quantitative skills.  Students with prior programming experience are also welcome.  
 
-More information at:  
+More information:  
 
 * [Course description and FAQ](https://docs.google.com/document/d/1EYvjgbeXk-BUGVrrVzJGqsaGaxYng1qSSB_3cxdsyJE/edit?usp=sharing) 
 * [Course website](http://davebackus.github.io/Data_Bootcamp/) (work in progress) 
