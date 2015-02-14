@@ -2,7 +2,7 @@
 
 Materials for a course about economic and financial data using Python.  The course is targetted at programming newbies who would like to get some programming experience and develop their quantitative skills.  
 
-Related materials:  
+More information at:  
 
 * [Course description and FAQ](https://docs.google.com/document/d/1EYvjgbeXk-BUGVrrVzJGqsaGaxYng1qSSB_3cxdsyJE/edit?usp=sharing) 
 * [Course website](http://davebackus.github.io/Data_Bootcamp/) (work in progress) 
