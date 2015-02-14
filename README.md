@@ -1,6 +1,6 @@
 ###Data Bootcamp
 
-Materials for a course about economic, financial, and business data.  The course uses the Python programming language and is designed to give programming newbies an opportunity to gain programming experience and develop their quantitative skills.  Students with prior programming experience are also welcome.  
+Materials for a course about economic, financial, and business data.  The course uses the Python programming language and is designed to give programming newbies programming experience and data skills.  Students with prior programming experience are also welcome.  
 
 More information:  
 
