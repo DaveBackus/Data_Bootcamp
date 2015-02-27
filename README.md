@@ -1,3 +1,11 @@
+###SQL Bootcamp
+
+In late March, we plan to offer a short course on SQL databases using Python.  More coming.  
+
+Before the first class:  We'll be using the Anaconda distribution of Python 3.4.  We'll post instructions shortly.  
+
+Materials for the first class: 
+
 ###Data Bootcamp
 
 Materials for a course about economic, financial, and business data.  The course uses the Python programming language.  It is designed to give programming newbies a sense of how modern software can transform raw data into useful information.  Students with prior programming experience are also welcome.  
