@@ -1,10 +1,10 @@
 ###SQL Bootcamp
 
-In late March, we plan to offer a short course on SQL databases using Python.  More coming.  
+Plans for a short course on SQL databases using Python, starts March 2015.  More coming.  
 
-Before the first class:  We'll be using the Anaconda distribution of Python 3.4.  We'll post instructions shortly.  
+**Before the first class.**  We'll be using the Anaconda distribution of Python 3.4.  We'll post instructions shortly.  
 
-Materials for the first class: 
+**Materials for the first class.**
 
 ###Data Bootcamp
 
