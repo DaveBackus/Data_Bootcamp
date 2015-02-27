@@ -1,10 +1,12 @@
 ###SQL Bootcamp
 
-Plans for a short course on SQL databases using Python, starts March 2015.  More coming.  
+Temporary home for a short course on SQL databases using Python, starts March 2015, NYU Stern.  Students and employers tell us this is one of the most useful things you can do for your career.  
 
 **Before the first class.**  We'll be using the Anaconda distribution of Python 3.4.  We'll post instructions shortly.  
 
 **Materials for the first class.**
+
+**Repository.** Most materials are in the SQL directory above.  
 
 ###Data Bootcamp
 
