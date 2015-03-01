@@ -1,12 +1,14 @@
 ###SQL Bootcamp
 
-Temporary home for a short course on SQL databases via Python; starts March 2015, NYU Stern.  Students and employers report that SQL is a standard business tool and a good career investment.   
+Temporary home for a short course on SQL databases via Python.  Sarah Beckett-Hile will lead several Friday afternoon sessions to give students and alums a head start on one of the most valuable skills you can have in the modern business world.  We'll post details shortly.    
 
 **Before the first class.**  We'll be using the Anaconda distribution of Python 3.4.  We'll post instructions shortly.  
 
 **Materials for the first class.**  Link coming.
 
 **Repository.**  Ditto.  
+
+Another product of the #nyuecon Python factory @ NYU Stern.
 
 ---
 
