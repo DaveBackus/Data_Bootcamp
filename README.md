@@ -17,7 +17,7 @@ Part of the #nyuecon collection at NYU's Stern School of Business.
 ---
 ###SQL Bootcamp
 
-Temporary home of a short non-credit course on SQL databases via Python.  Sarah Beckett-Hile will lead several Friday afternoon sessions to give students and alums a head start on one of the most valuable skills you can have in the modern business world.  We expect to start March 27, 2015, and will post details shortly.    
+Temporary home of a short non-credit course on SQL databases via Python.  Sarah Beckett-Hile will lead several Friday afternoon sessions to give students and alums a head start on an increasingly valuable business skill.  We expect to start March 27, 2015, and will post details shortly.    
 
 **Before the first class.**  We'll be using the Anaconda distribution of Python 3.4.  We'll post instructions shortly.  
 
