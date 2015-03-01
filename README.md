@@ -20,7 +20,7 @@ Part of the #nyuecon collection at NYU's Stern School of Business.
 Temporary home of a non-credit course on SQL databases via Python.  Sarah Beckett-Hile will lead several Friday afternoon sessions to give students and alums a head start on an increasingly valuable business skill.  We expect to start March 27, 2015, and will post details here shortly. 
 
 **Before the first class.**  We'll be using the Anaconda distribution of Python 3.4. 
-TO install it on your computer, follow [these instructions](http://davebackus.github.io/Data_Bootcamp/install.html#python-on-your-computer).
+To install it on your computer, follow [these instructions](http://davebackus.github.io/Data_Bootcamp/install.html#python-on-your-computer).
 If you get stumped, come 30 minutes early to our first session.  
 
 **Materials for the first class.**  Link coming.
