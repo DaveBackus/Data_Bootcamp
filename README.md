@@ -31,6 +31,6 @@ If you're stumped, come 30 minutes early to our first session.
 
 **Materials.**  Links coming.
 
-**Alumni access.** We will post a url shortly for those interested in following the webcast.  
+**Webcast.** A webcast is in the works for students who cannot be here in person. Link coming.   
 
 Another product of the #nyuecon Python factory @ NYU Stern.
