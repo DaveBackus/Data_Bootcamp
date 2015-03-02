@@ -28,9 +28,7 @@ Temporary home of a non-credit course on SQL databases via Python.  Sarah Becket
 To install it on your computer, follow [these instructions](http://davebackus.github.io/Data_Bootcamp/install.html#python-on-your-computer).
 If you get stumped, come 30 minutes early to our first session.  
 
-**Materials for the first class.**  Link coming.
-
-**Repository.**  Ditto. 
+**Materials.**  Links coming.
 
 **Alumni access.** We will post a url shortly for those interested in following the webcast.  
 
