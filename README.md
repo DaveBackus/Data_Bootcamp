@@ -26,7 +26,7 @@ Temporary home of a non-credit course on SQL databases via Python.  Sarah Becket
 
 **Before the first class.**  We'll be using the Anaconda distribution of Python 3.4. 
 To install it on your computer, follow [these instructions](http://davebackus.github.io/Data_Bootcamp/install.html#python-on-your-computer).
-If you get stumped, come 30 minutes early to our first session.  
+If you're stumped, come 30 minutes early to our first session.  
 
 **Materials.**  Links coming.
 
