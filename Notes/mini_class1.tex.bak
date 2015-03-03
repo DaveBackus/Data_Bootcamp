@@ -34,6 +34,9 @@ and it's gradually building up comparable or better functionality in specific ar
 data management, graphics, and so on.
 Also, it's free (so is R).
 
+Here's a
+\href{http://www.dataschool.io/python-or-r-for-data-science/}{nice comparison}
+of Python and R for data science.
 
 \item {\bf Work habits:}
 \begin{itemize}
@@ -80,12 +83,12 @@ One clear advantage over Hard Way:  you don't need to install Python,
 you do everything online.
 
 \item Coursera:  \url{https://www.coursera.org/course/pythonlearn}.
-This is a nice beginner's course in Python.  
-All the materials are 
-\href{http://open.umich.edu/education/si/coursera-programming-everybody/winter2014}{online} 
-if you want to work through them yourself. 
+This is a nice beginner's course in Python.
+All the materials are
+\href{http://open.umich.edu/education/si/coursera-programming-everybody/winter2014}{online}
+if you want to work through them yourself.
 \end{itemize}
-If you try either one, let us know what you think.  Ditto other resources.
+If you try any of them, let us know what you think.  Ditto other resources.
 \end{itemize}
 
 
@@ -119,6 +122,8 @@ If you try either one, let us know what you think.  Ditto other resources.
 
 
 \item Strings:  {\tt a = 'some', b = 'thing', c = a+b, d = '11.32', etc.}
+
+\item **** Quotes:  single, double, triple 
 
 \item Two commands,  {\tt len} and {\tt type}:
 {\tt len(first), len(x), type(first), type(x)}.
@@ -161,6 +166,9 @@ strings = [a, b, c, d],
 all = numbers + strings, type(all),
 print(all),
 all[0], all[-1], all[3:], etc.}
+
+\item Dictionaries and sets.  We'll cover them later as needed.
+Also tuples...
 
 \end{itemize}
 

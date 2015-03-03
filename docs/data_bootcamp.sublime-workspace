@@ -8,10 +8,13 @@
 	"buffers":
 	[
 		{
+			"contents": ".. _tut-bootcamp:  \n\n#############\nData Bootcamp\n#############\n\n\n**Work in progress, use at your own risk.**\n\nCurrent version of this material:  http://pages.stern.nyu.edu/~dbackus/bootcamp/\n\nWe hope to host this on GitHub but we're not there yet.  \nWhen we do, the link will be http://davebackus.github.io/Data_Bootcamp/ \n(What's there now is not up to date.)\n\nWe have students every term who would like to get some programming experience, \nwhich they think will expand their career opportunities.  \nAs one student put it:  \"I can do most things in Excel, but I don't think that will be true in five years.\"\nWe think they're right.  \nExcel is fine, but for lots of data applications Python offers a more powerful and efficient platform.\nIn economic terms:  learning Python is a significant investment, but once you've made it \nthe marginal cost of data work will be a lot lower.\n\nWe developed (or rather, are developing) this document with the idea \nof teaching a data courses at NYU Stern that uses Python to study economic, financial, and business data. \nIt's intended for classroom use; \nif you try to work through it on your own you'll probably find it somewhat mysterious.  \nAnd probably even more mysterious than that because it's work in progress.  \nWe're posting it now only because we're doing an informal version for a few interested students.  \n\nComments welcome on all of this:  the idea, the execution, the details.  \n\n\nCourse description \n------------------\n\nData Bootcamp is about nuts and bolts data analysis.  \nYou will learn about economic, financial, and business data, and \nenough about computer programming to make sense of it.  \nApplications include some or all of:  leading economic indicators; country indicators; \nbond and equity returns; stock options; income by zip code; “long tail” sales data; \ninnovation diffusion curves; attendance data for plays and sports teams; and many others.  \nWe will use Python, a popular high-level computer language that’s widely used in finance, consulting, \nand other parts of the business world.  “High-level” means that it’s less painful than most \n(the hard work is done by the language and its collection of tools), \nbut it’s a serious language with extensive capabilities.  \n“Analysis” means primarily graphical descriptions that summarize the \nproperties of data in ways that are helpful to managers.  \n“Bootcamp” is a reminder that you should come willing to work. \nIt will be worth it, but there's no way to avoid doing some work.  \n\n\nTestimonials \n------------\n\nComing... \n\n\nAnswers to questions\n--------------------\n\n*Why take this course?*  \n\nIt’s an investment in your future.  \nYou will be able to process data and communicate its content much \nmore efficiently than with a spreadsheet program.  \nAnd that’s a huge understatement.  After this course, you will be more valuable to \ncurrent and future employers -- and Excel will remind you of doing arithmetic on your fingers.  \n\n*What are the prerequisites?*\n\nThere are none, other than the courage to take on a challenge \nand the patience to debug programs that don’t quite work -- and they never work the first time, \nand often not the second or third time either.  The course is designed for students with little or no programming experience.  \nWe will teach you what you need to know.  \n\n*Are you exaggerating about patience?*\n\nNo. If you don't have it, you should do something else.  \nBut if you stick with it, you'll have more power over information than you did before. \nEven so, you'll occasionally run into \n`situations that challenge your sanity\n<http://junkcharts.typepad.com/numbersruleyourworld/2011/11/three-hours-in-the-life-of-a-glorified-data-scientist.html>`_. \nRemember, \n`grasshopper <http://en.wikipedia.org/wiki/Kung_Fu_(TV_series)#Overview>`_,  \nenlightenment comes from working through challenges and overcoming them.  \n\n*Where will this lead?* \n\nThis course won't turn you into a quant.  \nBut it will turn you into someone who can work well with quants and --\ntogether with the rest of the program -- communicate effectively with executives.  \nYou will come out somewhere between Brad Pitt and Jonah Hill in \n“`Moneyball <http://en.wikipedia.org/wiki/Moneyball_(film)>`_,\" \nwith a solid foundation for dealing with whatever data comes your way in business or life.  \nYou will also be well prepared to do more along similar lines, including the extensive collection \nof courses on business analytics and data science offered by our \n`IOMS group <http://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/academic-departments/ioms-dept/>`_.  \nIt's cool stuff, you should check it out.  \n\n*Should I take this course if I already know how to code?* \n\nProbably not, there are more advanced options that would suit you better.  \nIf you take it anyway, please don’t scare the other students.  \n\n\n\nFree advice \n-----------\n\nAnd worth every cent.    \n\nThere's a steep learning curve at the start of any effort like this.  \nYou'll get through it, but it takes patience and persistence.  \nSome suggestions:  \n\n*Take your time.*  This won't happen overnight.  But it won't take weeks, either, \nbefore you're doing cool things.  \n\n*Work with others.*  This is much easier to do if you have friends doing the same thing.  \nOr even better, friends who are ahead of you.  You'll probably find that you need a lot of help at the start, \nbut once you get going you'll be able to help yourself.  \n\n*Google fu.*  Once you've made some progress, you can learn a lot just by Googling your issue.  \nThings like:  \"python read spreadsheet.\"  \nThe best links are often the \n`Python tutorial <https://docs.python.org/3.4/tutorial/>`_ (it's really good) and \n`Stack Overflow <http://stackoverflow.com/questions/tagged/python>`_ \n(the go-to place for code questions).  \n\n*Start from examples.*  The easiest place to start is with programs that work.  \nStart with one  and tweak it till you get what you want.\nPlay around with the details and see what happens.    \nThe documentation includes lots of examples.  \nAnd we'll have lots of examples of our own.  \n\n\n\nAcknowledgements\n----------------\n\nWe owe big thank-you's to Chase Coleman and Spencer Lyon, aka Sargent's Python Team, and Paul Backus; \nthey're our go-to advisors on technical issues.  \nSarah Beckett-Hile is rapidly adding to our collection of applications \nand proves that English majors can code as well as anyone.  \nYou may also notice a resemblance to Tom Sargent and John Stachurski's \n`Quantitative Economics <http://quant-econ.net/>`_, \na wonderful Python-based course in dynamic macroeconomic theory. \nWe've used a lot of their material, as well as their approach to documentation.  \nWe thank them for that, and for their advice and encouragement.    \n\nPart of the #nyuecon collection. \nAddress comments to Dave Backus or Glenn Okun.  \n\n\nContents \n--------\n\n.. toctree::\n   :maxdepth: 1\n   \n   prelim \n   basics\n   pandas \n   graphics \n  \n",
 			"file": "index.rst",
+			"file_size": 7150,
+			"file_write_time": 130583991820000000,
 			"settings":
 			{
-				"buffer_size": 6952,
+				"buffer_size": 6953,
 				"line_ending": "Windows"
 			}
 		},
@@ -76,6 +79,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/dbackus/Downloads/lqr-lagrange.pdf",
 		"/C/Users/dbackus/AppData/Local/Continuum/Anaconda3/Scripts/ghp-import",
 		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp/docs/python0.rst",
 		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp/docs/basics.rst",
@@ -124,15 +128,15 @@
 					"file": "index.rst",
 					"settings":
 					{
-						"buffer_size": 6952,
+						"buffer_size": 6953,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2587,
-								2587
+								1474,
+								2370
 							]
 						],
 						"settings":
@@ -140,7 +144,7 @@
 							"syntax": "Packages/RestructuredText/reStructuredText.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 315.0,
+						"translation.y": 225.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

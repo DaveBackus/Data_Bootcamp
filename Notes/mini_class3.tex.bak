@@ -231,6 +231,8 @@ The syntax is similar to conditionals:
 \item A space after the last line makes the code easier to read.
 \end{itemize}
 
+*** Kill this and compute bond price:
+coupon C, yield y, maturity n.  
 
 Here's another example, this one adapted from the
 \href{https://docs.python.org/3/tutorial/introduction.html#first-steps-towards-programming}{Python tutorial}:
@@ -288,6 +290,10 @@ Use a {\tt for} loop to compute the mean of the elements of the list:  {\tt x = 
 Write a program that computes the sum
 $ 1 + 2 + 3 + \cdots + 10 $.
 Then modify it to compute the sum up to any positive integer $n$.
+
+\item {\bf Exercise.}
+Use a {\tt for} loop to verify that $ 1/(1+y/k)^k $ converges to $\exp(-ky)$ as we increase $k$.
+
 
 \item {\tt while} loops.
 We don't use them much,
@@ -389,6 +395,16 @@ We wouldn't go that far, but it's pretty good advice.
 
 [Skip for now]
 
+Example of how types work
+
+\begin{verbatim}
+list = ['a', 'b', 'c']
+name = 'list'
+type(list)
+type(name)
+eval(name)
+\end{verbatim}
+
 
 
 \section{Introduction to Pandas}
@@ -426,12 +442,15 @@ It's an incredibly flexible tool once you get used to it.
 This is excellent, covers most of what we need to get started.
 
 \item Pandas via Excel:  \url{http://pbpython.com/excel-pandas-comp.html}.
+Good short introduction to Pandas relating basic functions to the same in Excel.
+
+\item Tricks:  \url{http://nbviewer.ipython.org/github/rasbt/python_reference/blob/master/tutorials/things_in_pandas.ipynb}
 
 \item Wes McKinney, {\it Python for Data Analysis\/}: \url{http://www.amazon.com/dp/1449319793/}.
 This is encylopedic, but the guy who wrote pandas, but we didn't find it all that easy
 to use.
 
-\item The Pandas documentaion:  \url{http://pandas.pydata.org/pandas-docs/stable/}.
+\item The Pandas documentation:  \url{http://pandas.pydata.org/pandas-docs/stable/}.
 This includes a number of tutorials, but we haven't worked through them.
 Let us know if you find one you like.
 \end{itemize}
