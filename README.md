@@ -33,7 +33,7 @@ If you're stumped, come 30 minutes early to our first session.
 
 **Webcast.** A webcast is in the works for students who cannot be here in person. Link coming.   
 
-**Posting questions.** If you have questions during the course, please post them on
-[our group](https://groups.google.com/forum/#!forum/nyu_data_bootcamp).  (Follow the directions to join if you haven't already.)  
+**Posting questions.** If you have questions during the course, please post them on our
+[discussion board](https://groups.google.com/forum/#!forum/nyu_data_bootcamp), a Google group devoted to this purpose.  (Follow the directions to join if you haven't already.)  
 
 Another product of the #nyuecon Python factory @ NYU Stern.
