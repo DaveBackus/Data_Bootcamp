@@ -1,9 +1,10 @@
-'''
+"""
 FiveThirtyEight College Major Data
 Data pulled from American Community Survey 2010-2012 as used in this article:
 'http://fivethirtyeight.com/features/the-economic-guide-to-picking-a-college-major/'
-Written by Matt Davis, NYU, February 2015, in Python 3.4 
-'''
+Written by Matt Davis, NYU, February 2015
+Created in Python 3.4 
+"""
 # PRELIMINARIES
 import pandas as pd
 import numpy as np
