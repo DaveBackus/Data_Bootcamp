@@ -5,7 +5,7 @@ Materials for a course applying the Python programming language to economic, fin
 More information:  
 
 * [Course description and FAQ](https://docs.google.com/document/d/1EYvjgbeXk-BUGVrrVzJGqsaGaxYng1qSSB_3cxdsyJE/edit?usp=sharing) 
-* [Course website](http://davebackus.github.io/Data_Bootcamp/) (work in progress, eta January 2016) 
+* [Course website](http://davebackus.github.io/Data_Bootcamp/) (this is a total mess right now, but will slowly improve between now and late January 2016) 
 
 **Suggestions welcome.**  Post them at the "Issues" link to the right (look for the exclamation point in a circle) or email Dave Backus at NYU:  db3@nyu.edu. Thanks in advance. 
 
