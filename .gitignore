@@ -9,7 +9,14 @@ Miscellaneous/
 Media/
 Samples/
 Code/Data/
+Coce/Projects
 .dropbox
+
+## Video 
+*.mp4
+
+## Images
+*.png
 
 ## Core latex/pdflatex auxiliary files:
 *.aux
@@ -37,3 +44,6 @@ Code/Data/
 *.synctex.gz
 *.synctex.gz(busy)
 *.pdfsync
+
+## Compiled python files:
+*.pyc

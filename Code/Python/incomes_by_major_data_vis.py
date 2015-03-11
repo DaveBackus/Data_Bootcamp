@@ -165,6 +165,8 @@ sns.despine()
 sns.set_context('poster')
 sns.boxplot(quartile_df,  vert=False, linewidth=3)
 sns.despine()
+path = '/Users/sarahbeckett-hile/Desktop/figure.png'
+savefig(path)
 #%%
 # new df, look at just a partiicular major cateogry, segment by major
 hdf = df[df.Major_category == 'Humanities & Liberal Arts'][['Major', 'Median', 'P25th', 'P75th']].set_index('Major').sort().transpose()

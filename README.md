@@ -1,27 +1,39 @@
 ###Data Bootcamp
 
-Materials for a future course using Python to study economic and financial data with graphical methods. Current draft of sales pitch:
+Materials for a course applying the Python programming language to economic, financial, and business data.  It is designed to give programming newbies a sense of how modern software can transform raw data into useful information.    
 
->**Description.** This course is about the analysis of data.  You will learn about economic, financial, and business data and the fundamentals of computer programming needed to make sense of it.  Applications include some or all of:  leading economic indicators; labor market indicators; emerging market indicators; bond and equity returns; stock options; income by zip code; “long tail” sales data; innovation diffusion curves; attendance data for plays and sports teams; and many others.  We will use Python, a popular high-level computer language that’s widely used in finance, consulting, and other parts of the business world.  “High-level” means that it’s less painful than most (the hard work is done by the language and its collection of tools), but it’s a serious language with extensive capabilities.  “Analysis of data” means primarily graphical descriptions that summarize the properties of data in ways that are helpful to managers.  “Bootcamp” is a reminder that you should come willing to work. 
+More information:  
 
->**Why should you take this course?**  It’s an investment in your future.  You will be able to process data and communicate its content much more efficiently than with a spreadsheet program.  And that’s a huge understatement.  After this course, you will be more valuable to current and future employers -- and Excel will remind you of doing arithmetic on your fingers.  
+* [Course description and FAQ](https://docs.google.com/document/d/1EYvjgbeXk-BUGVrrVzJGqsaGaxYng1qSSB_3cxdsyJE/edit?usp=sharing) 
+* [Course website](http://davebackus.github.io/Data_Bootcamp/) (this is a total mess right now, but will slowly improve between now and late January 2016) 
 
->**What are the prerequisites?**  There are none, other than the courage to take on a challenge and the patience to debug programs that don’t quite work -- and they never work the first time, and often not the second or third time either.  The course is designed for students with little or no programming experience.  We will teach you what you need to know.  
-
->**Are you exaggerating about patience?** No. If you don't have it, you should do something else.  You'll have more power over information than you did before, but even so you'll also run into [situations that challenge your sanity] (http://junkcharts.typepad.com/numbersruleyourworld/2011/11/three-hours-in-the-life-of-a-glorified-data-scientist.html). And remember, [grasshopper](http://en.wikipedia.org/wiki/Kwai_Chang_Caine), 
-enlightenment comes from working through challenges and overcoming them.  
-
->**Where will this lead?**  You will come out of the course somewhere between Brad Pitt and Jonah Hill in 
-“[Moneyball](http://en.wikipedia.org/wiki/Moneyball_(film))," with a solid foundation for dealing with whatever data comes up in your business or life.  You will also be well prepared to do more along similar lines, including the extensive collection of courses on business analytics and data science offered by our 
-[IOMS group](http://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/academic-departments/ioms-dept/).  It's cool stuff, you should check it out.    
-
->**Should you take this course if you already know how to code?**  Probably not, there are more advanced options that would suit you better.  If you take it anyway, please don’t scare the other students.  
-
-This is work in progress.  Working examples will be posted in the Code directory as we develop them.  We also have an [IPython notebook](https://www.wakari.io/sharing/bundle/DaveBackus/Bootcamp) on Wakari.  Take a look, it will show you what we have in mind.  
-
-Suggestions welcome: either post them at the "Issues" link on the upper right or email me:  db3@nyu.edu (Dave Backus @ NYU). Thanks in advance. 
+**Suggestions welcome.**  Post them at the "Issues" link to the right (look for the exclamation point in a circle) or email Dave Backus at NYU:  db3@nyu.edu. Thanks in advance. 
 
 **Acknowledgements.**
-This was Glenn Okun's idea, so I should probably thank him, although he really should have done this himself.  I do appreciate his support.  And I know I should thank Chase Coleman and Spencer Lyon, aka Tom Sargent's Python Team, and Paul Backus; they're our go-to advisors on technical issues.  Sarah Beckett-Hile is rapidly adding to our collection of applications and verifies that English majors can code as well as anyone.  You may also notice a resemblance to Tom Sargent and John Stachurski's [Quantitative Economics](http://quant-econ.net/), a wonderful Python-based course in dynamic macroeconomic theory. We've used a lot of their material, including their approach to documentation.  We thank them for that, and for their advice and encouragement.    
+This was Glenn Okun's idea, so I should probably thank him, although he really should have done this himself.  I do appreciate his support.  And I know I should thank Chase Coleman and Spencer Lyon, aka Tom Sargent's Python Team, and Paul Backus; they're our go-to advisors on technical issues.  Sarah Beckett-Hile is rapidly adding to our collection of applications and is proof that English majors can code as well as anyone.  You may also notice a resemblance to Tom Sargent and John Stachurski's [Quantitative Economics](http://quant-econ.net/), a wonderful Python-based course in dynamic macroeconomic theory. We've used a lot of their material, including their approach to documentation.  We thank them for that, and for their advice and encouragement.  
 
-Part of the #nyuecon collection. 
+**Licensing.** We encourage others to use this material and to acknowledged such use.
+Here's [the boilerplate](https://github.com/DaveBackus/Data_Bootcamp/blob/master/LICENSE.md).
+
+Part of the #nyuecon collection at NYU's Stern School of Business. 
+
+---
+###SQL Bootcamp
+
+Temporary home of a non-credit course on SQL databases via Python.  Sarah Beckett-Hile will lead several Friday afternoon sessions to give students a head start on an increasingly valuable business skill.  It follows a popular
+[Python course](https://nyusterneconomics.wordpress.com/2014/10/27/business-students-learn-to-code/) run last fall.  
+
+**Sessions.** Class sessions will be held on Fridays in KMC 5-90, 2pm to 5pm, starting March 27 and running (prospectively) through April 24.  
+
+**Before the first class.**  We'll be using the Anaconda distribution of Python 3.4. 
+To install it on your computer, follow [these instructions](http://davebackus.github.io/Data_Bootcamp/install.html#python-on-your-computer).
+If you're stumped, come 30 minutes early to our first session.  
+
+**Materials.**  Links coming.
+
+**Webcast.** A webcast is in the works for students who cannot be here in person. Link coming.   
+
+**Posting questions.** If you have questions during the course, please post them on our
+[discussion board](https://groups.google.com/forum/#!forum/nyu_data_bootcamp), a Google group devoted to this purpose.  (Follow the directions to join if you haven't already.)  
+
+Another product of the #nyuecon Python factory @ NYU Stern.
