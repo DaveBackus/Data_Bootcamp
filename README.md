@@ -18,9 +18,9 @@ Here's [the boilerplate](https://github.com/DaveBackus/Data_Bootcamp/blob/master
 Part of the #nyuecon collection at NYU's Stern School of Business. 
 
 ---
-###SQL Bootcamp
+###SQL Bootcamp (Spring 2015) 
 
-New for Spring 2015.  Temporary home of a non-credit course on SQL databases via Python.  Sarah Beckett-Hile will lead several Friday afternoon sessions to give students a head start on an increasingly valuable business skill.  It follows a popular
+Temporary home of a non-credit course on SQL databases via Python.  Sarah Beckett-Hile will lead several Friday afternoon sessions to give students a head start on an increasingly valuable business skill.  It follows a popular
 [Python course](https://nyusterneconomics.wordpress.com/2014/10/27/business-students-learn-to-code/) run last fall.  
 
 **Sessions.** Class sessions will be held on Fridays in KMC 5-90, 2pm to 5pm, starting March 27 and running (prospectively) through April 24.  
