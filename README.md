@@ -14,6 +14,8 @@ This was Glenn Okun's idea, so I should probably thank him, although he really s
 
 **Licensing.** We encourage others to use this material and to acknowledged such use.
 Here's [the boilerplate](https://github.com/DaveBackus/Data_Bootcamp/blob/master/LICENSE.md).
+In case you wondered, here's 
+[Richard Stallman's take](http://www.newyorker.com/business/currency/the-gnu-manifesto-turns-thirty).  
 
 Part of the #nyuecon collection at NYU's Stern School of Business. 
 
