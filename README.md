@@ -31,10 +31,8 @@ Professors David Backus and Glenn Okun proudly present the 2015 NYU Stern School
 To install it on your computer, follow [these instructions](http://davebackus.github.io/Data_Bootcamp/install.html#python-on-your-computer).
 If you're stumped, come 30 minutes early to our first session.  
 
-**Webcast.**  We have set up a "webinar" for people who cannot be here in person.  
-Please register [here](https://attendee.gotowebinar.com/register/3554985340709263362) 
-for SQL Bootcamp at NYU Stern School of Business. 
-After registering, you will receive a confirmation email with information about joining the webinar.
+**Webcast.**  We have set up a "webinar" for people who cannot be here in person.  Please register [here](https://attendee.gotowebinar.com/register/3554985340709263362) 
+for SQL Bootcamp at NYU Stern School of Business. After registering, you will receive a confirmation email with information about joining the webinar.
 
 **Materials.**  Links coming.
 
