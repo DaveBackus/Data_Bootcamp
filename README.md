@@ -36,7 +36,7 @@ for SQL Bootcamp at NYU Stern School of Business. After registering, you will re
 
 **Materials.**  Links coming.
 
-**Posting questions.** If you have questions during the course, please post them on our
+**Posting questions.** If you have questions about the course, please contact Dave Backus (db3@nyu.edu). If you have questions during the course, please post them on our
 [discussion board](https://groups.google.com/forum/#!forum/nyu_data_bootcamp), a Google group devoted to this purpose.  (Follow the directions to join if you haven't already.)  
 
 Another product of the #nyuecon Python factory @ NYU Stern.
