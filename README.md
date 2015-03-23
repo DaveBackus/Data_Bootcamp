@@ -31,9 +31,9 @@ Professors David Backus and Glenn Okun proudly present the 2015 *NYU Stern Schoo
 To install it on your computer, follow [these instructions](http://davebackus.github.io/Data_Bootcamp/install.html#python-on-your-computer).
 If you're stumped, come 30 minutes early to our first session.  
 
-**Materials.**  [Coming...] You should download these documents and save them in a convenient directory: 
+**Materials.**  You should download these documents and save them in a convenient directory: 
 * [Syllabus](https://www.dropbox.com/s/h1qm3iq7owl8mjz/SBH_SQL_Syllabus.pdf?dl=0)
-* IPython notebook [SQL_Intro.ipnb](https://www.dropbox.com/s/okehr7gl0lz471m/SQL_Intro.ipynb?dl=0) (essentially a combination of slides and code for the course) 
+* [IPython notebook](https://www.dropbox.com/s/okehr7gl0lz471m/SQL_Intro.ipynb?dl=0) (essentially a combination of slides and code for the course) 
 * Python [support code](https://www.dropbox.com/s/eoiucu0kip9z4dg/SQL_support_code.py?dl=0) (you won't touch this, it runs behind the scenes, but you need it for the notebook to run) 
 
 **Webinar.**  We have set up a "webinar" for people who cannot be here in person.  Please register [here](https://attendee.gotowebinar.com/register/3554985340709263362) 
