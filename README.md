@@ -31,7 +31,7 @@ Professors David Backus and Glenn Okun proudly present the 2015 *NYU Stern Schoo
 To install it on your computer, follow [these instructions](http://davebackus.github.io/Data_Bootcamp/install.html#python-on-your-computer).
 If you're stumped, come 30 minutes early to our first session.  
 
-**Materials.**  You should download these documents and save them in a convenient directory: 
+**Materials.**  [Coming...] You should download these documents and save them in a convenient directory: 
 * Syllabus
 * IPython notebook (essentially a combination of slides and code for the course) 
 * Python code (you won't touch this, but ...) 
