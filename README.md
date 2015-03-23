@@ -31,12 +31,15 @@ Professors David Backus and Glenn Okun proudly present the 2015 *NYU Stern Schoo
 To install it on your computer, follow [these instructions](http://davebackus.github.io/Data_Bootcamp/install.html#python-on-your-computer).
 If you're stumped, come 30 minutes early to our first session.  
 
+**Materials.**  You should download these documents and save them in a convenient directory: 
+* Syllabus
+* IPython notebook (essentially a combination of slides and code for the course) 
+* Python code (you won't touch this, but ...) 
+
 **Webinar.**  We have set up a "webinar" for people who cannot be here in person.  Please register [here](https://attendee.gotowebinar.com/register/3554985340709263362) 
 for SQL Bootcamp at NYU Stern School of Business. After registering, you will receive a confirmation email with information about joining the webinar.  
 
 The webinar gives you access to a live stream and the ability to ask questions.  We think we'll also have a recording we can offer to people who want to view it later, but we're not sure yet -- we're new to the technology.  We'll post more information about that here when we have it.  
-
-**Materials.**  Links coming.
 
 **Questions.** If you have questions about the course, please contact Dave Backus (db3@nyu.edu). If you have questions during the course, please post them on our
 [discussion board](https://groups.google.com/forum/#!forum/nyu_data_bootcamp), a Google Group devoted to this purpose.  (Follow the directions to join if you haven't already.)  
