@@ -39,7 +39,7 @@ If you're stumped, come 30 minutes early to our first session.
 Once you've done this: 
 * Open Anaconda, then launch "ipython-notebook". This will open a window in your default browser where you can navigate your computer's local folders
 * Locate and open the folder where you saved SQL_Intro.ipynb and SQL_support_code.py. 
-* Click to open SQL_Intro.ipynb (you don't need to open SQL_support_code.py, just make sure it's in the same folder as SQL_Intro.ipynb)
+* Click to open SQL_Intro.ipynb (you don't need to open SQL_support_code.py, just make sure it's in the same folder).
 
 **Webinar.**  We have set up a "webinar" for people who cannot be here in person.  Please register [here](https://attendee.gotowebinar.com/register/3554985340709263362) 
 for SQL Bootcamp at NYU Stern School of Business. After registering, you will receive a confirmation email with information about joining the webinar.  
