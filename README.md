@@ -31,10 +31,15 @@ Professors David Backus and Glenn Okun proudly present the 2015 *NYU Stern Schoo
 To install it on your computer, follow [these instructions](http://davebackus.github.io/Data_Bootcamp/install.html#python-on-your-computer).
 If you're stumped, come 30 minutes early to our first session.  
 
-**Materials.**  You should download these documents and save them in a convenient directory: 
+**Materials.**  You should download these documents and save them in a convenient folder/directory: 
 * [Syllabus](https://www.dropbox.com/s/h1qm3iq7owl8mjz/SBH_SQL_Syllabus.pdf?dl=0)
 * [IPython notebook](https://www.dropbox.com/s/okehr7gl0lz471m/SQL_Intro.ipynb?dl=0) (essentially a combination of slides and code for the course) 
 * Python [support code](https://www.dropbox.com/s/eoiucu0kip9z4dg/SQL_support_code.py?dl=0) (you won't touch this, it runs behind the scenes, but you need it for the notebook to run) 
+
+Once you've done this: 
+* Open Anaconda, then launch "ipython-notebook". This will open a window in your default browser where you can navigate your computer's local folders
+* Locate and open the folder where you saved SQL_Intro.ipynb and SQL_support_code.py. 
+* Click to open SQL_Intro.ipynb (you don't need to open SQL_support_code.py, just make sure it's in the same folder as SQL_Intro.ipynb)
 
 **Webinar.**  We have set up a "webinar" for people who cannot be here in person.  Please register [here](https://attendee.gotowebinar.com/register/3554985340709263362) 
 for SQL Bootcamp at NYU Stern School of Business. After registering, you will receive a confirmation email with information about joining the webinar.  
