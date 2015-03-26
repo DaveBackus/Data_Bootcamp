@@ -41,7 +41,8 @@ Once you've done this:
 * Locate and open the folder where you saved SQL_Intro.ipynb and SQL_support_code.py. 
 * Click to open SQL_Intro.ipynb (you don't need to open SQL_support_code.py, just make sure it's in the same folder).
 
-**Webinar.**  We have set up a "webinar" for people who cannot be here in person.  Please register [here](https://attendee.gotowebinar.com/register/3554985340709263362) 
+**Webinar.**  We have set up a "webinar" for people who cannot be here in person, 
+including alums and other friends of the school.  Please register [here](https://attendee.gotowebinar.com/register/3554985340709263362) 
 for SQL Bootcamp at NYU Stern School of Business. After registering, you will receive a confirmation email with information about joining the webinar.  
 
 The webinar gives you access to a live stream and the ability to ask questions.  We think we'll also have a recording we can offer to people who want to view it later, but we're not sure yet -- we're new to the technology.  We'll post more information about that here when we have it.  
