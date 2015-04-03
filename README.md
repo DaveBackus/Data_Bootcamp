@@ -28,7 +28,7 @@ Professors David Backus and Glenn Okun proudly present the 2015 *NYU Stern Schoo
 **Sessions.** Class sessions will be held on Fridays in KMC 5-90, 2pm to 5pm, starting March 27 and running (prospectively) through April 24.  
 
 **Before the first class.**  We will be using the Anaconda distribution of Python 3.4. 
-To install it on your computer, follow [these instructions](http://davebackus.github.io/Data_Bootcamp/install.html#python-on-your-computer).
+To install it on your computer, follow [these instructions](https://docs.google.com/document/d/1kvZAEEh4MqpWfVuW1eW3lBvsS2yKEJXtzAkOZSrtd5s/edit?usp=sharing).
 If you're stumped, come 30 minutes early to our first session.  
 
 **Materials.**  Also before the first class, you should download these documents and save them in a convenient folder/directory: 
