@@ -43,11 +43,14 @@ Once you've done this:
 
 **Webinar.**  We have set up a "webinar" for people who cannot be here in person, 
 including alums and other friends of the school.  Please register [here](https://attendee.gotowebinar.com/register/3554985340709263362) 
-for SQL Bootcamp at NYU Stern School of Business. After registering, you will receive a confirmation email with information about joining the webinar.  
+for SQL Bootcamp at NYU Stern School of Business. After registering, you will receive a confirmation email with information about joining the webinar.  The webinar gives you access to a live stream and the ability to ask questions.  
 
-The webinar gives you access to a live stream and the ability to ask questions.  We think we'll also have a recording we can offer to people who want to view it later, but we're not sure yet -- we're new to the technology.  We'll post more information about that here when we have it.  
+**Videos.** We will post videos when we have them.  The collection so far:  
+[Session 1](https://www.dropbox.com/s/wqcpw8jmtz6pxc4/NYU_Stern_SQL_Bootcamp_Session_1.mov?dl=0) | 
+[Session 2](https://www.dropbox.com/s/63e4ob8q7bq88a6/NYU_Stern_SQL_Bootcamp_Session_2.mov?dl=0) | ...
 
-**Questions.** If you have questions about the course, please contact Dave Backus (db3@nyu.edu). If you have questions during the course, please post them on our
-[discussion board](https://groups.google.com/forum/#!forum/nyu_data_bootcamp), a Google Group devoted to this purpose.  (Follow the directions to join if you haven't already.)  Updates will be posted there.  
+**Updates and questions.** We'll post updates on our
+[discussion board](https://groups.google.com/forum/#!forum/nyu_data_bootcamp), a Google Group devoted to this purpose. 
+(Follow the directions to join if you haven't already.)  You can ask questions there, too.  If none of this works, contact Dave Backus (db3@nyu.edu).  
 
 Another product of the #nyuecon Python factory @ NYU Stern.
