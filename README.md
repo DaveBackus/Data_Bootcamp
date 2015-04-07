@@ -45,8 +45,7 @@ Once you've done this:
 including alums and other friends of the school.  Please register [here](https://attendee.gotowebinar.com/register/3554985340709263362) 
 for SQL Bootcamp at NYU Stern School of Business. After registering, you will receive a confirmation email with information about joining the webinar.  The webinar gives you access to a live stream and the ability to ask questions.  
 
-**Videos.** We will post videos when we have them.  The collection so far:  
-[Session 1](https://www.dropbox.com/s/wqcpw8jmtz6pxc4/NYU_Stern_SQL_Bootcamp_Session_1.mov?dl=0) | 
+**Videos.** We will post videos when we have them.  The collection so far:  [Session 1](https://www.dropbox.com/s/wqcpw8jmtz6pxc4/NYU_Stern_SQL_Bootcamp_Session_1.mov?dl=0) | 
 [Session 2](https://www.dropbox.com/s/63e4ob8q7bq88a6/NYU_Stern_SQL_Bootcamp_Session_2.mov?dl=0) | ...
 
 **Updates and questions.** We'll post updates on our
