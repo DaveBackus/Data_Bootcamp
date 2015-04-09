@@ -1,6 +1,6 @@
 ###Data Bootcamp
 
-Materials for a course about economic, financial, and business data based on the Python programming language.  It is designed to give (i) students some familiarity with economic and financial data and its uses and (ii) programming newbies a sense of how modern software makes life easier and more interesting.  
+Materials for a course about economic, financial, and business data based on the Python programming language.  It is designed to give (i) students some familiarity with economic and financial data and its uses and (ii) programming newbies a sense of how modern software makes life easier and more interesting.  The current plan is to offer two sections of the course in Spring 2016, one for undergrads, the other for MBA students.  
 
 More information:  
 
