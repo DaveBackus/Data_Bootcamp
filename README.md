@@ -7,6 +7,17 @@ More information:
 * [Course description and FAQ](https://docs.google.com/document/d/1EYvjgbeXk-BUGVrrVzJGqsaGaxYng1qSSB_3cxdsyJE/edit?usp=sharing) 
 * [Course website](http://davebackus.github.io/Data_Bootcamp/) (this is a total mess right now, but will slowly improve between now and late January 2016) 
 
+**Mini-course.**
+We ran a three-session course in Fall of 2014.  The materials are a little terse, but here they are:
+
+[Session 1](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Notes/mini_class1.pdf) | 
+[Session 2](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Notes/mini_class2.pdf) | 
+[Session 3](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Notes/mini_class3.pdf).
+
+The code files are imbedded, and also posted on the Code directory.  One thing we'd change: use 
+[these instructions](https://docs.google.com/document/d/1kvZAEEh4MqpWfVuW1eW3lBvsS2yKEJXtzAkOZSrtd5s/edit?usp=sharing) 
+to download and run the Anaconda distribuion of Python.  
+
 **Suggestions welcome.**  Post them at the "Issues" link to the right (look for the exclamation point in a circle) or email Dave Backus at NYU:  db3@nyu.edu. Thanks in advance. 
 
 **Acknowledgements.**
