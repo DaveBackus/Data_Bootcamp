@@ -16,7 +16,7 @@ We ran a three-session course in Fall of 2014.  The materials are a little terse
 
 The code files are imbedded, and also posted on the Code directory.  One thing we'd change: use 
 [these instructions](https://docs.google.com/document/d/1kvZAEEh4MqpWfVuW1eW3lBvsS2yKEJXtzAkOZSrtd5s/edit?usp=sharing) 
-to download and run the Anaconda distribution of Python.  
+to download, install, and run the Anaconda distribution of Python.  
 
 **Suggestions welcome.**  Post them at the "Issues" link to the right (look for the exclamation point in a circle) or email Dave Backus at NYU:  db3@nyu.edu. Thanks in advance. 
 
