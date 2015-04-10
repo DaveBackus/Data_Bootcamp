@@ -44,8 +44,8 @@ Professors David Backus and Glenn Okun proudly present the 2015 *NYU Stern Schoo
 To install it on your computer, follow [these instructions](https://docs.google.com/document/d/1kvZAEEh4MqpWfVuW1eW3lBvsS2yKEJXtzAkOZSrtd5s/edit?usp=sharing).
 If you're stumped, come 30 minutes early to our first session.  
 
-**Announcements.** If you want to get announcements about the class and related events, please join our [discussion board](https://groups.google.com/forum/#!forum/nyu_data_bootcamp), a Google Group devoted to this purpose.
-You can ask questions there, too.  If none of this works, contact Dave Backus (db3@nyu.edu).  
+**Announcements.** If you want to get announcements about the class, please join our [discussion board](https://groups.google.com/forum/#!forum/nyu_data_bootcamp), a Google Group devoted to this purpose.
+You can ask questions there, too.  
 
 **Materials.**  Also before the first class, you should download these documents and save them in a convenient folder/directory: 
 * [Syllabus](https://www.dropbox.com/s/h1qm3iq7owl8mjz/SBH_SQL_Syllabus.pdf?dl=0)
@@ -64,5 +64,7 @@ for SQL Bootcamp at NYU Stern School of Business. After registering, you will re
 
 **Videos.** We will post videos when we have them.  The collection so far:  [Session 1](https://www.dropbox.com/s/wqcpw8jmtz6pxc4/NYU_Stern_SQL_Bootcamp_Session_1.mov?dl=0) | 
 [Session 2](https://www.dropbox.com/s/63e4ob8q7bq88a6/NYU_Stern_SQL_Bootcamp_Session_2.mov?dl=0) | ...
+
+**Questions and comments.** If you have questions or comments about the class, you can post them on the group.  Or contact Dave Backus (db3@nyu.edu).  
 
 Another product of the #nyuecon Python factory @ NYU Stern.
