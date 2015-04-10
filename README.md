@@ -25,10 +25,10 @@ to download, install, and run the Anaconda distribution of Python.  The new vers
 **Acknowledgements.**
 This was Glenn Okun's idea, so I should probably thank him, although he really should have done this himself.  I do appreciate his support.  And I know I should thank Chase Coleman and Spencer Lyon, aka Tom Sargent's Python Team, and Paul Backus; they're our go-to advisors on technical issues.  Sarah Beckett-Hile is rapidly adding to our collection of applications and is proof that English majors can code as well as anyone.  You may also notice a resemblance to Tom Sargent and John Stachurski's [Quantitative Economics](http://quant-econ.net/), a wonderful Python-based course in dynamic macroeconomic theory. We've used a lot of their material, including their approach to documentation.  We thank them for that, and for their advice and encouragement.  
 
-**Licensing.** We encourage others to use this material and to acknowledged such use.
+**Licensing.** We encourage others to use this material and to acknowledge such use.
 Here's [the boilerplate](https://github.com/DaveBackus/Data_Bootcamp/blob/master/LICENSE.md).
 In case you wondered, here's 
-[Richard Stallman's take](http://www.newyorker.com/business/currency/the-gnu-manifesto-turns-thirty).  
+[Richard Stallman's take](http://www.newyorker.com/business/currency/the-gnu-manifesto-turns-thirty) on the BSD license, which allows commercial development of this material.  
 
 Part of the #nyuecon collection at NYU's Stern School of Business. 
 
