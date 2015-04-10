@@ -44,7 +44,7 @@ Professors David Backus and Glenn Okun proudly present the 2015 *NYU Stern Schoo
 To install it on your computer, follow [these instructions](https://docs.google.com/document/d/1kvZAEEh4MqpWfVuW1eW3lBvsS2yKEJXtzAkOZSrtd5s/edit?usp=sharing).
 If you're stumped, come 30 minutes early to our first session.  
 
-**Announcements.** If you want to get announcements about the class, please join our [discussion board](https://groups.google.com/forum/#!forum/nyu_data_bootcamp), a Google Group devoted to this purpose.
+**Announcements.** If you want to get announcements about the class, please join our [discussion group](https://groups.google.com/forum/#!forum/nyu_data_bootcamp), a Google Group devoted to this purpose.
 You can ask questions there, too.  
 
 **Materials.**  Also before the first class, you should download these documents and save them in a convenient folder/directory: 
