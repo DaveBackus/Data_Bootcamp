@@ -66,7 +66,6 @@ for SQL Bootcamp at NYU Stern School of Business. After registering, you will re
 [Session 2](https://www.dropbox.com/s/63e4ob8q7bq88a6/NYU_Stern_SQL_Bootcamp_Session_2.mov?dl=0) | ...
 
 **Questions and comments.** If you have questions or comments about the class, you can post them on the 
-[group](https://groups.google.com/forum/#!forum/nyu_data_bootcamp).  
-Or contact Dave Backus (db3@nyu.edu).  
+[group](https://groups.google.com/forum/#!forum/nyu_data_bootcamp).  Or contact Dave Backus (db3@nyu.edu).  
 
 Another product of the #nyuecon Python factory @ NYU Stern.
