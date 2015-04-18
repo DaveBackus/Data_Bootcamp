@@ -14,7 +14,7 @@ We ran a three-session mini-course in Fall of 2014.  The materials are a little 
 [Session 2](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Notes/mini_class2.pdf) | 
 [Session 3](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Notes/mini_class3.pdf).
 
-The code files are imbedded, and also posted on the Code directory (scroll to the top of the page).  
+The code files are imbedded, and also posted in the Code directory (scroll to the top of the page).  
 
 One thing we'd change: use 
 [these instructions](https://docs.google.com/document/d/1kvZAEEh4MqpWfVuW1eW3lBvsS2yKEJXtzAkOZSrtd5s/edit?usp=sharing) 
