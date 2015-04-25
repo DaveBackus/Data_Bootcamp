@@ -8,7 +8,7 @@ More information:
 * [Course website](http://davebackus.github.io/Data_Bootcamp/) (this is a total mess right now, but will slowly improve between now and January 2016) 
 
 **Mini-course.**
-We ran a three-session mini-course in Fall of 2014.  The materials are a little terse, but they'llgive you a sense where we're headed: 
+We ran a three-session mini-course in Fall of 2014.  The materials are a little terse, but they'll give you a sense where we're headed: 
 
 [Session 1](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Notes/mini_class1.pdf) | 
 [Session 2](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Notes/mini_class2.pdf) | 
