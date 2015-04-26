@@ -20,6 +20,8 @@ One thing we'd change: use
 [these instructions](https://docs.google.com/document/d/1kvZAEEh4MqpWfVuW1eW3lBvsS2yKEJXtzAkOZSrtd5s/edit?usp=sharing) 
 to download, install, and run the Anaconda distribution of Python.  The new version is the most user-friendly distribution of Python we've seen.  
 
+**Exit poll.** If you use this material, please fill out the (short) [exit poll](https://docs.google.com/forms/d/1ZV9NW2Lum3Tp5jVMJWg8I5gkvVi0NmskdL1bameVmMg/viewform?usp=send_form).
+
 **Suggestions welcome.**  Post them at the "Issues" link to the right (look for the exclamation point in a circle) or email Dave Backus at NYU:  db3@nyu.edu. Thanks in advance. 
 
 **Acknowledgements.**
