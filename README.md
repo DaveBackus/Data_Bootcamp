@@ -66,7 +66,8 @@ for SQL Bootcamp at NYU Stern School of Business. After registering, you will re
 [Session 1](https://www.dropbox.com/s/wqcpw8jmtz6pxc4/NYU_Stern_SQL_Bootcamp_Session_1.mov?dl=0) | 
 [Session 2](https://www.dropbox.com/s/63e4ob8q7bq88a6/NYU_Stern_SQL_Bootcamp_Session_2.mov?dl=0) |
 [Session 3](https://www.dropbox.com/s/ajq0m7a9owkd144/NYU_Stern_SQL_Bootcamp_Session_3.mov?dl=0) | 
-[Session 4](https://www.dropbox.com/s/mx0snzg5obljljw/NYU_Stern_SQL_Bootcamp_Session_4.mp4?dl=0) | ...
+[Session 4](https://www.dropbox.com/s/mx0snzg5obljljw/NYU_Stern_SQL_Bootcamp_Session_4.mp4?dl=0) | 
+[Session 5](https://www.dropbox.com/s/3k5u5u9x6yjx7ic/NYU_Stern_Data_Bootcamp_Session_5.mp4?dl=0) 
 
 Please download before playing. 
 
