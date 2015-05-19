@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+from __future__ import print_function
 import pandas as pd
 import sqlite3
 import xlrd as xl
@@ -301,7 +303,6 @@ avg_cheat2 = '''
         CUST.age > 35
     '''
 
-<<<<<<< HEAD
 concat_cheat = '''
     SELECT
         GROUP_CONCAT(last_name, ', ') AS Last_Names
@@ -309,8 +310,6 @@ concat_cheat = '''
         salesman_table
     '''
 
-=======
->>>>>>> a788e9f0cad3684086cb828d5dcd2994e69cfbc5
 group_cheat = '''
     SELECT 
         C.make,
