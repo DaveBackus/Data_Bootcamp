@@ -123,7 +123,22 @@ Check Comm 64, Coursera, etc for examples
 
 \end{comment}
 
-%\item Comparisons.  Do these first.
+\item Comparisons.
+
+Boolean expressions. Eg, {\tt x = 7, y = x >= 6}.
+What type is {\tt y}?
+
+% https://docs.python.org/3.4/library/stdtypes.html#boolean-operations-and-or-not
+List:  {\tt == (equals), > (greater than), >= (greater than or equals), }
+
+Multiple comparisons:
+\begin{verbatim}
+x = 7
+y = 3
+test1 = (x >=0) & (y >= 0)
+test2 = (x >=0) | (x <= -1)
+\end{verbatim}
+What are {\tt test1} and {\tt test2}?
 
 \item Conditionals: {\tt if}, {\tt else}, {\tt elif}.
 These statements allow you to do different things depending
@@ -233,9 +248,9 @@ The syntax is similar to conditionals:
 
 
 {\bf *** Kill Fibonacci and compute bond price:}
-coupon C, yield y, maturity n.  
+coupon C, yield y, maturity n.
 
-{\bf *** Maybe:  option prices??} 
+{\bf *** Maybe:  option prices??}
 
 Here's another example, this one adapted from the
 \href{https://docs.python.org/3/tutorial/introduction.html#first-steps-towards-programming}{Python tutorial}:
@@ -286,6 +301,10 @@ This is new, it tells the program to exit the loop and go on to whatever
 is next in the program.
 \end{itemize}
 
+
+\item More than you need.  plus/equals, etc.  [??]
+
+
 \item {\bf Exercise.}
 Use a {\tt for} loop to compute the mean of the elements of the list:  {\tt x = [5, 7, 3, 6]}.
 
@@ -330,8 +349,6 @@ while error > small_num:
 \end{verbatim}
 
 
-
-
 \item {\tt for} loops over lists and strings.
 We can also loop over lists and strings.
 In each case we run through their elements one at a time.
@@ -341,6 +358,13 @@ fruit = ['apples', 'bananas', 'cherries']
 for item in fruit:
     print(item)
 \end{verbatim}
+
+[??] Find smallest number in list
+
+
+\item {\bf Exercise.}
+Start with list of names.  Find first one in alphabetical order.  [??]
+
 
 \item {\bf Exercise.}
 This goes a little beyond what we've covered, but what do you think this program does?
@@ -354,9 +378,22 @@ for letter in word:
 \end{verbatim}
 You should describe what every line does as well as the overall
 result.
-Extra credit:  How would you change the program to print
-out the consonants?
 (This one is adapted from SciPy lecture 1.2.)
+
+What about the other letters?
+Note the word ``not'' below:
+\begin{verbatim}
+vowels = 'aeiouy'
+word   = 'anything'
+for letter not in word:
+    if letter in vowels:
+        print(letter)
+\end{verbatim}
+
+
+Extra credit:  How would you change the program to
+replace the consonants with asterisks?
+
 
 \item {\bf Exercise.}
 Take the list {\tt stuff = ['cat', 3.7, 5, 'dog']}.
@@ -375,6 +412,11 @@ that is, the function {\tt type} returns the value {\tt str}.
 %    if type(item) == str:
 %        print(item)
 
+
+\item {\bf Exercise.}
+Take a word, replace vowels with asterisks. [??]
+
+
 \item List comprehensions.
 That's a mouthful of jargon, but the idea is that we can
 use implicit loops with lists.
@@ -387,9 +429,46 @@ A list comprehension is a more compact syntax for the same thing:
 %In both case, the label {\tt item} is a dummy:  we can use any name we wish.
 
 
+\item Assignments and copies.
+This is what programmers call a ``gotcha,''
+an unexpected or counterintuitive feature.
+This one got me.
+ It shows up in Numpy and Pandas, too.
+
+See \url{http://stackoverflow.com/a/10844760/804513}
+
+\begin{verbatim}
+a = [1,2,3]
+b = a
+b[0] = 'WHOA!'
+print(a)
+\end{verbatim}
+This returns
+
+A more complicated version:
+\begin{verbatim}
+
+import numpy as np
+c = np.array([7, 3, 5])
+d = c
+e = 2*c - 5
+print(d, e)
+
+# now change c[0], see what happens to d and e
+c[0] = 10
+print(d, e)
+\end{verbatim}
+
+Similar to Excel!
+
+See also \url{https://docs.python.org/3.4/library/copy.html}
+and \url{http://www.python-course.eu/deep_copy.php}
+
 \end{itemize}
 
 \section{Functions}
+
+
 
 Experts tell us that programmers never copy chunks of code.
 They write a function --- once! --- and call it as
@@ -408,6 +487,27 @@ type(name)
 eval(name)
 \end{verbatim}
 
+
+Examples from \url{https://wiki.python.org/moin/SimplePrograms}:
+\begin{verbatim}
+def greet(name):
+    print 'Hello', name
+greet('Jack')
+greet('Jill')
+greet('Bob')
+\end{verbatim}
+
+\section{More than you need}
+
+[??] map, reduce, filter, lambda, ...
+
+\begin{verbatim}
+# test example of reduce from Paul (computes cumsum of x)
+x = [1, 4, -2]
+y = reduce(lambda sum, x: sum+[sum[-1]+x], x[1:], [x[0]])
+\end{verbatim}
+
+dictionaries?
 
 
 \section{Introduction to Pandas}
@@ -447,6 +547,8 @@ This is excellent, covers most of what we need to get started.
 \item Pandas via Excel:  \url{http://pbpython.com/excel-pandas-comp.html}.
 Good short introduction to Pandas relating basic functions to the same in Excel.
 
+**Also:  \url{http://pbpython.com/github-notebooks-other-updates.html} 
+
 \item Tricks:  \url{http://nbviewer.ipython.org/github/rasbt/python_reference/blob/master/tutorials/things_in_pandas.ipynb}
 
 \item Wes McKinney, {\it Python for Data Analysis\/}: \url{http://www.amazon.com/dp/1449319793/}.
@@ -483,14 +585,20 @@ The end result is the DataFrame {\tt df538}.
 We can verify that with the command {\tt type(df538)},
 which returns the answer:  {\tt pandas.core.frame.DataFrame}.
 
+\item {\bf Descriptions.}
+
 What else do we have?
 We can look at the first and last five lines of data with the
 commands {\tt df538.head()} and {\tt df538.tail()},
 but the formatting leaves something to be desired.
+
+Also:  {\tt df538.info(), df538.describe(), ...}
+
 The easiest way to get a list of variables is from the column labels:
 {\tt df538.columns}.
 Sarah suggests this version, which gives us the output as a nicely formatted list,
-one item per row.
+one item per row:
+{\tt df538.columns.tolist()}.
 
 Similarly, we get the observation labels from
 {\tt df538.index} or, using the same trick, {\tt df538.index.tolist()}.
@@ -531,6 +639,26 @@ days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
 Put {\tt x} and {\tt y} into a DataFrame.
 Add variable names {\tt x} and {\tt y} and observation labels {\tt days}.
 
+\item Accessing columns (variables)...
+
+df['x'] v df.x
+
+\item Creating new columns...
+
+df['x'] \\
+np functions \\
+np functions for whole df (same)
+
+\item Selecting columns.
+
+A list?  Kill some?
+
+\item Selecting rows (observations)...
+
+% http://pandas.pydata.org/pandas-docs/stable/dsintro.html#indexing-selection
+Slicing by obs:  df[2:3], df[0], df[-1], df[
+
+Slicing by index: loc, iloc ...
 
 \item Selecting data.
 There are lots of ways of accessing subsets of the DataFrame,
@@ -559,12 +687,10 @@ print(other)
 \item Constructing new variables.
 We can use similar syntax to construct new variables from old ones.
 For example, population is the ratio of GDP to GDP per capita.
-We can construct it from either of these lines of code:
+We can construct it this way:
 \begin{verbatim}
-df.pop = df.gdp/df.gdppc
 df['pop'] = df['gdp']/df['gdppc']
 \end{verbatim}
-
 
 \end{itemize}
 
@@ -581,6 +707,8 @@ When we have time, some things we could cover:
 
 \item Hierarchical indexes.
 
+\item Groupby.
+
 \end{itemize}
 
 
@@ -591,18 +719,18 @@ When we have time, some things we could cover:
 
 Attached.  Download this pdf file, open in Adobe Acrobat or the equivalent,
 and click on the pushpins:
-\attachfile{../Code/Python/bootcamp_control.py}
+\attachfile{../Code/Python/bootcamp_mini_control.py}
 
 Also here:
 {\small
-\verbatiminput{../Code/Python/bootcamp_control.py}
+\verbatiminput{../Code/Python/bootcamp_mini_control.py}
 }
 
 \section*{Today's code:  Pandas}
 
 Attached.  Download this pdf file, open in Adobe Acrobat or the equivalent,
 and click on the pushpins:
-\attachfile{../Code/Python/bootcamp_pandas.py}
+\attachfile{../Code/Python/bootcamp_mini_pandas.py}
 
 Also here:
 {\small

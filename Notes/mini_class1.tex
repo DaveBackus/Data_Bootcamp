@@ -95,13 +95,13 @@ If you try any of them, let us know what you think.  Ditto other resources.
 \section{Today's plan}
 
 \begin{itemize}
-\item Python basics.
+\item Python fundamentals.
 \item Reading csv and xls files.
 \item Projects.
 \item Examples.
 \end{itemize}
 
-\section{Python basics}
+\section{Python fundmentals}
 
 \begin{itemize}
 \item Environments:  Python 3.4 in Spyder, editor, IPython console.
@@ -109,8 +109,17 @@ If you try any of them, let us know what you think.  Ditto other resources.
  {Python tutorial},
 \href{https://docs.python.org/3.4/tutorial/introduction.html}{Section 3}.
 
-\item ***The logic of a Python program:  
-work through a set of commands in order.  
+\item ** check this out:  \url{https://wiki.python.org/moin/SimplePrograms} \\
+
+
+\item ***The logic of a Python program:
+work through a set of commands in order, not like Excel
+
+\item Lines.  Each line is a new command.  $\neq$ Excel...  [??]
+Continuation automatic if you have parens or brackets that need to be closed.
+Blank lines fine, often helpful in making code easier to read.
+More
+\href{https://docs.python.org/3.4/reference/lexical_analysis.html#line-structure}{here}.
 
 %\begin{itemize}
 %\item Scipy lectures,
@@ -126,10 +135,45 @@ work through a set of commands in order.
 
 \item Strings:  {\tt a = 'some', b = 'thing', c = a+b, d = '11.32', etc.}
 
-\item **** Quotes:  single, double, triple 
+\item Single and double quotes.
 
-\item Two commands,  {\tt len} and {\tt type}:
+[??] triple quotes can go over several lines,
+
+we use them for multi-line comments \\
+\url{https://docs.python.org/3/tutorial/introduction.html#strings} \\
+
+Also used to supply docs for functions
+\url{http://stackoverflow.com/a/7057988/804513} **
+
+\item Functions and methods. ??
+
+We'll see shortly that there are often two ways to do things:
+functions and methods.
+We can tell functions because they come with arguments in parentheses.
+In some cases, we even use function() if we don't have any input.  [??]
+
+Here's a \href{https://docs.python.org/3.4/library/functions.html}{list}.
+print...  len...  [??]
+
+\item Types and conversions.  [??]  {\tt len} and {\tt type}:
 {\tt len(first), len(x), type(first), type(x)}.
+
+Add conversions...
+
+\item {\bf Exercise.}
+Wbat do the functions {\tt float}, {\tt int}, and {\tt str} do?
+What other functions would you like to know about?
+(We'll never use most of them, but you never know.)
+
+\item Type conversions.
+There are lots of occasions when we want --- or need -- to change type.
+Suppose, for example, we want to convert {\tt year = '2011'},
+which is defined as a string, to a number.
+We can do that with {\tt int(year)}.  (Or {\tt float}, but we have something else in mind.
+
+\item {\bf Exercise.}
+Suppose we take {\tt year} is a string containing the year of a particular piece of data.
+How would we construct a string containing the following year?
 
 \item Slicing.  Find an element of {\tt a}: {\tt a[1], a[0], a[1:3], a[-1], a[:2], a[1] = 'z', etc.}
 
@@ -170,8 +214,23 @@ all = numbers + strings, type(all),
 print(all),
 all[0], all[-1], all[3:], etc.}
 
-\item Dictionaries and sets.  We'll cover them later as needed.
-Also tuples...
+\item {\bf *** Style ***}
+
+PEP8 etc \\
+\url{https://google-styleguide.googlecode.com/svn/trunk/pyguide.html}
+
+Examples:  \\
+\url{http://www.reddit.com/r/Python/comments/3639nl/what_is_the_most_beautiful_piece_of_python_code/}\\
+\url{https://github.com/mitsuhiko/werkzeug/blob/master/werkzeug/routing.py} \\
+
+
+
+\item Assignment idea:  convert list of strings to list with number of letters in each.  \\
+Do in class?  \\
+\url{http://www.reddit.com/r/Python/comments/35ubwo/newbie_for_programming_i_am_working_on_this/}
+
+
+\item Tuples, dictionaries, and sets.  We'll cover them later as needed.
 
 \end{itemize}
 
@@ -235,20 +294,29 @@ df = pd.read_csv(file)
 This reads the file {\tt test1.csv} into {\tt df}.
 If you try {\tt type(df)} you'll find that {\tt df} is a DataFrame,
 the standard object type in pandas.
+It's a table of numbers, much like a sheet in a spreadsheet program,
+with labels for rows (the index) and columns (the variables).
+
 Some of the methods you could try:
 {\tt df.columns} (the column labels),
+{\tt df.columns.tolist()} (the column labels as a list),
 {\tt df.index} (the row labels),
 {\tt df.head(2)} (the top two rows),
-and {\tt df.tail(2)} (the bottom two rows).
+{\tt df.tail()} (the bottom five rows),
+{\tt df.tail(2)} (the bottom two rows),
+{\tt df.describe()} (summary statistics),
+and {\tt df.info()} (information about the form of the data).
 There are only three rows in this one, so you could simply
 print the whole thing, but with large data sets this is very useful.
 
-{Comment.}
+{\bf Comment.}
 The tricky part of this is setting the working directory,
 where Python looks for things.
 More on this another time.
 
 %[??  Check to see if file is there ??]
+
+\item ?? mention {read table}
 
 \item Reading csv's from url's.
 Even better, {\tt read\_csv} also reads from url's.
@@ -343,6 +411,11 @@ For more, see the section of the Python tutorial that describes the
 \href{https://docs.python.org/3.4/library/zipfile.html#module-zipfile}{zipfile module}.
 
 \end{itemize}
+
+\section{Basic Pandas}
+
+*** Intro to indexing, selecting variables...
+
 
 \section{Projects}
 
@@ -451,18 +524,18 @@ Gallery:  \url{http://matplotlib.org/1.2.1/gallery.html}
 
 Attached.  Download this pdf file, open in Adobe Acrobat or the equivalent,
 and click on the pushpins:
-\attachfile{../Code/Python/bootcamp_basics.py}
-\attachfile{../Code/Python/bootcamp_examples.py}
+\attachfile{../Code/Python/bootcamp_mini_basics.py}
+\attachfile{../Code/Python/bootcamp_mini_examples.py}
 
 \subsection*{Basics}
 {\small
-\verbatiminput{../Code/Python/bootcamp_basics.py}
+\verbatiminput{../Code/Python/bootcamp_mini_basics.py}
 }
 
 \subsection*{Examples}
 
 {\small
-\verbatiminput{../Code/Python/bootcamp_examples.py}
+\verbatiminput{../Code/Python/bootcamp_mini_examples.py}
 }
 
 \end{document}
