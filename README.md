@@ -48,10 +48,10 @@ If you're stumped, come 30 minutes early to our first session.
 You can ask questions there, too.  
 
 **Materials.**  Also before the first class, you should download these documents and save them in a convenient folder/directory: 
-* [Syllabus](https://www.dropbox.com/s/h1qm3iq7owl8mjz/SBH_SQL_Syllabus.pdf?dl=0)
-* [IPython notebook](https://www.dropbox.com/s/okehr7gl0lz471m/SQL_Intro.ipynb?dl=0) (essentially a combination of slides and code for the course) 
-* [Python support code](https://www.dropbox.com/s/eoiucu0kip9z4dg/SQL_support_code.py?dl=0) (you won't touch this, it runs behind the scenes, but you need it for the notebook to run) 
-* [Cheat sheet](https://www.dropbox.com/s/hqppw03m3pzakbb/SQL_Cheat_Sheet.pdf?dl=0): this covers the whole course.  
+* [Syllabus](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/SQL/SBH_SQL_Syllabus.pdf)
+* [IPython notebook](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/SQL/SQL_Intro.ipynb) (essentially a combination of slides and code for the course) 
+* [Python support code](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/SQL/SQL_support_code.py) (you won't touch this, it runs behind the scenes, but you need it for the notebook to run) 
+* [Cheat sheet](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/SQL/SQL_Cheat_Sheet.pdf): this covers the whole course.  
 
 Once you've done this: 
 * Open Anaconda, then launch "ipython-notebook". This will open a window in your default browser where you can navigate your computer's local folders
