@@ -8,13 +8,17 @@ Related_courses/
 Grants/
 Miscellaneous/
 Media/
+Pix/
 Samples/
 Code/Data/
 Coce/Projects
 .dropbox
+*.sqlite
+.ipynb_checkpoints/
 
 ## Video 
 *.mp4
+*.mov
 
 ## Images
 *.png
@@ -41,10 +45,15 @@ Coce/Projects
 
 ## Build tool auxiliary files:
 *.fdb_latexmk
-*.syntex 
+*.synctex 
 *.synctex.gz
+*.bak
+*.sav
 *.synctex.gz(busy)
 *.pdfsync
+*.tex.bak
+*.tex.sav
 
 ## Compiled python files:
 *.pyc
+Code/IPython/.ipynb_checkpoints/
