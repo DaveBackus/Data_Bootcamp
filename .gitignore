@@ -12,8 +12,10 @@ Media/
 Pix/
 Samples/
 Code/Data/
-Coce/Projects
+Code/Projects
 .dropbox
+.dropbox.attr
+.ini
 *.sqlite
 .ipynb_checkpoints/
 
