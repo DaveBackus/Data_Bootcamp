@@ -89,6 +89,11 @@ All the materials are
 if you want to work through them yourself.
 \end{itemize}
 If you try any of them, let us know what you think.  Ditto other resources.
+
+\item These notes.
+They're intended to accompany class and may be mysterious
+on their own.
+If you see ??, that's a reminder to us to fix something up later.
 \end{itemize}
 
 
@@ -115,11 +120,15 @@ If you try any of them, let us know what you think.  Ditto other resources.
 \item ***The logic of a Python program:
 work through a set of commands in order, not like Excel
 
-\item Lines.  Each line is a new command.  $\neq$ Excel...  [??]
-Continuation automatic if you have parens or brackets that need to be closed.
+\item Lines.  Each line is a new command. 
+Unlike Excel, the program goes through the lines one at a time.  
+
+Continuation automatic if you have parens or brackets that need to be closed (``implicit'').
 Blank lines fine, often helpful in making code easier to read.
 More
-\href{https://docs.python.org/3.4/reference/lexical_analysis.html#line-structure}{here}.
+\href{https://docs.python.org/3.4/reference/lexical_analysis.html#line-structure}{here}
+and \href{http://stackoverflow.com/questions/53162/how-can-i-do-a-line-break-line-continuation-in-python}
+{here}.
 
 %\begin{itemize}
 %\item Scipy lectures,
@@ -230,7 +239,15 @@ Do in class?  \\
 \url{http://www.reddit.com/r/Python/comments/35ubwo/newbie_for_programming_i_am_working_on_this/}
 
 
-\item Tuples, dictionaries, and sets.  We'll cover them later as needed.
+\item {\bf Other data structures.\/} [??]
+The term data structure refers to the organization of a collection of data.
+A list is a data structure.  ...
+
+\url{http://en.wikipedia.org/wiki/Data_structure}
+
+Examples: tuples, dictionaries, and sets.  We'll cover them later as needed.
+If you run across one of these terms, keep in mind it's just a different form
+of organization, we can look up its properties when we need to.
 
 \end{itemize}
 
@@ -377,6 +394,14 @@ with open(file, 'wb') as local_file:
 Write code to read them into Python.
 
 
+\item Copy from clipboard.
+We're not fans of this, it makes replication hard, but it's awful convenient
+and recommended by some of our former students.
+
+\begin{verbatim}
+clip = pd.read_clipboard()
+\end{verbatim}
+
 \item Zip files.  The {\tt zipfile} module (part of basic Python)
 lets you do whatever you want with zip files.
 Some examples:
@@ -409,6 +434,7 @@ print(df3.columns)
 \end{verbatim}
 For more, see the section of the Python tutorial that describes the
 \href{https://docs.python.org/3.4/library/zipfile.html#module-zipfile}{zipfile module}.
+
 
 \end{itemize}
 
