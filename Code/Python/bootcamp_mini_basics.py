@@ -48,8 +48,8 @@ print(first, last)
 print(last, ', ', first)
 print(last, ', ', first, sep='')
 
-x = input('Type your name here --> ')
-print(x, end='\n\n') 
+#x = input('Type your name here --> ')
+#print(x, end='\n\n') 
 
 """
 Lists 
