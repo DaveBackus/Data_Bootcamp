@@ -12,6 +12,8 @@ Media/
 Pix/
 Samples/
 Code/Data/
+Code/Python/*.csv
+Code/Python/*.zip
 Code/Projects
 .dropbox
 .dropbox.attr
