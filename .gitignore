@@ -50,7 +50,7 @@ Code/Projects
 
 ## Build tool auxiliary files:
 *.fdb_latexmk
-*.synctex 
+*.synctex
 *.synctex.gz
 *.bak
 *.sav
