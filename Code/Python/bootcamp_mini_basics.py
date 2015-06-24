@@ -14,13 +14,17 @@ Created with Python 3.4
 Check Python version 
 """
 # https://docs.python.org/3.4/library/sys.html
-import sys
+import sys 
 
 print('What version of Python? \n', sys.version, '\n', sep='') 
 
-if float(sys.version_info[0]) < 3.0:       
-    raise Exception('***** Program halted, old version of Python *****')
-
+if float(sys.version_info[0]) < 3.0 :       
+    raise Exception('Program halted, old version of Python. \n', 
+                    'Sorry, you need to install Anaconda again.')
+else:
+    print('Congratulations, Python is up to date!')
+    
+#%%    
 """
 Calculations and assignments (best in IPython console)   
 """
@@ -48,8 +52,8 @@ print(first, last)
 print(last, ', ', first)
 print(last, ', ', first, sep='')
 
-x = input('Type your name here --> ')
-print(x, end='\n\n') 
+#x = input('Type your name here --> ')
+#print(x, end='\n\n') 
 
 """
 Lists 
