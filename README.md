@@ -16,10 +16,6 @@ We ran a three-session mini-course in Fall of 2014.  The materials are a little 
 
 The code files are imbedded, and also posted in the Code directory (scroll to the top of the page).  
 
-One thing we'd change: use 
-[these instructions](https://docs.google.com/document/d/1kvZAEEh4MqpWfVuW1eW3lBvsS2yKEJXtzAkOZSrtd5s/edit?usp=sharing) 
-to download, install, and run the Anaconda distribution of Python.  The new version is the most user-friendly distribution of Python we've seen.  
-
 **Suggestions welcome.**  Post them at the "Issues" link to the right (look for the exclamation point in a circle) or email Dave Backus at NYU:  db3@nyu.edu. Thanks in advance. 
 
 **Acknowledgements.**
