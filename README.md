@@ -5,7 +5,7 @@ Materials for a course about economic, financial, and business data based on the
 More information:  
 
 * [Course description and FAQ](https://docs.google.com/document/d/1EYvjgbeXk-BUGVrrVzJGqsaGaxYng1qSSB_3cxdsyJE/edit?usp=sharing) 
-* [Course website](http://davebackus.github.io/Data_Bootcamp/) (this is a total mess right now, but will slowly improve between now and January 2016) 
+* [Book](https://www.gitbook.com/book/davebackus/test/details) (first few chapters done, the others will be fleshed out between now and January 2016) 
 
 **Mini-course.**
 We ran a three-session mini-course in Fall of 2014.  The materials are a little terse, but they'll give you a sense where we're headed: 
