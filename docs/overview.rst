@@ -10,7 +10,7 @@ About Python
 
 Python is a popular general-purpose programming language that has been used 
 for a broad range of applications.  
-Dropbox, for example, is written entirely in Python.  
+Dropbox, for example, is written entirely in Python.  Instagram uses it.  So does Google.  
 
 We think Python is the language of choice right now if you want a user-friendly 
 introduction to programming and a useful tool for day-to-day work.  

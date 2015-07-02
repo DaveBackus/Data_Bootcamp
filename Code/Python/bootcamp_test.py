@@ -16,13 +16,13 @@ Check Python version
 """
 import sys
 
-print('What version of Python are we running? \n', sys.version, '\n', sep='') 
+print('\nWhat version of Python are we running? \n', sys.version, '\n', sep='') 
 
 if float(sys.version_info[0]) < 3.0:       
     raise Exception('Program halted, old version of Python. ' +  
                     'Sorry, you need to install Anaconda again.')
 else:
-    print('Congratulations, Python is up to date!')
+    print('Congratulations, Python is up to date!')  
     
 #%%
 """

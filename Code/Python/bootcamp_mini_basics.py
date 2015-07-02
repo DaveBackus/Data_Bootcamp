@@ -16,7 +16,7 @@ Check Python version
 # https://docs.python.org/3.4/library/sys.html
 import sys 
 
-print('What version of Python? \n', sys.version, '\n', sep='') 
+print('\nWhat version of Python? \n', sys.version, '\n', sep='') 
 
 if float(sys.version_info[0]) < 3.0 :       
     raise Exception('Program halted, old version of Python. \n', 
@@ -28,22 +28,42 @@ else:
 """
 Calculations and assignments (best in IPython console)   
 """
-x = 2*3 
-y = 2**3 
-z = 2/3 
+2*3
+2 * 3
+2^3
+log(3) 
 
+
+#%%
 """
 Strings  
 """
 a = 'some'
 b = 'thing'
 c = a + b 
-print(['a[1:3]', a[1:3]])
+print('c = ', c)
+
+print('c[1] is:', c[1])
+print('c[1:2] is', c[1:2])
+print('c[1:3] is:', c[1:3])
+print('c[1:] is:', c[1:])
+
+
+#%%
+
+#print(['a[1:3]', a[1:3]])
 
 # names 
 first, last = 'Dave', 'Backus'
 full = first + ' ' + last
 
+#%%
+longstring = """
+Four score and seven years ago
+Our fathers brought forth """
+print(longstring)
+
+#%%
 """
 Output and input 
 """
@@ -90,6 +110,7 @@ print(['row labels', df.index])
 # read from url 
 url = 'https://raw.githubusercontent.com/DaveBackus/Data_Bootcamp/master/Code/Data/test1.csv'
 dfurl = pd.read_csv(url)
+
 
 #%%
 # read IMF's WEO data from 
