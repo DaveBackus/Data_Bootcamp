@@ -13,9 +13,10 @@ Pix/
 docs/
 Samples/
 Code/Data/
-Code/Python/*.csv
+Code/Python/
 Code/Python/*.zip
-Code/Projects
+Code/csv/
+
 .dropbox
 .dropbox.attr
 .ini
