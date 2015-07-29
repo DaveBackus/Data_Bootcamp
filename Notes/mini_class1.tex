@@ -1,0 +1,567 @@
+\documentclass[11pt]{article}
+
+\input{../LaTeX/preamble.tex}
+
+% document starts here
+\begin{document}
+\parskip=\bigskipamount
+\parindent=0.0in
+\thispagestyle{empty}
+\input{../LaTeX/header.tex}
+
+\bigskip\bigskip
+\centerline{\Large \bf Data Bootcamp:  Class \#1}
+\centerline{Revised: \today}
+
+
+\section{Course overview}
+
+\begin{itemize}
+\item Objective:  Learn enough about Python to do useful things with data.
+\item Target audience:  Programming newbies.
+Anyone can do this with a little persistence and the help of friends.
+\item Trigger warning:  This will take some effort ---  but it's worth it.
+\item Team:  Dave Backus, Glenn Okun, Sarah Beckett-Hile, and a rotating group of ninjas.
+
+\item High-level languages:
+\href{http://en.wikipedia.org/wiki/Python_(programming_language)}{Python},
+\href{http://en.wikipedia.org/wiki/R_(programming_language)}{R},
+and
+\href{http://en.wikipedia.org/wiki/MATLAB}{Matlab}.
+All of these languages are useful, but we think Python is the tool of choice.
+It's a general purpose program, which means it has more flexibility than the others,
+and it's gradually building up comparable or better functionality in specific areas we care about:
+data management, graphics, and so on.
+Also, it's free (so is R).
+
+Here's a
+\href{http://www.dataschool.io/python-or-r-for-data-science/}{nice comparison}
+of Python and R for data science.
+
+\item {\bf Work habits:}
+\begin{itemize}
+\item Advice.  This will seem mysterious at first, but if you stick with it,
+you'll find it starts to look familiar, even make sense.
+\item Practice.  Any time you have something to do with data, try it out in Python.
+Play around.  Have fun!
+\item Friends.  Work with friends, and make new friends who know how to code.
+\item Help.  If you get stuck, ask for help --- from friends,
+from the Bootcamp group (post a problem), Stack Overflow, etc.
+\end{itemize}
+
+\item Course resources:
+\begin{itemize}
+\item Bootcamp Group:  \url{https://groups.google.com/forum/#!forum/nyu_data_bootcamp}.
+Post comments and questions here.
+
+\item GitHub repository:  \url{https://github.com/DaveBackus/Data_Bootcamp}.
+All the docs and programs are here.
+This document is in the Notes folder;
+the pdf file comes with links.
+Programs are in the Code folder under Python.
+\end{itemize}
+
+\item Other resources:
+%
+\begin{itemize}
+\item {Python the Hard Way}:  \url{http://learnpythonthehardway.org/book/}.
+Many of our former students say this is the best introduction to Python.
+Click on ``try it now for free'' and ignore the offers to buy books and videos.
+Use the arrows on the right to go to the next or previous lesson.
+It's more systematic than our introduction
+(that is, slower and with somewhat more basic programming coverage),
+but does not go into graphics and data.
+In short:  good starting point, but different focus.
+
+One thing to be aware of:  It's based on Python 2.
+It's not wildly different from Python 3, which is what we use,
+but you may notice that the print command has changed from {\tt print x} to {\tt print(x)}.
+
+\item Codecademy:  \url{http://www.codecademy.com/en/tracks/python}.
+This also comes recommended.
+One clear advantage over Hard Way:  you don't need to install Python,
+you do everything online.
+
+\item Coursera:  \url{https://www.coursera.org/course/pythonlearn}.
+This is a nice beginner's course in Python.
+All the materials are
+\href{http://open.umich.edu/education/si/coursera-programming-everybody/winter2014}{online}
+if you want to work through them yourself.
+\end{itemize}
+If you try any of them, let us know what you think.  Ditto other resources.
+
+\item These notes.
+They're intended to accompany class and may be mysterious
+on their own.
+If you see ??, that's a reminder to us to fix something up later.
+\end{itemize}
+
+
+\section{Today's plan}
+
+\begin{itemize}
+\item Python fundamentals.
+\item Reading csv and xls files.
+\item Projects.
+\item Examples.
+\end{itemize}
+
+\section{Python fundmentals}
+
+\begin{itemize}
+\item Environments:  Python 3.4 in Spyder, editor, IPython console.
+\item References:
+ {Python tutorial},
+\href{https://docs.python.org/3.4/tutorial/introduction.html}{Section 3}.
+
+\item ** check this out:  \url{https://wiki.python.org/moin/SimplePrograms} \\
+
+
+\item ***The logic of a Python program:
+work through a set of commands in order, not like Excel
+
+\item Lines.  Each line is a new command. 
+Unlike Excel, the program goes through the lines one at a time.  
+
+Continuation automatic if you have parens or brackets that need to be closed (``implicit'').
+Blank lines fine, often helpful in making code easier to read.
+More
+\href{https://docs.python.org/3.4/reference/lexical_analysis.html#line-structure}{here}
+and \href{http://stackoverflow.com/questions/53162/how-can-i-do-a-line-break-line-continuation-in-python}
+{here}.
+
+%\begin{itemize}
+%\item Scipy lectures,
+%\end{itemize}
+\item Operations:  \verb: 2*3, 2 * 3, 2/3, 2^3, 2**3, log(3), etc :
+% http://en.wikibooks.org/wiki/LaTeX/Paragraph_Formatting#Verbatim_text
+
+\item Assignments:  {\tt x = 2, y = 3.5, z = x/y, etc }
+\item Comments and {\tt print}:  \verb:#, """, #%%, print(x), etc. :
+
+%[?? more on print?]
+
+
+\item Strings:  {\tt a = 'some', b = 'thing', c = a+b, d = '11.32', etc.}
+
+\item Single and double quotes.
+
+[??] triple quotes can go over several lines,
+
+we use them for multi-line comments \\
+\url{https://docs.python.org/3/tutorial/introduction.html#strings} \\
+
+Also used to supply docs for functions
+\url{http://stackoverflow.com/a/7057988/804513} **
+
+\item Functions and methods. ??
+
+We'll see shortly that there are often two ways to do things:
+functions and methods.
+We can tell functions because they come with arguments in parentheses.
+In some cases, we even use function() if we don't have any input.  [??]
+
+Here's a \href{https://docs.python.org/3.4/library/functions.html}{list}.
+print...  len...  [??]
+
+\item Types and conversions.  [??]  {\tt len} and {\tt type}:
+{\tt len(first), len(x), type(first), type(x)}.
+
+Add conversions...
+
+\item {\bf Exercise.}
+Wbat do the functions {\tt float}, {\tt int}, and {\tt str} do?
+What other functions would you like to know about?
+(We'll never use most of them, but you never know.)
+
+\item Type conversions.
+There are lots of occasions when we want --- or need -- to change type.
+Suppose, for example, we want to convert {\tt year = '2011'},
+which is defined as a string, to a number.
+We can do that with {\tt int(year)}.  (Or {\tt float}, but we have something else in mind.
+
+\item {\bf Exercise.}
+Suppose we take {\tt year} is a string containing the year of a particular piece of data.
+How would we construct a string containing the following year?
+
+\item Slicing.  Find an element of {\tt a}: {\tt a[1], a[0], a[1:3], a[-1], a[:2], a[1] = 'z', etc.}
+
+\item {\bf Exercise.}  Set {\tt first} equal to your first name, {\tt last} equal to your last name.
+\begin{enumerate}[label=(\alph*)]
+\item Set {\tt full} equal to your first and last names together with a space between them.
+\item Set {\tt lastfirst} equal to your last name, comma, space, first name.
+\end{enumerate}
+
+\item Objects and methods.
+Most things in Python are {\bf objects}
+(for example, {\tt x, z, first}).
+(Experts may say at this point:  an {\bf object} is an {\bf instance} of a {\bf class}.
+Ignore them.)
+{\bf Methods} are ready-to-go things we can do with them.
+The available methods depend on the object.
+To get a list of available methods for a given object,
+type in the IPython console: {\tt object.[tab]}.
+When you find a method you're interested in,
+go to Spyder's Object explorer
+and type {\tt object.method} for a description and syntax.
+Examples:  \verb:first.find('a'), x.is_integer():.
+
+\item {\bf Exercise.}  Take {\tt lastfirst} and see what methods are available.
+\begin{enumerate}[label=(\alph*)]
+\item Use {\tt lastfirst.find} to find the location of the comma and
+decompose {\tt lastfirst} into {\tt first} and {\tt last}.
+\item Find a method that converts {\tt last} to all lower case.
+\end{enumerate}
+
+\item Lists: collections of things, possibly different, defined by square brackets
+{\tt []} with commas between items.
+Slicing conventions similar to strings.
+Examples:  {\tt numbers = [x, y, z], type(numbers),
+print(numbers),
+strings = [a, b, c, d],
+all = numbers + strings, type(all),
+print(all),
+all[0], all[-1], all[3:], etc.}
+
+\item {\bf *** Style ***}
+
+PEP8 etc \\
+\url{https://google-styleguide.googlecode.com/svn/trunk/pyguide.html}
+
+Examples:  \\
+\url{http://www.reddit.com/r/Python/comments/3639nl/what_is_the_most_beautiful_piece_of_python_code/}\\
+\url{https://github.com/mitsuhiko/werkzeug/blob/master/werkzeug/routing.py} \\
+
+
+
+\item Assignment idea:  convert list of strings to list with number of letters in each.  \\
+Do in class?  \\
+\url{http://www.reddit.com/r/Python/comments/35ubwo/newbie_for_programming_i_am_working_on_this/}
+
+
+\item {\bf Other data structures.\/} [??]
+The term data structure refers to the organization of a collection of data.
+A list is a data structure.  ...
+
+\url{http://en.wikipedia.org/wiki/Data_structure}
+
+Examples: tuples, dictionaries, and sets.  We'll cover them later as needed.
+If you run across one of these terms, keep in mind it's just a different form
+of organization, we can look up its properties when we need to.
+
+\end{itemize}
+
+
+\section{Inputting data}
+\begin{itemize}
+\item Packages:  Collections of commands that do more than basic Python.
+There are packages that do almost anything, but we'll focus on a couple:
+Matplotlib and pandas.  Matplotlib is a graphics package, we'll talk about it
+another time.
+We touch on pandas --- briefly --- below.
+
+In Python --- and many other languages --- we need to tell Python to make them available.
+Here are some options for doing this with a mythical package {\tt xyz}:
+\begin{itemize}
+\item {\tt from xyz import *}.
+This imports all the commands from the package {\tt xyz}.
+You can replace the star
+with specific commands and import only them.
+A command {\tt foo} is then executed by typing {\tt foo}.
+\item {\tt import xyz}.  This imports the whole thing.
+A command {\tt foo} is then executed by adding {\tt xyz.}
+(note the period) before its name:  {\tt xyz.foo}.
+\item {\tt import xyz as x} is the most common syntax.
+It allows the shorthand {\tt x.foo}.
+We'll do this momentarily with the package {\tt pandas}.
+\end{itemize}
+For more, see the
+\href{https://docs.python.org/3.4/tutorial/modules.html}{Section 6}
+of the Python tutorial.
+This refers to modules, which could be packages, subsets of packages, or even
+code you've written yourself.
+
+\item The pandas package:  pandas = (Python Data Analysis Library).
+This is the central package for data work,
+it allows you to use Python for data management along similar
+lines to the program R.
+We'll import it typically with the command {\it import pandas as pd}
+and execute commands with syntax of the form {\t pd.command}.
+
+\item Reference:  pandas has the usual high-quality
+{documentation}
+we expect from Python packages.
+Search ``python pandas'' or go to
+\url{http://pandas.pydata.org/}.
+We'll focus here on the input-output tools:
+\url{http://pandas.pydata.org/pandas-docs/stable/io.html}.
+
+\item Reading csv files.  We've found that csv files
+are the most useful common data format, far better than xls or xlsx.
+Its simple structure (entries separated by commas, tabs, or spaces) allows easy and rapid input.
+That's a general statement, not a statement about Python.
+
+Suppose you have (as we do) a csv file in a parallel directory {\tt Data}.
+Then we can read it with the \verb:read_csv: command in pandas:
+\begin{verbatim}
+import pandas as pd
+file = '../Data/test1.csv'
+df = pd.read_csv(file)
+\end{verbatim}
+This reads the file {\tt test1.csv} into {\tt df}.
+If you try {\tt type(df)} you'll find that {\tt df} is a DataFrame,
+the standard object type in pandas.
+It's a table of numbers, much like a sheet in a spreadsheet program,
+with labels for rows (the index) and columns (the variables).
+
+Some of the methods you could try:
+{\tt df.columns} (the column labels),
+{\tt df.columns.tolist()} (the column labels as a list),
+{\tt df.index} (the row labels),
+{\tt df.head(2)} (the top two rows),
+{\tt df.tail()} (the bottom five rows),
+{\tt df.tail(2)} (the bottom two rows),
+{\tt df.describe()} (summary statistics),
+and {\tt df.info()} (information about the form of the data).
+There are only three rows in this one, so you could simply
+print the whole thing, but with large data sets this is very useful.
+
+{\bf Comment.}
+The tricky part of this is setting the working directory,
+where Python looks for things.
+More on this another time.
+
+%[??  Check to see if file is there ??]
+
+\item ?? mention {read table}
+
+\item Reading csv's from url's.
+Even better, {\tt read\_csv} also reads from url's.
+The same file is in our GitHub repository (talk about how to find it,
+and the Raw button).
+We can read it with
+\begin{verbatim}
+import pandas as pd     # this is redundant if we've already imported it
+url1 = 'https://raw.githubusercontent.com/DaveBackus/'
+url2 = 'Data_Bootcamp/master/Code/Data/test1.csv'
+url = url1 + url2
+df = pd.read_csv(url)
+\end{verbatim}
+Or we could read the World Economic Outlook (WEO) database from the IMF.
+This reads in the whole thing:
+\begin{verbatim}
+url = 'http://www.imf.org/external/pubs/ft/weo/2014/01/weodata/WEOApr2014all.xls'
+weo = pd.read_csv(url, sep='\t')    # tab = \t
+\end{verbatim}
+%{\bf Exercise.}
+Try this and list the contents.
+What does the file look like?
+
+\item Spreadsheets.  They have a more complex structure and the possibility
+of more than one sheet.
+Most programmers avoid these files when they can:  they create technical problems
+that are hard to predict.
+See, for example, this
+\href{http://www.win-vector.com/blog/2014/11/excel-spreadsheets-are-hard-to-get-right/}{blog post}.
+
+Neverthless, spreadsheets are extremely common in the business world and elsewhere,
+so we need to be able to work with them.
+Here's an example that reads in the first sheet:
+\begin{verbatim}
+file = '../Data/test2.xlsx'
+xls = pd.read_excel(file)       # default is first sheet
+\end{verbatim}
+% ***********  ?? more at some point
+
+
+\item Copying from url's.
+Here's an example that copies a file from a url:
+\begin{verbatim}
+import urllib.request           # this is a module from the package urllib
+file = 'foo.csv'
+urllib.request.urlretrieve(url, file)
+\end{verbatim}
+This way you can copy the file to your own computer and read it in from there.
+This does the same thing, courtesy of Sarah:
+\begin{verbatim}
+f = urllib.request.urlopen(url)
+file = 'foo_sbh.csv'
+with open(file, 'wb') as local_file:
+    local_file.write(f.read())
+\end{verbatim}
+
+\item {\bf Exercise.}  Create a spreadsheet and save it as both csv and xlsx.
+Write code to read them into Python.
+
+
+\item Copy from clipboard.
+We're not fans of this, it makes replication hard, but it's awful convenient
+and recommended by some of our former students.
+
+\begin{verbatim}
+clip = pd.read_clipboard()
+\end{verbatim}
+
+\item Zip files.  The {\tt zipfile} module (part of basic Python)
+lets you do whatever you want with zip files.
+Some examples:
+\begin{verbatim}
+import pandas as pd
+import urllib
+import zipfile
+import os
+
+url  = 'http://databank.worldbank.org/data/download/WDI_csv.zip'
+file = os.path.basename(url)            # strip out file name
+urllib.request.urlretrieve(url, file)   # copy to disk
+
+# see what's there
+print(['Is zipfile?', zipfile.is_zipfile(file)])
+zf = zipfile.ZipFile(file, 'r')
+print('List of zipfile contents (two versions)')
+[print(file) for file in zf.namelist()]
+zf.printdir()
+
+# extract a component
+csv = zf.extract('WDI_Data.csv')        # copy to disk
+df1 = pd.read_csv('WDI_Data.csv')       # read
+print(df1.columns)                      # check contents
+
+# alternative:  open and read
+csv = zf.open('WDI_Data.csv')
+df2 = pd.read_csv(csv)
+print(df3.columns)
+\end{verbatim}
+For more, see the section of the Python tutorial that describes the
+\href{https://docs.python.org/3.4/library/zipfile.html#module-zipfile}{zipfile module}.
+
+
+\end{itemize}
+
+\section{Basic Pandas}
+
+*** Intro to indexing, selecting variables...
+
+
+\section{Projects}
+
+
+It's best to have a goal, something you're working toward.
+Might be something you can show potential employers to
+demonstrate your skill set.
+
+
+\section{Examples}
+
+These illustrate some of the possibilities of Python
+with data that's available free from online sources.
+This goes beyond what we've learned so far, but gives you a sense
+of what we'll be doing.
+Some examples:
+\begin{itemize}
+\item FRED.  Great online source of macroeconomic data.
+\item Fama-French.  Great source of equity returns on portfolios sorted by type and industry.
+Used to illustrate boxplots.
+\item World Bank.  Country indicators. Used to illustrate bubble plot (scatter plot with third variable
+indicated by size of ``bubble'').
+\end{itemize}
+See the code for details.
+We're still working on Yahoo's Options data,
+which went from working to not working in the last week.
+
+What examples would you like to see?
+Tell us, or post a suggestion on the Group.
+
+
+\section{Coming attractions}
+
+In the works:
+\begin{itemize}
+\item Basic programming tools:  control flow, functions.
+\item Data:  the pandas package.
+\item Graphics:  the Matplotlib package.
+\end{itemize}
+
+If there's interest:
+\begin{itemize}
+\item SQL databases.
+\item Scraping data from websites.
+\item Interactive web graphics:  Plot.ly and Google charts.
+\item Anything else?
+\end{itemize}
+
+\section{Before the next class}
+
+\begin{itemize}
+\item Play around with Python.
+Play around with some of the code snippets you've seen.
+Experiment with new methods.
+Try to read data you're using for other purposes.
+Run programs you find in the documentation.
+
+\item Think about projects.
+Skim through our list of projects and data sources, see if anything crosses your mind.
+Or ask your employer.  Or anywhere else you find data.
+
+\item Do the assignment below.  Really, give it a try.  Tell us what undergrad major pays the most.
+Think about graphics you can use to make the case.
+Bounce around ideas for a (small) project of your own.
+
+\item Get help when you need it.
+If you get stuck, ask friends for help, or post a question on the Google Group.
+Uee StackOverflow rules if possible:  include a self-contained example of your problem, code that others can fix.
+
+\item {\bf Exercise.}
+Read the article from the FiveThirtyEight (first link below) about income
+by college major of recent graduates.
+It takes data from a survey run by the US government (the American Community Survey) and
+produces figures summarizing the salaries of students who majored in
+various subjects.  They've kindly posted the data online --- also the R
+code --- in the second link.
+
+Your mission:
+
+(a) Read the data in the file {\tt recent-grads.csv} in the 538 GitHub
+repository (link below).
+You should be able to read it into Python straight from the url.
+Make sure you use the link from the Raw file.
+How many data points do you have?  How many
+variables?
+
+(b) Think about graphs you'd like to see, whether in the article or
+not.  You could, for example, look through the Matplotlib gallery
+(link below) and see if there are any graph types that you think you
+could use to present this data effectively.
+
+(d) If you're feeling brave, produce a graph of your own.  We haven't
+talked much about graphics yet, so if you get stuck, ask questions or stop.
+
+{\it Links\/} \\
+Article:  \url{http://fivethirtyeight.com/features/the-economic-guide-to-picking-a-college-major/} \\
+Code and data:
+\url{https://github.com/fivethirtyeight/data/tree/master/college-majors} \\
+Gallery:  \url{http://matplotlib.org/1.2.1/gallery.html}
+
+
+\end{itemize}
+
+%\pagebreak
+\section*{Today's code}
+
+Attached.  Download this pdf file, open in Adobe Acrobat or the equivalent,
+and click on the pushpins:
+\attachfile{../Code/Python/bootcamp_mini_basics.py}
+\attachfile{../Code/Python/bootcamp_mini_examples.py}
+
+\subsection*{Basics}
+{\small
+\verbatiminput{../Code/Python/bootcamp_mini_basics.py}
+}
+
+\subsection*{Examples}
+
+{\small
+\verbatiminput{../Code/Python/bootcamp_mini_examples.py}
+}
+
+\end{document}
