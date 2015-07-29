@@ -1,43 +1,69 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+## Local tweaks 
+Background_materials/
+Current/
+Logistics/
+Other_courses/
+Pix/
+Related_courses/
+Grants/
+Miscellaneous/
+Junk/
+Media/
+Pix/
+docs/
+Samples/
+Code/Data/
+Code/Python/
+Code/Python/*.zip
+Code/csv/
 
-# Folder config file
-Desktop.ini
+.dropbox
+.dropbox.attr
+.ini
+*.sqlite
+.ipynb_checkpoints/
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+## Video 
+*.mp4
+*.mov
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+## Images
+*.png
 
-# Windows shortcuts
-*.lnk
+## Core latex/pdflatex auxiliary files:
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
 
-# =========================
-# Operating System Files
-# =========================
+## Intermediate documents:
+*.dvi
 
-# OSX
-# =========================
+## Bibliography auxiliary files (bibtex/biblatex/biber):
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
 
-.DS_Store
-.AppleDouble
-.LSOverride
+## Build tool auxiliary files:
+*.fdb_latexmk
+*.synctex
+*.synctex.gz
+*.bak
+*.sav
+*.synctex.gz(busy)
+*.pdfsync
+*.tex.bak
+*.tex.sav
 
-# Thumbnails
-._*
+## Compiled python files:
+*.pyc
+Code/IPython/.ipynb_checkpoints/
 
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+## GO AWAY ALL CSVS
+*.csv
