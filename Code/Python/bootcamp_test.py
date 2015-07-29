@@ -1,7 +1,14 @@
 """
-Data Bootcamp test program 
-Program checks to see that you're running Python 3.  If not, you get a warning 
-message.  
+Test program for Python installation.
+Program checks to see that you're running Python 3.  There are some other 
+checks, but they're not used in this chapter.  
+
+Prepared for the Data Bootcamp course at NYU's Stern School of Business
+
+Course repo:  
+https://github.com/DaveBackus/Data_Bootcamp
+GitBook chapter: 
+http://davebackus.gitbooks.io/test/content/installing-python.html
 
 Written by Dave Backus, March 2015  
 Created with Python 3.4 
@@ -23,8 +30,9 @@ if float(sys.version_info[0]) < 3.0:
                     'Sorry, you need to install Anaconda again.')
 else:
     print('Congratulations, Python is up to date!')  
-    
-#%%
+    sys.exit(0)      # this halts execution
+
+#%%    
 """
 Check path of current working directory (just for the heck of it)  
 """
@@ -33,11 +41,9 @@ import os
 
 print('Current path:\n', os.getcwd(), sep='')
 
-#%%
 """
-Check for support code 
+Check for specific file 
 """ 
-# https://docs.python.org/3.4/library/os.html
 import os
 
 print('List of files in working directory:')

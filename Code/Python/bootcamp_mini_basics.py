@@ -86,6 +86,22 @@ print(['both[3:]', both[3:]])
 
 #%%
 """
+Functions 
+"""
+def hello(firstname):
+    print('Hello, ', firstname)
+    
+hello('Dave')
+
+#%%
+def combine(first, last): 
+    lastfirst = last + ', ' + first 
+    return lastfirst 
+
+both = combine('Chase', 'Coleman')
+print(both)
+#%%
+"""
 Inputting data 
 """
 import pandas as pd 
@@ -113,12 +129,21 @@ dfurl = pd.read_csv(url)
 
 
 #%%
+import pandas as pd 
 # read IMF's WEO data from 
-url = 'http://www.imf.org/external/pubs/ft/weo/2014/01/weodata/WEOApr2014all.xls'
+url = 'http://www.imf.org/external/pubs/ft/weo/2015/01/weodata/WEOApr2015all.xls'
 weo = pd.read_csv(url, sep='\t')    # tab = \t 
 print(weo.head())
 print(['column labels', weo.columns])
 print(['row labels', weo.index])
+
+#%%
+countries = ['AFG', 'USA']
+variables = ['NGDP_RPCH', 'FLIBOR6']
+
+weo_sub = weo[weo['ISO'].isin(countries) & weo['WEO Subject Code'].isin(variables)]
+
+weo_sub.to_csv('weo.csv')
 
 #%%
 # copy file from url to hard drive 
@@ -140,7 +165,7 @@ file = '../Data/test2.xlsx'
 xls = pd.read_excel(file)       # default is first sheet
 
 #%%
-# zip files 
+# zip files  
 import pandas as pd
 import urllib
 import zipfile
