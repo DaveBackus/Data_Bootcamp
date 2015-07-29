@@ -1,65 +1,43 @@
-## Local tweaks 
-Background_materials/
-Current/
-Logistics/
-Other_courses/
-Pix/
-Related_courses/
-Grants/
-Miscellaneous/
-Junk/
-Media/
-Pix/
-docs/
-Samples/
-Code/Data/
-Code/Python/*.csv
-Code/Python/*.zip
-Code/Projects
-.dropbox
-.dropbox.attr
-.ini
-*.sqlite
-.ipynb_checkpoints/
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
 
-## Video 
-*.mp4
-*.mov
+# Folder config file
+Desktop.ini
 
-## Images
-*.png
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
 
-## Core latex/pdflatex auxiliary files:
-*.aux
-*.lof
-*.log
-*.lot
-*.fls
-*.out
-*.toc
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
 
-## Intermediate documents:
-*.dvi
+# Windows shortcuts
+*.lnk
 
-## Bibliography auxiliary files (bibtex/biblatex/biber):
-*.bbl
-*.bcf
-*.blg
-*-blx.aux
-*-blx.bib
-*.run.xml
+# =========================
+# Operating System Files
+# =========================
 
-## Build tool auxiliary files:
-*.fdb_latexmk
-*.synctex
-*.synctex.gz
-*.bak
-*.sav
-*.synctex.gz(busy)
-*.pdfsync
-*.tex.bak
-*.tex.sav
+# OSX
+# =========================
 
-## Compiled python files:
-*.pyc
-Code/IPython/.ipynb_checkpoints/
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
