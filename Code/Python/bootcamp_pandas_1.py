@@ -22,12 +22,12 @@ print('\nPandas version: ', pd.__version__)
 #%%
 """
 Read csv file into dataframe 
+Checks first to see if file is in the current working directory
 """
 import os 
 
-# a number of checks 
+# some checks just to be cute 
 print('\nCurrent working directory: ', os.getcwd())
-
 print('\n List of files in working directory: ', os.listdir())
 
 # check for file 
@@ -44,6 +44,7 @@ url2 = '/Data_Bootcamp/master/Code/Python/foo.csv'
 url  = url1 + url2 
 df2 = pd.read_csv(url)
 
+#%%
 """
 Other datasets 
 """

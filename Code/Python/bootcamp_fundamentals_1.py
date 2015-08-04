@@ -2,7 +2,7 @@
 Python fundamentals, part 1, for Data Bootcamp course.  
 
 Repository of materials (including this file): 
-* https://github.com/DaveBackus/Data_Bootcamp/Code/Python 
+* https://github.com/DaveBackus/Data_Bootcamp/
 * https://github.com/DaveBackus/Data_Bootcamp/Code/Python  
 
 Written by Dave Backus, August 2015 

@@ -15,6 +15,7 @@ Samples/
 Code/Data/
 Code/Python/*.zip
 Code/csv/
+Code/R/backups 
 
 .dropbox
 .dropbox.attr
@@ -64,5 +65,3 @@ Code/csv/
 *.pyc
 Code/IPython/.ipynb_checkpoints/
 
-## GO AWAY ALL CSVS
-*.csv
