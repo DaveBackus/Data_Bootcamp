@@ -14,7 +14,7 @@ We ran a three-session mini-course in Fall of 2014.  The materials are a little 
 [Session 2](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Notes/mini_class2.pdf) | 
 [Session 3](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Notes/mini_class3.pdf).
 
-If you want to download them, click on the Raw button at the top.  The code files are imbedded in the pdfs, and also posted in the Code directory (scroll to the top of the page).  
+If you want to download them, click on the link, then the Raw button at the top.  The code files are imbedded in the pdfs, and also posted in the Code directory (scroll to the top of the page).  
 
 **Suggestions welcome.**  Post them at the "Issues" link to the right (look for the exclamation point in a circle) or email Dave Backus at NYU:  db3@nyu.edu. Thanks in advance. 
 
