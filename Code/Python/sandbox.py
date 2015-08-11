@@ -1,9 +1,22 @@
-# -*- coding: utf-8 -*-
 """
-Created on Sun Jun 28 19:58:56 2015
+Messing around in Python for the Data Bootcamp course 
+Written by Dave Backus, August 2015 
+Created with Python 3.4 
+"""
+"""
+Verify doublke import 
+"""
+import pandas as pd 
+print('Pandas version (pd)', pd.__version__)  
 
-@author: dbackus
-"""
+import pandas as pa 
+print('Pandas version (pa)', pa.__version__)  
+
+print('Pandas version (pd after pa)', pd.__version__)  
+
+
+
+#%%
 w = 2*3 
 x = 2**3 
 y = x/w
