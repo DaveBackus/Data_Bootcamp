@@ -16,6 +16,7 @@ Code/Data/
 Code/Python/*.zip
 Code/csv/
 Code/R/backups 
+Code/backups 
 
 .dropbox
 .dropbox.attr
