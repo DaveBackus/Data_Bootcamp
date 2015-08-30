@@ -114,3 +114,41 @@ def combine(first, last):
 both = combine('Chase', 'Coleman')
 print(both)
 
+#%%
+"""
+map, reduce, and filter 
+"""
+anyoldlist = [2, 'Steelers', [1,5]]
+t = map(type, anyoldlist) 
+types = list(t)
+
+from functools import * 
+numlist = [4, -2, 5]
+z = reduce(lambda x,y: x+y, numlist)
+
+numlist = [4, -2, 5]
+f = filter(lambda x:  x >= 0, numlist) 
+newlist = list(f)
+
+#%%
+anylist = [2, 'Steelers', [1,2,3]]
+f = filter(lambda x: type(x) == str, anylist)
+newlist = list(f)
+
+#%%
+"""
+copies 
+"""
+x = [1,2,3]
+y = x
+x[0] = 'WHOA!'
+print(y)
+
+y[2] = 'xyzzy'
+print(x)
+
+
+x = [1,2,3]
+y = x.copy()
+x[0] = 'WHOA!'
+print(y)

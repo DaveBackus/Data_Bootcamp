@@ -95,20 +95,32 @@ df538 = pd.read_csv(url)
 df_props(df538)
 
 #%%
-# read IMF's WEO data (tab-delimited despite its xls extension)
-# more at https://www.imf.org/external/pubs/ft/weo/2015/01/weodata/index.aspx
-# takes about 10 seconds at homne over wireless network 
+"""
+Read IMF's WEO data (tab-delimited despite its xls extension)
+more at https://www.imf.org/external/pubs/ft/weo/2015/01/weodata/index.aspx
+Takes about 10 seconds at homne over wireless network 
+"""
+import pandas as pd 
+import numpy as np 
+
 url = 'http://www.imf.org/external/pubs/ft/weo/2015/01/weodata/WEOApr2015all.xls'
 weo = pd.read_csv(url, sep='\t', thousands=',')   # tab = \t 
 
 weo.shape
-weo.head()
+weo.dtypes
+
+#%%
+"""
+GDP growth scatterplot
+"""
+weo = weo[]
+weo['g8000'] = (np.log(weo['1995']) - np.log(weo['1980']))/15 
 
 #%%
 # trim this down 
 countries = ['USA']
-years = [str(year) for year in range(1980, 2016)]
-columns = [..]
+years = [str(year) for year in range(1980, 2015)]
+#columns = [..]
 weo_sub = weo[weo['ISO'].isin(countries)]
 print('Shape of weo_sub:', weo_sub.shape)
 weo

@@ -4,7 +4,6 @@ import pandas as pd
 import sqlite3
 import xlrd as xl
 
-
 # if this .sqlite db doesn't already exists, this will create it
 # if the .sqlite db *does* already exist, this establishes the desired connection
 con = sqlite3.connect("sql_sample_db.sqlite")
@@ -17,6 +16,7 @@ cust_table = pd.read_csv('https://raw.githubusercontent.com/DaveBackus/Data_Boot
 dog_table = pd.read_csv('https://raw.githubusercontent.com/DaveBackus/Data_Bootcamp/master/Code/SQL/dog_table.csv')
 cat_table = pd.read_csv('https://raw.githubusercontent.com/DaveBackus/Data_Bootcamp/master/Code/SQL/cat_table.csv')
 
+#%%
 # make a list of the tables (dataframes) and table names:
 tables = [sales_table, car_table, salesman_table, cust_table, dog_table, cat_table]
 table_names = ['sales_table', 'car_table', 'salesman_table', 'cust_table', 'dog_table', 'cat_table']
