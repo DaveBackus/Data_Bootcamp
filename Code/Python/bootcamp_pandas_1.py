@@ -1,6 +1,5 @@
 """
 Pandas intro for Data Bootcamp course.  
-
 Topics:  reading csv and xls files, properties of dataframes.  
 
 Repository of materials (including this file): 
@@ -16,13 +15,13 @@ Check versions
 import sys 
 import pandas as pd 
 
-print('\nPython version: ', sys.version) 
-print('\nPandas version: ', pd.__version__) 
+print('\nPython version:', sys.version) 
+print('Pandas version: ', pd.__version__) 
 
 #%%
 """
-Read csv files into dataframe 
-Checks first to see if file is in the current working directory
+Read csv file into dataframe 
+Check first to see if file is in the current working directory
 """
 import os 
 
@@ -37,8 +36,35 @@ if not os.path.isfile(file):
 
 # read from local drive  
 df1 = pd.read_csv(file)
+print('\nFile test.csv read from hard drive', '\n\nContents\n', df, sep='')
 
-# read from url 
+"""
+Properties of the input
+"""
+print('\nProperties of text.csv') 
+print('Type:', type(df1))
+print('Dimensions:', df1.shape) 
+print('\nIndex (row labels)\n', df1.index, sep='') 
+print('\nColumns (column labels)\n', df1.columns, sep='') 
+print('\nVariable types\n', df1.dtypes, sep='') 
+
+"""
+List properties with a function 
+"""
+def df_props(df):
+    """
+    Various properties of dataframe df    
+    """
+    print('\n\nType: ', type(df))
+    print('Dimensions (shape)): ', df.shape)
+    print('Column labels (variables): ', df.columns.tolist())
+    print('Variable types: \n', df.dtypes, sep='')
+    print('Index labels (observations): ', df.index.tolist())
+
+df_props(df1)
+
+#%%
+# read same file from url 
 url1 = 'https://raw.githubusercontent.com/DaveBackus'
 url2 = '/Data_Bootcamp/master/Code/Python/test.csv'
 url  = url1 + url2 
@@ -54,35 +80,6 @@ df = df1
 df.to_csv('foo.csv')
 
 #%%
-# change column label
-oldlabel = df.columns.tolist()
-newlabel = oldlabel
-newlabel[0] = 'xyz'
-df.columns = newlabel
-print(df)
-
-df = df.rename(columns={'x2': 'zyx'})  # or inplace=True
-
-# http://stackoverflow.com/questions/20868394/changing-a-specific-column-name-in-pandas-dataframe
-
-#%%
-"""
-Properties of dataframes
-"""
-df = df1
-# some properties
-
-def df_props(df):
-    """
-    Various properties of dataframe df    
-    """
-    print('Type: ', type(df))
-    print('Shape (dimensions): ', df.shape)
-    print('Column labels (variables): ', df.columns.tolist())
-    print('Variable types: \n', df.dtypes, sep='')
-    print('Index labels (observations): ', df.index.tolist())
-
-#df_props(df)
 
 #%%
 # 538 college majors data
@@ -129,40 +126,35 @@ weo
 #print('Top 5 observations\n', weo.head())
 print('Type: ', type(weo))
 print('Shape (dimensions): ', weo.shape)
-print('Column labels (variables): ', weo.columns.tolist())
+print('Column labels (variables): ', weo.columns.tolist()) 
 print('Variable types: \n', weo.dtypes, sep='')
 
 #%%
-# Brandon Rhodes' movie data from PyCon 2015 
-# 15-20 seconds on office computer 
+"""
+IMF historical data database 
+"""
+xlsfile = 'Debt Database Fall 2013 Vintage.xlsx'
+debt = pd.read_excel('../Temp/' + xlsfile, sheetname=1) 
+
+
+#%%
+"""
+Brandon Rhodes' movie data from PyCon 2015 
+Big files, 15-20 seconds on office computer 
+"""
 url = 'http://pages.stern.nyu.edu/~dbackus/csv/cast.csv'
 cast = pd.read_csv(url, encoding='utf-8')
 
-#%%
 print(cast.shape) 
 print(cast.head(10))
 h = cast.head()
 
-#%%
-
 
 #%%
-# select subset of dataframe 
-variables = ['NGDP_RPCH', 'FLIBOR6']
-
-
-
-#%%
-#%%
-# read from xls 
-file = '../backup/test.xlsx'
-xls = pd.read_excel(file)       # default is first sheet
-
-
-
-
-
-#%%
+"""
+urllib versions
+most are for the WDI, which is way too big and takes too long 
+"""
 # copy file from url to hard drive 
 import urllib.request           # this is a module from the package urllib 
 file = 'foo.csv'
@@ -187,19 +179,19 @@ import os
 
 # this is a big file, best to test with something smaller 
 url  = 'http://databank.worldbank.org/data/download/WDI_csv.zip'
-file = '../backups/' + os.path.basename(url)            # strip out file name 
-urllib.request.urlretrieve(url, file)   # copy to disk 
+file = '../Temp/' + os.path.basename(url)   # strip out file name 
+urllib.request.urlretrieve(url, file)        # copy to disk 
 
 # see what's there
 print(['Is zipfile?', zipfile.is_zipfile(file)])
 zf = zipfile.ZipFile(file, 'r')
-print('List of zipfile contents (two versions)')
+#print('List of zipfile contents (two versions)')
 [print(file) for file in zf.namelist()]
 zf.printdir()
 
 # extract a component 
 csv = zf.extract('WDI_Data.csv')        # copy to disk  
-df1 = pd.read_csv('WDI_Data.csv')       # read
+df1 = pd.read_csv(csv)       # read
 print(df1.columns)                      # check contents 
 
 # alternative:  open and read

@@ -35,7 +35,7 @@ Also:  file is tab-delimited, not xls, despite its name
 url1 = 'http://www.imf.org/external/pubs/ft/weo/2015/01/weodata/'
 url2 = 'WEOApr2015all.xls'
 url = url1 + url2 
-weo = pd.read_csv(url, sep='\t', thousands=',', na_values=['n/a', '--', '']) 
+weo = pd.read_csv(url, sep='\t', thousands=',', na_values=['n/a', '--']) 
 
 print('\nWEO database read, dimensions (rows, columns) =', weo.shape) 
 print('Variable dtypes:\n', weo.dtypes, sep='') 

@@ -18,7 +18,6 @@ import pandas.io.data as web     # this does internet input
 import datetime as dt            # this handles dates 
 import matplotlib.pyplot as pl
 import numpy as np
-#from statsmodels.tsa.stattools import acf, ccf # not part of Anaconda 
 
 # set starting date and series, get from FRED
 # default end date is most recent 

@@ -12,14 +12,6 @@ Created with Python 3.4
 Check versions 
 """
 import sys 
-import pandas as pd 
-
-print('\nPython version: ', sys.version) 
-print('\nPandas version: ', pd.__version__) """
-Check Python version 
-"""
-# https://docs.python.org/3.4/library/sys.html
-import sys 
 
 print('\nWhat version of Python? \n', sys.version, '\n', sep='') 
 
@@ -36,8 +28,7 @@ Calculations and assignments (best in IPython console)
 2*3
 2 * 3
 2^3
-log(3) 
-
+#log(3) 
 
 #%%
 """
@@ -48,21 +39,18 @@ b = 'thing'
 c = a + b 
 print('c = ', c)
 
+# slicing 
 print('c[1] is:', c[1])
 print('c[1:2] is', c[1:2])
 print('c[1:3] is:', c[1:3])
 print('c[1:] is:', c[1:])
 
-
-#%%
-
-#print(['a[1:3]', a[1:3]])
-
 # names 
 first, last = 'Dave', 'Backus'
 full = first + ' ' + last
+print('\nFull name is', full)
 
-#%%
+# triple quotes 
 longstring = """
 Four score and seven years ago
 Our fathers brought forth """
@@ -77,32 +65,30 @@ print(first, last)
 print(last, ', ', first)
 print(last, ', ', first, sep='')
 
-#x = input('Type your name here --> ')
-#print(x, end='\n\n') 
-
 """
 Lists 
 """
+x = 2
+y = 2**3
+z = x/y 
 numbers = [x, y, z]
 strings = [a, b, c]
 
 both = numbers + strings
-print(['both[3:]', both[3:]])
+print('both[3:] =', both[3:])
 
 #%%
 """
 Functions 
 """
 def hello(firstname):
-    print('Hello, ', firstname)
+    print('Hello,', firstname)
     
 hello('Dave')
 
-#%%
 def combine(first, last): 
     lastfirst = last + ', ' + first 
     return lastfirst 
 
 both = combine('Chase', 'Coleman')
 print(both)
-

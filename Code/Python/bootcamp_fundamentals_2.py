@@ -12,11 +12,6 @@ Created with Python 3.4
 Check Python version
 """
 import sys 
-import pandas as pd 
-
-print('\nPython version: ', sys.version) 
-
-import sys 
 
 print('\nWhat version of Python? \n', sys.version, '\n', sep='') 
 
@@ -35,13 +30,13 @@ y = 2**3
 test = x >= y
 print('x >= y = ', test, 'and has type', type(test))
 
-#%%
 name1 = 'Chase' 
 name2 = 'Spencer' 
 check =  name1 >= name2 
+print('check =', check)
 
-#%%
-print(not check)
+notcheck = not check 
+print('notcheck =', notcheck)
 
 #%%
 """
@@ -51,28 +46,28 @@ sum = 0
 for num in range(11):
     sum = sum + num 
 
-print(sum)
+print('\nSum of first 10 integers =', sum)
 
-#%%
+#
 maxnum = 20 			     # guess number above our limit 
-
 sum = 0 
 for num in range(maxnum):
     sum = sum + num 
     if sum > 100:
         break  			# exit loop 
 
-print('At num =', num, 'we had sum =', sum)
-#%%
+print('\nAt num =', num, 'we had sum =', sum)
+
+# loops over lists 
 numlist = [4, -2, 5] 
 
 sum = 0
 for num in numlist:
     sum = sum + num 
     
-print(sum)     
-#%%
+print('\nSum of numbers in list =', sum)     
 
+# bond price 
 maturity = 20 			
 coupon = 2 			 
 ytm    = 0.05 
@@ -81,21 +76,23 @@ price = 0
 for year in range(1, maturity+1):
     price = price + coupon/(1+ytm)**year
 
+# add principal 
 price = price + 100/(1+ytm)**maturity 
-print('The price of the bond is', price)
+print('\nThe price of the bond is', price)
 
-#%%
+# loops over strings
 vowels = 'aeiouy'
 word   = 'anything'
+print('\nVowels in', word, ': ', end='')
 for letter in word:
     if letter in vowels:
-        print(letter)
-#%%
-vowels = 'aeiouy'
-word   = 'anything'
+        print(letter, end=' ')
+
+# consonants:  note the "not" 
+print('\nConsonants in', word, ': ', end='')
 for letter in word:
     if letter not in vowels:
-        print(letter)
+        print(letter, end=' ')
         
 #%%        
 """
@@ -121,34 +118,41 @@ map, reduce, and filter
 anyoldlist = [2, 'Steelers', [1,5]]
 t = map(type, anyoldlist) 
 types = list(t)
+print('\nResult of map:\n', types, sep='')
 
-from functools import * 
+from functools import reduce 
 numlist = [4, -2, 5]
 z = reduce(lambda x,y: x+y, numlist)
+print('Result of reduce (sum):', z)
 
 numlist = [4, -2, 5]
-f = filter(lambda x:  x >= 0, numlist) 
+f = filter(lambda x:  x > 0, numlist) 
 newlist = list(f)
+print('Result of filter (find positive numbers):', newlist)
 
-#%%
 anylist = [2, 'Steelers', [1,2,3]]
 f = filter(lambda x: type(x) == str, anylist)
 newlist = list(f)
+print('Result of filter (find strings):', newlist)
 
 #%%
 """
 copies 
 """
+print('\nAssignments and copies')
+
 x = [1,2,3]
+print('x =', x)
+
 y = x
 x[0] = 'WHOA!'
-print(y)
+print('After changing x[0]: y =', y)
 
 y[2] = 'xyzzy'
-print(x)
-
+print('After changing y[2]: x =', x)
 
 x = [1,2,3]
 y = x.copy()
 x[0] = 'WHOA!'
-print(y)
+print('y =', y)
+
