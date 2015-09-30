@@ -1,6 +1,6 @@
 ### Data Bootcamp
 
-The Data Bootcamp course at NYU Stern is designed to give (i) students some familiarity with economic and financial data and (ii) programming newbies a sense of how modern software makes life easier and more interesting.  We'll let the data speak for itself.  But on coding:  We think it's an essential skill in the modern world. You can do lots of things in Excel, but if you value your time -- we do! -- you'll find you can use it more efficiently with a modern programming language.  We like to say we do it because **we're lazy**, laziness being a synonym here for efficiency.  
+The Data Bootcamp course at NYU Stern is designed to give (i) students some familiarity with economic and financial data and (ii) programming newbies a sense of how modern software makes life easier and more interesting.  We'll let the data speak for itself.  But on coding:  We think it's an essential skill in the modern world. You can do lots of things in Excel, but if you value your time -- we do! -- you'll find you can use it more efficiently with a modern programming language.  We like to say we do it because we're lazy, laziness being a synonym here for efficiency.  
 
 We will offer two sections of the course in Spring 2016, one for undergrads (ECON-UB.0232, Tuesday and Thursday, 2-3:15, January 26 to May 10) and one for MBA students (ECON-GB.2313, Wednesday nights, 6-9pm, February 8 to May 9). You can find more information at  
 
