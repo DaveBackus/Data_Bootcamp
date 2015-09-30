@@ -9,7 +9,7 @@ You can find more information about the course at
 * [Course description and FAQ](https://docs.google.com/document/d/1EYvjgbeXk-BUGVrrVzJGqsaGaxYng1qSSB_3cxdsyJE/edit?usp=sharing) 
 * [Book](https://www.gitbook.com/book/davebackus/test/details) (first few chapters done, the others will be fleshed out between now and January 2016) 
 
-**Mini-courses.**  We ran a non-credit mini-course in 2014 and plan another one for 2015.  The mini-course will expose you to the Python programming language and illustrate the power it will give you over data. Excel is a fine program, but once you hlearn to work with a modern programming language, it will remind you of doing arithmetic on your fingers.  Former students tell us it's become an essential business skill in asset management, tech, and marketing.  An alum with strong programming skills worries that this course will make him obsolete.  
+**Mini-courses.**  We ran a non-credit mini-course in 2014 and plan another one for 2015. The mini-course will expose you to the Python programming language and illustrate the power it will give you over data. Excel is a fine program, but once you hlearn to work with a modern programming language, it will remind you of doing arithmetic on your fingers.  Former students tell us it's become an essential business skill in asset management, tech, and marketing.  An alum with strong programming skills worries that this course will make him obsolete.  
 
 The 2015 mini-course schedule is 
 
