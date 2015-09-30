@@ -16,7 +16,9 @@ If you have questions, email Dave Backus (db3@nyu.edu) or track him down in his 
 * Friday, November 6, 2-4pm.  Python fundamentals and an introduction to Python graphics.  Please follow [these instructions](https://davebackus.gitbooks.io/test/content/installing-python.html) to install Python before the class. If you have difficulty, come 20 minutes early and we'll get you going.      
 * Friday, November 13, 2-4pm.  Accessing data from spreadsheets and internet sources, examples of what you will be able to do.  
 
-We'll post additional information/material here as we develop it.  The materials for the Fall 2014 version are a little terse, and include mysterious notes to ourselves, but here they are: 
+We'll post additional information/material here as we develop it.  
+
+The materials for the Fall 2014 version are a little terse, and include mysterious notes to ourselves, but here they are: 
 
 [Session 1](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Notes/mini_class1.pdf) | 
 [Session 2](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Notes/mini_class2.pdf) | 
