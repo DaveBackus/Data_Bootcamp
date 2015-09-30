@@ -9,7 +9,7 @@ You can find more information about the course at
 * [Course description and FAQ](https://docs.google.com/document/d/1EYvjgbeXk-BUGVrrVzJGqsaGaxYng1qSSB_3cxdsyJE/edit?usp=sharing) 
 * [Book](https://www.gitbook.com/book/davebackus/test/details) (first few chapters done, the others will be fleshed out between now and January 2016) 
 
-If you have questions, email Dave Backus (db3@nyu.edu) or track him down in his office (KMC 7-68) or at the Malt House.  
+If you have questions, email [Dave Backus](http://pages.stern.nyu.edu/~dbackus/) (db3@nyu.edu) or track him down in his office (KMC 7-68) or at the Malt House.  
 
 **Mini-courses.**  We ran a non-credit mini-course in 2014 and plan another one for 2015. The mini-course will give you a taste of the Python programming language and its capabilities for managing data. The 2015 mini-course schedule is 
 
