@@ -1,16 +1,20 @@
 ### Data Bootcamp
 
-Materials for a course about economic, financial, and business data based on the Python programming language.  It is designed to give (i) students some familiarity with economic and financial data and its uses and (ii) programming newbies a sense of how modern software makes life easier and more interesting.  .
+Materials for a course about economic, financial, and business data based on the Python programming language.  It is designed to give (i) students some familiarity with economic and financial data and its uses and (ii) programming newbies a sense of how modern software makes life easier and more interesting. 
 
-We will offer two sections of the course in Spring 2016, one for undergrads (ECON-UB.0232, Tuesday and Thursday, 2-3:15, January 26 to May 10) and one for MBA students (ECON-GB.2313, Wednesday nights, 6-9pm, February 8 to May 9). You can find more information at  
+We will offer two sections of the course in Spring 2016, one for undergrads (ECON-UB.0232, Tuesday and Thursday, 2-3:15, January 26 to May 10) and one for MBA students (ECON-GB.2313, Wednesday nights, 6-9pm, February 8 to May 9). 
+
+You can find more information about the course at  
 
 * [Course description and FAQ](https://docs.google.com/document/d/1EYvjgbeXk-BUGVrrVzJGqsaGaxYng1qSSB_3cxdsyJE/edit?usp=sharing) 
 * [Book](https://www.gitbook.com/book/davebackus/test/details) (first few chapters done, the others will be fleshed out between now and January 2016) 
 
-**Mini-courses.**  We ran (or will run) non-credit mini-courses in 2014 and 2015.  The idea for the 2015 version is to give students some exposure to the Python programming language and a sense of how it can be used to access and manipulate data. Former students tell us it's an essential business skill.  The schedule is 
+**Mini-courses.**  We ran a non-credit mini-course in 2014 and plan another one for 2015.  The mini-course will expose you to the Python programming language and illustrate the power you will have over data. Excel is a fine program, but it will remind you of doing arithmetic on your fingers.  Former students tell us it's become an essential business skill in asset management, tech, and marketing.  An alum with strong programming skills worries that this course will make him obsolete.  
 
-* Friday, November 6, 2-4pm.  Python fundamentals and an introduction to graphics.     
-* Friday, November 13, 2-4pm.  Accessing data from spreadsheets and internet sources and putting it to work.  
+The 2015 mini-course schedule is 
+
+* Friday, November 6, 2-4pm.  Python fundamentals and an introduction to graphics.    
+* Friday, November 13, 2-4pm.  Accessing data from spreadsheets and internet sources, examples of what's possible.   
 
 We'll post additional information/material here as we develop it.  The materials for the Fall 2014 version are a little terse, and now include notes to ourselves, but here they are: 
 
