@@ -24,6 +24,8 @@ We'll post additional information/material here as we develop it.  The materials
 
 If you want to download the pdf files, click on the link, then the Raw button at the top.  The code files are imbedded in the pdfs, and also posted in the Code directory (scroll to the top of the page).  
 
+**Our team.**  When we use the word "we" we have in mind the team of Dave Backus, Chase Coleman, Spencer Lyon, and Glenn Okun.  A number of students have helped out as well; see the acknowledgement in [our online book](https://davebackus.gitbooks.io/test/content/).
+
 **Suggestions welcome.**  Post them at the "Issues" link to the right (look for the exclamation point in a circle) or email Dave Backus at NYU:  db3@nyu.edu. Thanks in advance. 
 
 **Licensing.** We encourage others to use this material and to acknowledge such use.
