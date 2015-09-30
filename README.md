@@ -1,6 +1,6 @@
 ### Data Bootcamp
 
-Materials for a course about economic, financial, and business data based on the Python programming language.  It is designed to give (i) students some familiarity with economic and financial data and (ii) programming newbies a sense of how modern software makes life easier and more interesting.  
+The Data Bootcamp course at NYU Stern is designed to give (i) students some familiarity with economic and financial data and (ii) programming newbies a sense of how modern software makes life easier and more interesting.  We'll let the data speak for itself.  But on coding:  We think it's an essential skill in the modern world. You can do lots of things in Excel, but if you value your time -- we do! -- you'll find you can use it more efficiently with a modern programming language.  We like to say we do it because **we're lazy**, laziness being a synonym here for efficiency.  
 
 We will offer two sections of the course in Spring 2016, one for undergrads (ECON-UB.0232, Tuesday and Thursday, 2-3:15, January 26 to May 10) and one for MBA students (ECON-GB.2313, Wednesday nights, 6-9pm, February 8 to May 9). You can find more information at  
 
@@ -9,14 +9,14 @@ We will offer two sections of the course in Spring 2016, one for undergrads (ECO
 
 If you have questions, email Dave Backus (db3@nyu.edu) or track him down in his office (KMC 7-68).  
 
-**Mini-courses.**  We ran a non-credit mini-course in 2014 and plan another one for 2015. The mini-course will expose you to the Python programming language and illustrate its capabilities.  Excel is a fine program, but once you learn to work with a modern programming language, it will remind you of doing arithmetic on your fingers.  Former students tell us it's become an essential business skill in asset management, tech, and marketing.  An alum with strong programming skills worries that this course will make him obsolete.  
+**Mini-courses.**  We ran a non-credit mini-course in 2014 and plan another one for 2015. The mini-course will expose you to the Python programming language and illustrate its capabilities for managing data. Excel is a fine program, but once you learn to work with a modern programming language, it will remind you of doing arithmetic on your fingers.  Former students tell us it's become an essential business skill in asset management, tech, and marketing.  An alum with strong programming skills worries that this course will make him obsolete.  
 
 The 2015 mini-course schedule is 
 
 * Friday, November 6, 2-4pm.  Python fundamentals and an introduction to Python graphics.  You should follow [these instructions](https://davebackus.gitbooks.io/test/content/installing-python.html) to install Python before the class. If you have difficulty, come 20 minutes early and we'll get you going.      
-* Friday, November 13, 2-4pm.  Accessing data from spreadsheets and internet sources, some examples of what you will be able to do.  
+* Friday, November 13, 2-4pm.  Accessing data from spreadsheets and internet sources, examples of what you will be able to do.  
 
-We'll post additional information/material here as we develop it.  The materials for the Fall 2014 version are a little terse, and now include notes to ourselves, but here they are: 
+We'll post additional information/material here as we develop it.  The materials for the Fall 2014 version are a little terse, and include mysterious notes to ourselves, but here they are: 
 
 [Session 1](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Notes/mini_class1.pdf) | 
 [Session 2](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Notes/mini_class2.pdf) | 
