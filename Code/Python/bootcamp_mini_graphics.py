@@ -42,6 +42,7 @@ for prop in properties:
 #%%
 """
 Graphics 1:  Pyplot's simple (Matlab-like) interface 
+diff bar colors:  http://stackoverflow.com/questions/2581400/matplotlib-changing-rect-colours-on-the-fly
 """
 import matplotlib.pyplot as plt             # import pyplot module 
 

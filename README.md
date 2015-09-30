@@ -1,14 +1,18 @@
-###Data Bootcamp
+### Data Bootcamp
 
-Materials for a course about economic, financial, and business data based on the Python programming language.  It is designed to give (i) students some familiarity with economic and financial data and its uses and (ii) programming newbies a sense of how modern software makes life easier and more interesting.  The current plan is to offer two sections of the course in Spring 2016, one for undergrads, the other for MBA students.  
+Materials for a course about economic, financial, and business data based on the Python programming language.  It is designed to give (i) students some familiarity with economic and financial data and its uses and (ii) programming newbies a sense of how modern software makes life easier and more interesting.  .
 
-More information:  
+We will offer two sections of the course in Spring 2016, one for undergrads (ECON-UB.0232, Tuesday and Thursday, 2-3:15, January 26 to May 10) and one for MBA students (ECON-GB.2313, Wednesday nights, 6-9pm, February 8 to May 9). You can find more information at  
 
 * [Course description and FAQ](https://docs.google.com/document/d/1EYvjgbeXk-BUGVrrVzJGqsaGaxYng1qSSB_3cxdsyJE/edit?usp=sharing) 
 * [Book](https://www.gitbook.com/book/davebackus/test/details) (first few chapters done, the others will be fleshed out between now and January 2016) 
 
-**Mini-course.**
-We ran a three-session mini-course in Fall of 2014.  The materials are a little terse, but they'll give you a sense where we're headed: 
+**Mini-courses.**  We ran (or will run) non-credit mini-courses in 2014 and 2015.  The idea for the 2015 version is to give students some exposure to the Python programming language and a sense of how it can be used to access and manipulate data. Former students tell us it's an essential business skill.  The schedule is 
+
+* Friday, November 6, 2-4pm.  Python fundamentals and an introduction to graphics.     
+* Friday, November 13, 2-4pm.  Accessing data from spreadsheets and internet sources and putting it to work.  
+
+We'll post additional information/material here as we develop it.  The materials for the Fall 2014 version are a little terse, and now include notes to ourselves, but here they are: 
 
 [Session 1](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Notes/mini_class1.pdf) | 
 [Session 2](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Notes/mini_class2.pdf) | 
@@ -26,7 +30,7 @@ On the off chance this crossed your mind, here's
 Part of the #nyuecon collection at NYU's Stern School of Business. 
 
 ---
-###SQL Bootcamp
+### SQL Bootcamp
 
 Professors David Backus and Glenn Okun proudly present the 2015 *NYU Stern School of Business SQL Bootcamp*. This five-session non-credit program will be taught by Sarah Beckett-Hile. It follows a popular
 [Python mini-course](https://github.com/DaveBackus/Data_Bootcamp/blob/master/README.md#data-bootcamp) run last fall.  

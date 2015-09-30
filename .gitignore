@@ -17,6 +17,7 @@ Code/Python/*.zip
 Code/csv/
 Code/R/backups 
 Code/backups 
+Code/Temp 
 
 .dropbox
 .dropbox.attr
@@ -43,14 +44,6 @@ Code/backups
 ## Intermediate documents:
 *.dvi
 
-## Bibliography auxiliary files (bibtex/biblatex/biber):
-*.bbl
-*.bcf
-*.blg
-*-blx.aux
-*-blx.bib
-*.run.xml
-
 ## Build tool auxiliary files:
 *.fdb_latexmk
 *.synctex
@@ -61,6 +54,14 @@ Code/backups
 *.pdfsync
 *.tex.bak
 *.tex.sav
+
+## Bibliography auxiliary files (bibtex/biblatex/biber):
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
 
 ## Compiled python files:
 *.pyc
