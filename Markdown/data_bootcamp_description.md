@@ -1,5 +1,5 @@
 ### Data Bootcamp
-A course at NYU’s Stern School of Business 
+A course at NYU’s Stern School of Business taught by Dave Backus and his team of ninjas
 
 Spring 2016 schedule: 
 * MBA:  ECON-GB.2313, Wednesday nights, 6-9pm, February 8 to May 9
