@@ -3,19 +3,74 @@ Dave Backus, November 2015
 
 An overview of the tools and skills you'll learn in the [Data Bootcamp course](https://github.com/DaveBackus/Data_Bootcamp#data-bootcamp) at NYU Stern.  More at the link.
 
-Session 1:  Python fundamentals, graphics (matplotlib).  
-Session 2:  Data management (Pandas), examples.  
+November 6 and 13, 2-4pm, in Tisch UC 25
+
+Outline 
+* Session 1:  Python fundamentals, graphics (matplotlib).  
+* Session 2:  data management (Pandas), examples.  
+
+
+#### Before the first class  
+
+Install the Anaconda distribution of **Python 3.4** from https://www.continuum.io/downloads .
+https://davebackus.gitbooks.io/test/content/installing-python.html 
 
 #### Session 1 
 
+“Any sufficiently advanced technology is indistinguishable from magic.” 
+Data + Python = Magic!  
 
-#### Session 2 
+**Skills** 
+Why skills? 
+* Businesses want people with skills (duh!) 
+Why  code? 
+* One of the skills businesses want (not the only one) 
+Why Python? 
+* High-level language (simpler than C, C++, Java, etc) 
+* User-friendly 
+* Broad range of applications  
+* Competitors:  Matlab, R (choose one, which one is less important) 
+
+Programming basics  
+
+Setups for coding  
+* distribution (eg, Anaconda)  
+* program (eg, Python) 
+* editor or IDE (Spyder, Jupyter, Pycharm, many others) 
+Spyder (start it up) 
+* editor 
+* IPython console 
+* working directory 
+More at https://davebackus.gitbooks.io/test/content/installing-python.html 
+
+Python basics
+* Calculations, assignments, strings, lists, comparisons, functions 
+
+Packages 
+* Add functionality to core language 
+* Our favs:  Pandas (data), Matplotlib (graphics)
+
+Data basics 
+* Reading spreadsheets 
 
 
 
-#### Links 
-
-Course...
+Graphics basics 
 
 
+UNDER CONSTRUCTION FROM HERE 
 
+
+Apps
+* Economic indicators 
+* Emerging market indicators 
+* Yield curve
+* IMDb
+* Stern teaching 
+
+SESSION 2 
+
+..
+
+Links 
+Data Bootcamp: 
