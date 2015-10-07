@@ -8,7 +8,7 @@ More concretely, the course is designed to (i) introduce students to sources of 
 
 You can find more information about the course at  
 
-* [Course description and FAQ](https://docs.google.com/document/d/1EYvjgbeXk-BUGVrrVzJGqsaGaxYng1qSSB_3cxdsyJE/edit?usp=sharing) 
+* [Course description and FAQ](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Markdown/data_bootcamp_description.md) 
 * [Book](https://www.gitbook.com/book/davebackus/test/details) (first few chapters done, the others will be fleshed out between now and January 2016) 
 
 If you have questions, **email Dave Backus** (db3@nyu.edu) or track him down in his office (KMC 7-68) or at the Malt House.  
