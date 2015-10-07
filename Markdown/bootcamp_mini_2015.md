@@ -1,4 +1,4 @@
-### A Taste of Data Bootcamp 
+### Data Bootcamp Mini-Course 
 Dave Backus, November 2015 
 
 An overview of the tools and skills you'll learn in the [Data Bootcamp course](https://github.com/DaveBackus/Data_Bootcamp#data-bootcamp) at NYU Stern.  More at the link.
