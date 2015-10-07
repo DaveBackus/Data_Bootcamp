@@ -6,15 +6,15 @@ Spring 2016 schedule:
 * MBA:  ECON-GB.2313, Wednesday nights, 6-9pm, February 8 to May 9
 * UG:  ECON-UB.0232, Tuesday and Thursday, 2-3:15, January 26 to May 10 
 
-Course description
+#### Course description
 
 Data Bootcamp is about nuts and bolts data analysis.  You will learn about economic, financial, and business data, and enough about computer programming to work with it effectively.  Applications include some or all of:  leading economic indicators; emerging market country indicators; bond and equity returns; stock options; income by zip code; long tail sales data; innovation diffusion curves; and many others.  We will use Python, a popular high-level computer language that’s widely used in finance, consulting, technology, and other parts of the business world.  “High-level” means it’s less painful than most (the hard work is done by the language), but it’s a serious language with extensive capabilities.  “Data analysis” means primarily graphical descriptions that summarize the data in ways that are helpful to managers.  “Bootcamp” is a reminder that expertise takes work.  Don’t worry, it’s worth it.  
 
-Frequently asked questions 
+#### Frequently asked questions 
 
-Why should I take this course?  It’s an investment in your future.  You will learn how to  process data and communicate its content effectively and efficiently.  You will be more valuable to current and future employers.  
+**Why should I take this course?**  It’s an investment in your future.  You will learn how to  process data and communicate its content effectively and efficiently.  You will be more valuable to current and future employers.  
 
-Can’t I do what I need in Excel?  Excel is a great program, but once you have a little programming experience it will remind you of doing arithmetic on your fingers.  With Python, you will be able do routine tasks more efficiently (“automate the boring stuff,” as one guide suggests), handle larger data sets, and generally do things that spreadsheet programs can’t do.    
+**Can’t I do what I need in Excel?**  Excel is a great program, but once you have a little programming experience it will remind you of doing arithmetic on your fingers.  With Python, you will be able do routine tasks more efficiently (“automate the boring stuff,” as one guide suggests), handle larger data sets, and generally do things that spreadsheet programs can’t do.    
 
 What are the prerequisites?  There are none, other than the courage to take on a challenge and the patience to debug programs that don’t quite work -- and they never work the first time, and often not the second or third time either.   
 
