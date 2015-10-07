@@ -10,7 +10,7 @@ November 6 and 13, 2-4pm, in Tisch UC 25
 
 #### Before the first session 
 
-Install the **Anaconda** distribution of **Python 3.4** from <https://www.continuum.io/downloads>.  If you have trouble, read [this chapter](https://davebackus.gitbooks.io/test/content/installing-python.html), but keep in mind that the download page has changed a little since it was written.  Or come 20 minutes early to the first session and we'll try to set you up.  
+Install the **Anaconda** distribution of **Python 3.4** from the dowload page: <https://www.continuum.io/downloads>.  If you have trouble, read [this chapter](https://davebackus.gitbooks.io/test/content/installing-python.html), but keep in mind that the download page has changed a little since it was written.  Or come 20 minutes early to the first session and we'll try to set you up.  
 
 #### Session 1 
 
