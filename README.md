@@ -43,7 +43,7 @@ Part of the #nyuecon collection at NYU's Stern School of Business.
 ### SQL Bootcamp
 
 Professors David Backus and Glenn Okun proudly present the 2015 *NYU Stern School of Business SQL Bootcamp*. This five-session non-credit program will be taught by Sarah Beckett-Hile. It follows a popular
-[Python mini-course](https://github.com/DaveBackus/Data_Bootcamp/blob/master/README.md#data-bootcamp) run last fall.  
+[Python mini-course](https://github.com/DaveBackus/Data_Bootcamp#data-bootcamp) run last fall.  
 
 **Sessions.** Class sessions will be held on Fridays in KMC 5-90, 2pm to 5pm, starting March 27 and running through April 24.
 
