@@ -4,15 +4,12 @@ Dave Backus, November 2015
 An overview of the tools and skills you'll learn in the [Data Bootcamp course](https://github.com/DaveBackus/Data_Bootcamp#data-bootcamp) at NYU Stern.  More at the link.
 
 November 6 and 13, 2-4pm, in Tisch UC 25
-
-Outline 
 * Session 1:  Python fundamentals, graphics (matplotlib).  
 * Session 2:  data management (Pandas), examples.  
 
+#### Before the first session 
 
-#### Before the first class  
-
-Install the Anaconda distribution of **Python 3.4** from https://www.continuum.io/downloads .
+Install the Anaconda distribution of **Python 3.4** from https://www.continuum.io/downloads .  If you have trouble, read [this chapter](https://davebackus.gitbooks.io/test/content/installing-python.html).  But keep in mind that the download page has changed a little since it was written.  
 https://davebackus.gitbooks.io/test/content/installing-python.html 
 
 #### Session 1 
