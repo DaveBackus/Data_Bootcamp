@@ -50,15 +50,14 @@ Packages
 * Our favs:  Pandas (data), Matplotlib (graphics)
 * the `import` command
 
+**UNDER CONSTRUCTION FROM ABOUT HERE**
+
 Data basics 
-* Reading spreadsheets 
+* Reading spreadsheets and csv files 
 
 
 
 Graphics basics 
-
-
-UNDER CONSTRUCTION FROM HERE 
 
 
 Apps
