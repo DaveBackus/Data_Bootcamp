@@ -46,7 +46,7 @@ Python basics
 * Calculations, assignments, strings, lists, comparisons, functions 
 
 Packages 
-* Add functionality to core language 
+* Add new functionality to core language 
 * Our favs:  Pandas (data), Matplotlib (graphics)
 * the `import` command
 
