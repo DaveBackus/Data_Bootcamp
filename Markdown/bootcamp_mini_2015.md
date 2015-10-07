@@ -23,6 +23,7 @@ Why skills?
 * Businesses want people with skills (duh!) 
 Why  code? 
 * One of the skills businesses want (not the only one) 
+
 Why Python? 
 * High-level language (simpler than C, C++, Java, etc) 
 * User-friendly 
