@@ -33,7 +33,7 @@ Why Python?
 
 **Programming basics** 
 
-Setups for coding  
+Programming setups   
 * distribution (Anaconda)  
 * program (Python) 
 * editor or IDE (Spyder, Jupyter, Pycharm, many others) 
