@@ -19,7 +19,7 @@ Data Bootcamp is about nuts and bolts data analysis.  You will learn about econo
 
 **What if my quant skills are weak or nonexistent?**  This is the course for you!  We will start at the beginning and do our best to make the material accessible to everyone.  We’re looking beyond quants to marketing, management, and humanities majors.  One of our design team was an English major.  
 
-**Is this a standard Python course?**  No, it’s a data course that uses Python.  We’ll cover aspects of Python related to data analysis, specifically data management and visualization, and ignore the rest.  We estimate the overlap with a typical programming class to be no more than 15-20 percent.  
+**Is this a standard Python course?**  No, it’s a data course that uses Python.  We’ll cover aspects of Python related to data analysis, specifically data management and visualization, and ignore the rest.  We estimate the overlap with a typical programming class to be 15-20 percent.  
 
 **Will this turn me into a programmer?**  You will come out of the course somewhere between Brad Pitt and Jonah Hill in “[Moneyball](http://en.wikipedia.org/wiki/Moneyball_(film))," with a solid foundation for dealing with whatever data comes your way.  You will not be ready for a career as a programmer, but you will be able to do things with data that Excel users can only dream about.  You will be able to work effectively with people who know more.  And you’ll be be prepared to do more along similar lines, including the extensive collection of courses on business analytics and data science offered by our [IOMS group](http://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/academic-departments/ioms-dept/).  It's cool stuff, you should check it out.  
 
