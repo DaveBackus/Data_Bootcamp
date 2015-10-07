@@ -33,9 +33,10 @@ Why Python?
 **Programming basics** 
 
 Setups for coding  
-* distribution (eg, Anaconda)  
-* program (eg, Python) 
+* distribution (Anaconda)  
+* program (Python) 
 * editor or IDE (Spyder, Jupyter, Pycharm, many others) 
+
 Spyder (start it up) 
 * editor 
 * IPython console 
