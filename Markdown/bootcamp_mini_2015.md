@@ -1,5 +1,4 @@
 ### Data Bootcamp Mini-Course 
-Dave Backus, November 2015 
 
 An overview of the tools and skills you'll learn in the [Data Bootcamp course](https://github.com/DaveBackus/Data_Bootcamp#data-bootcamp) at NYU Stern. 
 
@@ -70,3 +69,5 @@ SESSION 2
 
 Links 
 Data Bootcamp: 
+
+A product of the #nyuecon Python factory 
