@@ -4,7 +4,7 @@ An overview of the tools and skills you'll learn in the [Data Bootcamp course](h
 Developed by Dave Backus, Chase Coleman, Spencer Lyon, and Glenn Okun, with help and support from 
 Sarah Beckett-Hile, Hersh Iyer, and executives at Amazon.  
 
-November 6 and 13, 2-4pm, in Tisch UC 25
+November 6 and 13, 2015, 2-4pm, Tisch UC 25
 * Session 1:  Python fundamentals, graphics (matplotlib).  
 * Session 2:  data management (Pandas), examples.  
 
