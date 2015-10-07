@@ -43,7 +43,7 @@ Spyder (start it up)
 * working directory 
 
 Python basics
-* Calculations, assignments, strings, lists, comparisons, functions 
+* Calculations, assignments, strings, lists, built-in functions (print, type), comparisons, functions
 
 Packages 
 * Add new functionality to core language 
