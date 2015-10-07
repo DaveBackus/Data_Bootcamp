@@ -46,6 +46,9 @@ Spyder (start it up)
 Python basics
 * Calculations, assignments, strings, lists, built-in functions (print, type), comparisons, functions
 
+
+**Data and graphics** 
+
 Packages 
 * Add new functionality to core language 
 * Our favs:  Pandas (data), Matplotlib (graphics)
