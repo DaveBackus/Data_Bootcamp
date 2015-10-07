@@ -40,7 +40,6 @@ Spyder (start it up)
 * editor 
 * IPython console 
 * working directory 
-More at https://davebackus.gitbooks.io/test/content/installing-python.html 
 
 Python basics
 * Calculations, assignments, strings, lists, comparisons, functions 
