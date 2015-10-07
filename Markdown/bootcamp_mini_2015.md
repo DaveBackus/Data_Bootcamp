@@ -16,6 +16,7 @@ Install the Anaconda distribution of **Python 3.4** from <https://www.continuum.
 Data + Python = Magic!  
 
 **Skills** 
+
 Why skills? 
 * Businesses want people with skills (duh!) 
 Why  code? 
@@ -26,7 +27,7 @@ Why Python?
 * Broad range of applications  
 * Competitors:  Matlab, R (choose one, which one is less important) 
 
-Programming basics  
+**Programming basics** 
 
 Setups for coding  
 * distribution (eg, Anaconda)  
@@ -44,6 +45,7 @@ Python basics
 Packages 
 * Add functionality to core language 
 * Our favs:  Pandas (data), Matplotlib (graphics)
+* the `import` command
 
 Data basics 
 * Reading spreadsheets 
