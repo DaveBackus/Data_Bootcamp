@@ -1,6 +1,6 @@
 ### Data Bootcamp
 
-We are offering two sections of **Data Bootcamp** at NYU Stern in Spring 2016, one for undergrads (ECON-UB.0232, Tuesday and Thursday, 2-3:15, January 26 to May 10) and one for MBA students (ECON-GB.2313, Wednesday nights, 6-9pm, February 8 to May 9). 
+We are offering two sections of **Data Bootcamp** at NYU Stern in **Spring 2016**, one for undergrads (ECON-UB.0232, Tuesday and Thursday, 2-3:15, January 26 to May 10) and one for MBA students (ECON-GB.2313, Wednesday nights, 6-9pm, February 8 to May 9). 
 
 The course -- and its SQL companion -- was developed by Stern faculty and students with the assistance and support of executives at **Amazon**.  The immediate goal is to train students to succeed as summer interns and full-time employees of technology companies, but the same skills are valued in finance, marketing, consulting, media, and other areas. We think of it as literacy for the modern age.   
 
