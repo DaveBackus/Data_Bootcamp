@@ -21,7 +21,7 @@ If you have questions, **email Dave Backus** (db3@nyu.edu) or track him down in 
 
 Both sessions will be in **Tisch UC-25** (the upper concourse, one floor below street level). No registration required.  We'll post [more information here](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Markdown/bootcamp_mini_2015.md) as we develop it.  
 
-The materials for the Fall 2014 version are a little terse, and include mysterious notes to ourselves, but here they are: 
+The materials for the **Fall 2014 mini-course** are a little terse, and include mysterious notes to ourselves, but here they are: 
 
 [Session 1](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Notes/mini_class1.pdf) | 
 [Session 2](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Notes/mini_class2.pdf) | 
