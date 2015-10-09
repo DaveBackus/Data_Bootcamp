@@ -36,12 +36,13 @@ Not that you need any more inspiration, but here are a couple good pieces:
 * Steve Levitt on “big data” (55m, very entertaining):  https://youtu.be/r5jATFtKtI8?t=5m12s 
 * Mevan on learning to code:  https://medium.com/@meandvan/how-i-learned-to-stop-worrying-and-love-the-code-af1a809457c7 
 
-#### Related information 
+#### Even more information 
 
 **Materials** 
 * GitHub repo:  https://github.com/DaveBackus/Data_Bootcamp#data-bootcamp 
 * Book (work in progress):  https://www.gitbook.com/book/davebackus/test/details 
 * Or search:  nyu data bootcamp 
+* Related courses:  https://github.com/DaveBackus/Data_Bootcamp/blob/master/Markdown/related_courses.md#related-courses
 
 **Two-session mini-course:**  November 6 and 13, 2-4, Tisch UC 25.  No registration required.   More information at the GitHub link above.  
 
