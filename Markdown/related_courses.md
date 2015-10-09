@@ -6,7 +6,7 @@ Running list of NYU Stern MBA courses that involve significant amounts of progra
 
 **INFO-GB.2346. Dealing with Data.**  Nuts and bolts data course "designed for students who want to handle data programmatically."  Topics include regular expressions (yes, that's a thing), data formats (XML, JSON, etc), SQL databases, and predictive techniques.  Students are expected to have some basic familiarity with programming before the course starts. [Course website](http://ipeirotis.github.io/DwD/syllabus/). 
 
-**INFO-GB.2336.  Data Science for Business Analytics.** "The a technical/programming-oriented version of Data Mining for Business Analytics." [Sample syllabus](http://web-docs.stern.nyu.edu/ioms/SYLLABI/Provost_INFOGB2336_Fall15.pdf). 
+**INFO-GB.2336.  Data Science for Business Analytics.** "The technical, programming-oriented version of Data Mining for Business Analytics." [Sample syllabus](http://web-docs.stern.nyu.edu/ioms/SYLLABI/Provost_INFOGB2336_Fall15.pdf). 
 
 **INFO-GB.3306. Data Visualization.**  Graphics and the tools to make good ones. [Sample syllabus](http://web-docs.stern.nyu.edu/ioms/SYLLABI/Sosulski_INFOGB.3306_Fall15.pdf) and [intro video](https://youtu.be/frwl-YVtmrs).  
 
