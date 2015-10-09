@@ -54,15 +54,19 @@ Packages
 * Add new functionality to core language 
 * Our favs:  Pandas (data), Matplotlib (graphics)
 * the `import` command
+ 
 
 **UNDER CONSTRUCTION FROM ABOUT HERE**
 
 Data basics 
 * Reading spreadsheets and csv files 
 
+Following up:  ??
 
 
 Graphics basics 
+
+Following up:  ??
 
 
 Apps
