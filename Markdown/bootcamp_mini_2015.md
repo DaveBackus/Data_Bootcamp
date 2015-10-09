@@ -46,7 +46,7 @@ Spyder (start it up)
 Python basics
 * Calculations, assignments, strings, lists, built-in functions (print, type), comparisons, functions
 
-Following up:  If you'd like to learn more about core Python, work your way through the [Codecademy course](https://www.codecademy.com/tracks/python).  It'll take a few days, but it covers the basics well.  It's in Python 2, so the syntax is slightly different.    
+Following up:  If you'd like to learn more about core Python, work your way through the **[Codecademy](https://www.codecademy.com/tracks/python)** course.   
 
 **Data and graphics** 
 
