@@ -12,5 +12,5 @@ Running list of NYU Stern MBA courses that involve significant amounts of progra
 
 **INFO-GB.3336.  Data Mining for Business Intelligence.**  Data mining techniques for managers.  Examines "how data mining can be used to improve decision-making" using "real-world examples."  Covers the principles and techniques of data mining, including predictive modeling, classification, decision trees, and cross validation.  Includes hands-on examples, but is not primarily a coding course.  
 
-**MKTG-GB.2344. Data-Driven Decision Making.**  The course is designed to give you working knowledge of basic data analysis and statistical software, and to train you to deal with a wide spectrum of quantitative problems that you are likely to encounter in your workplace. [Course website](http://www.d3mprof.com/). 
+**MKTG-GB.2344. Data-Driven Decision Making.**  The course is designed to give you working knowledge of basic data analysis and statistical software, and to train you to deal with a wide spectrum of quantitative problems that you are likely to encounter in your workplace. The [cocurse website](http://www.d3mprof.com/) is a thing of beauty. 
 
