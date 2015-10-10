@@ -1,6 +1,8 @@
 ### Related courses 
 
-Running list of NYU Stern MBA courses that involve significant amounts of programming.  Organized by area.  Work in progress, comments and corrections welcome.  
+Running list of NYU courses that involve significant amounts of programming.  Organized by area.  Work in progress, comments and corrections welcome.  
+
+#### MBA courses 
 
 **INFO-GB.2335. Programming in Python and Fundamentals of Software Development.**  Basic programming course in Python:  fundamentals, object oriented programming, web crawling, databases.  [Sample syllabus](http://web-docs.stern.nyu.edu/ioms/SYLLABI/Johar_INFOGB2335_Fall15.pdf).  
 
@@ -13,4 +15,8 @@ Running list of NYU Stern MBA courses that involve significant amounts of progra
 **INFO-GB.3336.  Data Mining for Business Intelligence.**  Data mining techniques for managers.  Examines "how data mining can be used to improve decision-making" using "real-world examples."  Covers the principles and techniques of data mining, including predictive modeling, classification, decision trees, and cross validation.  Includes hands-on examples, but is not primarily a coding course.  
 
 **MKTG-GB.2344. Data-Driven Decision Making.**  "The course is designed to give you working knowledge of basic data analysis and statistical software, and to train you to deal with a wide spectrum of quantitative problems that you are likely to encounter in your workplace." The [course website](http://www.d3mprof.com/) is a thing of beauty. 
+
+#### Computer science courses 
+
+??
 
