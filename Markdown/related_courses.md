@@ -1,6 +1,6 @@
 ### Related courses 
 
-Running list of NYU Stern MBA courses that involve significant amounts of programming.  Work in progress, comments and corrections welcome.  
+Running list of NYU Stern MBA courses that involve significant amounts of programming.  Organized by area.  Work in progress, comments and corrections welcome.  
 
 **INFO-GB.2335. Programming in Python and Fundamentals of Software Development.**  Basic programming course in Python:  fundamentals, object oriented programming, web crawling, databases.  [Sample syllabus](http://web-docs.stern.nyu.edu/ioms/SYLLABI/Johar_INFOGB2335_Fall15.pdf).  
 
