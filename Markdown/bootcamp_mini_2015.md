@@ -22,21 +22,21 @@ Data + Python = Magic!
 Why skills? 
 * Businesses want people with skills (duh!) 
 
-Why  code? 
+Why code? 
 * One of the skills businesses value (not the only one) 
 
 Why Python? 
 * High-level language (simpler than C, C++, Java, etc) 
 * User-friendly 
 * Broad range of applications  
-* Competitors:  Matlab, R (choose one, which one is less important) 
+* Competitors:  Matlab, R, Stata, SAS (choose one, which one is less important) 
 
 **Programming basics** 
 
 Programming setups   
 * distribution (Anaconda)  
 * program (Python) 
-* editor or IDE (Spyder, Jupyter, Pycharm, many others) 
+* environments:  editor or IDE (Spyder, Jupyter, Pycharm, many others) 
 
 Spyder (start it up) 
 * editor 
@@ -44,7 +44,7 @@ Spyder (start it up)
 * working directory 
 
 Python basics
-* Calculations, assignments, strings, lists, built-in functions (print, type), comparisons, functions
+* Calculations, assignments, strings, lists, built-in functions (print, type), methods, tab complettion, functions
 
 Following up.  If you'd like to learn more about core Python, work your way through the **[Codecademy](https://www.codecademy.com/tracks/python)** course.   Or the Python Fundamentals chapters of our  **[Data Bootcamp book](https://www.gitbook.com/book/davebackus/test/details)**.
 
@@ -54,12 +54,17 @@ Packages
 * Add new functionality to core language 
 * Our favs:  Pandas (data), Matplotlib (graphics)
 * the `import` command
- 
-
-**UNDER CONSTRUCTION FROM ABOUT HERE**
 
 Data basics 
 * Reading spreadsheets and csv files 
+* Dataframes:  column labels, 
+* Examples:  test file, IMDb, ... 
+* APIs:  FRED, World Bank 
+ 
+Graphics basics 
+
+**UNDER CONSTRUCTION FROM ABOUT HERE**
+
 
 Following up:  ??
 
