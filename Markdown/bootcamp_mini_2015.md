@@ -12,7 +12,7 @@ Install the **Anaconda** distribution of **Python 3.4** from the download page: 
 
 #### Outline
 
-Big picture thoughts 
+Big picture ideas 
 * Become a magician:  “Any sufficiently advanced technology is indistinguishable from magic.” 
 Data + Python = Magic!  
 * Keys to success:  don't panic, ask for help 
