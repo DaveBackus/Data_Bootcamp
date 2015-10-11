@@ -1,6 +1,6 @@
 ### Data Bootcamp Mini-Course, 2015 edition  
 
-An overview of the tools and skills you'll learn in the **[Data Bootcamp course](https://github.com/DaveBackus/Data_Bootcamp#data-bootcamp)** at NYU Stern. Developed by Dave Backus, Chase Coleman, Spencer Lyon, and Glenn Okun.  With the help and support of Sarah Beckett-Hile, Hersh Iyer, and executives at Amazon.  
+A brief overview of the tools and skills you'll learn in the **[Data Bootcamp course](https://github.com/DaveBackus/Data_Bootcamp#data-bootcamp)** at NYU Stern. Developed by Dave Backus, Chase Coleman, Spencer Lyon, and Glenn Okun.  With the help and support of Sarah Beckett-Hile, Hersh Iyer, and executives at Amazon.  
 
 November 6 and 13, 2-4pm, Tisch UC 25
 * Session 1:  Python fundamentals, graphics (matplotlib).  
@@ -12,7 +12,7 @@ Install the **Anaconda** distribution of **Python 3.4** from the download page: 
 
 #### Outline
 
-Overview 
+Big picture 
 * “Any sufficiently advanced technology is indistinguishable from magic.” 
 Data + Python = Magic!  
 * Keys to success:  don't panic, ask for help 
