@@ -44,7 +44,7 @@ Spyder (start it up)
 * working directory 
 
 Python basics
-* Calculations, assignments, strings, lists, built-in functions (print, type), methods, tab complettion, functions
+* Calculations, assignments, strings, lists, built-in functions (print, type), objects and methods, tab complettion, functions 
 
 Following up.  If you'd like to learn more about core Python, work your way through the **[Codecademy](https://www.codecademy.com/tracks/python)** course.   Or the Python Fundamentals chapters of our  **[Data Bootcamp book](https://www.gitbook.com/book/davebackus/test/details)**.
 
@@ -62,7 +62,9 @@ Data basics
 * APIs:  FRED, World Bank 
  
 Graphics basics 
-
+* import matplotlib
+* approach 1:  plot(x,y)
+* approach 2:  apply methods to fig, ax 
 **UNDER CONSTRUCTION FROM ABOUT HERE**
 
 
