@@ -46,7 +46,7 @@ Spyder (start it up)
 Python basics
 * Calculations, assignments, strings, lists, built-in functions (print, type), comparisons, functions
 
-Following up:  If you'd like to learn more about core Python, work your way through the **[Codecademy](https://www.codecademy.com/tracks/python)** course.   Or these [two](https://davebackus.gitbooks.io/test/content/py-fun1.html) [chapters](https://davebackus.gitbooks.io/test/content/py-fun2.html) of our **Data Bootcamp book**.
+Following up.  If you'd like to learn more about core Python, work your way through the **[Codecademy](https://www.codecademy.com/tracks/python)** course.   Or the Python Fundamentals chapters of our  **[Data Bootcamp book](https://www.gitbook.com/book/davebackus/test/details)**.
 
 **Data and graphics** 
 
