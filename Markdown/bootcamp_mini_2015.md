@@ -34,14 +34,14 @@ Why Python?
 **Programming basics** 
 
 Programming setups   
-* distribution (Anaconda)  
-* program (Python) 
-* environments:  editor or IDE (Spyder, Jupyter, Pycharm, many others) 
+* Distribution (Anaconda)  
+* Program (Python) 
+* Environment:  editor or IDE (Spyder, Jupyter, Pycharm, many others) 
 
 Spyder (start it up) 
-* editor 
+* Editor 
 * IPython console 
-* working directory 
+* More:  working directory, object inspector  
 
 Python basics
 * Calculations, assignments, strings, lists, built-in functions (print, type), objects and methods, tab complettion, functions 
@@ -53,7 +53,7 @@ Following up.  If you'd like to learn more about core Python, work your way thro
 Packages 
 * Add new functionality to core language 
 * Our favs:  Pandas (data), Matplotlib (graphics)
-* the `import` command
+* The `import` command
 
 Data basics 
 * Reading spreadsheets and csv files 
@@ -63,8 +63,8 @@ Data basics
  
 Graphics basics 
 * import matplotlib
-* approach 1:  plot(x,y)
-* approach 2:  apply methods to fig, ax 
+* Approach 1:  plot(x,y)
+* Approach 2:  apply methods to fig, ax 
 * Parameters and styles 
 
 
