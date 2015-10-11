@@ -68,7 +68,7 @@ Graphics basics
 * Approach 1:  `plot(x,y)`
 * Approach 2:  apply methods to `fig, ax` 
 * Parameters and styles 
-* Approach 3:  apply methods to dataframe 
+* Approach 3:  apply `plot` method to dataframe 
 
 
 **UNDER CONSTRUCTION FROM ABOUT HERE**
