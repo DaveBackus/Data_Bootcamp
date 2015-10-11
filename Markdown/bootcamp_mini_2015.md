@@ -27,7 +27,7 @@ Why Python?
 * High-level language (simpler than C, C++, Java, etc) 
 * User-friendly 
 * Broad range of applications  
-* Competitors:  Matlab, R, Stata, SAS (choose one, which one is less important) 
+* Competitors:  Matlab, R (choose one, which one is less important); what about C, Java, Stata, etc?  
 
 **Programming basics** 
 
