@@ -24,7 +24,6 @@ Why skills?
 
 Why  code? 
 * One of the skills businesses value (not the only one) 
-* The Dr Doolittle sweet spot (interface betw quants and execs) 
 
 Why Python? 
 * High-level language (simpler than C, C++, Java, etc) 
