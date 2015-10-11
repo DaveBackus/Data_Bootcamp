@@ -12,10 +12,9 @@ Install the **Anaconda** distribution of **Python 3.4** from the download page: 
 
 #### Outline
 
-Ask questions, this works best if we're on the same page
-
-“Any sufficiently advanced technology is indistinguishable from magic.” 
+* “Any sufficiently advanced technology is indistinguishable from magic.” 
 Data + Python = Magic!  
+* Ask questions, this works best if we're on the same page
 
 **Skills** 
 
