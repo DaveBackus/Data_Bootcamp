@@ -44,7 +44,7 @@ Spyder (start it up)
 * More:  working directory, object inspector  
 
 Python basics
-* Calculations, assignments, strings, slicing, lists, built-in functions (print, type), objects and methods, tab complettion, functions 
+* Calculations, assignments, strings and quotes, slicing, lists, built-in functions (print, type), objects and methods, tab complettion, functions 
 
 [add comments, quotes]
 
