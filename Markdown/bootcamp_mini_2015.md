@@ -46,6 +46,8 @@ Spyder (start it up)
 Python basics
 * Calculations, assignments, strings, slicing, lists, built-in functions (print, type), objects and methods, tab complettion, functions 
 
+[add comments, quotes]
+
 Following up.  If you'd like to learn more about core Python, work your way through the **[Codecademy](https://www.codecademy.com/tracks/python)** course.   Or the Python Fundamentals chapters of our  **[Data Bootcamp book](https://www.gitbook.com/book/davebackus/test/details)**.
 
 **Data and graphics** 
