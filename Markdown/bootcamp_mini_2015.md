@@ -62,8 +62,8 @@ Data basics
  
 Graphics basics 
 * `import matplotlib`
-* Approach 1:  plot(x,y)
-* Approach 2:  apply methods to fig, ax 
+* Approach 1:  `plot(x,y)`
+* Approach 2:  apply methods to `fig, ax` 
 * Parameters and styles 
 
 
