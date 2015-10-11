@@ -59,12 +59,15 @@ Data basics
 * Reading spreadsheets and csv files 
 * Dataframes:  column labels, 
 * Examples:  test file, IMDb, ... 
-* APIs:  FRED, World Bank 
+* Internet sources with APIs:  FRED, World Bank 
  
 Graphics basics 
 * import matplotlib
 * approach 1:  plot(x,y)
 * approach 2:  apply methods to fig, ax 
+* Parameters and styles 
+
+
 **UNDER CONSTRUCTION FROM ABOUT HERE**
 
 
