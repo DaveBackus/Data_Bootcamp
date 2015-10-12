@@ -70,30 +70,15 @@ Graphics basics
 * Parameters and styles 
 * Approach 3:  apply `plot` method to dataframe 
 
+**WORK IN PROGRESS FROM HERE ON**
 
-**UNDER CONSTRUCTION FROM ABOUT HERE**
-
+Examples 
+* Indicators of US economic conditions 
+* Emerging market indicators  
+* Healthcare spending 
+* ??
 
 Following up:  ??
 
-
-Graphics basics 
-
-Following up:  ??
-
-
-Apps
-* Economic indicators 
-* Emerging market indicators 
-* Yield curve
-* IMDb
-* Stern teaching 
-
-SESSION 2 
-
-..
-
-Links 
-Data Bootcamp: 
 
 A product of the #nyuecon Python factory 
