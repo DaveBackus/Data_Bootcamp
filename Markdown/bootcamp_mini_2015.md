@@ -4,7 +4,7 @@ A brief overview of the tools and skills you'll learn in **[Data Bootcamp](https
 
 November 6 and 13, 2-4pm, Tisch UC 25
 * Session 1:  Python fundamentals, data management (Pandas)  
-* Session 2:  graphics (matplotlib), examples  
+* Session 2:  graphics (Matplotlib), examples  
 
 #### Before we start
 
