@@ -24,6 +24,7 @@ Why skills?
 
 Why code? 
 * One of the skills businesses value (not the only one) 
+* Do things Excel can't do, and do them faster 
 
 Why Python? 
 * High-level language (simpler than C, C++, Java, etc) 
