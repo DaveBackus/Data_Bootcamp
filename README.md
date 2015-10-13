@@ -1,6 +1,6 @@
 ### Data Bootcamp
 
-We are offering two sections of **Data Bootcamp** at NYU Stern in **Spring 2016**, one for undergrads (ECON-UB.0232, Tuesday and Thursday, 2-3:15, January 26 to May 10) and one for MBA students (ECON-GB.2313, Wednesday nights, 6-9pm, February 8 to May 9). 
+We are offering two sections of **Data Bootcamp** at NYU Stern in **Spring 2016**, one for undergrads (ECON-UB.0232, Tuesday and Thursday, 2-3:15, January 26 to May 10) and one for MBA students (ECON-GB.2313, Wednesday nights, 6-9pm, February 8 to May 9). The courses are regular for-credit courses at NYU.  
 
 The course -- and its SQL companion -- was developed by Stern faculty and students with the assistance and support of executives at **Amazon**.  The immediate goal is to train students to succeed as summer interns and full-time employees of technology companies, but the same skills are valued in finance, marketing, consulting, media, and other areas. We think of it as literacy for the modern age.   
 
@@ -19,7 +19,7 @@ If you have questions, **email Dave Backus** (db3@nyu.edu) or track him down in 
 * Friday, **November 6**, 2-4pm.  Python fundamentals and an introduction to Python graphics.  Please follow [these instructions](https://davebackus.gitbooks.io/test/content/installing-python.html) to install and test Python before the class. If you have difficulty, come 20 minutes early and we'll get you going.      
 * Friday, **November 13**, 2-4pm.  Accessing data from spreadsheets and internet sources, examples of what you will be able to do.  
 
-Both sessions will be in **Tisch UC-25** (the upper concourse, one floor below street level). No registration required.  We'll post [more information here](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Markdown/bootcamp_mini_2015.md) as we develop it.  
+Both sessions will be in **Tisch UC-25** (the upper concourse, one floor below street level). **No registration required**.  We'll post [more information here](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Markdown/bootcamp_mini_2015.md) as we develop it.  
 
 The materials for the **Fall 2014 mini-course** are a little terse, and include mysterious notes to ourselves, but here they are: 
 
