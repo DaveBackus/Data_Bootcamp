@@ -18,5 +18,11 @@ Running list of NYU courses that involve significant amounts of programming.  Or
 
 #### Computer science courses 
 
-??
+From Andrew:  
+
+Social Networking, Professor Mishra
+
+Real time and Big Data Analytics, Professor McIntosh
+
+Statistical Natural Language Processing, Professor Petrov
 
