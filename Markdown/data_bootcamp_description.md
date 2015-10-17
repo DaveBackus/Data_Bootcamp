@@ -38,7 +38,7 @@ Not that you need any more inspiration, but here are a couple good pieces:
 
 #### Even more information 
 
-**Materials** 
+**Links** 
 * GitHub repo:  https://github.com/DaveBackus/Data_Bootcamp#data-bootcamp 
 * Book (work in progress):  https://www.gitbook.com/book/davebackus/test/details 
 * Or search:  nyu data bootcamp 
