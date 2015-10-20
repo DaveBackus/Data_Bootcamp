@@ -12,7 +12,12 @@ Install the **Anaconda** distribution of **Python 3.4** from the download page: 
 
 #### Outline
 
-Big picture ideas to keep in mind 
+Where we're headed 
+* Think of a picture you'd like to produce -- a "visualization" 
+* And about what data you'll need 
+* And about the coding skills to get there 
+
+??Big picture ideas to keep in mind 
 * Become a magician:  “Any sufficiently advanced technology is indistinguishable from magic.” 
 Data + Python = Magic!  
 * Keys to success:  don't panic, ask for help 
