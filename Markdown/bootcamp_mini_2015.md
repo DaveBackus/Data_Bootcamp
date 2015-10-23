@@ -14,7 +14,7 @@ We'll post announcements here about the course, including links to code.
 
 ---
 
-#### Before we start
+#### Before the first session 
 
 Install the **Anaconda** distribution of **Python 3.4** from the download page: <https://www.continuum.io/downloads>.  If you have trouble, read [this chapter](https://davebackus.gitbooks.io/test/content/installing-python.html), but keep in mind that the Anaconda download page has changed a little since it was written.  Or come 20 minutes early to the first session and we'll set you up.  
 
