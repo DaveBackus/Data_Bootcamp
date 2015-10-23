@@ -10,7 +10,7 @@ November 6 and 13, 2-4pm, Tisch UC 25
 ---
 #### Announcements
 
-We'll post announcements here about the course.  
+We'll post announcements here about the course, including links to code.  
 
 ---
 
