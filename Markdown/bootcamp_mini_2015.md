@@ -88,6 +88,9 @@ Graphics basics
 **WORK IN PROGRESS FROM HERE ON**
 
 Examples 
+* Cancer:  http://www.vox.com/2015/10/28/9631500/does-mammography-work
+* Gapminder
+* Mortality 
 * Indicators of US economic conditions 
 * Emerging market indicators  
 * Healthcare spending 
