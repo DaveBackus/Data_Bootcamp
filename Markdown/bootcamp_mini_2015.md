@@ -51,17 +51,16 @@ Why Python?
 **Programming basics** 
 
 Programming setups   
-* Distribution (Anaconda)  
+* Distribution (**Anaconda**)  
 * Program (Python) 
-* Environment:  editor or IDE (Spyder, Jupyter, Pycharm, many others) 
+* Environment:  editor or IDE (**Spyder**, Jupyter, Pycharm, many others) 
 
 Spyder (start it up) 
 * Editor 
-* IPython console 
-* More:  working directory, object inspector  
+* IPython console, object inspector    
 
 Python basics
-* Calculations, assignments, strings and quotes, slicing, lists, built-in functions (print, type), objects and methods, tab complettion, functions 
+* Calculations, assignments, comments, strings and quotes, slicing, lists, built-in functions (print, type), objects and methods, tab completion, defining your own functions 
 
 [add comments, quotes]
 
@@ -75,6 +74,7 @@ Packages
 * The `import` command
 
 Data basics 
+* `import pandas as pd` 
 * Reading spreadsheets and csv files 
 * Dataframes:  column labels, 
 * Examples:  test file, IMDb, ... 
