@@ -3,8 +3,8 @@
 A brief overview of the tools and skills you'll learn in **[Data Bootcamp](https://github.com/DaveBackus/Data_Bootcamp#data-bootcamp)**, a course at NYU's Stern School of Business. Developed by Dave Backus, Chase Coleman, Spencer Lyon, and Glenn Okun.  With the help and support of Sarah Beckett-Hile, Hersh Iyer, and executives at Amazon.  
 
 November 6 and 13, 2-4pm, Tisch UC 25
-* Session 1:  Python fundamentals, data management (Pandas)  
-* Session 2:  graphics (Matplotlib), examples  
+* Session 1:  Python fundamentals, data management (Pandas) | code   
+* Session 2:  graphics (Matplotlib), examples | code  
 
 
 ---
