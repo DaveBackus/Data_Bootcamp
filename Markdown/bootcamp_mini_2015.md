@@ -3,17 +3,19 @@
 A brief overview of the tools and skills you'll learn in **[Data Bootcamp](https://github.com/DaveBackus/Data_Bootcamp#data-bootcamp)**, a course at NYU's Stern School of Business. Developed by Dave Backus, Chase Coleman, Spencer Lyon, and Glenn Okun.  With the help and support of Sarah Beckett-Hile, Hersh Iyer, and executives at Amazon.  
 
 November 6 and 13, 2-4pm, Tisch UC 25
-* Session 1:  Python fundamentals, data management (Pandas) | code   
-* Session 2:  graphics (Matplotlib), examples | code  
+* Session 1:  Python fundamentals, data management (Pandas)   
+* Session 2:  graphics (Matplotlib), examples 
 
 
 ---
 #### Announcements
 
-We'll post announcements here, including links to code.  
+We'll post announcements here.  
 
 **Before the first session.** 
 Please install the **Anaconda** distribution of **Python 3.4** from the download page: <https://www.continuum.io/downloads>.  If you have trouble, read [this chapter](https://davebackus.gitbooks.io/test/content/installing-python.html), but keep in mind that the Anaconda download page has changed a little since it was written.  Or come 20 minutes early to the first session and we'll set you up.  
+
+**Code use in class.**  Class 1 | Class 2 
 
 ---
 
