@@ -48,6 +48,10 @@ Why Python?
 * Broad range of applications  
 * Competitors:  Matlab, R; also Stata, SAS, etc.  
 
+Rules to live by 
+* Ask for help.  Raise your hand if you have a question, or don't follow what we're doing.  
+* Be lazy.  Act as if your time is expensive.  
+
 **Programming basics** 
 
 Programming setups   
