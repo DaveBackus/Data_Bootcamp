@@ -19,8 +19,6 @@ Please install the **Anaconda** distribution of **Python 3.4** from the download
 
 ---
 
-
-
 #### Outline
 
 Where we're headed 
@@ -91,7 +89,7 @@ Graphics basics
 
 Examples 
 * Cancer:  http://www.vox.com/2015/10/28/9631500/does-mammography-work
-* Gapminder
+* Gapminder:  http://www.gapminder.org/world/
 * Mortality 
 * Indicators of US economic conditions 
 * Emerging market indicators  
