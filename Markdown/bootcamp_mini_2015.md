@@ -28,10 +28,10 @@ Where we're headed
 * And about what data you'll need 
 * And about the coding skills to get there 
 
-??Big picture ideas to keep in mind 
-* Become a magician:  “Any sufficiently advanced technology is indistinguishable from magic.” 
-Data + Python = Magic!  
-* Keys to success:  don't panic, ask for help 
+Rules to live by 
+* Ask for help.  Raise your hand if you have a question, or don't follow what we're doing.  
+* Be lazy.  Act as if your time is valuable.  
+
 
 **Skills** 
 
@@ -47,10 +47,6 @@ Why Python?
 * User-friendly 
 * Broad range of applications  
 * Competitors:  Matlab, R; also Stata, SAS, etc.  
-
-Rules to live by 
-* Ask for help.  Raise your hand if you have a question, or don't follow what we're doing.  
-* Be lazy.  Act as if your time is expensive.  
 
 **Programming basics** 
 
