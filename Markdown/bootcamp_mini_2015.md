@@ -6,7 +6,6 @@ November 6 and 13, 2-4pm, Tisch UC 25
 * Session 1:  Python fundamentals, data management (Pandas)   
 * Session 2:  graphics (Matplotlib), examples 
 
-
 ---
 #### Announcements
 
@@ -27,7 +26,7 @@ Where we're headed
 * And about the coding skills to get there 
 
 Rules to live by 
-* Ask for **help**.  Raise your hand if you have a question, or don't follow what we're doing.  
+* **Ask for help**.  Raise your hand if you have a question, or don't follow what we're doing.  
 * Develop your **Google fu**.  Learn to find answers to your questions with Google.   
 
 **Skills** 
@@ -59,12 +58,10 @@ Spyder (start it up)
 Python basics
 * Calculations, assignments, comments, strings and quotes, slicing, lists, built-in functions (print, type), objects and methods, tab completion, defining your own functions 
 
-[add comments, quotes]
-
-Following up.  If you'd like to learn more about core Python: 
-* Work your way through the **[Codecademy](https://www.codecademy.com/tracks/python)** course.   
-* Or the Python Fundamentals chapters of our  **[Data Bootcamp book](https://www.gitbook.com/book/davebackus/test/details)**.
-* And read Mevan's [wonderful piece](https://medium.com/keep-learning-keep-growing/how-i-learned-to-stop-worrying-and-love-the-code-af1a809457c7), "How I learned to stop worrying and love the code."   
+Following up.  If you'd like to follow up on core Python, we suggest:   
+* Work your way through the **[Codecademy](https://www.codecademy.com/tracks/python)** course.  You can stop when you get to Advanced Topics.     
+* Read the Python Fundamentals chapters of our  **[Data Bootcamp book](https://www.gitbook.com/book/davebackus/test/details)**.
+* Read Mevan's [wonderful guide](https://medium.com/keep-learning-keep-growing/how-i-learned-to-stop-worrying-and-love-the-code-af1a809457c7) "to the types of misconceptions and anxieties that people like me -- people newly learning to code -- may have."  
 
 **Data and graphics** 
 
