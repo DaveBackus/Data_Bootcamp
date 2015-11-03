@@ -1,6 +1,6 @@
 ### Data Bootcamp Mini-Course, 2015 edition  
 
-A brief overview of the tools and skills you'll learn in **[Data Bootcamp](https://github.com/DaveBackus/Data_Bootcamp#data-bootcamp)**, a course at NYU's Stern School of Business. Developed by Dave Backus, Chase Coleman, Spencer Lyon, and Glenn Okun.  With the help and support of Sarah Beckett-Hile, Hersh Iyer, and executives at Amazon.  
+A brief overview of the tools and skills you'll learn in **[Data Bootcamp](https://github.com/DaveBackus/Data_Bootcamp#data-bootcamp)**, a course at NYU's Stern School of Business. Developed by Dave Backus, Chase Coleman, Spencer Lyon, and Glenn Okun.  With the help and support of Sarah Beckett-Hile, Hersh Iyer, Itamar Snir, and executives at Amazon.  
 
 November 6 and 13, 2-4pm, Tisch UC 25
 * Session 1:  Python fundamentals   
@@ -22,9 +22,9 @@ We recommend you download it before class:  Click on the link, then click on the
 #### Outline
 
 Where we're headed 
-* Think of a picture you'd like to produce -- a "visualization" 
-* And about what data you'll need 
-* And the coding skills to get there 
+* Think of a **picture** you'd like to produce -- a "visualization" 
+* And about what **data** you'll need 
+* And the **oding skills** to get there 
 
 Rules to live by 
 * **Don't panic**.  The jargon and concepts will seem mysterious at first, but if you keep with it they'll start to make sense.  
