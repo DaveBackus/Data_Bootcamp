@@ -56,10 +56,10 @@ Spyder (start it up)
 * Editor 
 * IPython console, object inspector    
 
-Python basics
+Python basics 
 * Calculations, assignments, comments, strings and quotes, slicing, lists, built-in functions (print, type), objects and methods, tab completion, defining your own functions 
 
-If you'd like to do more on your own:     
+If you'd like to do more of this on your own:     
 * Work your way through the [Codecademy](https://www.codecademy.com/tracks/python) course.  You can stop when you get to Advanced Topics.     
 * Read the Python Fundamentals chapters of our  [Data Bootcamp book](https://www.gitbook.com/book/davebackus/test/details).
 * Read Mevan's [wonderful guide](https://medium.com/keep-learning-keep-growing/how-i-learned-to-stop-worrying-and-love-the-code-af1a809457c7) "to the types of misconceptions and anxieties that people like me -- people newly learning to code -- may have."  
