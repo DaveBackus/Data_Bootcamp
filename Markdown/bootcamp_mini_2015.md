@@ -47,10 +47,10 @@ Why Python?
 
 **Programming basics** 
 
-Programming setups   
+Programming setups (and associated jargon)    
 * Distribution (**Anaconda**)  
 * Program (Python) 
-* Environment:  editor or IDE (**Spyder**, Jupyter, Pycharm, many others) 
+* Environment:  **Spyder**, Jupyter, Pycharm, many others  
 
 Spyder (start it up) 
 * Editor 
