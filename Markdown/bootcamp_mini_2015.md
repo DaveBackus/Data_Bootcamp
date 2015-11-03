@@ -45,7 +45,9 @@ Why Python?
 * Broad range of applications  
 * Competitors:  Matlab, R; also Stata, SAS, etc.  
 
-**Programming basics** 
+**Getting set up**
+* Open browser 
+* Google "nyu data bootcamp" and find this page
 
 Programming setups (and associated jargon)    
 * Distribution (**Anaconda**)  
@@ -55,6 +57,8 @@ Programming setups (and associated jargon)
 Spyder (start it up) 
 * Editor 
 * IPython console, object inspector    
+
+**Programming basics** 
 
 Python basics 
 * Calculations, assignments, comments, strings and quotes, slicing, lists, built-in functions (print, type), objects and methods, tab completion, defining your own functions 
