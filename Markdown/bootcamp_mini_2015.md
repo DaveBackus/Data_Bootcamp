@@ -15,8 +15,7 @@ We'll post announcements here.
 Please install the **Anaconda** distribution of **Python 3.4** from the download page: <https://www.continuum.io/downloads>.  If you have trouble, read [this chapter](https://davebackus.gitbooks.io/test/content/installing-python.html), but keep in mind that the Anaconda download page has changed a little since it was written.  Or come 20 minutes early to the first session and we'll (try to) set you up.  
 
 **Code used in class.**  [Class 1](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_fundamentals_1.py) | Class 2  
-
-Instructions:  click in the link, then the RAW button in the upper right, then save in a directory where you can find it.
+Instructions:  click on the link, then the Raw button in the upper right, then save in a directory where you can find it.
 
 ---
 
