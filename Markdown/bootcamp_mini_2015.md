@@ -62,6 +62,13 @@ Spyder (start it up)
 
 **Programming basics** 
 
+Our typical program 
+* Input data 
+* Manipulate data until it's in the form we want 
+* Produce a compelling graphic 
+* Examples 
+* We'll work up to this one step at a time 
+
 Python basics 
 * Calculations, assignments, comments, strings and quotes, slicing, lists, built-in functions (print, type), objects and methods, tab completion, defining your own functions 
 
