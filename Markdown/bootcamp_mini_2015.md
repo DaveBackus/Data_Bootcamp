@@ -90,13 +90,12 @@ Graphics basics
 Examples 
 * Cancer:  http://www.vox.com/2015/10/28/9631500/does-mammography-work
 * Gapminder:  http://www.gapminder.org/world/
-* Mortality 
+* Uber:  http://fivethirtyeight.com/features/uber-is-serving-new-yorks-outer-boroughs-more-than-taxis-are/
 * Indicators of US economic conditions 
 * Emerging market indicators  
 * Healthcare spending 
-* ??
 
-Following up:  ??
+Following up:  
 
 
 A product of the #nyuecon Python factory 
