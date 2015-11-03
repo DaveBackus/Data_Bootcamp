@@ -46,8 +46,10 @@ Why Python?
 * Competitors:  Matlab, R; also Stata, SAS, etc.  
 
 **Getting set up**
-* Open browser 
-* Google "nyu data bootcamp" and find this page
+
+Open browser 
+* Google "nyu data bootcamp" 
+* Find this page (look for link, or go to Markdown directory) 
 
 Programming setups (and associated jargon)    
 * Distribution (**Anaconda**)  
