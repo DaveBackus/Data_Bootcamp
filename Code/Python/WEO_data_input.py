@@ -47,6 +47,7 @@ Create dictionaries for country codes and variable definitions
 varlist = ['ISO', 'Country']
 cty_dict = weo[varlist].drop_duplicates().set_index('ISO').to_dict()['Country']
 
+# ** sorting https://docs.python.org/3.4/tutorial/datastructures.html#dictionaries
 print('\nCountry codes and names')
 for key, value in cty_dict.items():
     print(key, ': ', value, sep='')
