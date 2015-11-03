@@ -23,7 +23,7 @@ Please install the **Anaconda** distribution of **Python 3.4** from the download
 Where we're headed 
 * Think of a picture you'd like to produce -- a "visualization" 
 * And about what data you'll need 
-* And about the coding skills to get there 
+* And the coding skills to get there 
 
 Rules to live by 
 * **Ask for help**.  Raise your hand if you have a question, or don't follow what we're doing.  
