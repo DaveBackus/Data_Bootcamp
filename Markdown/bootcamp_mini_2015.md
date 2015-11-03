@@ -27,9 +27,8 @@ Where we're headed
 * And about the coding skills to get there 
 
 Rules to live by 
-* Ask for help.  Raise your hand if you have a question, or don't follow what we're doing.  
-* Be lazy.  Act as if your time is valuable.  
-
+* Ask for **help**.  Raise your hand if you have a question, or don't follow what we're doing.  
+* Develop your **Google fu**.  Learn to find answers to your questions with Google.   
 
 **Skills** 
 
