@@ -62,7 +62,10 @@ Python basics
 
 [add comments, quotes]
 
-Following up.  If you'd like to learn more about core Python, work your way through the **[Codecademy](https://www.codecademy.com/tracks/python)** course.   Or the Python Fundamentals chapters of our  **[Data Bootcamp book](https://www.gitbook.com/book/davebackus/test/details)**.
+Following up.  If you'd like to learn more about core Python: 
+* Work your way through the **[Codecademy](https://www.codecademy.com/tracks/python)** course.   
+* Or the Python Fundamentals chapters of our  **[Data Bootcamp book](https://www.gitbook.com/book/davebackus/test/details)**.
+* And read Mevan's [wonderful piece](https://medium.com/keep-learning-keep-growing/how-i-learned-to-stop-worrying-and-love-the-code-af1a809457c7), "How I learned to stop worrying and love the code."   
 
 **Data and graphics** 
 
