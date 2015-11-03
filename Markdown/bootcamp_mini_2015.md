@@ -27,8 +27,8 @@ Where we're headed
 * And the coding skills to get there 
 
 Rules to live by 
-* Don't panic.  The jargon and concepts will seem mysterious at first, but if you keep with it they'll start to make sense.  
-* Ask for help.  Raise your hand if you have a question, or don't follow what we're doing.  
+* **Don't panic**.  The jargon and concepts will seem mysterious at first, but if you keep with it they'll start to make sense.  
+* **Ask for help**.  Raise your hand if you have a question, or don't follow what we're doing.  
 * Develop your **Google fu**.  Learn to find answers to your questions with Google.   
 
 **Skills** 
