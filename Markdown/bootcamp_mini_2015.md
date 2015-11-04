@@ -104,15 +104,16 @@ If you'd like to do more of this on your own:
 **Data and graphics** 
 
 Packages 
-* Add new functionality to core language 
+* Packages/libraries/modules = plug-ins that add new tools to Python 
+* There are lots of them
 * Our favs:  Pandas (data), Matplotlib (graphics)
 * The `import` command
 
 Data basics 
 * `import pandas as pd` 
 * Reading spreadsheets and csv files 
-* Dataframes:  column labels, 
-* Examples:  test file, IMDb, ... 
+* Dataframes:  column labels, row labels  
+* Examples:  ... 
 * Internet sources with APIs:  FRED, World Bank 
  
 Graphics basics 
