@@ -81,7 +81,7 @@ If you'd like to do more of this on your own:
 
 #### Session 2 
 
-**Review.**  Write down notes that help you explain each of the following to your neighbor:     
+**Review.**  Sketch out notes that help you explain each of the following to your neighbor:     
 * `x = 107.3`
 * `y = '3.14159'`
 * `z = [x, y, 123]`
