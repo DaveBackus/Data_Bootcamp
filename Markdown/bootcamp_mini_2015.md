@@ -66,9 +66,9 @@ Save today's code file in a handy place
 * Save file in `Data_Bootcamp` directory 
 
 Launch 
-* Look for Launcher in your programs
+* Look for **Launcher** in your programs
 * Start it up (takes a minute) 
-* Click on Spyder (another minute) 
+* Click on **Spyder** (another minute) 
 
 **Programming basics** 
 
