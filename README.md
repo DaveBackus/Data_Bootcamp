@@ -1,26 +1,32 @@
 ### Data Bootcamp
 
-We are offering two sections of **Data Bootcamp** at NYU Stern in Spring 2016, one for undergrads (ECON-UB.0232, Tuesday and Thursday, 2-3:15, January 26 to May 10) and one for MBA students (ECON-GB.2313, Wednesday nights, 6-9pm, February 8 to May 9). 
+We are offering two sections of **Data Bootcamp** at NYU Stern in **Spring 2016**, one for undergrads (ECON-UB.0232, Tuesday and Thursday, 2-3:15, January 26 to May 10) and one for MBA students (ECON-GB.2313, Wednesday nights, 6-9pm, February 8 to May 9). They are regular for-credit courses at NYU.  
 
-The course -- and its SQL companion -- was developed by Stern faculty and students with the assistance and support of executives at **Amazon**.  The immediate goal is to train students to succeed as summer interns and full-time employees of technology companies.  The same skills are applicable in finance, marketing, consulting, and media.  
+The course was developed by Stern faculty and students with the assistance and support of executives at **Amazon**.  The immediate goal is to train students to succeed as summer interns and full-time employees of technology companies, but the same skills are valued in finance, marketing, consulting, media, and other areas. We think of it as literacy for the modern age and a selling point in finding a job.   
 
-More concretely, the course is designed to (i) introduce students to sources of **economic and financial data** and (ii) give **programming newbies** a sense of how modern software -- in this case **Python** -- makes life easier and more interesting.  We'll let the data speak for itself.  But coding is an essential skill in the modern world. You can do lots of things in Excel, but if you value your time -- and you should -- you'll find you can use it more efficiently with a modern programming language.  We like to say we do it because we're lazy, laziness being a synonym here for efficiency.  Former students tell us it's become a key to success in the business world.  An alum with strong programming skills worries that this course will make him obsolete.   
+More concretely, the course is designed to (i) introduce students to sources of economic, financial, and business **data** and (ii) give **programming newbies** a sense of how modern software -- in this case **Python** -- makes life easier and more interesting.  We'll let the data speak for itself.  But coding is an essential skill in the modern world. You can do lots of things in Excel, but if you value your time -- and you should -- you'll find you can use it more efficiently with a modern programming language.  We like to say we do it because we're **lazy**, laziness being a synonym here for efficiency.  Former students tell us it's become a key to success in the business world.  An alum with strong programming skills worries that this course will make him obsolete.   
 
 You can find more information about the course at  
 
-* [Course description and FAQ](https://docs.google.com/document/d/1EYvjgbeXk-BUGVrrVzJGqsaGaxYng1qSSB_3cxdsyJE/edit?usp=sharing) 
+* [Course description and FAQ](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Markdown/data_bootcamp_description.md)
 * [Book](https://www.gitbook.com/book/davebackus/test/details) (first few chapters done, the others will be fleshed out between now and January 2016) 
+* [Syllabus](https://www.dropbox.com/s/39qk6d3yoog56kl/syllabus_draft.pdf?dl=0) (draft)
+* [Job postings](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Markdown/job_postings.md) 
 
 If you have questions, **email Dave Backus** (db3@nyu.edu) or track him down in his office (KMC 7-68) or at the Malt House.  
 
-**Mini-courses.**  We ran a non-credit mini-course in 2014 and plan another one for 2015. The mini-course will give you a taste of the Python programming language and its capabilities for managing data. The **2015 mini-course schedule** is 
+#### Mini-courses  
 
-* Friday, **November 6**, 2-4pm.  Python fundamentals and an introduction to Python graphics.  Please follow [these instructions](https://davebackus.gitbooks.io/test/content/installing-python.html) to install and test Python before the class. If you have difficulty, come 20 minutes early and we'll get you going.      
-* Friday, **November 13**, 2-4pm.  Accessing data from spreadsheets and internet sources, examples of what you will be able to do.  
+For the 2015 mini-course, **[click here](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Markdown/bootcamp_mini_2015.md)**.
 
-Both sessions will be in **Tisch UC-25** (the upper concourse, one floor below street level). No registration required.  We'll post information/material [here](https://goo.gl/cPt7bD) as we develop it.  
+We ran a non-credit mini-course in 2014 and plan another one for 2015.  The **2015 mini-course** will be held  
 
-The materials for the Fall 2014 version are a little terse, and include mysterious notes to ourselves, but here they are: 
+* Friday, **November 6**, 2-4pm.     
+* Friday, **November 13**, 2-4pm.    
+
+Both sessions will be in **Tisch UC-25** (the upper concourse, one floor below street level). **All welcome, no registration required**.  The sessions will give you a taste of the Python programming language and its capabilities for managing and graphing data.  We'll post **[more information](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Markdown/bootcamp_mini_2015.md)** as we develop it.  
+
+The materials for the **Fall 2014 mini-course** are a little terse, and include mysterious notes to ourselves, but here they are: 
 
 [Session 1](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Notes/mini_class1.pdf) | 
 [Session 2](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Notes/mini_class2.pdf) | 
@@ -29,6 +35,8 @@ The materials for the Fall 2014 version are a little terse, and include mysterio
 If you want to download the pdf files, click on the link, then the Raw button at the top.  The code files are imbedded in the pdfs, and also posted in the Code directory (scroll to the top of the page).  
 
 **Our team.**  When we use the word "we" we have in mind the team of Dave Backus, Chase Coleman, Spencer Lyon, and Glenn Okun.  A number of students have helped out as well; see the acknowledgement in [our online book](https://davebackus.gitbooks.io/test/content/).
+
+**Related courses.** Several students have asked how Data Bootcamp compares to other courses with significant programming content.  I've put together [a list](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Markdown/related_courses.md#related-courses), but I recommend you ask around.  Data Bootcamp does two things that are unusual:  it's newbie-friendly, and there's a strong emphasis on data.  The latter strikes me as important, in the sense that when you learn to program, it's helpful to have a purpose in mind.  Ours is to collect and manage data.  
 
 **Suggestions welcome.**  Post them at the "Issues" link to the right (look for the exclamation point in a circle) or email Dave Backus at NYU:  db3@nyu.edu. Thanks in advance. 
 
