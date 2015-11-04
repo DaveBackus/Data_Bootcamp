@@ -31,6 +31,9 @@ Where we're headed
 * And the **coding skills** to get there 
 * Examples:  [Gapminder](http://www.gapminder.org/world/) | [cancer screening](http://www.vox.com/2015/10/28/9631500/does-mammography-work) | [Uber in NYC](http://fivethirtyeight.com/features/uber-is-serving-new-yorks-outer-boroughs-more-than-taxis-are/) 
 
+Target audience 
+* Coding novices, not prior experience required or expected 
+
 Rules to live by 
 * **Don't panic**.  The jargon and concepts will seem mysterious at first, but if you keep with it they'll start to make sense.  
 * **Ask for help**.  Raise your hand if you don't follow what we're doing.  
