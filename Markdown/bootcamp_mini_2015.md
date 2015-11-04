@@ -67,7 +67,7 @@ Our typical program
 * Input data 
 * Manipulate data until it's in the form we want 
 * Produce a compelling graphic 
-* Examples 
+* Examples:  [Gapminder](http://www.gapminder.org/world/) | [cancer screening](http://www.vox.com/2015/10/28/9631500/does-mammography-work) 
 
 Python basics 
 * Calculations, assignments, comments, strings and quotes, lists, built-in functions (print, type), objects and methods, tab completion, getting help 
@@ -76,6 +76,16 @@ If you'd like to do more of this on your own:
 * Work your way through the [Codecademy](https://www.codecademy.com/tracks/python) course.  You can stop when you get to Advanced Topics.     
 * Read the Python Fundamentals chapters of our [Data Bootcamp book](https://www.gitbook.com/book/davebackus/test/details).
 * Read Mevan's [wonderful guide](https://medium.com/keep-learning-keep-growing/how-i-learned-to-stop-worrying-and-love-the-code-af1a809457c7) "to the misconceptions and anxieties that people like me -- people newly learning to code -- may have."  
+
+---
+
+**SESSION 2 STARTS ABOUT HERE**
+
+**Review.**  Explain what each of these is, and give an example:
+* string
+* list 
+* method 
+* object explorer 
 
 **Data and graphics** 
 
