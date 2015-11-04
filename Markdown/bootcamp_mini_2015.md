@@ -6,6 +6,8 @@ November 6 and 13, 2-4pm, Tisch UC 25
 * Session 1:  Python fundamentals   
 * Session 2:  data management (Pandas), graphics (Matplotlib), examples 
 
+This document:  https://github.com/DaveBackus/Data_Bootcamp/blob/master/Markdown/bootcamp_mini_2015.md
+
 ---
 #### Announcements
 
