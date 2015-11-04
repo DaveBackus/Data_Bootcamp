@@ -41,6 +41,7 @@ Rules to live by
 * **Ask for help**.  Raise your hand if you don't follow what we're doing.  
 * Develop your **Google fu**.  Learn to find answers to your questions with Google.   
 
+<!-- 
 **Skills** 
 
 Why skills? 
@@ -53,6 +54,8 @@ Why code?
 Why Python? 
 * User-friendly 
 * Broad range of applications  
+
+-->
 
 **Prelaunch checklist**
 
