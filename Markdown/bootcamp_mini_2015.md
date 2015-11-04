@@ -1,12 +1,12 @@
 ### Data Bootcamp Mini-Course, 2015 edition  
 
+This document:  https://github.com/DaveBackus/Data_Bootcamp/blob/master/Markdown/bootcamp_mini_2015.md
+
 A brief overview of the tools and skills you'll learn in **[Data Bootcamp](https://github.com/DaveBackus/Data_Bootcamp#data-bootcamp)**, a course at NYU's Stern School of Business. Developed by Dave Backus, Chase Coleman, Spencer Lyon, and Glenn Okun.  With the help and support of Sarah Beckett-Hile, Hersh Iyer, Itamar Snir, and executives at Amazon.  
 
 November 6 and 13, 2-4pm, Tisch UC 25
 * Session 1:  Python fundamentals, examples    
 * Session 2:  data management (Pandas), graphics (Matplotlib), examples 
-
-This document:  https://github.com/DaveBackus/Data_Bootcamp/blob/master/Markdown/bootcamp_mini_2015.md
 
 ---
 #### Announcements
