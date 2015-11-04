@@ -25,6 +25,8 @@ We recommend you download it before class:  Click on the link, then click on the
 
 #### Session 1 
 
+**Overview**
+
 Where we're headed 
 * Think of a **picture** you'd like to produce -- a "visualization" 
 * And about what **data** you'll need 
