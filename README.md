@@ -34,6 +34,9 @@ The materials for the **Fall 2014 mini-course** are a little terse, and include 
 
 If you want to download the pdf files, click on the link, then the Raw button at the top.  The code files are imbedded in the pdfs, and also posted in the Code directory (scroll to the top of the page).  
 
+
+#### Relatedf information 
+
 **Our team.**  When we use the word "we" we have in mind the team of Dave Backus, Chase Coleman, Spencer Lyon, and Glenn Okun.  A number of students have helped out as well; see the acknowledgement in [our online book](https://davebackus.gitbooks.io/test/content/).
 
 **Related courses.** Several students have asked how Data Bootcamp compares to other courses with significant programming content.  I've put together [a list](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Markdown/related_courses.md#related-courses), but I recommend you ask around.  Data Bootcamp does two things that are unusual:  it's newbie-friendly, and there's a strong emphasis on data.  The latter strikes me as important, in the sense that when you learn to program, it's helpful to have a purpose in mind.  Ours is to collect and manage data.  
