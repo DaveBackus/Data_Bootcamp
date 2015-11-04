@@ -84,11 +84,10 @@ If you'd like to do more of this on your own:
 **Review.**  Sketch out notes that help you explain each of the following to your neighbor:     
 * `x = 107.3`
 * `y = '3.14159'`
-* `z = [x, y, 123]`
+* `z = [3, 2, 7, 2]`
 * `type(x)`
 * `type?`
-* method 
-* object explorer 
+* `w = z.count(2)` (This one's harder; the idea is to use the available help to find out what it does. Or just try it.) 
 
 **Data and graphics** 
 
