@@ -3,7 +3,7 @@
 A brief overview of the tools and skills you'll learn in **[Data Bootcamp](https://github.com/DaveBackus/Data_Bootcamp#data-bootcamp)**, a course at NYU's Stern School of Business. Developed by Dave Backus, Chase Coleman, Spencer Lyon, and Glenn Okun.  With the help and support of Sarah Beckett-Hile, Hersh Iyer, Itamar Snir, and executives at Amazon.  
 
 November 6 and 13, 2-4pm, Tisch UC 25
-* Session 1:  Python fundamentals   
+* Session 1:  Python fundamentals, examples    
 * Session 2:  data management (Pandas), graphics (Matplotlib), examples 
 
 This document:  https://github.com/DaveBackus/Data_Bootcamp/blob/master/Markdown/bootcamp_mini_2015.md
@@ -49,20 +49,27 @@ Why Python?
 * User-friendly 
 * Broad range of applications  
 
-**Getting set up**
+**Prelaunch checklist**
 
-Open browser 
-* Google "nyu data bootcamp" 
-* Find this page (look for link, or go to Markdown directory) 
+Install Anaconda 
+* Google "anaconda download"
+* Download installer for **Python 3.5** 
+* Run installer 
 
-Programming setups (and associated jargon)    
-* Distribution (**Anaconda**)  
-* Program (Python) 
-* Environment:  **Spyder**, Jupyter, Pycharm, many others  
+Locate this file in a browser 
+* Google "nyu data bootcamp" and follow links 
+* Or:  type in url at the top 
 
-Spyder (start it up) 
-* Editor 
-* IPython console, object inspector    
+Save today's code file in a handy place 
+* Create directory/folder `Data_Bootcamp` 
+* Click on code link above, then Raw button 
+* Save file in `Data_Bootcamp` directory 
+
+Launch 
+* Look for Launcher in your programs
+* Start it up
+* Click on Spyder 
+* Both can be slow 
 
 **Programming basics** 
 
@@ -70,6 +77,10 @@ Our typical program
 * Input data 
 * Manipulate data until it's in the form we want 
 * Produce a compelling graphic 
+
+Spyder basics  
+* Editor 
+* IPython console, object inspector    
 
 Python basics 
 * Calculations, assignments, comments, strings and quotes, lists, built-in functions (print, type), objects and methods, tab completion, getting help 
