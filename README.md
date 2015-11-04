@@ -19,7 +19,7 @@ If you have questions, **email Dave Backus** (db3@nyu.edu) or track him down in 
 
 For the 2015 mini-course, **[click here](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Markdown/bootcamp_mini_2015.md)**.
 
-We ran a non-credit mini-course in 2014 and plan another one for 2015.  The **[2015 mini-course schedule](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Markdown/bootcamp_mini_2015.md)** is 
+We ran a non-credit mini-course in 2014 and plan another one for 2015.  The **2015 mini-course** will be held  
 
 * Friday, **November 6**, 2-4pm.     
 * Friday, **November 13**, 2-4pm.    
