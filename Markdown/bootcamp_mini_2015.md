@@ -67,9 +67,8 @@ Save today's code file in a handy place
 
 Launch 
 * Look for Launcher in your programs
-* Start it up
-* Click on Spyder 
-* Both can be slow 
+* Start it up (takes a minute) 
+* Click on Spyder (another minute) 
 
 **Programming basics** 
 
