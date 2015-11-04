@@ -106,6 +106,9 @@ If you'd like to do more of this on your own:
 * `type?`
 * `w = z.count(2)` (This one's harder; the idea is to use the available help to find out what it does. Or just try it.) 
 
+
+**WORK IN PROGRESS FROM HERE ON**
+
 **Data and graphics** 
 
 Packages 
@@ -127,8 +130,6 @@ Graphics basics
 * Approach 2:  apply methods to `fig, ax` 
 * Parameters and styles 
 * Approach 3:  apply `plot` method to dataframe 
-
-**WORK IN PROGRESS FROM HERE ON**
 
 Examples 
 * Cancer:  http://www.vox.com/2015/10/28/9631500/does-mammography-work
