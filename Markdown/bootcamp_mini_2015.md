@@ -21,12 +21,13 @@ We recommend you download it before class:  Click on the link, then click on the
 
 ---
 
-#### Outline
+#### Session 1 
 
 Where we're headed 
 * Think of a **picture** you'd like to produce -- a "visualization" 
 * And about what **data** you'll need 
 * And the **coding skills** to get there 
+* Examples:  [Gapminder](http://www.gapminder.org/world/) | [cancer screening](http://www.vox.com/2015/10/28/9631500/does-mammography-work) 
 
 Rules to live by 
 * **Don't panic**.  The jargon and concepts will seem mysterious at first, but if you keep with it they'll start to make sense.  
@@ -67,7 +68,6 @@ Our typical program
 * Input data 
 * Manipulate data until it's in the form we want 
 * Produce a compelling graphic 
-* Examples:  [Gapminder](http://www.gapminder.org/world/) | [cancer screening](http://www.vox.com/2015/10/28/9631500/does-mammography-work) 
 
 Python basics 
 * Calculations, assignments, comments, strings and quotes, lists, built-in functions (print, type), objects and methods, tab completion, getting help 
@@ -79,11 +79,14 @@ If you'd like to do more of this on your own:
 
 ---
 
-**SESSION 2 STARTS ABOUT HERE**
+#### Session 2 
 
-**Review.**  Explain what each of these is, and give an example:
-* string
-* list 
+**Review.**  Write down notes that help you explain each of the following to your neighbor:     
+* `x = 107.3`
+* `y = '3.14159'`
+* `z = [x, y, 123]`
+* `type(x)`
+* `type?`
 * method 
 * object explorer 
 
