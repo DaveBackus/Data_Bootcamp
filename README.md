@@ -17,12 +17,14 @@ If you have questions, **email Dave Backus** (db3@nyu.edu) or track him down in 
 
 #### Mini-courses  
 
+For the 2015 mini-course, **[click here](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Markdown/bootcamp_mini_2015.md)**.
+
 We ran a non-credit mini-course in 2014 and plan another one for 2015.  The **[2015 mini-course schedule](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Markdown/bootcamp_mini_2015.md)** is 
 
-* Friday, **November 6**, 2-4pm.  Please follow [these instructions](https://davebackus.gitbooks.io/test/content/installing-python.html) to install and test Python before the class. If you have difficulty, come 20 minutes early and we'll get you going.      
+* Friday, **November 6**, 2-4pm.     
 * Friday, **November 13**, 2-4pm.    
 
-Both sessions will be in **Tisch UC-25** (the upper concourse, one floor below street level). **All welcome, no registration required**.  The sessions will give you a taste of the Python programming language and its capabilities for managing and graphing data.  We'll post **[more information here](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Markdown/bootcamp_mini_2015.md)** as we develop it.  
+Both sessions will be in **Tisch UC-25** (the upper concourse, one floor below street level). **All welcome, no registration required**.  The sessions will give you a taste of the Python programming language and its capabilities for managing and graphing data.  We'll post **[more information](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Markdown/bootcamp_mini_2015.md)** as we develop it.  
 
 The materials for the **Fall 2014 mini-course** are a little terse, and include mysterious notes to ourselves, but here they are: 
 
