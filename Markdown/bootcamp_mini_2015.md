@@ -26,7 +26,7 @@ We recommend you download it before class:  Click on the link, then click on the
 Where we're headed 
 * Think of a **picture** you'd like to produce -- a "visualization" 
 * And about what **data** you'll need 
-* And the **oding skills** to get there 
+* And the **coding skills** to get there 
 
 Rules to live by 
 * **Don't panic**.  The jargon and concepts will seem mysterious at first, but if you keep with it they'll start to make sense.  
