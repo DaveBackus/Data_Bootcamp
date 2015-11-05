@@ -98,7 +98,7 @@ If you'd like to do more of this on your own:
 * Read the Python Fundamentals chapters of our [Data Bootcamp book](https://www.gitbook.com/book/davebackus/test/details).
 * Read Mevan's [wonderful guide](https://medium.com/keep-learning-keep-growing/how-i-learned-to-stop-worrying-and-love-the-code-af1a809457c7) "to the misconceptions and anxieties that people like me -- people newly learning to code -- may have."  
 
-Before the next session:  Work through the review below.
+**Next Wednesday or Thursday:**  Work through the review below.
 
 ---
 
