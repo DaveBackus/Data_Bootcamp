@@ -25,6 +25,20 @@ We recommend you download it before class:  Click on the link, then click on the
 
 #### Session 1 
 
+
+**Skills** 
+
+Why skills? 
+* Businesses want people with skills (duh!) 
+
+Why code? 
+* One of the skills businesses value (not the only one) 
+* Do things Excel can't do, and do them faster 
+
+Why Python? 
+* User-friendly 
+* Broad range of applications  
+
 **Overview**
 
 Where we're headed 
@@ -41,19 +55,6 @@ Rules to live by
 * **Don't panic**.  The jargon and concepts will seem mysterious at first, but if you keep with it they'll start to make sense.  
 * **Ask for help**.  Raise your hand if you don't follow what we're doing.  
 * Develop your **Google fu**.  Learn to find answers to your questions with Google.   
-
-**Skills** 
-
-Why skills? 
-* Businesses want people with skills (duh!) 
-
-Why code? 
-* One of the skills businesses value (not the only one) 
-* Do things Excel can't do, and do them faster 
-
-Why Python? 
-* User-friendly 
-* Broad range of applications  
 
 **Prelaunch checklist**
 
