@@ -18,7 +18,7 @@ We'll post announcements here.
 **Before the first session.** 
 Please install the **Anaconda** distribution of **Python 3.4 or (now) 3.5** from the download page: <https://www.continuum.io/downloads>.  If you have trouble, read [this chapter](https://davebackus.gitbooks.io/test/content/installing-python.html), but keep in mind that the Anaconda download page has changed a little since it was written.  Or come 20 minutes early to the first session and we'll (try to) set you up.  
 
-**Code for class.**  [Class 1](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_fundamentals_1.py) | Class 2  
+**Code for class.**  [Class 1](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_fundamentals_1.py) | Class 2  (data | graphics | examples) 
 We recommend you download it before class:  Click on the link, then click on the Raw button in the upper right, then save in a directory where you can find it.  It's best if you add your initials to the end of the file name to indicate it's your version, which you can modify as you think best.  
 
 ---
@@ -33,8 +33,9 @@ Where we're headed
 * And the **coding skills** to get there 
 * Examples:  [Gapminder](http://www.gapminder.org/world/) | [cancer screening](http://www.vox.com/2015/10/28/9631500/does-mammography-work) | [Uber in NYC](http://fivethirtyeight.com/features/uber-is-serving-new-yorks-outer-boroughs-more-than-taxis-are/) 
 
-Target audience 
-* Coding **novices**, no prior experience required or expected 
+Philosophy  
+* Target **coding novices**, no prior experience required or expected 
+* Not a typical programming course:  cover only those aspects of Python relevant to data work 
 
 Rules to live by 
 * **Don't panic**.  The jargon and concepts will seem mysterious at first, but if you keep with it they'll start to make sense.  
