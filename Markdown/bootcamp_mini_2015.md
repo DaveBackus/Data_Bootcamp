@@ -138,11 +138,11 @@ Graphics basics
 * Approach 3:  apply `plot` method to dataframe 
 
 Examples 
-* Cancer:  http://www.vox.com/2015/10/28/9631500/does-mammography-work
-* Gapminder:  http://www.gapminder.org/world/
-* Uber:  http://fivethirtyeight.com/features/uber-is-serving-new-yorks-outer-boroughs-more-than-taxis-are/
+* GDP in various countries
+* Emerging market indicators 
+* US GDP and GDP growth 
 * Indicators of US economic conditions 
-* Emerging market indicators  
+* US stock returns 
 * Healthcare spending 
 
 Following up:  
