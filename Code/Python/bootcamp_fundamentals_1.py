@@ -59,7 +59,7 @@ x = 2   # so is this
 #%%
 """
 The print() function 
-* what's inside the parens is what we print -- the "arguments" 
+* what's inside the parens gets printed -- the "arguments" 
 * as many as you like 
 * for help:  print?
 """
@@ -92,7 +92,8 @@ Single, double, and triple quotes (are mostly the same)
 # how to use single, double, and triple quotes 
 d = 'example'
 e = "example"
-d == e                      # just to check, ignore how this works 
+d == e  
+                   # just to check, ignore how this works 
 longstring = """
 Four score and seven years ago
 Our fathers brought forth """
@@ -103,7 +104,7 @@ last  = 'Beckett-Hile'
 bothnames = first + last 
 print(bothnames)
 
-# Exercise:  How do I fix bothnames?
+# Exercise:  How do I put a space in bothnames? 
 
 # Exercise:  Construct the string:  last name, comma, space, first name 
 
@@ -135,8 +136,8 @@ d = '11.32'
 
 # Exercise.  What type is d?  What is its length?
 
-# Exercise.  What do the functions int and str do?  
-# Convert d to a float. 
+# Exercise.  What do the functions int, float, and str do?  
+# Can you convert d to a float?  
 
 #%%
 """
