@@ -18,30 +18,14 @@ We'll post announcements here.
 **Before the first session.** 
 Please install the **Anaconda** distribution of **Python 3.4 or (now) 3.5** from the download page: <https://www.continuum.io/downloads>.  If you have trouble, read [this chapter](https://davebackus.gitbooks.io/test/content/installing-python.html), but keep in mind that the Anaconda download page has changed a little since it was written.  Or come 20 minutes early to the first session and we'll (try to) set you up.  
 
-**Code for class.**  [Class 1](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_fundamentals_1.py) | Class 2  
+**Code for class.**  [Class 1](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_fundamentals_1.py) | Class 2  (data | graphics | examples) 
 We recommend you download it before class:  Click on the link, then click on the Raw button in the upper right, then save in a directory where you can find it.  It's best if you add your initials to the end of the file name to indicate it's your version, which you can modify as you think best.  
 
 ---
 
 #### Session 1 
 
-**Overview**
 
-Where we're headed 
-* Think of a **picture** you'd like to produce -- a "visualization" 
-* And about what **data** you'll need 
-* And the **coding skills** to get there 
-* Examples:  [Gapminder](http://www.gapminder.org/world/) | [cancer screening](http://www.vox.com/2015/10/28/9631500/does-mammography-work) | [Uber in NYC](http://fivethirtyeight.com/features/uber-is-serving-new-yorks-outer-boroughs-more-than-taxis-are/) 
-
-Target audience 
-* Coding **novices**, no prior experience required or expected 
-
-Rules to live by 
-* **Don't panic**.  The jargon and concepts will seem mysterious at first, but if you keep with it they'll start to make sense.  
-* **Ask for help**.  Raise your hand if you don't follow what we're doing.  
-* Develop your **Google fu**.  Learn to find answers to your questions with Google.   
-
-<!-- 
 **Skills** 
 
 Why skills? 
@@ -55,7 +39,22 @@ Why Python?
 * User-friendly 
 * Broad range of applications  
 
--->
+**Overview**
+
+Where we're headed 
+* Think of a **picture** you'd like to produce -- a "visualization" 
+* And about what **data** you'll need 
+* And the **coding skills** to get there 
+* Examples:  [Gapminder](http://www.gapminder.org/world/) | [cancer screening](http://www.vox.com/2015/10/28/9631500/does-mammography-work) | [Uber in NYC](http://fivethirtyeight.com/features/uber-is-serving-new-yorks-outer-boroughs-more-than-taxis-are/) 
+
+Philosophy  
+* Target **coding novices**, no prior experience required or expected 
+* Not a typical programming course:  cover only those aspects of Python relevant to data work 
+
+Rules to live by 
+* **Don't panic**.  The jargon and concepts will seem mysterious at first, but if you keep with it they'll start to make sense.  
+* **Ask for help**.  Raise your hand if you don't follow what we're doing.  
+* Develop your **Google fu**.  Learn to find answers to your questions with Google.   
 
 **Prelaunch checklist**
 
@@ -97,6 +96,8 @@ If you'd like to do more of this on your own:
 * Read the Python Fundamentals chapters of our [Data Bootcamp book](https://www.gitbook.com/book/davebackus/test/details).
 * Read Mevan's [wonderful guide](https://medium.com/keep-learning-keep-growing/how-i-learned-to-stop-worrying-and-love-the-code-af1a809457c7) "to the misconceptions and anxieties that people like me -- people newly learning to code -- may have."  
 
+**Next Wednesday or Thursday:**  Work through the review below.
+
 ---
 
 #### Session 2 
@@ -135,11 +136,11 @@ Graphics basics
 * Approach 3:  apply `plot` method to dataframe 
 
 Examples 
-* Cancer:  http://www.vox.com/2015/10/28/9631500/does-mammography-work
-* Gapminder:  http://www.gapminder.org/world/
-* Uber:  http://fivethirtyeight.com/features/uber-is-serving-new-yorks-outer-boroughs-more-than-taxis-are/
+* GDP in various countries
+* Emerging market indicators 
+* US GDP and GDP growth 
 * Indicators of US economic conditions 
-* Emerging market indicators  
+* US stock returns 
 * Healthcare spending 
 
 Following up:  
