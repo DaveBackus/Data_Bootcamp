@@ -18,8 +18,9 @@ We'll post announcements here.
 **Before the first session.** 
 Please install the **Anaconda** distribution of **Python 3.4 or (now) 3.5** from the download page: <https://www.continuum.io/downloads>.  If you have trouble, read [this chapter](https://davebackus.gitbooks.io/test/content/installing-python.html), but keep in mind that the Anaconda download page has changed a little since it was written.  Or come 20 minutes early to the first session and we'll (try to) set you up.  
 
-**Code for class.**  [Class 1](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_fundamentals_1.py) | Class 2  (data | graphics | examples) 
-We recommend you download it before class:  Click on the link, then click on the Raw button in the upper right, then save in a directory where you can find it.  It's best if you add your initials to the end of the file name to indicate it's your version, which you can modify as you think best.  
+**Code for class.**  [Class 1](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_fundamentals_1.py) | Class 2  (data | graphics | [examples](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_examples.py)) 
+
+We recommend you download the relevant code before class:  Click on the link, then click on the Raw button in the upper right, then save in a directory where you can find it.  Setting up a Data_Bootcamp directory wouldn't be a bad idea.  You might want to add your initials to the file name to indicate it's your version, which you can modify as you wish.  
 
 ---
 
