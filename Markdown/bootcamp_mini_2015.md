@@ -103,15 +103,22 @@ If you'd like to do more of this on your own:
 
 #### Session 2 
 
-**Review.**  Sketch out notes to explain each to your neighbor:     
+**Review.**  
+
+Concepts.  Explain each of the following in as simple terms as possible: 
 * `x = 107.3`
+* `x = x**2` 
 * `'this'` and `"this"` 
 * `y = '3.14159'`
+* `float(y)` 
 * `z = [3, 2, 7, 2]`
 * `type(x)`
 * `type?`
 * `w = z.count(2)` (This one's harder; the idea is to use the available help to find out what it does. Or just try it.) 
 
+Problems.  
+* 
+* Suppose we have a variable z = '12,345.6'.  What is its type?  Can we convert it to a floating point number?  Hint:  What method can we use to get rid of the comma?  
 
 **WORK IN PROGRESS FROM HERE ON**
 
