@@ -105,6 +105,7 @@ If you'd like to do more of this on your own:
 
 **Review.**  Sketch out notes to explain each to your neighbor:     
 * `x = 107.3`
+* `'this'` and `"this"` 
 * `y = '3.14159'`
 * `z = [3, 2, 7, 2]`
 * `type(x)`
