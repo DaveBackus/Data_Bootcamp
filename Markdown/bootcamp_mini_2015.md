@@ -117,8 +117,8 @@ Concepts.  Explain each of the following in as simple terms as possible:
 * `w = z.count(2)` (This one's harder; the idea is to use the available help to find out what it does. Or just try it.) 
 
 Problems.  
-* 
-* Suppose we have a variable z = '12,345.6'.  What is its type?  Can we convert it to a floating point number?  Hint:  What method can we use to get rid of the comma?  
+* Set `first = 'Hersh'` and `last = 'Iyer'`.  Construct a string `bothnames` that consists of the first name, a space, and the last name in upper-case (capital) letters.  
+* Suppose we have a variable `z = '12,345.6'`.  What is its type?  Can we convert it to a floating point number?  (This one's harder.  Hint:  What method can we use to get rid of the comma?)  
 
 **WORK IN PROGRESS FROM HERE ON**
 
