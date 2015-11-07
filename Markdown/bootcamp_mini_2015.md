@@ -110,6 +110,7 @@ Concepts.  Explain each of the following in as simple terms as possible:
 * `x = x**2` 
 * `'this'` and `"this"` 
 * `y = '3.14159'`
+* `y = 2 * y`
 * `float(y)` 
 * `z = [3, 2, 7, 2]`
 * `type(x)`
