@@ -162,7 +162,7 @@ Examples
 
 If you'd like to do more of this on your own:     
 * Wait till we write the relevant chapters of our book.  
-* Brandon Rhodes's [video](https://youtu.be/5JnMutdy6Fw) is a wonderful start on advanced features of Pandas.  Two hours long, but worth it.  
-* The Matplotlib [gallery](http://matplotlib.org/gallery.html) includes lots of examples with the code that produced them. 
+* Watch Brandon Rhodes's [video](https://youtu.be/5JnMutdy6Fw), it's a wonderful start on advanced features of Pandas.  Two hours long, but worth it.  
+* Check out the Matplotlib [gallery](http://matplotlib.org/gallery.html) of examples, they all come with code you can run yourself.  
 
 A product of the #nyuecon Python factory 
