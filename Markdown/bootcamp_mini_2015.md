@@ -105,9 +105,9 @@ If you'd like to do more of this on your own:
 
 #### Session 2 
 
-**Review.**  
+**Review.**  Sketch brief answers.  Feel free to consult your neighbor. 
 
-Concepts.  Explain each of the following in as simple terms as possible: 
+Concepts.  Explain what each of the following does:   
 * `x = 107.3`
 * `x = x**2` 
 * `'this'` and `"this"` 
