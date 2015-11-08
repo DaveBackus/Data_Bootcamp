@@ -158,9 +158,11 @@ Examples
 * US stock returns 
 * Healthcare spending 
 
+**Before you leave.**  Please complete the short poll attached to the handout.
+
 If you'd like to do more of this on your own:     
 * Wait till we write the relevant chapters of our book.  
 * Brandon Rhodes's [video](https://youtu.be/5JnMutdy6Fw) is a wonderful start on advanced features of Pandas.  Two hours long, but worth it.  
-* The Matplotlib [gallery](http://matplotlib.org/gallery.html) includes lots of examples with the code that produced them.  
+* The Matplotlib [gallery](http://matplotlib.org/gallery.html) includes lots of examples with the code that produced them. 
 
 A product of the #nyuecon Python factory 
