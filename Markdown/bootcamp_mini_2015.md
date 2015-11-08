@@ -107,7 +107,7 @@ If you'd like to do more of this on your own:
 
 **Review.**  Sketch brief answers.  Feel free to consult your neighbor. 
 
-Concepts.  Explain what each of the following does:   
+Concepts.  Explain each of the following:   
 * `x = 107.3`
 * `x = x**2` 
 * `'this'` and `"this"` 
@@ -123,6 +123,8 @@ Problems.
 * What should you do if you don't follow what we're doing in class?  
 * Set `first = 'Hersh'` and `last = 'Iyer'`.  Construct a string `bothnames` that consists of the first name, a space, and the last name in upper-case (capital) letters.  
 * Suppose we have a variable `z = '12,345.6'`.  What is its type?  Can we convert it to a floating point number?  (This one's harder.  Hint:  What method can we use to get rid of the comma?)  
+
+Reminders:  IPython console, Object explorer, code cell 
 
 **WORK IN PROGRESS FROM HERE ON**
 
