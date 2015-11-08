@@ -156,7 +156,9 @@ Examples
 * US stock returns 
 * Healthcare spending 
 
-Following up:  We think our book will be the best source once we have it written.  In the meantime, Brandon Rhodes's [video](https://youtu.be/5JnMutdy6Fw) is a wonderful start on advanced features of Pandas.  Two hours long, but worth it.  For graphics, you might try the Matplotlib [gallery](http://matplotlib.org/gallery.html), which includes lots of examples with the code that produced them.  
-
+If you'd like to do more of this on your own:     
+* Wait till we write the relevant chapters of our book.  
+* Brandon Rhodes's [video](https://youtu.be/5JnMutdy6Fw) is a wonderful start on advanced features of Pandas.  Two hours long, but worth it.  
+* The Matplotlib [gallery](http://matplotlib.org/gallery.html) includes lots of examples with the code that produced them.  
 
 A product of the #nyuecon Python factory 
