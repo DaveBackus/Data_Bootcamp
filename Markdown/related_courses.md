@@ -12,7 +12,7 @@ Running list of NYU courses that involve significant amounts of programming.  Or
 
 **INFO-GB.3306. Data Visualization.**  Graphics and the tools to make good ones. [Sample syllabus](http://web-docs.stern.nyu.edu/ioms/SYLLABI/Sosulski_INFOGB.3306_Fall15.pdf) and [intro video](https://youtu.be/frwl-YVtmrs).  
 
-**INFO-GB.3322. Design and Development of Web Apps.**  Student teams  develop a mobile app connected to some backend web service (twitter , facebook, etc).  They are graded on both their technical skills and their business plan.  [Syllabus](http://people.stern.nyu.edu/nwhite/WebappsF2015-MBA.pdf).
+**INFO-GB.3322. Design and Development of Web Apps.**  Student teams  develop mobile apps connected to backend web service (twitter , facebook, etc).  Projects are graded on both technical skills and business plan.  [Syllabus](http://people.stern.nyu.edu/nwhite/WebappsF2015-MBA.pdf).
 
 **INFO-GB.3336.  Data Mining for Business Intelligence.**  Data mining techniques for managers.  Examines "how data mining can be used to improve decision-making" using "real-world examples."  Covers the principles and techniques of data mining, including predictive modeling, classification, decision trees, and cross validation.  Includes hands-on examples, but is not primarily a coding course.  
 
