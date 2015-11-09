@@ -166,4 +166,7 @@ If you'd like to do more of this on your own:
 * Check out the Matplotlib [gallery](http://matplotlib.org/gallery.html) of examples, they all come with code you can run yourself.  
 * Wait till we write the relevant chapters of our book.  
 
+
+Send comments and questions to Dave Backus at NYU ([db3@nyu.edu](mailto:db3@nyu.edu)).
+
 A product of the #nyuecon Python factory 
