@@ -15,7 +15,7 @@ Data Bootcamp is about nuts and bolts data analysis.  You will learn about econo
 
 **Can’t I do what I need in Excel?**  Excel is a great program, but once you have a little programming experience it will remind you of doing arithmetic on your fingers.  With Python, you will be able do routine tasks more efficiently (“automate the boring stuff,” as one guide suggests), handle larger data sets, merge different data sets, and generally do things that spreadsheet programs can’t do.    
 
-**What are the prerequisites?**  There are **none**, other than the **desire** to take on a challenge and the **patience** to debug programs that don’t quite work -- and they never work the first time, and often not the second or third time either.   
+**What are the prerequisites?**  There are none, other than the **desire** to take on a challenge and the **patience** to debug programs that don’t quite work -- and they never work the first time, and often not the second or third time either.   
 
 **What if my quant skills are weak or nonexistent?**  This is the course for you!  We will start at the beginning and do our best to make the material accessible to everyone.  We’re looking beyond quants to marketing, management, and humanities majors.  One of our design team was an English major.  
 
