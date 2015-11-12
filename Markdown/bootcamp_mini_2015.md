@@ -158,14 +158,24 @@ Examples
 * US stock returns 
 * Healthcare spending 
 
-**Before you leave.**  Please complete the short poll attached to the handout.
-
 If you'd like to do more of this on your own:     
 * Browse the [Practical Business Python](http://pbpython.com/) blog, it's filled with practical information about how to go between Pandas and Excel.  Start with [this one](http://pbpython.com/excel-pandas-comp.html).
 * Watch Brandon Rhodes's [video](https://youtu.be/5JnMutdy6Fw), it's a wonderful start on advanced features of Pandas.  Two hours long, but worth it.  
 * Check out the Matplotlib [gallery](http://matplotlib.org/gallery.html) of examples, they all come with code you can run yourself.  
 * Wait till we write the relevant chapters of our book.  
 
+
+**Graphics practice.** Randy Olson has a
+[nice blog post](http://www.randalolson.com/2014/06/28/how-to-make-beautiful-data-visualizations-in-python-with-matplotlib/) (or Google "randy olson beautiful") about creating effective graphics.
+He starts with [this gif](http://gfycat.com/ImprobableFemaleBasenji).
+Skim his post, play the gif, and
+* Write a Python script that recreates the data in the figure, both numbers and labels.
+(There are only a few points, you can just type them into lists.)
+* Approximate the various graphs using Matplotlib.
+* Play around with the graphics parameters.
+What is the best graph you can produce?
+What do you like about it?
+* Variant:  Do the same with our GDP per capita bar charts.
 
 Send comments and questions to Dave Backus at NYU ([db3@nyu.edu](mailto:db3@nyu.edu)).
 
