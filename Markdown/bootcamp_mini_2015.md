@@ -177,6 +177,4 @@ What is the best graph you can produce?
 What do you like about it?
 * Variant:  Do the same with our GDP per capita bar charts.
 
-Send comments and questions to Dave Backus at NYU ([db3@nyu.edu](mailto:db3@nyu.edu)).
-
 A product of the #nyuecon Python factory 
