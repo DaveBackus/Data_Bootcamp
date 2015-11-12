@@ -160,11 +160,12 @@ Examples
 * US stock returns 
 * Healthcare spending 
 
-**Graphics practice.** Randy Olson has a
+**Graphics practice.** 
+Randy Olson has a
 [nice blog post](http://www.randalolson.com/2014/06/28/how-to-make-beautiful-data-visualizations-in-python-with-matplotlib/) (or Google "randy olson beautiful") about creating effective graphics.
 He starts with [this gif](http://gfycat.com/ImprobableFemaleBasenji).
 Skim his post, play the gif, and
-* Write a Python script that recreates the data in the figure, both numbers and labels.
+* Write a Python program that recreates the data in the figure, both numbers and labels.
 (There are only a few points, you can just type them into lists.)
 * Approximate the various graphs using Matplotlib.
 * Play around with the graphics parameters.
