@@ -17,7 +17,7 @@ We'll post announcements here.
 
 **Before the second session.** Download the code files below.  Not yet, wait till Firday for me to get them cleaned up.  We'll use three:  one for the data package (Pandas), one for graphics (Matplotlib), and one for examples putting both to use.
 
-**Code files for class.**  [Class 1](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_fundamentals_1.py) | Class 2  (data | graphics | [examples](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_examples.py)) 
+**Code files for class.**  [Class 1](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_fundamentals_1.py) | Class 2  ([data](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_pandas_1.py) | [graphics](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_graphics_1.py) | [examples](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_examples.py)) 
 
 We recommend you download the relevant code before class:  Click on the link, then click on the Raw button in the upper right, then save in a directory where you can find it.  Setting up a Data_Bootcamp directory wouldn't be a bad idea.  You might want to add your initials to the file name to indicate it's your version, which you can modify as you wish.  
 
