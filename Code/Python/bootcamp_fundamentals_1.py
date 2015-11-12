@@ -2,14 +2,14 @@
 Python fundamentals, part 1, for Data Bootcamp course.  
 
 Repository of materials (including this file): 
-* https://github.com/DaveBackus/Data_Bootcamp/
+* https://github.com/DaveBackus/Data_Bootcamp 
 * https://github.com/DaveBackus/Data_Bootcamp/Code/Python  
 
 Written by Dave Backus, August 2015 
 Created with Python 3.4 
 """
 """
-Check version (ignore this, just run it)
+Check version (ignore this, just run it) 
 Or just type:  import sys, sys.version 
 """
 import sys 
@@ -28,19 +28,21 @@ Explore Spyder:  editor, IPython console, etc
 """
     
 """
-Calculations:  type in IPython console
+Calculations:  type in IPython console, practice "Google fu"
 """
 # 2*3, 2 * 3, 2/3, 2^3, 2**3, log(3), sqrt(2)
 
 """
 Assignments:  type in IPython console 
 * what's on the right is "assigned" to the object on the left 
-* we call the object a "variable"
+* we call the object a "variable" 
 * variables can be used again, refer to them by name 
 """
-x = 2   
-y = 3 
+x = 2
+y = 3
 z = x/y
+
+# Exercise: Set w = 3.  What does w = w + 1 do?  Does this make any sense?
 
 # Exercise: Suppose we borrow 200, pay interest of 5%.  
 # If we pay interest plus principal after one year, what do we pay? 
@@ -61,12 +63,14 @@ x = 2   # so is this
 The print() function 
 * what's inside the parens gets printed -- the "arguments" 
 * as many as you like 
-* for help:  print?
+* for help:  print? or Object explorer 
 """
 # type these lines in IPython console 
 print(x)
 print(x, y)
 print('The variable x is', x)
+
+# Exercise:  use print? to find out what sep= and end= do.  
 
 #%%
 """
@@ -93,7 +97,8 @@ Single, double, and triple quotes (are mostly the same)
 d = 'example'
 e = "example"
 d == e  
-                   # just to check, ignore how this works 
+
+#%%               # just to check, ignore how this works 
 longstring = """
 Four score and seven years ago
 Our fathers brought forth """
@@ -128,6 +133,20 @@ print(both)
 
 #%%
 """
+Slicing:  picking out elements of strings, lists 
+Write out string, put numbers under it 
+"""
+# slicing 
+a = 'some'
+b = 'thing'
+c = a + b
+print('c is', c)
+
+# what is c[1]?  why?  c[0]?  c[-1]
+
+
+#%%
+"""
 Built-in functions:  like print, but we have others 
 Favs:  type, len
 Getting help:  type? in console, type in Object inspector
@@ -152,3 +171,6 @@ numbers = [1, 2, 3, 4]
 
 # Exercise. Replace e's with *'s.  
 
+# Exercise.  Suppose we have a variable z = '12,345.6'.  
+# What is its type?  Can we convert it to a floating point number?   
+# Hint:  What method can we use to get rid of the comma?  

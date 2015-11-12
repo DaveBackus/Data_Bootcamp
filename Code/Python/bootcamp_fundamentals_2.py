@@ -23,27 +23,6 @@ else:
     
 #%%   
 """
-Slicing:  picking out elements of strings, lists 
-Write out string, put numbers under it 
-"""
-# slicing 
-a = 'some'
-b = 'thing'
-c = a + b
-print('c is', c)
-
-print('c[1] is:', c[1])
-print('c[1:2] is', c[1:2])
-print('c[1:3] is:', c[1:3])
-print('c[1:] is:', c[1:])
-
-# names 
-first, last = 'Dave', 'Backus'
-full = first + ' ' + last
-print('\nFull name is', full)
-
-#%%    
-"""
 Comparisons 
 """
 x = 2*3

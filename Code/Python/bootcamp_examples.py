@@ -1,13 +1,13 @@
 """
 Examples for Data Bootcamp course (data input and graphics)
 
-**Warning:**  
+**Warning**  
 Web data access will change in the near future, when Pandas spins
 off the web access tools into a new package.  
-See:  http://pandas.pydata.org/pandas-docs/stable/remote_data.html
+http://pandas.pydata.org/pandas-docs/stable/remote_data.html
 
 Repository of materials (including this file): 
-* https://github.com/DaveBackus/Data_Bootcamp/Code/Python 
+* https://github.com/DaveBackus/Data_Bootcamp
 * https://github.com/DaveBackus/Data_Bootcamp/Code/Python  
 
 Written by Dave Backus, November 2015 
@@ -72,13 +72,13 @@ plt.scatter(df['gdppc'], df['le'], s=50*df['gdp'],
 plt.title('Life expectancy vs. GDP per capita', loc='left', fontsize=14)
 plt.xlabel('GDP Per Capita')
 plt.ylabel('Life Expectancy')
-plt.annotate(=iso, xy=(df['gdppc'], df['le']))
+#plt.annotate(x=iso, xy=(df['gdppc'], df['le']))
 
 #%%
 """
-Example:  US GDP and GDP growth  
+Example:  US GDP and GDP growth from FRED  
 """
-import pandas.io.data as web           # web interface with FRED
+import pandas.io.data as web           # web interface for FRED
 import datetime as dt                  # handles dates 
 import matplotlib.pyplot as plt        # plotting 
 
@@ -146,6 +146,47 @@ ax.legend().set_visible(False)
 
 #%%
 """
+Government debt:  IMF historical data 
+Thanks to Itamar Snir   
+"""
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# data input 
+excelFilePath = '../Temp/Debt Database Fall 2013 Vintage.xlsx'
+df = pd.read_excel(excelFilePath, sheetname=1, na_values=['…', '….', '']) 
+    #, index_col=-1, encoding='utf-8')
+
+#%%
+#get most recent year in the data (instead of 2013):
+max_year = max(df.columns.values[4:].tolist())
+
+#get a list of the years for the x-axis values
+years = [year for year in range(1980,max_year+1)]
+#get a list of the debt to GDP for the y-axis values
+dbt_greece = df[df.country=='Greece'][years]
+dbt_greece_list = dbt_greece.values.tolist()[0]
+#plot the data
+plt.plot(years,dbt_greece_list, color='red') #set graph color
+plt.ylabel('Debt to GDP')
+plt.title ('Greece Debt to GDP Between 1980 and '+ str(max_year))
+plt.show()
+
+
+
+
+
+#%%
+"""
+US bond yields 
+"""
+
+
+
+
+
+#%%
+"""
 Example:  Stock prices from Yahoo finance (VIX)
 """
 import pandas as pd 
@@ -155,8 +196,8 @@ import datetime as dt
 # ticker 
 ticker = 'aapl' 
 today = dt.date.today()
-one_week = dt.timedelta(days=7)
-start = today - one_week
+#one_week = dt.timedelta(days=7)
+#start = today - one_week
 start = dt.datetime(2000, 1, 1)
 vix = web.DataReader(ticker, 'yahoo', start) 
 

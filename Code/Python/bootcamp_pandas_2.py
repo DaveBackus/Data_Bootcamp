@@ -4,7 +4,7 @@ Pandas advanced tools for Data Bootcamp course.
 Topics:  reading csv and xls files, properties of dataframes.  
 
 Repository of materials (including this file): 
-* https://github.com/DaveBackus/Data_Bootcamp/Code/Python 
+* https://github.com/DaveBackus/Data_Bootcamp
 * https://github.com/DaveBackus/Data_Bootcamp/Code/Python  
 
 Written by Dave Backus, August 2015 
@@ -19,6 +19,17 @@ import pandas as pd
 print('\nPython version: ', sys.version) 
 print('\nPandas version: ', pd.__version__, '\n') 
 
+#%%
+"""
+Remote data access
+"""
+from pandas.io.data import Options
+aapl = Options('aapl', 'yahoo')
+data = aapl.get_all_data()
+
+
+
+#%%
 """
 Set up simple dataframes to play with 
 """
@@ -104,3 +115,92 @@ print(df2)
 
 dfu = df.unstack()
 dfs = df.stack()
+
+"""
+urllib versions
+most are for the WDI, which is way too big and takes too long 
+"""
+# copy file from url to hard drive 
+import urllib.request           # this is a module from the package urllib 
+file = 'foo.csv'
+url1 = 'https://raw.githubusercontent.com/DaveBackus/Data_Bootcamp/master/'
+url2 = 'Code/Data/test1.csv'
+url = url1 + url2 
+urllib.request.urlretrieve(url, file)
+
+#%%
+# Sarah's version 
+f = urllib.request.urlopen(url)
+file = 'foo_sbh.csv'
+with open(file, 'wb') as local_file:
+    local_file.write(f.read())
+
+#%%
+# zip files  
+import pandas as pd
+import urllib
+import zipfile
+import os 
+
+# this is a big file, best to test with something smaller 
+url  = 'http://databank.worldbank.org/data/download/WDI_csv.zip'
+file = '../Temp/' + os.path.basename(url)   # strip out file name 
+urllib.request.urlretrieve(url, file)        # copy to disk 
+
+# see what's there
+print(['Is zipfile?', zipfile.is_zipfile(file)])
+zf = zipfile.ZipFile(file, 'r')
+#print('List of zipfile contents (two versions)')
+[print(file) for file in zf.namelist()]
+zf.printdir()
+
+# extract a component 
+csv = zf.extract('WDI_Data.csv')        # copy to disk  
+df1 = pd.read_csv(csv)       # read
+print(df1.columns)                      # check contents 
+
+# alternative:  open and read
+csv = zf.open('WDI_Data.csv')
+df2 = pd.read_csv(csv)
+print(df2.columns)
+
+"""
+Checks to see if file is in current working directory
+"""
+import os 
+
+# some checks just to be cute 
+print('\nCurrent working directory: ', os.getcwd())
+#print('\n List of files in working directory: ', os.listdir())
+
+# check for file 
+file = 'test.csv'
+if not os.path.isfile(file):
+    raise Exception('***** Program halted, csv file not found *****')
+
+#%%
+"""
+Properties of the input
+"""
+print('\nProperties of text.csv') 
+print('Type:', type(df1))
+print('Dimensions:', df1.shape) 
+print('\nIndex (row labels)\n', df1.index, sep='') 
+print('\nColumns (column labels)\n', df1.columns, sep='') 
+print('\nVariable types\n', df1.dtypes, sep='') 
+
+#%%
+"""
+List properties with a function 
+"""
+def dfprops(df):
+    """
+    Various properties of dataframe df    
+    """
+    print('\n\nType: ', type(df))
+    print('Dimensions (shape)): ', df.shape)
+    print('Column labels (variables): ', df.columns.tolist())
+    print('Variable types: \n', df.dtypes, sep='')
+    print('Index labels (observations): ', df.index.tolist())
+
+#df_props(df1)
