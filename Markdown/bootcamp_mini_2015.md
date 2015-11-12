@@ -105,6 +105,11 @@ If you'd like to do more of this on your own:
 
 #### Session 2 
 
+**Prelaunch checklist**
+* Start Spyder
+* Locate this document (Google "nyu data bootcamp", look for mini-course link)
+* Save code files, open them in Spyder 
+
 **Review.**  Sketch brief answers.  Feel free to consult your neighbor. 
 
 Concepts.  Explain each of the following:   
@@ -125,8 +130,6 @@ Problems.
 * Suppose we have a variable `z = '12,345.6'`.  What is its type?  Can we convert it to a floating point number?  (This one's harder.  Hint:  What method can we use to get rid of the comma?)  
 
 Reminders:  IPython console, Object explorer, code cell 
-
-**WORK IN PROGRESS FROM HERE ON**
 
 **Data and graphics** 
 
@@ -158,13 +161,6 @@ Examples
 * US stock returns 
 * Healthcare spending 
 
-If you'd like to do more of this on your own:     
-* Browse the [Practical Business Python](http://pbpython.com/) blog, it's filled with practical information about how to go between Pandas and Excel.  Start with [this one](http://pbpython.com/excel-pandas-comp.html).
-* Watch Brandon Rhodes's [video](https://youtu.be/5JnMutdy6Fw), it's a wonderful start on advanced features of Pandas.  Two hours long, but worth it.  
-* Check out the Matplotlib [gallery](http://matplotlib.org/gallery.html) of examples, they all come with code you can run yourself.  
-* Wait till we write the relevant chapters of our book.  
-
-
 **Graphics practice.** Randy Olson has a
 [nice blog post](http://www.randalolson.com/2014/06/28/how-to-make-beautiful-data-visualizations-in-python-with-matplotlib/) (or Google "randy olson beautiful") about creating effective graphics.
 He starts with [this gif](http://gfycat.com/ImprobableFemaleBasenji).
@@ -176,5 +172,11 @@ Skim his post, play the gif, and
 What is the best graph you can produce?
 What do you like about it?
 * Variant:  Do the same with our GDP per capita bar charts.
+
+If you'd like to do more of this on your own:     
+* Browse the [Practical Business Python](http://pbpython.com/) blog, it's filled with practical information about how to go between Pandas and Excel.  Start with [this one](http://pbpython.com/excel-pandas-comp.html).
+* Watch Brandon Rhodes's [video](https://youtu.be/5JnMutdy6Fw), it's a wonderful start on advanced features of Pandas.  Two hours long, but worth it.  
+* Check out the Matplotlib [gallery](http://matplotlib.org/gallery.html) of examples, they all come with code you can run yourself.  
+* Wait till we write the relevant chapters of our book.  
 
 A product of the #nyuecon Python factory 
