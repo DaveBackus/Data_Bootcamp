@@ -142,9 +142,8 @@ Packages
 Data basics 
 * `import pandas as pd` 
 * Reading spreadsheets and csv files 
-* Dataframes:  column labels, row labels  
-* Examples:  ... 
-* Internet sources with APIs:  FRED, World Bank 
+* Dataframes:  column labels, row labels, dtypes, ...   
+* Internet sources with APIs:  FRED, World Bank, Fama-French  
  
 Graphics basics 
 * `import matplotlib`
