@@ -15,7 +15,7 @@ We'll post announcements here.
 
 **Bring your computer to class.**  We'll put it to work.  
 
-**Before the second session.** Download the code files below.  Not yet, wait till Firday for me to get them cleaned up.  We'll use three:  one for the data package (Pandas), one for graphics (Matplotlib), and one for examples putting both to use.
+**Before the second session.** Download the code files below.  We'll use three:  one for the data package (Pandas), one for graphics (Matplotlib), and one for examples putting both to use.  Remember to click on the Raw button to get the right file.
 
 **Code files for class.**  [Class 1](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_fundamentals_1.py) | Class 2  ([data](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_pandas_1.py) | [graphics](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_graphics_1.py) | [examples](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_examples.py)) 
 
