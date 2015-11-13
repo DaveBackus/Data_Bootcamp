@@ -179,4 +179,6 @@ If you'd like to do more of this on your own:
 * Check out the Matplotlib [gallery](http://matplotlib.org/gallery.html) of examples, they all come with code you can run yourself.  
 * Wait till we write the relevant chapters of our book.  
 
+**Mailing list.**  If you'd like to get announcements about similar events, sign up for the NYU Data Bootcamp [Google Group](https://groups.google.com/forum/#!forum/nyu_data_bootcamp).  
+
 A product of the #nyuecon Python factory 
