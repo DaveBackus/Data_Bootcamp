@@ -13,7 +13,7 @@ Created with Python 3.4
 Packages:  add new tools to Python (libraries, modules)
 * Pandas:  data management
 * Matplotlib:  graphics 
-* Django:  web apps 
+* Many more 
 Google "anaconda packages" 
 Add them with import statements 
 """
@@ -23,13 +23,14 @@ Check versions (ignore this)
 import pandas as pd      # the data package
 import sys 
 
-
 print('\nPython version:', sys.version) 
 print('Pandas version: ', pd.__version__) 
 
 #%%
 """
 Read xls and csv files (and why we like csv's)
+The result is a data frame:  like a sheet with row and column labels 
+Before we start:  create spreadsheet and csv files in working directory 
 """
 import pandas as pd     # redundant, there to make cell self-contained 
 
@@ -56,12 +57,13 @@ What type of object do we have?  What are its properties?
 Try these methods:  shape, columns, index, head()/tail() [also list(df)]
 Also:  dtypes, mean, describe(), transpose()=T, to_csv
 """
-df = df3 
+# ignore this, it's just there to set up the same df in case previous failed  
+df = pd.DataFrame([[1, 2, 3], [4, 3, 4], [5, 6, 7]], 
+                   columns=['x1', 'x2', 'x3'])
 
 # Exercise.  How do I output df as a csv or xls file?  
 # Exercise.  What other methods do you see?  
 # Exercise.  What does the plot method do?  
-
 
 #%%
 """
@@ -76,7 +78,17 @@ df['y1'] = df['x1']/df['x2']
 df['y2'] = df['x2'] + df['x3']
 
 #%%
-# sort by y1:  df.sort_values(['y1'])
+# fancy stuff 
+df['Name'] = ['Dave', 'Chase', 'Spencer']
+df = df.set_index('Name')
+
+#%%
+# sort by y1
+df.sort_values(['y1'])
+
+#%%
+# this is cool, but not recommended (goes against the automation mentality)
+df.to_clipboard() 
 
 #%%
 # plots:  what do they do?  

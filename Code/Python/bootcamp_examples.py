@@ -172,17 +172,11 @@ plt.ylabel('Debt to GDP')
 plt.title ('Greece Debt to GDP Between 1980 and '+ str(max_year))
 plt.show()
 
-
-
-
-
 #%%
 """
 US bond yields 
+Video?
 """
-
-
-
 
 
 #%%
@@ -235,7 +229,7 @@ ffstd = ff.std()
 #%%
 """
 Example:  Stock options from Yahoo finance 
-Currently broken:  asks for html5lib, which conflicts with Python 3.5
+Currently **broken**:  asks for html5lib, which conflicts with Python 3.5
 """
 import pandas as pd 
 import pandas.io.data as web
