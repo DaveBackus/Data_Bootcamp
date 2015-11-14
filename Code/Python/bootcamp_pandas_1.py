@@ -20,8 +20,8 @@ Add them with import statements
 """
 Check versions (ignore this)
 """
-import pandas as pd      # the data package
-import sys
+import pandas as pd               # the data package
+import sys                        # system module (don't ask)
 
 print('\nPython version:', sys.version)
 print('Pandas version: ', pd.__version__)
@@ -31,28 +31,60 @@ print('Pandas version: ', pd.__version__)
 
 #%%
 """
-Read xls and csv files (and why we like csv's)
+Read csv file from internet (and why we like csv's)
 The result is a data frame:  like a sheet with row and column labels
-Before we start:  create spreadsheet and csv files in working directory
 """
-import pandas as pd     # redundant, there to make cell self-contained
+import pandas as pd               # redundant, but it's ok to do it again 
 
-# read files from computer
-# make sure they're in the current working directory
-file1 = 'test.csv'
-df1 = pd.read_csv(file1)
-print('\ncsv read (df1)\n', df1)
-
-file2 = 'test.xls'
-df2 = pd.read_excel(file2)
-print('\nxls read (df2)\n', df2)
-
-# read same file from url
+# read file from url
 url1 = 'https://raw.githubusercontent.com/DaveBackus'
 url2 = '/Data_Bootcamp/master/Code/Python/test.csv'
 url  = url1 + url2
-# df3 = pd.read_csv(url)
-# print('\nurl read (df3)\n', df3)
+df = pd.read_csv(url)
+
+print('\nurl read (df)\n', df)    # \n tells print to skip a line
+
+# in case the internet is down 
+#df = pd.DataFrame([['Dave', 1, 2, 3.5], 
+#                   ['Chase', 4, 3, 4.3], 
+#                   ['Spencer', 5, 6, 7.8]],
+#                   columns=['name', 'x1', 'x2', 'x3'])
+#print('\nurl read (df)\n', df)
+
+#%%
+"""
+What type of object do we have?  What are its properties?
+"""
+type(df)
+# aka dataframe 
+
+# Apply these methods, explain what they do: shape, index, columns, dtypes 
+
+# Exercise:  Try df.columns.tolist() and list(df).  
+
+#%%
+"""
+There are lots of things we can do with dataframes
+ head()/tail() [also list(df)]
+Also:  dtypes, mean, describe(), transpose()=T, to_csv
+"""
+# Exercise.  How do I output df as a csv or xls file?
+# Exercise.  What other methods do you seed?
+# Exercise.  What does the plot method do?
+
+#%%
+"""
+Read csv file from internet (and why we like csv's)
+The result is a data frame:  like a sheet with row and column labels
+"""
+import pandas as pd     # redundant, there to make cell self-contained
+
+url1 = 'https://raw.githubusercontent.com/DaveBackus'
+url2 = '/Data_Bootcamp/master/Code/Python/test.csv'
+url  = url1 + url2
+df = pd.read_csv(url)
+print('\nurl read (df)\n', df)
+
 
 #%%
 """
@@ -60,10 +92,15 @@ What type of object do we have?  What are its properties?
 Try these methods:  shape, columns, index, head()/tail() [also list(df)]
 Also:  dtypes, mean, describe(), transpose()=T, to_csv
 """
-# ignore this, it's just there to set up the same df in case previous failed
-df = pd.DataFrame([[1, 2, 3], [4, 3, 4], [5, 6, 7]],
-                   columns=['x1', 'x2', 'x3'])
 
+# what kind of object do we have?  
+print(type(df))
+
+# try these methods:  what do they do?  shape, dtypes, transpose()=T
+# also these:  mean, describe(), to_csv  
+"""
+xxx
+"""
 # Exercise.  How do I output df as a csv or xls file?
 # Exercise.  What other methods do you seed?
 # Exercise.  What does the plot method do?
@@ -81,9 +118,6 @@ df['y1'] = df['x1']/df['x2']
 df['y2'] = df['x2'] + df['x3']
 
 #%%
-# fancy stuff
-df['Name'] = ['Dave', 'Chase', 'Spencer']
-
 # Exercise.  Use the dtypes method.  What does it tell us?
 
 # Exercise.  What does this do?
@@ -97,6 +131,32 @@ df.sort_values(['y1'])
 #%%
 # this is cool, but not recommended (goes against the automation mentality)
 df.to_clipboard()
+
+
+#%%
+"""
+Data input from your computer 
+Create or find Data_Bootcamp directory 
+Create spreadsheet, save as xlsx, xls, csv 
+Locate and set current working directory 
+"""
+import pandas as pd          # still redundant
+
+# read files from computer
+# make sure they're in the current working directory
+file1 = 'test.xlsx'
+df1 = pd.read_excel(file1)
+print('\nxlsx read\n', df1)
+
+file2 = 'test.xls'
+df2 = pd.read_excel(file2)
+print('\nxls read\n', df2)
+
+file3 = 'test.csv'
+df3 = pd.read_csv(file3)
+print('\ncsv read\n', df3)
+
+
 
 #%%
 # plots:  what do they do?
