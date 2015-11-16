@@ -54,9 +54,8 @@ Philosophy
 
 Rules to live by 
 * **Don't panic**.  The jargon and concepts will seem mysterious at first, but if you keep with it they'll start to make sense.  
-* **One step at a time.**  We'll go as slowly as we need.  Speed is the enemy, it leads to mistakes.   
-* **Ask for help**.  Raise your hand if you don't follow what we're doing.  
-* Develop your **Google fu**.  Learn to find answers to your questions with Google.   
+* **One step at a time.**  We'll go as slowly as we need.  Speed is the enemy, it leads to mistakes.  
+* **Doing is learning.**  We'll set you up to teach yourself.  If you're stuck, either **ask for help** or practice your **Google fu** and find the answer with Google.   
 
 **Prelaunch checklist**
 
