@@ -56,7 +56,7 @@ Part of the #nyuecon collection at NYU's Stern School of Business.
 
 **Announcement.** The **[Data Bootcamp course](https://github.com/DaveBackus/Data_Bootcamp#data-bootcamp)** will **NOT** cover SQL databases.  The SQL Bootcamp is a separate non-credit course.  Same attitude, different content.  
 
-**Update.**  We expect to offer this again in Spring 2016.  
+**Update.**  We expect to offer this again in Spring 2016. For further information, join our [Google Group](https://groups.google.com/forum/#!forum/nyu_data_bootcamp).  
 
 Professors David Backus and Glenn Okun proudly present the 2015 *NYU Stern School of Business SQL Bootcamp*. This five-session non-credit program will be taught by Sarah Beckett-Hile. It follows a popular
 [Python mini-course](https://github.com/DaveBackus/Data_Bootcamp#data-bootcamp) run last fall.  
