@@ -25,9 +25,9 @@ Data Bootcamp is about nuts and bolts data analysis.  You will learn about econo
 
 **Can I do this on my own?**  In principle, yes, but it’s much easier in a supportive environment.  
 
-**Will this course cover SQL databases?** Short answer, no.  Longer answer:  we will use some of the same functionality in Python data-management tools.  But we will not cover such computer science standbys as regular expressions, XML and JSON -- or SQL.  
-
 **Should I take this course if I already know how to code?**  You’re welcome to, and will learn a lot about data and the data components of Python.  But please don’t scare the other students.  
+
+**Will this course cover SQL?** Short answer, no.  Longer answer:  we will use some of the same functionality in Python's data-management tools, but we will not cover SQL explicitly.  We will also skip such computer science standards as regular expressions and data formats (XML, JSON, etc).  
 
 **What if I have other questions?**  Stop by or email me to set up an appointment:  Dave Backus, KMC 7-68, db3@nyu.edu.  Directions at http://pages.stern.nyu.edu/~dbackus/ 
 
