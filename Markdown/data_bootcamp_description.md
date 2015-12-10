@@ -46,8 +46,8 @@ Not that you need any more inspiration, but here are a couple good pieces:
 * Search:  nyu data bootcamp 
 * Related courses:  https://github.com/DaveBackus/Data_Bootcamp/blob/master/Markdown/related_courses.md#related-courses
 
-**Two-session mini-course:**  November 6 and 13, 2-4, Tisch UC 25.  No registration required.   More information at the GitHub link above.  
+**Two-session mini-course for Fall 2015:**  November 6 and 13, 2-4, Tisch UC 25.  No registration required.   More information at the GitHub link above.  
 
-**Our team:**  Dave Backus, Chase Coleman, Spencer Lyon, and Glenn Okun.  With help from Sarah Beckett-Hile and Hersh Iyer.  
+**Our team:**  Dave Backus, Chase Coleman, Spencer Lyon, and Glenn Okun.  With help from Sarah Beckett-Hile, Hersh Iyer, and Itamar Snir.  
 
 A product of the #nyuecon Python factory @ NYU Stern 
