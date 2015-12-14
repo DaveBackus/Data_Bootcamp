@@ -2,16 +2,17 @@
 A course at NYU’s Stern School of Business 
 
 Spring 2016 schedule: 
-* MBA:  ECON-GB.2313, Wednesday nights, 6-9pm, February 8 to May 9
-* UG:  ECON-UB.0232, Tuesday and Thursday, 2-3:15, January 26 to May 10 
+* MBA:  ECON-GB.2313, Wednesday nights, 6-9pm, KMC 4-90, February 8 to May 9
+* UG:  ECON-UB.0232, Tuesday and Thursday, 2-3:15, KMC 4-90, January 26 to May 10 
 
 
-Quick links:  Syllabus | Outline | ...
+Quick links:  [Syllabus](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf) | Outline | MBA Due Dates | UG Due Dates | [Project Guide](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf) 
 
 
 #### Course description
 
 Data Bootcamp is about nuts and bolts data analysis.  You will learn about economic, financial, and business data, and enough about computer programming to work with it effectively.  Applications include some or all of:  leading economic indicators; emerging market country indicators; bond and equity returns; stock options; income by zip code; long tail sales data; innovation diffusion curves; and many others.  We will use Python, a popular high-level computer language that’s widely used in finance, consulting, technology, and other parts of the business world.  “High-level” means it’s less painful than most (the hard work is done by the language), but it’s a serious language with extensive capabilities.  “Data analysis” means primarily graphical descriptions that summarize data in ways that are helpful to managers.  “Bootcamp” is a reminder that expertise takes work.  Don’t worry, it’s worth it.  
+
 
 #### Frequently asked questions 
 
@@ -36,28 +37,30 @@ Data Bootcamp is about nuts and bolts data analysis.  You will learn about econo
 **What if I have other questions?**  Stop by or email me to set up an appointment:  Dave Backus, KMC 7-68, db3@nyu.edu, [directions](http://pages.stern.nyu.edu/~dbackus/).   
 
 
-#### Course materials 
-
-* [Syllabus](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf) 
-* Project description 
-* Due dates:  MBA | UG 
-* Topic outline 
-* Book (work in progress):  https://www.gitbook.com/book/davebackus/test/details 
-* [Repository](https://github.com/DaveBackus/Data_Bootcamp#data-bootcamp) of documents and materials
-* Search:  nyu data bootcamp 
-* Related courses:  https://github.com/DaveBackus/Data_Bootcamp/blob/master/Markdown/related_courses.md#related-courses
-
-
 #### Contact information 
 
 Dave Backus:  KMC 7-68, db3@nyu.edu, [directions](http://pages.stern.nyu.edu/~dbackus/)
 
 MBA section 
-* Chase Coleman, co-teacher, 
+* Chase Coleman, co-teacher, cc7768@gmail.com 
+* Itamar Snir, teaching fellow, is1413@stern.nyu.edu
+
+UG section 
+* Spencer Lyon, co-teacher, sgl290@nyu.edu
+* 
+
+#### Course materials 
+
+In addition to the quick links at the top, keep in mind:
+
+* Our [book](https://www.gitbook.com/book/davebackus/test/details) (work in progress) 
+* Our [repository](https://github.com/DaveBackus/Data_Bootcamp#data-bootcamp) (complete collection of documents and materials) 
+* Search:  nyu data bootcamp 
+* [Related courses](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Markdown/related_courses.md#related-courses) 
 
 
 #### Our team 
 
-Dave Backus, Chase Coleman, Spencer Lyon, and Glenn Okun.  With help from Sarah Beckett-Hile, Hersh Iyer, and Itamar Snir.  
+Dave Backus, Chase Coleman, Spencer Lyon, and Glenn Okun.  With help from Paul Backus, Sarah Beckett-Hile, Hersh Iyer, and Itamar Snir.  
 
 A product of the #nyuecon Python factory @ NYU Stern 
