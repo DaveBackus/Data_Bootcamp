@@ -1,0 +1,746 @@
+\documentclass[11pt]{article}
+
+\input{../LaTeX/preamble.tex}
+
+% document starts here
+\begin{document}
+\parskip=\bigskipamount
+\parindent=0.0in
+\thispagestyle{empty}
+\input{../LaTeX/header.tex}
+
+\bigskip\bigskip
+\centerline{\Large \bf Data Bootcamp:  Class \#3}
+\centerline{Revised: \today}
+
+\begin{comment}
+* Today:  control, data frames
+* Before we start
+    - start Spyder
+    - download bootcamp_control.py
+\end{comment}
+
+
+\section{Course overview}
+
+\begin{itemize}
+\item Objective:  Learn enough about Python to do useful things with data.
+\item Target audience:  Programming newbies.
+Anyone can do this with a little persistence and the help of friends.
+
+%\item Trigger warning:  This will take some effort.  But it's worth it.
+
+\item Team:  Dave Backus, Glenn Okun, Sarah Beckett-Hile, and a rotating group of ninjas.
+
+\item Course resources:
+\begin{itemize}
+\item Bootcamp Group:  \url{https://groups.google.com/forum/#!forum/nyu_data_bootcamp}.
+Post comments and questions here.
+
+\item GitHub repository:  \url{https://github.com/DaveBackus/Data_Bootcamp}.
+All the docs and programs are here.
+This document is in the Notes folder;
+the pdf file comes with links.
+Programs are in the Code folder under Python.
+\item This document:  The online version comes with links.
+\end{itemize}
+
+\end{itemize}
+
+
+\section{Overall plan}
+
+\begin{itemize}
+\item First class:  Python basics, examples.
+\item Second class:  graphics.
+\item This class:  control flow, functions, data management.
+\item {\bf We may run a more formal course in August.}
+%If we do, there will be greater emphasis on data.
+\end{itemize}
+
+
+\section{Today's plan}
+
+\begin{itemize}
+\item Control flow:  if statements, loops.
+\item Functions.
+\item Data management:  the Pandas package.
+%\item SQL databases (Sarah).
+\end{itemize}
+
+
+\section{Control flow language}
+
+Python has some basic features, or ``control flow language,''
+that are common to most programming languages.
+The most common are conditionals
+(do different things if a statement is true or false)
+and loops (do something a bunch of times).
+Each has a number of variations.
+
+We'll use the term ``syntax'' to refer to the structure of the language,
+the set of rules that govern how we use commands.
+You might think of this as analogous to the rules of using English
+or some other language.
+The difference is that computer languages are much less complex.
+
+%
+\begin{itemize}
+\item References
+\begin{itemize}
+\item Python tutorial:  \url{https://docs.python.org/3/tutorial/controlflow.html}.
+This is very good, we'll steal from it liberally.
+
+\item SciPy Lectures:  \url{https://scipy-lectures.github.io/}.
+This is written for a different audience (people in the natural sciences)
+but it's very good.
+See especially \href{https://scipy-lectures.github.io/intro/language/python_language.html}{Section 1.2}.
+
+\item Wikpedia:  \url{http://en.wikipedia.org/wiki/Control_flow}.
+A general overview of the concepts and their origins.
+\end{itemize}
+
+\begin{comment}
+
+Separate sections for conditionals and loops
+
+Overview.  Have picture for conditional statement:  if (condition) is True, do one thing, if false
+do another
+
+Conditions (Boolean expressions).
+5 == 6
+5==5
+'Dave' > 'Glenn'
+
+Compound conditions. ??
+
+Loops
+i = 0.1
+Use a loop over n to determine how many periods it takes to double your money.
+That is, find the first n for which (1+i)**n > 2.
+
+Check Comm 64, Coursera, etc for examples
+
+\end{comment}
+
+\item Comparisons.
+
+Boolean expressions. Eg, {\tt x = 7, y = x >= 6}.
+What type is {\tt y}?
+
+% https://docs.python.org/3.4/library/stdtypes.html#boolean-operations-and-or-not
+List:  {\tt == (equals), > (greater than), >= (greater than or equals), }
+
+Multiple comparisons:
+\begin{verbatim}
+x = 7
+y = 3
+test1 = (x >=0) & (y >= 0)
+test2 = (x >=0) | (x <= -1)
+\end{verbatim}
+What are {\tt test1} and {\tt test2}?
+[Noooo!!!  This is how Pandas works, not core Python.]
+
+\item Conditionals: {\tt if}, {\tt else}, {\tt elif}.
+These statements allow you to do different things depending
+on the result of some condition.  A really simple example
+prints the square of a number {\it if the number is greater than six\/}
+(that's the condition):
+%
+\begin{verbatim}
+x = 7       # we can change this later and see what happens
+if x > 6:
+    square = x**2
+    print(square)
+
+print('Done!')
+\end{verbatim}
+%
+The key elements of the code are:
+\begin{itemize}
+\item The initial {\tt if} statement ends with a colon.
+That's standard Python syntax, we'll see it again.
+\item The following statements are indented four spaces.
+Spyder will do this automatically for you.
+\item The end of the ``code block'' is signalled by the end of the indentation.
+\item The space before the next line --- {\tt print('Done!')} --- isn't necessary,
+but it's common practice because it makes the code easier to read.
+\end{itemize}
+
+The starting point here is the comparison {\tt x>6}.
+Comparisons take on the values {\tt True} and {\tt False}.
+In this case, if you type {\tt print(x>6)} you'll get the answer:  {\tt True}.
+The {\tt if} statement then directs the program to do different things in each case.
+The allowable comparisons are
+{\tt <} (less than), {\tt >} (greater than), {\tt <=} (less than or equal to),
+{\tt >=} (greater than or equal to), {\tt ==} (equal to), and {\tt !=} (not equal to).
+
+This example does something if the condition {\tt x>6} is true, nothing if it's false.
+What if we want to do something else if the condition is false?
+Then we add an {\tt else} statement:
+\begin{verbatim}
+if x > 6:
+    square = x**2
+    print('x**2 =', square)
+    print(x>6)
+else:
+    print('x is not > 6 ( x =', x, ')')
+    print(x>6)
+\end{verbatim}
+We've added print statements for the condition {\tt x>6} to show what they look like.
+
+*** and / or ***
+
+There are lots more variations, but that should give you the idea.
+
+\item {\bf Exercise.} Start with the assignments
+\begin{verbatim}
+name1 = 'Dave'
+name2 = 'Glenn'
+\end{verbatim}
+(The names on the right can be anything, but let's start with these.)
+Write a program using {\tt if} and {\tt else} that prints out the name
+that comes first in alphabetical order.
+
+\begin{comment}
+name1 = 'Dave'
+name2 = 'Glenn'
+
+if name1 < name2:
+    print(name1)
+else:
+    print(name2)
+\end{comment}
+
+
+\item {\tt for} loops.
+There are lots of times you want to do the same thing many times,
+either on one object or to many similar objects.
+An example of the former is to find an answer to progressively higher degrees of accuracy.
+We repeat as many time as we need to get a desired degree of accuracy.
+An example of the latter is to print out a list of names, one at a time.
+Both situations come up a lot.
+
+Here's an example:
+compute and print the squares of whole numbers (integers) up to ten.
+We can do that with a {\tt for} loop:
+%
+\begin{verbatim}
+for number in range(11):
+    square = number**2
+    print(square)
+\end{verbatim}
+The variable name {\tt number} is arbitrary, we can use any name we like.
+The expression {\tt range(n)} sets up a sequence of integers of length {\tt n}.
+It's a built-in Python tool.
+With standard Python logic, it goes from zero to {\tt n-1}.
+The command {\tt for} tells the program to do the commands that follow
+for all the values of {\tt number}
+specified by {\tt range(11)};
+that is, for integer values between zero and ten:
+{\tt 0}, {\tt 1}, {\tt 2}, ... {\tt 10}.
+The print statement reports the result.
+
+The syntax is similar to conditionals:
+\begin{itemize}
+\item The initial {\tt for} statement ends with a colon.
+\item The following statements are indented four spaces.
+\item The end is signalled by the end of the indentation.
+\item A space after the last line makes the code easier to read.
+\end{itemize}
+
+
+{\bf *** Kill Fibonacci and compute bond price:}
+coupon C, yield y, maturity n.
+
+{\bf *** Maybe:  option prices??}
+
+Here's another example, this one adapted from the
+\href{https://docs.python.org/3/tutorial/introduction.html#first-steps-towards-programming}{Python tutorial}:
+%
+\begin{verbatim}
+a, b = 0, 1
+for it in range(10):
+    a, b = b, a+b
+    print('At iteration', it, 'b =', b)
+\end{verbatim}
+This generates Fibonacci numbers
+(programmers love Fibonacci numbers):
+starting with zero and one, each subsequent number is the sum of the previous two.
+The print statement reports the iteration number {\tt it} along with the next Fibonacci number {\tt b}
+in the sequence.
+
+% ?? insert while loops here?
+
+Here's a more complex example.
+One of the features of Fibonacci numbers is that the ratio of
+successive numbers converges.
+But what does it converge to?
+We can compute the limit by repeating the operation and
+stopping when we think we're close enough.
+One measure of close enough is when the difference
+between successive ratios is smaller than some very small number.
+Here's an example:
+\begin{verbatim}
+a, b = 0, 1
+ratio = a/b
+maxit = 20
+small_num = 1e-4
+for it in range(maxit):
+    a, b = b, a+b
+    new_ratio = a/b
+    print('At iteration', it, 'ratio =', new_ratio)
+    if abs(new_ratio-ratio) < small_num:
+        break       # exit loop
+    else:
+        ratio = new_ratio
+\end{verbatim}
+Note:
+\begin{itemize}
+\item Additional indentation of interior code blocks
+(the {\tt if} and {\tt else} statements inside the {\tt for} loop).
+\item The {\tt break} command.
+This is new, it tells the program to exit the loop and go on to whatever
+is next in the program.
+\end{itemize}
+
+
+\item More than you need.  plus/equals, etc.  [??]
+
+
+\item {\bf Exercise.}
+Use a {\tt for} loop to compute the mean of the elements of the list:  {\tt x = [5, 7, 3, 6]}.
+
+\item {\bf Exercise.}
+Write a program that computes the sum
+$ 1 + 2 + 3 + \cdots + 10 $.
+Then modify it to compute the sum up to any positive integer $n$.
+
+\item {\bf Exercise.}
+Use a {\tt for} loop to verify that $ 1/(1+y/k)^k $ converges to $\exp(-ky)$ as we increase $k$.
+
+
+\item {\tt while} loops.
+We don't use them much,
+but the idea is to build the exit condition into the loop.
+Here's another example, taken from the Python tutorial,
+ that generates the Fibonacci numbers up to 100:
+\begin{verbatim}
+a, b = 0, 1
+while b < 100:
+    print('b =', b)
+    a, b = b, a+b
+\end{verbatim}
+[Mini-exercise:  what happens if we reverse the order of the two lines in
+the code block?]
+
+Here's another example, a variant of an earlier one.
+Execution is the same, it's just a different way to
+write the code.
+\begin{verbatim}
+a, b = 0, 1
+ratio = a/b
+maxit = 20
+small_num = 1e-4
+error = 20
+while error > small_num:
+    a, b = b, a+b
+    new_ratio = a/b
+    print('At iteration', it, 'ratio =', new_ratio)
+    error = abs(new_ratio-ratio)
+    ratio = new_ratio
+\end{verbatim}
+
+
+\item {\tt for} loops over lists and strings.
+We can also loop over lists and strings.
+In each case we run through their elements one at a time.
+Here's an example for a list:
+\begin{verbatim}
+fruit = ['apples', 'bananas', 'cherries']
+for item in fruit:
+    print(item)
+\end{verbatim}
+
+[??] Find smallest number in list
+
+
+\item {\bf Exercise.}
+Start with list of names.  Find first one in alphabetical order.  [??]
+
+
+\item {\bf Exercise.}
+This goes a little beyond what we've covered, but what do you think this program does?
+What features are new to you?
+\begin{verbatim}
+vowels = 'aeiouy'
+word   = 'anything'
+for letter in word:
+    if letter in vowels:
+        print(letter)
+\end{verbatim}
+You should describe what every line does as well as the overall
+result.
+(This one is adapted from SciPy lecture 1.2.)
+
+What about the other letters?
+Note the word ``not'' below:
+\begin{verbatim}
+vowels = 'aeiouy'
+word   = 'anything'
+for letter not in word:
+    if letter in vowels:
+        print(letter)
+\end{verbatim}
+
+
+Extra credit:  How would you change the program to
+replace the consonants with asterisks?
+
+
+\item {\bf Exercise.}
+Take the list {\tt stuff = ['cat', 3.7, 5, 'dog']}.
+\begin{itemize}
+\item [(a)]Write a program that tells us the {\tt type} of each element of {\tt stuff}.
+(If you don't recall what the function {\tt type} does, ask someone.
+Or type it in the  Object inspector and read the documentation.)
+\item [(b)]  Write a program that prints out the elements of {\tt stuff}.
+\item [(c)]  Write a program that goes through the elements of {\tt stuff}
+and prints out only the elements that are strings;
+that is, the function {\tt type} returns the value {\tt str}.
+\end{itemize}
+
+%stuff = ['cat', 3, 5.7, 'dog']
+%for item in stuff:
+%    if type(item) == str:
+%        print(item)
+
+
+\item {\bf Exercise.}
+Take a word, replace vowels with asterisks. [??]
+
+
+\item List comprehensions.
+That's a mouthful of jargon, but the idea is that we can
+use implicit loops with lists.
+(This is another thing that doesn't work in Python 2, so make sure you have Python 3 installed.)
+Consider, for example, the loop above that prints out the elements of the list {\tt fruit} one at a time.
+A list comprehension is a more compact syntax for the same thing:
+\begin{verbatim}
+[print(item) for item in fruit]
+\end{verbatim}
+%In both case, the label {\tt item} is a dummy:  we can use any name we wish.
+
+
+\item Assignments and copies.
+This is what programmers call a ``gotcha,''
+an unexpected or counterintuitive feature.
+This one got me.
+ It shows up in Numpy and Pandas, too.
+
+See \url{http://stackoverflow.com/a/10844760/804513}
+
+\begin{verbatim}
+a = [1,2,3]
+b = a
+b[0] = 'WHOA!'
+print(a)
+\end{verbatim}
+This returns
+
+A more complicated version:
+\begin{verbatim}
+
+import numpy as np
+c = np.array([7, 3, 5])
+d = c
+e = 2*c - 5
+print(d, e)
+
+# now change c[0], see what happens to d and e
+c[0] = 10
+print(d, e)
+\end{verbatim}
+
+Similar to Excel!
+
+See also \url{https://docs.python.org/3.4/library/copy.html}
+and \url{http://www.python-course.eu/deep_copy.php}
+
+\end{itemize}
+
+\section{Functions}
+
+
+
+Experts tell us that programmers never copy chunks of code.
+They write a function --- once! --- and call it as
+many times as they need.
+We wouldn't go that far, but it's pretty good advice.
+
+[Skip for now]
+
+Example of how types work
+
+\begin{verbatim}
+list = ['a', 'b', 'c']
+name = 'list'
+type(list)
+type(name)
+eval(name)
+\end{verbatim}
+
+
+Examples from \url{https://wiki.python.org/moin/SimplePrograms}:
+\begin{verbatim}
+def greet(name):
+    print 'Hello', name
+greet('Jack')
+greet('Jill')
+greet('Bob')
+\end{verbatim}
+
+\section{More than you need}
+
+[??] map, reduce, filter, lambda, ...
+
+\begin{verbatim}
+# test example of reduce from Paul (computes cumsum of x)
+x = [1, 4, -2]
+y = reduce(lambda sum, x: sum+[sum[-1]+x], x[1:], [x[0]])
+\end{verbatim}
+
+dictionaries?
+
+
+\section{Introduction to Pandas}
+
+Pandas is the leading data management package in Python.
+The name, often written in lower case letters,
+stands somehow for Python Data Analysis Library.
+Like Python, the name isn't designed with web searches in mind
+unless you're looking for pictures of animals,
+but you can search ``python pandas'' and get to the right place.
+
+Pandas includes many of the tools commonly found in statistics programs
+for managing data.
+And to be clear:   it's about organizing and managing data, not
+analysis in the sense of statistical tools.
+We'll get those from other packages when we need them.
+
+The basic tool in Pandas is the DataFrame,
+which you might think of as similar to a worksheet of data.
+Like a worksheet, it has rows and columns.
+In a DataFrame, the rows are observations and the columns are variables.
+The DataFrame also has room for what you might call metadata,
+namely the labels of the rows and columns.
+The column labels are the variable names, strings that describe
+the variable in question.
+The row labels can be counters (number the observations in order),
+dates, or even multiple things (the date and country, say).
+It's an incredibly flexible tool once you get used to it.
+
+
+\begin{itemize}
+\item References
+\begin{itemize}
+\item 10 minutes to Pandas:  \url{http://pandas.pydata.org/pandas-docs/stable/10min.html}.
+This is excellent, covers most of what we need to get started.
+
+\item Pandas via Excel:  \url{http://pbpython.com/excel-pandas-comp.html}.
+Good short introduction to Pandas relating basic functions to the same in Excel.
+
+**Also:  \url{http://pbpython.com/github-notebooks-other-updates.html}
+
+\item Tricks:  \url{http://nbviewer.ipython.org/github/rasbt/python_reference/blob/master/tutorials/things_in_pandas.ipynb}
+
+\item Wes McKinney, {\it Python for Data Analysis\/}: \url{http://www.amazon.com/dp/1449319793/}.
+This is encylopedic, but the guy who wrote pandas, but we didn't find it all that easy
+to use.
+
+\item The Pandas documentation:  \url{http://pandas.pydata.org/pandas-docs/stable/}.
+This includes a number of tutorials, but we haven't worked through them.
+Let us know if you find one you like.
+\end{itemize}
+
+\item Examples.
+
+{\it Example 1 (538 income data).\/}
+The easiest way to create a DataFrame is to use a Pandas input method
+that sets one up automatically.
+This example comes from the 538 blog's data on income of recent graduates by
+college major.
+We read it from the 538's GitHub repository with the commands
+\begin{verbatim}
+url1 = 'https://raw.githubusercontent.com/fivethirtyeight/'
+url2 = 'data/master/college-majors/recent-grads.csv'
+url = url1 + url2
+df538 = pd.read_csv(url)
+\end{verbatim}
+The first three lines give us the url of the data
+(it's too long to fit on one line, so we split it in two
+then put them together).
+The last line uses Pandas' tool for reading csv files;
+the command begins with {\tt pd.} because it's part of the Pandas
+package and we imported pandas {\tt as pd}.
+
+The end result is the DataFrame {\tt df538}.
+We can verify that with the command {\tt type(df538)},
+which returns the answer:  {\tt pandas.core.frame.DataFrame}.
+
+\item {\bf Descriptions.}
+
+What else do we have?
+We can look at the first and last five lines of data with the
+commands {\tt df538.head()} and {\tt df538.tail()},
+but the formatting leaves something to be desired.
+
+Also:  {\tt df538.info(), df538.describe(), ...}
+
+The easiest way to get a list of variables is from the column labels:
+{\tt df538.columns}.
+Sarah suggests this version, which gives us the output as a nicely formatted list,
+one item per row:
+{\tt df538.columns.tolist()}.
+
+Similarly, we get the observation labels from
+{\tt df538.index} or, using the same trick, {\tt df538.index.tolist()}.
+This is nicely formatted, too, but long:  we have 173 observations (college majors)
+labelled (in the usual Python way) 0 to 172.
+
+
+{\it Example 2 (make our own).\/}
+We can also make our own DataFrame.  Here's some code that does this from lists:
+\begin{verbatim}
+codes     = ['USA', 'FRA', 'JPN', 'CHN', 'IND', 'BRA', 'MEX']
+countries = ['United States', 'France', 'Japan', 'China', 'India',
+             'Brazil', 'Mexico']
+gdppc = [53.1, 36.9, 36.3, 11.9, 5.4, 15.0, 16.5]  # thousands
+gdp   = [16.8, 2.5, 4.7, 16.1, 6.8, 3.0, 2.1]  # trillions
+df = pd.DataFrame([gdp, gdppc, countries]).T
+\end{verbatim}
+We saw most of this data last time.
+What we're doing here is adding a variable and converting it to a DataFrame.
+The {\tt .T} transposes the data:  for reasons we don't understand,
+it puts the lists into rows rather than columns.
+The {\tt .T} reverses this.
+
+Our DataFrame {\tt df} now has the data, but no row or column labels.
+We add them with
+\begin{verbatim}
+df.columns = ['gdp', 'gdppc', 'country']
+df.index = codes
+\end{verbatim}
+
+\item {\bf Exercise.}
+Take the data
+\begin{verbatim}
+x = [1, 2, 5, 7, 10]
+y = [10, 7, 5, 2, 1]
+days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
+\end{verbatim}
+Put {\tt x} and {\tt y} into a DataFrame.
+Add variable names {\tt x} and {\tt y} and observation labels {\tt days}.
+
+\item Accessing columns (variables)...
+
+df['x'] v df.x
+
+\item Creating new columns...
+
+df['x'] \\
+np functions \\
+np functions for whole df (same)
+
+\item Selecting columns.
+
+A list?  Kill some?
+
+\item Selecting rows (observations)...
+
+% http://pandas.pydata.org/pandas-docs/stable/dsintro.html#indexing-selection
+Slicing by obs:  df[2:3], df[0], df[-1], df[
+
+Slicing by index: loc, iloc ...
+
+\item Selecting data.
+There are lots of ways of accessing subsets of the DataFrame,
+but here are some of the simplest.
+We can do more some other time.
+\begin{itemize}
+\item Selecting observations.  We can slice them as we did with strings
+and lists.  Remember that numbering starts with zero.
+To get the first three observations of our GDP DataFrame {\tt df} we type:
+{\tt df[0:3]}.
+(Ask yourself:  why 0:3?)
+
+\item Selecting variables.  This is cooler.
+We can refer to the variable {\tt x} above equivalently as
+{\tt df.x} or {\tt df[x]}.
+
+We can also select subsets of data with a list of variable names.
+Here's an example for our GDP data:
+\begin{verbatim}
+keep = ['gdp', 'country']
+other = df[keep]
+print(other)
+\end{verbatim}
+\end{itemize}
+
+\item Constructing new variables.
+We can use similar syntax to construct new variables from old ones.
+For example, population is the ratio of GDP to GDP per capita.
+We can construct it this way:
+\begin{verbatim}
+df['pop'] = df['gdp']/df['gdppc']
+\end{verbatim}
+
+\end{itemize}
+
+
+\section{More Pandas}
+
+
+When we have time, some things we could cover:
+\begin{itemize}
+\item Dates.
+\item Time aggregation (converting, say, monthly data to annual).
+
+\item Merging DataFrames.
+
+\item Hierarchical indexes.
+
+\item Groupby.
+
+\end{itemize}
+
+
+%\end{document}
+
+
+\section*{Today's code:  control}
+
+Attached.  Download this pdf file, open in Adobe Acrobat or the equivalent,
+and click on the pushpins:
+\attachfile{../Code/Python/bootcamp_mini_control.py}
+
+Also here:
+{\small
+\verbatiminput{../Code/Python/bootcamp_mini_control.py}
+}
+
+\section*{Today's code:  Pandas}
+
+Attached.  Download this pdf file, open in Adobe Acrobat or the equivalent,
+and click on the pushpins:
+\attachfile{../Code/Python/bootcamp_mini_pandas.py}
+
+Also here:
+{\small
+\verbatiminput{../Code/Python/bootcamp_pandas.py}
+}
+
+
+\end{document}
+
+

@@ -1,0 +1,70 @@
+\documentclass[11pt]{article}
+
+\oddsidemargin=0.25truein \evensidemargin=0.25truein
+\topmargin=-0.5truein \textwidth=6.0truein \textheight=8.75truein
+
+\usepackage{graphicx}
+\usepackage{comment}
+\usepackage{verbatim}
+
+\usepackage{hyperref}
+\hypersetup{
+    letterpaper=true,
+    colorlinks=true,        % kills boxes
+    allcolors=blue,
+    pdfstartview={FitV},
+    pdfpagemode={UseNone},
+    pdfnewwindow=true,      % links in new window
+    bookmarksopen=false,
+% see:  http://www.tug.org/applications/hyperref/manual.html
+}
+
+\usepackage[compact, small]{titlesec}
+
+% list spacing
+\usepackage{enumitem}
+\setitemize{leftmargin=*, topsep=0pt}
+\setenumerate{leftmargin=*, topsep=0pt}
+
+% attachments
+\usepackage{attachfile}
+    \attachfilesetup{color=0.5 0 0.5}
+
+%\newcommand{\var}{\mbox{Var}}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+% document starts here
+\begin{document}
+\parskip=0.75\bigskipamount
+\parindent=0.0in
+\thispagestyle{empty}
+
+\bigskip
+\centerline{\Large \bf Notes on [name of dataset here]%
+\footnote{Written by ???.}}
+\centerline{(Started: February 2, 2014; Revised: \today)}
+
+\bigskip
+Overview...  
+
+
+\section{Dataset}
+
+What's in it, how its' been used...  
+
+
+
+\section{Accessing data} 
+
+How the API works and Python code that does it.  
+Instructions should be clear and detailed enough for a newcomer to access the data.  
+
+
+\section{References}
+
+
+List of papers/articles that use the data.  
+
+
+
+\end{document}

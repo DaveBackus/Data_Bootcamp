@@ -74,7 +74,63 @@ print('\nList of files in working directory:')
 file = 'SQL_support_code.py'
 if not os.path.isfile(file):
     raise Exception('***** Program halted, file missing *****')
-    
+   
+#%%   
+"""
+Reading fixed width files 
+http://pandas.pydata.org/pandas-docs/version/0.17.0/generated/pandas.read_fwf.html 
+Input file is 
+1234567890
+2345678901
+3456789012
+"""
+import pandas as pd 
+
+fixed = pd.read_fwf('fixedformatdata.txt', 
+                    colspecs=[(0,2), (3,6)],     # column n1 to n2-1 
+                    names=['x1', 'x2'],
+                    header=None) 
+
+print('\nFixed-format file \n', fixed)
+
+#%%
+"""
+Copying files from internet to hard drive (temp directory)
+"""
+import urllib              # handles internet files 
+
+url1 = 'https://raw.githubusercontent.com/DaveBackus/Data_Bootcamp/master/'
+url2 = 'Code/Python/test.csv'
+url = url1 + url2 
+fname = '../' + 'Temp/' + 'goo.csv'
+
+# copy file from url to fname 
+urllib.request.urlretrieve(url, fname)
+
+#%%
+"""
+Extract file from zip 
+https://docs.python.org/2/library/zipfile.html
+https://pymotw.com/2/zipfile/
+"""
+import zipfile             # handles zip files 
+
+zfname = '../' + 'Temp/' + 'wp10245.zip'
+
+print('\nIs this a zipfile?', zipfile.is_zipfile(zfname))
+
+# create zipfile object 
+zf = zipfile.ZipFile(zfname, 'r')
+print('Contents:', zf.namelist()) 
+
+# extract file 
+inzip = zf.namelist()[0]
+dir  = '../Temp/'
+extract = zf.extract(inzip, path=dir) 
+
+df = pd.read_excel(extract, sheetname=1, na_values=['…', '….', ''], index_col=0, 
+                   encoding='utf-8') 
+
 #%%    
 """
 IMF's historical database on public debt 
@@ -134,7 +190,6 @@ years = [year for year in range(1980, 2013)]
 #years_str = [str(year) for year in years]
 vars = years
 some = df[vars]
-
 
 
 #%%
@@ -256,3 +311,49 @@ trimmed = df.iloc[6:92, 6:92]
 #http://stackoverflow.com/questions/14391959/heatmap-in-matplotlib-with-pcolor 
 fig, ax = plt.subplots()
 heatmap = ax.pcolor(trimmed, cmap=plt.cm.Blues)
+
+#%%
+"""
+Changing directory, using complete paths, etc  
+"""
+import pandas as pd 
+import os 
+
+file = 'test.csv'
+
+path1 = 'C:\\Users\\dbackus\\Dropbox\\Documents\\Classes\\Data_Bootcamp\\Code\\Python'
+path2 = 'C:/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp/Code/Python'
+
+# check to see if this works 
+os.chdir('C:/Users')
+print('Current working directory', os.getcwd())
+
+os.chdir(path2)
+print('Current working directory', os.getcwd())
+
+#%%
+# check to see if file exists
+exists = os.path.isfile(path1+'/'+file) 
+print('File exists?', exists)
+
+if exists==False:
+    raise Exception('File does not exist, execution halted')    
+
+#%%
+df1 = pd.read_csv(path1+'\\'+file)
+print('\nBack slash (df1)\n', df1)
+
+df1 = pd.read_csv(path1+'/'+file)
+print('\nBack slash alternative (df1)\n', df1)
+
+df2 = pd.read_csv(path2+'/'+file)
+print('\nForward slash (df2)\n', df2)
+
+#%%
+# extracting path and file from combination
+fullpath = path2 + '/' + file
+
+file = os.path.basename(fullpath)
+path = os.path.dirname(fullpath)
+print('File and path\n', file, '\n', path)
+

@@ -7,8 +7,7 @@ Three approaches to graphics
 * apply methods to dataframes 
 
 Repository of materials (including this file):
-* https://github.com/DaveBackus/Data_Bootcamp/Code/Python
-* https://github.com/DaveBackus/Data_Bootcamp/Code/Python
+* https://github.com/DaveBackus/Data_Bootcamp
 
 Written by Dave Backus, August 2015
 Created with Python 3.4

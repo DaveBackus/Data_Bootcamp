@@ -4,7 +4,6 @@ Topics:  reading csv and xls files, properties of dataframes.
 
 Repository of materials (including this file):
 * https://github.com/DaveBackus/Data_Bootcamp
-* https://github.com/DaveBackus/Data_Bootcamp/Code/Python
 
 Written by Dave Backus, August 2015
 Created with Python 3.4
@@ -61,6 +60,7 @@ type(df)
 # Apply these methods, explain what they do: shape, index, columns, dtypes 
 
 # Exercise:  Try df.columns.tolist() and list(df).  
+
 
 #%%
 """
