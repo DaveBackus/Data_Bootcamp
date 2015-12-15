@@ -1,8 +1,8 @@
 ### Data Bootcamp:  MBA Due Dates 
 
-MBA Data Bootcamp, NYU Stern Spring 2016  
+Data Bootcamp, NYU Stern Spring 2016  
 
-Everything listed is due at the start of class on the given date.  Links to Code Practice are given under their due dates.  Information about the various components of the Project are given in the [Project Guide](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf).
+Due dates for various deliverables are listed below.  All dates are Wednesdays.  
 
 **February 17** 
 Complete [Class Poll](https://docs.google.com/forms/d/1N7ugrqIQNHm_e1BLVAtaRMnC8SmSiTDMoYBy_0FYZic/viewform) and sign up for [Discussion Group](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_mba).  
@@ -26,7 +26,7 @@ Submit [Revised Project Ideas](https://github.com/DaveBackus/Data_Bootcamp/blob/
 Quiz (75 minutes, in class, bring one page of notes). 
 
 **April 6** 
-Nothing due; look for group members.   
+Nothing due; look for group members and project idea.   
 
 **April 13**
 Submit [Project Proposal](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf); [Optional Code Practice B](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_b.pdf).
@@ -37,6 +37,7 @@ Submit [Data Report](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Doc
 **April 27**
 Nothing due; work on project. 
    
-
 **May 4**
-Submit [Project] by email to db3@nyu.edu. The subject line should be "bootcamp project mba".  The file name should be your last names separated by dashes and a short title;  eg, something like *Jones-Smith-Zhang-India.ipynb*. See [Project Guide](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf) for additional information. 
+Submit project by email to db3@nyu.edu. The subject line should be "bootcamp project mba".  The file name should be your last names separated by dashes and a short title;  eg, something like *Jones-Smith-Zhang-India.ipynb*. See [Project Guide](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf) for additional information.
+
+A product of the #nyuecon Python Factory @ NYU Stern 
