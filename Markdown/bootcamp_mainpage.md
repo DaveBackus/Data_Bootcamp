@@ -6,7 +6,9 @@ Spring 2016 schedule:
 * UG:  ECON-UB.0232, Tuesday and Thursday, 2-3:15, KMC 4-90, January 26 to May 10 
 
 
-Quick links:  [Syllabus](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf) | Outline | MBA Due Dates | UG Due Dates | [Project Guide](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf) 
+Do the first week:  Join Discussion Group | Take Poll 
+
+Quick links:  [Syllabus](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf) | Outline | MBA Due Dates | UG Due Dates | [Project Guide](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf) | Discussion Groups ([MBA]()|[UG]())
 
 
 #### Course description
@@ -48,6 +50,13 @@ MBA section
 UG section 
 * Spencer Lyon, co-teacher, sgl290@nyu.edu
 * 
+
+
+#### Before the first class 
+
+
+* Make sure you have a laptop computer you can use in class.  This is a must.  
+* Complete our [online poll] 
 
 #### Course materials 
 
