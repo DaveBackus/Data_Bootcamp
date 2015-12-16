@@ -1,5 +1,7 @@
 ### Data Bootcamp:  Course Description & Sales Pitch 
-A course at NYU’s Stern School of Business 
+
+A course at NYU’s Stern School of Business   
+[Main course page](bootcamp_mainpage.md)
 
 
 #### Course description

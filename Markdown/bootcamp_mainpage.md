@@ -9,8 +9,7 @@ Spring 2016 schedule
 
 [Course description and sales pitch](bootcamp_faq.md)
 
-Quick links:  [Syllabus](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf) | [Project Guide](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf) | Outline | [MBA Due Dates](bootcamp_duedates_mba.md) | [UG Due Dates]((bootcamp_duedates_ug.md)) 
-
+Quick links:  [Syllabus](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf) | [Outline](bootcamp_outline.md) | [MBA Due Dates](bootcamp_duedates_mba.md) | [Project Guide](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf) | [UG Due Dates](bootcamp_duedates_ug.md)
 
 
 #### Before the first class 
@@ -24,13 +23,13 @@ Quick links:  [Syllabus](https://github.com/DaveBackus/Data_Bootcamp/blob/master
 
 Dave Backus:  KMC 7-68, db3@nyu.edu, [directions](http://pages.stern.nyu.edu/~dbackus/)
 
-MBA section 
-Chase Coleman, co-teacher, cc7768@gmail.com 
-Itamar Snir, teaching fellow, is1413@stern.nyu.edu
+MBA section   
+Chase Coleman, co-teacher, cc7768@gmail.com   
+Itamar Snir, teaching fellow, is1413@stern.nyu.edu  
 
-UG section 
-Spencer Lyon, co-teacher, sgl290@nyu.edu
-teaching fellow, tba 
+UG section   
+Spencer Lyon, co-teacher, sgl290@nyu.edu  
+teaching fellow, tba   
 
 
 #### Course materials 

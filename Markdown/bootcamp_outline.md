@@ -4,7 +4,7 @@
 Outline of topics for the NYU Stern course Data Bootcamp.  We expect each topic to take roughly one week.  
 
 ---
-#### Topic 1.  Introduction and Anaconda Installation
+#### Topic 1.  Introduction and Anaconda installation
 
 Outline | Code | Reading
 
@@ -24,3 +24,4 @@ Outline | Code | Reading
 #### Topic 4.  Data input:  Packages and Pandas 
 
 Outline | Code | Reading 
+
