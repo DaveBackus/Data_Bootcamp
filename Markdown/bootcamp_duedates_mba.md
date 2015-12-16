@@ -41,4 +41,5 @@ Nothing due; work on project.
 **May 4**   
 Submit project by email to db3@nyu.edu. The subject line should be "bootcamp project mba".  The file name should be your last names separated by dashes and a short title;  eg, something like *Jones-Smith-Zhang-India.ipynb*. See [Project Guide](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf) for additional information.
 
-A product of the #nyuecon Python Factory @ NYU Stern 
+
+A product of the NYU Python Factory @ NYU Stern 

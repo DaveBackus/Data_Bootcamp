@@ -40,4 +40,4 @@ Not that you need any more inspiration, but here are a couple good pieces:
 * Mevan on learning to code:  https://medium.com/@meandvan/how-i-learned-to-stop-worrying-and-love-the-code-af1a809457c7 
 
 
-A product of the #nyuecon Python Factory @ NYU Stern 
+A product of the NYU Python Factory @ NYU Stern 

@@ -3,20 +3,25 @@ A course at NYU’s Stern School of Business
 
 Spring 2016 schedule
 
-* MBA:  ECON-GB.2313, Wednesday nights, 6-9pm, KMC 4-90, February 8 to May 9
 * Undergrad:  ECON-UB.0232, Tuesday and Thursday, 2-3:15, KMC 4-90, January 26 to May 10 
+* MBA:  ECON-GB.2313, Wednesday nights, 6-9pm, KMC 4-90, February 8 to May 9
 
 
-[Course description and sales pitch](bootcamp_faq.md)
+[Course description and sales pitch](bootcamp_faq.md)   
 
-Quick links:  [Syllabus](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf) | [Project Guide](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf) | [Outline](bootcamp_outline.md) | [MBA Due Dates](bootcamp_duedates_mba.md) | [UG Due Dates](bootcamp_duedates_ug.md)
+<!--
+Discussion groups:  [UG](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_ug) | [MBA](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_mba)   
+-->
+
+Quick links:  [Syllabus](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf) | [Project Guide](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf) | [Outline](bootcamp_outline.md) | [MBA Due Dates](bootcamp_duedates_mba.md) | [UG Due Dates](bootcamp_duedates_ug.md)    
 
 
 #### Before the first class 
 
-* Make sure you have a **laptop computer** you can use in class.  This is a must.  
-* Take our **[entry poll](https://docs.google.com/forms/d/1N7ugrqIQNHm_e1BLVAtaRMnC8SmSiTDMoYBy_0FYZic/viewform)** 
-* Join a **discussion group** ([MBA](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_mba)|[UG](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_ug)) 
+* Make sure you have a **laptop computer** to use in class.  This is a must.  
+* Take our **entry poll** (click on the [link](https://docs.google.com/forms/d/1N7ugrqIQNHm_e1BLVAtaRMnC8SmSiTDMoYBy_0FYZic/viewform), follow the instructions)
+* Join a **discussion group:** [UG](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_ug) | [MBA](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_mba) 
+* **Non-Stern students** only:  [activate your Stern account](https://w3.stern.nyu.edu/start/home) for wireless access 
 
 
 #### Contact information 
@@ -41,4 +46,4 @@ In addition to the quick links at the top, keep in mind:
 * Search:  nyu data bootcamp 
 
 
-A product of the #nyuecon Python Factory @ NYU Stern 
+A product of the NYU Python Factory @ NYU Stern 

@@ -52,4 +52,5 @@ Not that you need any more inspiration, but here are a couple good pieces:
 
 **Our team:**  Dave Backus, Chase Coleman, Spencer Lyon, and Glenn Okun.  With help from Sarah Beckett-Hile, Hersh Iyer, and Itamar Snir.  
 
-A product of the #nyuecon Python factory @ NYU Stern 
+
+A product of the NYU Python Factory @ NYU Stern 
