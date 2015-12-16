@@ -9,7 +9,7 @@ Spring 2016 schedule
 
 [Course description and sales pitch](bootcamp_faq.md)
 
-Quick links:  [Syllabus](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf) | [Project Guide](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf) | Outline | MBA Due Dates | UG Due Dates 
+Quick links:  [Syllabus](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf) | [Project Guide](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf) | Outline | [MBA Due Dates](bootcamp_duedates_mba.md) | [UG Due Dates]((bootcamp_duedates_ug.md)) 
 
 
 

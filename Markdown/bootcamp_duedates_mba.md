@@ -4,13 +4,13 @@ Data Bootcamp, NYU Stern Spring 2016
 
 Due dates for various deliverables are listed below.  All dates are Wednesdays.  
 
-**February 17** 
+**February 17**   
 Complete [Class Poll](https://docs.google.com/forms/d/1N7ugrqIQNHm_e1BLVAtaRMnC8SmSiTDMoYBy_0FYZic/viewform) and sign up for [Discussion Group](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_mba).  
 
-**February 24** 
+**February 24**   
 Submit answers to [Code Practice #1](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_1.pdf).
 
-**March 2**
+**March 2**  
 Submit answers to [Code Practice #2](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_2.pdf). 
 
 **March 9**
