@@ -21,7 +21,7 @@ Quick links:  [Syllabus](https://github.com/DaveBackus/Data_Bootcamp/blob/master
 * Make sure you have a **laptop computer** to use in class.  This is a must.  
 * Take our **entry poll** (click on the [link](https://docs.google.com/forms/d/1N7ugrqIQNHm_e1BLVAtaRMnC8SmSiTDMoYBy_0FYZic/viewform), follow the instructions)
 * Join a **discussion group:** [UG](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_ug) | [MBA](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_mba) 
-* **Non-Stern students** only:  [activate your Stern account](https://w3.stern.nyu.edu/start/home) for wireless access 
+* **Non-Stern students** only:  [activate your Stern account](https://w3.stern.nyu.edu/start/home) for wireless access.  If you have trouble, stop by the Help Desk in the lobby between KMC and Tisch or email [helpdesk@stern.nyu.edu](mailto:helpdesk@stern.nyu.edu).  
 
 
 #### Contact information 

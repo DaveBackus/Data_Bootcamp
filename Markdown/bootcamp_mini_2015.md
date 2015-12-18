@@ -50,6 +50,7 @@ Where we're headed
 
 Philosophy  
 * Target **coding novices**, no prior experience required or expected 
+* **Jump right in** the deep end of the pool, figure it out as we go
 * Not a typical programming course:  cover only those aspects of Python relevant to data work 
 
 Rules to live by 
