@@ -41,5 +41,3 @@ In addition to the quick links at the top, keep in mind:
 * Our [repository](https://github.com/DaveBackus/Data_Bootcamp#data-bootcamp) (complete collection of documents and materials) 
 * Search:  nyu data bootcamp 
 
-
-A product of the NYU Python Factory @ NYU Stern 

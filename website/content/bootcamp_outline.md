@@ -1,4 +1,4 @@
-# Data Bootcamp: Outline 
+# Data Bootcamp: Topic Outline 
 
 [Main course page](bootcamp_mainpage.md)
 

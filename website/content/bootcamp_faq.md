@@ -41,8 +41,6 @@ Data Bootcamp is about nuts and bolts data analysis.  You will learn about econo
 
 Not that you need any more inspiration, but here are a couple good pieces:  
 
-* Steve Levitt on “big data” (55m, very entertaining):  https://youtu.be/r5jATFtKtI8?t=5m12s 
-* Mevan on learning to code:  https://medium.com/@meandvan/how-i-learned-to-stop-worrying-and-love-the-code-af1a809457c7 
+* Steve Levitt on "[big data](https://youtu.be/r5jATFtKtI8?t=5m12s)" in business (55m, very entertaining)  
+* Mevan on [learning to code](https://medium.com/@meandvan/how-i-learned-to-stop-worrying-and-love-the-code-af1a809457c7)  
 
-
-A product of the NYU Python Factory @ NYU Stern 
