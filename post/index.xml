@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Data Bootcamp</title>
+    <link>http://bootcamp.spencerlyon.com/post/</link>
+    <description>Recent content in Posts on Data Bootcamp</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Dec 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://bootcamp.spencerlyon.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Course Description</title>
+      <link>http://bootcamp.spencerlyon.com/post/bootcamp_description/</link>
+      <pubDate>Thu, 17 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://bootcamp.spencerlyon.com/post/bootcamp_description/</guid>
+      <description>
+
+&lt;h3 id=&#34;data-bootcamp:a7ed1a57a2eb20385a0d59f642853b3a&#34;&gt;Data Bootcamp&lt;/h3&gt;
+
+&lt;p&gt;A course at NYU’s Stern School of Business
+&lt;a href=&#34;bootcamp_mainpage&#34;&gt;Main course page&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Spring 2016 schedule:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;MBA:  ECON-GB.2313, Wednesday nights, 6-9pm, February 8 to May 9&lt;/li&gt;
+&lt;li&gt;UG:  ECON-UB.0232, Tuesday and Thursday, 2-3:15, January 26 to May 10&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;course-description:a7ed1a57a2eb20385a0d59f642853b3a&#34;&gt;Course description&lt;/h4&gt;
+
+&lt;p&gt;Data Bootcamp is about nuts and bolts data analysis.  You will learn about economic, financial, and business data, and enough about computer programming to work with it effectively.  Applications include some or all of:  leading economic indicators; emerging market country indicators; bond and equity returns; stock options; income by zip code; long tail sales data; innovation diffusion curves; and many others.  We will use Python, a popular high-level computer language that’s widely used in finance, consulting, technology, and other parts of the business world.  “High-level” means it’s less painful than most (the hard work is done by the language), but it’s a serious language with extensive capabilities.  “Data analysis” means primarily graphical descriptions that summarize data in ways that are helpful to managers.  “Bootcamp” is a reminder that expertise takes work.  Don’t worry, it’s worth it.&lt;/p&gt;
+
+&lt;h4 id=&#34;frequently-asked-questions:a7ed1a57a2eb20385a0d59f642853b3a&#34;&gt;Frequently asked questions&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Why should I take this course?&lt;/strong&gt;  It’s an investment in your future.  You will learn how to  process data and communicate its content effectively and efficiently.  You will be more valuable to current and future employers.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Can’t I do what I need in Excel?&lt;/strong&gt;  Excel is a great program, but once you have a little programming experience it will remind you of doing arithmetic on your fingers.  With Python, you will be able do routine tasks more efficiently (“automate the boring stuff,” as one guide suggests), handle larger data sets, merge different data sets, and generally do things that spreadsheet programs can’t do.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What are the prerequisites?&lt;/strong&gt;  There are none, other than the &lt;strong&gt;desire&lt;/strong&gt; to take on a challenge and the &lt;strong&gt;patience&lt;/strong&gt; to debug programs that don’t quite work &amp;ndash; and they never work the first time, and often not the second or &lt;a href=&#34;https://medium.com/backchannel/pac-man-s-siren-call-4b589ea1d1e&#34;&gt;third time&lt;/a&gt; either.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What if my quant skills are weak or nonexistent?&lt;/strong&gt;  This is the course for you!  We will start at the beginning and do our best to make the material accessible to everyone.  We’re looking beyond quants to marketing, management, and humanities majors.  One of our design team was an English major.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Is this a standard Python course?&lt;/strong&gt;  No, it’s a data course that uses Python.  We’ll cover aspects of Python related to data analysis, specifically data management and visualization, and ignore the rest.  We estimate the overlap with a typical programming class to be 15-20 percent.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Will this turn me into a programmer?&lt;/strong&gt;  You will come out of the course somewhere between Brad Pitt and Jonah Hill in “&lt;a href=&#34;http://en.wikipedia.org/wiki/Moneyball_(film)&#34;&gt;Moneyball&lt;/a&gt;,&amp;rdquo; with a solid foundation for dealing with whatever data comes your way.  You will not be ready for a career as a programmer, but you will be able to do things with data that Excel users can only dream about.  You will be able to work effectively with people who know more.  And you will be be prepared to do more along similar lines, including the extensive collection of courses on business analytics and data science offered by our &lt;a href=&#34;http://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/academic-departments/ioms-dept/&#34;&gt;IOMS&lt;/a&gt; and &lt;a href=&#34;https://www.cs.nyu.edu/web/index.html&#34;&gt;CS&lt;/a&gt; groups.  It&amp;rsquo;s cool stuff, you should check it out.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Can I do this on my own?&lt;/strong&gt;  In principle, yes, but it’s much easier in a supportive environment.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Should I take this course if I already know how to code?&lt;/strong&gt;  You’re welcome to, and will learn a lot about data and the data components of Python.  But please don’t scare the other students.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Will this course cover SQL?&lt;/strong&gt; Short answer, no.  Longer answer:  we will use some of the same functionality in Python&amp;rsquo;s data-management tools, but we will not cover SQL explicitly.  We will also skip such computer science standards as regular expressions and data formats (XML, JSON, etc).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What if I have other questions?&lt;/strong&gt;  Stop by or email me to set up an appointment:  Dave Backus, KMC 7-68, db3@nyu.edu.  Directions at &lt;a href=&#34;http://pages.stern.nyu.edu/~dbackus/&#34;&gt;http://pages.stern.nyu.edu/~dbackus/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;further-inspiration:a7ed1a57a2eb20385a0d59f642853b3a&#34;&gt;Further inspiration&lt;/h4&gt;
+
+&lt;p&gt;Not that you need any more inspiration, but here are a couple good pieces:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Steve Levitt on “big data” (55m, very entertaining):  &lt;a href=&#34;https://youtu.be/r5jATFtKtI8?t=5m12s&#34;&gt;https://youtu.be/r5jATFtKtI8?t=5m12s&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Mevan on learning to code:  &lt;a href=&#34;https://medium.com/@meandvan/how-i-learned-to-stop-worrying-and-love-the-code-af1a809457c7&#34;&gt;https://medium.com/@meandvan/how-i-learned-to-stop-worrying-and-love-the-code-af1a809457c7&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;even-more-information:a7ed1a57a2eb20385a0d59f642853b3a&#34;&gt;Even more information&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Links&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;GitHub repo:  &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp#data-bootcamp&#34;&gt;https://github.com/DaveBackus/Data_Bootcamp#data-bootcamp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Book (work in progress):  &lt;a href=&#34;https://www.gitbook.com/book/davebackus/test/details&#34;&gt;https://www.gitbook.com/book/davebackus/test/details&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Search:  nyu data bootcamp&lt;/li&gt;
+&lt;li&gt;Related courses:  &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Markdown/related_courses.md#related-courses&#34;&gt;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Markdown/related_courses.md#related-courses&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Two-session mini-course for Fall 2015:&lt;/strong&gt;  November 6 and 13, 2-4, Tisch UC 25.  No registration required.   More information at the GitHub link above.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Our team:&lt;/strong&gt;  Dave Backus, Chase Coleman, Spencer Lyon, and Glenn Okun.  With help from Sarah Beckett-Hile, Hersh Iyer, and Itamar Snir.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Duedates: MBA</title>
+      <link>http://bootcamp.spencerlyon.com/post/bootcamp_duedates_mba/</link>
+      <pubDate>Thu, 17 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://bootcamp.spencerlyon.com/post/bootcamp_duedates_mba/</guid>
+      <description>
+
+&lt;h3 id=&#34;data-bootcamp-mba-due-dates:02ad6f1f1684378b8e15618caef98105&#34;&gt;Data Bootcamp:  MBA Due Dates&lt;/h3&gt;
+
+&lt;p&gt;Data Bootcamp, NYU Stern Spring 2016&lt;br /&gt;
+&lt;a href=&#34;bootcamp_mainpage&#34;&gt;Main course page&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Due dates for various deliverables are listed below.  All dates are Wednesdays.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;February 17&lt;/strong&gt;&lt;br /&gt;
+Complete &lt;a href=&#34;https://docs.google.com/forms/d/1N7ugrqIQNHm_e1BLVAtaRMnC8SmSiTDMoYBy_0FYZic/viewform&#34;&gt;Class Poll&lt;/a&gt; and sign up for &lt;a href=&#34;https://groups.google.com/forum/#!forum/nyu_data_bootcamp_mba&#34;&gt;Discussion Group&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;February 24&lt;/strong&gt;&lt;br /&gt;
+Submit answers to &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_1.pdf&#34;&gt;Code Practice #1&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;March 2&lt;/strong&gt;&lt;br /&gt;
+Submit answers to &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_2.pdf&#34;&gt;Code Practice #2&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;March 9&lt;/strong&gt;&lt;br /&gt;
+Submit answers to &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_3.pdf&#34;&gt;Code Practice #3&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;[Spring break, have fun]&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;March 23&lt;/strong&gt;&lt;br /&gt;
+Submit &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf&#34;&gt;Revised Project Ideas&lt;/a&gt;; &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_a.pdf&#34;&gt;Optional Code Practice A&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;March 30&lt;/strong&gt;&lt;br /&gt;
+Quiz (75 minutes, in class, bring one page of notes).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;April 6&lt;/strong&gt;&lt;br /&gt;
+Nothing due; look for group members and project idea.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;April 13&lt;/strong&gt;&lt;br /&gt;
+Submit &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf&#34;&gt;Project Proposal&lt;/a&gt;; &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_b.pdf&#34;&gt;Optional Code Practice B&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;April 20&lt;/strong&gt;&lt;br /&gt;
+Submit &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf&#34;&gt;Data Report&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;April 27&lt;/strong&gt;&lt;br /&gt;
+Nothing due; work on project.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;May 4&lt;/strong&gt;&lt;br /&gt;
+Submit project by email to db3@nyu.edu. The subject line should be &amp;ldquo;bootcamp project mba&amp;rdquo;.  The file name should be your last names separated by dashes and a short title;  eg, something like &lt;em&gt;Jones-Smith-Zhang-India.ipynb&lt;/em&gt;. See &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf&#34;&gt;Project Guide&lt;/a&gt; for additional information.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://bootcamp.spencerlyon.com/post/bootcamp_mainpage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://bootcamp.spencerlyon.com/post/bootcamp_mainpage/</guid>
+      <description>
+
+&lt;h3 id=&#34;data-bootcamp:ffd489939015ded07a5c1baacc50e9b6&#34;&gt;Data Bootcamp&lt;/h3&gt;
+
+&lt;p&gt;A course at NYU’s Stern School of Business&lt;/p&gt;
+
+&lt;p&gt;Spring 2016 schedule&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Undergrad:  ECON-UB.0232, Tuesday and Thursday, 2-3:15, KMC 4-90, January 26 to May 10&lt;/li&gt;
+&lt;li&gt;MBA:  ECON-GB.2313, Wednesday nights, 6-9pm, KMC 4-90, February 8 to May 9&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;bootcamp_faq&#34;&gt;Course description and sales pitch&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--
+Discussion groups:  [UG](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_ug) | [MBA](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_mba)   
+--&gt;
+
+&lt;p&gt;Quick links:  &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf&#34;&gt;Syllabus&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf&#34;&gt;Project Guide&lt;/a&gt; | &lt;a href=&#34;bootcamp_outline&#34;&gt;Outline&lt;/a&gt; | &lt;a href=&#34;bootcamp_duedates_mba&#34;&gt;MBA Due Dates&lt;/a&gt; | &lt;a href=&#34;bootcamp_duedates_ug&#34;&gt;UG Due Dates&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;before-the-first-class:ffd489939015ded07a5c1baacc50e9b6&#34;&gt;Before the first class&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Make sure you have a &lt;strong&gt;laptop computer&lt;/strong&gt; to use in class.  This is a must.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Take our &lt;strong&gt;entry poll&lt;/strong&gt; (click on the &lt;a href=&#34;https://docs.google.com/forms/d/1N7ugrqIQNHm_e1BLVAtaRMnC8SmSiTDMoYBy_0FYZic/viewform&#34;&gt;link&lt;/a&gt;, follow the instructions)&lt;/li&gt;
+&lt;li&gt;Join a &lt;strong&gt;discussion group:&lt;/strong&gt; &lt;a href=&#34;https://groups.google.com/forum/#!forum/nyu_data_bootcamp_ug&#34;&gt;UG&lt;/a&gt; | &lt;a href=&#34;https://groups.google.com/forum/#!forum/nyu_data_bootcamp_mba&#34;&gt;MBA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Non-Stern students&lt;/strong&gt; only:  &lt;a href=&#34;https://w3.stern.nyu.edu/start/home&#34;&gt;activate your Stern account&lt;/a&gt; for wireless access&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;contact-information:ffd489939015ded07a5c1baacc50e9b6&#34;&gt;Contact information&lt;/h4&gt;
+
+&lt;p&gt;Dave Backus:  KMC 7-68, db3@nyu.edu, &lt;a href=&#34;http://pages.stern.nyu.edu/~dbackus/&#34;&gt;directions&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MBA section&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Chase Coleman, co-teacher, cc7768@gmail.com&lt;br /&gt;
+Itamar Snir, teaching fellow, is1413@stern.nyu.edu&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;UG section&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Spencer Lyon, co-teacher, sgl290@nyu.edu&lt;br /&gt;
+teaching fellow, tba&lt;/p&gt;
+
+&lt;h4 id=&#34;course-materials:ffd489939015ded07a5c1baacc50e9b6&#34;&gt;Course materials&lt;/h4&gt;
+
+&lt;p&gt;In addition to the quick links at the top, keep in mind:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Our &lt;a href=&#34;https://www.gitbook.com/book/davebackus/test/details&#34;&gt;book&lt;/a&gt; (work in progress)&lt;/li&gt;
+&lt;li&gt;Our &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp#data-bootcamp&#34;&gt;repository&lt;/a&gt; (complete collection of documents and materials)&lt;/li&gt;
+&lt;li&gt;Search:  nyu data bootcamp&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
