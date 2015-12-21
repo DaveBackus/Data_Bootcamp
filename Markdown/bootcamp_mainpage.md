@@ -1,13 +1,12 @@
 ### Data Bootcamp
-A course at NYU’s Stern School of Business 
+
+Data + Python:  A course at NYU’s Stern School of Business  <br> [Course description & FAQ](bootcamp_faq.md)   
+
 
 Spring 2016 schedule
 
 * Undergrad:  ECON-UB.0232, Tuesday and Thursday, 2-3:15, KMC 4-90, January 26 to May 10 
 * MBA:  ECON-GB.2313, Wednesday nights, 6-9pm, KMC 4-90, February 8 to May 9
-
-
-[Course description and sales pitch](bootcamp_faq.md)   
 
 <!--
 Discussion groups:  [UG](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_ug) | [MBA](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_mba)   
