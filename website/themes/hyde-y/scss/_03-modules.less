@@ -1,0 +1,146 @@
+
+
+
+/* ----------------------------- */
+/* ==badges                      */
+/* ----------------------------- */
+
+.badges {
+  a {
+    text-decoration: none;
+  }
+}
+
+
+
+/* ----------------------------- */
+/* ==github ribbon               */
+/* ----------------------------- */
+
+.ribbon.git {
+  position: fixed;
+  top: 0;
+  right: 0;
+  border: 0;
+}
+
+.ribbon.git.upleft {
+  left: 0;
+  right: auto;
+}
+
+
+
+/* ----------------------------- */
+/* ==page navigation             */
+/* ----------------------------- */
+
+.main_content .navigation {
+  position: relative;
+  height: @large-value;
+
+  &> h2 {
+    display: none;
+  }
+
+  &> .prev, .next {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 49%;
+    text-align: center;
+  }
+
+  &> .prev {
+    left: 0;
+  }
+
+  &> .next {
+    right: 0;
+  }
+
+  @media @mq-small {
+    &> .prev:before {
+      font-family: FontAwesome;
+      content: "\f060";
+      margin-right: @small-value;
+    }
+
+    &> .next:after {
+      font-family: FontAwesome;
+      content: "\f061";
+      margin-left: @small-value;
+    }
+  }
+}
+
+
+
+/* ----------------------------- */
+/* ==sidebar                     */
+/* ----------------------------- */
+
+.main_wrapper.has-sidebar {
+  @media @mq-medium {
+    padding-left: @sidebar-medium-width;
+
+    .main_header {
+      width: @sidebar-medium-width;
+      position: fixed;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      text-align: left;
+
+      .nav.primary {
+        a {
+          display: block;
+        }
+      }
+    }
+  }
+
+  @media @mq-large {
+    padding-left: @sidebar-large-width;
+
+    .main_header {
+        width: @sidebar-large-width;
+    }
+  }
+}
+
+.main_wrapper.has-sidebar.right {
+  @media @mq-medium {
+    padding-left: 0;
+    padding-right: @sidebar-medium-width;
+
+    .main_header {
+      left: auto;
+      right: 0;
+    }
+  }
+
+  @media @mq-large {
+    padding-right: @sidebar-large-width;
+  }
+}
+
+
+
+/* ----------------------------- */
+/* ==social module               */
+/* ----------------------------- */
+
+.contact_link {
+  &:hover {
+    text-decoration: none;
+  }
+
+  &> span {
+    display: none;
+  }
+
+  &> .fa {
+    display: inline;
+  }
+}

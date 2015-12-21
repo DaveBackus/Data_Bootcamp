@@ -1,0 +1,115 @@
+
+
+
+/* ----------------------------- */
+/* ==layout mixins               */
+/* ----------------------------- */
+
+.container-lvl-0() {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.container-lvl-1() {
+  margin: 0 auto;
+  max-width: @medium-screen;
+  padding: @tiny-value;
+
+  @media @mq-small {
+    padding: @small-value;
+  }
+
+  @media @mq-medium {
+    padding: @medium-value;
+  }
+
+  @media @mq-large {
+    padding: @large-value;
+  }
+}
+
+.container-lvl-2() {
+  margin-top: 0;
+  margin-bottom: @tiny-value;
+
+  @media @mq-small {
+    margin-bottom: @small-value;
+  }
+
+  @media @mq-medium {
+    margin-bottom: @medium-value;
+  }
+}
+
+.container-lvl-3() {
+  margin-top: 0;
+  margin-bottom: @tiny-value;
+
+  @media @mq-small {
+    margin-bottom: @small-value;
+  }
+
+  @media @mq-medium {
+    margin-bottom: @medium-value;
+  }
+}
+
+
+
+/* ----------------------------- */
+/* ==layout main                 */
+/* ----------------------------- */
+
+.main_wrapper {
+  .container-lvl-0();
+
+  &> .container {
+    .container-lvl-1();
+  }
+
+  &> .container > .container {
+    .container-lvl-2();
+  }
+
+  h1,
+  .@{kna-namespace}h1-like,
+  h2,
+  .@{kna-namespace}h2-like,
+  h3,
+  .@{kna-namespace}h3-like,
+  h4,
+  .@{kna-namespace}h4-like,
+  h5,
+  .@{kna-namespace}h5-like,
+  h6,
+  .@{kna-namespace}h6-like,
+  p,
+  .@{kna-namespace}p-like,
+  ul,
+  ol,
+  dl,
+  blockquote,
+  label,
+  pre,
+  table,
+  details,
+  figure,
+  &> .container > .container > .container {
+    .container-lvl-3();
+  }
+
+  input,
+  code,
+  label,
+  textarea,
+  li p,
+  li .@{kna-namespace}p-like,
+  li ul,
+  li ol,
+  &> .main_header > .container > .container,
+  &> .main_footer > .container > .container,
+  .container > .container:last-child {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}

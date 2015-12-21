@@ -1,0 +1,17 @@
+name = "Hyde-Y"
+license = "MIT"
+licenselink = "https://github.com/enten/hyde-y/LICENSE"
+description = "An elegant open source and mobile first theme, extended with new integrations and layout improvements"
+homepage = "https://github.com/enten/hyde-y"
+tags = ["blog", "technical", "personal"]
+features = ["blog", "technical", "personal"]
+min_version = 0.14
+
+[author]
+    name = "Steven Enten"
+    homepage = "http://enten.fr"
+
+[original]
+    author =  "Andrei Mihu"
+    homepage = "https://github.com/zyro/hyde-x"
+    repo = "https://github.com/zyro/hyde-x"

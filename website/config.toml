@@ -1,0 +1,20 @@
+baseurl = "http://bootcamp.spencerlyon.com/"
+languageCode = "en-us"
+title = "Data Bootcamp"
+metaDataFormat = "yaml"
+theme = "hyde-y"
+
+[params]
+    # You can use markdown here.
+    topline = "Data + Python @ NYU Stern"
+    brand = "Data Bootcamp"
+    footline = "A product of the NYU Python Factory @ NYU Stern"
+
+    # Sidebar position
+    # false, true, "left", "right"
+    sidebar = "true"
+    home = "Home"
+    highlight = "default"
+
+# I like these: casper, detox, ghostwriter, greyshade, hugo-h5bp, hugo-mdl, hugoscroll, hyde-y, simple-a, slim
+# herring-cove

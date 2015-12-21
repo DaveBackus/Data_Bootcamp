@@ -1,0 +1,9 @@
+{{ "<!--[if lt IE 9]>" | safeHTML }}
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+{{ "<![endif]-->" | safeHTML }}
+
+<link href='https://fonts.googleapis.com/css?family=Merriweather:300%7CRaleway%7COpen+Sans' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ "/css/font-awesome.min.css" | absURL }}">
+<link rel="stylesheet" href="{{ "/css/style.css" | absURL }}">
+{{ if isset .Site.Params "highlight" }}<link rel="stylesheet" href="{{ "/css/highlight/" | absURL }}{{ .Site.Params.highlight }}.css">{{ end }}
