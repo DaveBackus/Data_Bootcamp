@@ -1,18 +1,18 @@
-# Data Bootcamp:  Description & Sales Pitch
+### Data Bootcamp:  Description & Sales Pitch 
 
-A course at NYU’s Stern School of Business
+A course at NYU’s Stern School of Business 
 
-<!--
-<br> [Main course page](/)
--->
+<!-- 
+<br> [Main course page](bootcamp_mainpage.md)
+--> 
 
 
-## Course description
+#### Course description
 
 Data Bootcamp is about nuts and bolts data analysis.  You will learn about economic, financial, and business data, and enough about computer programming to work with it effectively.  Applications include some or all of:  leading economic indicators; emerging market country indicators; bond and equity returns; stock options; income by zip code; long tail sales data; innovation diffusion curves; and many others.  We will use Python, a popular high-level computer language that’s widely used in finance, consulting, technology, and other parts of the business world.  “High-level” means it’s less painful than most (the hard work is done by the language), but it’s a serious language with extensive capabilities.  “Data analysis” means primarily graphical descriptions that summarize data in ways that are helpful to managers.  “Bootcamp” is a reminder that expertise takes work.  Don’t worry, it’s worth it.  
 
 
-## Frequently asked questions
+#### Frequently asked questions 
 
 **Why should I take this course?**  It’s an investment in your future.  You will learn how to  process data and communicate its content effectively and efficiently.  You will be more valuable to current and future employers.  
 
@@ -37,9 +37,12 @@ Data Bootcamp is about nuts and bolts data analysis.  You will learn about econo
 **What if I have other questions?**  Stop by or email to set up an appointment:  Dave Backus, KMC 7-68, db3@nyu.edu, [directions](http://pages.stern.nyu.edu/~dbackus/).   
 
 
-## More inspiration
+#### More inspiration 
 
 Not that you need any more inspiration, but here are a couple good pieces:  
 
-* Steve Levitt on “big data” (55m, very entertaining):  https://youtu.be/r5jATFtKtI8?t=5m12s
-* Mevan on learning to code:  https://medium.com/@meandvan/how-i-learned-to-stop-worrying-and-love-the-code-af1a809457c7
+* Steve Levitt on “big data” (55m, very entertaining):  https://youtu.be/r5jATFtKtI8?t=5m12s 
+* Mevan on learning to code:  https://medium.com/@meandvan/how-i-learned-to-stop-worrying-and-love-the-code-af1a809457c7 
+
+
+A product of the NYU Python Factory @ NYU Stern 

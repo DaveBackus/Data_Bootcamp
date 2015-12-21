@@ -1,6 +1,6 @@
-# Data Bootcamp: Outline
+# Data Bootcamp: Outline 
 
-[Main course page](/)
+[Main course page](bootcamp_mainpage.md)
 
 Outline of topics for the NYU Stern course Data Bootcamp.  We expect each topic to take roughly one week.  
 
@@ -11,17 +11,21 @@ Use in class: Outline | Code   <br> Read before next class:
 
 
 ---
-## Topic 2.  Python fundamentals 1
+## Topic 2.  Python fundamentals 1 
 
-Outline | Code | Reading
-
----
-## Topic 3.  Python fundamentals 2
-
-Outline | Code | Reading
-
+Outline | Code | Reading 
 
 ---
-## Topic 4.  Data input:  Packages and Pandas
+#### Topic 3.  Python fundamentals 2 
 
 Outline | Code | Reading
+
+
+---
+## Topic 4.  Data input:  Packages and Pandas 
+
+Outline | Code | Reading 
+
+
+
+A product of the NYU Python Factory @ NYU Stern  

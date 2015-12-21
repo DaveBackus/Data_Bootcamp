@@ -1,11 +1,31 @@
-# Data Bootcamp Topic Outline  
+### Data Bootcamp Mini-Course, 2015 edition  
 
+This document:  https://github.com/DaveBackus/Data_Bootcamp/blob/master/Markdown/bootcamp_mini_2015.md
 
-## Topic 1:  Python fundamentals 1 
+A brief overview of the tools and skills you'll learn in **[Data Bootcamp](https://github.com/DaveBackus/Data_Bootcamp#data-bootcamp)**, a course at NYU's Stern School of Business. Developed by Dave Backus, Chase Coleman, Spencer Lyon, and Glenn Okun.  With the help and support of Sarah Beckett-Hile, Hersh Iyer, Itamar Snir, and executives at Amazon.  
 
-**Overview**
-* Why are we doing this?
-* 
+November 6 and 13, 2-4pm, Tisch UC 25
+* Session 1:  Python fundamentals, examples    
+* Session 2:  data management (Pandas), graphics (Matplotlib), examples 
+
+---
+#### Announcements
+
+We'll post announcements here.  
+
+**Bring your computer to class.**  We'll put it to work.  
+
+**Before the second session.** Download the code files below.  We'll use three:  one for the data package (Pandas), one for graphics (Matplotlib), and one for examples putting both to use.  Remember to click on the Raw button to get the right file.
+
+**Code files for class.**  [Class 1](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_fundamentals_1.py) | Class 2  ([data](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_pandas_1.py) | [graphics](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_graphics_1.py) | [examples](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_examples.py)).  Click on the link, then click on the **Raw button** in the upper right, then save in a directory where you can find it.  Setting up a Data_Bootcamp directory wouldn't be a bad idea.  
+
+**Before the first session.** 
+Please install the **Anaconda** distribution of **Python 3.4 or (now) 3.5** from the download page: <https://www.continuum.io/downloads>.  If you have trouble, read [this chapter](https://davebackus.gitbooks.io/test/content/installing-python.html), but keep in mind that the Anaconda download page has changed a little since it was written.  Or come 20 minutes early to the first session and we'll (try to) set you up.  
+
+---
+
+#### Session 1 
+
 
 **Skills** 
 
@@ -82,7 +102,7 @@ If you'd like to do more of this on your own:
 
 ---
 
-## Session 2 
+#### Session 2 
 
 **Prelaunch checklist**
 * Start Spyder
