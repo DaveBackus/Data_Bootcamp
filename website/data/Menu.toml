@@ -3,21 +3,14 @@
     URL = "/bootcamp_faq"
 
 [2]
-    Name = "Course outline"
+    Name = "Topic outline"
     URL = "/bootcamp_outline"
 
 [3]
-    Name = "Duedates (MBA)"
+    Name = "Due dates (MBA)"
     URL = "/bootcamp_duedates_mba"
 
 [4]
-    Name = "Duedates (UG)"
+    Name = "Due dates (UG)"
     URL = "/bootcamp_duedates_ug"
 
-[5]
-    Name = "Book"
-    URL = "https://www.gitbook.com/book/davebackus/test/details"
-
-[6]
-    Name = "Repository"
-    URL = "https://github.com/DaveBackus/Data_Bootcamp#data-bootcamp"

@@ -1,7 +1,4 @@
-# Data Bootcamp Topic Outline  
-
-
-## Topic 1:  Introduction to Data and Python 
+# Topic 1:  Introduction to Data and Python 
 
 **Outline** <br> 
 * Why are we doing this?
