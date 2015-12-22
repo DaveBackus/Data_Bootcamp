@@ -87,7 +87,7 @@ Input file is
 import pandas as pd 
 
 fixed = pd.read_fwf('fixedformatdata.txt', 
-                    colspecs=[(0,2), (3,6)],     # column n1 to n2-1 
+                    colspecs=[(0,2), (3,6)],    # column n1 to n2-1, start at 0 
                     names=['x1', 'x2'],
                     header=None) 
 
@@ -357,3 +357,18 @@ file = os.path.basename(fullpath)
 path = os.path.dirname(fullpath)
 print('File and path\n', file, '\n', path)
 
+
+#%%
+"""
+Heart attack data from data.gov
+
+https://data.medicare.gov/api/views/c7us-v4mf/rows.csv?accessType=DOWNLOAD
+https://data.medicare.gov/developers
+"""
+import pandas as pd
+url = 'https://data.medicare.gov/api/views/c7us-v4mf/rows.csv'
+
+df = pd.read_csv(url) 
+
+#%%
+print(list(df))

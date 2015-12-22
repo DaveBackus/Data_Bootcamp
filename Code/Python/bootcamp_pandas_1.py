@@ -52,6 +52,30 @@ print('\nurl read (df)\n', df)    # \n tells print to skip a line
 
 #%%
 """
+Exercises
+* xlsx 
+* na_values
+"""
+url1 = 'https://raw.githubusercontent.com/DaveBackus'
+url2 = '/Data_Bootcamp/master/Code/Python/test.csv'
+url  = url1 + url2
+dfex = pd.read_csv(url, na_values='1')
+
+#%%
+"""
+xls annd xlsx files 
+"""
+url1 = 'https://raw.githubusercontent.com/DaveBackus'
+url2 = '/Data_Bootcamp/master/Code/Python/test.xls'
+url  = url1 + url2
+dfx = pd.read_excel(url)
+
+print('\nurl read (df)\n', dfx)    # \n tells print to skip a line
+
+
+
+#%%
+"""
 What type of object do we have?  What are its properties?
 """
 type(df)
