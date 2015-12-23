@@ -6,12 +6,8 @@ The course was developed by Stern faculty and students with the assistance and s
 
 More concretely, the course is designed to (i) introduce students to sources of economic, financial, and business **data** and (ii) give **programming newbies** a sense of how modern software -- in this case **Python** -- makes life easier and more interesting.  We'll let the data speak for itself.  But coding is an essential skill in the modern world. You can do lots of things in Excel, but if you value your time -- and you should -- you'll find you can use it more efficiently with a modern programming language.  We like to say we do it because we're **lazy**, laziness being a synonym here for efficiency.  Former students tell us it's become a key to success in the business world.  An alum with strong programming skills worries that this course will make him obsolete.   
 
-You can find more information about the course at  
+You can find more information about the course on the **[course website](http://databootcamp.nyuecon.com/)**.  If you have questions, **email Dave Backus** (db3@nyu.edu) or track him down in his office (KMC 7-68) or at the Malt House.  
 
-* [Course website](http://databootcamp.nyuecon.com/) with links to other material
-* [Job postings](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Markdown/job_postings.md) 
-
-If you have questions, **email Dave Backus** (db3@nyu.edu) or track him down in his office (KMC 7-68) or at the Malt House.  
 #### Mini-courses  
 
 For the 2015 mini-course, **[click here](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Markdown/bootcamp_mini_2015.md)**.
