@@ -8,9 +8,7 @@ More concretely, the course is designed to (i) introduce students to sources of 
 
 You can find more information about the course at  
 
-* [Course description and sales pitch](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Markdown/bootcamp_faq.md)
-* [Book](https://www.gitbook.com/book/davebackus/test/details) (first few chapters done, the others will be fleshed out between now and January 2016) 
-* [Syllabus](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf) (draft)
+* [Course website](http://databootcamp.nyuecon.com/) with links to other material
 * [Job postings](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Markdown/job_postings.md) 
 
 If you have questions, **email Dave Backus** (db3@nyu.edu) or track him down in his office (KMC 7-68) or at the Malt House.  
