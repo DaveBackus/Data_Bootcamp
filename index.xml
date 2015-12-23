@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data Bootcamp</title>
-    <link>http://davebackus.github.io/Data_Bootcamp/</link>
+    <link>http://databootcamp.nyuecon.com/</link>
     <description>Recent content on Data Bootcamp</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://davebackus.github.io/Data_Bootcamp/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://databootcamp.nyuecon.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title></title>
-      <link>http://davebackus.github.io/Data_Bootcamp/bootcamp_duedates_mba/</link>
+      <link>http://databootcamp.nyuecon.com/bootcamp_duedates_mba/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://davebackus.github.io/Data_Bootcamp/bootcamp_duedates_mba/</guid>
+      <guid>http://databootcamp.nyuecon.com/bootcamp_duedates_mba/</guid>
       <description>
 
 &lt;h1 id=&#34;data-bootcamp-mba-due-dates:02ad6f1f1684378b8e15618caef98105&#34;&gt;Data Bootcamp:  MBA Due Dates&lt;/h1&gt;
@@ -50,16 +50,16 @@
     
     <item>
       <title></title>
-      <link>http://davebackus.github.io/Data_Bootcamp/bootcamp_duedates_ug/</link>
+      <link>http://databootcamp.nyuecon.com/bootcamp_duedates_ug/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://davebackus.github.io/Data_Bootcamp/bootcamp_duedates_ug/</guid>
+      <guid>http://databootcamp.nyuecon.com/bootcamp_duedates_ug/</guid>
       <description>
 
 &lt;h1 id=&#34;data-bootcamp-ug-due-dates:862f4e964005a21fb2c3879091c28da8&#34;&gt;Data Bootcamp:  UG Due Dates&lt;/h1&gt;
 
 &lt;p&gt;Data Bootcamp, NYU Stern Spring 2016&lt;br /&gt;
-&lt;a href=&#34;http://davebackus.github.io/Data_Bootcamp/&#34;&gt;Main course page&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;http://databootcamp.nyuecon.com/&#34;&gt;Main course page&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Dates coming soon&lt;/p&gt;
 </description>
@@ -67,10 +67,10 @@
     
     <item>
       <title></title>
-      <link>http://davebackus.github.io/Data_Bootcamp/bootcamp_faq/</link>
+      <link>http://databootcamp.nyuecon.com/bootcamp_faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://davebackus.github.io/Data_Bootcamp/bootcamp_faq/</guid>
+      <guid>http://databootcamp.nyuecon.com/bootcamp_faq/</guid>
       <description>
 
 &lt;h1 id=&#34;data-bootcamp-description-sales-pitch:417d56135ba43ab461fdf8ac7dc9a33e&#34;&gt;Data Bootcamp:  Description &amp;amp; Sales Pitch&lt;/h1&gt;
@@ -122,19 +122,17 @@
     
     <item>
       <title></title>
-      <link>http://davebackus.github.io/Data_Bootcamp/bootcamp_mainpage/</link>
+      <link>http://databootcamp.nyuecon.com/bootcamp_mainpage/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://davebackus.github.io/Data_Bootcamp/bootcamp_mainpage/</guid>
+      <guid>http://databootcamp.nyuecon.com/bootcamp_mainpage/</guid>
       <description>
 
 &lt;h1 id=&#34;data-bootcamp:ffd489939015ded07a5c1baacc50e9b6&#34;&gt;Data Bootcamp&lt;/h1&gt;
 
-&lt;p&gt;Data + Python:  A course at NYU’s Stern School of Business &lt;br&gt; &lt;a href=&#34;bootcamp_faq.md&#34;&gt;Course description &amp;amp; FAQ&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;A course at NYU’s Stern School of Business&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Spring 2016 schedule&lt;/strong&gt;  xxx&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;xxx&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Spring 2016 schedule&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Undergrad:  ECON-UB.0232, Tuesday and Thursday, 2-3:15, KMC 4-90, January 26 to May 10&lt;/li&gt;
@@ -178,10 +176,10 @@ Discussion groups:  [UG](https://groups.google.com/forum/#!forum/nyu_data_bootca
     
     <item>
       <title></title>
-      <link>http://davebackus.github.io/Data_Bootcamp/bootcamp_outline/</link>
+      <link>http://databootcamp.nyuecon.com/bootcamp_outline/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://davebackus.github.io/Data_Bootcamp/bootcamp_outline/</guid>
+      <guid>http://databootcamp.nyuecon.com/bootcamp_outline/</guid>
       <description>
 
 &lt;h1 id=&#34;data-bootcamp-topic-outline:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Data Bootcamp: Topic Outline&lt;/h1&gt;
@@ -198,7 +196,7 @@ Discussion groups:  [UG](https://groups.google.com/forum/#!forum/nyu_data_bootca
 
 &lt;h2 id=&#34;topic-2-python-fundamentals-1:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 2.  Python fundamentals 1&lt;/h2&gt;
 
-&lt;p&gt;Use in class: &lt;a href=&#34;bootcamp_topic_1.md&#34;&gt;Outline&lt;/a&gt; | [Code] &lt;br&gt; Read before next class: &lt;a href=&#34;https://davebackus.gitbooks.io/test/content/&#34;&gt;Chapter 4&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Use in class: &lt;a href=&#34;bootcamp_topic_1&#34;&gt;Outline&lt;/a&gt; | [Code] &lt;br&gt; Read before next class: &lt;a href=&#34;https://davebackus.gitbooks.io/test/content/&#34;&gt;Chapter 4&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -216,10 +214,10 @@ Discussion groups:  [UG](https://groups.google.com/forum/#!forum/nyu_data_bootca
     
     <item>
       <title></title>
-      <link>http://davebackus.github.io/Data_Bootcamp/bootcamp_topic_1/</link>
+      <link>http://databootcamp.nyuecon.com/bootcamp_topic_1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://davebackus.github.io/Data_Bootcamp/bootcamp_topic_1/</guid>
+      <guid>http://databootcamp.nyuecon.com/bootcamp_topic_1/</guid>
       <description>
 
 &lt;h1 id=&#34;topic-1-introduction-to-data-and-python:2ec9ccc28b28fce3f39c9f80484255cc&#34;&gt;Topic 1:  Introduction to Data and Python&lt;/h1&gt;
@@ -455,10 +453,10 @@ What do you like about it?&lt;/li&gt;
     
     <item>
       <title></title>
-      <link>http://davebackus.github.io/Data_Bootcamp/bootcamp_topic_2/</link>
+      <link>http://databootcamp.nyuecon.com/bootcamp_topic_2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://davebackus.github.io/Data_Bootcamp/bootcamp_topic_2/</guid>
+      <guid>http://databootcamp.nyuecon.com/bootcamp_topic_2/</guid>
       <description>
 
 &lt;h1 id=&#34;data-bootcamp-topic-outline:093f833680d5f0e235c798014594a474&#34;&gt;Data Bootcamp Topic Outline&lt;/h1&gt;
