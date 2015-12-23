@@ -1,6 +1,8 @@
 ---
-type: "index"
+type: index
 ---
+
+>>>>>>> b098167... added  to mainpage.md
 # Data Bootcamp
 
 A course at NYU’s Stern School of Business
