@@ -14,3 +14,6 @@
     Name = "Due dates (UG)"
     URL = "/bootcamp_duedates_ug"
 
+[5]
+    Name = "Data sources"
+    URL = "/bootcamp_data"
