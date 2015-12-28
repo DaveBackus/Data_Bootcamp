@@ -160,7 +160,7 @@ def run_import(srcdir, branch, message, nojekyll):
 
 def main():
     sp.call("." + os.path.sep + "hugo")
-    run_import(public, "gh-pages", "Updating website", True)
+    run_import("public", "gh-pages", "Updating website", True)
     sp.check_call(['git', 'push', "origin", "gh-pages"])
 
 if __name__ == '__main__':
