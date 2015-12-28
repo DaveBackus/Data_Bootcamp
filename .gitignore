@@ -72,3 +72,4 @@ Code/IPython/.ipynb_checkpoints/
 ## website
 website/public/
 node_modules/
+*.exe
