@@ -16,7 +16,7 @@ A course at NYU’s Stern School of Business
 Discussion groups:  [UG](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_ug) | [MBA](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_mba)   
 -->
 
-**Quick links:**  [Syllabus](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf) | [Project Guide](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf) | [Outline](bootcamp_outline.md) | [MBA Due Dates](bootcamp_duedates_mba.md) | [UG Due Dates](bootcamp_duedates_ug.md)    
+**Quick links:**  [Syllabus](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf) | [Project Guide](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf) | [Outline](/bootcamp_outline) | [MBA Due Dates](/bootcamp_duedates_mba) | [UG Due Dates](/bootcamp_duedates_ug)    
 
 
 ## Before the first class
