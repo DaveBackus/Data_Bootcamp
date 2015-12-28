@@ -1,9 +1,6 @@
-# Data Bootcamp:  Data sources 
+# Data Bootcamp:  Data sources & applications 
 
-**UNDER CONSTRUCTION**
-
-There's an enormous amount of public data available online, for countries, for markets, and for individuals.  We use many of them in class as examples.  Some highlights:      
-
+There's an enormous amount of public data available online:  data about countries, about markets, and about individuals.  We use many of them in class.  This is our short list.  
 
 ## Data about countries 
 
@@ -21,20 +18,19 @@ Others:
 
 * **UN Population data.**  [Annual data](http://esa.un.org/unpd/wpp/Download/Standard/Population/) for most countries of the population by age.  Includes estimates from 1950 and projections to 2100.  We read the whole thing from a spreadsheet. Also data on births (fertility) and deaths (mortality).    
 
-## Financial data 
+## Data about financial markets 
 
 
-* **Fama-French equity returns.**  The leading source of equity data for investment research, courtesy of Gene Fama and Ken French.  Text files on [Ken French's website](http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html) are easily read into Excel.  The [Pandas tool](http://pandas.pydata.org/pandas-docs/stable/remote_data.html) is even better -- when it works. 
-
+* **Fama-French equity returns.**  The leading source of equity returns for investment research, courtesy of Gene Fama and Ken French.  Text files on [Ken French's website](http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html) are easily read into Excel.  The [Pandas tool](http://pandas.pydata.org/pandas-docs/stable/remote_data.html) is even better -- when it works. 
 
 * **Yahoo and Google finance.**  Pandas also has [tools](http://pandas.pydata.org/pandas-docs/stable/remote_data.html) for accessing daily stock prices and related information.  
 
-* **Quandl.**  A nice [aggregator](https://www.quandl.com/) of economic and financial information. Uses the Quandl package, which comes with Anaconda.  Much of it is free, but they also serve as an interface to paid data subscriptions.   
+* **Quandl.**  A [nice aggregator](https://www.quandl.com/) of economic and financial information. Uses the Quandl package, which comes with Anaconda.  Much of it is free, but they also serve as an interface to paid data subscriptions.   
 
 
-## Survey data
+## Data about individuals 
 
-There is lots of survey data online, which allows us to see individual outcomes (the employment status of people with specific characteristics) as well as average outcomes (the unemployment rate). That allows us to see differences across various groups:  rich and poor, young and old, black and white, and so on.  Anthony Damico's [asdfree collection](http://www.asdfree.com/) includes an extensive list with descriptions.  
+There is lots of survey data online, which gives us individual outcomes (the employment status of people with specific characteristics, for example) as well as the usual average outcomes (the unemployment rate). That allows us to compare outcomes of various groups:  rich and poor, young and old, black and white, and so on.  Anthony Damico's [asdfree collection](http://www.asdfree.com/) includes an extensive list with descriptions.  
 
 Here are some we have used:  
 
@@ -47,7 +43,7 @@ Here are some we have used:
 
 ## Miscellaneous other sources 
 
-Some that appeal to us, but please send suggestions.  
+Some that appeal to us, but please send suggestions:  
 
 * **Airbnb.**  [Data](http://insideairbnb.com/get-the-data.html) on locations, rentals, and reviews. Chase loves this.  Good input for a map project?  
 
@@ -64,9 +60,17 @@ Data journalism:
 
 * **The Upshot** from the NY Times.  Great graphics, including [these](http://www.nytimes.com/interactive/2015/12/15/upshot/the-best-places-for-better-cheaper-health-care-arent-what-experts-thought.html) [two](http://www.nytimes.com/interactive/2009/07/31/business/20080801-metrics-graphic.html) examples. They list their sources, but don't typically post their data.  
 
+* Tim Taylor's **Conversable Economist** blog.  Tim's a former journalist, so a better writer than most economists.  He has a [daily post](http://conversableeconomist.blogspot.com/) about a topical economic issue, often with graphs we can use to track down data sources.  
+
+
 Graphics:  
 
-* **Flowing Data.**  Nathan Yau's [daily graphic](http://flowingdata.com/) and commentary. A good sources of ideas - and advice.  
+* **Flowing Data.**  Nathan Yau's [daily graphic](http://flowingdata.com/). A good sources of ideas and advice.  
 
-* **VizWiz.** Andy Kriebel's ["visualization" blog](http://vizwiz.blogspot.com/).  A steady stream of examples and advice, including the invaluable Makeover Mondays.  Tagline:  "Friends Don't Let Friends Use Pie Charts." 
+* **VizWiz.** Andy Kriebel's ["visualization" blog](http://vizwiz.blogspot.com/).  A steady stream of examples and advice, including the invaluable Makeover Monday.  Tagline:  "Friends Don't Let Friends Use Pie Charts." 
+
+
+## More
+
+This is **not for the timid**, but here is our [huge collection](https://docs.google.com/document/d/1L2ZDKFyyqfOrCGbNcCIE9mmgap4tjkTNuw32hK4c6BI/edit?usp=sharing) of data sources and applications.  Get a cold drink and a comfy chair and see what strikes your fancy.  Active investing?  Movies?  Shooting deaths?  All this and more.  
 

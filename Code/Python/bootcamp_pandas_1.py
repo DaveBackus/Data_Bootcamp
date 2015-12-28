@@ -43,12 +43,9 @@ df = pd.read_csv(url)
 
 print('\nurl read (df)\n', df)    # \n tells print to skip a line
 
-# in case the internet is down 
-#df = pd.DataFrame([['Dave', 1, 2, 3.5], 
-#                   ['Chase', 4, 3, 4.3], 
-#                   ['Spencer', 5, 6, 7.8]],
-#                   columns=['name', 'x1', 'x2', 'x3'])
-#print('\nurl read (df)\n', df)
+# if the internet is down 
+#df_fromdict = pd.DataFrame({'name': ['Dave', 'Chase', 'Spencer'], 
+#            'x1': [1, 4, 5], 'x2': [2, 3, 6], 'x3': [3.5, 4.3, 7.8]}) 
 
 #%%
 """
@@ -59,7 +56,7 @@ Exercises
 url1 = 'https://raw.githubusercontent.com/DaveBackus'
 url2 = '/Data_Bootcamp/master/Code/Python/test.csv'
 url  = url1 + url2
-dfex = pd.read_csv(url, na_values='1')
+dfex = pd.read_csv(url, na_values=[1])
 
 #%%
 """
@@ -241,3 +238,12 @@ ff.columns = ['xsm', 'smb', 'hml', 'rf']
 
 ff.describe()
 
+"""
+Creating dataframes 
+"""
+# from list of lists (no one does this) 
+#df = pd.DataFrame([['Dave', 1, 2, 3.5], 
+#                   ['Chase', 4, 3, 4.3], 
+#                   ['Spencer', 5, 6, 7.8]],
+#                   columns=['name', 'x1', 'x2', 'x3'])
+#print('\nurl read (df)\n', df)

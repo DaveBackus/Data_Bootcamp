@@ -372,3 +372,15 @@ df = pd.read_csv(url)
 
 #%%
 print(list(df))
+
+"""
+Appendices
+"""
+
+# in case the internet is down 
+#df = pd.DataFrame([['Dave', 1, 2, 3.5], 
+#                   ['Chase', 4, 3, 4.3], 
+#                   ['Spencer', 5, 6, 7.8]],
+#                   columns=['name', 'x1', 'x2', 'x3'])
+#print('\nurl read (df)\n', df)
+
