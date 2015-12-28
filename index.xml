@@ -16,11 +16,9 @@
       <guid>http://databootcamp.nyuecon.com/bootcamp_data/</guid>
       <description>
 
-&lt;h1 id=&#34;data-bootcamp-data-sources:987d9bf97cab1040fa2beea3138e2fdf&#34;&gt;Data Bootcamp:  Data sources&lt;/h1&gt;
+&lt;h1 id=&#34;data-bootcamp-data-sources-applications:987d9bf97cab1040fa2beea3138e2fdf&#34;&gt;Data Bootcamp:  Data sources &amp;amp; applications&lt;/h1&gt;
 
-&lt;p&gt;&lt;strong&gt;UNDER CONSTRUCTION&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;There&amp;rsquo;s an enormous amount of public data available online, for countries, for markets, and for individuals.  We use many of them in class as examples.  Some highlights:&lt;/p&gt;
+&lt;p&gt;There&amp;rsquo;s an enormous amount of public data available online:  data about countries, about markets, and about individuals.  We use many of them in class.  This is our short list.&lt;/p&gt;
 
 &lt;h2 id=&#34;data-about-countries:987d9bf97cab1040fa2beea3138e2fdf&#34;&gt;Data about countries&lt;/h2&gt;
 
@@ -42,19 +40,19 @@
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;UN Population data.&lt;/strong&gt;  &lt;a href=&#34;http://esa.un.org/unpd/wpp/Download/Standard/Population/&#34;&gt;Annual data&lt;/a&gt; for most countries of the population by age.  Includes estimates from 1950 and projections to 2100.  We read the whole thing from a spreadsheet. Also data on births (fertility) and deaths (mortality).&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;financial-data:987d9bf97cab1040fa2beea3138e2fdf&#34;&gt;Financial data&lt;/h2&gt;
+&lt;h2 id=&#34;data-about-financial-markets:987d9bf97cab1040fa2beea3138e2fdf&#34;&gt;Data about financial markets&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Fama-French equity returns.&lt;/strong&gt;  The leading source of equity data for investment research, courtesy of Gene Fama and Ken French.  Text files on &lt;a href=&#34;http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html&#34;&gt;Ken French&amp;rsquo;s website&lt;/a&gt; are easily read into Excel.  The &lt;a href=&#34;http://pandas.pydata.org/pandas-docs/stable/remote_data.html&#34;&gt;Pandas tool&lt;/a&gt; is even better &amp;ndash; when it works.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Fama-French equity returns.&lt;/strong&gt;  The leading source of equity returns for investment research, courtesy of Gene Fama and Ken French.  Text files on &lt;a href=&#34;http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html&#34;&gt;Ken French&amp;rsquo;s website&lt;/a&gt; are easily read into Excel.  The &lt;a href=&#34;http://pandas.pydata.org/pandas-docs/stable/remote_data.html&#34;&gt;Pandas tool&lt;/a&gt; is even better &amp;ndash; when it works.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Yahoo and Google finance.&lt;/strong&gt;  Pandas also has &lt;a href=&#34;http://pandas.pydata.org/pandas-docs/stable/remote_data.html&#34;&gt;tools&lt;/a&gt; for accessing daily stock prices and related information.&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Quandl.&lt;/strong&gt;  A nice &lt;a href=&#34;https://www.quandl.com/&#34;&gt;aggregator&lt;/a&gt; of economic and financial information. Uses the Quandl package, which comes with Anaconda.  Much of it is free, but they also serve as an interface to paid data subscriptions.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Quandl.&lt;/strong&gt;  A &lt;a href=&#34;https://www.quandl.com/&#34;&gt;nice aggregator&lt;/a&gt; of economic and financial information. Uses the Quandl package, which comes with Anaconda.  Much of it is free, but they also serve as an interface to paid data subscriptions.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;survey-data:987d9bf97cab1040fa2beea3138e2fdf&#34;&gt;Survey data&lt;/h2&gt;
+&lt;h2 id=&#34;data-about-individuals:987d9bf97cab1040fa2beea3138e2fdf&#34;&gt;Data about individuals&lt;/h2&gt;
 
-&lt;p&gt;There is lots of survey data online, which allows us to see individual outcomes (the employment status of people with specific characteristics) as well as average outcomes (the unemployment rate). That allows us to see differences across various groups:  rich and poor, young and old, black and white, and so on.  Anthony Damico&amp;rsquo;s &lt;a href=&#34;http://www.asdfree.com/&#34;&gt;asdfree collection&lt;/a&gt; includes an extensive list with descriptions.&lt;/p&gt;
+&lt;p&gt;There is lots of survey data online, which gives us individual outcomes (the employment status of people with specific characteristics, for example) as well as the usual average outcomes (the unemployment rate). That allows us to compare outcomes of various groups:  rich and poor, young and old, black and white, and so on.  Anthony Damico&amp;rsquo;s &lt;a href=&#34;http://www.asdfree.com/&#34;&gt;asdfree collection&lt;/a&gt; includes an extensive list with descriptions.&lt;/p&gt;
 
 &lt;p&gt;Here are some we have used:&lt;/p&gt;
 
@@ -68,7 +66,7 @@
 
 &lt;h2 id=&#34;miscellaneous-other-sources:987d9bf97cab1040fa2beea3138e2fdf&#34;&gt;Miscellaneous other sources&lt;/h2&gt;
 
-&lt;p&gt;Some that appeal to us, but please send suggestions.&lt;/p&gt;
+&lt;p&gt;Some that appeal to us, but please send suggestions:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Airbnb.&lt;/strong&gt;  &lt;a href=&#34;http://insideairbnb.com/get-the-data.html&#34;&gt;Data&lt;/a&gt; on locations, rentals, and reviews. Chase loves this.  Good input for a map project?&lt;/p&gt;&lt;/li&gt;
@@ -86,15 +84,21 @@
 &lt;li&gt;&lt;p&gt;ESPN&amp;rsquo;s &lt;strong&gt;538 Blog&lt;/strong&gt;.  The high end of data journalism.  They often post their data as csv&amp;rsquo;s in their &lt;a href=&#34;https://github.com/fivethirtyeight/data/blob/master/README.md&#34;&gt;data repository&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;The Upshot&lt;/strong&gt; from the NY Times.  Great graphics, including &lt;a href=&#34;http://www.nytimes.com/interactive/2015/12/15/upshot/the-best-places-for-better-cheaper-health-care-arent-what-experts-thought.html&#34;&gt;these&lt;/a&gt; &lt;a href=&#34;http://www.nytimes.com/interactive/2009/07/31/business/20080801-metrics-graphic.html&#34;&gt;two&lt;/a&gt; examples. They list their sources, but don&amp;rsquo;t typically post their data.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Tim Taylor&amp;rsquo;s &lt;strong&gt;Conversable Economist&lt;/strong&gt; blog.  Tim&amp;rsquo;s a former journalist, so a better writer than most economists.  He has a &lt;a href=&#34;http://conversableeconomist.blogspot.com/&#34;&gt;daily post&lt;/a&gt; about a topical economic issue, often with graphs we can use to track down data sources.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Graphics:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Flowing Data.&lt;/strong&gt;  Nathan Yau&amp;rsquo;s &lt;a href=&#34;http://flowingdata.com/&#34;&gt;daily graphic&lt;/a&gt; and commentary. A good sources of ideas - and advice.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Flowing Data.&lt;/strong&gt;  Nathan Yau&amp;rsquo;s &lt;a href=&#34;http://flowingdata.com/&#34;&gt;daily graphic&lt;/a&gt;. A good sources of ideas and advice.&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;VizWiz.&lt;/strong&gt; Andy Kriebel&amp;rsquo;s &lt;a href=&#34;http://vizwiz.blogspot.com/&#34;&gt;&amp;ldquo;visualization&amp;rdquo; blog&lt;/a&gt;.  A steady stream of examples and advice, including the invaluable Makeover Mondays.  Tagline:  &amp;ldquo;Friends Don&amp;rsquo;t Let Friends Use Pie Charts.&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;VizWiz.&lt;/strong&gt; Andy Kriebel&amp;rsquo;s &lt;a href=&#34;http://vizwiz.blogspot.com/&#34;&gt;&amp;ldquo;visualization&amp;rdquo; blog&lt;/a&gt;.  A steady stream of examples and advice, including the invaluable Makeover Monday.  Tagline:  &amp;ldquo;Friends Don&amp;rsquo;t Let Friends Use Pie Charts.&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h2 id=&#34;more:987d9bf97cab1040fa2beea3138e2fdf&#34;&gt;More&lt;/h2&gt;
+
+&lt;p&gt;This is &lt;strong&gt;not for the timid&lt;/strong&gt;, but here is our &lt;a href=&#34;https://docs.google.com/document/d/1L2ZDKFyyqfOrCGbNcCIE9mmgap4tjkTNuw32hK4c6BI/edit?usp=sharing&#34;&gt;huge collection&lt;/a&gt; of data sources and applications.  Get a cold drink and a comfy chair and see what strikes your fancy.  Active investing?  Movies?  Shooting deaths?  All this and more.&lt;/p&gt;
 </description>
     </item>
     
@@ -299,6 +303,146 @@ Discussion groups:  [UG](https://groups.google.com/forum/#!forum/nyu_data_bootca
 &lt;h2 id=&#34;topic-4-data-input-packages-and-pandas:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 4.  Data input:  Packages and Pandas&lt;/h2&gt;
 
 &lt;p&gt;Outline | Code | Reading&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://databootcamp.nyuecon.com/bootcamp_outline_intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://databootcamp.nyuecon.com/bootcamp_outline_intro/</guid>
+      <description>
+
+&lt;h1 id=&#34;topic-introduction-to-data-and-python:73c6ebb498443c7e0009145c098e3d59&#34;&gt;Topic:  Introduction to Data and Python&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Outline&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Why are we doing this?&lt;/li&gt;
+&lt;li&gt;Install Anaconda&lt;/li&gt;
+&lt;li&gt;Thinking about data&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;why-are-we-doing-this:73c6ebb498443c7e0009145c098e3d59&#34;&gt;Why are we doing this?&lt;/h2&gt;
+
+&lt;p&gt;Reading in the middle ages&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Skills&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Why skills?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Businesses want people with skills (duh!)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Why code?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;One of the skills businesses value (not the only one)&lt;/li&gt;
+&lt;li&gt;Do things Excel can&amp;rsquo;t do, and do them faster&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Why Python?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;User-friendly&lt;/li&gt;
+&lt;li&gt;Broad range of applications&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Where we&amp;rsquo;re headed&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Think of a &lt;strong&gt;picture&lt;/strong&gt; you&amp;rsquo;d like to produce &amp;ndash; a &amp;ldquo;visualization&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;And about what &lt;strong&gt;data&lt;/strong&gt; you&amp;rsquo;ll need&lt;/li&gt;
+&lt;li&gt;And the &lt;strong&gt;coding skills&lt;/strong&gt; to get there&lt;/li&gt;
+&lt;li&gt;Examples:  &lt;a href=&#34;http://www.gapminder.org/world/&#34;&gt;Gapminder&lt;/a&gt; | &lt;a href=&#34;http://www.vox.com/2015/10/28/9631500/does-mammography-work&#34;&gt;cancer screening&lt;/a&gt; | &lt;a href=&#34;http://fivethirtyeight.com/features/uber-is-serving-new-yorks-outer-boroughs-more-than-taxis-are/&#34;&gt;Uber in NYC&lt;/a&gt; | &lt;a href=&#34;http://www.pnas.org/content/early/2015/10/29/1518393112.full.pdf&#34;&gt;mortality&lt;/a&gt; | &lt;a href=&#34;https://jawbone.com/blog/napa-earthquake-effect-on-sleep/&#34;&gt;earthquake&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://graphics.wsj.com/infectious-diseases-and-vaccines/&#34;&gt;http://graphics.wsj.com/infectious-diseases-and-vaccines/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Philosophy&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Target &lt;strong&gt;coding novices&lt;/strong&gt;, no prior experience required or expected&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Jump right in&lt;/strong&gt; the deep end of the pool, figure it out as we go&lt;/li&gt;
+&lt;li&gt;Not a typical programming course:  cover only those aspects of Python relevant to data work&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Rules to live by&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Don&amp;rsquo;t panic&lt;/strong&gt;.  The jargon and concepts will seem mysterious at first, but if you keep with it they&amp;rsquo;ll start to make sense.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;One step at a time.&lt;/strong&gt;  We&amp;rsquo;ll go as slowly as we need.  Speed is the enemy, it leads to mistakes.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Doing is learning.&lt;/strong&gt;  We&amp;rsquo;ll set you up to teach yourself.  If you&amp;rsquo;re stuck, either &lt;strong&gt;ask for help&lt;/strong&gt; or practice your &lt;strong&gt;Google fu&lt;/strong&gt; and find the answer with Google.&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Prelaunch checklist&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Install Anaconda&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Google &amp;ldquo;anaconda download&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Download installer for &lt;strong&gt;Python 3.5&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Run installer&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Locate this file in a browser&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Google &amp;ldquo;nyu data bootcamp&amp;rdquo; and follow links&lt;/li&gt;
+&lt;li&gt;Or:  type in url at the top&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Save today&amp;rsquo;s code file in a handy place&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Create directory/folder &lt;code&gt;Data_Bootcamp&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Click on code link above, then Raw button&lt;/li&gt;
+&lt;li&gt;Save file in &lt;code&gt;Data_Bootcamp&lt;/code&gt; directory&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Launch&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Look for &lt;strong&gt;Launcher&lt;/strong&gt; in your programs&lt;/li&gt;
+&lt;li&gt;Start it up (takes a minute)&lt;/li&gt;
+&lt;li&gt;Click on &lt;strong&gt;Spyder&lt;/strong&gt; (another minute)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Programming basics&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Our typical program&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Input data&lt;/li&gt;
+&lt;li&gt;Manipulate data until it&amp;rsquo;s in the form we want&lt;/li&gt;
+&lt;li&gt;Produce a compelling graphic&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Spyder basics&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Editor&lt;/li&gt;
+&lt;li&gt;IPython console, object inspector&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Python basics
+* Calculations, assignments, comments, strings and quotes, lists, built-in functions (print, type), objects and methods, tab completion, getting help&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;d like to do more of this on your own:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Work your way through the &lt;a href=&#34;https://www.codecademy.com/tracks/python&#34;&gt;Codecademy&lt;/a&gt; course.  You can stop when you get to Advanced Topics.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Read the Python Fundamentals chapters of our &lt;a href=&#34;https://www.gitbook.com/book/davebackus/test/details&#34;&gt;Data Bootcamp book&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Read Mevan&amp;rsquo;s &lt;a href=&#34;https://medium.com/keep-learning-keep-growing/how-i-learned-to-stop-worrying-and-love-the-code-af1a809457c7&#34;&gt;wonderful guide&lt;/a&gt; &amp;ldquo;to the misconceptions and anxieties that people like me &amp;ndash; people newly learning to code &amp;ndash; may have.&amp;rdquo;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;install-anaconda:73c6ebb498443c7e0009145c098e3d59&#34;&gt;Install Anaconda&lt;/h2&gt;
+
+&lt;h2 id=&#34;thinking-about-data:73c6ebb498443c7e0009145c098e3d59&#34;&gt;Thinking about data&lt;/h2&gt;
 </description>
     </item>
     

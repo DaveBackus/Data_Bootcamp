@@ -1,0 +1,312 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp_Book/conda-pip.md",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp_Book/pandas-input.md",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp_Book/SUMMARY.md",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"selected_items":
+		[
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp_old/.gitignore",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp/.gitignore",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp_old/Data_guide.md",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp/website/public/CNAME",
+		"/C/Users/dbackus/Anaconda3/Scripts/ghp-import",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp_Book/py-fun2-2015-12-17.md",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp/Markdown/bootcamp_mainpage.md",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp_Book/pandas-intro.md",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp_Book/README.md",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp_Book/SUMMARY.md",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp_Book/stats.md",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp_Book/other.md",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp_Book/random.md",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp_Book/conda-pip.md",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp_Book/graphs2.md",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp_Book/pandas-munging.md",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp_Book/graphs1.md",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp_Book/py-fun2.md",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/MFAP/.gitignore",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp_Book/py-fun1.md",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp_Book/installing-python.md",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp_Book/intro.md",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp/Markdown/bootcamp_mini_2015.md",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp/Markdown/bootcamp_faq.md",
+		"/C/Users/dbackus/Dropbox/Documents/Papers/BBC/Code/R/vasicek_fx.r",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp_Book/data-mentality.md",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/MFAP/Code/Matlab/notes_stochprocesses.m",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp_Book/yields.md",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp_Book/py-fun3.md",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp_Book/indicators.md",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp/Code/Python/WEO_data_input.py",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp/README.md",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp/Markdown/bootcamp_taste_2015.md",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp/bootcamp_mini_2014.md",
+		"/C/Users/dbackus/Dropbox/Documents/Papers/BCFL/GerzenseePaper/RelatedLit/LitPresentation/anderson.md",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp/Code/Python/Debt Database Fall 2013 Vintage.xlsx",
+		"/C/Users/dbackus/Dropbox/Documents/Admin/Committees/.dropbox",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp/data_guide.md",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp_Book/getting-started.md",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp_Book/data.md",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/data_bootcamp/docs/basics.rst",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp/docs/projects.rst",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp/docs/install.rst",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp/docs/overview.rst",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp/docs/prelim.rst",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp/Code/Python/ff_factors.py",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp/Code/Python/incomes_by_major_data_vis.py",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp/Code/Projects/majors_538_md.py",
+		"/C/Users/dbackus/Downloads/F-F_International_Countries (1)-2/Swtzrlnd.Dat",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp/docs/index.rst",
+		"/C/Users/dbackus/docs.bat",
+		"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp/docs/python0.rst"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"advanced",
+			"function",
+			"boole",
+			"prints out",
+			"functions",
+			"type",
+			"list",
+			"check",
+			"Check",
+			"check",
+			"Escapes",
+			"machines",
+			"explorer",
+			"Object",
+			"object",
+			"??",
+			"Netflix",
+			"type",
+			"  \n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp_Book/conda-pip.md",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp_Book/pandas-input.md",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp_Book/SUMMARY.md",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp/website/content/bootcamp_website.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 224.0,
+	"status_bar_visible": true
+}
