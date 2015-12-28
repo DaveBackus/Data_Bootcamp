@@ -172,5 +172,5 @@ def ghp_import(directory, message, remote='origin', branch='gh-pages'):
 
 # END ghp-import
 if __name__ == '__main__':
-    sp.call("hugo")
+    sp.call("." + os.path.sep + "hugo")
     ghp_import("public", "updating website...", "origin", "gh-pages")
