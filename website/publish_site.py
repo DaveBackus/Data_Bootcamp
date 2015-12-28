@@ -1,29 +1,18 @@
+#! /usr/bin/env python
+#
 # This file is part of the ghp-import package released under
-# the Tumbolia Public License.
-
-#                            Tumbolia Public License
-
-# Copyright 2013, Paul Davis <paul.joseph.davis@gmail.com>
-
-# Copying and distribution of this file, with or without modification, are
-# permitted in any medium without royalty provided the copyright notice and
-# this notice are preserved.
-
-# TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
-
-#   0. opan saurce LOL
-
-from __future__ import unicode_literals
+# the Tumbolia Public License. See the LICENSE file for more
+# information.
 
 import errno
-import logging
+import optparse as op
 import os
 import subprocess as sp
 import sys
 import time
 import unicodedata
 
-log = logging.getLogger(__name__)
+__usage__ = "%prog [OPTIONS] DIRECTORY"
 
 
 if sys.version_info[0] == 3:
@@ -66,10 +55,23 @@ def normalize_path(path):
     return path
 
 
+def check_repo(parser):
+    cmd = ['git', 'rev-parse']
+    p = sp.Popen(cmd, stdin=sp.PIPE, stdout=sp.PIPE, stderr=sp.PIPE)
+    (ignore, error) = p.communicate()
+    if p.wait() != 0:
+        if not error:
+            error = "Unknown Git error"
+        error = error.decode("utf-8")
+        if error.startswith("fatal: "):
+            error = error[len("fatal: "):]
+        parser.error(error)
+
+
 def try_rebase(remote, branch):
     cmd = ['git', 'rev-list', '--max-count=1', '%s/%s' % (remote, branch)]
     p = sp.Popen(cmd, stdin=sp.PIPE, stdout=sp.PIPE, stderr=sp.PIPE)
-    (rev, _) = p.communicate()
+    (rev, ignore) = p.communicate()
     if p.wait() != 0:
         return True
     cmd = ['git', 'update-ref', 'refs/heads/%s' % branch, rev.strip()]
@@ -80,14 +82,14 @@ def try_rebase(remote, branch):
 
 def get_config(key):
     p = sp.Popen(['git', 'config', key], stdin=sp.PIPE, stdout=sp.PIPE)
-    (value, _) = p.communicate()
-    return value.decode('utf-8').strip()
+    (value, stderr) = p.communicate()
+    return value.strip()
 
 
 def get_prev_commit(branch):
     cmd = ['git', 'rev-list', '--max-count=1', branch, '--']
     p = sp.Popen(cmd, stdin=sp.PIPE, stdout=sp.PIPE, stderr=sp.PIPE)
-    (rev, _) = p.communicate()
+    (rev, ignore) = p.communicate()
     if p.wait() != 0:
         return None
     return rev.decode('utf-8').strip()
@@ -96,7 +98,7 @@ def get_prev_commit(branch):
 def mk_when(timestamp=None):
     if timestamp is None:
         timestamp = int(time.time())
-    currtz = "%+05d" % (-1 * time.timezone / 36)  # / 3600 * 100
+    currtz = "%+05d" % (-1 * time.timezone / 36) # / 3600 * 100
     return "%s %s" % (timestamp, currtz)
 
 
@@ -142,7 +144,7 @@ def run_import(srcdir, branch, message, nojekyll):
         kwargs["universal_newlines"] = False
     pipe = sp.Popen(cmd, **kwargs)
     start_commit(pipe, branch, message)
-    for path, _, fnames in os.walk(srcdir):
+    for path, dnames, fnames in os.walk(srcdir):
         for fn in fnames:
             fpath = os.path.join(path, fn)
             fpath = normalize_path(fpath)
@@ -156,21 +158,10 @@ def run_import(srcdir, branch, message, nojekyll):
         sys.stdout.write(enc("Failed to process commit.\n"))
 
 
-def ghp_import(directory, message, remote='origin', branch='gh-pages'):
-
-    if not try_rebase(remote, branch):
-        log.error("Failed to rebase %s branch.", branch)
-
-    nojekyll = True
-
-    run_import(directory, branch, message, nojekyll)
-
-    proc = sp.Popen(['git', 'push', remote, branch],
-                    stdout=sp.PIPE, stderr=sp.PIPE)
-    proc.communicate()
-    return proc.wait() == 0
-
-# END ghp-import
-if __name__ == '__main__':
+def main():
     sp.call("." + os.path.sep + "hugo")
-    ghp_import("public", "updating website...", "origin", "gh-pages")
+    run_import(public, "gh-pages", "Updating website", True)
+    sp.check_call(['git', 'push', "origin", "gh-pages"])
+
+if __name__ == '__main__':
+    main()
