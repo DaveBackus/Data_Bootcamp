@@ -12,6 +12,7 @@ You can find more information about the course on the **[course website](http://
 
 For the 2015 mini-course, **[click here](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Markdown/bootcamp_mini_2015.md)**.
 
+<!-- 
 We ran a non-credit mini-course in 2014 and plan another one for 2015.  The **2015 mini-course** will be held  
 
 * Friday, **November 6**, 2-4pm.     
@@ -26,6 +27,7 @@ The materials for the **Fall 2014 mini-course** are a little terse, and include 
 [Session 3](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Notes/mini_class3.pdf).
 
 If you want to download the pdf files, click on the link, then the Raw button at the top.  The code files are imbedded in the pdfs, and also posted in the Code directory (scroll to the top of the page).  
+-->
 
 For the **SQL mini-course**, scroll down.  
 
@@ -81,6 +83,7 @@ Once you've done this:
 including alums and other friends of the school.  Please register [here](https://attendee.gotowebinar.com/register/3554985340709263362) 
 for SQL Bootcamp at NYU Stern School of Business. After registering, you will receive a confirmation email with information about joining the webinar.  The webinar gives you access to a live stream and the ability to ask questions.  
 
+<!-- 
 **Videos.** The collection:  
 
 [Session 1](https://www.dropbox.com/s/fr36ox2cfmlgq2g/NYU_Stern_SQL_Bootcamp_Session_1.mov?dl=0) | 
@@ -90,6 +93,7 @@ for SQL Bootcamp at NYU Stern School of Business. After registering, you will re
 [Session 5](https://www.dropbox.com/s/zbheuu04c3z63ym/NYU_Stern_SQL_Bootcamp_Session_5.mp4?dl=0) 
 
 Please download before playing. 
+--> 
 
 **Exit poll.** If you use this material, please fill out the (short) [exit poll](https://docs.google.com/forms/d/1ZV9NW2Lum3Tp5jVMJWg8I5gkvVi0NmskdL1bameVmMg/viewform?usp=send_form).
 
