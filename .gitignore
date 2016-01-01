@@ -1,25 +1,15 @@
 ## Local tweaks
-Background_materials/
 Current/
-Logistics/
-Other_courses/
 Pix/
-Related_courses/
-Grants/
 Miscellaneous/
-Junk/
-Media/
-Pix/
-docs/
-Samples/
-Current/
-Code/Data/
-Code/lab
-Code/Python/*.zip
-Code/csv/
-Code/R/backups
-Code/backups
 Code/Temp
+Code/csv 
+
+*.zip
+*.csv 
+*.xls
+*.xlsx
+*.exe 
 
 .dropbox
 .dropbox.attr
@@ -27,11 +17,17 @@ Code/Temp
 *.sqlite
 .ipynb_checkpoints/
 
-## Video
+Related_courses/
+Grants/
+Junk/
+Media/
+Background_materials/
+Logistics/
+Other_courses/
+
+## Video and images 
 *.mp4
 *.mov
-
-## Images
 *.png
 
 ## Core latex/pdflatex auxiliary files:
@@ -72,4 +68,3 @@ Code/IPython/.ipynb_checkpoints/
 ## website
 website/public/
 node_modules/
-*.exe
