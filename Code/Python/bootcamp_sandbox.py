@@ -320,8 +320,7 @@ import pandas as pd
 import os 
 
 file = 'test.csv'
-
-path1 = 'C:\\Users\\dbackus\\Dropbox\\Documents\\Classes\\Data_Bootcamp\\Code\\Python'
+#path1 = 'C:\\Users\\dbackus\\Dropbox\\Documents\\Classes\\Data_Bootcamp\\Code\\Python'
 path2 = 'C:/Users/dbackus/Dropbox/Documents/Classes/Data_Bootcamp/Code/Python'
 
 # check to see if this works 
