@@ -15,6 +15,3 @@ theme = "hyde-y"
     sidebar = "true"
     home = "Home"
     highlight = "default"
-
-# I like these: casper, detox, ghostwriter, greyshade, hugo-h5bp, hugo-mdl, hugoscroll, hyde-y, simple-a, slim
-# herring-cove
