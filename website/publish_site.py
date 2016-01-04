@@ -74,9 +74,11 @@ def try_rebase(remote, branch):
     (rev, ignore) = p.communicate()
     if p.wait() != 0:
         return True
+        
     cmd = ['git', 'update-ref', 'refs/heads/%s' % branch, rev.strip()]
     if sp.call(cmd) != 0:
         return False
+        
     return True
 
 
