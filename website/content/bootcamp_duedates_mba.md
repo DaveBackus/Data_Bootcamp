@@ -1,8 +1,6 @@
 # Data Bootcamp:  MBA Due Dates 
 
-Data Bootcamp, NYU Stern Spring 2016
-
-Deliverables are due at the start of class on the dates listed below.  All dates are Wednesdays.  
+Due dates for Data Bootcamp @ NYU Stern, Spring 2016, MBA section.  Deliverables are due at the start of class on the dates listed below.   
 
 **February 17** <br> Complete [entry poll](https://docs.google.com/forms/d/1N7ugrqIQNHm_e1BLVAtaRMnC8SmSiTDMoYBy_0FYZic/viewform) and sign up for [discussion group](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_mba).
 
@@ -14,6 +12,7 @@ Deliverables are due at the start of class on the dates listed below.  All dates
 
 
 [Spring break, have fun]
+
 
 **March 23** <br> Submit [Revised Project Ideas](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf).  Recommended but not graded:  [Optional Code Practice A](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_a.pdf).
 

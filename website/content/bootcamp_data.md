@@ -1,6 +1,6 @@
 # Data Bootcamp:  Data sources & applications 
 
-There's an enormous amount of public data available online:  data about countries, about markets, and about individuals.  We use many of them in class.  This is our short list.  
+There's an enormous amount of public data available online:  data about countries, about markets, about individuals, and about companies.  Here are some of our favorites; we use most of them in class.  We link to a larger but less well organized list at the end.  
 
 ## Data about countries 
 
