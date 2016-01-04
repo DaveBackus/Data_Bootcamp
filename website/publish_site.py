@@ -164,4 +164,5 @@ def main():
     sp.check_call(['git', 'push', "origin", "gh-pages"])
 
 if __name__ == '__main__':
+    # just call the main function
     main()
