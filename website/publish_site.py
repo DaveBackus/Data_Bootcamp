@@ -144,6 +144,7 @@ def run_import(srcdir, branch, message, nojekyll):
         kwargs["universal_newlines"] = False
     pipe = sp.Popen(cmd, **kwargs)
     start_commit(pipe, branch, message)
+    
     for path, dnames, fnames in os.walk(srcdir):
         for fn in fnames:
             fpath = os.path.join(path, fn)
