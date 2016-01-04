@@ -18,7 +18,7 @@
 
 &lt;h1 id=&#34;data-bootcamp-data-sources-applications:987d9bf97cab1040fa2beea3138e2fdf&#34;&gt;Data Bootcamp:  Data sources &amp;amp; applications&lt;/h1&gt;
 
-&lt;p&gt;There&amp;rsquo;s an enormous amount of public data available online:  data about countries, about markets, and about individuals.  We use many of them in class.  This is our short list.&lt;/p&gt;
+&lt;p&gt;There&amp;rsquo;s an enormous amount of public data available online:  data about countries, about markets, about individuals, and about companies.  Here are some of our favorites; we use most of them in class.  We link to a larger but less well organized list at the end.&lt;/p&gt;
 
 &lt;h2 id=&#34;data-about-countries:987d9bf97cab1040fa2beea3138e2fdf&#34;&gt;Data about countries&lt;/h2&gt;
 
@@ -112,9 +112,7 @@
 
 &lt;h1 id=&#34;data-bootcamp-mba-due-dates:02ad6f1f1684378b8e15618caef98105&#34;&gt;Data Bootcamp:  MBA Due Dates&lt;/h1&gt;
 
-&lt;p&gt;Data Bootcamp, NYU Stern Spring 2016&lt;/p&gt;
-
-&lt;p&gt;Deliverables are due at the start of class on the dates listed below.  All dates are Wednesdays.&lt;/p&gt;
+&lt;p&gt;Due dates for Data Bootcamp @ NYU Stern, Spring 2016, MBA section.  Deliverables are due at the start of class on the dates listed below.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;February 17&lt;/strong&gt; &lt;br&gt; Complete &lt;a href=&#34;https://docs.google.com/forms/d/1N7ugrqIQNHm_e1BLVAtaRMnC8SmSiTDMoYBy_0FYZic/viewform&#34;&gt;entry poll&lt;/a&gt; and sign up for &lt;a href=&#34;https://groups.google.com/forum/#!forum/nyu_data_bootcamp_mba&#34;&gt;discussion group&lt;/a&gt;.&lt;/p&gt;
 
@@ -169,12 +167,6 @@
 
 &lt;h1 id=&#34;data-bootcamp-description-sales-pitch:417d56135ba43ab461fdf8ac7dc9a33e&#34;&gt;Data Bootcamp:  Description &amp;amp; Sales Pitch&lt;/h1&gt;
 
-&lt;p&gt;A course at NYU’s Stern School of Business&lt;/p&gt;
-
-&lt;!--
-&lt;br&gt; [Main course page](bootcamp_mainpage.md)
---&gt;
-
 &lt;h2 id=&#34;course-description:417d56135ba43ab461fdf8ac7dc9a33e&#34;&gt;Course description&lt;/h2&gt;
 
 &lt;p&gt;Data Bootcamp is about nuts and bolts data analysis.  You will learn about economic, financial, and business data, and enough about computer programming to work with it effectively.  Applications include some or all of:  leading economic indicators; emerging market country indicators; bond and equity returns; stock options; income by zip code; long tail sales data; innovation diffusion curves; and many others.  We will use Python, a popular high-level computer language that’s widely used in finance, consulting, technology, and other parts of the business world.  “High-level” means it’s less painful than most (the hard work is done by the language), but it’s a serious language with extensive capabilities.  “Data analysis” means primarily graphical descriptions that summarize data in ways that are helpful to managers.  “Bootcamp” is a reminder that expertise takes work.  Don’t worry, it’s worth it.&lt;/p&gt;
@@ -224,9 +216,7 @@
 
 &lt;h1 id=&#34;data-bootcamp:ffd489939015ded07a5c1baacc50e9b6&#34;&gt;Data Bootcamp&lt;/h1&gt;
 
-&lt;p&gt;A course at NYU’s Stern School of Business&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Spring 2016 schedule&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;spring-2016-schedule:ffd489939015ded07a5c1baacc50e9b6&#34;&gt;Spring 2016 schedule&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Undergrad:  ECON-UB.0232, Tuesday and Thursday, 2-3:15, KMC 4-90, January 26 to May 10&lt;/li&gt;
@@ -237,24 +227,24 @@
 Discussion groups:  [UG](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_ug) | [MBA](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_mba)   
 --&gt;
 
-&lt;p&gt;&lt;strong&gt;Quick links:&lt;/strong&gt;  &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf&#34;&gt;Syllabus&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf&#34;&gt;Project Guide&lt;/a&gt; | &lt;a href=&#34;http://databootcamp.nyuecon.com/bootcamp_outline&#34;&gt;Outline&lt;/a&gt; | &lt;a href=&#34;http://databootcamp.nyuecon.com/bootcamp_duedates_mba&#34;&gt;MBA Due Dates&lt;/a&gt; | &lt;a href=&#34;http://databootcamp.nyuecon.com/bootcamp_duedates_ug&#34;&gt;UG Due Dates&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Quick links:&lt;/strong&gt;  &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf&#34;&gt;Syllabus&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf&#34;&gt;Project Guide&lt;/a&gt; | &lt;a href=&#34;http://databootcamp.nyuecon.com/bootcamp_outline&#34;&gt;Outline&lt;/a&gt; | &lt;a href=&#34;http://databootcamp.nyuecon.com/bootcamp_duedates_ug&#34;&gt;UG Due Dates&lt;/a&gt; | &lt;a href=&#34;http://databootcamp.nyuecon.com/bootcamp_duedates_mba&#34;&gt;MBA Due Dates&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;before-the-first-class:ffd489939015ded07a5c1baacc50e9b6&#34;&gt;Before the first class&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Make sure you have a &lt;strong&gt;laptop computer&lt;/strong&gt; to use in class.  This is a must.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Take our &lt;strong&gt;entry poll&lt;/strong&gt; (click on the &lt;a href=&#34;https://docs.google.com/forms/d/1N7ugrqIQNHm_e1BLVAtaRMnC8SmSiTDMoYBy_0FYZic/viewform&#34;&gt;link&lt;/a&gt;, follow the instructions)&lt;/li&gt;
+&lt;li&gt;Take our &lt;strong&gt;entry poll&lt;/strong&gt; (click on the &lt;a href=&#34;https://docs.google.com/forms/d/1N7ugrqIQNHm_e1BLVAtaRMnC8SmSiTDMoYBy_0FYZic/viewform&#34;&gt;link&lt;/a&gt;, follow instructions).&lt;br /&gt;&lt;/li&gt;
 &lt;li&gt;Join a &lt;strong&gt;discussion group:&lt;/strong&gt; &lt;a href=&#34;https://groups.google.com/forum/#!forum/nyu_data_bootcamp_ug&#34;&gt;UG&lt;/a&gt; | &lt;a href=&#34;https://groups.google.com/forum/#!forum/nyu_data_bootcamp_mba&#34;&gt;MBA&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Non-Stern students&lt;/strong&gt; only:  &lt;a href=&#34;https://w3.stern.nyu.edu/start/home&#34;&gt;activate your Stern account&lt;/a&gt; for wireless access.  If you have trouble, stop by the Help Desk in the lobby between KMC and Tisch or email &lt;a href=&#34;mailto:helpdesk@stern.nyu.edu&#34;&gt;helpdesk@stern.nyu.edu&lt;/a&gt;.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Wireless access&lt;/strong&gt; for Non-Stern students only:  &lt;a href=&#34;https://w3.stern.nyu.edu/start/home&#34;&gt;activate your Stern account&lt;/a&gt;.  If you have trouble, stop by the Help Desk in the lobby between KMC and Tisch or email &lt;a href=&#34;mailto:helpdesk@stern.nyu.edu&#34;&gt;helpdesk@stern.nyu.edu&lt;/a&gt;.&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;contact-information:ffd489939015ded07a5c1baacc50e9b6&#34;&gt;Contact information&lt;/h2&gt;
 
-&lt;p&gt;Dave Backus:  KMC 7-68, db3@nyu.edu, &lt;a href=&#34;http://pages.stern.nyu.edu/~dbackus/&#34;&gt;directions&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Dave Backus:  KMC 7-68, &lt;a href=&#34;mailto:db3@nyu.edu&#34;&gt;db3@nyu.edu&lt;/a&gt;, &lt;a href=&#34;http://pages.stern.nyu.edu/~dbackus/&#34;&gt;directions&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;MBA section&lt;/strong&gt; &lt;br&gt; Chase Coleman, co-teacher, cc7768@gmail.com &lt;br&gt; Itamar Snir, teaching fellow, is1413@stern.nyu.edu&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;UG section&lt;/strong&gt; &lt;br&gt; Spencer Lyon, co-teacher, &lt;a href=&#34;mailto:sgl290@nyu.edu&#34;&gt;sgl290@nyu.edu&lt;/a&gt; &lt;br&gt; Brian LeBlanc, teaching fellow, &lt;a href=&#34;mailto:bl1741@nyu.edu&#34;&gt;bl1741@nyu.edu&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;UG section&lt;/strong&gt; &lt;br&gt; Spencer Lyon, co-teacher, sgl290@nyu.edu &lt;br&gt; teaching fellow, tba&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;MBA section&lt;/strong&gt; &lt;br&gt; Chase Coleman, co-teacher, &lt;a href=&#34;mailto:cc7768@gmail.com&#34;&gt;cc7768@gmail.com&lt;/a&gt; &lt;br&gt; Itamar Snir, teaching fellow, &lt;a href=&#34;mailto:is1413@stern.nyu.edu&#34;&gt;is1413@stern.nyu.edu&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;course-materials:ffd489939015ded07a5c1baacc50e9b6&#34;&gt;Course materials&lt;/h2&gt;
 
@@ -262,7 +252,7 @@ Discussion groups:  [UG](https://groups.google.com/forum/#!forum/nyu_data_bootca
 
 &lt;ul&gt;
 &lt;li&gt;Our &lt;a href=&#34;https://www.gitbook.com/book/davebackus/test/details&#34;&gt;book&lt;/a&gt; (work in progress)&lt;/li&gt;
-&lt;li&gt;Our &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp#data-bootcamp&#34;&gt;repository&lt;/a&gt; (complete collection of documents and materials)&lt;/li&gt;
+&lt;li&gt;Our &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp#data-bootcamp&#34;&gt;repository&lt;/a&gt; (collection of documents and programs)&lt;/li&gt;
 &lt;li&gt;Search:  nyu data bootcamp&lt;/li&gt;
 &lt;/ul&gt;
 </description>
@@ -278,7 +268,7 @@ Discussion groups:  [UG](https://groups.google.com/forum/#!forum/nyu_data_bootca
 
 &lt;h1 id=&#34;data-bootcamp-topic-outline:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Data Bootcamp: Topic Outline&lt;/h1&gt;
 
-&lt;p&gt;Outline of topics for the NYU Stern course Data Bootcamp.  We expect each topic to take roughly one week.&lt;/p&gt;
+&lt;p&gt;Outline of topics for the NYU Stern course Data Bootcamp.  We expect each topic to take roughly one week &amp;ndash; maybe a little more in some cases.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -294,13 +284,19 @@ Discussion groups:  [UG](https://groups.google.com/forum/#!forum/nyu_data_bootca
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;topic-3-python-fundamentals-2:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 3.  Python fundamentals 2&lt;/h4&gt;
+&lt;h2 id=&#34;topic-3-python-fundamentals-2:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 3.  Python fundamentals 2&lt;/h2&gt;
 
 &lt;p&gt;Use in class: Outline | [Code] &lt;br&gt; Read before next class: &lt;a href=&#34;https://davebackus.gitbooks.io/test/content/&#34;&gt;Chapters 1-3&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h2 id=&#34;topic-4-data-input-packages-and-pandas:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 4.  Data input:  Packages and Pandas&lt;/h2&gt;
+
+&lt;p&gt;Outline | Code | Reading&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;topic-5-python-graphics-matplotlib-fundamentals:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 5.  Python graphics:  Matplotlib fundamentals&lt;/h2&gt;
 
 &lt;p&gt;Outline | Code | Reading&lt;/p&gt;
 </description>
