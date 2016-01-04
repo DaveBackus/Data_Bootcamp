@@ -92,8 +92,10 @@ def get_prev_commit(branch):
     cmd = ['git', 'rev-list', '--max-count=1', branch, '--']
     p = sp.Popen(cmd, stdin=sp.PIPE, stdout=sp.PIPE, stderr=sp.PIPE)
     (rev, ignore) = p.communicate()
+    
     if p.wait() != 0:
         return None
+    
     return rev.decode('utf-8').strip()
 
 
