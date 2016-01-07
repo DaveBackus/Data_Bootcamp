@@ -21,10 +21,9 @@ Discussion groups:  [UG](https://groups.google.com/forum/#!forum/nyu_data_bootca
 
 * Make sure you have a **laptop computer** to use in class.  This is a must.  
 * Take our **entry poll** (click on the [link](https://docs.google.com/forms/d/1N7ugrqIQNHm_e1BLVAtaRMnC8SmSiTDMoYBy_0FYZic/viewform), follow instructions).  
-* Join a **discussion group:** [UG](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_ug) | [MBA](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_mba)
-* Wireless access for non-Stern students only:  **[activate your Stern account](https://w3.stern.nyu.edu/start/home)**.  If you have trouble, stop by the Help Desk in the lobby between KMC and Tisch or email [helpdesk@stern.nyu.edu](mailto:helpdesk@stern.nyu.edu).  
+* Join a **discussion group:** [UG](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_ug) | [MBA](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_mba).
 * Bring a **nameplate** to class.  If you don't have one, use this [template](https://docs.google.com/document/d/18mDKqDO-48wbwYfFEGD0BAYJRsshRRRxR9IEKhekTWM/edit?usp=sharing). 
-
+* Wireless access for non-Stern students only:  **[activate your Stern account](https://w3.stern.nyu.edu/start/home)**.  If you have trouble, stop by the Help Desk in the lobby between KMC and Tisch or email [helpdesk@stern.nyu.edu](mailto:helpdesk@stern.nyu.edu).  
 
 ## Contact information
 
