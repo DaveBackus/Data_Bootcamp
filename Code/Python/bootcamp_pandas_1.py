@@ -293,6 +293,8 @@ df538 = pd.read_csv(url)
 
 # Exercise.  What are the variables here?  How many?
 
+#df538 = df538[['Major', 'Median']].set_index('Major')
+
 #%%
 """
 Airbnb
@@ -362,9 +364,9 @@ var = ['NY.GDP.PCAP.PP.KD']         # GDP per capita
 iso = ['USA', 'FRA', 'JPN', 'CHN', 'IND', 'BRA', 'MEX']  # country codes 
 year = 2013
 wb = wb.download(indicator=var, country=iso, start=year, end=year)
-#%%
+
 wb = wb.reset_index(level='year', drop=True)
-wb.plot(kind='barh') 
+wb.plot(kind='barh') #, legend=False) 
 
 #%%
 """

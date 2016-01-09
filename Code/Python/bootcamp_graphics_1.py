@@ -2,24 +2,23 @@
 Matplotlib intro for Data Bootcamp course (graphics)
 
 Three approaches to graphics
+* apply plot method to dataframe 
 * plot(x,y) function
 * create figure object, apply plot methods to it
-* apply methods to dataframes 
+
+Graphics inherently complicated, see these options to get a sense:  
+http://matplotlib.org/users/customizing.html
 
 Repository of materials (including this file):
 * https://github.com/DaveBackus/Data_Bootcamp
 
 Written by Dave Backus, August 2015
-Created with Python 3.4
+Created with Python 3.5
 """
 """
-Talk about packages (libraries, modules)
-Google "anaconda packages"
+Check versions 
 """
-"""
-Check versions (ignore this)
-"""
-import sys                             # system module (don't ask)
+import sys                             # system module 
 import pandas as pd                    # data package
 import matplotlib as mpl               # graphics package
 
@@ -29,29 +28,48 @@ print('Matplotlib version: ', mpl.__version__)
 
 #%%
 """
-Graphics inherently complicated, we'll take our time
-To get a sense of the options, check this out:
-http://matplotlib.org/users/customizing.html
+Datasets 
+* US GDP and consumption ("personal consumption expenditures")
+* Fama-French equity returns 
 """
-"""
-Approach 1:  Pyplot's simple (x,y) interface
-"""
-"""
-Example:  US GDP
-"""
-import matplotlib.pyplot as plt             # pyplot "module"
-
-# data
-# comment:  why lists are less useful than dataframes
-# this is FRED series GDPCA, billions of 2009 USD
+# US GDP and consumption 
 gdp  = [13271.1, 13773.5, 14234.2, 14613.8, 14873.7, 14830.4, 14418.7,
         14783.8, 15020.6, 15369.2, 15710.3]
-# FRED series DPCERX1A020NBEA
 pce  = [8867.6, 9208.2, 9531.8, 9821.7, 10041.6, 10007.2, 9847.0, 10036.3,
         10263.5, 10449.7, 10699.7]
 year = [2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013]
 
+# create dataframe from dictionary 
+us = pd.DataFrame({'gdp': gdp, 'pce': pce}, index=year) 
+
+# Fama-French 
+import pandas.io.data as web
+
+# read annual data from website and rename variables 
+ff = web.DataReader('F-F_Research_Data_factors', 'famafrench')[1]
+ff.columns = ['xsm', 'smb', 'hml', 'rf']
+ff = ff[['xsm', 'rf']]     # extract xsm and rf 
+
 #%%
+"""
+Approach 1:  apply plot methods to dataframe
+"""
+# US GDP  
+us.plot()
+us.plot(kind='bar')
+us.plot.barh()
+
+# what would you change?
+# what other kinds of graphs are available?  use 
+
+
+
+#%%
+"""
+Approach 2:  Pyplot's simple (x,y) interface
+"""
+import matplotlib.pyplot as plt        # pyplot module
+
 #plt.style.use('dark_background')
 
 # Exercise:  try each of these
@@ -118,7 +136,7 @@ plt.show()
 
 #%%
 """
-Approach 2:  Object-oriented graphics
+Approach 2:  Create figure objects
 """
 # repeat import and data
 import matplotlib.pyplot as plt             # redundant if already done
@@ -210,4 +228,5 @@ plt.show()
 # reset to default style
 import matplotlib as mpl
 mpl.rcParams.update(mpl.rcParamsDefault)
+# In the console:  %matplotlib inline
 

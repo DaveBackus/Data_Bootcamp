@@ -2,6 +2,7 @@
 
 There's an enormous amount of public data available online:  data about countries, about markets, about individuals, and about companies.  Here are some of our favorites; we use most of them in class.  We link to a larger but less well organized list at the end.  
 
+
 ## Data about countries 
 
 Go-to sources:   
@@ -20,7 +21,6 @@ Others:
 
 ## Data about financial markets 
 
-
 * **Fama-French equity returns.**  The leading source of equity returns for investment research, courtesy of Gene Fama and Ken French.  Text files on [Ken French's website](http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html) are easily read into Excel.  The [Pandas tool](http://pandas.pydata.org/pandas-docs/stable/remote_data.html) is even better -- when it works. 
 
 * **Yahoo and Google finance.**  Pandas also has [tools](http://pandas.pydata.org/pandas-docs/stable/remote_data.html) for accessing daily stock prices and related information.  
@@ -30,13 +30,13 @@ Others:
 
 ## Data about individuals 
 
-There is lots of survey data online, which gives us individual outcomes (the employment status of people with specific characteristics, for example) as well as the usual average outcomes (the unemployment rate). That allows us to compare outcomes of various groups:  rich and poor, young and old, black and white, and so on.  Anthony Damico's [asdfree collection](http://www.asdfree.com/) includes an extensive list with descriptions.  
+There is lots of survey data online, which gives us individual outcomes (the employment status of people with specific characteristics, for example) as well as the usual average outcomes (the unemployment rate). That allows us to compare outcomes of various groups:  rich and poor, young and old, black and white, and so on.  Anthony Damico's [asdfree collection](http://www.asdfree.com/) includes an extensive list with descriptions.  Gianluca Violante's [guide to micro data](http://www.econ.nyu.edu/user/violante/NYUTeaching/QM/Fall15/Lectures/Lecture2_Data.pdf) is a a similar list focused on US sources.  It's aimed at PhD students, but you should get the idea.  These sources are not necessarily easy to use, but we have experts on hand to help with any that interest you.  
 
 Here are some we have used:  
 
-* **ACS.** The [American Community Survey](https://www.census.gov/programs-surveys/acs/) from the US Census covers demography (age, sex, ethnicity), economics (employment and income), education, and many other [subjects](https://www.census.gov/programs-surveys/acs/guidance/subjects.html). The [Public Use Microdata Sample](https://www.census.gov/programs-surveys/acs/technical-documentation/pums.html) (PUMS) contains individual responses. 
+* **ACS.** The [American Community Survey](https://www.census.gov/programs-surveys/acs/) from the US Census covers demography (age, sex, ethnicity), economics (employment and income), education, and many other [subjects](https://www.census.gov/programs-surveys/acs/guidance/subjects.html). The [Public Use Microdata Sample](https://www.census.gov/programs-surveys/acs/technical-documentation/pums.html) (PUMS) contains individual responses. This [guide](https://source.opennews.org/en-US/learning/how-use-census-bureau-american-community-survey/) was written for journalists. 
 
-* **ATUS.**  The [American Time Use Survey](http://www.bls.gov/tus/) describes how people spend their time:  employed, doing housework, watching tv, etc.  This [survey](http://scholar.princeton.edu/sites/default/files/annurev-economics-111809-125129_0.pdf) summarizes academic work done on similar surveys in many countries.  
+* **ATUS.**  The [American Time Use Survey](http://www.bls.gov/tus/) describes how people spend their time:  employed, doing housework, watching tv, etc.  This [article](http://scholar.princeton.edu/sites/default/files/annurev-economics-111809-125129_0.pdf) summarizes academic work done on similar surveys in many countries.  
 
 * **MEPS.**  The [Medical Expenditure Panel Survey](http://meps.ahrq.gov/mepsweb/) is the leading source of information about individual healthcare, including insurance status and expenditures.  
 
