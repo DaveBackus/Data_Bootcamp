@@ -216,10 +216,12 @@
 
 &lt;h1 id=&#34;data-bootcamp:ffd489939015ded07a5c1baacc50e9b6&#34;&gt;Data Bootcamp&lt;/h1&gt;
 
+&lt;p&gt;A &lt;a href=&#34;http://databootcamp.nyuecon.com/bootcamp_faq/&#34;&gt;course&lt;/a&gt; about Data and Python at NYU&amp;rsquo;s Stern School of Business.&lt;/p&gt;
+
 &lt;h2 id=&#34;spring-2016-schedule:ffd489939015ded07a5c1baacc50e9b6&#34;&gt;Spring 2016 schedule&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Undergrad:  ECON-UB.0232, Tuesday and Thursday, 2-3:15, KMC 4-90, January 26 to May 10&lt;/li&gt;
+&lt;li&gt;Undergrad:  ECON-UB.0232, Tuesday and Thursday, 2-3:15, KMC 4-80, January 26 to May 10&lt;/li&gt;
 &lt;li&gt;MBA:  ECON-GB.2313, Wednesday nights, 6-9pm, KMC 4-90, February 8 to May 9&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -236,7 +238,7 @@ Discussion groups:  [UG](https://groups.google.com/forum/#!forum/nyu_data_bootca
 &lt;li&gt;Take our &lt;strong&gt;entry poll&lt;/strong&gt; (click on the &lt;a href=&#34;https://docs.google.com/forms/d/1N7ugrqIQNHm_e1BLVAtaRMnC8SmSiTDMoYBy_0FYZic/viewform&#34;&gt;link&lt;/a&gt;, follow instructions).&lt;br /&gt;&lt;/li&gt;
 &lt;li&gt;Join a &lt;strong&gt;discussion group:&lt;/strong&gt; &lt;a href=&#34;https://groups.google.com/forum/#!forum/nyu_data_bootcamp_ug&#34;&gt;UG&lt;/a&gt; | &lt;a href=&#34;https://groups.google.com/forum/#!forum/nyu_data_bootcamp_mba&#34;&gt;MBA&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Bring a &lt;strong&gt;nameplate&lt;/strong&gt; to class.  If you don&amp;rsquo;t have one, use this &lt;a href=&#34;https://docs.google.com/document/d/18mDKqDO-48wbwYfFEGD0BAYJRsshRRRxR9IEKhekTWM/edit?usp=sharing&#34;&gt;template&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Wireless access for non-Stern students only:  &lt;strong&gt;&lt;a href=&#34;https://w3.stern.nyu.edu/start/home&#34;&gt;activate your Stern account&lt;/a&gt;&lt;/strong&gt;.  If you have trouble, stop by the Help Desk in the lobby between KMC and Tisch or email &lt;a href=&#34;mailto:helpdesk@stern.nyu.edu&#34;&gt;helpdesk@stern.nyu.edu&lt;/a&gt;.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Non-Stern students only:  &lt;strong&gt;&lt;a href=&#34;https://w3.stern.nyu.edu/start/home&#34;&gt;activate your Stern account&lt;/a&gt;&lt;/strong&gt; to get wireless access.  If you have trouble, stop by the Help Desk in the lobby between KMC and Tisch or email &lt;a href=&#34;mailto:helpdesk@stern.nyu.edu&#34;&gt;helpdesk@stern.nyu.edu&lt;/a&gt;.&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;contact-information:ffd489939015ded07a5c1baacc50e9b6&#34;&gt;Contact information&lt;/h2&gt;
@@ -254,7 +256,7 @@ Discussion groups:  [UG](https://groups.google.com/forum/#!forum/nyu_data_bootca
 &lt;ul&gt;
 &lt;li&gt;Our &lt;a href=&#34;https://www.gitbook.com/book/davebackus/test/details&#34;&gt;book&lt;/a&gt; (work in progress)&lt;/li&gt;
 &lt;li&gt;Our &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp#data-bootcamp&#34;&gt;repository&lt;/a&gt; (collection of documents and programs)&lt;/li&gt;
-&lt;li&gt;Search:  nyu data bootcamp&lt;/li&gt;
+&lt;li&gt;Or search:  nyu data bootcamp&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -345,6 +347,14 @@ Discussion groups:  [UG](https://groups.google.com/forum/#!forum/nyu_data_bootca
 &lt;ul&gt;
 &lt;li&gt;User-friendly&lt;/li&gt;
 &lt;li&gt;Broad range of applications&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Work ethic and outcomes&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Little work:  you&amp;rsquo;ll die&lt;/li&gt;
+&lt;li&gt;Modest work:  you&amp;rsquo;ll learn something&lt;/li&gt;
+&lt;li&gt;Much work:  you&amp;rsquo;ll learn a lot, be ready for more&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/p&gt;
@@ -442,6 +452,20 @@ Discussion groups:  [UG](https://groups.google.com/forum/#!forum/nyu_data_bootca
 &lt;h2 id=&#34;install-anaconda:73c6ebb498443c7e0009145c098e3d59&#34;&gt;Install Anaconda&lt;/h2&gt;
 
 &lt;h2 id=&#34;thinking-about-data:73c6ebb498443c7e0009145c098e3d59&#34;&gt;Thinking about data&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://databootcamp.nyuecon.com/bootcamp_team/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://databootcamp.nyuecon.com/bootcamp_team/</guid>
+      <description>
+
+&lt;h1 id=&#34;data-bootcamp-our-team:8423fc2cf5e41c1e6bb9ab1917e3faca&#34;&gt;Data Bootcamp:  Our Team&lt;/h1&gt;
+
+&lt;p&gt;This course reflects the collective effort of many people. It was Glenn Okun&amp;rsquo;s idea. He really should have done it himself, but we thank him for the idea.  The course content was developed by Dave Backus, Sarah Beckett-Hile, Chase Coleman, and Spencer Lyon.  Many others contributed technical support and applications, among them Paul Backus, Hersh Iyer (MBA17), Matt McKay, Kim Ruhl, and Itamar Snir (MBA17).  You may also notice a family resemblance to Tom Sargent and John Stachurski&amp;rsquo;s &lt;a href=&#34;http://quant-econ.net/&#34;&gt;Quantitative Economics&lt;/a&gt;, a Python- and Julia-based course in dynamic macroeconomic theory.  This course is one of the byproducts of the environment they created.&lt;/p&gt;
 </description>
     </item>
     
