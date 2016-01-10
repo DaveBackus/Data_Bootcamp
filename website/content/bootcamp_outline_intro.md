@@ -27,6 +27,12 @@ Why Python?
 * User-friendly
 * Broad range of applications  
 
+Work ethic and outcomes 
+
+* Little work:  you'll die
+* Modest work:  you'll learn something
+* Much work:  you'll learn a lot, be ready for more 
+
 **Overview**
 
 Where we're headed

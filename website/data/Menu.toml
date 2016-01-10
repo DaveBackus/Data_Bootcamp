@@ -17,3 +17,7 @@
 [5]
     Name = "Data sources"
     URL = "/bootcamp_data"
+
+[6]
+    Name = "Our team"
+    URL = "/bootcamp_team"

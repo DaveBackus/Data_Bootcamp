@@ -4,10 +4,11 @@ type: index
 
 # Data Bootcamp
 
+A [course](http://databootcamp.nyuecon.com/bootcamp_faq/) about Data and Python at NYU's Stern School of Business.  
 
 ## Spring 2016 schedule 
 
-* Undergrad:  ECON-UB.0232, Tuesday and Thursday, 2-3:15, KMC 4-90, January 26 to May 10
+* Undergrad:  ECON-UB.0232, Tuesday and Thursday, 2-3:15, KMC 4-80, January 26 to May 10
 * MBA:  ECON-GB.2313, Wednesday nights, 6-9pm, KMC 4-90, February 8 to May 9
 
 <!--
@@ -23,7 +24,8 @@ Discussion groups:  [UG](https://groups.google.com/forum/#!forum/nyu_data_bootca
 * Take our **entry poll** (click on the [link](https://docs.google.com/forms/d/1N7ugrqIQNHm_e1BLVAtaRMnC8SmSiTDMoYBy_0FYZic/viewform), follow instructions).  
 * Join a **discussion group:** [UG](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_ug) | [MBA](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_mba).
 * Bring a **nameplate** to class.  If you don't have one, use this [template](https://docs.google.com/document/d/18mDKqDO-48wbwYfFEGD0BAYJRsshRRRxR9IEKhekTWM/edit?usp=sharing). 
-* Wireless access for non-Stern students only:  **[activate your Stern account](https://w3.stern.nyu.edu/start/home)**.  If you have trouble, stop by the Help Desk in the lobby between KMC and Tisch or email [helpdesk@stern.nyu.edu](mailto:helpdesk@stern.nyu.edu).  
+* Non-Stern students only:  **[activate your Stern account](https://w3.stern.nyu.edu/start/home)** to get wireless access.  If you have trouble, stop by the Help Desk in the lobby between KMC and Tisch or email [helpdesk@stern.nyu.edu](mailto:helpdesk@stern.nyu.edu).  
+
 
 ## Contact information
 
@@ -39,4 +41,4 @@ In addition to the quick links at the top, keep in mind:
 
 * Our [book](https://www.gitbook.com/book/davebackus/test/details) (work in progress)
 * Our [repository](https://github.com/DaveBackus/Data_Bootcamp#data-bootcamp) (collection of documents and programs) 
-* Search:  nyu data bootcamp
+* Or search:  nyu data bootcamp

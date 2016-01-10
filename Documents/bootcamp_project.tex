@@ -1,13 +1,13 @@
 \documentclass[11pt]{article}
 
-\input{../../LaTeX/preamble.tex}
+\input{../LaTeX/preamble.tex}
 
 % document starts here
 \begin{document}
 \parskip=\bigskipamount
 \parindent=0.0in
 \thispagestyle{empty}
-\input{../../LaTeX/header.tex}
+\input{../LaTeX/header.tex}
 
 \bigskip\bigskip
 \centerline{\Large \bf Data Bootcamp:  Project Guide}
@@ -24,11 +24,12 @@ you can use a link to show others what you've done.
 You will also be able to see what your classmates have done.
 
 The relative absence of structure in self-directed projects like this
-makes them more challenging than most things you'll do in in school.
-They also give you a chance to
-follow your own interests and show off your creativity.
+makes them more challenging than most things you'll do in school.
+That also makes them more interesting.
+They give you a chance to
+indulge your curiosity and show off your creativity.
 
-We have divided the project into a components to keep you on track.
+We have divided the project into components to keep you on track.
 The intent is to make the project easier, by breaking it down into a number
 of small, manageable sub-projects.
 The early steps are graded only on whether you do them:
@@ -60,9 +61,9 @@ The due dates for each one are posted on the course website.
 {\bf Dates are firm and not open for negotiation.}
 
 
-\section*{Project specifics}
+%\section*{Project specifics}
 
-The steps in the project production process are
+The steps consists of 
 \begin{itemize}
 
 \item {\bf Three project ideas.}
@@ -72,13 +73,13 @@ Use your imagination.  Be creative.  Speak to others.
 Write down things that interest you.
 This will not be handed in or graded, but it will give you something to work with later on.
 
-Over the coming weeks, we recommend you keep track of ideas --- {\bf and data sources\/} 
+Over the coming weeks, we recommend you keep track of ideas --- {\bf and data sources\/}
 --- that cross
 your mind as you prepare for further idea development.
 
 
 \item {\bf Three revised project ideas.}
-After giving this more thought, write down three project ideas in slightly more detail.
+After giving this more thought, write down three project ideas in (a little) more detail.
 {\bf Include likely data sources.}
 %Ask questions; we have a lot of experience with this, especially data.
 All together this should be roughly one paragraph per idea and one page overall.
@@ -86,23 +87,23 @@ Like all work in this course, it should be clean and professional.
 We will keep the copy you hand in to use in class, so keep a separate copy for yourself.
 
 \item{\bf Project proposal.}
-Form a group of two or three --- no more ---
+Form a group of between one and three --- no more ---
 and choose a single project from those you submitted ---
 or perhaps some other idea if you get a sudden flash of inspiration.
-Flesh out the project in more detail, including the source of data and
+Flesh out the project in more detail, {\bf including the data source\/} and
 two figures you plan to produce with it.
 Total length should be no more than two pages.
 
 We stress:  you should {\bf be clear about the data} you plan to use.
 If you can't get the data, that can derail your whole project.
 
-{\bf Did we mention data?} 
+{\bf Did we mention data?}
 
 \item {\bf Data report.}
 Describe your data and how you accessed it in enough detail that someone else could do it.
 Include your Python code.  % if you read it directly from an internet source.
-Internet sources are preferred, because others can reproduce your results from your code.
-
+Internet sources are preferred, because it allows others to use your code and
+follow up on your work.
 
 \item {\bf Final project.}
 You should submit your IPython notebook to \href{mailto:db3@nyu.edu}{db3@nyu.edu}
@@ -114,11 +115,15 @@ something like {\tt Jones-Smith-Zhang-India.ipynb}.
 
 Your project should include:
 \begin{itemize}
-\item Title, list of authors, and summary.
-\item Data entry.  Short description of data sources and code to read it
-and reformat it as needed.
-\item A series of figures that tell us something interesting.
-Three or four would be enough, but do what you think best.
+\item Description cell.  Put a Markdown cell at the top of your notebook that 
+   includes the title of your project, a list of authors, and a short summary
+  of what you do.  Think of the last one as an advertisement to potential readers.
+\item Data.  Description of data sources and the code to read the data into Python  
+and reformat it as needed.  
+This should be done in enough detail that someone else can reproduce what you've done.  
+\item Graphics.  A series of figures that tell us something interesting.  
+Three or four would be enough, but do what you think works best for your project.  
+Think about the narrative:  What story do you want to tell?
 \end{itemize}
 We'll post a template.
 \end{itemize}
@@ -133,7 +138,7 @@ Some things to keep in mind:
 Most project ideas turn out to be too big.  You're generally well-advised
 to carve out a manageable subset of what you think you can do.
 There's no reason to worry about this at the idea generation stage,
-but as you complete your project you may find that you need to focus
+but as you develop your project you may find that you need to focus
 more narrowly on a part of it.
 
 \item {\bf Find data.}  Make sure you can get the data you need.
@@ -141,6 +146,8 @@ One way to assure this is to start with data and ask what you can do with it.
 Ideally you want the intersection (picture a Venn diagram) of an interesting
 idea and good data.  You can start with either one, but ideas are often easier to
 find than data.
+Or start with an existing project that uses data you can access yourself.
+
 
 \item {\bf Ask for help.}
 We have years of experience with this kind of thing.
@@ -151,6 +158,6 @@ You can also post a question on the class discussion board.
 
 
 
-\input{../../LaTeX/footer.tex}
+\input{../LaTeX/footer.tex}
 
 \end{document}
