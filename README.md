@@ -1,11 +1,11 @@
 ### Data Bootcamp
 
 ---
-For current information, try the **[Data Bootcamp](http://databootcamp.nyuecon.com/)** course website.  
+For current information and links to related material, try the **[Data Bootcamp](http://databootcamp.nyuecon.com/)** course website.  
 
 ---
 
-We are offering two sections of **[Data Bootcamp](http://databootcamp.nyuecon.com/)** at NYU Stern in **Spring 2016**, one for undergrads (ECON-UB.0232, Tuesday and Thursday, 2-3:15, January 26 to May 10) and one for MBA students (ECON-GB.2313, Wednesday nights, 6-9pm, February 8 to May 9). They are standard for-credit courses at NYU.  
+*November 2015.*  We are offering two sections of **[Data Bootcamp](http://databootcamp.nyuecon.com/)** at NYU Stern in **Spring 2016**, one for undergrads (ECON-UB.0232, Tuesday and Thursday, 2-3:15, January 26 to May 10) and one for MBA students (ECON-GB.2313, Wednesday nights, 6-9pm, February 8 to May 9). They are standard for-credit courses at NYU.  
 
 The course was developed by Stern faculty and students with the assistance and support of executives at **Amazon**.  The immediate goal is to train students to succeed as summer interns and full-time employees of technology companies, but the same skills are valued in finance, marketing, consulting, media, and other areas. We think of it as literacy for the modern age and a selling point in finding a job.   
 
@@ -39,7 +39,9 @@ For the **SQL mini-course**, scroll down.
 
 #### Related information 
 
+<!-- 
 **Our team.**  When we use the word "we" we have in mind the team of Dave Backus, Chase Coleman, Spencer Lyon, and Glenn Okun.  A number of students have helped out as well; see the acknowledgement in [our online book](https://davebackus.gitbooks.io/test/content/).
+--> 
 
 **Related courses.** Several students have asked how Data Bootcamp compares to other courses with significant programming content.  I've put together [a list](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Markdown/related_courses.md#related-courses), but I recommend you ask around.  Data Bootcamp does two things that are unusual:  it's newbie-friendly, and there's a strong emphasis on data.  The latter strikes me as important, in the sense that when you learn to program, it's helpful to have a purpose in mind.  Ours is to collect and manage data.  
 
