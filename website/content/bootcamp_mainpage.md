@@ -4,18 +4,19 @@ type: index
 
 # Data Bootcamp
 
-A [course](http://databootcamp.nyuecon.com/bootcamp_faq/) about Data and Python at NYU's Stern School of Business.  
+A [course](http://databootcamp.nyuecon.com/bootcamp_faq/) exploring **Data** with **Python** at NYU's Stern School of Business.  Aimed at programming novices.  
 
-## Spring 2016 schedule 
-
-* Undergrad:  ECON-UB.0232, Tuesday and Thursday, 2-3:15, KMC 4-80, January 26 to May 10
-* MBA:  ECON-GB.2313, Wednesday nights, 6-9pm, KMC 4-90, February 8 to May 9
+**Quick links:**  [Syllabus](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf) | [Project Guide](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf) | [Outline](/bootcamp_outline) | [UG Due Dates](/bootcamp_duedates_ug) | [MBA Due Dates](/bootcamp_duedates_mba)     
 
 <!--
 Discussion groups:  [UG](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_ug) | [MBA](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_mba)   
 -->
 
-**Quick links:**  [Syllabus](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf) | [Project Guide](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf) | [Outline](/bootcamp_outline) | [UG Due Dates](/bootcamp_duedates_ug) | [MBA Due Dates](/bootcamp_duedates_mba)     
+
+## Spring 2016 schedule 
+
+* **Undergrad:**  ECON-UB.0232, Tuesday and Thursday, 2-3:15, KMC 4-80, January 26 to May 10
+* **MBA:**  ECON-GB.2313, Wednesday nights, 6-9pm, KMC 4-90, February 8 to May 9
 
 
 ## Before the first class
@@ -34,6 +35,7 @@ Dave Backus:  KMC 7-68, [db3@nyu.edu](mailto:db3@nyu.edu), [directions](http://p
 **UG section** <br> Spencer Lyon, co-teacher, [sgl290@nyu.edu](mailto:sgl290@nyu.edu) <br> Brian LeBlanc, teaching fellow, [bl1741@nyu.edu](mailto:bl1741@nyu.edu) 
 
 **MBA section** <br> Chase Coleman, co-teacher, [cc7768@gmail.com](mailto:cc7768@gmail.com) <br> Itamar Snir, teaching fellow, [is1413@stern.nyu.edu](mailto:is1413@stern.nyu.edu)  
+
 
 ## Course materials
 

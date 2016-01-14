@@ -43,6 +43,7 @@ print('Variable dtypes:\n', weo.dtypes, sep='')
 #%%
 """
 Create dictionaries for country codes and variable definitions 
+** Check bootcamp_examples.ipynb for updates 
 """
 varlist = ['ISO', 'Country']
 cty_dict = weo[varlist].drop_duplicates().set_index('ISO').to_dict()['Country']

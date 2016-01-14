@@ -13,6 +13,33 @@ Created with Python 3.5
 import pandas as pd
 import matplotlib.pyplot as plt
 
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# data input
+excelFilePath = '../Temp/Debt Database Fall 2013 Vintage.xlsx'
+debt = pd.read_excel(excelFilePath, sheetname=1, na_values=['…', '….', ''])
+
+debt = debt.drop([debt.columns[1], debt.columns[2]], axis=1)
+
+countries = ['Greece', 'United Kingdom      ', 'United States']
+some = debt[debt['country'].isin(countries)]
+some = some.set_index('country').T
+
+ax = some[countries[1]].plot(color='red') 
+some[countries[0]].dropna().plot(color='blue') 
+some[countries[2]].dropna().plot(color='green') 
+ax.set_title('Ratio of government debt to GDP', fontsize=14, loc='left') 
+ax.set_ylabel('Percent')
+ax.legend(['Greece', 'United Kingdom', 'United States'], loc='upperleft', fontsize=10) 
+
+#%%
+ax = some.dropna().plot() 
+
+
+#%%
+# OLD VERSION BELOW 
+
 # data input 
 excelFilePath = '../Temp/Debt Database Fall 2013 Vintage.xlsx'
 df = pd.read_excel(excelFilePath, sheetname=1, na_values=['…', '….', '']) #, index_col=-1,

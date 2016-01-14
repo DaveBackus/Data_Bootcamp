@@ -388,13 +388,3 @@ ff.describe()
 #%%
 ff.plot()
 ff.boxplot()
-#%%
-"""
-Creating dataframes 
-"""
-# from list of lists (no one does this) 
-#df = pd.DataFrame([['Dave', 1, 2, 3.5], 
-#                   ['Chase', 4, 3, 4.3], 
-#                   ['Spencer', 5, 6, 7.8]],
-#                   columns=['name', 'x1', 'x2', 'x3'])
-#print('\nurl read (df)\n', df)
