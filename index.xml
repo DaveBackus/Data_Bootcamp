@@ -191,7 +191,7 @@
 
 &lt;p&gt;&lt;strong&gt;Should I take this course if I already know how to code?&lt;/strong&gt;  You’re welcome to, and will learn a lot about data and the data components of Python.  But please don’t scare the other students.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Will this course cover SQL?&lt;/strong&gt; Short answer: no. Longer answer: we will use some of the same functionality in Python&amp;rsquo;s data-management tools, but we will not cover SQL explicitly. We will also skip such computer science standards as regular expressions (yes, that&amp;rsquo;s a thing) and data formats (XML, JSON, etc).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Will this course cover SQL?&lt;/strong&gt; Short answer: No. Longer answer: We will use some of the same functionality in Python&amp;rsquo;s data-management tools, but we will not cover SQL explicitly. We will also skip such computer science standards as regular expressions (yes, that&amp;rsquo;s a thing) and data formats (XML, JSON, etc).&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;What if I have other questions?&lt;/strong&gt;  Stop by or email to set up an appointment:  Dave Backus, KMC 7-68, db3@nyu.edu, &lt;a href=&#34;http://pages.stern.nyu.edu/~dbackus/&#34;&gt;directions&lt;/a&gt;.&lt;/p&gt;
 
@@ -216,20 +216,20 @@
 
 &lt;h1 id=&#34;data-bootcamp:ffd489939015ded07a5c1baacc50e9b6&#34;&gt;Data Bootcamp&lt;/h1&gt;
 
-&lt;p&gt;A &lt;a href=&#34;http://databootcamp.nyuecon.com/bootcamp_faq/&#34;&gt;course&lt;/a&gt; about Data and Python at NYU&amp;rsquo;s Stern School of Business.&lt;/p&gt;
+&lt;p&gt;A &lt;a href=&#34;http://databootcamp.nyuecon.com/bootcamp_faq/&#34;&gt;course&lt;/a&gt; exploring &lt;strong&gt;Data&lt;/strong&gt; with &lt;strong&gt;Python&lt;/strong&gt; at NYU&amp;rsquo;s Stern School of Business.  Aimed at programming novices.&lt;/p&gt;
 
-&lt;h2 id=&#34;spring-2016-schedule:ffd489939015ded07a5c1baacc50e9b6&#34;&gt;Spring 2016 schedule&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Undergrad:  ECON-UB.0232, Tuesday and Thursday, 2-3:15, KMC 4-80, January 26 to May 10&lt;/li&gt;
-&lt;li&gt;MBA:  ECON-GB.2313, Wednesday nights, 6-9pm, KMC 4-90, February 8 to May 9&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Quick links:&lt;/strong&gt;  &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf&#34;&gt;Syllabus&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf&#34;&gt;Project Guide&lt;/a&gt; | &lt;a href=&#34;http://databootcamp.nyuecon.com/bootcamp_outline&#34;&gt;Outline&lt;/a&gt; | &lt;a href=&#34;http://databootcamp.nyuecon.com/bootcamp_duedates_ug&#34;&gt;UG Due Dates&lt;/a&gt; | &lt;a href=&#34;http://databootcamp.nyuecon.com/bootcamp_duedates_mba&#34;&gt;MBA Due Dates&lt;/a&gt;&lt;/p&gt;
 
 &lt;!--
 Discussion groups:  [UG](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_ug) | [MBA](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_mba)   
 --&gt;
 
-&lt;p&gt;&lt;strong&gt;Quick links:&lt;/strong&gt;  &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf&#34;&gt;Syllabus&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf&#34;&gt;Project Guide&lt;/a&gt; | &lt;a href=&#34;http://databootcamp.nyuecon.com/bootcamp_outline&#34;&gt;Outline&lt;/a&gt; | &lt;a href=&#34;http://databootcamp.nyuecon.com/bootcamp_duedates_ug&#34;&gt;UG Due Dates&lt;/a&gt; | &lt;a href=&#34;http://databootcamp.nyuecon.com/bootcamp_duedates_mba&#34;&gt;MBA Due Dates&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;spring-2016-schedule:ffd489939015ded07a5c1baacc50e9b6&#34;&gt;Spring 2016 schedule&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Undergrad:&lt;/strong&gt;  ECON-UB.0232, Tuesday and Thursday, 2-3:15, KMC 4-80, January 26 to May 10&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MBA:&lt;/strong&gt;  ECON-GB.2313, Wednesday nights, 6-9pm, KMC 4-90, February 8 to May 9&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&#34;before-the-first-class:ffd489939015ded07a5c1baacc50e9b6&#34;&gt;Before the first class&lt;/h2&gt;
 
