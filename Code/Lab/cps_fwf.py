@@ -1,14 +1,16 @@
 """
 CPS data entry experiments for Data Bootcamp course   
 
-Sources
-* http://thedataweb.rm.census.gov/ftp/cps_ftp.html#cpsbasic
-* http://www.nber.org/cps/ 
-* http://pandas.pydata.org/pandas-docs/version/0.17.0/generated/pandas.read_fwf.html
+Goal is to reproduce 
+http://esoltas.blogspot.com/2014/04/how-big-is-gender-pay-gap_10.html
 
-Repository of materials (including this file): 
-* https://github.com/DaveBackus/Data_Bootcamp/
-* https://github.com/DaveBackus/Data_Bootcamp/Code/Python  
+Links and docs  
+http://thedataweb.rm.census.gov/ftp/cps_ftp.html
+http://thedataweb.rm.census.gov/pub/cps/basic/201501-/January_2015_Record_Layout.txt
+http://thedataweb.rm.census.gov/pub/cps/march/asec2015early_pubuse.dd.txt
+https://en.wikipedia.org/wiki/Current_population_survey_(US)
+
+Data Bootcamp @ NYU Stern:  http://databootcamp.nyuecon.com/
 
 Written by Dave Backus, December 2015  
 Created with Python 3.5  
@@ -24,19 +26,29 @@ print('Pandas version: ', pd.__version__)
 
 #%%   
 """
-Reading fixed width files 
-http://pandas.pydata.org/pandas-docs/version/0.17.0/generated/pandas.read_fwf.html 
-Input file is 
-1234567890
-2345678901
-3456789012
+CPS data entry from GNU zipped files 
 """
-import pandas as pd 
+import pandas as pd
 
-fixed = pd.read_fwf('fixedformatdata.txt', 
-                    colspecs=[(0,2), (3,6)],     # column n1 to n2-1 
-                    names=['x1', 'x2'],
+url_march = 'http://thedataweb.rm.census.gov/pub/cps/march/asec2015_pubuse.dat.gz' 
+
+#codes = [('RECORD', 1, 1, '1=hh, 2=fam, 3=per'), 
+#         ()]
+
+march = pd.read_fwf(url_march, 
+                    compression='gzip',
+                    colspecs=[(0,1), (1,5), (5,7)],    
+                    names=['HRECORD', 'SEQ', 'POS'],
+                    nrows = 10, 
                     header=None) 
+march
 
-print('\nFixed-format file \n', fixed)
-
+#%%
+url_basic = 'http://thedataweb.rm.census.gov/pub/cps/basic/201501-/nov15pub.dat.gz' 
+basic = pd.read_fwf(url_basic, 
+                    compression='gzip',
+                    colspecs=[(0,15), (17,21), (60,61), (90,91), (92,94)],     
+                    names=['HRHHID', 'HRYEAR4', 'HRHTYPE', 'GEDIV', 'GESTFIPS'],
+                    nrows = 200, 
+                    header=None) 
+print(basic)
