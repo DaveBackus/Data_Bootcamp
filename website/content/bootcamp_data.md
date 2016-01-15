@@ -36,6 +36,8 @@ Here are some we have used:
 
 * **ACS.** The [American Community Survey](https://www.census.gov/programs-surveys/acs/) from the US Census covers demography (age, sex, ethnicity), economics (employment and income), education, and many other [subjects](https://www.census.gov/programs-surveys/acs/guidance/subjects.html). The [Public Use Microdata Sample](https://www.census.gov/programs-surveys/acs/technical-documentation/pums.html) (PUMS) contains individual responses. This [guide](https://source.opennews.org/en-US/learning/how-use-census-bureau-american-community-survey/) was written for journalists. 
 
+* **CPS.** The [Current Population Survey] has information about employment status, income, and a broad range of demographic variables (age, education, ethnicity).  The University of Minnesota has a [web interface](https://cps.ipums.org/cps/) that lots of people use.  
+
 * **ATUS.**  The [American Time Use Survey](http://www.bls.gov/tus/) describes how people spend their time:  employed, doing housework, watching tv, etc.  This [article](http://scholar.princeton.edu/sites/default/files/annurev-economics-111809-125129_0.pdf) summarizes academic work done on similar surveys in many countries.  
 
 * **MEPS.**  The [Medical Expenditure Panel Survey](http://meps.ahrq.gov/mepsweb/) is the leading source of information about individual healthcare, including insurance status and expenditures.  
