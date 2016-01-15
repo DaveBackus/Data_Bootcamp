@@ -27,22 +27,31 @@ print('Pandas version: ', pd.__version__)
 #%%   
 """
 CPS data entry from GNU zipped files 
+code format:  tuples are (a, b, c, d)
+    a = varable name, b = size, c = begin, d = description 
 """
 import pandas as pd
 
 url_march = 'http://thedataweb.rm.census.gov/pub/cps/march/asec2015_pubuse.dat.gz' 
 
-#codes = [('RECORD', 1, 1, '1=hh, 2=fam, 3=per'), 
-#         ()]
+codes = [('RECORD', 1, 1, '1=hh, 2=fam, 3=per'), 
+         ('SEQ', 5, 2, 'hh sequence number'), 
+         ('HRSWAGE', 4, 187, 'hourly wage')]
+         
+colnumbs = [(x[2]-1, x[2]-1+x[1]) for x in codes]         
+colnames = [x[0] for x in codes]       
 
 march = pd.read_fwf(url_march, 
-                    compression='gzip',
-                    colspecs=[(0,1), (1,5), (5,7)],    
-                    names=['HRECORD', 'SEQ', 'POS'],
-                    nrows = 10, 
+                    compression='gzip',  # why needed? 
+                    colspecs=colnumbs, 
+                    names=colnames,
+                    nrows = 50, 
                     header=None) 
-march
+march 
 
+#%%
+g = march.groupby(['HRECORD'])['SEQ', 'POS']
+g
 #%%
 url_basic = 'http://thedataweb.rm.census.gov/pub/cps/basic/201501-/nov15pub.dat.gz' 
 basic = pd.read_fwf(url_basic, 

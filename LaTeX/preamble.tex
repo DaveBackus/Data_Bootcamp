@@ -41,3 +41,11 @@
 % example:  \needspace{4\baselineskip} makes sure we have four lines available before pagebreak
 
 \usepackage{verbatim}
+
+
+% Make single quotes print properly in verbatim
+\makeatletter
+\let \@sverbatim \@verbatim
+\def \@verbatim {\@sverbatim \verbatimplus}
+{\catcode`'=13 \gdef \verbatimplus{\catcode`'=13 \chardef '=13 }}
+\makeatother

@@ -217,6 +217,8 @@ ff.describe
 ffbar = ff.mean()
 ffstd = ff.std()
 
+ff.plot(kind='kde', subplots=True)
+
 #fig, ax = plt.
 #ffbar.plot(kind='barh', alpha=0.5)
 #plt.title('Mean returns', fontsize=14, loc='left')

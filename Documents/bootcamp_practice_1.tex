@@ -26,7 +26,94 @@ y = 2*y
 z = x + y
 \end{verbatim}
 
-\item ..
+\item What will be the value of \texttt{y} after running these statements in order? Why?
+\begin{verbatim}
+x = 3
+y = x
+x = 10
+y
+\end{verbatim}
+
+\item What will be the value of \texttt{x} after running these statements in order? Why?
+\begin{verbatim}
+x = 3
+x = x + 3
+x -= 3
+x
+\end{verbatim}
+
+\item Will this code run without errors? Why?
+\begin{verbatim}
+x = 3
+y = '24'
+y / x
+\end{verbatim}
+
+What about this?
+\begin{verbatim}
+x = 3
+y = 24
+y / x
+\end{verbatim}
+
+\item Will this code run without errors? Why? If it does run, what is the value of \texttt{x}?
+\begin{verbatim}
+x = "I am a #string"  # Whoa, a string
+\end{verbatim}
+
+\item Will this code run without errors? Why? If it does run, what is the value of \texttt{z}?
+\begin{verbatim}
+x = [1, 2, 3]
+y = [42, 43]
+z = x + y
+\end{verbatim}
+
+\item What does each line do below? Why?
+\begin{verbatim}
+type(42)
+type(42.0)
+type('42.0')
+type("42.0")
+type("""42.0""")
+type([1, 2])
+type([1] + [2])
+type(1 + 2)
+type(print)
+
+# warning, this one is tricky
+type(float(str(int(str(1)))))
+\end{verbatim}
+
+\item What does each line do below? Why?
+\begin{verbatim}
+len([113423])
+len("113423")
+len(113423)  # watch out!
+\end{verbatim}
+
+\item How would you convert \texttt{x} to title case (first letter of each word capitalized)? Hint: Use tab completion to find a method
+\begin{verbatim}
+x = "luke, i am your father"
+\end{verbatim}
+
+\item (challenging) Have python figure out how many words are in this string. Hint, use a method and a function. % Answer len(x.split())
+\begin{verbatim}
+x = "Have python figure out how many words are in this string."
+\end{verbatim}
+
+\item What python code would tell you how to write \texttt{x} below as a fraction of two integers? What are those integers? Hint: use a method % Answer: x.as_integer_ratio()
+\begin{verbatim}
+x = 0.1234
+\end{verbatim}
+
+\item What does the \texttt{join} method of a string do? Hint: Use spyder's IPython console and a question mark
+
+\item (challenging) Convert \texttt{x} into a string. Hint: use \texttt{join} % Answer: "".join(x)
+\begin{verbatim}
+x = ['H', 'e', 'l', 'l', 'o', ',', ' ', 'W', 'o', 'r', 'l', 'd', '!']
+\end{verbatim}
+
+
 
 \end{questions}
 
