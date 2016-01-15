@@ -59,6 +59,8 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;ACS.&lt;/strong&gt; The &lt;a href=&#34;https://www.census.gov/programs-surveys/acs/&#34;&gt;American Community Survey&lt;/a&gt; from the US Census covers demography (age, sex, ethnicity), economics (employment and income), education, and many other &lt;a href=&#34;https://www.census.gov/programs-surveys/acs/guidance/subjects.html&#34;&gt;subjects&lt;/a&gt;. The &lt;a href=&#34;https://www.census.gov/programs-surveys/acs/technical-documentation/pums.html&#34;&gt;Public Use Microdata Sample&lt;/a&gt; (PUMS) contains individual responses. This &lt;a href=&#34;https://source.opennews.org/en-US/learning/how-use-census-bureau-american-community-survey/&#34;&gt;guide&lt;/a&gt; was written for journalists.&lt;/p&gt;&lt;/li&gt;
 
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;CPS.&lt;/strong&gt; The [Current Population Survey] has information about employment status, income, and a broad range of demographic variables (age, education, ethnicity).  The University of Minnesota has a &lt;a href=&#34;https://cps.ipums.org/cps/&#34;&gt;web interface&lt;/a&gt; that lots of people use.&lt;/p&gt;&lt;/li&gt;
+
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;ATUS.&lt;/strong&gt;  The &lt;a href=&#34;http://www.bls.gov/tus/&#34;&gt;American Time Use Survey&lt;/a&gt; describes how people spend their time:  employed, doing housework, watching tv, etc.  This &lt;a href=&#34;http://scholar.princeton.edu/sites/default/files/annurev-economics-111809-125129_0.pdf&#34;&gt;article&lt;/a&gt; summarizes academic work done on similar surveys in many countries.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;MEPS.&lt;/strong&gt;  The &lt;a href=&#34;http://meps.ahrq.gov/mepsweb/&#34;&gt;Medical Expenditure Panel Survey&lt;/a&gt; is the leading source of information about individual healthcare, including insurance status and expenditures.&lt;/p&gt;&lt;/li&gt;
@@ -220,10 +222,6 @@
 
 &lt;p&gt;&lt;strong&gt;Quick links:&lt;/strong&gt;  &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf&#34;&gt;Syllabus&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf&#34;&gt;Project Guide&lt;/a&gt; | &lt;a href=&#34;http://databootcamp.nyuecon.com/bootcamp_outline&#34;&gt;Outline&lt;/a&gt; | &lt;a href=&#34;http://databootcamp.nyuecon.com/bootcamp_duedates_ug&#34;&gt;UG Due Dates&lt;/a&gt; | &lt;a href=&#34;http://databootcamp.nyuecon.com/bootcamp_duedates_mba&#34;&gt;MBA Due Dates&lt;/a&gt;&lt;/p&gt;
 
-&lt;!--
-Discussion groups:  [UG](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_ug) | [MBA](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_mba)   
---&gt;
-
 &lt;h2 id=&#34;spring-2016-schedule:ffd489939015ded07a5c1baacc50e9b6&#34;&gt;Spring 2016 schedule&lt;/h2&gt;
 
 &lt;ul&gt;
@@ -255,8 +253,8 @@ Discussion groups:  [UG](https://groups.google.com/forum/#!forum/nyu_data_bootca
 
 &lt;ul&gt;
 &lt;li&gt;Our &lt;a href=&#34;https://www.gitbook.com/book/davebackus/test/details&#34;&gt;book&lt;/a&gt; (work in progress)&lt;/li&gt;
-&lt;li&gt;Our &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp#data-bootcamp&#34;&gt;repository&lt;/a&gt; (collection of documents and programs)&lt;/li&gt;
-&lt;li&gt;Or search:  nyu data bootcamp&lt;/li&gt;
+&lt;li&gt;Our collection of documents and programs:  &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp&#34;&gt;everything&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/tree/master/Code/Python&#34;&gt;Python programs&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/tree/master/Code/IPython&#34;&gt;IPython notebooks&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/tree/master/Code/Lab&#34;&gt;Experiments&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Or search:  &lt;a href=&#34;http://lmgtfy.com/?q=nyu+data+bootcamp&#34;&gt;nyu data bootcamp&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
