@@ -39,4 +39,4 @@ In addition to the quick links at the top, keep in mind:
 
 * Our **[book](https://www.gitbook.com/book/davebackus/test/details)** (work in progress)
 * Our **collection of documents**:  [Everything](https://github.com/DaveBackus/Data_Bootcamp) | [Python programs](https://github.com/DaveBackus/Data_Bootcamp/tree/master/Code/Python) | [IPython notebooks](https://github.com/DaveBackus/Data_Bootcamp/tree/master/Code/IPython) | [Experiments](https://github.com/DaveBackus/Data_Bootcamp/tree/master/Code/Lab)
-* Or search:  [nyu data bootcamp](http://lmgtfy.com/?q=nyu+data+bootcamp)
+* Or **search**:  [nyu data bootcamp](http://lmgtfy.com/?q=nyu+data+bootcamp)
