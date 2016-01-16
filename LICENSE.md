@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) 2014-15 by David Backus, Chase Coleman, Spencer Lyon, and Glenn Okun
+Copyright (c) 2014-16 by David Backus, Chase Coleman, Spencer Lyon, and Glenn Okun
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
