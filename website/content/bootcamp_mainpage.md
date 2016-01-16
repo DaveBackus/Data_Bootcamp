@@ -4,14 +4,14 @@ type: index
 
 # Data Bootcamp
 
-A [course](http://databootcamp.nyuecon.com/bootcamp_faq/) exploring **Data** with **Python** at NYU's Stern School of Business.  Aimed at programming newbies.  
+A [course](http://databootcamp.nyuecon.com/bootcamp_faq/) exploring economic and financial **Data** with **Python** at NYU's Stern School of Business.  Aimed at programming newbies.  
 **Quick links:**  [Syllabus](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf) | [Project Guide](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf) | [Outline](/bootcamp_outline) | [UG Due Dates](/bootcamp_duedates_ug) | [MBA Due Dates](/bootcamp_duedates_mba)     
 
 
 ## Spring 2016 schedule 
 
-* **Undergrad:**  ECON-UB.0232, Tuesday and Thursday, 2-3:15, KMC 4-80, January 26 to May 10
-* **MBA:**  ECON-GB.2313, Wednesday nights, 6-9pm, KMC 4-90, February 8 to May 9
+* **Undergrad:**  ECON-UB.0232, Tuesday and Thursday, 2-3:15, KMC 4-80, January 26 to May 5
+* **MBA:**  ECON-GB.2313, Wednesday nights, 6-9pm, KMC 4-90, February 10 to May 4
 
 
 ## Before the first class

@@ -58,5 +58,10 @@ orders.plot(kind='hist', subplots=True)
 orders.describe()
 
 #%%
+desc = chp.groupby(['item_name', 'choice_description'])['order_id'].count().reset_index(name='count')
+
+# kinds of chicken bowls 
+cb = desc[desc['item_name'].str.contains('Chicken Bowl')][-3:]
+#cb.sort(['count']), ascending=False)[:10]
 
 

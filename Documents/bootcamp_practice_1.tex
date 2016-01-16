@@ -13,62 +13,93 @@
 \centerline{\Large \bf Data Bootcamp:  Code Practice \#1}
 \centerline{Revised: \today}
 
+
 \begin{questions}
-\item Describe what does each of these expressions produces in basic Python if run in order:
+\item Describe and explain what each of these expressions produces in basic Python if run in order.
 \begin{verbatim}
 2+5
 2 + 5
-5**2
-x = 3
-x = x/2
-y = 'abc'
-y = 2*y
-z = x + y
+2*5 
+2/5 
+2**5
 \end{verbatim}
 
-\item What will be the value of \texttt{y} after running these statements in order? Why?
+\item What is the value of \texttt{x} after running these statements in order? Why?
+\begin{verbatim}
+x = 7
+x = x + 3
+\end{verbatim}
+
+\item What is the value of \texttt{y} after running these statements in order? 
+Of \texttt{x}?  Why?
 \begin{verbatim}
 x = 3
 y = x
 x = 10
-y
 \end{verbatim}
 
-\item What will be the value of \texttt{x} after running these statements in order? Why?
+\item Does this code run without error?  If so, what does it produce?  If not, explain why.
 \begin{verbatim}
 x = 3
-x = x + 3
-x -= 3
-x
+x = x/2
+y = 'abc'
+z = y + y 
+print('Answers:', x, z)
 \end{verbatim}
 
-\item Will this code run without errors? Why?
+\item Does this code run without error?  If so, what does it produce?  If not, explain why.  
 \begin{verbatim}
 x = 3
-y = '24'
-y / x
+x = x/2
+y = 'abc'
+z = x + y 
+print(x,z)
 \end{verbatim}
 
-What about this?
+\item Does this code run without error?  If so, what does it produce?  If not, explain why.
 \begin{verbatim}
 x = 3
 y = 24
-y / x
+z = y / x
+print(z)
 \end{verbatim}
 
-\item Will this code run without errors? Why? If it does run, what is the value of \texttt{x}?
+\item Does this code run without error?  If so, what does it produce?  If not, explain why.
 \begin{verbatim}
-x = "I am a #string"  # Whoa, a string
+x = 3
+y = '24'
+z = y / x
+print(x, z) 
 \end{verbatim}
 
-\item Will this code run without errors? Why? If it does run, what is the value of \texttt{z}?
+\item Does this code run without error?  If so, what does it produce?  If not, explain why.
+\begin{verbatim}
+x = "I am a #string"  # Whoa, a string!
+\end{verbatim}
+
+\item Does this code run without error?  If so, what does it produce?  If not, explain why.
 \begin{verbatim}
 x = [1, 2, 3]
 y = [42, 43]
 z = x + y
+print(z) 
 \end{verbatim}
 
-\item What does each line do below? Why?
+\item Does this code run without error?  If so, what does it produce?  If not, explain why.
+\begin{verbatim}
+x = [1, 2, 3]
+y = 42 
+z = x + y
+\end{verbatim}
+
+\item What ``types'' are 
+\begin{verbatim}
+12
+12.0 
+'12.0'
+\end{verbatim} 
+
+\item Explain the result of each line:  
 \begin{verbatim}
 type(42)
 type(42.0)
@@ -79,41 +110,77 @@ type([1, 2])
 type([1] + [2])
 type(1 + 2)
 type(print)
+\end{verbatim}
 
-# warning, this one is tricky
+\item Explain the result of this statement:    
+\begin{verbatim}
 type(float(str(int(str(1)))))
 \end{verbatim}
 
-\item What does each line do below? Why?
+\needspace{2\baselineskip}
+\item Explain each line:  
 \begin{verbatim}
 len([113423])
 len("113423")
-len(113423)  # watch out!
+len(113423)    
 \end{verbatim}
 
-\item How would you convert \texttt{x} to title case (first letter of each word capitalized)? Hint: Use tab completion to find a method
+
+\item Convert the string \texttt{x = 'abcde'} to a list.  What does it look like?  
+
+\item {\it Challenging.\/}
+Consider the integer \texttt{x = 1234}. 
+\begin{parts}
+\item Convert \texttt{x} to a floating point number.
+\item Convert \texttt{x} to a string.
+\item Convert \texttt{x} to the list 
+\begin{verbatim}
+['1', '2', '3', '4'] 
+\end{verbatim} 
+
+\end{parts} 
+
+\item {\it Challenging.\/}
+How would you convert \texttt{x} to ``title case'' (first letter of each word capitalized)?
+{\it Hint:\/} Use tab completion to find an appropriate method.
 \begin{verbatim}
 x = "luke, i am your father"
 \end{verbatim}
 
-\item (challenging) Have python figure out how many words are in this string. Hint, use a method and a function. % Answer len(x.split())
+\item {\it Challenging.\/} Consider the string 
 \begin{verbatim}
-x = "Have python figure out how many words are in this string."
+x = "How many characters and words are in this string?"
 \end{verbatim}
-
-\item What python code would tell you how to write \texttt{x} below as a fraction of two integers? What are those integers? Hint: use a method % Answer: x.as_integer_ratio()
-\begin{verbatim}
-x = 0.1234
-\end{verbatim}
-
-\item What does the \texttt{join} method of a string do? Hint: Use spyder's IPython console and a question mark
-
-\item (challenging) Convert \texttt{x} into a string. Hint: use \texttt{join} % Answer: "".join(x)
-\begin{verbatim}
-x = ['H', 'e', 'l', 'l', 'o', ',', ' ', 'W', 'o', 'r', 'l', 'd', '!']
-\end{verbatim}
+\begin{parts}
+\item How many characters does \texttt{x} contain?    
+\item Convert \texttt{x} to a list of individual characters.
+\item Convert \texttt{x} to a list of individual words.    
+\item How many words does \texttt{x} contain?  
+\end{parts}
+% Answer len(x.split())
 
 
+%\item Explain the following
+%\begin{parts}
+%\item Integer
+%\item String
+%\item Floating point number
+%\item Type conversion.
+%\end{parts}
+
+
+%\item What python code would tell you how to write \texttt{x} below as a fraction of two integers? What are those integers? Hint: use a method % Answer: x.as_integer_ratio()
+%\begin{verbatim}
+%x = 0.1234
+%\end{verbatim}
+
+%\item What does the \texttt{join} method of a string do?
+%{\it Hint:\/} Use Spyder's IPython console and a question mark.
+%
+%\item (challenging) Convert \texttt{x} into a string. Hint: use \texttt{join} % Answer: "".join(x)
+%\begin{verbatim}
+%x = ['H', 'e', 'l', 'l', 'o', ',', ' ', 'W', 'o', 'r', 'l', 'd', '!']
+%\end{verbatim}
 
 \end{questions}
 
