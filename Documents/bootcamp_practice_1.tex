@@ -15,7 +15,7 @@
 
 
 \begin{questions}
-\item Describe and explain what each of these expressions produces in basic Python if run in order.
+\item Describe and explain what each of these expressions produces in basic Python: 
 \begin{verbatim}
 2+5
 2 + 5
@@ -44,7 +44,7 @@ x = 3
 x = x/2
 y = 'abc'
 z = y + y 
-print('Answers:', x, z)
+print(x, z)
 \end{verbatim}
 
 \item Does this code run without error?  If so, what does it produce?  If not, explain why.  
@@ -53,7 +53,7 @@ x = 3
 x = x/2
 y = 'abc'
 z = x + y 
-print(x,z)
+print(x, z)
 \end{verbatim}
 
 \item Does this code run without error?  If so, what does it produce?  If not, explain why.
@@ -61,7 +61,7 @@ print(x,z)
 x = 3
 y = 24
 z = y / x
-print(z)
+print(x, y, z, sep=' | ')
 \end{verbatim}
 
 \item Does this code run without error?  If so, what does it produce?  If not, explain why.
@@ -94,9 +94,10 @@ z = x + y
 
 \item What ``types'' are 
 \begin{verbatim}
-12
-12.0 
-'12.0'
+x1 = 12
+x2 = 12.0 
+x3 = '12.0'
+x4 = [12, 12.0, '12.0']
 \end{verbatim} 
 
 \item Explain the result of each line:  
@@ -120,9 +121,9 @@ type(float(str(int(str(1)))))
 \needspace{2\baselineskip}
 \item Explain each line:  
 \begin{verbatim}
-len([113423])
-len("113423")
-len(113423)    
+len([123456])
+len("123456")
+len(123456)    
 \end{verbatim}
 
 
