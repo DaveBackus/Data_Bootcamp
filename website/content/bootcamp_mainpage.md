@@ -5,7 +5,6 @@ type: index
 # Data Bootcamp
 
 A [course](http://databootcamp.nyuecon.com/bootcamp_faq/) exploring **Data** with **Python** at NYU's Stern School of Business.  Aimed at programming newbies.  
-
 **Quick links:**  [Syllabus](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf) | [Project Guide](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf) | [Outline](/bootcamp_outline) | [UG Due Dates](/bootcamp_duedates_ug) | [MBA Due Dates](/bootcamp_duedates_mba)     
 
 

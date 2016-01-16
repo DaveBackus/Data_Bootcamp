@@ -1,10 +1,10 @@
 # Data Bootcamp:  MBA Due Dates 
 
-Due dates for Data Bootcamp @ NYU Stern, Spring 2016, MBA section.  Deliverables are due at the start of class on the dates listed below.   
+Due dates for Data Bootcamp @ NYU Stern, Spring 2016, MBA section.  Deliverables are due at the start of class on the dates listed.   
 
-**February 10** <br> First class, nothing due.  Bring your computer to class.
+**February 10** <br> First class, bring your computer.  
 
-**February 17** <br> If you haven't already, complete the [entry poll](https://docs.google.com/forms/d/1N7ugrqIQNHm_e1BLVAtaRMnC8SmSiTDMoYBy_0FYZic/viewform) and sign up for [discussion group](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_mba).  Read the syllabus.  
+**February 17** <br> If you haven't already, complete the [entry poll](https://docs.google.com/forms/d/1N7ugrqIQNHm_e1BLVAtaRMnC8SmSiTDMoYBy_0FYZic/viewform) and sign up for the [discussion group](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_mba).  Read the [syllabus](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf).  
 
 **February 24** <br> Submit answers to [Code Practice #1](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_1.pdf).
 
@@ -20,7 +20,7 @@ Due dates for Data Bootcamp @ NYU Stern, Spring 2016, MBA section.  Deliverables
 
 **March 30** <br> Exam (75 minutes, in class, bring one page of notes).  Recommended but not graded:  [Optional Code Practice B](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_b.pdf).
 
-**April 6** <br> Nothing due; look for group members and project idea.   
+**April 6** <br> Nothing due; look for group members and project idea.  
 
 **April 13** <br> Submit [Project Proposal](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf).  Recommended but not graded: [Optional Code Practice C](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_c.pdf).
 
