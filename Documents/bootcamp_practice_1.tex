@@ -13,14 +13,17 @@
 \centerline{\Large \bf Data Bootcamp:  Code Practice \#1}
 \centerline{Revised: \today}
 
+{\it Answer each of the questions below.
+Answers should include any code you wrote to find your answer.
+They can be handwritten, but they must be readable and look professional.}
 
 \begin{questions}
-\item Describe and explain what each of these expressions produces in basic Python: 
+\item Describe and explain what each of these expressions produces in basic Python:
 \begin{verbatim}
 2+5
 2 + 5
-2*5 
-2/5 
+2*5
+2/5
 2**5
 \end{verbatim}
 
@@ -30,7 +33,7 @@ x = 7
 x = x + 3
 \end{verbatim}
 
-\item What is the value of \texttt{y} after running these statements in order? 
+\item What is the value of \texttt{y} after running these statements in order?
 Of \texttt{x}?  Why?
 \begin{verbatim}
 x = 3
@@ -43,16 +46,16 @@ x = 10
 x = 3
 x = x/2
 y = 'abc'
-z = y + y 
+z = y + y
 print(x, z)
 \end{verbatim}
 
-\item Does this code run without error?  If so, what does it produce?  If not, explain why.  
+\item Does this code run without error?  If so, what does it produce?  If not, explain why.
 \begin{verbatim}
 x = 3
 x = x/2
 y = 'abc'
-z = x + y 
+z = x + y
 print(x, z)
 \end{verbatim}
 
@@ -69,7 +72,7 @@ print(x, y, z, sep=' | ')
 x = 3
 y = '24'
 z = y / x
-print(x, z) 
+print(x, z)
 \end{verbatim}
 
 \item Does this code run without error?  If so, what does it produce?  If not, explain why.
@@ -82,25 +85,26 @@ x = "I am a #string"  # Whoa, a string!
 x = [1, 2, 3]
 y = [42, 43]
 z = x + y
-print(z) 
+print(z)
 \end{verbatim}
 
 \item Does this code run without error?  If so, what does it produce?  If not, explain why.
 \begin{verbatim}
 x = [1, 2, 3]
-y = 42 
+y = 42
 z = x + y
 \end{verbatim}
 
-\item What ``types'' are 
+\item What ``types'' are
 \begin{verbatim}
 x1 = 12
-x2 = 12.0 
+x2 = 12.0
 x3 = '12.0'
-x4 = [12, 12.0, '12.0']
-\end{verbatim} 
+x4 = [12]
+x5 = [12, 12.0, '12.0']
+\end{verbatim}
 
-\item Explain the result of each line:  
+\item Explain the result of each line:
 \begin{verbatim}
 type(42)
 type(42.0)
@@ -113,33 +117,40 @@ type(1 + 2)
 type(print)
 \end{verbatim}
 
-\item Explain the result of this statement:    
+\item Describe and explain the result of this statement:
 \begin{verbatim}
-type(float(str(int(str(1)))))
+type(float(str(int('1234'))))
 \end{verbatim}
 
 \needspace{2\baselineskip}
-\item Explain each line:  
+\item Describe and explain the result of this statement:
 \begin{verbatim}
-len([123456])
-len("123456")
-len(123456)    
+type(int(float('12.34')))
 \end{verbatim}
 
+\item Explain each line:
+\begin{verbatim}
+len([1234])
+len("1234")
+len(1234)
+\end{verbatim}
 
-\item Convert the string \texttt{x = 'abcde'} to a list.  What does it look like?  
+\item What are the type and length of \texttt{x = []}?
+
+
+\item Convert the string \texttt{x = 'abcde'} to a list.  What does it look like?
 
 \item {\it Challenging.\/}
-Consider the integer \texttt{x = 1234}. 
+Consider the integer \texttt{x = 1234}.
 \begin{parts}
 \item Convert \texttt{x} to a floating point number.
 \item Convert \texttt{x} to a string.
-\item Convert \texttt{x} to the list 
+\item Convert \texttt{x} to the list
 \begin{verbatim}
-['1', '2', '3', '4'] 
-\end{verbatim} 
+['1', '2', '3', '4']
+\end{verbatim}
 
-\end{parts} 
+\end{parts}
 
 \item {\it Challenging.\/}
 How would you convert \texttt{x} to ``title case'' (first letter of each word capitalized)?
@@ -148,15 +159,17 @@ How would you convert \texttt{x} to ``title case'' (first letter of each word ca
 x = "luke, i am your father"
 \end{verbatim}
 
-\item {\it Challenging.\/} Consider the string 
+\item {\it Challenging.\/} Consider the string
 \begin{verbatim}
 x = "How many characters and words are in this string?"
 \end{verbatim}
 \begin{parts}
-\item How many characters does \texttt{x} contain?    
+\item How many characters does \texttt{x} contain?
 \item Convert \texttt{x} to a list of individual characters.
-\item Convert \texttt{x} to a list of individual words.    
-\item How many words does \texttt{x} contain?  
+\item Convert \texttt{x} to a list of individual words.
+{\it Hint:\/}  Use tab completion to find a method that splits \texttt{x}
+into pieces.
+\item How many words does \texttt{x} contain?
 \end{parts}
 % Answer len(x.split())
 

@@ -1,4 +1,4 @@
-\documentclass[11pt]{article}
+\documentclass[11pt]{exam}
 
 \input{../../LaTeX/preamble.tex}
 
@@ -13,6 +13,87 @@
 \centerline{\Large \bf Data Bootcamp:  Code Practice \#3}
 \centerline{Revised: \today}
 
+{\it Answer each of the questions below.
+Answers should include any code you wrote to find your answer.  
+They can be handwritten, but they must be readable and look professional.}
 
 
-\end{document} 
+Run this code to produce the dataframe \texttt{weo}:  
+\vspace{-0.15in} 
+\begin{verbatim}
+import pandas as pd 
+data = {'BRA': [13.37, 13.30, 14.34, 15.07, 15.461625, 15.98, 16.10],
+        'JPN': [33.43, 31.83, 33.71, 34.29, 35.60, 36.79, 37.39],
+        'USA': [48.30, 46.91, 48.31, 49.72, 51.41, 52.94, 54.60], 
+        'Year': [2008, 2009, 2010, 2011, 2012, 2013, 2014]}
+weo  = pd.DataFrame(data)
+\end{verbatim}
+\vspace{-0.15in} 
+The numbers are GDP per person in thousands of US dollars, 2008 to 2014, 
+variable PPPPC in the World Economic Outlook database. 
+The code is at the bottom of 
+\href{https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_pandas_1.py}
+{this program}; 
+you can cut and paste it from there to save time and effort. 
+
+
+\begin{questions}
+\item {\it Review.\/}  Something about:  objects and methods.  Help.  Dictionaries.  Types.  
+
+\item In the code at the top, explain these components:
+\begin{parts}
+\item The \texttt{import} statement.
+\item The data dictionary.   
+\item The \texttt{pd.} in the last line. 
+\end{parts} 
+
+\item Describe the structure of \texttt{weo}.  What are its dimensions?  
+Its column labels? Its row labels?  
+
+\item What ``type'' is \texttt{weo['BRA']}?
+What does this mean in non-technical language?   
+
+\item Create a new variable equal to the ratio of Brazilian to US GDP per capita.  
+What is its value in 2014?  
+
+\item What method would you use to ``export'' the dataframe as an Excel spreadsheet?  
+Verify that it works by opening the spreadsheet you create.  
+
+\item Describe the result of the statement \texttt{t = weo.tail(3)}.  
+What kind of object is \texttt{t}?  What does it look like?  
+
+\item How would you create a new dataframe that consists of the first 4 rows of \texttt{weo}?  
+
+\item Set the ``index'' to the \texttt{Year} variable.
+Does this change the dimensions of the dataframe?
+
+\item Change the variable names from country codes to country names:  
+Brazil, Japan, and the United States.  
+
+\item What method would you use to compute the mean for each country?
+What are the means?  
+
+\item {\it Challenging.\/} 
+How would you compute the means for each date across countries?  
+
+\item Read the first 10 rows of the 538 college majors data.  
+What are the dimensions of the resulting dataframe?  
+
+\item Create a dataframe of the first ten rows of the 538 college majors data 
+that contains only the variables numbered \texttt{[2, 15, 16, 17]}.  
+(Remind yourself that numbering starts at zero.)
+What are the names of these variables?  
+{\it Bonus points:\/} What do the last two variables represent?  
+
+\item {\it Challenging.\/} 
+The data come sorted by median income, the variable \texttt{Median}.  
+How does the ranking change if we sort by \texttt{P75th}?  
+What comes in second place?  What do we learn about this major?  
+
+\item Read from your computer...
+
+
+\end{questions}
+
+
+\end{document}
