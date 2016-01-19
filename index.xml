@@ -224,7 +224,7 @@
 
 &lt;h2 id=&#34;more-inspiration:417d56135ba43ab461fdf8ac7dc9a33e&#34;&gt;More inspiration&lt;/h2&gt;
 
-&lt;p&gt;Not that you need any more inspiration, but here are a couple good pieces:&lt;/p&gt;
+&lt;p&gt;Not that you need any more, but here are a couple good pieces:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Steve Levitt on &amp;ldquo;&lt;a href=&#34;https://youtu.be/r5jATFtKtI8?t=5m12s&#34;&gt;big data&lt;/a&gt;&amp;rdquo; in business (55m, very entertaining)&lt;br /&gt;&lt;/li&gt;
@@ -243,7 +243,7 @@
 
 &lt;h1 id=&#34;data-bootcamp:ffd489939015ded07a5c1baacc50e9b6&#34;&gt;Data Bootcamp&lt;/h1&gt;
 
-&lt;p&gt;A &lt;a href=&#34;http://databootcamp.nyuecon.com/bootcamp_faq/&#34;&gt;course&lt;/a&gt; exploring economic and financial &lt;strong&gt;Data&lt;/strong&gt; with &lt;strong&gt;Python&lt;/strong&gt; at &lt;strong&gt;NYU&amp;rsquo;s Stern School of Business&lt;/strong&gt;.&lt;br /&gt;
+&lt;p&gt;A &lt;strong&gt;&lt;a href=&#34;http://databootcamp.nyuecon.com/bootcamp_faq/&#34;&gt;course&lt;/a&gt;&lt;/strong&gt; exploring economic and financial &lt;strong&gt;data&lt;/strong&gt; with &lt;strong&gt;Python&lt;/strong&gt; at NYU&amp;rsquo;s Stern School of Business.&lt;br /&gt;
 &lt;strong&gt;Quick links:&lt;/strong&gt;  &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf&#34;&gt;Syllabus&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf&#34;&gt;Project Guide&lt;/a&gt; | &lt;a href=&#34;http://databootcamp.nyuecon.com/bootcamp_outline&#34;&gt;Outline&lt;/a&gt; | &lt;a href=&#34;http://databootcamp.nyuecon.com/bootcamp_duedates_ug&#34;&gt;UG Due Dates&lt;/a&gt; | &lt;a href=&#34;http://databootcamp.nyuecon.com/bootcamp_duedates_mba&#34;&gt;MBA Due Dates&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;spring-2016-schedule:ffd489939015ded07a5c1baacc50e9b6&#34;&gt;Spring 2016 schedule&lt;/h2&gt;
@@ -259,7 +259,7 @@
 &lt;li&gt;Make sure you have a &lt;strong&gt;laptop computer&lt;/strong&gt; to use in class.  This is a must.&lt;br /&gt;&lt;/li&gt;
 &lt;li&gt;Take our &lt;strong&gt;entry poll&lt;/strong&gt; (click on the &lt;a href=&#34;https://docs.google.com/forms/d/1N7ugrqIQNHm_e1BLVAtaRMnC8SmSiTDMoYBy_0FYZic/viewform&#34;&gt;link&lt;/a&gt;, follow instructions).&lt;br /&gt;&lt;/li&gt;
 &lt;li&gt;Join a &lt;strong&gt;discussion group:&lt;/strong&gt; &lt;a href=&#34;https://groups.google.com/forum/#!forum/nyu_data_bootcamp_ug&#34;&gt;UG&lt;/a&gt; | &lt;a href=&#34;https://groups.google.com/forum/#!forum/nyu_data_bootcamp_mba&#34;&gt;MBA&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Bring a &lt;strong&gt;nameplate&lt;/strong&gt; to class.  If you don&amp;rsquo;t have one, use this &lt;a href=&#34;https://docs.google.com/document/d/18mDKqDO-48wbwYfFEGD0BAYJRsshRRRxR9IEKhekTWM/edit?usp=sharing&#34;&gt;template&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Bring a &lt;strong&gt;nameplate&lt;/strong&gt; to class.  If you don&amp;rsquo;t have one, use this &lt;a href=&#34;https://docs.google.com/document/d/18mDKqDO-48wbwYfFEGD0BAYJRsshRRRxR9IEKhekTWM/edit?usp=sharing&#34;&gt;template&lt;/a&gt; and fold it in thirds.&lt;/li&gt;
 &lt;li&gt;Non-Stern students:  &lt;strong&gt;&lt;a href=&#34;https://w3.stern.nyu.edu/start/home&#34;&gt;activate your Stern account&lt;/a&gt;&lt;/strong&gt; to get wireless access.  If you have trouble, stop by the Help Desk in the lobby between KMC and Tisch or email &lt;a href=&#34;mailto:helpdesk@stern.nyu.edu&#34;&gt;helpdesk@stern.nyu.edu&lt;/a&gt;.&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -291,15 +291,16 @@
       <guid>http://databootcamp.nyuecon.com/bootcamp_outline/</guid>
       <description>
 
-&lt;h1 id=&#34;data-bootcamp-topic-outline:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Data Bootcamp: Topic Outline&lt;/h1&gt;
+&lt;h1 id=&#34;data-bootcamp-topic-list:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Data Bootcamp: Topic List&lt;/h1&gt;
 
 &lt;p&gt;Outline of topics for the NYU Stern course Data Bootcamp.  We expect each topic to take roughly one week &amp;ndash; maybe a little more in some cases.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;topic-1-introduction-and-anaconda-installation:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 1.  Introduction and Anaconda installation&lt;/h2&gt;
+&lt;h2 id=&#34;topic-1-data-python:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 1.  Data + Python&lt;/h2&gt;
 
-&lt;p&gt;Use in class: Outline | [Code] &lt;br&gt; Read before next class: &lt;a href=&#34;https://davebackus.gitbooks.io/test/content/&#34;&gt;Chapters 1-3&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s nice to have skills; installing Anaconda; data; idea machines.&lt;br /&gt;
+&lt;a href=&#34;bootcamp.outline_intro&#34;&gt;Outline&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
