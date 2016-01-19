@@ -4,7 +4,7 @@ type: index
 
 # Data Bootcamp
 
-A [course](http://databootcamp.nyuecon.com/bootcamp_faq/) exploring economic and financial **Data** with **Python** at **NYU's Stern School of Business**.    
+A **[course](http://databootcamp.nyuecon.com/bootcamp_faq/)** exploring economic and financial **data** with **Python** at NYU's Stern School of Business.    
 **Quick links:**  [Syllabus](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf) | [Project Guide](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf) | [Outline](/bootcamp_outline) | [UG Due Dates](/bootcamp_duedates_ug) | [MBA Due Dates](/bootcamp_duedates_mba)     
 
 
@@ -19,7 +19,7 @@ A [course](http://databootcamp.nyuecon.com/bootcamp_faq/) exploring economic and
 * Make sure you have a **laptop computer** to use in class.  This is a must.  
 * Take our **entry poll** (click on the [link](https://docs.google.com/forms/d/1N7ugrqIQNHm_e1BLVAtaRMnC8SmSiTDMoYBy_0FYZic/viewform), follow instructions).  
 * Join a **discussion group:** [UG](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_ug) | [MBA](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_mba).
-* Bring a **nameplate** to class.  If you don't have one, use this [template](https://docs.google.com/document/d/18mDKqDO-48wbwYfFEGD0BAYJRsshRRRxR9IEKhekTWM/edit?usp=sharing). 
+* Bring a **nameplate** to class.  If you don't have one, use this [template](https://docs.google.com/document/d/18mDKqDO-48wbwYfFEGD0BAYJRsshRRRxR9IEKhekTWM/edit?usp=sharing) and fold it in thirds. 
 * Non-Stern students:  **[activate your Stern account](https://w3.stern.nyu.edu/start/home)** to get wireless access.  If you have trouble, stop by the Help Desk in the lobby between KMC and Tisch or email [helpdesk@stern.nyu.edu](mailto:helpdesk@stern.nyu.edu).  
 
 
