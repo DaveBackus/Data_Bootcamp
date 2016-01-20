@@ -4,8 +4,8 @@ type: index
 
 # Data Bootcamp
 
-A **[course](http://databootcamp.nyuecon.com/bootcamp_faq/)** exploring economic and financial **data** with **Python** at NYU's Stern School of Business.    
-**Quick links:**  [Syllabus](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf) | [Project Guide](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf) | [Outline](/bootcamp_outline) | [UG Due Dates](/bootcamp_duedates_ug) | [MBA Due Dates](/bootcamp_duedates_mba)     
+A **[course](http://databootcamp.nyuecon.com/bootcamp_faq/)** exploring economic and financial **data** with **Python** at **NYU**'s Stern School of Business.    
+**Quick links:**  [Book](https://www.gitbook.com/book/davebackus/test/details) | [Syllabus](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf) | [Project Guide](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf) | [Outline](/bootcamp_outline) | [UG Due Dates](/bootcamp_duedates_ug) | [MBA Due Dates](/bootcamp_duedates_mba)     
 
 
 ## Spring 2016 schedule 
@@ -32,11 +32,10 @@ Dave Backus:  KMC 7-68, [db3@nyu.edu](mailto:db3@nyu.edu), [directions](http://p
 **MBA section** <br> Chase Coleman, co-teacher, [cc7768@gmail.com](mailto:cc7768@gmail.com) <br> Itamar Snir, teaching fellow, [is1413@stern.nyu.edu](mailto:is1413@stern.nyu.edu)  
 
 
-## Course materials
+## Other materials
 
 In addition to the quick links at the top, keep in mind:
 
-* Our **[book](https://www.gitbook.com/book/davebackus/test/details)** (work in progress)
 * Our **collection of documents**:  [Everything](https://github.com/DaveBackus/Data_Bootcamp) | [Python programs](https://github.com/DaveBackus/Data_Bootcamp/tree/master/Code/Python) | [IPython notebooks](https://github.com/DaveBackus/Data_Bootcamp/tree/master/Code/IPython) | [Experiments](https://github.com/DaveBackus/Data_Bootcamp/tree/master/Code/Lab)
 * Or **search**:  [nyu data bootcamp](http://lmgtfy.com/?q=nyu+data+bootcamp)
 

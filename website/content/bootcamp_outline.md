@@ -5,30 +5,38 @@ Outline of topics for the NYU Stern course Data Bootcamp.  We expect each topic 
 
 ---
 
-## Topic 1.  Data + Python 
+## Topic 1.  Data + Python = Magic!  
 
-It's nice to have skills; installing Anaconda; data; idea machines.  
-[Outline](bootcamp.outline_intro)
+[Outline](bootcamp_outline_intro)
+It's nice to have skills; installing Anaconda; Spyder and Jupyter; data; idea machines.  
 
 ---
 ## Topic 2.  Python fundamentals 1
 
-Use in class: [Outline](/bootcamp_topic_1) | [Code] <br> Read before next class: [Chapter 4](https://davebackus.gitbooks.io/test/content/)
-
+[Outline](bootcamp_outline_intro)
+Calculations; assignments; strings; lists; built-in functions; objects; methods; tab completion.    
 
 ---
 ## Topic 3.  Python fundamentals 2
 
-Use in class: Outline | [Code] <br> Read before next class: [Chapters 1-3](https://davebackus.gitbooks.io/test/content/)
-
+[Outline](bootcamp_outline_intro)
+True and False; comparisons; conditionals; slicing; loops; function definitions and returns; dictionaries. 
 
 ---
 ## Topic 4.  Data input:  Packages and Pandas
 
-Outline | Code | Reading
-
+[Outline](bootcamp_outline_intro)
+Packages; import; Pandas; csv files; reading csv/slx files; dataframes; columns; index; APIs.  
 
 ---
 ## Topic 5.  Python graphics:  Matplotlib fundamentals 
 
-Outline | Code | Reading
+[Outline](bootcamp_outline_intro)
+It's nice to have skills; installing Anaconda; data; idea machines.  
+
+
+---
+## Topic 6.  Economic indicators 
+
+[Outline](bootcamp_outline_intro)
+It's nice to have skills; installing Anaconda; data; idea machines.  

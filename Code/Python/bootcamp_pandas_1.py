@@ -289,9 +289,11 @@ https://github.com/fivethirtyeight/data/tree/master/college-majors
 url1 = 'https://raw.githubusercontent.com/fivethirtyeight/data/master/'
 url2 = 'college-majors/recent-grads.csv'
 url = url1 + url2
-df538 = pd.read_csv(url)
+df538 = pd.read_csv(url, nrows=10)
 
 # Exercise.  What are the variables here?  How many?
+
+list(df538)
 
 #df538 = df538[['Major', 'Median']].set_index('Major')
 
@@ -388,3 +390,61 @@ ff.describe()
 #%%
 ff.plot()
 ff.boxplot()
+
+#%%
+"""
+WB data for review 
+* EG.ELC.ACCS.ZS = access to electricity 
+* IT.NET.USER.P2 = internet users per 100 
+* IT.CEL.SETS.P2 = cell phones per 100 
+http://data.worldbank.org/
+"""
+import pandas as pd                 
+from pandas.io import wb            # World Bank api
+
+var = ['EG.ELC.ACCS.ZS', 'IT.NET.USER.P2', 'IT.CEL.SETS.P2']
+iso = ['BWA', 'NAM', 'ZAF', 'ZMB']  
+year = 2012
+wb = wb.download(indicator=var, country=iso, start=year, end=year)
+wb = wb.reset_index(level='year', drop=True)
+wb.to_dict('list')
+
+#%%
+import pandas as pd 
+data = {'EG.ELC.ACCS.ZS': [53.2, 47.3, 85.4, 22.1],   # access to elec (%) 
+        'IT.CEL.SETS.P2': [153.8, 95.0, 130.6, 74.8], # cell contracts per 100 
+        'IT.NET.USER.P2': [11.5, 12.9, 41.0, 13.5],   # internet access per 100 
+        'Country': ['Botswana', 'Namibia', 'South Africa', 'Zambia']} 
+wb = pd.DataFrame(data)
+
+#%%
+"""
+data for code practice 
+"""
+import pandas as pd
+
+url1 = 'http://www.imf.org/external/pubs/ft/weo/2015/01/weodata/'
+url2 = 'WEOApr2015all.xls'
+url = url1 + url2 
+weo = pd.read_csv(url, sep='\t', thousands=',', na_values=['n/a', '--']) 
+weo.shape
+
+variables = ['PPPPC']
+countries = ['BRA', 'JPN', 'USA']
+sub = weo[weo['ISO'].isin(countries) & weo['WEO Subject Code'].isin(variables)]
+somevars = [3] + list(range(37,44))
+sub = sub[some].set_index('Country').T.dropna()
+sub = sub/10**3
+
+sub.plot(lw=2)
+
+sub.to_dict('list')
+
+#%%
+import pandas as pd 
+data = {'BRA': [13.37, 13.30, 14.34, 15.07, 15.461625, 15.98, 16.10],
+        'JPN': [33.43, 31.83, 33.71, 34.29, 35.60, 36.79, 37.39],
+        'USA': [48.30, 46.91, 48.31, 49.72, 51.41, 52.94, 54.60], 
+        'Year': [2008, 2009, 2010, 2011, 2012, 2013, 2014]}
+weo  = pd.DataFrame(data)
+weo 

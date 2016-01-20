@@ -2,7 +2,7 @@
 
 **Materials** 
 
-* Firt-day handouts:  Syllabus, Project Guide, Due Dates  
+* First-day handouts:  Syllabus, Project Guide, Due Dates  
 * Today's handouts:  this document, code 
 * Read after class:  "Where are we headed?", 
 
@@ -39,6 +39,8 @@ Where we're headed
 * Examples:  [Gapminder](http://www.gapminder.org/world/) | [cancer screening](http://www.vox.com/2015/10/28/9631500/does-mammography-work) | [Uber in NYC](http://fivethirtyeight.com/features/uber-is-serving-new-yorks-outer-boroughs-more-than-taxis-are/) | [mortality](http://www.pnas.org/content/early/2015/10/29/1518393112.full.pdf) | [earthquake](https://jawbone.com/blog/napa-earthquake-effect-on-sleep/)   
 
 http://graphics.wsj.com/infectious-diseases-and-vaccines/ 
+
+http://www.nytimes.com/interactive/2016/01/07/us/drug-overdose-deaths-in-the-us.html
 
 Philosophy  
 

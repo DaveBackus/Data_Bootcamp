@@ -4,7 +4,9 @@ Pix/
 Miscellaneous/
 Code/Temp
 Code/csv 
+*.ini 
 
+## Potentially large files 
 *.zip
 *.csv 
 *.xls
@@ -24,6 +26,7 @@ Media/
 Background_materials/
 Logistics/
 Other_courses/
+Code/Lab/*.pdf
 
 ## Video and images 
 *.mp4
