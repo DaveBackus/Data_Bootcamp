@@ -1,14 +1,14 @@
-# Data Bootcamp: Topic Outline
+# Data Bootcamp: Topic List 
 
 
 Outline of topics for the NYU Stern course Data Bootcamp.  We expect each topic to take roughly one week -- maybe a little more in some cases.    
 
 ---
 
-## Topic 1.  Introduction and Anaconda installation
+## Topic 1.  Data + Python 
 
-Use in class: Outline | [Code] <br> Read before next class: [Chapters 1-3](https://davebackus.gitbooks.io/test/content/)
-
+It's nice to have skills; installing Anaconda; data; idea machines.  
+[Outline](bootcamp.outline_intro)
 
 ---
 ## Topic 2.  Python fundamentals 1

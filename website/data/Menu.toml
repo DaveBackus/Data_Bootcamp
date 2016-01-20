@@ -3,16 +3,16 @@
     URL = "/bootcamp_faq"
 
 [2]
-    Name = "Topic outline"
+    Name = "Topic outlines"
     URL = "/bootcamp_outline"
 
 [3]
-    Name = "Due dates (MBA)"
-    URL = "/bootcamp_duedates_mba"
-
-[4]
     Name = "Due dates (UG)"
     URL = "/bootcamp_duedates_ug"
+
+[4]
+    Name = "Due dates (MBA)"
+    URL = "/bootcamp_duedates_mba"
 
 [5]
     Name = "Data sources"

@@ -1,4 +1,11 @@
-# Topic 1:  Introduction to Data and Python
+# Topic 1:  Data + Python
+
+**Materials** 
+
+* Firt-day handouts:  Syllabus, Project Guide, Due Dates  
+* Today's handouts:  this document, code 
+* Read after class:  "Where are we headed?", 
+
 
 **Outline**
 

@@ -12,6 +12,7 @@ import pandas.io.data as web
 # Research Data Factors
 df_research = web.DataReader('F-F_Research_Data_factors', 'famafrench')[0]
 
+#%%
 # Portfolios Formed on Size
 url_folios = 'https://www.quandl.com/api/v1/datasets/KFRENCH/P_ME_AFS_M.csv'
 df_folios = pd.read_csv(url_folios, index_col = 0).iloc[::-1]

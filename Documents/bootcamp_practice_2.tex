@@ -1,4 +1,4 @@
-\documentclass[11pt]{article}
+\documentclass[11pt]{exam}
 
 % document starts here
 \begin{document}
@@ -11,6 +11,9 @@
 \centerline{\Large \bf Data Bootcamp:  Code Practice \#2}
 \centerline{Revised: \today}
 
+{\it Answer each of the questions below.
+Answers should include any code you wrote to find your answer.
+They can be handwritten, but they must be readable and look professional.}
 
 \begin{questions}
 
@@ -43,8 +46,39 @@
       y = y.pop()
     \end{verbatim}
 
+  \item {\it Review.\/}
+    Does this code run without error?  If so, what does it produce?  If not, explain why.
+    \begin{verbatim}
+    x = [1, 2, 3]
+    y = [42]
+    z = x + y
+    print(z)
+    \end{verbatim}
+
+  \item {\it Review.\/}
+    Does this code run without error?  If so, what does it produce?  If not, explain why.
+    \begin{verbatim}
+    x = "I don't think that word means"
+    y = 'what you think it means'
+    z = x + y
+    print(z)
+    \end{verbatim}
+
   % Logical Questions
-  \item Imagine you have two lists, how could you determine which list was longer?
+  \item Describe and explain the type of these expressions:
+  \begin{verbatim}
+  12
+  12.0
+  '12.0'
+  """12.0"""
+  [12]
+  1 >= 2
+  1<=2
+  '12.0' == """12.0"""
+  \end{verbatim}
+
+
+ \item Imagine you have two lists, how could you determine which list was longer?
     \begin{verbatim}
       x = [1, 2, 3, 4]
       y = ["x", "y", "z"]
@@ -83,6 +117,15 @@
     \end{verbatim}
 
   \item Write a short piece of code (using an if-else statement) that assigns a numerical value to a variable \texttt{x} and then checks whether the type of \texttt{x} is a float or integer. Print out which it is.
+
+  \item
+  Does this code run without error?  If so, what does it produce?  If not, how would you fix it?
+  \begin{verbatim}
+  if 2>1
+     print('Yes, 2 is still greater than 1')
+  \end{verbatim}
+  % Answer:  missing :, indented 3
+
 
   % Slicing
   \item Explain in words what slicing does?
@@ -156,7 +199,19 @@
           return percentage
     \end{verbatim}
 
+  \item {\it Challenging.\/}
+  Create a function to convert a date tuple to a regular date:
+  to convert (say) \texttt{(2015, 8, 22)} to \texttt{August 22, 2015} expressed as a string.
+  That is:  The input is a tuple and the return is a string.
+  {\it Suggestion:\/} You might want to use the list
+  \begin{verbatim}
+  months = ['January', 'February', etc]
+  \end{verbatim}
+
+  \item Take list of change [quarters, dimes, nickels, pennies] and return value.
+  {\it Bonus points:\/} Use a tuple.
 
 \end{questions}
+
 
 \end{document}
