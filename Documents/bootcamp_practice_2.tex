@@ -1,7 +1,5 @@
 \documentclass[11pt]{article}
 
-\input{../../LaTeX/preamble.tex}
-
 % document starts here
 \begin{document}
 \parskip=\bigskipamount
@@ -14,21 +12,151 @@
 \centerline{Revised: \today}
 
 
-\item (Review) Will this code run without errors? Why? If it does run, what is the value of \texttt{z}?
-\begin{verbatim}
-x = [1, 2, 3]
-y = [42, 43]
-z = x + y
-\end{verbatim}
+\begin{questions}
+
+  % Review Questions
+  \item (Review) Will this code run without errors? Why? If it does run, what is the value of \texttt{z}?
+    \begin{verbatim}
+    x = [1, 2, 3]
+    y = [42, 43]
+    z = x + y
+    \end{verbatim}
+
+  \item (Review) Will this code run without errors? Why? If it does run, what is the value of \texttt{x}?
+    \begin{verbatim}
+    x = (1, 2, 3)
+    y = (42, 43)
+    z = x + y
+    \end{verbatim}
+
+  \item (Review) What is the value of \texttt{z} in the code below? Is there another operation which we can use to create this same list?
+    \begin{verbatim}
+      x = [1, 2, 3]
+      z = x + x
+    \end{verbatim}
+
+  \item (Review) What is the value of \texttt{y} after running the code below?
+    \begin{verbatim}
+      x = [1]
+      y = x
+      x.append(2)
+      y = y.pop()
+    \end{verbatim}
+
+  % Logical Questions
+  \item Imagine you have two lists, how could you determine which list was longer?
+    \begin{verbatim}
+      x = [1, 2, 3, 4]
+      y = ["x", "y", "z"]
+      if (insert code here):
+          print("x is longer")
+      else:
+          print("y is longer")
+    \end{verbatim}
+
+  \item What do you expect the output of each of the following comparisons to be?
+    \begin{verbatim}
+      print(1 > 0)
+      print(1 >= 0)
+      print(1 == 0)
+      print(1 > 1)
+      print(1 >= 1)
+      print(1 <= 1)
+      print(1 == 1)
+      print(1.0 + 1e-18 == 1.0)
+    \end{verbatim}
+
+  \item What do you expect the output of each of the following comparisons to be?
+    \begin{verbatim}
+      print("sarah" == 'sarah')
+      print([1, 2, 3] == [1, 2, 3])
+      print([0, 1, 2] == [1, 2, 3])
+    \end{verbatim}
+
+  \item What do you expect the value of \texttt{x} to be after the following block of code?
+    \begin{verbatim}
+      cond = True
+      if cond:
+          x = "Chase"
+      else:
+          x = "Dave"
+    \end{verbatim}
+
+  \item Write a short piece of code (using an if-else statement) that assigns a numerical value to a variable \texttt{x} and then checks whether the type of \texttt{x} is a float or integer. Print out which it is.
+
+  % Slicing
+  \item Explain in words what slicing does?
+
+  \item What is the "index" of the last element of the array \texttt{x}?
+    \begin{verbatim}
+      x = [1, 2, 3, 4, 5]
+    \end{verbatim}
+
+  \item Which index is each of the following elements in the array \texttt{x}?
+    \begin{verbatim}
+      x = [1, 2, "a", "b", "fast", "slow", "Ethan", "Hunt", 10]
+    \end{verbatim}
+    \begin{part}
+      \item \texttt{"a"}
+      \item \texttt{1}
+      \item \texttt{10}
+      \item \texttt{"Ethan"}
+      \item \texttt{"Hunt"}
+    \end{part}
+
+  \item What is the correct way to slice and get the first three elements of an array?
+
+  \item Pull out each word using slicing from the following sentence.
+    \begin{verbatim}
+      sentence = "This is a sentence; please slice it."
+    \end{verbatim}
+
+  % Looping
+  \item Finish writing the for loop below so that it adds all of the numbers less than 100.
+    \begin{verbatim}
+      x = 0
+      for i in :
+          x += i
+      print(x)
+    \end{verbatim}
+
+  \item For every element in the following list, \texttt{x}, print the element if it is a string and skip it otherwise.
+    \begin{verbatim}
+      x = [0, 1, "G", "o", 3, "o", "d", 1, "w", 10, "o", "r", "k"]
+    \end{verbatim}
+
+  \item Bond example
+
+  \item Imagine that you have information that says the price of corn is going to change by 10 cents per day (only trades on week days) until it reaches \$2.50, after which it will begin to decrease by 10 cents a day. Finish the code below to print the price of corn every day until it reaches \$2.50.
+    \begin{verbatim}
+      days = ["M", "T", "W", "Th", "F"]
+      starting_price = 1.20
+      current_price = starting_price
+          while True:
+              for day in days:
+                  current_price = current_price + 0.10
+                  print("The price on ", day, "is ", current_price)
+
+                  if current_price == 2.50:
+                      break
+    \end{verbatim}
+
+  % Functions
+  \item Define a function that takes your birth year and the current year and prints out every year inbetween (and including) those years.
+
+  \item A function is defined below. Determine what it does and write an example of you using it.
+    \begin{verbatim}
+      def score_to_percentage(pointsawarded, pointstotal):
+          """
+          This function changes a number of points awarded
+          and a number of total points into a percentage
+          """
+          percentage = pointsawarded / pointstotal
+
+          return percentage
+    \end{verbatim}
 
 
-\item (Review) Will this code run without errors? Why? If it does run, what is the value of \texttt{x}?
-\begin{verbatim}
-x = (1, 2, 3)
-y = (42, 43)
-z = x + y
-\end{verbatim}
-
-
+\end{questions}
 
 \end{document}
