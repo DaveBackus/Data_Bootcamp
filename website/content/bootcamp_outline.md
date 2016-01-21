@@ -1,7 +1,10 @@
-# Data Bootcamp: Topic links and outlines 
+# Data Bootcamp: Topic list & links 
 
 
-This is a list of topics for the NYU Stern course Data Bootcamp.  We expect each topic to take roughly one week -- maybe a little more in some cases.  Each topic comes with its own outline plus links to material we'll use in class.  
+**under construction**
+
+
+This is a list of topics for the NYU Stern course Data Bootcamp with links to material used in class.  We expect each topic to take roughly one week -- maybe a little more in some cases.  
 
 ---
 

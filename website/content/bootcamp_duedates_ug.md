@@ -28,4 +28,4 @@ Due dates for Data Bootcamp @ NYU Stern, Spring 2016, Undergrad section.  Delive
 
 **April 26.** Nothing due.  Recommended but not graded: [Optional Code Practice C](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_c.pdf).
 
-**May 5** <br> Submit project by email to db3@nyu.edu. The subject line should be "bootcamp project mba".  The file name should be your last names separated by dashes and a short title;  eg, something like *Jones-Smith-Zhang-India.ipynb*. See [Project Guide](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf) for additional information.
+**May 5** <br> Submit project by email to db3@nyu.edu. The subject line should be "bootcamp project ug".  The file name should be your last names separated by dashes and a short title;  eg, something like *Jones-Smith-Zhang-India.ipynb*. See [Project Guide](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf) for additional information.

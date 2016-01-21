@@ -5,7 +5,7 @@ type: index
 # Data Bootcamp
 
 A **[course](http://databootcamp.nyuecon.com/bootcamp_faq/)** exploring economic and financial **data** with **Python** at **NYU**'s Stern School of Business.    
-**Quick links:**  [Book](https://www.gitbook.com/book/davebackus/test/details) | [Syllabus](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf) | [Project Guide](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf) | [Outline](/bootcamp_outline) | [UG Due Dates](/bootcamp_duedates_ug) | [MBA Due Dates](/bootcamp_duedates_mba)     
+**Quick links:**  [Book](https://www.gitbook.com/book/davebackus/test/details) | [Syllabus](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf) | [Project Guide](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf) | [Topic list & links](/bootcamp_outline) | [UG Due Dates](/bootcamp_duedates_ug) | [MBA Due Dates](/bootcamp_duedates_mba)     
 
 
 ## Spring 2016 schedule 
@@ -14,7 +14,7 @@ A **[course](http://databootcamp.nyuecon.com/bootcamp_faq/)** exploring economic
 * **MBA:**  ECON-GB.2313, Wednesday nights, 6-9pm, KMC 4-90, February 10 to May 4
 
 
-## Before the first class
+## Before the first class 
 
 * Make sure you have a **laptop computer** to use in class.  This is a must.  
 * Take our **entry poll** (click on the [link](https://docs.google.com/forms/d/1N7ugrqIQNHm_e1BLVAtaRMnC8SmSiTDMoYBy_0FYZic/viewform), follow instructions).  

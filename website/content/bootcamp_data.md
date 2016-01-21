@@ -47,12 +47,15 @@ Here are some we have used:
 
 Some that appeal to us, but please send suggestions:  
 
+* **Kaggle datasets.**  Kaggle, the data competition outfit, has just opened a [datasets section](https://www.kaggle.com/datasets) that comes with data, documentation, coding enviroments, and forums.  More on [their blog](http://blog.kaggle.com/2016/01/19/introducing-kaggle-datasets/).
+
 * **Airbnb.**  [Data](http://insideairbnb.com/get-the-data.html) on locations, rentals, and reviews. Chase loves this.  Good input for a map project?  
 
 * **NYC Open Data.**  [Data](https://data.cityofnewyork.us/) collected by the City of New York. There's too much to summizes, but it includes taxis (every taxi ride in the city), restaurant inspections, and much much more.  [I Quant NY](http://iquantny.tumblr.com/) has some applications. [538](http://fivethirtyeight.com/tag/uber/) combined the taxi data with similar information about Uber, which they posted on their [repo](https://github.com/fivethirtyeight/uber-tlc-foil-response)
 
+<!--
 * **Pew Research Center.**  We haven't used it, but they do lots of surveys and post [the data](http://www.pewresearch.org/) on their website.   
-
+-->	
 
 ## Data applications 
 
@@ -63,7 +66,6 @@ Data journalism:
 * **The Upshot** from the NY Times.  Great graphics, including [these](http://www.nytimes.com/interactive/2015/12/15/upshot/the-best-places-for-better-cheaper-health-care-arent-what-experts-thought.html) [two](http://www.nytimes.com/interactive/2009/07/31/business/20080801-metrics-graphic.html) examples. They list their sources, but don't typically post their data.  
 
 * Tim Taylor's **Conversable Economist** blog.  Tim's a former journalist, so a better writer than most economists.  He has a [daily post](http://conversableeconomist.blogspot.com/) about a topical economic issue, often with graphs we can use to track down data sources.  
-
 
 Graphics:  
 
