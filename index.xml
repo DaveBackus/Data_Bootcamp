@@ -71,12 +71,16 @@
 &lt;p&gt;Some that appeal to us, but please send suggestions:&lt;/p&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Kaggle datasets.&lt;/strong&gt;  Kaggle, the data competition outfit, has just opened a &lt;a href=&#34;https://www.kaggle.com/datasets&#34;&gt;datasets section&lt;/a&gt; that comes with data, documentation, coding enviroments, and forums.  More on &lt;a href=&#34;http://blog.kaggle.com/2016/01/19/introducing-kaggle-datasets/&#34;&gt;their blog&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Airbnb.&lt;/strong&gt;  &lt;a href=&#34;http://insideairbnb.com/get-the-data.html&#34;&gt;Data&lt;/a&gt; on locations, rentals, and reviews. Chase loves this.  Good input for a map project?&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;NYC Open Data.&lt;/strong&gt;  &lt;a href=&#34;https://data.cityofnewyork.us/&#34;&gt;Data&lt;/a&gt; collected by the City of New York. There&amp;rsquo;s too much to summizes, but it includes taxis (every taxi ride in the city), restaurant inspections, and much much more.  &lt;a href=&#34;http://iquantny.tumblr.com/&#34;&gt;I Quant NY&lt;/a&gt; has some applications. &lt;a href=&#34;http://fivethirtyeight.com/tag/uber/&#34;&gt;538&lt;/a&gt; combined the taxi data with similar information about Uber, which they posted on their &lt;a href=&#34;https://github.com/fivethirtyeight/uber-tlc-foil-response&#34;&gt;repo&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Pew Research Center.&lt;/strong&gt;  We haven&amp;rsquo;t used it, but they do lots of surveys and post &lt;a href=&#34;http://www.pewresearch.org/&#34;&gt;the data&lt;/a&gt; on their website.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;!--
+* **Pew Research Center.**  We haven&#39;t used it, but they do lots of surveys and post [the data](http://www.pewresearch.org/) on their website.   
+--&gt; 
 
 &lt;h2 id=&#34;data-applications:987d9bf97cab1040fa2beea3138e2fdf&#34;&gt;Data applications&lt;/h2&gt;
 
@@ -180,7 +184,7 @@
 
 &lt;p&gt;&lt;strong&gt;April 26.&lt;/strong&gt; Nothing due.  Recommended but not graded: &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_c.pdf&#34;&gt;Optional Code Practice C&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;May 5&lt;/strong&gt; &lt;br&gt; Submit project by email to db3@nyu.edu. The subject line should be &amp;ldquo;bootcamp project mba&amp;rdquo;.  The file name should be your last names separated by dashes and a short title;  eg, something like &lt;em&gt;Jones-Smith-Zhang-India.ipynb&lt;/em&gt;. See &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf&#34;&gt;Project Guide&lt;/a&gt; for additional information.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;May 5&lt;/strong&gt; &lt;br&gt; Submit project by email to db3@nyu.edu. The subject line should be &amp;ldquo;bootcamp project ug&amp;rdquo;.  The file name should be your last names separated by dashes and a short title;  eg, something like &lt;em&gt;Jones-Smith-Zhang-India.ipynb&lt;/em&gt;. See &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf&#34;&gt;Project Guide&lt;/a&gt; for additional information.&lt;/p&gt;
 </description>
     </item>
     
@@ -244,7 +248,7 @@
 &lt;h1 id=&#34;data-bootcamp:ffd489939015ded07a5c1baacc50e9b6&#34;&gt;Data Bootcamp&lt;/h1&gt;
 
 &lt;p&gt;A &lt;strong&gt;&lt;a href=&#34;http://databootcamp.nyuecon.com/bootcamp_faq/&#34;&gt;course&lt;/a&gt;&lt;/strong&gt; exploring economic and financial &lt;strong&gt;data&lt;/strong&gt; with &lt;strong&gt;Python&lt;/strong&gt; at &lt;strong&gt;NYU&lt;/strong&gt;&amp;rsquo;s Stern School of Business.&lt;br /&gt;
-&lt;strong&gt;Quick links:&lt;/strong&gt;  &lt;a href=&#34;https://www.gitbook.com/book/davebackus/test/details&#34;&gt;Book&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf&#34;&gt;Syllabus&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf&#34;&gt;Project Guide&lt;/a&gt; | &lt;a href=&#34;http://databootcamp.nyuecon.com/bootcamp_outline&#34;&gt;Outline&lt;/a&gt; | &lt;a href=&#34;http://databootcamp.nyuecon.com/bootcamp_duedates_ug&#34;&gt;UG Due Dates&lt;/a&gt; | &lt;a href=&#34;http://databootcamp.nyuecon.com/bootcamp_duedates_mba&#34;&gt;MBA Due Dates&lt;/a&gt;&lt;/p&gt;
+&lt;strong&gt;Quick links:&lt;/strong&gt;  &lt;a href=&#34;https://www.gitbook.com/book/davebackus/test/details&#34;&gt;Book&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf&#34;&gt;Syllabus&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf&#34;&gt;Project Guide&lt;/a&gt; | &lt;a href=&#34;http://databootcamp.nyuecon.com/bootcamp_outline&#34;&gt;Topic list &amp;amp; links&lt;/a&gt; | &lt;a href=&#34;http://databootcamp.nyuecon.com/bootcamp_duedates_ug&#34;&gt;UG Due Dates&lt;/a&gt; | &lt;a href=&#34;http://databootcamp.nyuecon.com/bootcamp_duedates_mba&#34;&gt;MBA Due Dates&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;spring-2016-schedule:ffd489939015ded07a5c1baacc50e9b6&#34;&gt;Spring 2016 schedule&lt;/h2&gt;
 
@@ -290,9 +294,11 @@
       <guid>http://databootcamp.nyuecon.com/bootcamp_outline/</guid>
       <description>
 
-&lt;h1 id=&#34;data-bootcamp-topic-links-and-outlines:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Data Bootcamp: Topic links and outlines&lt;/h1&gt;
+&lt;h1 id=&#34;data-bootcamp-topic-list-links:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Data Bootcamp: Topic list &amp;amp; links&lt;/h1&gt;
 
-&lt;p&gt;This is a list of topics for the NYU Stern course Data Bootcamp.  We expect each topic to take roughly one week &amp;ndash; maybe a little more in some cases.  Each topic comes with its own outline plus links to material we&amp;rsquo;ll use in class.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;under construction&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This is a list of topics for the NYU Stern course Data Bootcamp with links to material used in class.  We expect each topic to take roughly one week &amp;ndash; maybe a little more in some cases.&lt;/p&gt;
 
 &lt;hr /&gt;
 
