@@ -4,7 +4,8 @@ type: index
 
 # Data Bootcamp
 
-A **[course](http://databootcamp.nyuecon.com/bootcamp_faq/)** exploring economic and financial **data** with **Python** at **NYU**'s Stern School of Business.    
+**Description:** A [course](http://databootcamp.nyuecon.com/bootcamp_faq/) exploring economic and financial **data** with **Python** at **NYU**'s Stern School of Business.     
+
 **Quick links:**  [Book](https://www.gitbook.com/book/davebackus/test/details) | [Syllabus](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf) | [Project Guide](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf) | [Topic list & links](/bootcamp_outline) | [UG Due Dates](/bootcamp_duedates_ug) | [MBA Due Dates](/bootcamp_duedates_mba)     
 
 

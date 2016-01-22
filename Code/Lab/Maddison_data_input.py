@@ -6,6 +6,10 @@ Links
 http://www.ggdc.net/maddison/maddison-project/home.htm
 http://www.ggdc.net/maddison/maddison-project/data.htm 
 
+Prepared for Data Bootcamp course at NYU  
+* https://github.com/DaveBackus/Data_Bootcamp
+* https://github.com/DaveBackus/Data_Bootcamp/Code/Lab 
+
 Written by Dave Backus, January 2016 
 Created with Python 3.5 
 """

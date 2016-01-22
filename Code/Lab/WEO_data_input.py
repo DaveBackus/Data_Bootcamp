@@ -2,22 +2,16 @@
 IMF, World Economic Outlook database.
 Program reads in the whole thing and arranges it for easy use.  
 
-Labels 
-    ISO = 3-letter country code 
-    WEO Subject Code = variable code 
-
 Links
 Collection:  https://www.imf.org/external/ns/cs.aspx?id=28
 April 2015:  http://www.imf.org/external/pubs/ft/weo/2015/01/weodata/index.aspx  
 
+Prepared for Data Bootcamp course at NYU  
+* https://github.com/DaveBackus/Data_Bootcamp
+* https://github.com/DaveBackus/Data_Bootcamp/Code/Lab 
+
 Written by Dave Backus, August 2015 
 Created with Python 3.4 
-"""
-"""
-1. Read in data 
-"""
-"""
-Check versions 
 """
 import sys 
 import pandas as pd 
@@ -32,38 +26,59 @@ Read data
 NB:  missing value list is critical, otherwise it doesn't recognize numbers 
 Also:  file is tab-delimited, not xls, despite its name 
 """
-url1 = 'http://www.imf.org/external/pubs/ft/weo/2015/01/weodata/'
-url2 = 'WEOApr2015all.xls'
+url1 = 'http://www.imf.org/external/pubs/ft/weo/2015/02/weodata/'
+url2 = 'WEOOct2015all.xls'
 url = url1 + url2 
 weo = pd.read_csv(url, sep='\t', thousands=',', na_values=['n/a', '--']) 
 
 print('\nWEO database read, dimensions (rows, columns) =', weo.shape) 
 print('Variable dtypes:\n', weo.dtypes, sep='') 
 
+#weo.head().to_csv('weo_head.csv', index=False)
+
 #%%
 """
-Create dictionaries for country codes and variable definitions 
-** Check bootcamp_examples.ipynb for updates 
+Create dfs for country codes and variable definitions 
 """
-varlist = ['ISO', 'Country']
-cty_dict = weo[varlist].drop_duplicates().set_index('ISO').to_dict()['Country']
+country_guide  = weo[['ISO', 'Country']].drop_duplicates().set_index('ISO')
 
-# ** sorting https://docs.python.org/3.4/tutorial/datastructures.html#dictionaries
-print('\nCountry codes and names')
-for key, value in cty_dict.items():
-    print(key, ': ', value, sep='')
+variable_guide = weo[['WEO Subject Code', 
+                      'Subject Descriptor', 
+                      'Subject Notes']
+                      ].drop_duplicates().set_index('WEO Subject Code')
+                      
+variable_guide
 
-varlist = ['WEO Subject Code', 'Subject Descriptor']
-var_dict = weo[varlist].drop_duplicates().set_index(varlist[0]).to_dict()[varlist[1]]
-
-print('\nCountry codes and names')
-for key, value in var_dict.items():
-    print(key, ': ', value, sep='')
-
-# =============================================================================
 #%%
 """
-2. Cross-section scatterplot
+time series plots:  one series, multiple countries  
+""" 
+variables = ['GGXWDG_NGDP']
+countries = ['ARG', 'DEU', 'FRA', 'GRC', 'USA']
+sub  = weo[weo['ISO'].isin(countries) & weo['WEO Subject Code'].isin(variables)]
+some = [3] + list(range(9,44))
+sub  = sub[some].set_index('Country').T.dropna()
+sub
+
+#%%
+"""
+time series plots:  one series, multiple countries  
+""" 
+vars = {'NGSD_NGDP': 'Saving', 'NID_NGDP': 'Investment', 
+        'BCA_NGDPD': 'Current Account'}
+variables = list(vars) 
+countries = ['CHN']
+sub = weo[weo['ISO'].isin(countries) & 
+          weo['WEO Subject Code'].isin(variables)]
+some = [2] + list(range(9,45))
+sub  = sub[some].set_index('WEO Subject Code').T.dropna().rename(columns=vars)
+#sub['zero'] = sub['Saving'] - sub['Investment'] - sub['Current Account']
+
+sub.to_excel('China-Saving-Investment.xls', index=False)
+
+#%%
+"""
+Cross-section scatterplot
 Per capita GDP growth, 2000-15 v 1985-2000  
 """
 # growth rate data
