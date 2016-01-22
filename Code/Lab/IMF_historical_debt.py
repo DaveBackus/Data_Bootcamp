@@ -48,7 +48,7 @@ df = pd.read_excel(excelFilePath, sheetname=1, na_values=['…', '….', '']) #,
 #%%
 """
 plots 
-""""
+"""
 ### UK debt to GDP since 1800 
 
 #construct the years for the x-axis values
