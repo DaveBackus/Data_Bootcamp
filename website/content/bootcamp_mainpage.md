@@ -36,6 +36,6 @@ Dave Backus:  KMC 7-68, [db3@nyu.edu](mailto:db3@nyu.edu), [directions](http://p
 
 In addition to the quick links at the top, keep in mind:
 
-* Our **collection of documents**:  [Everything](https://github.com/DaveBackus/Data_Bootcamp) | [Python programs](https://github.com/DaveBackus/Data_Bootcamp/tree/master/Code/Python) | [IPython notebooks](https://github.com/DaveBackus/Data_Bootcamp/tree/master/Code/IPython) | [Experiments](https://github.com/DaveBackus/Data_Bootcamp/tree/master/Code/Lab)
+* Our **GiitHub repository** (collection of documents): <br> [Everything](https://github.com/DaveBackus/Data_Bootcamp) | [Python programs](https://github.com/DaveBackus/Data_Bootcamp/tree/master/Code/Python) | [IPython notebooks](https://github.com/DaveBackus/Data_Bootcamp/tree/master/Code/IPython) | [Experiments](https://github.com/DaveBackus/Data_Bootcamp/tree/master/Code/Lab)
 * Or **search**:  [nyu data bootcamp](http://lmgtfy.com/?q=nyu+data+bootcamp)
 
