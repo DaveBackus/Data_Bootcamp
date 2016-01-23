@@ -39,3 +39,44 @@ Outline | Code  <br>
 ## Topic 6.  Economic indicators 
 
 Outline | Code  <br>
+
+---
+## Remaining topics will depend upon interest. We almost have enough for another course.  
+
+---
+## Topic.  More Pandas
+
+Outline | Code  <br> 
+Pandas has incredible facilities for manipulating data, including many of the tools you'll find in databases.  We'll look at joins (merging data from different dataframes), groupbys (computing statistics for groups in a dataframe), and multi-indexed data (dataframes with more than two dimensions).  Incredibly useful for day-to-day work in business.  
+
+---
+## Topic.  Distributions, dependence, and dynamics
+
+Outline | Code  
+
+This is really three topics.  
+
+* Distributions is about the frequenies of various outcomes:  stock returns, incomes of individuals, medicial expenses, movie grosses.  Tools include histograms, smoothed versions (kde's), cumulative and log plots. 
+* Dependence is about connections between two variables:  scatterplots, correlation, Anscombe's quartet. 
+* Dynamics is about the relation between the same variable at two dates:  stock returns this month and next, cross-correlations, the ccf.  
+
+
+---
+## Topic.  Demography
+
+Outline | Code  <br>
+The world is getting older.  Basic data for this involves the age distribution and the things that drive it:  mortality (people are dying less), fertility (and having few children).  All of this data is freely available.  
+
+---
+## Topic.  Updating and installing packages 
+
+Outline | Code  
+
+conda, pip, etc.  Applications to seaborn, quandl.  
+
+---
+## Topic.  Statistics \& Machine Learning 
+
+Outline | Code  
+
+The history of approaches to data.  Multivariate regression with two packages.  
