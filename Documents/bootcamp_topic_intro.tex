@@ -14,31 +14,258 @@
 \centerline{Revised: \today}
 
 
-\section*{How these outlines work} 
-
-List of things covered in this module.  
-You can find links to materials on the page
-
 \section*{Materials}
 
 \begin{itemize}
 \item  First-day handouts:  Syllabus, Project Guide, Due Dates
-\item  Today's handouts:  this document, code
-\item  Skim after class:  ``Where are we headed?,'' ``Data mentality,'' and ``Installing Anaconda.''
-\end{itemize} 
+\item  Today's handouts:  this outline, three ideas, book chapters, red/green stickers 
+\item  Links:  See the {\it Topic list \& links\/} page of the course website.
+\item  Skim after class:  first three chapters of the book.
+\end{itemize}
 
-\section*{Outline for this topic} 
+
+
+\section*{About the course}
 
 \begin{itemize}
+\item Data + Python = Magic!  
+\begin{itemize}
+\item Arthur C. Clarke, Jessica, Tim 
+\end{itemize}
+
+\item What?
+\begin{itemize}
+\item ... are you doing here?
+\item Skills are nice, coding is literacy for the modern age  
+\item Something to show potential employers
+\end{itemize}
+
 \item Why?
 \begin{itemize}
 \item Why data?
+\item Why code?
 \item Why Python?
-\item Why you?  
-\end{itemize} 
+\item Why you?
+\end{itemize}
+
+\item Things we believe 
+\begin{itemize}
+\item Anyone can do this.  Our target audience is programming newbies --- with courage. 
+\item It's ok to be lost.  We've all been there, it's not permanent.  
+%\item We're here to help.  But you need to tell us when you're lost.
+\item This is fun.  Really.  
+%It's an amazing feeling to be able to do cool things in minutes.  
+\end{itemize}
+
+
+\item Rules to live by
+\begin{itemize}
+\item Don't panic.  It will seem overwhelming at first, but stick with it and you'll be fine.
+\item One step at a time.  Don't rush this.  In six weeks you'll know a lot.  
+\item Learn by doing.  Same directions as Carnegie Hall, no shortcuts.  
+\item Ask for help.  Don't be a hero, let us know if you could use some help.  
+\end{itemize}
+
+\needspace{2\baselineskip}
+\item Course materials
+\begin{itemize}
+\item Google ``nyu data bootcamp''
+\item Website (thanks, Spencer):  \url{http://databootcamp.nyuecon.com/}  (bookmark me!) 
+\item Book
+\item Topic list \& links
+\item Discussion group
+\item GitHub repository:  \url{https://github.com/DaveBackus/Data_Bootcamp}  
+\end{itemize}
+
+\end{itemize}
+
+
+\section*{Anaconda}
+
+\begin{itemize}
+\item Install the Anaconda distribution
+\begin{itemize} 
+\item Put red sticker on your laptop
+\item Distribution?
+\item Google ``anaconda download'' or borrow a USB drive
+\item Download or copy installer to your computer --- {\bf Python 3.5!} 
+\item Run installer 
+\item Start Launcher (use search box)
+\item Replace red sticker with green when Launcher opens   
+\end{itemize}
+
+\item Environments 
+\begin{itemize}
+\item Environments?  (environment is to program as Word is to Word doc) 
+\item Spyder:  classic coding environment with editor and output windows 
+\item Jupyter:  environment for creating IPython notebooks, which combine code with text and output 
+\end{itemize}
+
+\end{itemize}
+
+
+
+\section*{Run test program -- twice}
+
+\begin{itemize} 
+\item Create \verb|Data_Bootcamp| folder/directory on your computer.
+{\bf Raise your hand if you're not sure what that means or how to do it.}
+
+\item Test program code:
+
+\vspace{-0.1in}
+\begin{verbatim}
+"""
+Test program for Data Bootcamp course @ NYU Stern 
+"""
+import sys  
+
+print('Welcome to Data Bootcamp!')
+print('Python version:')
+print(sys.version)
+\end{verbatim} 
+
+\needspace{2\baselineskip}
+\item Run test program in Spyder:  
+\begin{itemize}
+\item Put red sticker on your laptop 
+\item From Launcher, launch Spyder (labelled ``spyder-app'') 
+\item Look around (editor, IPython console, Object inspector) 
+\item Enter test program in editor (on the left)
+\item Save in \verb|Data_Bootcamp| directory as \verb|bootcamp_test.py| 
+(File, Save as, look for folder)
+\item Run program (click on large green triangle) 
+\item Look for correct output (last line should be {\tt 3.5.x etc}) 
+\item Switch to green sticker if it works 
 \end{itemize} 
 
-\end{document} 
+\item Run test program in Jupyter:
+\begin{itemize}
+\item Put red sticker on your laptop
+\item From Launcher, launch Jupyter (labelled ``ipython-notebook'')
+\item Navigate to \verb|Data_Bootcamp| directory
+\item Open a new IPython notebook (New, Python 3)
+\item Change name from {\tt Untitled} to \verb|bootcamp_test|
+\item Look around (toolbar, menubar, code cells)
+\item Enter test program in code cell 
+\item Run program (Cell, Run All) 
+\item Look for correct output (last line should be {\tt 3.5.x etc})
+\item Switch to green sticker if it works
+\end{itemize}
+\end{itemize} 
+
+
+\section*{Practice and review}
+
+
+Put red sticker on your laptop, replace with green when you're done.  Raise your hand
+if you could use some help. 
+
+\begin{enumerate} 
+
+\item Fill in the blanks in this table:  
+%relating ``environments'' to the files they are related to:  
+
+\begin{center} 
+\begin{tabular}{cc} 
+\toprule 
+Environment & File or Object \\
+\midrule 
+MS Word  & Word document  \\
+MS Excel & Excel file     \\
+iTunes & \\
+%Typewriter & \\
+Spyder   &                \\
+         & IPython notebook \\
+\bottomrule 
+\end{tabular}
+\end{center}
+
+
+\item Run the \verb|Maddison_data_input.py| Python code example.  
+\begin{itemize}
+\item Go to the \verb|Data_Bootcamp| GitHub repository (link above).  
+\item Navigate to the {\tt Code} directory and {\tt Lab} subdirectory.
+\item Click on \verb|Maddison_data_input.py|.
+\item Click on the Raw button and save file in your \verb|Data_Bootcamp| 
+directory.
+\item Open file in Spyder (File, Open).
+\item Run it by clicking on large green triangle.
+\item What do you see?
+\end{itemize}
+
+\end{enumerate} 
+
+
+\section*{Thinking about data}
+
+\begin{itemize}
+
+\item Where we're headed
+\begin{itemize} 
+\item Think of a {\bf graph\/} you'd like to produce -- a ``visualization''
+\item And the {\bf story\/} it tells 
+\item And the {\bf data\/} that went into it 
+\end{itemize} 
+
+\item Examples (links on {\it Topic list \& links\/} page) [Gapminder]
+
+\item Questions about graphs
+\begin{itemize}
+\item What did you learn, what is the {\bf story\/}?  
+\item {\bf What else} would you like to know?
+\item Where did the {\bf data\/} come from?
+\end{itemize}
+
+\item Examples revisited, answer the questions  
+
+\item Course projects
+\begin{itemize}
+\item Course structure:  tools, project 
+\item Opportunity to show off your skills ({\tt Projects} directory of GitHub repo) 
+\item First step:  develop project ideas ({\bf develop}, not {\bf discover}) 
+\item What interests {\bf you}?  
+\end{itemize}
+
+\item Idea machines
+\begin{itemize}
+\item Start with an idea or subject 
+\item Start with a dataset
+\item Start with an example 
+\end{itemize}
+
+\item Three ideas
+\begin{itemize}
+\item Write down three ideas on a piece of paper 
+\item Use your imagination, don't overthink it (improv: what's your name?)  
+\item Share one, ask for suggestions for developing it further 
+\end{itemize}
+
+\end{itemize}
+
+
+
+\section*{After class}
+
+\begin{itemize}
+\item Required
+\begin{itemize}
+\item Read Syllabus, Project Guide.
+\item Mark due dates on your calendar.
+\item Skim chapters 1-3 of the book.
+\end{itemize} 
+\item Recommended    
+\begin{itemize}
+\item If you haven't already:  join the discussion group, take the entry poll.
+\item Post a link to an interesting graph on the discussion group.
+\item Look through the IPython notebook \verb|bootcamp_examples.ipynb|
+in the IPython directory of the GitHub repo.
+What graphs interest you?  What data?  
+Does it suggest anything else you might want to explore?
+\end{itemize}
+\end{itemize}
+
+\end{document}
 
 **Outline**
 
@@ -102,7 +329,7 @@ Locate this file in a browser
 
 Save today's code file in a handy place
 
-* Create directory/folder `Data_Bootcamp`
+* Create directory/folder \verb|Data_Bootcamp| 
 * Click on code link above, then Raw button
 * Save file in `Data_Bootcamp` directory
 
