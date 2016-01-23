@@ -338,6 +338,54 @@ Packages; import; Pandas; csv files; reading csv/slx files; dataframes; columns;
 &lt;h2 id=&#34;topic-6-economic-indicators:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 6.  Economic indicators&lt;/h2&gt;
 
 &lt;p&gt;Outline | Code  &lt;br&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;remaining-topics-will-depend-upon-interest-we-almost-have-enough-for-another-course:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Remaining topics will depend upon interest. We almost have enough for another course.&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;topic-more-pandas:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic.  More Pandas&lt;/h2&gt;
+
+&lt;p&gt;Outline | Code  &lt;br&gt;
+Pandas has incredible facilities for manipulating data, including many of the tools you&amp;rsquo;ll find in databases.  We&amp;rsquo;ll look at joins (merging data from different dataframes), groupbys (computing statistics for groups in a dataframe), and multi-indexed data (dataframes with more than two dimensions).  Incredibly useful for day-to-day work in business.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;topic-distributions-dependence-and-dynamics:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic.  Distributions, dependence, and dynamics&lt;/h2&gt;
+
+&lt;p&gt;Outline | Code&lt;/p&gt;
+
+&lt;p&gt;This is really three topics.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Distributions is about the frequenies of various outcomes:  stock returns, incomes of individuals, medicial expenses, movie grosses.  Tools include histograms, smoothed versions (kde&amp;rsquo;s), cumulative and log plots.&lt;/li&gt;
+&lt;li&gt;Dependence is about connections between two variables:  scatterplots, correlation, Anscombe&amp;rsquo;s quartet.&lt;/li&gt;
+&lt;li&gt;Dynamics is about the relation between the same variable at two dates:  stock returns this month and next, cross-correlations, the ccf.&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;topic-demography:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic.  Demography&lt;/h2&gt;
+
+&lt;p&gt;Outline | Code  &lt;br&gt;
+The world is getting older.  Basic data for this involves the age distribution and the things that drive it:  mortality (people are dying less), fertility (and having few children).  All of this data is freely available.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;topic-updating-and-installing-packages:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic.  Updating and installing packages&lt;/h2&gt;
+
+&lt;p&gt;Outline | Code&lt;/p&gt;
+
+&lt;p&gt;conda, pip, etc.  Applications to seaborn, quandl.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;topic-statistics-machine-learning:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic.  Statistics &amp;amp; Machine Learning&lt;/h2&gt;
+
+&lt;p&gt;Outline | Code&lt;/p&gt;
+
+&lt;p&gt;The history of approaches to data.  Multivariate regression with two packages.&lt;/p&gt;
 </description>
     </item>
     
