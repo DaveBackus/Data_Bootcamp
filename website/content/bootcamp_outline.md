@@ -41,7 +41,7 @@ Outline | Code  <br>
 Outline | Code  <br>
 
 ---
-## Remaining topics will depend upon interest. We almost have enough for another course.  
+## Remaining topics will depend upon interest -- your and ours. We almost have enough for another course.  If there's something you'd particularly like to see, let us know.    
 
 ---
 ## Topic.  More Pandas
@@ -50,33 +50,32 @@ Outline | Code  <br>
 Pandas has incredible facilities for manipulating data, including many of the tools you'll find in databases.  We'll look at joins (merging data from different dataframes), groupbys (computing statistics for groups in a dataframe), and multi-indexed data (dataframes with more than two dimensions).  Incredibly useful for day-to-day work in business.  
 
 ---
-## Topic.  Distributions, dependence, and dynamics
+## Topic.  Updating and installing packages 
+
+Outline <br> 
+Using conda, pip, etc.  Applications to Anaconda, Seaborn, Quandl.  
+
+---
+## Topic.  Distributions, dependence, and dynamics 
 
 Outline | Code  
 
 This is really three topics.  
 
-* Distributions is about the frequenies of various outcomes:  stock returns, incomes of individuals, medicial expenses, movie grosses.  Tools include histograms, smoothed versions (kde's), cumulative and log plots. 
+* Distributions is about the frequencies of various outcomes:  stock returns, incomes of individuals, medicial expenses, movie grosses.  Tools include histograms, smoothed versions (kde's), cumulative and log plots. 
 * Dependence is about connections between two variables:  scatterplots, correlation, Anscombe's quartet. 
 * Dynamics is about the relation between the same variable at two dates:  stock returns this month and next, cross-correlations, the ccf.  
 
-
 ---
-## Topic.  Demography
+## Topic.  Demography & healthcare 
 
 Outline | Code  <br>
-The world is getting older.  Basic data for this involves the age distribution and the things that drive it:  mortality (people are dying less), fertility (and having few children).  All of this data is freely available.  
+The world is getting older -- a lot older.  Basic data for this involves the age distribution and the things that drive it:  mortality (people are dying less), fertility (and having few children).  All of this data is freely available.  <br>
+Healthcare is closely related.  As people age, they consume more healthcare, which raises lots of questions about how to deliver and pay for it.  
 
 ---
-## Topic.  Updating and installing packages 
+## Topic.  Statistics & Machine Learning 
 
-Outline | Code  
+Outline | Code  <br?
+These are whole subjects, not topics, but we thought a brief overview of their history would be useful.  We combine it an an applications to multivariate regression with two packages, one from each.  
 
-conda, pip, etc.  Applications to seaborn, quandl.  
-
----
-## Topic.  Statistics \& Machine Learning 
-
-Outline | Code  
-
-The history of approaches to data.  Multivariate regression with two packages.  

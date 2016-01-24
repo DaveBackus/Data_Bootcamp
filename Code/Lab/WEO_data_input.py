@@ -103,6 +103,7 @@ print('\nStatistics for growth rates')
 print('\n', xs.describe(), sep='')
 print('\n', xs.corr(), '\n', sep='')
 
+#%%
 # scatterplot 
 plt.scatter(xs[g[0]], xs[g[1]], alpha=0.5) 
 #plt.scatter(xs[g[0]], xs[g[1]], s=75*xs['gdp'], alpha=0.35) 
@@ -117,12 +118,14 @@ plt.show()
 #%%
 # another one, growth v level 
 #plt.scatter(sub1[g[0]], sub1[g[1]], alpha=0.5) 
-plt.scatter(np.log(xs['gdppc']), xs[g[1]], s=75*xs['gdp']**(1/2), alpha=0.35) 
+plt.scatter(np.log(xs['gdppc'])/np.log(2), xs[g[1]], 
+            s=100*xs['gdp']**(1/2), alpha=0.35) 
 #plt.scatter(sub1[g[0]], sub1[g[1]], s=100*sub1['gdp']**(1/2), alpha=0.25) 
-plt.xlim(6, 12)
+plt.xlim(8, 18)
 plt.ylim(-2, 12)
-plt.hlines(0, 6, 12, colors='k')
-plt.xlabel('Per Capita GDP (2000, log scale)')
+#plt.hlines(0, xmin, xmax, colors='k')
+plt.title('GDP growth versus starting point', fontsize=14, loc='left')
+plt.xlabel('Per Capita GDP (2000, log2 scale)')
 plt.ylabel('Per Capita GDP Growth, 2000-2015')
 plt.show()
 

@@ -10,8 +10,8 @@ type: index
 
 ## Spring 2016 schedule 
 
-* **Undergrad:**  ECON-UB.0232, Tuesday and Thursday, 2-3:15, KMC 4-80, January 26 to May 5
-* **MBA:**  ECON-GB.2313, Wednesday nights, 6-9pm, KMC 4-90, February 10 to May 4
+**Undergrad:**  ECON-UB.0232, Tuesday and Thursday, 2-3:15, KMC 4-80, January 26 to May 5 
+**MBA:**  ECON-GB.2313, Wednesday nights, 6-9pm, KMC 4-90, February 10 to May 4
 
 
 ## Before the first class 

@@ -25,16 +25,14 @@ print('\nPython version: ', sys.version)
 print('Pandas version: ', pd.__version__, '\n') 
 
 """
-read data 
+read data from internet source 
 """
 url = 'http://www.ggdc.net/maddison/maddison-project/data/mpd_2013-01.xlsx'
 mpd = pd.read_excel(url, skiprows=2, index_col=0, na_values=[' ']) 
-
-print('Dataframe dimensions:', mpd.shape) 
-
 # strip trailing blanks in country names 
 mpd.columns = map(str.rstrip, mpd.columns)
-#list(mpd)
+
+print('Dataframe dimensions:', mpd.shape) 
 
 #%%
 # select countries 
@@ -46,7 +44,7 @@ list(mpd)
 
 #%%
 """
-plots
+log base-2 plot
 """
 ax = mpd.plot(lw=2)
 ax.set_title('GDP per person', fontsize=14, loc='left')
@@ -56,5 +54,4 @@ ax.legend(loc='upper left', fontsize=10, handlelength=2, labelspacing=0.15)
 fig = ax.get_figure()
 fig.savefig('Maddison-GDP-1870-on.pdf', bbox_inches='tight')
 fig.show() 
-
 

@@ -30,9 +30,7 @@ url = 'https://s3.amazonaws.com/ed-college-choice-public/Most+Recent+Cohorts+(Sc
 
 sc = pd.read_csv(url, nrows=10) 
 
-print(list(sc))
-print(sc.index)
-
+list(sc)
 
 #%%
 """
