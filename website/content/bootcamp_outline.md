@@ -1,7 +1,7 @@
 # Data Bootcamp: Topic list & links 
 
 
-This is a list of topics for the NYU Stern course Data Bootcamp with links to material used in class.  We expect each topic to take roughly one week -- maybe a little more.  
+A list of topics with links to material used in class.  We expect each topic to take roughly one week -- maybe a little more.  
 
 ---
 
@@ -9,60 +9,58 @@ This is a list of topics for the NYU Stern course Data Bootcamp with links to ma
 
 Handouts:  [Outline](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_intro.pdf) | [Three ideas](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_3ideas.pdf) <br>
 Examples:  [Gapminder](http://www.gapminder.org/world/) | [Gender pay gap](http://esoltas.blogspot.com/2014/04/how-big-is-gender-pay-gap_10.html) | [Fertility](http://www.randalolson.com/2015/08/23/small-multiples-vs-animated-gifs-for-showing-changes-in-fertility-rates-over-time/) | [Uber in NYC](http://fivethirtyeight.com/features/uber-is-serving-new-yorks-outer-boroughs-more-than-taxis-are/) | [Vaccines](http://graphics.wsj.com/infectious-diseases-and-vaccines/) <br> 
-It's nice to have skills; installing Anaconda; Spyder and Jupyter/IPython; data; questions; idea machines.  
+Description:  It's nice to have skills; installing Anaconda; Spyder and Jupyter/IPython; data; questions; idea machines.  
 
 ---
 ## Topic 2.  Python fundamentals 1
 
 Handouts:  Outline | Code | [Code Practice #1](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_1.pdf) <br> 
-Calculations; assignments; strings; lists; built-in functions; objects; methods; tab completion.    
+Description:  Calculations; assignments; strings; lists; built-in functions; objects; methods; tab completion.    
 
 ---
 ## Topic 3.  Python fundamentals 2
 
 Handouts:  Outline | Code | [Code Practice #2](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_x.pdf) <br> 
-True and False; comparisons; conditionals; slicing; loops; function definitions and returns; dictionaries and tuples. 
+Description:  True and False; comparisons; conditionals; slicing; loops; function definitions and returns; dictionaries and tuples. 
 
 ---
 ## Topic 4.  Data input:  Packages and Pandas
 
 Handouts:  Outline | Code | [Code Practice #3](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_x.pdf)<br>
-Packages; import; Pandas; csv files; reading csv/slx files; dataframes; columns; index; APIs.  
+Description:  Packages; import; Pandas; csv files; reading csv/slx files; dataframes; columns; index; APIs.  
 
 ---
 ## Topic 5.  Python graphics:  Matplotlib fundamentals 
 
 Handouts:  Outline | Code <br>
-Three approaches to graphics: dataframe plot methods, plot(x,y), and fig/ax objects and methods; lines, scatters, bars, horizontal bars, styles.  
+Description:  Three approaches to graphics: dataframe plot methods, plot(x,y), and fig/ax objects and methods; lines, scatters, bars, horizontal bars, styles.  
 
 ---
 ## Topic 6.  Economic indicators 
 
 Handouts:  Outline | Code | [Optional Code Practice A](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_x.pdf)  <br>
-Indicators of current economics conditions; indicators of country environments.  
+Description:  Indicators of current economics conditions; indicators of country environments.  
 
 ---
-## Remaining topics will depend upon interest -- yours and ours. We almost have enough for another course.  If there's something you'd particularly like to see, let us know.    
+## Remaining topics will depend upon interest -- yours and ours. We have almost enough for another course.  If there's something you'd particularly like to see, let us know.  
 
 ---
 ## Topic.  More Pandas
 
-Outline | Code <br> 
-Pandas has incredible facilities for manipulating data, including many of the tools you'll find in databases.  We'll look at joins (merging data from different dataframes), groupbys (computing statistics for groups in a dataframe), and multi-indexed data (dataframes with more than two dimensions).  Incredibly useful for day-to-day work in business.  
+Handouts:  Outline | Code <br> 
+Description:  Pandas has incredible facilities for manipulating data, including many of the tools you'll find in databases.  We'll look at joins (merging data from different dataframes), groupbys (computing statistics for groups in a dataframe), and multi-indexed data (dataframes with more than two dimensions).  Incredibly useful for day-to-day work in business.  
 
 ---
 ## Topic.  Updating and installing packages 
 
-Outline <br> 
-Using conda, pip, etc.  Applications to Anaconda, Seaborn, Quandl.  
+Handouts:  Outline <br> 
+Description:  Using conda, pip, etc.  Applications to Anaconda, Seaborn, Quandl.  
 
 ---
 ## Topic.  Distributions, dependence, and dynamics 
 
-Outline | Code  
-
-This is really three topics.  
-
+Handouts:  Outline | Code  <br> 
+Description:  This is really three topics.  <br>
 * Distributions is about the frequencies of various outcomes:  stock returns, incomes of individuals, medicial expenses, movie grosses.  Tools include histograms, smoothed versions (kde's), cumulative and log plots. 
 * Dependence is about connections between two variables:  scatterplots, correlation, Anscombe's quartet. 
 * Dynamics is about the relation between the same variable at two dates:  stock returns this month and next, cross-correlations, the ccf.  
@@ -70,13 +68,12 @@ This is really three topics.
 ---
 ## Topic.  Demography & healthcare 
 
-Outline | Code  <br>
-The world is getting older -- a lot older.  Basic data for this involves the age distribution and the things that drive it:  mortality (people are dying less), fertility (and having few children).  All of this data is freely available.  <br>
+Handouts:  Outline | Code  <br>
+Description:  The world is getting older -- a lot older.  Basic data for this involves the age distribution and the things that drive it:  mortality (people are dying less), fertility (and having few children).  All of this data is freely available.  <br>
 Healthcare is closely related.  As people age, they consume more healthcare, which raises lots of questions about how to deliver and pay for it.  
 
 ---
 ## Topic.  Statistics & Machine Learning 
 
-Outline | Code  <br?
-These are whole subjects, not topics, but we thought a brief overview of their history would be useful.  We combine it an an applications to multivariate regression with two packages, one from each.  
-
+Handouts:  Outline | Code  <br?
+TDescription:  hese are whole subjects, not topics, but we thought a brief overview of their history would be useful.  We combine it an application to multivariate regression with two packages, StatsModels (statistics) and Scikit-Learn (machine learning).    
