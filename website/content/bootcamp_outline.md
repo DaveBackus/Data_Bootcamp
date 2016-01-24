@@ -14,31 +14,32 @@ It's nice to have skills; installing Anaconda; Spyder and Jupyter/IPython; data;
 ---
 ## Topic 2.  Python fundamentals 1
 
-Outline | Code <br> 
+Outline | Code | [Code Practice #1](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_1.pdf) <br> 
 Calculations; assignments; strings; lists; built-in functions; objects; methods; tab completion.    
 
 ---
 ## Topic 3.  Python fundamentals 2
 
-Outline | Code <br> 
+Outline | Code | [Code Practice #2](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_x.pdf) <br> 
 True and False; comparisons; conditionals; slicing; loops; function definitions and returns; dictionaries and tuples. 
 
 ---
 ## Topic 4.  Data input:  Packages and Pandas
 
-Outline | Code <br>
+Outline | Code | [Optional Code Practice A](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_x.pdf)<br>
 Packages; import; Pandas; csv files; reading csv/slx files; dataframes; columns; index; APIs.  
 
 ---
 ## Topic 5.  Python graphics:  Matplotlib fundamentals 
 
-Outline | Code  <br>
-
+Outline | Code | [Code Practice #3](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_x.pdf) <br>
+Three approaches to graphics: dataframe plot methods, plot(x,y), and fig/ax objects and methods; lines, scatters, bars, horizontal bars, styles.  
 
 ---
 ## Topic 6.  Economic indicators 
 
 Outline | Code  <br>
+Indicators of current economics conditions; indicators of country environments.  
 
 ---
 ## Remaining topics will depend upon interest -- your and ours. We almost have enough for another course.  If there's something you'd particularly like to see, let us know.    
@@ -46,7 +47,7 @@ Outline | Code  <br>
 ---
 ## Topic.  More Pandas
 
-Outline | Code  <br> 
+Outline | Code <br> 
 Pandas has incredible facilities for manipulating data, including many of the tools you'll find in databases.  We'll look at joins (merging data from different dataframes), groupbys (computing statistics for groups in a dataframe), and multi-indexed data (dataframes with more than two dimensions).  Incredibly useful for day-to-day work in business.  
 
 ---

@@ -23,7 +23,7 @@ print('Pandas version: ', pd.__version__, '\n')
 
 #%%
 """
-read data from OECD 
+read data 
 """
 url1 = 'ftp://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/'
 url2 = 'DVS/mortality/mort2014us.zip'

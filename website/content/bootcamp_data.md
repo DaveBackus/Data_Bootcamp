@@ -11,19 +11,19 @@ Go-to sources:
 
 * **World Bank.**  [Annual data](http://data.worldbank.org/) on the economic and social environments of a broad range of countries.  You can download the whole thing as a large csv or (our preference) use the [Pandas tool](http://pandas.pydata.org/pandas-docs/stable/remote_data.html).  The latter gives us doubly indexed dataframes, with observations indexed by year and country.  
 
-Others:
+Others we like:
 
 * **WEO.**  The IMF's [World Economic Outlook](https://www.imf.org/external/ns/cs.aspx?id=28) comes out twice a year.  Annual macroeconomic data for most countries, 1980 to 5-10 years in the future.  We read the whole thing from their spreadsheet link. 
 
 * **PWT.** The [Penn World Table](http://www.rug.nl/research/ggdc/data/pwt/?lang=en) is the best single source of basic macroeconomic data presented on a comparable basis (""PPP adjusted") for most countries.  Annual from 1950 to (roughly) 3-4 years ago.  We read the whole thing from their spreadsheet link.  
 
-* **UN Population data.**  [Annual data](http://esa.un.org/unpd/wpp/Download/Standard/Population/) for most countries of the population by age.  Includes estimates from 1950 and projections to 2100.  We read the whole thing from a spreadsheet. Also data on births (fertility) and deaths (mortality).    
+* **UN Population data.**  [Annual data](http://esa.un.org/unpd/wpp/Download/Standard/Population/) for most countries of the population by age.  Includes estimates from 1950 and projections to 2100.  We read the whole thing from their spreadsheet link. Also data on births (fertility) and deaths (mortality).    
 
 ## Data about financial markets 
 
 * **Fama-French equity returns.**  The leading source of equity returns for investment research, courtesy of Gene Fama and Ken French.  Text files on [Ken French's website](http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html) are easily read into Excel.  The [Pandas tool](http://pandas.pydata.org/pandas-docs/stable/remote_data.html) is even better -- when it works. 
 
-* **Yahoo and Google finance.**  Pandas also has [tools](http://pandas.pydata.org/pandas-docs/stable/remote_data.html) for accessing daily stock prices and related information.  
+* **Yahoo and Google finance.**  Pandas also has [tools](http://pandas.pydata.org/pandas-docs/stable/remote_data.html) for accessing daily stock prices and other financial data.  
 
 * **Quandl.**  A [nice aggregator](https://www.quandl.com/) of economic and financial information. Uses the Quandl package, which comes with Anaconda.  Much of it is free, but they also serve as an interface to paid data subscriptions.   
 
@@ -34,11 +34,11 @@ There is lots of survey data online, which gives us individual outcomes (the emp
 
 Here are some we have used:  
 
-* **ACS.** The [American Community Survey](https://www.census.gov/programs-surveys/acs/) from the US Census covers demography (age, sex, ethnicity), economics (employment and income), education, and many other [subjects](https://www.census.gov/programs-surveys/acs/guidance/subjects.html). The [Public Use Microdata Sample](https://www.census.gov/programs-surveys/acs/technical-documentation/pums.html) (PUMS) contains individual responses. This [guide](https://source.opennews.org/en-US/learning/how-use-census-bureau-american-community-survey/) was written for journalists. 
+* **ACS.** The [American Community Survey](https://www.census.gov/programs-surveys/acs/)  from the US Census covers demography (age, sex, ethnicity), economics (employment and income), education, and many other [subjects](https://www.census.gov/programs-surveys/acs/guidance/subjects.html). The [Public Use Microdata Sample](https://www.census.gov/programs-surveys/acs/technical-documentation/pums.html) (PUMS) contains individual responses. This [guide](https://source.opennews.org/en-US/learning/how-use-census-bureau-american-community-survey/) was written for journalists. 
 
 * **CPS.** The [Current Population Survey] has information about employment status, income, and a broad range of demographic variables (age, education, ethnicity).  The University of Minnesota has a [web interface](https://cps.ipums.org/cps/) that lots of people use.  
 
-* **ATUS.**  The [American Time Use Survey](http://www.bls.gov/tus/) describes how people spend their time:  employed, doing housework, watching tv, etc.  This [article](http://scholar.princeton.edu/sites/default/files/annurev-economics-111809-125129_0.pdf) summarizes academic work done on similar surveys in many countries.  
+* **ATUS.**  The [American Time Use Survey](http://www.bls.gov/tus/) describes how people spend their time:  employed, doing housework, watching tv, etc.  This [article](http://scholar.princeton.edu/sites/default/files/annurev-economics-111809-125129_0.pdf) summarizes academic work done on similar surveys in many countries. [The Times](http://www.nytimes.com/interactive/2009/07/31/business/20080801-metrics-graphic.html) is unusually fond of this survey.
 
 * **MEPS.**  The [Medical Expenditure Panel Survey](http://meps.ahrq.gov/mepsweb/) is the leading source of information about individual healthcare, including insurance status and expenditures.  
 
@@ -51,7 +51,7 @@ Some that appeal to us, but please send suggestions:
 
 * **Airbnb.**  [Data](http://insideairbnb.com/get-the-data.html) on locations, rentals, and reviews. Chase loves this.  Good input for a map project?  
 
-* **NYC Open Data.**  [Data](https://data.cityofnewyork.us/) collected by the City of New York. There's too much to summizes, but it includes taxis (every taxi ride in the city), restaurant inspections, and much much more.  [I Quant NY](http://iquantny.tumblr.com/) has some applications. [538](http://fivethirtyeight.com/tag/uber/) combined the taxi data with similar information about Uber, which they posted on their [repo](https://github.com/fivethirtyeight/uber-tlc-foil-response)
+* **NYC Open Data.**  [Data](https://data.cityofnewyork.us/) collected by the City of New York. There's too much to summarize, but it includes taxis (every taxi ride in the city), restaurant inspections, and much much more.  [I Quant NY](http://iquantny.tumblr.com/) has some applications. [538](http://fivethirtyeight.com/tag/uber/) combined the taxi data with similar information about Uber, which they posted on their [repo](https://github.com/fivethirtyeight/uber-tlc-foil-response)
 
 <!--
 * **Pew Research Center.**  We haven't used it, but they do lots of surveys and post [the data](http://www.pewresearch.org/) on their website.   
@@ -63,18 +63,18 @@ Data journalism:
 
 * ESPN's **538 Blog**.  The high end of data journalism.  They often post their data as csv's in their [data repository](https://github.com/fivethirtyeight/data/blob/master/README.md).   
 
-* **The Upshot** from the NY Times.  Great graphics, including [these](http://www.nytimes.com/interactive/2015/12/15/upshot/the-best-places-for-better-cheaper-health-care-arent-what-experts-thought.html) [two](http://www.nytimes.com/interactive/2009/07/31/business/20080801-metrics-graphic.html) examples. They list their sources, but don't typically post their data.  
+* NYT's **Upshot**.  Great graphics, including [these](http://www.nytimes.com/interactive/2015/12/15/upshot/the-best-places-for-better-cheaper-health-care-arent-what-experts-thought.html) [two](http://www.nytimes.com/interactive/2009/07/31/business/20080801-metrics-graphic.html) examples. They list sources, but don't typically post data.  
 
-* Tim Taylor's **Conversable Economist** blog.  Tim's a former journalist, so a better writer than most economists.  He has a [daily post](http://conversableeconomist.blogspot.com/) about a topical economic issue, often with graphs we can use to track down data sources.  
+* Tim Taylor's **Conversable Economist** blog.  Tim's a former journalist, so a better writer than most economists.  He has a [daily post](http://conversableeconomist.blogspot.com/) about a topical economic issue, often with graphs we can use to track down data sources. If you don't recognize a source, ask us about it.  
 
 Graphics:  
 
-* **Flowing Data.**  Nathan Yau's [daily graphic](http://flowingdata.com/). A good sources of ideas and advice.  
+* **Flowing Data.**  Nathan Yau's [daily graphic](http://flowingdata.com/). A good source of ideas and advice.  
 
 * **VizWiz.** Andy Kriebel's ["visualization" blog](http://vizwiz.blogspot.com/).  A steady stream of examples and advice, including the invaluable Makeover Monday.  Tagline:  "Friends Don't Let Friends Use Pie Charts." 
 
 
 ## More
 
-This is **not for the timid**, but here is our [huge collection](https://docs.google.com/document/d/1L2ZDKFyyqfOrCGbNcCIE9mmgap4tjkTNuw32hK4c6BI/edit?usp=sharing) of data sources and applications.  Get a cold drink and a comfy chair and see what strikes your fancy.  Active investing?  Movies?  Shooting deaths?  All this and more.  
+This is **not for the timid**, but we have a [huge collection](https://docs.google.com/document/d/1L2ZDKFyyqfOrCGbNcCIE9mmgap4tjkTNuw32hK4c6BI/edit?usp=sharing) of data sources and applications.  Get a cold drink and a comfy chair and see what strikes your fancy. Active investing?  Movie grosses? Sports? College Scorecard? Shooting deaths? All this and more.  
 
