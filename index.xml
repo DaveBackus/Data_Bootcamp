@@ -294,7 +294,7 @@
 
 &lt;h1 id=&#34;data-bootcamp-topic-list-links:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Data Bootcamp: Topic list &amp;amp; links&lt;/h1&gt;
 
-&lt;p&gt;This is a list of topics for the NYU Stern course Data Bootcamp with links to material used in class.  We expect each topic to take roughly one week &amp;ndash; maybe a little more.&lt;/p&gt;
+&lt;p&gt;A list of topics with links to material used in class.  We expect each topic to take roughly one week &amp;ndash; maybe a little more.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -302,89 +302,85 @@
 
 &lt;p&gt;Handouts:  &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_intro.pdf&#34;&gt;Outline&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_3ideas.pdf&#34;&gt;Three ideas&lt;/a&gt; &lt;br&gt;
 Examples:  &lt;a href=&#34;http://www.gapminder.org/world/&#34;&gt;Gapminder&lt;/a&gt; | &lt;a href=&#34;http://esoltas.blogspot.com/2014/04/how-big-is-gender-pay-gap_10.html&#34;&gt;Gender pay gap&lt;/a&gt; | &lt;a href=&#34;http://www.randalolson.com/2015/08/23/small-multiples-vs-animated-gifs-for-showing-changes-in-fertility-rates-over-time/&#34;&gt;Fertility&lt;/a&gt; | &lt;a href=&#34;http://fivethirtyeight.com/features/uber-is-serving-new-yorks-outer-boroughs-more-than-taxis-are/&#34;&gt;Uber in NYC&lt;/a&gt; | &lt;a href=&#34;http://graphics.wsj.com/infectious-diseases-and-vaccines/&#34;&gt;Vaccines&lt;/a&gt; &lt;br&gt;
-It&amp;rsquo;s nice to have skills; installing Anaconda; Spyder and Jupyter/IPython; data; questions; idea machines.&lt;/p&gt;
+Description:  It&amp;rsquo;s nice to have skills; installing Anaconda; Spyder and Jupyter/IPython; data; questions; idea machines.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h2 id=&#34;topic-2-python-fundamentals-1:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 2.  Python fundamentals 1&lt;/h2&gt;
 
 &lt;p&gt;Handouts:  Outline | Code | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_1.pdf&#34;&gt;Code Practice #1&lt;/a&gt; &lt;br&gt;
-Calculations; assignments; strings; lists; built-in functions; objects; methods; tab completion.&lt;/p&gt;
+Description:  Calculations; assignments; strings; lists; built-in functions; objects; methods; tab completion.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h2 id=&#34;topic-3-python-fundamentals-2:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 3.  Python fundamentals 2&lt;/h2&gt;
 
 &lt;p&gt;Handouts:  Outline | Code | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_x.pdf&#34;&gt;Code Practice #2&lt;/a&gt; &lt;br&gt;
-True and False; comparisons; conditionals; slicing; loops; function definitions and returns; dictionaries and tuples.&lt;/p&gt;
+Description:  True and False; comparisons; conditionals; slicing; loops; function definitions and returns; dictionaries and tuples.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h2 id=&#34;topic-4-data-input-packages-and-pandas:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 4.  Data input:  Packages and Pandas&lt;/h2&gt;
 
 &lt;p&gt;Handouts:  Outline | Code | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_x.pdf&#34;&gt;Code Practice #3&lt;/a&gt;&lt;br&gt;
-Packages; import; Pandas; csv files; reading csv/slx files; dataframes; columns; index; APIs.&lt;/p&gt;
+Description:  Packages; import; Pandas; csv files; reading csv/slx files; dataframes; columns; index; APIs.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h2 id=&#34;topic-5-python-graphics-matplotlib-fundamentals:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 5.  Python graphics:  Matplotlib fundamentals&lt;/h2&gt;
 
 &lt;p&gt;Handouts:  Outline | Code &lt;br&gt;
-Three approaches to graphics: dataframe plot methods, plot(x,y), and fig/ax objects and methods; lines, scatters, bars, horizontal bars, styles.&lt;/p&gt;
+Description:  Three approaches to graphics: dataframe plot methods, plot(x,y), and fig/ax objects and methods; lines, scatters, bars, horizontal bars, styles.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h2 id=&#34;topic-6-economic-indicators:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 6.  Economic indicators&lt;/h2&gt;
 
 &lt;p&gt;Handouts:  Outline | Code | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_x.pdf&#34;&gt;Optional Code Practice A&lt;/a&gt;  &lt;br&gt;
-Indicators of current economics conditions; indicators of country environments.&lt;/p&gt;
+Description:  Indicators of current economics conditions; indicators of country environments.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;remaining-topics-will-depend-upon-interest-yours-and-ours-we-almost-have-enough-for-another-course-if-there-s-something-you-d-particularly-like-to-see-let-us-know:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Remaining topics will depend upon interest &amp;ndash; yours and ours. We almost have enough for another course.  If there&amp;rsquo;s something you&amp;rsquo;d particularly like to see, let us know.&lt;/h2&gt;
+&lt;h2 id=&#34;remaining-topics-will-depend-upon-interest-yours-and-ours-we-have-almost-enough-for-another-course-if-there-s-something-you-d-particularly-like-to-see-let-us-know:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Remaining topics will depend upon interest &amp;ndash; yours and ours. We have almost enough for another course.  If there&amp;rsquo;s something you&amp;rsquo;d particularly like to see, let us know.&lt;/h2&gt;
 
 &lt;hr /&gt;
 
 &lt;h2 id=&#34;topic-more-pandas:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic.  More Pandas&lt;/h2&gt;
 
-&lt;p&gt;Outline | Code &lt;br&gt;
-Pandas has incredible facilities for manipulating data, including many of the tools you&amp;rsquo;ll find in databases.  We&amp;rsquo;ll look at joins (merging data from different dataframes), groupbys (computing statistics for groups in a dataframe), and multi-indexed data (dataframes with more than two dimensions).  Incredibly useful for day-to-day work in business.&lt;/p&gt;
+&lt;p&gt;Handouts:  Outline | Code &lt;br&gt;
+Description:  Pandas has incredible facilities for manipulating data, including many of the tools you&amp;rsquo;ll find in databases.  We&amp;rsquo;ll look at joins (merging data from different dataframes), groupbys (computing statistics for groups in a dataframe), and multi-indexed data (dataframes with more than two dimensions).  Incredibly useful for day-to-day work in business.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h2 id=&#34;topic-updating-and-installing-packages:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic.  Updating and installing packages&lt;/h2&gt;
 
-&lt;p&gt;Outline &lt;br&gt;
-Using conda, pip, etc.  Applications to Anaconda, Seaborn, Quandl.&lt;/p&gt;
+&lt;p&gt;Handouts:  Outline &lt;br&gt;
+Description:  Using conda, pip, etc.  Applications to Anaconda, Seaborn, Quandl.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h2 id=&#34;topic-distributions-dependence-and-dynamics:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic.  Distributions, dependence, and dynamics&lt;/h2&gt;
 
-&lt;p&gt;Outline | Code&lt;/p&gt;
-
-&lt;p&gt;This is really three topics.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Distributions is about the frequencies of various outcomes:  stock returns, incomes of individuals, medicial expenses, movie grosses.  Tools include histograms, smoothed versions (kde&amp;rsquo;s), cumulative and log plots.&lt;/li&gt;
-&lt;li&gt;Dependence is about connections between two variables:  scatterplots, correlation, Anscombe&amp;rsquo;s quartet.&lt;/li&gt;
-&lt;li&gt;Dynamics is about the relation between the same variable at two dates:  stock returns this month and next, cross-correlations, the ccf.&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Handouts:  Outline | Code  &lt;br&gt;
+Description:  This is really three topics.  &lt;br&gt;
+* Distributions is about the frequencies of various outcomes:  stock returns, incomes of individuals, medicial expenses, movie grosses.  Tools include histograms, smoothed versions (kde&amp;rsquo;s), cumulative and log plots.
+* Dependence is about connections between two variables:  scatterplots, correlation, Anscombe&amp;rsquo;s quartet.
+* Dynamics is about the relation between the same variable at two dates:  stock returns this month and next, cross-correlations, the ccf.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h2 id=&#34;topic-demography-healthcare:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic.  Demography &amp;amp; healthcare&lt;/h2&gt;
 
-&lt;p&gt;Outline | Code  &lt;br&gt;
-The world is getting older &amp;ndash; a lot older.  Basic data for this involves the age distribution and the things that drive it:  mortality (people are dying less), fertility (and having few children).  All of this data is freely available.  &lt;br&gt;
+&lt;p&gt;Handouts:  Outline | Code  &lt;br&gt;
+Description:  The world is getting older &amp;ndash; a lot older.  Basic data for this involves the age distribution and the things that drive it:  mortality (people are dying less), fertility (and having few children).  All of this data is freely available.  &lt;br&gt;
 Healthcare is closely related.  As people age, they consume more healthcare, which raises lots of questions about how to deliver and pay for it.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h2 id=&#34;topic-statistics-machine-learning:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic.  Statistics &amp;amp; Machine Learning&lt;/h2&gt;
 
-&lt;p&gt;Outline | Code  &amp;lt;br?
-These are whole subjects, not topics, but we thought a brief overview of their history would be useful.  We combine it an an applications to multivariate regression with two packages, one from each.&lt;/p&gt;
+&lt;p&gt;Handouts:  Outline | Code  &amp;lt;br?
+TDescription:  hese are whole subjects, not topics, but we thought a brief overview of their history would be useful.  We combine it an application to multivariate regression with two packages, StatsModels (statistics) and Scikit-Learn (machine learning).&lt;/p&gt;
 </description>
     </item>
     
