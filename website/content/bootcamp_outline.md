@@ -7,42 +7,42 @@ This is a list of topics for the NYU Stern course Data Bootcamp with links to ma
 
 ## Topic 1.  Data + Python = Magic!  
 
-[Outline](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_intro.pdf) | [Three ideas](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_3ideas.pdf) <br>
+Handouts:  [Outline](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_intro.pdf) | [Three ideas](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_3ideas.pdf) <br>
 Examples:  [Gapminder](http://www.gapminder.org/world/) | [Gender pay gap](http://esoltas.blogspot.com/2014/04/how-big-is-gender-pay-gap_10.html) | [Fertility](http://www.randalolson.com/2015/08/23/small-multiples-vs-animated-gifs-for-showing-changes-in-fertility-rates-over-time/) | [Uber in NYC](http://fivethirtyeight.com/features/uber-is-serving-new-yorks-outer-boroughs-more-than-taxis-are/) | [Vaccines](http://graphics.wsj.com/infectious-diseases-and-vaccines/) <br> 
 It's nice to have skills; installing Anaconda; Spyder and Jupyter/IPython; data; questions; idea machines.  
 
 ---
 ## Topic 2.  Python fundamentals 1
 
-Outline | Code | [Code Practice #1](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_1.pdf) <br> 
+Handouts:  Outline | Code | [Code Practice #1](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_1.pdf) <br> 
 Calculations; assignments; strings; lists; built-in functions; objects; methods; tab completion.    
 
 ---
 ## Topic 3.  Python fundamentals 2
 
-Outline | Code | [Code Practice #2](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_x.pdf) <br> 
+Handouts:  Outline | Code | [Code Practice #2](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_x.pdf) <br> 
 True and False; comparisons; conditionals; slicing; loops; function definitions and returns; dictionaries and tuples. 
 
 ---
 ## Topic 4.  Data input:  Packages and Pandas
 
-Outline | Code | [Optional Code Practice A](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_x.pdf)<br>
+Handouts:  Outline | Code | [Code Practice #3](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_x.pdf)<br>
 Packages; import; Pandas; csv files; reading csv/slx files; dataframes; columns; index; APIs.  
 
 ---
 ## Topic 5.  Python graphics:  Matplotlib fundamentals 
 
-Outline | Code | [Code Practice #3](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_x.pdf) <br>
+Handouts:  Outline | Code <br>
 Three approaches to graphics: dataframe plot methods, plot(x,y), and fig/ax objects and methods; lines, scatters, bars, horizontal bars, styles.  
 
 ---
 ## Topic 6.  Economic indicators 
 
-Outline | Code  <br>
+Handouts:  Outline | Code | [Optional Code Practice A](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_x.pdf)  <br>
 Indicators of current economics conditions; indicators of country environments.  
 
 ---
-## Remaining topics will depend upon interest -- your and ours. We almost have enough for another course.  If there's something you'd particularly like to see, let us know.    
+## Remaining topics will depend upon interest -- yours and ours. We almost have enough for another course.  If there's something you'd particularly like to see, let us know.    
 
 ---
 ## Topic.  More Pandas
