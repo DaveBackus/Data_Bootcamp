@@ -51,7 +51,7 @@
     },
     "datePublished": "0001-01-01",
     "description": "",
-    "wordCount":  865 
+    "wordCount":  885 
   }
 </script>
 
@@ -173,14 +173,14 @@
 <li><p><strong>World Bank.</strong>  <a href="http://data.worldbank.org/">Annual data</a> on the economic and social environments of a broad range of countries.  You can download the whole thing as a large csv or (our preference) use the <a href="http://pandas.pydata.org/pandas-docs/stable/remote_data.html">Pandas tool</a>.  The latter gives us doubly indexed dataframes, with observations indexed by year and country.</p></li>
 </ul>
 
-<p>Others:</p>
+<p>Others we like:</p>
 
 <ul>
 <li><p><strong>WEO.</strong>  The IMF&rsquo;s <a href="https://www.imf.org/external/ns/cs.aspx?id=28">World Economic Outlook</a> comes out twice a year.  Annual macroeconomic data for most countries, 1980 to 5-10 years in the future.  We read the whole thing from their spreadsheet link.</p></li>
 
 <li><p><strong>PWT.</strong> The <a href="http://www.rug.nl/research/ggdc/data/pwt/?lang=en">Penn World Table</a> is the best single source of basic macroeconomic data presented on a comparable basis (&ldquo;&ldquo;PPP adjusted&rdquo;) for most countries.  Annual from 1950 to (roughly) 3-4 years ago.  We read the whole thing from their spreadsheet link.</p></li>
 
-<li><p><strong>UN Population data.</strong>  <a href="http://esa.un.org/unpd/wpp/Download/Standard/Population/">Annual data</a> for most countries of the population by age.  Includes estimates from 1950 and projections to 2100.  We read the whole thing from a spreadsheet. Also data on births (fertility) and deaths (mortality).</p></li>
+<li><p><strong>UN Population data.</strong>  <a href="http://esa.un.org/unpd/wpp/Download/Standard/Population/">Annual data</a> for most countries of the population by age.  Includes estimates from 1950 and projections to 2100.  We read the whole thing from their spreadsheet link. Also data on births (fertility) and deaths (mortality).</p></li>
 </ul>
 
 <h2 id="data-about-financial-markets:987d9bf97cab1040fa2beea3138e2fdf">Data about financial markets</h2>
@@ -188,7 +188,7 @@
 <ul>
 <li><p><strong>Fama-French equity returns.</strong>  The leading source of equity returns for investment research, courtesy of Gene Fama and Ken French.  Text files on <a href="http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html">Ken French&rsquo;s website</a> are easily read into Excel.  The <a href="http://pandas.pydata.org/pandas-docs/stable/remote_data.html">Pandas tool</a> is even better &ndash; when it works.</p></li>
 
-<li><p><strong>Yahoo and Google finance.</strong>  Pandas also has <a href="http://pandas.pydata.org/pandas-docs/stable/remote_data.html">tools</a> for accessing daily stock prices and related information.</p></li>
+<li><p><strong>Yahoo and Google finance.</strong>  Pandas also has <a href="http://pandas.pydata.org/pandas-docs/stable/remote_data.html">tools</a> for accessing daily stock prices and other financial data.</p></li>
 
 <li><p><strong>Quandl.</strong>  A <a href="https://www.quandl.com/">nice aggregator</a> of economic and financial information. Uses the Quandl package, which comes with Anaconda.  Much of it is free, but they also serve as an interface to paid data subscriptions.</p></li>
 </ul>
@@ -200,11 +200,11 @@
 <p>Here are some we have used:</p>
 
 <ul>
-<li><p><strong>ACS.</strong> The <a href="https://www.census.gov/programs-surveys/acs/">American Community Survey</a> from the US Census covers demography (age, sex, ethnicity), economics (employment and income), education, and many other <a href="https://www.census.gov/programs-surveys/acs/guidance/subjects.html">subjects</a>. The <a href="https://www.census.gov/programs-surveys/acs/technical-documentation/pums.html">Public Use Microdata Sample</a> (PUMS) contains individual responses. This <a href="https://source.opennews.org/en-US/learning/how-use-census-bureau-american-community-survey/">guide</a> was written for journalists.</p></li>
+<li><p><strong>ACS.</strong> The <a href="https://www.census.gov/programs-surveys/acs/">American Community Survey</a>  from the US Census covers demography (age, sex, ethnicity), economics (employment and income), education, and many other <a href="https://www.census.gov/programs-surveys/acs/guidance/subjects.html">subjects</a>. The <a href="https://www.census.gov/programs-surveys/acs/technical-documentation/pums.html">Public Use Microdata Sample</a> (PUMS) contains individual responses. This <a href="https://source.opennews.org/en-US/learning/how-use-census-bureau-american-community-survey/">guide</a> was written for journalists.</p></li>
 
 <li><p><strong>CPS.</strong> The [Current Population Survey] has information about employment status, income, and a broad range of demographic variables (age, education, ethnicity).  The University of Minnesota has a <a href="https://cps.ipums.org/cps/">web interface</a> that lots of people use.</p></li>
 
-<li><p><strong>ATUS.</strong>  The <a href="http://www.bls.gov/tus/">American Time Use Survey</a> describes how people spend their time:  employed, doing housework, watching tv, etc.  This <a href="http://scholar.princeton.edu/sites/default/files/annurev-economics-111809-125129_0.pdf">article</a> summarizes academic work done on similar surveys in many countries.</p></li>
+<li><p><strong>ATUS.</strong>  The <a href="http://www.bls.gov/tus/">American Time Use Survey</a> describes how people spend their time:  employed, doing housework, watching tv, etc.  This <a href="http://scholar.princeton.edu/sites/default/files/annurev-economics-111809-125129_0.pdf">article</a> summarizes academic work done on similar surveys in many countries. <a href="http://www.nytimes.com/interactive/2009/07/31/business/20080801-metrics-graphic.html">The Times</a> is unusually fond of this survey.</p></li>
 
 <li><p><strong>MEPS.</strong>  The <a href="http://meps.ahrq.gov/mepsweb/">Medical Expenditure Panel Survey</a> is the leading source of information about individual healthcare, including insurance status and expenditures.</p></li>
 </ul>
@@ -218,7 +218,7 @@
 
 <li><p><strong>Airbnb.</strong>  <a href="http://insideairbnb.com/get-the-data.html">Data</a> on locations, rentals, and reviews. Chase loves this.  Good input for a map project?</p></li>
 
-<li><p><strong>NYC Open Data.</strong>  <a href="https://data.cityofnewyork.us/">Data</a> collected by the City of New York. There&rsquo;s too much to summizes, but it includes taxis (every taxi ride in the city), restaurant inspections, and much much more.  <a href="http://iquantny.tumblr.com/">I Quant NY</a> has some applications. <a href="http://fivethirtyeight.com/tag/uber/">538</a> combined the taxi data with similar information about Uber, which they posted on their <a href="https://github.com/fivethirtyeight/uber-tlc-foil-response">repo</a></p></li>
+<li><p><strong>NYC Open Data.</strong>  <a href="https://data.cityofnewyork.us/">Data</a> collected by the City of New York. There&rsquo;s too much to summarize, but it includes taxis (every taxi ride in the city), restaurant inspections, and much much more.  <a href="http://iquantny.tumblr.com/">I Quant NY</a> has some applications. <a href="http://fivethirtyeight.com/tag/uber/">538</a> combined the taxi data with similar information about Uber, which they posted on their <a href="https://github.com/fivethirtyeight/uber-tlc-foil-response">repo</a></p></li>
 </ul>
 
 <!--
@@ -232,22 +232,22 @@
 <ul>
 <li><p>ESPN&rsquo;s <strong>538 Blog</strong>.  The high end of data journalism.  They often post their data as csv&rsquo;s in their <a href="https://github.com/fivethirtyeight/data/blob/master/README.md">data repository</a>.</p></li>
 
-<li><p><strong>The Upshot</strong> from the NY Times.  Great graphics, including <a href="http://www.nytimes.com/interactive/2015/12/15/upshot/the-best-places-for-better-cheaper-health-care-arent-what-experts-thought.html">these</a> <a href="http://www.nytimes.com/interactive/2009/07/31/business/20080801-metrics-graphic.html">two</a> examples. They list their sources, but don&rsquo;t typically post their data.</p></li>
+<li><p>NYT&rsquo;s <strong>Upshot</strong>.  Great graphics, including <a href="http://www.nytimes.com/interactive/2015/12/15/upshot/the-best-places-for-better-cheaper-health-care-arent-what-experts-thought.html">these</a> <a href="http://www.nytimes.com/interactive/2009/07/31/business/20080801-metrics-graphic.html">two</a> examples. They list sources, but don&rsquo;t typically post data.</p></li>
 
-<li><p>Tim Taylor&rsquo;s <strong>Conversable Economist</strong> blog.  Tim&rsquo;s a former journalist, so a better writer than most economists.  He has a <a href="http://conversableeconomist.blogspot.com/">daily post</a> about a topical economic issue, often with graphs we can use to track down data sources.</p></li>
+<li><p>Tim Taylor&rsquo;s <strong>Conversable Economist</strong> blog.  Tim&rsquo;s a former journalist, so a better writer than most economists.  He has a <a href="http://conversableeconomist.blogspot.com/">daily post</a> about a topical economic issue, often with graphs we can use to track down data sources. If you don&rsquo;t recognize a source, ask us about it.</p></li>
 </ul>
 
 <p>Graphics:</p>
 
 <ul>
-<li><p><strong>Flowing Data.</strong>  Nathan Yau&rsquo;s <a href="http://flowingdata.com/">daily graphic</a>. A good sources of ideas and advice.</p></li>
+<li><p><strong>Flowing Data.</strong>  Nathan Yau&rsquo;s <a href="http://flowingdata.com/">daily graphic</a>. A good source of ideas and advice.</p></li>
 
 <li><p><strong>VizWiz.</strong> Andy Kriebel&rsquo;s <a href="http://vizwiz.blogspot.com/">&ldquo;visualization&rdquo; blog</a>.  A steady stream of examples and advice, including the invaluable Makeover Monday.  Tagline:  &ldquo;Friends Don&rsquo;t Let Friends Use Pie Charts.&rdquo;</p></li>
 </ul>
 
 <h2 id="more:987d9bf97cab1040fa2beea3138e2fdf">More</h2>
 
-<p>This is <strong>not for the timid</strong>, but here is our <a href="https://docs.google.com/document/d/1L2ZDKFyyqfOrCGbNcCIE9mmgap4tjkTNuw32hK4c6BI/edit?usp=sharing">huge collection</a> of data sources and applications.  Get a cold drink and a comfy chair and see what strikes your fancy.  Active investing?  Movies?  Shooting deaths?  All this and more.</p>
+<p>This is <strong>not for the timid</strong>, but we have a <a href="https://docs.google.com/document/d/1L2ZDKFyyqfOrCGbNcCIE9mmgap4tjkTNuw32hK4c6BI/edit?usp=sharing">huge collection</a> of data sources and applications.  Get a cold drink and a comfy chair and see what strikes your fancy. Active investing?  Movie grosses? Sports? College Scorecard? Shooting deaths? All this and more.</p>
 
 </div>
 

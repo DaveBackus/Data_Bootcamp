@@ -30,14 +30,14 @@
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;World Bank.&lt;/strong&gt;  &lt;a href=&#34;http://data.worldbank.org/&#34;&gt;Annual data&lt;/a&gt; on the economic and social environments of a broad range of countries.  You can download the whole thing as a large csv or (our preference) use the &lt;a href=&#34;http://pandas.pydata.org/pandas-docs/stable/remote_data.html&#34;&gt;Pandas tool&lt;/a&gt;.  The latter gives us doubly indexed dataframes, with observations indexed by year and country.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Others:&lt;/p&gt;
+&lt;p&gt;Others we like:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;WEO.&lt;/strong&gt;  The IMF&amp;rsquo;s &lt;a href=&#34;https://www.imf.org/external/ns/cs.aspx?id=28&#34;&gt;World Economic Outlook&lt;/a&gt; comes out twice a year.  Annual macroeconomic data for most countries, 1980 to 5-10 years in the future.  We read the whole thing from their spreadsheet link.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;PWT.&lt;/strong&gt; The &lt;a href=&#34;http://www.rug.nl/research/ggdc/data/pwt/?lang=en&#34;&gt;Penn World Table&lt;/a&gt; is the best single source of basic macroeconomic data presented on a comparable basis (&amp;ldquo;&amp;ldquo;PPP adjusted&amp;rdquo;) for most countries.  Annual from 1950 to (roughly) 3-4 years ago.  We read the whole thing from their spreadsheet link.&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;UN Population data.&lt;/strong&gt;  &lt;a href=&#34;http://esa.un.org/unpd/wpp/Download/Standard/Population/&#34;&gt;Annual data&lt;/a&gt; for most countries of the population by age.  Includes estimates from 1950 and projections to 2100.  We read the whole thing from a spreadsheet. Also data on births (fertility) and deaths (mortality).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;UN Population data.&lt;/strong&gt;  &lt;a href=&#34;http://esa.un.org/unpd/wpp/Download/Standard/Population/&#34;&gt;Annual data&lt;/a&gt; for most countries of the population by age.  Includes estimates from 1950 and projections to 2100.  We read the whole thing from their spreadsheet link. Also data on births (fertility) and deaths (mortality).&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;data-about-financial-markets:987d9bf97cab1040fa2beea3138e2fdf&#34;&gt;Data about financial markets&lt;/h2&gt;
@@ -45,7 +45,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Fama-French equity returns.&lt;/strong&gt;  The leading source of equity returns for investment research, courtesy of Gene Fama and Ken French.  Text files on &lt;a href=&#34;http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html&#34;&gt;Ken French&amp;rsquo;s website&lt;/a&gt; are easily read into Excel.  The &lt;a href=&#34;http://pandas.pydata.org/pandas-docs/stable/remote_data.html&#34;&gt;Pandas tool&lt;/a&gt; is even better &amp;ndash; when it works.&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Yahoo and Google finance.&lt;/strong&gt;  Pandas also has &lt;a href=&#34;http://pandas.pydata.org/pandas-docs/stable/remote_data.html&#34;&gt;tools&lt;/a&gt; for accessing daily stock prices and related information.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Yahoo and Google finance.&lt;/strong&gt;  Pandas also has &lt;a href=&#34;http://pandas.pydata.org/pandas-docs/stable/remote_data.html&#34;&gt;tools&lt;/a&gt; for accessing daily stock prices and other financial data.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Quandl.&lt;/strong&gt;  A &lt;a href=&#34;https://www.quandl.com/&#34;&gt;nice aggregator&lt;/a&gt; of economic and financial information. Uses the Quandl package, which comes with Anaconda.  Much of it is free, but they also serve as an interface to paid data subscriptions.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -57,11 +57,11 @@
 &lt;p&gt;Here are some we have used:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;ACS.&lt;/strong&gt; The &lt;a href=&#34;https://www.census.gov/programs-surveys/acs/&#34;&gt;American Community Survey&lt;/a&gt; from the US Census covers demography (age, sex, ethnicity), economics (employment and income), education, and many other &lt;a href=&#34;https://www.census.gov/programs-surveys/acs/guidance/subjects.html&#34;&gt;subjects&lt;/a&gt;. The &lt;a href=&#34;https://www.census.gov/programs-surveys/acs/technical-documentation/pums.html&#34;&gt;Public Use Microdata Sample&lt;/a&gt; (PUMS) contains individual responses. This &lt;a href=&#34;https://source.opennews.org/en-US/learning/how-use-census-bureau-american-community-survey/&#34;&gt;guide&lt;/a&gt; was written for journalists.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;ACS.&lt;/strong&gt; The &lt;a href=&#34;https://www.census.gov/programs-surveys/acs/&#34;&gt;American Community Survey&lt;/a&gt;  from the US Census covers demography (age, sex, ethnicity), economics (employment and income), education, and many other &lt;a href=&#34;https://www.census.gov/programs-surveys/acs/guidance/subjects.html&#34;&gt;subjects&lt;/a&gt;. The &lt;a href=&#34;https://www.census.gov/programs-surveys/acs/technical-documentation/pums.html&#34;&gt;Public Use Microdata Sample&lt;/a&gt; (PUMS) contains individual responses. This &lt;a href=&#34;https://source.opennews.org/en-US/learning/how-use-census-bureau-american-community-survey/&#34;&gt;guide&lt;/a&gt; was written for journalists.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;CPS.&lt;/strong&gt; The [Current Population Survey] has information about employment status, income, and a broad range of demographic variables (age, education, ethnicity).  The University of Minnesota has a &lt;a href=&#34;https://cps.ipums.org/cps/&#34;&gt;web interface&lt;/a&gt; that lots of people use.&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;ATUS.&lt;/strong&gt;  The &lt;a href=&#34;http://www.bls.gov/tus/&#34;&gt;American Time Use Survey&lt;/a&gt; describes how people spend their time:  employed, doing housework, watching tv, etc.  This &lt;a href=&#34;http://scholar.princeton.edu/sites/default/files/annurev-economics-111809-125129_0.pdf&#34;&gt;article&lt;/a&gt; summarizes academic work done on similar surveys in many countries.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;ATUS.&lt;/strong&gt;  The &lt;a href=&#34;http://www.bls.gov/tus/&#34;&gt;American Time Use Survey&lt;/a&gt; describes how people spend their time:  employed, doing housework, watching tv, etc.  This &lt;a href=&#34;http://scholar.princeton.edu/sites/default/files/annurev-economics-111809-125129_0.pdf&#34;&gt;article&lt;/a&gt; summarizes academic work done on similar surveys in many countries. &lt;a href=&#34;http://www.nytimes.com/interactive/2009/07/31/business/20080801-metrics-graphic.html&#34;&gt;The Times&lt;/a&gt; is unusually fond of this survey.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;MEPS.&lt;/strong&gt;  The &lt;a href=&#34;http://meps.ahrq.gov/mepsweb/&#34;&gt;Medical Expenditure Panel Survey&lt;/a&gt; is the leading source of information about individual healthcare, including insurance status and expenditures.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -75,7 +75,7 @@
 
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Airbnb.&lt;/strong&gt;  &lt;a href=&#34;http://insideairbnb.com/get-the-data.html&#34;&gt;Data&lt;/a&gt; on locations, rentals, and reviews. Chase loves this.  Good input for a map project?&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;NYC Open Data.&lt;/strong&gt;  &lt;a href=&#34;https://data.cityofnewyork.us/&#34;&gt;Data&lt;/a&gt; collected by the City of New York. There&amp;rsquo;s too much to summizes, but it includes taxis (every taxi ride in the city), restaurant inspections, and much much more.  &lt;a href=&#34;http://iquantny.tumblr.com/&#34;&gt;I Quant NY&lt;/a&gt; has some applications. &lt;a href=&#34;http://fivethirtyeight.com/tag/uber/&#34;&gt;538&lt;/a&gt; combined the taxi data with similar information about Uber, which they posted on their &lt;a href=&#34;https://github.com/fivethirtyeight/uber-tlc-foil-response&#34;&gt;repo&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;NYC Open Data.&lt;/strong&gt;  &lt;a href=&#34;https://data.cityofnewyork.us/&#34;&gt;Data&lt;/a&gt; collected by the City of New York. There&amp;rsquo;s too much to summarize, but it includes taxis (every taxi ride in the city), restaurant inspections, and much much more.  &lt;a href=&#34;http://iquantny.tumblr.com/&#34;&gt;I Quant NY&lt;/a&gt; has some applications. &lt;a href=&#34;http://fivethirtyeight.com/tag/uber/&#34;&gt;538&lt;/a&gt; combined the taxi data with similar information about Uber, which they posted on their &lt;a href=&#34;https://github.com/fivethirtyeight/uber-tlc-foil-response&#34;&gt;repo&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;!--
@@ -89,22 +89,22 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;ESPN&amp;rsquo;s &lt;strong&gt;538 Blog&lt;/strong&gt;.  The high end of data journalism.  They often post their data as csv&amp;rsquo;s in their &lt;a href=&#34;https://github.com/fivethirtyeight/data/blob/master/README.md&#34;&gt;data repository&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;The Upshot&lt;/strong&gt; from the NY Times.  Great graphics, including &lt;a href=&#34;http://www.nytimes.com/interactive/2015/12/15/upshot/the-best-places-for-better-cheaper-health-care-arent-what-experts-thought.html&#34;&gt;these&lt;/a&gt; &lt;a href=&#34;http://www.nytimes.com/interactive/2009/07/31/business/20080801-metrics-graphic.html&#34;&gt;two&lt;/a&gt; examples. They list their sources, but don&amp;rsquo;t typically post their data.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;NYT&amp;rsquo;s &lt;strong&gt;Upshot&lt;/strong&gt;.  Great graphics, including &lt;a href=&#34;http://www.nytimes.com/interactive/2015/12/15/upshot/the-best-places-for-better-cheaper-health-care-arent-what-experts-thought.html&#34;&gt;these&lt;/a&gt; &lt;a href=&#34;http://www.nytimes.com/interactive/2009/07/31/business/20080801-metrics-graphic.html&#34;&gt;two&lt;/a&gt; examples. They list sources, but don&amp;rsquo;t typically post data.&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Tim Taylor&amp;rsquo;s &lt;strong&gt;Conversable Economist&lt;/strong&gt; blog.  Tim&amp;rsquo;s a former journalist, so a better writer than most economists.  He has a &lt;a href=&#34;http://conversableeconomist.blogspot.com/&#34;&gt;daily post&lt;/a&gt; about a topical economic issue, often with graphs we can use to track down data sources.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Tim Taylor&amp;rsquo;s &lt;strong&gt;Conversable Economist&lt;/strong&gt; blog.  Tim&amp;rsquo;s a former journalist, so a better writer than most economists.  He has a &lt;a href=&#34;http://conversableeconomist.blogspot.com/&#34;&gt;daily post&lt;/a&gt; about a topical economic issue, often with graphs we can use to track down data sources. If you don&amp;rsquo;t recognize a source, ask us about it.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Graphics:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Flowing Data.&lt;/strong&gt;  Nathan Yau&amp;rsquo;s &lt;a href=&#34;http://flowingdata.com/&#34;&gt;daily graphic&lt;/a&gt;. A good sources of ideas and advice.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Flowing Data.&lt;/strong&gt;  Nathan Yau&amp;rsquo;s &lt;a href=&#34;http://flowingdata.com/&#34;&gt;daily graphic&lt;/a&gt;. A good source of ideas and advice.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;VizWiz.&lt;/strong&gt; Andy Kriebel&amp;rsquo;s &lt;a href=&#34;http://vizwiz.blogspot.com/&#34;&gt;&amp;ldquo;visualization&amp;rdquo; blog&lt;/a&gt;.  A steady stream of examples and advice, including the invaluable Makeover Monday.  Tagline:  &amp;ldquo;Friends Don&amp;rsquo;t Let Friends Use Pie Charts.&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;more:987d9bf97cab1040fa2beea3138e2fdf&#34;&gt;More&lt;/h2&gt;
 
-&lt;p&gt;This is &lt;strong&gt;not for the timid&lt;/strong&gt;, but here is our &lt;a href=&#34;https://docs.google.com/document/d/1L2ZDKFyyqfOrCGbNcCIE9mmgap4tjkTNuw32hK4c6BI/edit?usp=sharing&#34;&gt;huge collection&lt;/a&gt; of data sources and applications.  Get a cold drink and a comfy chair and see what strikes your fancy.  Active investing?  Movies?  Shooting deaths?  All this and more.&lt;/p&gt;
+&lt;p&gt;This is &lt;strong&gt;not for the timid&lt;/strong&gt;, but we have a &lt;a href=&#34;https://docs.google.com/document/d/1L2ZDKFyyqfOrCGbNcCIE9mmgap4tjkTNuw32hK4c6BI/edit?usp=sharing&#34;&gt;huge collection&lt;/a&gt; of data sources and applications.  Get a cold drink and a comfy chair and see what strikes your fancy. Active investing?  Movie grosses? Sports? College Scorecard? Shooting deaths? All this and more.&lt;/p&gt;
 </description>
     </item>
     
@@ -278,7 +278,7 @@
 &lt;p&gt;In addition to the quick links at the top, keep in mind:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Our &lt;strong&gt;GitHub repository&lt;/strong&gt; (collection of documents): &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp&#34;&gt;Everything&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/tree/master/Code/Python&#34;&gt;Python programs&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/tree/master/Code/IPython&#34;&gt;IPython notebooks&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/tree/master/Code/Lab&#34;&gt;Experiments&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Our &lt;strong&gt;GitHub repository&lt;/strong&gt; (collection of files): &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp&#34;&gt;Everything&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/tree/master/Code/Python&#34;&gt;Python programs&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/tree/master/Code/IPython&#34;&gt;IPython notebooks&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/tree/master/Code/Lab&#34;&gt;Experiments&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Or &lt;strong&gt;search&lt;/strong&gt;:  &lt;a href=&#34;http://lmgtfy.com/?q=nyu+data+bootcamp&#34;&gt;nyu data bootcamp&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
@@ -308,34 +308,36 @@ It&amp;rsquo;s nice to have skills; installing Anaconda; Spyder and Jupyter/IPyt
 
 &lt;h2 id=&#34;topic-2-python-fundamentals-1:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 2.  Python fundamentals 1&lt;/h2&gt;
 
-&lt;p&gt;Outline | Code &lt;br&gt;
+&lt;p&gt;Outline | Code | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_1.pdf&#34;&gt;Code Practice #1&lt;/a&gt; &lt;br&gt;
 Calculations; assignments; strings; lists; built-in functions; objects; methods; tab completion.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h2 id=&#34;topic-3-python-fundamentals-2:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 3.  Python fundamentals 2&lt;/h2&gt;
 
-&lt;p&gt;Outline | Code &lt;br&gt;
+&lt;p&gt;Outline | Code | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_x.pdf&#34;&gt;Code Practice #2&lt;/a&gt; &lt;br&gt;
 True and False; comparisons; conditionals; slicing; loops; function definitions and returns; dictionaries and tuples.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h2 id=&#34;topic-4-data-input-packages-and-pandas:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 4.  Data input:  Packages and Pandas&lt;/h2&gt;
 
-&lt;p&gt;Outline | Code &lt;br&gt;
+&lt;p&gt;Outline | Code | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_x.pdf&#34;&gt;Optional Code Practice A&lt;/a&gt;&lt;br&gt;
 Packages; import; Pandas; csv files; reading csv/slx files; dataframes; columns; index; APIs.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h2 id=&#34;topic-5-python-graphics-matplotlib-fundamentals:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 5.  Python graphics:  Matplotlib fundamentals&lt;/h2&gt;
 
-&lt;p&gt;Outline | Code  &lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Outline | Code | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_x.pdf&#34;&gt;Code Practice #3&lt;/a&gt; &lt;br&gt;
+Three approaches to graphics: dataframe plot methods, plot(x,y), and fig/ax objects and methods; lines, scatters, bars, horizontal bars, styles.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h2 id=&#34;topic-6-economic-indicators:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 6.  Economic indicators&lt;/h2&gt;
 
-&lt;p&gt;Outline | Code  &lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Outline | Code  &lt;br&gt;
+Indicators of current economics conditions; indicators of country environments.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -345,7 +347,7 @@ Packages; import; Pandas; csv files; reading csv/slx files; dataframes; columns;
 
 &lt;h2 id=&#34;topic-more-pandas:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic.  More Pandas&lt;/h2&gt;
 
-&lt;p&gt;Outline | Code  &lt;br&gt;
+&lt;p&gt;Outline | Code &lt;br&gt;
 Pandas has incredible facilities for manipulating data, including many of the tools you&amp;rsquo;ll find in databases.  We&amp;rsquo;ll look at joins (merging data from different dataframes), groupbys (computing statistics for groups in a dataframe), and multi-indexed data (dataframes with more than two dimensions).  Incredibly useful for day-to-day work in business.&lt;/p&gt;
 
 &lt;hr /&gt;
