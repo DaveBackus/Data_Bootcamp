@@ -14,19 +14,19 @@ A list of topics with links to material used in class.  We expect each topic to 
 ---
 ## Topic 2.  Python fundamentals 1
 
-**Handouts:**  Outline | Code | [Code Practice #1](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_1.pdf) <br> 
+**Handouts:**  Outline | [Code](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_fundamentals_1.py) (Download Raw) | [Code Practice #1](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_1.pdf) <br> 
 **Summary:**  Calculations; assignments; strings; lists; built-in functions; objects; methods; tab completion.    
 
 ---
 ## Topic 3.  Python fundamentals 2
 
-**Handouts:**  Outline | Code | [Code Practice #2](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_x.pdf) <br> 
+**Handouts:**  Outline | [Code](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_fundamentals_2.py) | [Code Practice #2](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_x.pdf) <br> 
 **Summary:**  True and False; comparisons; conditionals; slicing; loops; function definitions and returns; dictionaries and tuples. 
 
 ---
 ## Topic 4.  Data input:  Packages and Pandas
 
-**Handouts:**  Outline | Code | [Code Practice #3](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_x.pdf)<br>
+**Handouts:**  Outline | [Code](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_pandas_1.py) | [Code Practice #3](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_x.pdf)<br>
 **Summary:**  Packages; import; Pandas; csv files; reading csv/slx files; dataframes; columns; index; APIs.  
 
 ---
@@ -60,7 +60,7 @@ A list of topics with links to material used in class.  We expect each topic to 
 ## Topic.  Distributions, dependence, and dynamics 
 
 **Handouts:**  Outline | Code  <br> 
-**Summary:**  This is really three topics.  *Distributions* is about the frequencies of various outcomes:  stock returns, incomes of individuals, medicial expenses, movie grosses.  Tools include histograms, smoothed versions (kde's), cumulative and log plots. *Dependence* is about connections between two variables:  scatterplots, correlation, Anscombe's quartet. *Dynamics* is about the relation between variables at two dates:  stock returns this month and next, cross-correlations, the ccf.  
+**Summary:**  This is really three topics.  *Distributions* are about the frequencies of various outcomes:  stock returns, incomes of individuals, medicial expenses, movie grosses.  Tools include histograms, smoothed versions (kde's), cumulative and log plots. *Dependence* is about connections between two variables:  scatterplots, correlation, Anscombe's quartet. *Dynamics* is about the relation between variables at two dates:  stock returns this month and next, cross-correlations, the ccf.  
 
 ---
 ## Topic.  Demography & healthcare 
@@ -72,5 +72,5 @@ Healthcare is closely related.  As people age, they consume more healthcare, whi
 ---
 ## Topic.  Statistics & Machine Learning 
 
-**Handouts:**  Outline | Code  <br?
-**Summary:**  hese are whole subjects, not topics, but we thought a brief overview of their history would be useful.  We combine it an application to multivariate regression with two packages, StatsModels (statistics) and Scikit-Learn (machine learning).    
+**Handouts:**  Outline | Code  <br>
+**Summary:**  These are whole subjects, not topics, but we thought a brief overview of their history would be useful.  We combine it an application to multivariate regression with two packages, StatsModels (statistics) and Scikit-Learn (machine learning).    
