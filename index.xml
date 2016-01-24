@@ -252,10 +252,8 @@
 
 &lt;h2 id=&#34;spring-2016-schedule:ffd489939015ded07a5c1baacc50e9b6&#34;&gt;Spring 2016 schedule&lt;/h2&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Undergrad:&lt;/strong&gt;  ECON-UB.0232, Tuesday and Thursday, 2-3:15, KMC 4-80, January 26 to May 5&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;MBA:&lt;/strong&gt;  ECON-GB.2313, Wednesday nights, 6-9pm, KMC 4-90, February 10 to May 4&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Undergrad:&lt;/strong&gt;  ECON-UB.0232, Tuesday and Thursday, 2-3:15, KMC 4-80, January 26 to May 5
+&lt;strong&gt;MBA:&lt;/strong&gt;  ECON-GB.2313, Wednesday nights, 6-9pm, KMC 4-90, February 10 to May 4&lt;/p&gt;
 
 &lt;h2 id=&#34;before-the-first-class:ffd489939015ded07a5c1baacc50e9b6&#34;&gt;Before the first class&lt;/h2&gt;
 
@@ -341,7 +339,7 @@ Packages; import; Pandas; csv files; reading csv/slx files; dataframes; columns;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;remaining-topics-will-depend-upon-interest-we-almost-have-enough-for-another-course:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Remaining topics will depend upon interest. We almost have enough for another course.&lt;/h2&gt;
+&lt;h2 id=&#34;remaining-topics-will-depend-upon-interest-your-and-ours-we-almost-have-enough-for-another-course-if-there-s-something-you-d-particularly-like-to-see-let-us-know:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Remaining topics will depend upon interest &amp;ndash; your and ours. We almost have enough for another course.  If there&amp;rsquo;s something you&amp;rsquo;d particularly like to see, let us know.&lt;/h2&gt;
 
 &lt;hr /&gt;
 
@@ -352,6 +350,13 @@ Pandas has incredible facilities for manipulating data, including many of the to
 
 &lt;hr /&gt;
 
+&lt;h2 id=&#34;topic-updating-and-installing-packages:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic.  Updating and installing packages&lt;/h2&gt;
+
+&lt;p&gt;Outline &lt;br&gt;
+Using conda, pip, etc.  Applications to Anaconda, Seaborn, Quandl.&lt;/p&gt;
+
+&lt;hr /&gt;
+
 &lt;h2 id=&#34;topic-distributions-dependence-and-dynamics:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic.  Distributions, dependence, and dynamics&lt;/h2&gt;
 
 &lt;p&gt;Outline | Code&lt;/p&gt;
@@ -359,33 +364,25 @@ Pandas has incredible facilities for manipulating data, including many of the to
 &lt;p&gt;This is really three topics.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Distributions is about the frequenies of various outcomes:  stock returns, incomes of individuals, medicial expenses, movie grosses.  Tools include histograms, smoothed versions (kde&amp;rsquo;s), cumulative and log plots.&lt;/li&gt;
+&lt;li&gt;Distributions is about the frequencies of various outcomes:  stock returns, incomes of individuals, medicial expenses, movie grosses.  Tools include histograms, smoothed versions (kde&amp;rsquo;s), cumulative and log plots.&lt;/li&gt;
 &lt;li&gt;Dependence is about connections between two variables:  scatterplots, correlation, Anscombe&amp;rsquo;s quartet.&lt;/li&gt;
 &lt;li&gt;Dynamics is about the relation between the same variable at two dates:  stock returns this month and next, cross-correlations, the ccf.&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;topic-demography:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic.  Demography&lt;/h2&gt;
+&lt;h2 id=&#34;topic-demography-healthcare:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic.  Demography &amp;amp; healthcare&lt;/h2&gt;
 
 &lt;p&gt;Outline | Code  &lt;br&gt;
-The world is getting older.  Basic data for this involves the age distribution and the things that drive it:  mortality (people are dying less), fertility (and having few children).  All of this data is freely available.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;topic-updating-and-installing-packages:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic.  Updating and installing packages&lt;/h2&gt;
-
-&lt;p&gt;Outline | Code&lt;/p&gt;
-
-&lt;p&gt;conda, pip, etc.  Applications to seaborn, quandl.&lt;/p&gt;
+The world is getting older &amp;ndash; a lot older.  Basic data for this involves the age distribution and the things that drive it:  mortality (people are dying less), fertility (and having few children).  All of this data is freely available.  &lt;br&gt;
+Healthcare is closely related.  As people age, they consume more healthcare, which raises lots of questions about how to deliver and pay for it.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h2 id=&#34;topic-statistics-machine-learning:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic.  Statistics &amp;amp; Machine Learning&lt;/h2&gt;
 
-&lt;p&gt;Outline | Code&lt;/p&gt;
-
-&lt;p&gt;The history of approaches to data.  Multivariate regression with two packages.&lt;/p&gt;
+&lt;p&gt;Outline | Code  &amp;lt;br?
+These are whole subjects, not topics, but we thought a brief overview of their history would be useful.  We combine it an an applications to multivariate regression with two packages, one from each.&lt;/p&gt;
 </description>
     </item>
     
