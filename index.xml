@@ -308,21 +308,21 @@
 
 &lt;h2 id=&#34;topic-2-python-fundamentals-1:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 2.  Python fundamentals 1&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline | Code | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_1.pdf&#34;&gt;Code Practice #1&lt;/a&gt; &lt;br&gt;
+&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_fundamentals_1.py&#34;&gt;Code&lt;/a&gt; (Download Raw) | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_1.pdf&#34;&gt;Code Practice #1&lt;/a&gt; &lt;br&gt;
 &lt;strong&gt;Summary:&lt;/strong&gt;  Calculations; assignments; strings; lists; built-in functions; objects; methods; tab completion.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h2 id=&#34;topic-3-python-fundamentals-2:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 3.  Python fundamentals 2&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline | Code | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_x.pdf&#34;&gt;Code Practice #2&lt;/a&gt; &lt;br&gt;
+&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_fundamentals_2.py&#34;&gt;Code&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_x.pdf&#34;&gt;Code Practice #2&lt;/a&gt; &lt;br&gt;
 &lt;strong&gt;Summary:&lt;/strong&gt;  True and False; comparisons; conditionals; slicing; loops; function definitions and returns; dictionaries and tuples.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h2 id=&#34;topic-4-data-input-packages-and-pandas:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 4.  Data input:  Packages and Pandas&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline | Code | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_x.pdf&#34;&gt;Code Practice #3&lt;/a&gt;&lt;br&gt;
+&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_pandas_1.py&#34;&gt;Code&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_x.pdf&#34;&gt;Code Practice #3&lt;/a&gt;&lt;br&gt;
 &lt;strong&gt;Summary:&lt;/strong&gt;  Packages; import; Pandas; csv files; reading csv/slx files; dataframes; columns; index; APIs.&lt;/p&gt;
 
 &lt;hr /&gt;
@@ -362,7 +362,7 @@
 &lt;h2 id=&#34;topic-distributions-dependence-and-dynamics:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic.  Distributions, dependence, and dynamics&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline | Code  &lt;br&gt;
-&lt;strong&gt;Summary:&lt;/strong&gt;  This is really three topics.  &lt;em&gt;Distributions&lt;/em&gt; is about the frequencies of various outcomes:  stock returns, incomes of individuals, medicial expenses, movie grosses.  Tools include histograms, smoothed versions (kde&amp;rsquo;s), cumulative and log plots. &lt;em&gt;Dependence&lt;/em&gt; is about connections between two variables:  scatterplots, correlation, Anscombe&amp;rsquo;s quartet. &lt;em&gt;Dynamics&lt;/em&gt; is about the relation between variables at two dates:  stock returns this month and next, cross-correlations, the ccf.&lt;/p&gt;
+&lt;strong&gt;Summary:&lt;/strong&gt;  This is really three topics.  &lt;em&gt;Distributions&lt;/em&gt; are about the frequencies of various outcomes:  stock returns, incomes of individuals, medicial expenses, movie grosses.  Tools include histograms, smoothed versions (kde&amp;rsquo;s), cumulative and log plots. &lt;em&gt;Dependence&lt;/em&gt; is about connections between two variables:  scatterplots, correlation, Anscombe&amp;rsquo;s quartet. &lt;em&gt;Dynamics&lt;/em&gt; is about the relation between variables at two dates:  stock returns this month and next, cross-correlations, the ccf.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -376,8 +376,8 @@ Healthcare is closely related.  As people age, they consume more healthcare, whi
 
 &lt;h2 id=&#34;topic-statistics-machine-learning:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic.  Statistics &amp;amp; Machine Learning&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline | Code  &amp;lt;br?
-&lt;strong&gt;Summary:&lt;/strong&gt;  hese are whole subjects, not topics, but we thought a brief overview of their history would be useful.  We combine it an application to multivariate regression with two packages, StatsModels (statistics) and Scikit-Learn (machine learning).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline | Code  &lt;br&gt;
+&lt;strong&gt;Summary:&lt;/strong&gt;  These are whole subjects, not topics, but we thought a brief overview of their history would be useful.  We combine it an application to multivariate regression with two packages, StatsModels (statistics) and Scikit-Learn (machine learning).&lt;/p&gt;
 </description>
     </item>
     
