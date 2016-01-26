@@ -58,7 +58,7 @@ Part of the #nyuecon collection at NYU's Stern School of Business.
 ---
 ### SQL Bootcamp
 
-**Announcement.** The **[Data Bootcamp course](https://github.com/DaveBackus/Data_Bootcamp#data-bootcamp)** will **NOT** cover SQL databases.  SQL Bootcamp is a separate non-credit course.  Same people, same attitude, different content.  
+**Announcement.** The **[Data Bootcamp course](http://databootcamp.nyuecon.com/)** will **NOT** cover SQL databases.  SQL Bootcamp is a separate non-credit course.  Same team, same attitude, different content.  
 
 **Update.**  We expect to offer this again in Spring 2016. For further information, join our [Google Group](https://groups.google.com/forum/#!forum/nyu_data_bootcamp).  
 
