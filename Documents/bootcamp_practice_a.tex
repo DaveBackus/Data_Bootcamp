@@ -14,11 +14,31 @@
 \centerline{Revised: \today}
 
 {\it Answer each of the questions below.
-Answers should include any code you wrote to find your answer.
+Answers should include any code you write to find your answer.
 They can be handwritten, but they must be readable and look professional.}
 
 \begin{questions}
-\item About the graphics chapter.  
+\item About the graphics chapter.
+
+
+\item Use 538 movie ratings...  
+\begin{verbatim}
+"""
+Fandango and other movie ratings from 538 
+* http://fivethirtyeight.com/features/fandango-movies-ratings/
+* https://github.com/fivethirtyeight/data/tree/master/fandango
+"""
+import pandas as pd
+
+url1 = 'https://raw.githubusercontent.com/fivethirtyeight/data/master/'
+url2 = 'fandango/fandango_score_comparison.csv'
+movie = pd.read_csv(url1+url2)
+list(movie)
+\end{verbatim} 
+
+Can plot distributions, and compare (one vs the other) 
+
+
 \end{questions}
 
 \input{../LaTeX/footer.tex}

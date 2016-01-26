@@ -36,13 +36,13 @@ A list of topics with links to material used in class.  We expect each topic to 
 **Summary:**  Three approaches to graphics: dataframe plot methods, plot(x,y), and fig/ax objects and methods; lines, scatters, bars, horizontal bars, styles.  
 
 ---
-## Topic 6.  Economic indicators 
+## Remaining topics will depend upon interest -- yours and ours. We have almost enough for another course.  If there's something you'd particularly like to see, let us know.  
+
+---
+## Topic.  Economic indicators 
 
 **Handouts:**  Outline | Code | [Optional Code Practice A](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_x.pdf)  <br>
 **Summary:**  Indicators of current economics conditions; indicators of country environments.  
-
----
-## Remaining topics will depend upon interest -- yours and ours. We have almost enough for another course.  If there's something you'd particularly like to see, let us know.  
 
 ---
 ## Topic.  More Pandas
@@ -60,7 +60,7 @@ A list of topics with links to material used in class.  We expect each topic to 
 ## Topic.  Distributions, dependence, and dynamics 
 
 **Handouts:**  Outline | Code  <br> 
-**Summary:**  This is really three topics.  *Distributions* are about the frequencies of various outcomes:  stock returns, incomes of individuals, medicial expenses, movie grosses.  Tools include histograms, smoothed versions (kde's), cumulative and log plots. *Dependence* is about connections between two variables:  scatterplots, correlation, Anscombe's quartet. *Dynamics* is about the relation between variables at two dates:  stock returns this month and next, cross-correlations, the ccf.  
+**Summary:**  This is really three topics.  *Distributions* are about the frequencies of various outcomes:  stock returns, incomes of individuals, medicial expenses, movie grosses.  Tools include histograms, smoothed versions (kde's), cumulative and log plots. *Dependence* is about connections between two variables:  scatterplots, correlation, Anscombe's quartet, Simpson's paradox. *Dynamics* is about the relation between variables at two dates:  stock returns this month and next, cross-correlations, the ccf.  
 
 ---
 ## Topic.  Demography & healthcare 

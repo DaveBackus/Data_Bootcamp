@@ -4,8 +4,12 @@ type: index
 
 # Data Bootcamp
 
-**Description:** A [course](http://databootcamp.nyuecon.com/bootcamp_faq/) exploring economic and financial **data** with **Python** at [NYU Stern](http://www.stern.nyu.edu/).     
-**Quick links:**  [Book](https://www.gitbook.com/book/davebackus/test/details) | [Syllabus](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf) | [Project Guide](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf) | [Topic list & links](/bootcamp_outline) | [UG Due Dates](/bootcamp_duedates_ug) | [MBA Due Dates](/bootcamp_duedates_mba)     
+**Description:** A [course](http://databootcamp.nyuecon.com/bootcamp_faq/) exploring economic and financial data with the Python programming language at [NYU Stern](http://www.stern.nyu.edu/).     
+**Quick links:**  [Book](https://www.gitbook.com/book/davebackus/test/details) | [Syllabus](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf) | [Project Guide](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf) 
+
+<!--
+| [Topic list & links](/bootcamp_outline) | [UG Due Dates](/bootcamp_duedates_ug) | [MBA Due Dates](/bootcamp_duedates_mba) 
+--> 
 
 
 ## Spring 2016 schedule 
