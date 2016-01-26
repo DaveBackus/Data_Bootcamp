@@ -16,20 +16,22 @@
 \centerline{Revised: \today}
 
 {\it Answer each of the questions below.
-Answers should include any code you write to find the answer.
+Answers should include any code you write.
 They can be handwritten, but they must be readable and look professional.}
+
 \begin{questions}
 
-\item {\it Review.\/} Does this code run without error? If so, what does it produce?  If not, explain why. 
+\item {\it Review.\/} Does this code run without error? If so, what does it produce?  If not, explain why.
 \begin{verbatim}
 x = [1, 2, 3]
-y = 4
+y = 'bootcamp'
 z = x + y
 \end{verbatim}
 
 \item {\it Review.\/} For the same {\tt x} and {\tt y} as the previous question:
 What function tells us what type they are?
-What function tells us how many elements they contain?  
+What function tells us how many elements they contain
+(their ``length,'' so to speak)?
 
 %\item {\it Review.\/} Does this code run without error? If so, what does it produce?  If not, explain why.
 %\begin{verbatim}
@@ -47,26 +49,26 @@ What function tells us how many elements they contain?
 %\end{verbatim}
 
 % Logical Questions
-\item What type is each expression?  Why?
+\item What type is each expression?  How can you tell?
 \begin{verbatim}
-2 
+2
 '2'
 2.0
 "2.0"
 2>1
-'Itamar' > 'Chase' 
+'Itamar' > 'Chase'
 [1, 2]
 (1, 2)
-{1: one, 2: two} 
+{1: one, 2: two}
 \end{verbatim}
 
-\item What value does each of these comparisons have?  
+\item What value does each of these comparisons have?
 \begin{verbatim}
-1>=0 
-1 >= 1 
-1 == 1
+1>=0
+1 >= 1
+1 > 1
+1==1
 1 == 1.0
-1 > 1 
 'Spencer' == "Spencer"
 \end{verbatim}
 
@@ -77,28 +79,29 @@ if 2>1
 \end{verbatim}
   % Answer:  missing :, indented 3
 
-\needspace{2\baselineskip} 
-\item What is the result of this code?  Why?
+\needspace{2\baselineskip}
+\item What is the result of running this code?  Why?
 \begin{verbatim}
 if True:
     print('on the one hand')
-else:  
-    print('but on the other')    
-\end{verbatim} 
+else:
+    print('but on the other hand')
+\end{verbatim}
 What happens if we replace {\tt True} with {\tt False} in the first line?
 
-\item What is the value of \texttt{x} after the following block of code?
+\item What is the result of running this code?
 \begin{verbatim}
 cond = True
 if cond:
     x = "Chase"
 else:
     x = "Dave"
+print(x)
 \end{verbatim}
 
-\item Suppose we have two lists, 
-{\tt x = [1, 2, 3, 4]} and \verb|y = ['x', 'y', 'z']|.  
-Adapt the code below to determine which has more elements: 
+\item Suppose we have two lists,
+{\tt x = [1, 2, 3, 4]} and \verb|y = ['x', 'y', 'z']|.
+Adapt the code below to determine which has more elements:
 \begin{verbatim}
 if <insert expression>:
     print('x has more')
@@ -113,14 +116,14 @@ else:
 %print([0, 1, 2] == [1, 2, 3])
 %\end{verbatim}
 
-\item Write a short piece of code (using an if-else statement) that 
-assigns a numerical value to a variable \texttt{x} and then checks whether the type of \texttt{x} is a float or integer. Print out which it is. ??
+%\item Write a short piece of code (using an if-else statement) that
+%assigns a numerical value to a variable \texttt{x} and then checks whether the type of \texttt{x} is a float or integer. Print out which it is. ??
 
 % Slicing
-\item Explain in words what slicing does.  
+\item Explain in words what slicing does.
 
-\item How would you extract (``slice'') the first element (the integer {\tt 1}) from the list {\tt x} below?  
-The last element?  All but the first element?  
+\item How would you extract (``slice'') the first element (the integer {\tt 1}) from the list {\tt x} below?
+The last element?  All but the last element?
 \begin{verbatim}
 x = [1, 2, 3, 4, 5]
 \end{verbatim}
@@ -129,40 +132,38 @@ x = [1, 2, 3, 4, 5]
 \begin{verbatim}
 sentence = 'This is a sentence; please slice it.'
 \end{verbatim}
-{\it Suggestion:\/} Number every character in {\tt sentence}. 
+{\it Suggestion:\/} Number every character in {\tt sentence}.
 
 
-\item Consider the list 
+\item Consider the list
 \begin{verbatim}
 x = [1, 2, "a", 'b', "fast", 'slow', 3, "Raghu", 'Liuren', 10]
 \end{verbatim}
 \begin{parts}
-\item How would you slice out the first item?  The last item?  
-\item How would you slice out the items from {\tt 'b'} to {\tt 3} inclusive?  
-\end{parts} 
+\item How would you slice out the first item?  The last item?
+\item How would you slice out the items from {\tt 'b'} to {\tt 3} inclusive?
+\end{parts}
 
-\item Using the same list {\tt x}, write a loop that prints every element on a new line. 
+\item Using the same list {\tt x}, write a loop that prints every element on a new line.
 
-\item {\it Challenging.\/} 
-Using the same list {\tt x}, write a loop that prints every element of typr {\tt str}.
+\item {\it Challenging.\/}
+Using the same list {\tt x}, write a loop that prints every element of type {\tt str}.
 
 % Looping
-\item Finish writing the for loop below so that it adds all of the numbers less than 100.
-\begin{verbatim}
-x = 0
-for i in :
-    x += i
-    print(x)
-\end{verbatim}
+%\item Finish writing the for loop below so that it adds all of the numbers less than 100.
+%\begin{verbatim}
+%x = 0
+%for i in :
+%    x += i
+%    print(x)
+%\end{verbatim}
 
-\item For every element in the following list, \texttt{x}, print the element if it is a string and skip it otherwise.
-\begin{verbatim}
-x = [0, 1, "G", "o", 3, "o", "d", 1, "w", 10, "o", "r", "k"]
-\end{verbatim}
-
-\item Bond example ??
-
-\item Imagine that you have information that says the price of corn is going to change by 10 cents per day (only trades on week days) until it reaches \$2.50, after which it will begin to decrease by 10 cents a day. Finish the code below to print the price of corn every day until it reaches \$2.50.
+\begin{comment} 
+\item Suppose the current price of corn is \$1.20.
+The price is set to increase by 10 cents every weekday until it hits \$2.50.
+(Nothing happens on weekends.)
+At that point it will switch directions and decrease by 10 cents a day. 
+Finish the code below to print the price of corn every day until it reaches \$2.50.
 \begin{verbatim}
 days = ["M", "T", "W", "Th", "F"]
 starting_price = 1.20
@@ -174,36 +175,71 @@ for day in days:
 if current_price == 2.50:
     break
 \end{verbatim}
-
-% Functions
-\item Define a function that takes your birth year and the current year as inputs 
-and prints every year in between (and including) those years.
-
-\item A function is defined below. Determine what it does and write an example of you using it.
-\begin{verbatim}
-def score_to_percentage(pointsawarded, pointstotal):
-    """
-    This function changes a number of points awarded
-    and a number of total points into a percentage
-    """
-    percentage = pointsawarded / pointstotal
-    return percentage
-\end{verbatim}
+\end{comment}
 
 \item {\it Challenging.\/}
-Create a function to convert a date tuple to a regular date:
-to convert (say) \texttt{(2015, 8, 22)} to \texttt{August 22, 2015} expressed as a string.
-That is:  The input is a tuple and the return is a string.
-{\it Suggestion:\/} You might want to use the list
+Write a loop that sums the integers from zero to thirty that are multiples of three:
+3, 6, etc.
+
+
+%% Functions
+%\item Define a function that takes your birth year and the current year as inputs
+%and prints every year in between (and including) those years.
+
+
+%\item A function is defined below. Determine what it does and write an example of you using it.
+%\begin{verbatim}
+%def score_to_percentage(pointsawarded, pointstotal):
+%    """
+%    This function changes a number of points awarded
+%    and a number of total points into a percentage
+%    """
+%    percentage = pointsawarded / pointstotal
+%    return percentage
+%\end{verbatim}
+
+%\item {\it Challenging.\/}
+%Create a function to convert a date tuple to a regular date:
+%to convert (say) \texttt{(2015, 8, 22)} to \texttt{August 22, 2015} expressed as a string.
+%That is:  The input is a tuple and the return is a string.
+%{\it Suggestion:\/} You might want to use the list
+%\begin{verbatim}
+%months = ['January', 'February', etc]
+%\end{verbatim}
+
+\item Define a function \verb|pocket_change| that takes four integers as inputs 
+(numbers of pennies, nickels, dimes, and quarters in your pocket)
+and returns a floating point number (their dollar value).  
+Run your program with two sets of inputs.  
+
+
+\item {\it Challenging.\/} Write a function that takes a list of integers
+and returns a (shorter) list of those that do not begin with 6.  
+
+
+\item Consider the Python object
 \begin{verbatim}
-months = ['January', 'February', etc]
-\end{verbatim}
+z = {1: 'one', 2: 'two', 3: 'three'} 
+\end{verbatim} 
+\begin{parts}
+\item What kind of object is {\tt z}?  What is its length?  
+\item Which components are keys?  Which are values? 
+\item How would I get the value associated with the key 2?  
+\item What does {\tt list(z.keys())} do?
+\item What does {\tt list(z.values())} do?
+\item What does {\tt list(z)} do?
+\end{parts} 
 
-\item Take list of change [quarters, dimes, nickels, pennies] and return value.
-{\it Bonus points:\/} Use a tuple.
 
+\item {\it Challenging.\/} 
+Take the dictionary connecting state names and abbreviations:
+\begin{verbatim}
+states = {'AK': 'Alaska', 'IA': 'Iowa', 'NY': 'New York', 'VT': 'Vermont'} 
+\end{verbatim} 
+Write a function that takes a string as input (the abbreviation) 
+and returns another string (the full name of the state).
+Test your function on two test cases.  
 
-\item Dictionaries... 
 
 \end{questions}
 
