@@ -132,7 +132,7 @@ x = [1, 2, 3, 4, 5]
 \begin{verbatim}
 sentence = 'This is a sentence; please slice it.'
 \end{verbatim}
-{\it Suggestion:\/} Number every character in {\tt sentence}.
+{\it Suggestion:\/} Number every character in {\tt sentence} by hand.
 
 
 \item Consider the list
@@ -177,10 +177,6 @@ if current_price == 2.50:
 \end{verbatim}
 \end{comment}
 
-\item {\it Challenging.\/}
-Write a loop that sums the integers from zero to thirty that are multiples of three:
-3, 6, etc.
-
 
 %% Functions
 %\item Define a function that takes your birth year and the current year as inputs
@@ -207,14 +203,25 @@ Write a loop that sums the integers from zero to thirty that are multiples of th
 %months = ['January', 'February', etc]
 %\end{verbatim}
 
-\item Define a function \verb|pocket_change| that takes four integers as inputs 
+\item Define a function \verb|pocket_change()| that takes four integers as inputs 
 (numbers of pennies, nickels, dimes, and quarters in your pocket)
 and returns a floating point number (their dollar value).  
 Run your program with two sets of inputs.  
 
+\item {\it Challenging.\/}
+Write a function that takes a list of integers
+and returns a (shorter) list of those that do not begin with 6.
 
-\item {\it Challenging.\/} Write a function that takes a list of integers
-and returns a (shorter) list of those that do not begin with 6.  
+
+\item Use Spyder's help to find out what the range function does.  
+How would you describe {\tt range(3,12,2)}?  
+Verify by converting to a list with {\tt list(range(3,12,2))}.
+
+\item {\it Challenging.\/}
+Write a loop that sums the integers from zero to thirty that are multiples of three:
+3, 6, etc.
+{\it Hints:}  You can create a blank list with {\tt x = []}.  
+You can append an item to a list {\tt x} with {\tt x.append(item)}. 
 
 
 \item Consider the Python object
@@ -224,7 +231,9 @@ z = {1: 'one', 2: 'two', 3: 'three'}
 \begin{parts}
 \item What kind of object is {\tt z}?  What is its length?  
 \item Which components are keys?  Which are values? 
-\item How would I get the value associated with the key 2?  
+\item How would I get the value associated with the key 2?
+\item Use Spyder's help facilities to figure out what {\tt z.keys()} does.  
+Ditto {\tt z.values()}.  Try them to verify.  
 \item What does {\tt list(z.keys())} do?
 \item What does {\tt list(z.values())} do?
 \item What does {\tt list(z)} do?
