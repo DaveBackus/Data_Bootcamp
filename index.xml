@@ -247,8 +247,12 @@
 
 &lt;h1 id=&#34;data-bootcamp:ffd489939015ded07a5c1baacc50e9b6&#34;&gt;Data Bootcamp&lt;/h1&gt;
 
-&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; A &lt;a href=&#34;http://databootcamp.nyuecon.com/bootcamp_faq/&#34;&gt;course&lt;/a&gt; exploring economic and financial &lt;strong&gt;data&lt;/strong&gt; with &lt;strong&gt;Python&lt;/strong&gt; at &lt;a href=&#34;http://www.stern.nyu.edu/&#34;&gt;NYU Stern&lt;/a&gt;.&lt;br /&gt;
-&lt;strong&gt;Quick links:&lt;/strong&gt;  &lt;a href=&#34;https://www.gitbook.com/book/davebackus/test/details&#34;&gt;Book&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf&#34;&gt;Syllabus&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf&#34;&gt;Project Guide&lt;/a&gt; | &lt;a href=&#34;http://databootcamp.nyuecon.com/bootcamp_outline&#34;&gt;Topic list &amp;amp; links&lt;/a&gt; | &lt;a href=&#34;http://databootcamp.nyuecon.com/bootcamp_duedates_ug&#34;&gt;UG Due Dates&lt;/a&gt; | &lt;a href=&#34;http://databootcamp.nyuecon.com/bootcamp_duedates_mba&#34;&gt;MBA Due Dates&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; A &lt;a href=&#34;http://databootcamp.nyuecon.com/bootcamp_faq/&#34;&gt;course&lt;/a&gt; exploring economic and financial data with the Python programming language at &lt;a href=&#34;http://www.stern.nyu.edu/&#34;&gt;NYU Stern&lt;/a&gt;.&lt;br /&gt;
+&lt;strong&gt;Quick links:&lt;/strong&gt;  &lt;a href=&#34;https://www.gitbook.com/book/davebackus/test/details&#34;&gt;Book&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf&#34;&gt;Syllabus&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf&#34;&gt;Project Guide&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--
+| [Topic list &amp; links](/bootcamp_outline) | [UG Due Dates](/bootcamp_duedates_ug) | [MBA Due Dates](/bootcamp_duedates_mba) 
+--&gt; 
 
 &lt;h2 id=&#34;spring-2016-schedule:ffd489939015ded07a5c1baacc50e9b6&#34;&gt;Spring 2016 schedule&lt;/h2&gt;
 
@@ -334,14 +338,14 @@
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;topic-6-economic-indicators:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 6.  Economic indicators&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline | Code | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_x.pdf&#34;&gt;Optional Code Practice A&lt;/a&gt;  &lt;br&gt;
-&lt;strong&gt;Summary:&lt;/strong&gt;  Indicators of current economics conditions; indicators of country environments.&lt;/p&gt;
+&lt;h2 id=&#34;remaining-topics-will-depend-upon-interest-yours-and-ours-we-have-almost-enough-for-another-course-if-there-s-something-you-d-particularly-like-to-see-let-us-know:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Remaining topics will depend upon interest &amp;ndash; yours and ours. We have almost enough for another course.  If there&amp;rsquo;s something you&amp;rsquo;d particularly like to see, let us know.&lt;/h2&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;remaining-topics-will-depend-upon-interest-yours-and-ours-we-have-almost-enough-for-another-course-if-there-s-something-you-d-particularly-like-to-see-let-us-know:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Remaining topics will depend upon interest &amp;ndash; yours and ours. We have almost enough for another course.  If there&amp;rsquo;s something you&amp;rsquo;d particularly like to see, let us know.&lt;/h2&gt;
+&lt;h2 id=&#34;topic-economic-indicators:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic.  Economic indicators&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline | Code | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_x.pdf&#34;&gt;Optional Code Practice A&lt;/a&gt;  &lt;br&gt;
+&lt;strong&gt;Summary:&lt;/strong&gt;  Indicators of current economics conditions; indicators of country environments.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -362,7 +366,7 @@
 &lt;h2 id=&#34;topic-distributions-dependence-and-dynamics:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic.  Distributions, dependence, and dynamics&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline | Code  &lt;br&gt;
-&lt;strong&gt;Summary:&lt;/strong&gt;  This is really three topics.  &lt;em&gt;Distributions&lt;/em&gt; are about the frequencies of various outcomes:  stock returns, incomes of individuals, medicial expenses, movie grosses.  Tools include histograms, smoothed versions (kde&amp;rsquo;s), cumulative and log plots. &lt;em&gt;Dependence&lt;/em&gt; is about connections between two variables:  scatterplots, correlation, Anscombe&amp;rsquo;s quartet. &lt;em&gt;Dynamics&lt;/em&gt; is about the relation between variables at two dates:  stock returns this month and next, cross-correlations, the ccf.&lt;/p&gt;
+&lt;strong&gt;Summary:&lt;/strong&gt;  This is really three topics.  &lt;em&gt;Distributions&lt;/em&gt; are about the frequencies of various outcomes:  stock returns, incomes of individuals, medicial expenses, movie grosses.  Tools include histograms, smoothed versions (kde&amp;rsquo;s), cumulative and log plots. &lt;em&gt;Dependence&lt;/em&gt; is about connections between two variables:  scatterplots, correlation, Anscombe&amp;rsquo;s quartet, Simpson&amp;rsquo;s paradox. &lt;em&gt;Dynamics&lt;/em&gt; is about the relation between variables at two dates:  stock returns this month and next, cross-correlations, the ccf.&lt;/p&gt;
 
 &lt;hr /&gt;
 
