@@ -206,11 +206,14 @@ if current_price == 2.50:
 \item Define a function \verb|pocket_change()| that takes four integers as inputs 
 (numbers of pennies, nickels, dimes, and quarters in your pocket)
 and returns a floating point number (their dollar value).  
-Run your program with two sets of inputs.  
+Run your program with the input {\tt (1, 2, 3, 4)}. 
 
 \item {\it Challenging.\/}
 Write a function that takes a list of integers
-and returns a (shorter) list of those that do not begin with 6.
+and returns a (shorter) list of only those that do not begin with a 6.
+{\it Hint:} We can eliminate items from a list with pop.
+We eliminate the third item from the list {\tt x} 
+with {\tt x.pop(2)} (start counting at zero).  
 
 
 \item Use Spyder's help to find out what the range function does.  
@@ -222,7 +225,6 @@ Write a loop that sums the integers from zero to thirty that are multiples of th
 3, 6, etc.
 {\it Hints:}  You can create a blank list with {\tt x = []}.  
 You can append an item to a list {\tt x} with {\tt x.append(item)}. 
-
 
 \item Consider the Python object
 \begin{verbatim}

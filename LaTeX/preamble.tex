@@ -31,7 +31,7 @@
 % list spacing
 \usepackage{enumitem}
 \setitemize{leftmargin=*, topsep=0pt}
-\setenumerate{leftmargin=*, topsep=0pt}
+\setenumerate{leftmargin=*, topsep=0pt, partopsep=0pt}
 
 % attach files to the pdf
 \usepackage{attachfile}
@@ -42,6 +42,12 @@
 
 \usepackage{verbatim}
 
+% change spacing of verbatim (not clear this does anything)
+% http://tex.stackexchange.com/questions/43331/control-vertical-space-before-and-after-verbatim-environment
+\usepackage{etoolbox}
+\makeatletter
+\preto{\@verbatim}{\topsep=0pt \partopsep=0pt}
+\makeatother
 
 % Make single quotes print properly in verbatim
 \makeatletter
