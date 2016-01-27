@@ -22,13 +22,13 @@ The topics in the first half follow **[the book](https://www.gitbook.com/book/da
 ---
 ## Topic 3.  Python fundamentals 2
 
-**Handouts:**  [Outline](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_pyfun2.pdf) | [Code](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_fundamentals_2.py) | [Code Practice #2](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_x.pdf) | [Code Practice #2](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_2.pdf) <br> 
+**Handouts:**  [Outline](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_pyfun2.pdf) | [Code](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_fundamentals_2.py) | [Code Practice #2](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_2.pdf) <br> 
 **Summary:**  True and False; comparisons; conditionals; slicing; loops; function definitions and returns; dictionaries and tuples. 
 
 ---
 ## Topic 4.  Data input:  Packages and Pandas
 
-**Handouts:**  Outline | [Code](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_pandas_1.py) | [Code Practice #3](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_x.pdf)<br>
+**Handouts:**  Outline | [Code](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_pandas_1.py) | [Code Practice #3](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_3.pdf)<br>
 **Summary:**  Packages; import; Pandas; csv files; reading csv/slx files; dataframes; columns; index; APIs.  
 
 ---
