@@ -1,7 +1,9 @@
 # Data Bootcamp: Topic list & links 
 
 
-A list of topics with links to material used in class.  We expect each topic to take roughly one week -- maybe a little more.  
+A list of topics with links to material used in class.  We expect each topic to take roughly one week -- maybe a little more. 
+
+The topics in the first half follow **[the book](https://www.gitbook.com/book/davebackus/test/details)**.  Click in the large blue Read button to read online or download the pdf.    
 
 ---
 
@@ -14,13 +16,13 @@ A list of topics with links to material used in class.  We expect each topic to 
 ---
 ## Topic 2.  Python fundamentals 1
 
-**Handouts:**  Outline | [Code](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_fundamentals_1.py) (Download Raw) | [Code Practice #1](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_1.pdf) <br> 
+**Handouts:**  [Outline](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_pyfun1.pdf) | [Code](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_fundamentals_1.py) (Download Raw) | [Code Practice #1](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_1.pdf) <br> 
 **Summary:**  Calculations; assignments; strings; lists; built-in functions; objects; methods; tab completion.    
 
 ---
 ## Topic 3.  Python fundamentals 2
 
-**Handouts:**  Outline | [Code](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_fundamentals_2.py) | [Code Practice #2](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_x.pdf) <br> 
+**Handouts:**  [Outline](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_pyfun2.pdf) | [Code](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_fundamentals_2.py) | [Code Practice #2](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_x.pdf) | [Code Practice #2](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_2.pdf) <br> 
 **Summary:**  True and False; comparisons; conditionals; slicing; loops; function definitions and returns; dictionaries and tuples. 
 
 ---
