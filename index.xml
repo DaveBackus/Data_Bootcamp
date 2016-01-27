@@ -321,14 +321,14 @@
 
 &lt;h2 id=&#34;topic-3-python-fundamentals-2:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 3.  Python fundamentals 2&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_pyfun2.pdf&#34;&gt;Outline&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_fundamentals_2.py&#34;&gt;Code&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_x.pdf&#34;&gt;Code Practice #2&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_2.pdf&#34;&gt;Code Practice #2&lt;/a&gt; &lt;br&gt;
+&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_pyfun2.pdf&#34;&gt;Outline&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_fundamentals_2.py&#34;&gt;Code&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_2.pdf&#34;&gt;Code Practice #2&lt;/a&gt; &lt;br&gt;
 &lt;strong&gt;Summary:&lt;/strong&gt;  True and False; comparisons; conditionals; slicing; loops; function definitions and returns; dictionaries and tuples.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h2 id=&#34;topic-4-data-input-packages-and-pandas:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 4.  Data input:  Packages and Pandas&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_pandas_1.py&#34;&gt;Code&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_x.pdf&#34;&gt;Code Practice #3&lt;/a&gt;&lt;br&gt;
+&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_pandas_1.py&#34;&gt;Code&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_3.pdf&#34;&gt;Code Practice #3&lt;/a&gt;&lt;br&gt;
 &lt;strong&gt;Summary:&lt;/strong&gt;  Packages; import; Pandas; csv files; reading csv/slx files; dataframes; columns; index; APIs.&lt;/p&gt;
 
 &lt;hr /&gt;
