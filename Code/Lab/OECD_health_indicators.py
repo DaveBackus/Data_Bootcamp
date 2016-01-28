@@ -23,7 +23,7 @@ print('Pandas version: ', pd.__version__, '\n')
 
 #%%
 """
-read data from OECD 
+Spending data 
 """
 url1 = 'http://www.oecd.org/health/health-systems/'
 url2 = 'OECD-Health-Statistics-2015-Frequently-Requested-Data.xls'
@@ -33,6 +33,7 @@ hc = pd.read_excel(url1+url2,
                    skiprows=3, sheetname=1, index_col=0, 
                    na_values=['..']) 
 
+# munging
 # select years 
 hc = hc[list(range(1980,2014))]
 # select countries and transpose df 
@@ -46,9 +47,9 @@ ax.set_title('Healthcare spending', fontsize=14, loc='left')
 ax.set_ylabel('Percent of GDP')
 ax.legend(loc='upper left', fontsize=10, handlelength=2, labelspacing=0.15)
 
-#%%
+
 """
-Plot number of docs 
+Doc data 
 """
 # number of docs 
 docs = pd.read_excel(url1+url2, 
@@ -69,5 +70,5 @@ some = docs[docs.index.isin(countries)]
 # plot 
 ax = some.plot(kind='barh', alpha=0.5, legend=False) 
 ax.set_title('Number of doctors', fontsize=14, loc='left') 
-ax.set_xlabel('Number of Doctors per 1000 Population') 
+ax.set_xlabel('Doctors per 1000 Population') 
 

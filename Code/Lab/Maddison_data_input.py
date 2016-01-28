@@ -18,6 +18,7 @@ import packages, check versions
 """
 import sys 
 import pandas as pd 
+import matplotlib.pyplot as plt 
 import numpy as np 
 #import matplotlib.pyplot as plt
 
@@ -29,7 +30,7 @@ read data from internet source
 """
 url = 'http://www.ggdc.net/maddison/maddison-project/data/mpd_2013-01.xlsx'
 mpd = pd.read_excel(url, skiprows=2, index_col=0, na_values=[' ']) 
-# strip trailing blanks in country names 
+# strip trailing blanks in country names [?? use comprehension?]
 mpd.columns = map(str.rstrip, mpd.columns)
 
 print('Dataframe dimensions:', mpd.shape) 
@@ -37,21 +38,31 @@ print('Dataframe dimensions:', mpd.shape)
 #%%
 # select countries 
 countries = ['England/GB/UK', 'USA', 'Japan', 'China', 'India', 'Argentina']
-mpd = mpd[countries].dropna()
+mpd = mpd[countries]
 mpd = mpd.rename(columns={'England/GB/UK': 'UK'})
 mpd = np.log(mpd)/np.log(2)
-list(mpd)
 
 #%%
 """
 log base-2 plot
 """
-ax = mpd.plot(lw=2)
+sub = mpd.dropna().copy()
+ax = sub.plot(lw=2)
 ax.set_title('GDP per person', fontsize=14, loc='left')
 ax.set_ylabel('GDP Per Capita (1990 USD, log2 scale)')
 # legend parameters: http://matplotlib.org/users/customizing.html  
 ax.legend(loc='upper left', fontsize=10, handlelength=2, labelspacing=0.15)
-fig = ax.get_figure()
-fig.savefig('Maddison-GDP-1870-on.pdf', bbox_inches='tight')
-fig.show() 
+#fig = ax.get_figure()
+#fig.savefig('Maddison-GDP-1870-on.pdf', bbox_inches='tight')
+
+#%%
+"""
+UK plot 
+"""
+#ax = mpd['UK'].dropna().plot(lw=2)
+#ax.set_title('GDP per person in the UK', fontsize=14, loc='left')
+#ax.set_ylabel('GDP Per Capita (1990 USD, log2 scale)')
+#fig = ax.get_figure()
+#fig.savefig('Maddison-GDP-1870-on.pdf', bbox_inches='tight')
+#fig.show()
 

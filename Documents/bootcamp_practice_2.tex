@@ -70,6 +70,7 @@ What function tells us how many elements they contain
 1==1
 1 == 1.0
 'Spencer' == "Spencer"
+2**3 > 3**2 
 \end{verbatim}
 
 \item  Does this code run without error?  If so, what does it produce?  If not, how would you fix it?
@@ -158,11 +159,11 @@ Using the same list {\tt x}, write a loop that prints every element of type {\tt
 %    print(x)
 %\end{verbatim}
 
-\begin{comment} 
+\begin{comment}
 \item Suppose the current price of corn is \$1.20.
 The price is set to increase by 10 cents every weekday until it hits \$2.50.
 (Nothing happens on weekends.)
-At that point it will switch directions and decrease by 10 cents a day. 
+At that point it will switch directions and decrease by 10 cents a day.
 Finish the code below to print the price of corn every day until it reaches \$2.50.
 \begin{verbatim}
 days = ["M", "T", "W", "Th", "F"]
@@ -203,53 +204,53 @@ if current_price == 2.50:
 %months = ['January', 'February', etc]
 %\end{verbatim}
 
-\item Define a function \verb|pocket_change()| that takes four integers as inputs 
+\item Define a function \verb|pocket_change()| that takes four integers as inputs
 (numbers of pennies, nickels, dimes, and quarters in your pocket)
-and returns a floating point number (their dollar value).  
-Run your program with the input {\tt (1, 2, 3, 4)}. 
+and returns a floating point number (their dollar value).
+Run your program with the input {\tt (1, 2, 3, 4)}.
 
 \item {\it Challenging.\/}
 Write a function that takes a list of integers
 and returns a (shorter) list of only those that do not begin with a 6.
 {\it Hint:} We can eliminate items from a list with pop.
-We eliminate the third item from the list {\tt x} 
-with {\tt x.pop(2)} (start counting at zero).  
+We eliminate the third item from the list {\tt x}
+with {\tt x.pop(2)} (start counting at zero).
 
 
-\item Use Spyder's help to find out what the range function does.  
-How would you describe {\tt range(3,12,2)}?  
+\item Use Spyder's help to find out what the range function does.
+How would you describe {\tt range(3,12,2)}?
 Verify by converting to a list with {\tt list(range(3,12,2))}.
 
 \item {\it Challenging.\/}
 Write a loop that sums the integers from zero to thirty that are multiples of three:
 3, 6, etc.
-{\it Hints:}  You can create a blank list with {\tt x = []}.  
-You can append an item to a list {\tt x} with {\tt x.append(item)}. 
+{\it Hints:}  You can create a blank list with {\tt x = []}.
+You can append an item to a list {\tt x} with {\tt x.append(item)}.
 
 \item Consider the Python object
 \begin{verbatim}
-z = {1: 'one', 2: 'two', 3: 'three'} 
-\end{verbatim} 
+z = {1: 'one', 2: 'two', 3: 'three'}
+\end{verbatim}
 \begin{parts}
-\item What kind of object is {\tt z}?  What is its length?  
-\item Which components are keys?  Which are values? 
+\item What kind of object is {\tt z}?  What is its length?
+\item Which components are keys?  Which are values?
 \item How would I get the value associated with the key 2?
-\item Use Spyder's help facilities to figure out what {\tt z.keys()} does.  
-Ditto {\tt z.values()}.  Try them to verify.  
+\item Use Spyder's help facilities to figure out what {\tt z.keys()} does.
+Ditto {\tt z.values()}.  Try them to verify.
 \item What does {\tt list(z.keys())} do?
 \item What does {\tt list(z.values())} do?
 \item What does {\tt list(z)} do?
-\end{parts} 
+\end{parts}
 
 
-\item {\it Challenging.\/} 
+\item {\it Challenging.\/}
 Take the dictionary connecting state names and abbreviations:
 \begin{verbatim}
-states = {'AK': 'Alaska', 'IA': 'Iowa', 'NY': 'New York', 'VT': 'Vermont'} 
-\end{verbatim} 
-Write a function that takes a string as input (the abbreviation) 
+states = {'AK': 'Alaska', 'IA': 'Iowa', 'NY': 'New York', 'VT': 'Vermont'}
+\end{verbatim}
+Write a function that takes a string as input (the abbreviation)
 and returns another string (the full name of the state).
-Test your function on two test cases.  
+Test your function on two test cases.
 
 
 \end{questions}
