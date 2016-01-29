@@ -10,7 +10,6 @@ Created with Python 3.4
 """
 """
 Check version (ignore this, just run it) 
-Or just type:  import sys, sys.version 
 """
 import sys 
 
@@ -32,6 +31,8 @@ Calculations:  type in IPython console, practice "Google fu"
 """
 # 2*3, 2 * 3, 2/3, 2^3, 2**3, log(3), sqrt(2)
 
+# Exercises 
+
 """
 Assignments:  type in IPython console 
 * what's on the right is "assigned" to the object on the left 
@@ -41,53 +42,31 @@ Assignments:  type in IPython console
 x = 2
 y = 3
 z = x/y
+z 
 
-# Exercise: Set w = 3.  What does w = w + 1 do?  Does this make any sense?
+# Exercises 
 
-# Exercise: Suppose we borrow 200, pay interest of 5%.  
-# If we pay interest plus principal after one year, what do we pay? 
-# Use the variables "principal" and "i". 
-
-# Exercise: GDP was 15.58 in 2013, 15.96 in 2014.  What was the growth rate?
-# Use the variables "gdp13", "gdp14", and "growth" 
-
-"""
-Hashes (#):  everything in a line after a hash is a comment, ignored by Python
-Good practice:  add comments to your code to remind yourself what you did
-"""
-# this is a comment
-x = 2   # so is this 
-
-#%%
 """
 The print() function 
 * what's inside the parens gets printed -- the "arguments" 
 * as many as you like 
 * for help:  print? or Object explorer 
 """
-# type these lines in IPython console 
-print(x)
-print(x, y)
-print('The variable x is', x)
+print(z) 
+print(x, y, z) 
 
-# Exercise:  use print? to find out what sep= and end= do.  
-
-#%%
 """
-Running code in Spyder 
-* Type things in the editor
-* code cells marked by #%%
-"""
-
-#%%
-"""
-Strings = collections of characters 
-They show up a lot in data work (variables, data) 
+Strings = collections of characters between quotes 
 """
 a = 'some'      # think Excel 
 b = 'thing'
 c = a + b 
 print(c)        # what happened here?  
+
+message = 'The value of z is'
+print(message, z)
+
+# Exercises 
 
 #%%
 """
@@ -96,40 +75,60 @@ Single, double, and triple quotes (are mostly the same)
 # how to use single, double, and triple quotes 
 d = 'example'
 e = "example"
-d == e  
+d == e           # mysterious but informative 
 
-#%%               # just to check, ignore how this works 
-longstring = """
-Four score and seven years ago
-Our fathers brought forth """
+# triple quotes work, too, even over lines 
 
-# combining strings
-first = 'Sarah'
-last  = 'Beckett-Hile'
-bothnames = first + last 
-print(bothnames)
+# Exercises
 
-# Exercise:  How do I put a space in bothnames? 
-
-# Exercise:  Construct the string:  last name, comma, space, first name 
+"""
+Comments:  everything in a line after a hash (#) is a comment (ignored) 
+Good practice:  add comments to your code to remind yourself what you did
+"""
+# this is a comment
+x = 2   # so is this 
 
 #%%
 """
-Lists:  collections of things (numbers, strings, etc) 
+Running code in Spyder 
+* type things in the editor
+* run with the green triangles in the toolbar
+* code cells marked by #%%
+Open new file, save as bootcamp_topic2.py in Data_Bootcamp 
+Add this code and run it
 """
 x = 2
-y = 2**3
-z = x/y 
+y = 3
+z = x/y
+print('z =', z)
+#%%
+a = 'some'
+b = 'thing'
+c = a + b 
+print('c = ', c) 
+
+#%%
+"""
+Lists:  collections of things in square brackets (numbers, strings, etc) 
+"""
+numberlist = [1, 5, -3]
+stringlist = ['hi', 'hello', 'hey']
+
+# try print, what do you see? 
 
 a = 'some'
 b = 'thing'
 c = a + b
+variablelist = [a, b, c]
 
-numbers = [x, y, z]
+randomlist = [1, 'hello', a] 
 strings = [a, b, c]
 
-both = numbers + strings
+both = numberlist + stringlist
 print(both)
+
+# Exercises 
+
 
 #%%
 """
@@ -147,30 +146,43 @@ print('c is', c)
 
 #%%
 """
-Built-in functions:  like print, but we have others 
-Favs:  type, len
-Getting help:  type? in console, type in Object inspector
+Functions
+* print()
+* type()
+* len() 
+Getting help:  function? in console, function in Object inspector
 """
-d = '11.32'
 
-# Exercise.  What type is d?  What is its length?
+# try type on:  2, 2.5, 'something', c, stringlist, '12', '12.34'
 
-# Exercise.  What do the functions int, float, and str do?  
-# Can you convert d to a float?  
+# Exercises
+
+# conversions:  float, int, str 
+f = float('12.34')
+type(f)
+i = int('12.34')
+type(i) 
+
+# Exercises 
 
 #%%
 """
 Objects and methods 
+* syntax:  function(object), object.method 
 * find methods using "tab completion" in the console
 * get help with object.method? or object explorer 
 """
 name = 'Spencer'
 numbers = [1, 2, 3, 4]
 
-# Exercise.  What do name.lower() and name.upper() do?  
+# tab completion, more help 
 
-# Exercise. Replace e's with *'s.  
+# Example
+firstname = 'Chase'
+firstname.lower()
 
-# Exercise.  Suppose we have a variable z = '12,345.6'.  
-# What is its type?  Can we convert it to a floating point number?   
-# Hint:  What method can we use to get rid of the comma?  
+# Exercises
+
+"""
+Review
+""" 

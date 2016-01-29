@@ -15,6 +15,7 @@
 \centerline{\Large \bf Data Bootcamp:  Code Practice \#2}
 \centerline{Revised: \today}
 
+\medskip
 {\it Answer each of the questions below.
 Answers should include any code you write.
 They can be handwritten, but they must be readable and look professional.}
@@ -30,8 +31,7 @@ z = x + y
 
 \item {\it Review.\/} For the same {\tt x} and {\tt y} as the previous question:
 What function tells us what type they are?
-What function tells us how many elements they contain
-(their ``length,'' so to speak)?
+What function tells us how many elements they contain? 
 
 %\item {\it Review.\/} Does this code run without error? If so, what does it produce?  If not, explain why.
 %\begin{verbatim}
@@ -66,11 +66,13 @@ What function tells us how many elements they contain
 \begin{verbatim}
 1>=0
 1 >= 1
-1 > 1
+1 > 1 
 1==1
 1 == 1.0
 'Spencer' == "Spencer"
-2**3 > 3**2 
+2**3 > 3**2
+1 >= 0 or 1 <= 2
+1 >= 0 and 1 <= 2
 \end{verbatim}
 
 \item  Does this code run without error?  If so, what does it produce?  If not, how would you fix it?
@@ -89,6 +91,7 @@ else:
     print('but on the other hand')
 \end{verbatim}
 What happens if we replace {\tt True} with {\tt False} in the first line?
+What happens if we insert the word {\tt not} after {\tt if} in the first line?  
 
 \item What is the result of running this code?
 \begin{verbatim}
@@ -150,6 +153,14 @@ x = [1, 2, "a", 'b', "fast", 'slow', 3, "Raghu", 'Liuren', 10]
 \item {\it Challenging.\/}
 Using the same list {\tt x}, write a loop that prints every element of type {\tt str}.
 
+\item Use Spyder's help to find out what the range function does.
+How would you describe {\tt range(3,12,2)}?
+Verify by converting to a list with {\tt list(range(3,12,2))}.
+
+\item {\it Challenging.\/}
+Write a loop that sums the integers from zero to thirty that are multiples of three:
+3, 6, etc.
+
 % Looping
 %\item Finish writing the for loop below so that it adds all of the numbers less than 100.
 %\begin{verbatim}
@@ -210,22 +221,16 @@ and returns a floating point number (their dollar value).
 Run your program with the input {\tt (1, 2, 3, 4)}.
 
 \item {\it Challenging.\/}
-Write a function that takes a list of integers
+Write a function {\tt notsix()} that takes a list of integers
 and returns a (shorter) list of only those that do not begin with a 6.
-{\it Hint:} We can eliminate items from a list with pop.
-We eliminate the third item from the list {\tt x}
-with {\tt x.pop(2)} (start counting at zero).
-
-
-\item Use Spyder's help to find out what the range function does.
-How would you describe {\tt range(3,12,2)}?
-Verify by converting to a list with {\tt list(range(3,12,2))}.
-
-\item {\it Challenging.\/}
-Write a loop that sums the integers from zero to thirty that are multiples of three:
-3, 6, etc.
+Test it on the list {\tt [1234, 6783, 6, 4321, 9876]}.  
 {\it Hints:}  You can create a blank list with {\tt x = []}.
-You can append an item to a list {\tt x} with {\tt x.append(item)}.
+You can append  {\tt item} to it with {\tt x.append(item)}.
+%{\it Hint:} We can eliminate items from a list with pop.
+%We eliminate the third item from the list {\tt x}
+%with {\tt x.pop(2)} (start counting at zero).
+
+
 
 \item Consider the Python object
 \begin{verbatim}
@@ -243,7 +248,7 @@ Ditto {\tt z.values()}.  Try them to verify.
 \end{parts}
 
 
-\item {\it Challenging.\/}
+\item %{\it Challenging.\/}
 Take the dictionary connecting state names and abbreviations:
 \begin{verbatim}
 states = {'AK': 'Alaska', 'IA': 'Iowa', 'NY': 'New York', 'VT': 'Vermont'}
@@ -252,6 +257,12 @@ Write a function that takes a string as input (the abbreviation)
 and returns another string (the full name of the state).
 Test your function on two test cases.
 
+\item {\it Challenging.\/}
+ Explain what this code does:
+\begin{verbatim}
+old_list = [1234, 6783, 6, 4321, 9876]
+new_list = [x for x in old_list if str(x)[0] != "6"]
+\end{verbatim} 
 
 \end{questions}
 
