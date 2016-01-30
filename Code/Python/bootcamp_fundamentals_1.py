@@ -129,21 +129,6 @@ print(both)
 
 # Exercises 
 
-
-#%%
-"""
-Slicing:  picking out elements of strings, lists 
-Write out string, put numbers under it 
-"""
-# slicing 
-a = 'some'
-b = 'thing'
-c = a + b
-print('c is', c)
-
-# what is c[1]?  why?  c[0]?  c[-1]
-
-
 #%%
 """
 Functions

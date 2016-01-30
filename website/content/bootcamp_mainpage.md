@@ -4,7 +4,12 @@ type: index
 
 # Data Bootcamp
 
-**Description:** A [course](http://databootcamp.nyuecon.com/bootcamp_faq/) exploring economic and financial data with the Python programming language at [NYU Stern](http://www.stern.nyu.edu/).     
+A course at NYU Stern exploring economic and financial data with the Python programming language. The course was developed by Stern faculty and students with the assistance and support of executives at Amazon. The immediate goal is to train students to succeed as summer interns and full-time employees of technology companies, but the same skills are valued in finance, marketing, consulting, media, and other areas. We think of it as literacy for the modern age and a selling point in finding a job.
+
+More concretely, the course is designed to (i) introduce students to sources of economic, financial, and business data and (ii) give programming newbies a sense of how modern software -- in this case Python -- makes life easier and more interesting. We'll let the data speak for itself. But coding is an essential skill in the modern world. You can do lots of things in Excel, but if you value your time -- and you should -- you'll find you can use it more efficiently with a modern programming language. We like to say we do it because we're lazy, laziness being a synonym here for efficiency. Former students tell us it's become a key to success in the business world. An alum with strong programming skills worries that this course will make him obsolete.  
+
+More at our [FAQ](http://databootcamp.nyuecon.com/bootcamp_faq).
+   
 **Quick links:**  [Book](https://www.gitbook.com/book/davebackus/test/details) | [Syllabus](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf) | [Project Guide](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf) | Discussion Groups ([UG](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_ug) | [MBA](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_mba))
 
 <!--
