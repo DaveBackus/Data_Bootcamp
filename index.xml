@@ -100,6 +100,8 @@
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Flowing Data.&lt;/strong&gt;  Nathan Yau&amp;rsquo;s &lt;a href=&#34;http://flowingdata.com/&#34;&gt;daily graphic&lt;/a&gt;. A good source of ideas and advice.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;VizWiz.&lt;/strong&gt; Andy Kriebel&amp;rsquo;s &lt;a href=&#34;http://vizwiz.blogspot.com/&#34;&gt;&amp;ldquo;visualization&amp;rdquo; blog&lt;/a&gt;.  A steady stream of examples and advice, including the invaluable Makeover Monday.  Tagline:  &amp;ldquo;Friends Don&amp;rsquo;t Let Friends Use Pie Charts.&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Data is beautiful.&lt;/strong&gt;  On &lt;a href=&#34;https://www.reddit.com/r/dataisbeautiful/&#34;&gt;Reddit&lt;/a&gt;. Relatively unfiltered, but a great source of ideas.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;more:987d9bf97cab1040fa2beea3138e2fdf&#34;&gt;More&lt;/h2&gt;
@@ -249,7 +251,7 @@
 
 &lt;p&gt;A course at NYU Stern exploring economic and financial data with the Python programming language. The course was developed by Stern faculty and students with the assistance and support of executives at Amazon. The immediate goal is to train students to succeed as summer interns and full-time employees of technology companies, but the same skills are valued in finance, marketing, consulting, media, and other areas. We think of it as literacy for the modern age and a selling point in finding a job.&lt;/p&gt;
 
-&lt;p&gt;More concretely, the course is designed to (i) introduce students to sources of economic, financial, and business data and (ii) give programming newbies a sense of how modern software &amp;ndash; in this case Python &amp;ndash; makes life easier and more interesting. We&amp;rsquo;ll let data speak for itself. As for coding: It&amp;rsquo;s a skill that opens the door to new career opportunities. You can do lots of things in Excel, but if you value your time &amp;ndash; and you should &amp;ndash; you&amp;rsquo;ll find you can do more, and do it more efficiently, with a modern programming language. We like to say we do it because we&amp;rsquo;re lazy, laziness being a synonym here for efficiency. A former student who manages people who can&amp;rsquo;t code worries that this course will make him obsolete. There&amp;rsquo;s more on our &lt;a href=&#34;http://databootcamp.nyuecon.com/bootcamp_faq&#34;&gt;FAQ&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;More concretely, the course is designed to (i) introduce students to sources of economic, financial, and business data and (ii) give programming newbies a sense of how modern software &amp;ndash; in this case Python &amp;ndash; makes life easier and more interesting. We&amp;rsquo;ll let data speak for itself. As for coding: It&amp;rsquo;s a skill that opens door sto new career opportunities. You can do lots of things in Excel, but if you value your time &amp;ndash; and you should &amp;ndash; you&amp;rsquo;ll find you can do more, and do it more efficiently, with a modern programming language. We like to say we do it because we&amp;rsquo;re lazy, laziness being a synonym here for efficiency. A former student with strong programming skills manages people who can&amp;rsquo;t code and worries that this course will make him obsolete. There&amp;rsquo;s more on our &lt;a href=&#34;http://databootcamp.nyuecon.com/bootcamp_faq&#34;&gt;FAQ&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Quick links:&lt;/strong&gt;  &lt;a href=&#34;https://www.gitbook.com/book/davebackus/test/details&#34;&gt;Book&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf&#34;&gt;Syllabus&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf&#34;&gt;Project Guide&lt;/a&gt; | Discussion Groups (&lt;a href=&#34;https://groups.google.com/forum/#!forum/nyu_data_bootcamp_ug&#34;&gt;UG&lt;/a&gt; | &lt;a href=&#34;https://groups.google.com/forum/#!forum/nyu_data_bootcamp_mba&#34;&gt;MBA&lt;/a&gt;)&lt;/p&gt;
 
@@ -303,7 +305,7 @@
 
 &lt;p&gt;A list of topics with links to material used in class.  We expect each topic to take roughly one week &amp;ndash; maybe a little more.&lt;/p&gt;
 
-&lt;p&gt;The topics in the first half follow &lt;strong&gt;&lt;a href=&#34;https://www.gitbook.com/book/davebackus/test/details&#34;&gt;the book&lt;/a&gt;&lt;/strong&gt;.  Click in the large blue Read button to read online or download the pdf.&lt;/p&gt;
+&lt;p&gt;The topics in the first half follow &lt;strong&gt;&lt;a href=&#34;https://www.gitbook.com/book/davebackus/test/details&#34;&gt;THE BOOK&lt;/a&gt;&lt;/strong&gt;.  At the book link, click the large blue Read button to read online or download the pdf.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -317,21 +319,21 @@
 
 &lt;h2 id=&#34;topic-2-python-fundamentals-1:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 2.  Python fundamentals 1&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_pyfun1.pdf&#34;&gt;Outline&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_fundamentals_1.py&#34;&gt;Code&lt;/a&gt; (Download &amp;ldquo;Raw&amp;rdquo;) | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_1.pdf&#34;&gt;Code Practice #1&lt;/a&gt; &lt;br&gt;
-&lt;strong&gt;Summary:&lt;/strong&gt;  Calculations; assignments; strings; lists; built-in functions; objects; methods; tab completion.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_pyfun1.pdf&#34;&gt;Outline&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_1.pdf&#34;&gt;Code Practice #1&lt;/a&gt; &lt;br&gt;
+&lt;strong&gt;Summary:&lt;/strong&gt;  Calculations; assignments; strings; lists; tuples; built-in functions; objects; methods; tab completion.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h2 id=&#34;topic-3-python-fundamentals-2:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 3.  Python fundamentals 2&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_pyfun2.pdf&#34;&gt;Outline&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_fundamentals_2.py&#34;&gt;Code&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_2.pdf&#34;&gt;Code Practice #2&lt;/a&gt; &lt;br&gt;
-&lt;strong&gt;Summary:&lt;/strong&gt;  True and False; comparisons; conditionals; slicing; loops; function definitions and returns; dictionaries and tuples.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_pyfun2.pdf&#34;&gt;Outline&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_2.pdf&#34;&gt;Code Practice #2&lt;/a&gt; &lt;br&gt;
+&lt;strong&gt;Summary:&lt;/strong&gt;  True and False; comparisons; conditionals; slicing; loops; function definitions and returns; dictionaries.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h2 id=&#34;topic-4-data-input-packages-and-pandas:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 4.  Data input:  Packages and Pandas&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_pandas_1.py&#34;&gt;Code&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_x.pdf&#34;&gt;Code Practice #3&lt;/a&gt;&lt;br&gt;
+&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_pandas_1.py&#34;&gt;Code&lt;/a&gt; (Download &amp;ldquo;Raw&amp;rdquo;) | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_x.pdf&#34;&gt;Code Practice #3&lt;/a&gt;&lt;br&gt;
 &lt;strong&gt;Summary:&lt;/strong&gt;  Packages; import; Pandas; csv files; reading csv/xls files; dataframes; columns; index; APIs.&lt;/p&gt;
 
 &lt;hr /&gt;
