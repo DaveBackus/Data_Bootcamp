@@ -30,7 +30,8 @@ read data from internet source
 """
 url = 'http://www.ggdc.net/maddison/maddison-project/data/mpd_2013-01.xlsx'
 mpd = pd.read_excel(url, skiprows=2, index_col=0, na_values=[' ']) 
-# strip trailing blanks in country names [?? use comprehension?]
+# strip trailing blanks in country names 
+# ?? use comprehension? string methods?
 mpd.columns = map(str.rstrip, mpd.columns)
 
 print('Dataframe dimensions:', mpd.shape) 

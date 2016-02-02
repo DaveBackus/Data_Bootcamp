@@ -73,6 +73,8 @@ Graphics:
 
 * **VizWiz.** Andy Kriebel's ["visualization" blog](http://vizwiz.blogspot.com/).  A steady stream of examples and advice, including the invaluable Makeover Monday.  Tagline:  "Friends Don't Let Friends Use Pie Charts." 
 
+* **Data is beautiful.**  On [Reddit](https://www.reddit.com/r/dataisbeautiful/). Relatively unfiltered, but a great source of ideas.    
+
 
 ## More
 
