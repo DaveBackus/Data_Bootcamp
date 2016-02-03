@@ -32,7 +32,7 @@ file = url2
 
 variables = ['Time', 'Program', 'Career', 'Programming experience', 
              'Prob-stat experience', 'Social media', 'Other', 
-             'Concentration', 'Interests', 'Why', 'Topics']
+             'Concentration', 'Interests', 'Why', 'Extra Topics']
 ep = pd.read_csv(url, header=0, names=variables)
 print('Dimensions:', ep.shape)
 print('\nData types:\n', ep.dtypes, sep='')
@@ -43,5 +43,6 @@ for var in list(ep):
     print('\n', var, '\n', ep[var].value_counts(), sep='')
     
     
-
+#%%
+ep['Why']    
     
