@@ -4,12 +4,12 @@ type: index
 
 # Data Bootcamp
 
-<br> **Quick links:**  [Book](https://www.gitbook.com/book/davebackus/test/details) | [Syllabus](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf) | [Project Guide](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf) | Discussion Groups ([UG](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_ug) | [MBA](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_mba))
-
 A course at NYU Stern exploring economic and financial data with the Python programming language. The course was developed by Stern faculty and students with the assistance and support of executives at Amazon. The immediate goal is to train students to succeed as summer interns and full-time employees of technology companies, but the same skills are valued in finance, marketing, consulting, media, and other areas. We think of it as literacy for the modern age and a selling point in finding a job.
 
 More concretely, the course is designed to (i) introduce students to sources of economic, financial, and business data and (ii) give programming newbies a sense of how modern software -- in this case Python -- makes life easier and more interesting. We'll let data speak for itself. As for coding: It's a skill that opens door sto new career opportunities. You can do lots of things in Excel, but if you value your time -- and you should -- you'll find you can do more, and do it more efficiently, with a modern programming language. We like to say we do it because we're lazy, laziness being a synonym here for efficiency. A former student with strong programming skills manages people who can't code and worries that this course will make him obsolete. There's more on our [FAQ](http://databootcamp.nyuecon.com/bootcamp_faq). 
    
+**Quick links:**  [Book](https://www.gitbook.com/book/davebackus/test/details) | [Syllabus](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf) | [Project Guide](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf) | Discussion Groups ([UG](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_ug) | [MBA](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_mba))
+
 <!--
 | [Topic list & links](/bootcamp_outline) | [UG Due Dates](/bootcamp_duedates_ug) | [MBA Due Dates](/bootcamp_duedates_mba) 
 --> 
