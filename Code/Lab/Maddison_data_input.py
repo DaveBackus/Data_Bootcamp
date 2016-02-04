@@ -59,11 +59,14 @@ ax.legend(loc='upper left', fontsize=10, handlelength=2, labelspacing=0.15)
 #%%
 """
 UK plot 
+problem:  this works on its own with Run current cell, but overwrites 
+the previous fig if they're done together with Run file. 
 """
-#ax = mpd['UK'].dropna().plot(lw=2)
-#ax.set_title('GDP per person in the UK', fontsize=14, loc='left')
-#ax.set_ylabel('GDP Per Capita (1990 USD, log2 scale)')
-#fig = ax.get_figure()
-#fig.savefig('Maddison-GDP-1870-on.pdf', bbox_inches='tight')
-#fig.show()
+"""
+ax = mpd['UK'].dropna().plot(lw=2)
+ax.set_title('GDP per person in the UK', fontsize=14, loc='left')
+ax.set_ylabel('GDP Per Capita (1990 USD, log2 scale)')
+fig = ax.get_figure()
+fig.savefig('Maddison-GDP-1870-on.pdf', bbox_inches='tight')
+fig.show()
 
