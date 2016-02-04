@@ -4,7 +4,7 @@ Due dates for Data Bootcamp @ NYU Stern, Spring 2016, Undergrad section.  Delive
 
 **January 26** <br> First class.  Bring your computer, roll up your sleeves.  
 
-**January 28** <br> If you haven't already, complete the [Entry Poll](https://docs.google.com/forms/d/1N7ugrqIQNHm_e1BLVAtaRMnC8SmSiTDMoYBy_0FYZic/viewform), sign up for the [Discussion Group](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_mba), and read the [Syllabus](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf) and [Project Guide](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf).  
+**January 28** <br> If you haven't already, complete the [Entry Poll](https://docs.google.com/forms/d/1N7ugrqIQNHm_e1BLVAtaRMnC8SmSiTDMoYBy_0FYZic/viewform), sign up for the [Discussion Group](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_ug), and read the [Syllabus](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf) and [Project Guide](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf).  
 
 **February 11 (was Feb 9)** <br> Submit answers to [Code Practice #1](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_1.pdf).
 
