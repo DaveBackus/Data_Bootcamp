@@ -1,34 +1,13 @@
 """
-Pandas intro for Data Bootcamp course (data input and management)
-Topics:  reading csv and xls files, properties of dataframes.
+Data input with Pandas for Data Bootcamp course.  
 
-Repository of materials (including this file):
-* https://github.com/DaveBackus/Data_Bootcamp
+Course materials 
+* http://databootcamp.nyuecon.com/
+* https://github.com/DaveBackus/Data_Bootcamp 
 
-Written by Dave Backus, August 2015
-Created with Python 3.4
+Written by Dave Backus, August 2015 
+Created with Python 3.4 
 """
-"""
-Packages:  add new tools to Python (libraries, modules)
-* Pandas:  data management
-* Matplotlib:  graphics
-* Many more
-Google "anaconda packages"
-Add them with import statements
-"""
-"""
-Check versions (ignore this)
-"""
-import pandas as pd               # the data package
-import sys                        # system module (don't ask)
-
-print('\nPython version:', sys.version)
-print('Pandas version: ', pd.__version__)
-
-# Exercise.  What if we import pandas twice, once as pd and once as pa.  
-# Do they both work?  (Ask yourself:  How would you know?)
-
-#%%
 """
 Read csv file from internet (and why we like csv's)
 The result is a data frame:  like a sheet with row and column labels
@@ -39,7 +18,7 @@ import pandas as pd               # redundant, but it's ok to do it again
 url1 = 'https://raw.githubusercontent.com/DaveBackus'
 url2 = '/Data_Bootcamp/master/Code/Python/test.csv'
 url  = url1 + url2
-df = pd.read_csv(url)
+df = pd.read_csv(url, nrows=2)
 
 print('\nurl read (df)\n', df)    # \n tells print to skip a line
 
@@ -69,62 +48,16 @@ dfx = pd.read_excel(url)
 
 print('\nurl read (df)\n', dfx)    # \n tells print to skip a line
 
-
-
 #%%
 """
 What type of object do we have?  What are its properties?
 """
 type(df)
-# aka dataframe 
-
-# Apply these methods, explain what they do: shape, index, columns, dtypes 
-
-# Exercise:  Try df.columns.tolist() and list(df).  
-
-
-#%%
-"""
-There are lots of things we can do with dataframes
- head()/tail() [also list(df)]
-Also:  dtypes, mean, describe(), transpose()=T, to_csv
-"""
-# Exercise.  How do I output df as a csv or xls file?
-# Exercise.  What other methods do you seed?
-# Exercise.  What does the plot method do?
-
-#%%
-"""
-Read csv file from internet (and why we like csv's)
-The result is a data frame:  like a sheet with row and column labels
-"""
-import pandas as pd     # redundant, there to make cell self-contained
-
-url1 = 'https://raw.githubusercontent.com/DaveBackus'
-url2 = '/Data_Bootcamp/master/Code/Python/test.csv'
-url  = url1 + url2
-df = pd.read_csv(url)
-print('\nurl read (df)\n', df)
-
-
-#%%
-"""
-What type of object do we have?  What are its properties?
-Try these methods:  shape, columns, index, head()/tail() [also list(df)]
-Also:  dtypes, mean, describe(), transpose()=T, to_csv
-"""
-
-# what kind of object do we have?  
-print(type(df))
-
-# try these methods:  what do they do?  shape, dtypes, transpose()=T
-# also these:  mean, describe(), to_csv  
-"""
-xxx
-"""
-# Exercise.  How do I output df as a csv or xls file?
-# Exercise.  What other methods do you seed?
-# Exercise.  What does the plot method do?
+df.head(2) 
+df.columns
+df.index
+df.index.tolist()
+list(df) 
 
 #%%
 """

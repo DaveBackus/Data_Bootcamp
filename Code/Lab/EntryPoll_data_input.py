@@ -1,9 +1,6 @@
 """
 Data Bootcamp entry poll 
 
-Links
-https://docs.google.com/forms/d/1N7ugrqIQNHm_e1BLVAtaRMnC8SmSiTDMoYBy_0FYZic/viewform
-
 Prepared for Data Bootcamp course at NYU  
 * http://databootcamp.nyuecon.com/
 * https://github.com/DaveBackus/Data_Bootcamp/Code/Lab 
@@ -46,3 +43,4 @@ for var in list(ep):
 #%%
 ep['Why']    
     
+#%%

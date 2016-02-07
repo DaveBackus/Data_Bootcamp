@@ -73,10 +73,11 @@ Graphics:
 
 * **VizWiz.** Andy Kriebel's ["visualization" blog](http://vizwiz.blogspot.com/).  A steady stream of examples and advice, including the invaluable Makeover Monday.  Tagline:  "Friends Don't Let Friends Use Pie Charts." 
 
-* **Data is beautiful.**  On [Reddit](https://www.reddit.com/r/dataisbeautiful/). Relatively unfiltered, but a great source of ideas.    
+* **Data is beautiful.**  On [Reddit](https://www.reddit.com/r/dataisbeautiful/). Relatively unfiltered, but a great source of ideas.  
 
 
 ## More
 
-This is **not for the timid**, but we have a [huge collection](https://docs.google.com/document/d/1L2ZDKFyyqfOrCGbNcCIE9mmgap4tjkTNuw32hK4c6BI/edit?usp=sharing) of data sources and applications.  Get a cold drink and a comfy chair and see what strikes your fancy. Active investing?  Movie grosses? Sports? College Scorecard? Shooting deaths? All this and more.  
+This is **not for the timid**, but we have a [huge collection](https://docs.google.com/document/d/1L2ZDKFyyqfOrCGbNcCIE9mmgap4tjkTNuw32hK4c6BI/edit?usp=sharing) of data sources and applications.  Get a cold drink and a comfy chair and see what strikes your fancy. Active investing?  Movie grosses? Sports? College Scorecard? Shooting deaths? All this and more.  Similar courage is called for if you go to **[Awesome Public Datasets](https://github.com/caesar0301/awesome-public-datasets#awesome-public-datasets)**.  There's way too much there, but one advantage is that it goes beyond economics and finance.  
+
 
