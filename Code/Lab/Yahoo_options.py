@@ -19,6 +19,7 @@ Created with Python 3.5
 """
 # Spencer wrote the first version of this one 
 import pandas_datareader.yahoo.options as yho
+import matplotlib.pyplot as plt 
 
 """
 supply ticker, get option prices 
@@ -52,8 +53,9 @@ plot put and call prices
 * last 
 * implied vols 
 """
-ax = calls['Mid'].plot(lw=2, color='blue', alpha=0.6)
-puts['Mid'].plot(lw=2, color='m', alpha=0.6)
+fig, ax = plt.subplots()
+calls['Mid'].plot(lw=2, color='blue', alpha=0.6, ax=ax)
+puts['Mid'].plot(lw=2, color='m', alpha=0.6, ax=ax)
 ymin, ymax = ax.get_ylim()
 ax.set_title('Prices of Amazon options (bid-ask avg)', fontsize=14, loc='left')
 ax.set_ylabel('Option Prices')
@@ -62,10 +64,12 @@ ax.vlines(x=spot, ymin=ymin, ymax=ymax, linestyle='dashed')
 ax.text(1.01*spot, 0.9*ymax, 'Stock price', horizontalalignment='left')
 ax.text(545, 80, 'Put prices', horizontalalignment='right', color='m')
 ax.text(420, 80, 'Call prices', horizontalalignment='left', color='b') 
+fig.show()
 
 #%%
-ax = calls['Last'].plot(lw=2, color='blue', alpha=0.6)
-puts['Last'].plot(lw=2, color='m', alpha=0.6)
+fig, ax = plt.subplots()
+calls['Last'].plot(lw=2, color='blue', alpha=0.6, ax=ax)
+puts['Last'].plot(lw=2, color='m', alpha=0.6, ax=ax)
 ymin, ymax = ax.get_ylim()
 ax.set_title('Prices of Amazon options (last quote)', fontsize=14, loc='left')
 ax.set_ylabel('Option Prices')
@@ -74,15 +78,16 @@ ax.vlines(x=spot, ymin=ymin, ymax=ymax, linestyle='dashed')
 ax.text(1.01*spot, 0.9*ymax, 'Stock price', horizontalalignment='left')
 ax.text(545, 80, 'Put prices', horizontalalignment='right', color='m')
 ax.text(420, 80, 'Call prices', horizontalalignment='left', color='b') 
+fig.show()
 
 #%%
 # convert IV data to numbers 
 calls['IV'] = calls['IV'].str.replace('%', '').astype(float)
 puts['IV']  = puts['IV'].str.replace('%', '').astype(float)
 
-#%%
-ax = calls['IV'].plot(lw=2, color='blue', alpha=0.6)
-puts['IV'].plot(lw=2, color='m', alpha=0.6)
+fig, ax = plt.subplots()
+calls['IV'].plot(lw=2, color='blue', alpha=0.6, ax=ax)
+puts['IV'].plot(lw=2, color='m', alpha=0.6, ax=ax)
 ymin, ymax = ax.get_ylim()
 ax.set_title('Implied volatilities of Amazon options', fontsize=14, loc='left')
 ax.set_ylabel('Implied Volatility (percent)')
@@ -91,6 +96,7 @@ ax.vlines(x=spot, ymin=ymin, ymax=ymax, linestyle='dashed')
 ax.text(1.01*spot, 0.9*(ymax-ymin)+ymin, 'Stock price', horizontalalignment='left')
 ax.text(400, 46, 'Puts', horizontalalignment='right', color='m')
 ax.text(450, 46, 'Calls', horizontalalignment='left', color='b') 
+fig.show()
 
 #%%
 """
