@@ -16,12 +16,17 @@
 \centerline{Revised: \today}
 
 \medskip
-{\it Answer each of the questions below.
-Answers should include any code you write.
-They can be handwritten, but they must be readable and look professional.}
+{\it Answer each of the questions below.  
+What you hand in can be code or handwritten or something else,
+but it must be readable and professional.
+Hardcopy only.}
+
+\begin{solution}
+Most of these questions answer themselves:  you run the code,
+see what happens.  We add short answers for the others.
+\end{solution}
 
 \begin{questions}
-
 \item {\it Review.\/} Does this code run without error? If so, what does it produce?  If not, explain why.
 \begin{verbatim}
 x = [1, 2, 3]
@@ -29,9 +34,17 @@ y = 'bootcamp'
 z = x + y
 \end{verbatim}
 
+\begin{solution}
+It produces a {\tt TypeError}:  We can't add a string and a list.
+\end{solution}
+
 \item {\it Review.\/} For the same {\tt x} and {\tt y} as the previous question:
 What function tells us what type they are?
-What function tells us how many elements they contain? 
+What function tells us how many elements they contain?
+
+\begin{solution}
+{\tt type()} gives us the type, {\tt len()} gives us the ``length.''
+\end{solution}
 
 %\item {\it Review.\/} Does this code run without error? If so, what does it produce?  If not, explain why.
 %\begin{verbatim}
@@ -66,7 +79,7 @@ What function tells us how many elements they contain?
 \begin{verbatim}
 1>=0
 1 >= 1
-1 > 1 
+1 > 1
 1==1
 1 == 1.0
 'Spencer' == "Spencer"
@@ -80,7 +93,10 @@ What function tells us how many elements they contain?
 if 2>1
    print('Yes, 2 is still greater than 1')
 \end{verbatim}
-  % Answer:  missing :, indented 3
+
+\begin{solution}
+The first line is missing the colon (:), the second must be indented four spaces.
+\end{solution}
 
 \needspace{2\baselineskip}
 \item What is the result of running this code?  Why?
@@ -91,7 +107,7 @@ else:
     print('but on the other hand')
 \end{verbatim}
 What happens if we replace {\tt True} with {\tt False} in the first line?
-What happens if we insert the word {\tt not} after {\tt if} in the first line?  
+What happens if we insert the word {\tt not} after {\tt if} in the first line?
 
 \item What is the result of running this code?
 \begin{verbatim}
@@ -110,8 +126,13 @@ Adapt the code below to determine which has more elements:
 if <insert expression>:
     print('x has more')
 else:
-    print('y has more')
+    print("y has at least as many")
 \end{verbatim}
+
+\begin{solution}
+The expression is \verb|len(x) > len(y)|.
+\end{solution}
+
 
 %\item What do you expect the output of each of the following comparisons to be?
 %\begin{verbatim}
@@ -132,6 +153,11 @@ The last element?  All but the last element?
 x = [1, 2, 3, 4, 5]
 \end{verbatim}
 
+\begin{solution}
+First:  {\tt x[0]}.  Last:  {\tt x[-1]}.  All but the last:  {\tt x[0:4] = x[0:-1]}.
+\end{solution}
+
+
 \item Use slicing to extract each word from
 \begin{verbatim}
 sentence = 'This is a sentence; please slice it.'
@@ -148,10 +174,30 @@ x = [1, 2, "a", 'b', "fast", 'slow', 3, "Raghu", 'Liuren', 10]
 \item How would you slice out the items from {\tt 'b'} to {\tt 3} inclusive?
 \end{parts}
 
+\begin{solution}
+(b) {\tt x[3:7]}.
+\end{solution}
+
 \item Using the same list {\tt x}, write a loop that prints every element on a new line.
+
+\begin{solution}
+\begin{verbatim}
+for item in x:
+    print(x)
+\end{verbatim}
+\end{solution}
 
 \item {\it Challenging.\/}
 Using the same list {\tt x}, write a loop that prints every element of type {\tt str}.
+
+\begin{solution}
+\begin{verbatim}
+for item in x:
+    if type(x) == str:
+        print(x)
+\end{verbatim}
+\end{solution}
+
 
 \item Use Spyder's help to find out what the range function does.
 How would you describe {\tt range(3,12,2)}?
@@ -160,6 +206,14 @@ Verify by converting to a list with {\tt list(range(3,12,2))}.
 \item {\it Challenging.\/}
 Write a loop that sums the integers from zero to thirty that are multiples of three:
 3, 6, etc.
+
+\begin{solution}
+\begin{verbatim}
+sum = 0
+for num in range(0,31,3):
+    sum = sum + num
+\end{verbatim}
+\end{solution}
 
 % Looping
 %\item Finish writing the for loop below so that it adds all of the numbers less than 100.
@@ -219,18 +273,49 @@ if current_price == 2.50:
 (numbers of pennies, nickels, dimes, and quarters in your pocket)
 and returns a floating point number (their dollar value).
 Run your program with the input {\tt (1, 2, 3, 4)}.
+{\it Bonus (optional):} Report the value with a dollar sign.
+
+\begin{solution}
+\begin{verbatim}
+def pocket_change(pennies, nickels, dimes, quarters):
+    value = pennies + 5*nickels + 10*dimes + 25*quarters
+    return value/100
+
+v = pocket_change(1, 2, 3, 4)
+'$' + str(v)
+\end{verbatim}
+\end{solution}
+
 
 \item {\it Challenging.\/}
 Write a function {\tt notsix()} that takes a list of integers
 and returns a (shorter) list of only those that do not begin with a 6.
-Test it on the list {\tt [1234, 6783, 6, 4321, 9876]}.  
+Test it on the list {\tt [1234, 6783, 6, 4321, 9876]}.
 {\it Hints:}  You can create a blank list with {\tt x = []}.
 You can append  {\tt item} to it with {\tt x.append(item)}.
-%{\it Hint:} We can eliminate items from a list with pop.
-%We eliminate the third item from the list {\tt x}
-%with {\tt x.pop(2)} (start counting at zero).
+
+\begin{solution}
+\begin{verbatim}
+def notsix(numlist):
+    newlist = []
+    for num in numlist:
+        numstr = str(num)
+        if numstr[0] != '6':
+            newlist.append(num)
+    return newlist
+
+notsix([1234, 6783, 6, 4321, 9876])
+\end{verbatim}
+\end{solution}
 
 
+\needspace{2\baselineskip}
+\item {\it Challenging.\/}
+ Explain what this code does:
+\begin{verbatim}
+old_list = [1234, 6783, 6, 4321, 9876]
+new_list = [x for x in old_list if str(x)[0] != "6"]
+\end{verbatim}
 
 \item Consider the Python object
 \begin{verbatim}
@@ -247,22 +332,21 @@ Ditto {\tt z.values()}.  Try them to verify.
 \item What does {\tt list(z)} do?
 \end{parts}
 
+\begin{solution}
+(c) \verb|z[2]|.  (Looks a lot like slicing, but we use the key rather than the location.)
+(d,e,f,g) These extract the keys or values and convert them to lists.
+\end{solution}
 
-\item %{\it Challenging.\/}
-Take the dictionary connecting state names and abbreviations:
-\begin{verbatim}
-states = {'AK': 'Alaska', 'IA': 'Iowa', 'NY': 'New York', 'VT': 'Vermont'}
-\end{verbatim}
-Write a function that takes a string as input (the abbreviation)
-and returns another string (the full name of the state).
-Test your function on two test cases.
 
-\item {\it Challenging.\/}
- Explain what this code does:
-\begin{verbatim}
-old_list = [1234, 6783, 6, 4321, 9876]
-new_list = [x for x in old_list if str(x)[0] != "6"]
-\end{verbatim} 
+%\item {\it Challenging.\/}
+%Take the dictionary connecting state names and abbreviations:
+%\begin{verbatim}
+%states = {'AK': 'Alaska', 'IA': 'Iowa', 'NY': 'New York', 'VT': 'Vermont'}
+%\end{verbatim}
+%Write a function that takes a string as input (the abbreviation)
+%and returns another string (the full name of the state).
+%Test your function on two test cases.
+
 
 \end{questions}
 

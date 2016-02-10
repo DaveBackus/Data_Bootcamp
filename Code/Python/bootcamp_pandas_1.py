@@ -5,6 +5,9 @@ Course materials
 * http://databootcamp.nyuecon.com/
 * https://github.com/DaveBackus/Data_Bootcamp 
 
+Warning:  This is a working file and has some things in it that aren't
+completely debugged.
+
 Written by Dave Backus, August 2015 
 Created with Python 3.4 
 """
@@ -228,7 +231,13 @@ df538 = pd.read_csv(url, nrows=10)
 
 list(df538)
 
-#df538 = df538[['Major', 'Median']].set_index('Major')
+
+#%%
+sub = df538[[2,4,15,16,17]].set_index('Major')
+list(sub)
+
+#%%
+sub = sub.sort_values('Total')
 
 #%%
 """

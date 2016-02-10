@@ -17,8 +17,16 @@
 
 \medskip
 {\it Answer each of the questions below.
-Answers should include any code you write.
-They can be handwritten, but they must be readable and look professional.}
+Include any code you write.
+What you hand in can be code or handwritten or something else,
+but it must be readable and professional.
+Hardcopy only.}
+
+\begin{solution}
+Most of these questions answer themselves:  you run the code,
+see what happens.  We add short answers for the others.
+\end{solution}
+
 
 \begin{questions}
 \item Describe and explain what each of these expressions produces in basic Python:
@@ -30,21 +38,11 @@ They can be handwritten, but they must be readable and look professional.}
 2**5
 \end{verbatim}
 
-\begin{solution}
-In order:  7, 7 (spaces don't matter), 10, 0.4, 32 (5 is an exponent).
-\end{solution}
-
 \item What is the value of \texttt{x} after running these statements in order? Why?
 \begin{verbatim}
 x = 7
 x = x + 3
 \end{verbatim}
-
-\begin{solution}
-First, we set {\tt x} equal to 7, then we set it equal to 7 + 3 or 10.
-The second line looks funny as mathematics, but the rhs takes the current value of {\tt x}, namely 7,
-adds 3 to it, and assigns the result to {\tt x}.
-\end{solution}
 
 \item What is the value of \texttt{y} after running these statements in order?
 Of \texttt{x}?  Why?
@@ -72,6 +70,10 @@ z = x + y
 print(x, z)
 \end{verbatim}
 
+\begin{solution}
+We can't add a string ({\tt y = 'abc'}) to a number ({\tt x = 3/2}).
+\end{solution}
+
 \needspace{2\baselineskip}
 \item Does this code run without error?  If so, what does it produce?  If not, explain why.
 \begin{verbatim}
@@ -80,6 +82,13 @@ y = 24
 z = y / x
 print(x, y, z, sep=' | ')
 \end{verbatim}
+
+\begin{solution}
+The {\tt sep} argument controls what comes between things we print.  The default is a single space.
+Here we change it to a vertical bar.
+If we used \verb|sep=\n|, we would skip to a new line (try it!).
+\end{solution}
+
 
 \item Does this code run without error?  If so, what does it produce?  If not, explain why.
 \begin{verbatim}
@@ -93,6 +102,10 @@ print(x, z)
 \begin{verbatim}
 x = "I am a #string"  # Whoa, a string!
 \end{verbatim}
+
+\begin{solution}
+The first \verb$#$ is inside a string, so doesn't register in Python as a comment.
+\end{solution}
 
 \item Does this code run without error?  If so, what does it produce?  If not, explain why.
 \begin{verbatim}
@@ -108,6 +121,11 @@ x = [1, 2, 3]
 y = 42
 z = x + y
 \end{verbatim}
+
+\begin{solution}
+We can't add a number to a list.  The previous example worked because the square brackets in
+\verb$[42]$ identify it as a list.
+\end{solution}
 
 \item What ``types'' are
 \begin{verbatim}
@@ -142,6 +160,12 @@ type(float(str(int('1234'))))
 type(int(float('12.34')))
 \end{verbatim}
 
+\begin{solution}
+The tricky part of this is the {\tt int}.  When we convert a float to an int,
+we eliminate everything after the decimal point.
+Thus \verb$int(12.34) = 12$.
+\end{solution}
+
 \item Explain each line:
 \begin{verbatim}
 len([1234])
@@ -149,13 +173,17 @@ len("1234")
 len(1234)
 \end{verbatim}
 
+\begin{solution}
+Length is not defined for numbers.  (What would it be?)
+\end{solution}
+
 \item What are the type and length of \texttt{x = []}?
 
 
 % http://tex.stackexchange.com/questions/48632/underscores-in-words-text
 \item Convert the string \verb|x = 'abcde'| to a list.  What does it look like?
 
-\item {\it Challenging.\/}
+\item %{\it Challenging.\/}
 Consider the integer \texttt{x = 1234}.
 \begin{parts}
 \item Convert \texttt{x} to a floating point number.
@@ -164,7 +192,6 @@ Consider the integer \texttt{x = 1234}.
 \begin{verbatim}
 ['1', '2', '3', '4']
 \end{verbatim}
-
 \end{parts}
 
 \item {\it Challenging.\/}
@@ -173,6 +200,10 @@ How would you convert \texttt{x} to ``title case'' (first letter of each word ca
 \begin{verbatim}
 x = "luke, i am your father"
 \end{verbatim}
+
+\begin{solution}
+\verb$x.title()$
+\end{solution}
 
 \item {\it Challenging.\/} Consider the string
 \begin{verbatim}
@@ -186,7 +217,17 @@ x = "How many characters and words are in this string?"
 into pieces.
 \item How many words does \texttt{x} contain?
 \end{parts}
-% Answer len(x.split())
+
+\begin{solution}
+\begin{verbatim}
+a = len(x)
+b = list(x)
+c = x.split()
+d = len(c)
+print(a, b, c, d, sep='\n')
+\end{verbatim}
+\end{solution}
+
 
 
 %\item Explain the following
