@@ -10,7 +10,7 @@ More concretely, the course is designed to (i) introduce students to sources of 
    
 **Quick links:**  [Book](https://www.gitbook.com/book/davebackus/test/details) | [Syllabus](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf) | [Project Guide](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf) | Discussion Groups ([UG](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_ug) | [MBA](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_mba))
 
-**Code Practice** can be found under *Due dates* (look left). <br> **Class outlines** can be found under *Topic list & links*.
+**Code Practice** can be found under *Due dates* (look left). <br> **Class Outlines** can be found under *Topic list & links* (ditto).
 
 <!--
 | [Topic list & links](/bootcamp_outline) | [UG Due Dates](/bootcamp_duedates_ug) | [MBA Due Dates](/bootcamp_duedates_mba) 
