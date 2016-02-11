@@ -1,6 +1,8 @@
 """
 CDC vital statistics 
 
+DOES NOT WORK YET 
+
 Link
 * http://www.cdc.gov/nchs/data_access/vitalstatsonline.htm 
 
@@ -33,6 +35,10 @@ cdc = pd.read_excel(url1+url2,
                    skiprows=3, sheetname=1, index_col=0, 
                    na_values=['..']) 
 
+
+
+#%%
+# OLD STUFF, IGNORE 
 # select years 
 hc = hc[list(range(1980,2014))]
 # select countries and transpose df 
