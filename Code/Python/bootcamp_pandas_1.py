@@ -42,7 +42,7 @@ dfex = pd.read_csv(url, na_values=[1])
 
 #%%
 """
-xls annd xlsx files 
+xls and xlsx files 
 """
 url1 = 'https://raw.githubusercontent.com/DaveBackus'
 url2 = '/Data_Bootcamp/master/Code/Python/test.xls'
