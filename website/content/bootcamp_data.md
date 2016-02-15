@@ -34,9 +34,9 @@ There is lots of survey data online, which gives us individual outcomes (the emp
 
 Here are some we have used:  
 
-* **ACS.** The [American Community Survey](https://www.census.gov/programs-surveys/acs/)  from the US Census covers demography (age, sex, ethnicity), economics (employment and income), education, and many other [subjects](https://www.census.gov/programs-surveys/acs/guidance/subjects.html). The [Public Use Microdata Sample](https://www.census.gov/programs-surveys/acs/technical-documentation/pums.html) (PUMS) contains individual responses. This [guide](https://source.opennews.org/en-US/learning/how-use-census-bureau-american-community-survey/) was written for journalists. The Minnesota Population Center has a nice [user-interface](https://usa.ipums.org/usa/) for the ACS and other micro-data sources.  
+* **ACS.** The [American Community Survey](https://www.census.gov/programs-surveys/acs/) from the US Census covers demography (age, sex, ethnicity, location), economics (employment and income), education, and many other [subjects](https://www.census.gov/programs-surveys/acs/guidance/subjects.html). The [Public Use Microdata Sample](https://www.census.gov/programs-surveys/acs/technical-documentation/pums.html) (PUMS) contains individual responses. This [guide](https://source.opennews.org/en-US/learning/how-use-census-bureau-american-community-survey/) was written for journalists. Ari Lambstein has a [short guide](http://www.arilamstein.com/blog/2016/02/15/taking-next-step-census-data/) to navigating the universe of Census surveys.  The Minnesota Population Center has a nice [user-interface](https://usa.ipums.org/usa/) for the ACS and other micro-data sources.  
 
-* **CPS.** The [Current Population Survey] has information about employment status, income, and a broad range of demographic variables (age, education, ethnicity).  The University of Minnesota has a [web interface](https://cps.ipums.org/cps/) that lots of people use.  
+* **CPS.** The [Current Population Survey] has information about employment status, income, and a broad range of demographic variables (age, education, ethnicity).  The University of Minnesota [interface](https://cps.ipums.org/cps/) is useful here, too.  
 
 * **ATUS.**  The [American Time Use Survey](http://www.bls.gov/tus/) describes how people spend their time:  employed, doing housework, watching tv, etc.  This [article](http://scholar.princeton.edu/sites/default/files/annurev-economics-111809-125129_0.pdf) summarizes academic work done on similar surveys in many countries. [The Times](http://www.nytimes.com/interactive/2009/07/31/business/20080801-metrics-graphic.html) is unusually fond of this survey.
 
@@ -78,6 +78,6 @@ Graphics:
 
 ## More
 
-This is **not for the timid**, but we have a [huge collection](https://docs.google.com/document/d/1L2ZDKFyyqfOrCGbNcCIE9mmgap4tjkTNuw32hK4c6BI/edit?usp=sharing) of data sources and applications.  Get a cold drink and a comfy chair and see what strikes your fancy. Active investing?  Movie grosses? Sports? College Scorecard? Shooting deaths? All this and more.  Similar courage is called for if you go to **[Awesome Public Datasets](https://github.com/caesar0301/awesome-public-datasets#awesome-public-datasets)**.  There's way too much there, but one advantage is that it goes beyond economics and finance.  
+This is **not for the timid**, but we have a **[huge collection](https://docs.google.com/document/d/1L2ZDKFyyqfOrCGbNcCIE9mmgap4tjkTNuw32hK4c6BI/edit?usp=sharing)** of data sources and applications.  Get a cold drink and a comfy chair and see what strikes your fancy. Active investing?  Movie grosses? Sports? College Scorecard? Shooting deaths? All this and more.  Similar courage is called for if you go to **[Awesome Public Datasets](https://github.com/caesar0301/awesome-public-datasets#awesome-public-datasets)**.  There's way too much there, but one advantage is that it goes beyond economics and finance.  
 
 
