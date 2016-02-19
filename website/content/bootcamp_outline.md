@@ -3,7 +3,7 @@
 
 A list of topics with links to material used in class.  We expect each topic to take roughly one week -- maybe a little more. 
 
-The topics in the first half follow **[THE BOOK](https://www.gitbook.com/book/davebackus/test/details)**.  At the book link, click the large blue Read button to read online or download the pdf.    
+The topics in the first half follow **[THE BOOK](https://www.gitbook.com/book/davebackus/test/details)**.  At the book link, click the large blue Read button to read online -- or download the pdf.  Both come with links.  
 
 ---
 

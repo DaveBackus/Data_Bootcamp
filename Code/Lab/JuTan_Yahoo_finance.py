@@ -43,3 +43,4 @@ df = pan.minor_xs('Adj Close')
 df
 
 #df.to_csv("yahoo closing price value.csv")
+

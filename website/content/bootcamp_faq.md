@@ -37,3 +37,7 @@ Not that you need any more, but here are a couple good pieces:
 
 * Steve Levitt on "[big data](https://youtu.be/r5jATFtKtI8?t=5m12s)" in business (55m, very entertaining)  
 * Mevan on [learning to code](https://medium.com/@meandvan/how-i-learned-to-stop-worrying-and-love-the-code-af1a809457c7)  
+
+* Noah Lorang on [what businesses need](http://flowingdata.com/2016/02/18/data-scientists-mostly-just-do-arithmetic/):  "The dirty little secret of the ongoing 'data science' boom is that most of what people talk about as being data science isn’t what businesses actually need.  Businesses need accurate and actionable information to help them make decisions about how they spend their time and resources. There is a very small subset of business problems that are best solved by machine learning; most of them just need good data and an understanding of what it means that is best gained using simple methods."
+
+
