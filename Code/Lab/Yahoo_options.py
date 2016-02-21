@@ -4,8 +4,6 @@ Yahoo options data using pandas-datareader
 Must install pandas-datareader and html5lib:  
 conda install pandas-datareader, html5lib
 
-** THIS PROGRAM MUST BE RUN ONE CELL AT A TIME OR THE FIGS RUN TOGETHER ** 
-
 References 
 * http://finance.yahoo.com/q/op?s=AMZN+Options
 * https://pandas-datareader.readthedocs.org/en/latest/
@@ -17,7 +15,8 @@ Prepared for Data Bootcamp course at NYU
 Written by Dave Backus, February 2016 
 Created with Python 3.5 
 """
-# Spencer wrote the first version of this one 
+# Spencer wrote the first version of this module
+import pandas as pd   
 import pandas_datareader.yahoo.options as yho
 import matplotlib.pyplot as plt 
 
@@ -68,8 +67,9 @@ fig.show()
 
 #%%
 fig, ax = plt.subplots()
-calls['Last'].plot(lw=2, color='blue', alpha=0.6, ax=ax)
-puts['Last'].plot(lw=2, color='m', alpha=0.6, ax=ax)
+which = 'last'
+calls[which].plot(lw=2, color='blue', alpha=0.6, ax=ax)
+puts[which].plot(lw=2, color='m', alpha=0.6, ax=ax)
 ymin, ymax = ax.get_ylim()
 ax.set_title('Prices of Amazon options (last quote)', fontsize=14, loc='left')
 ax.set_ylabel('Option Prices')
@@ -97,6 +97,20 @@ ax.text(1.01*spot, 0.9*(ymax-ymin)+ymin, 'Stock price', horizontalalignment='lef
 ax.text(400, 46, 'Puts', horizontalalignment='right', color='m')
 ax.text(450, 46, 'Calls', horizontalalignment='left', color='b') 
 fig.show()
+
+#%%
+#%%
+"""
+we can also use read_html, but the output is a mess  
+"""
+url = 'http://finance.yahoo.com/q/op?s=AMZN+Options'
+ops = pd.read_html(url)
+
+print('Dimensions of ops[1]', ops[1].shape)
+print('Dimensions of ops[2]', ops[2].shape) 
+print('Column labels:', list(ops[1]))
+print('Row labels:', ops[1].index.tolist())
+
 
 #%%
 """

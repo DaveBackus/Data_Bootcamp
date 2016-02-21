@@ -1,6 +1,6 @@
 """
 Maddison project
-Long histories of GDP and population 
+Long histories of GDP per person  
 
 Links
 http://www.ggdc.net/maddison/maddison-project/home.htm

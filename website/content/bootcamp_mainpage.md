@@ -4,9 +4,9 @@ type: index
 
 # Data Bootcamp
 
-A course at **NYU Stern** exploring **economic and financial data** with the **Python** programming language. The course was developed by Stern faculty and students with the assistance and support of executives at Amazon. The immediate goal is to train students to succeed as summer interns and full-time employees of technology companies, but the same skills are valued in finance, marketing, consulting, media, and other areas. We think of it as literacy for the modern age and a selling point in finding a job.
+A course at **NYU Stern** exploring **economic and financial data** with the **Python** programming language. The course was developed by Stern faculty and students with the assistance and support of executives at **Amazon**. The immediate goal is to train students to succeed as summer interns and full-time employees of technology companies, but the same **skills** are valued in finance, marketing, consulting, media, and other areas. We think of it as literacy for the modern age and a selling point in finding a job.
 
-More concretely, the course is designed to (i) introduce students to sources of economic, financial, and business data and (ii) give programming newbies a sense of how modern software -- in this case Python -- makes life easier and more interesting. We'll let data speak for itself. As for coding: It's a skill that opens doors to new **career opportunities**. You can do lots of things in Excel, but if you value your time -- and you should -- you'll find you can do more, and do it more quickly, with a modern programming language. We like to say we do it because **we're lazy**, laziness being a synonym here for efficiency. A former student with strong programming skills manages people who can't code and worries that this course will make him obsolete. There's more on our [FAQ](http://databootcamp.nyuecon.com/bootcamp_faq). 
+More concretely, the course is designed to (i) introduce students to sources of economic, financial, and business data and (ii) give programming newbies a sense of how modern software -- in this case Python -- makes life easier and more interesting. We'll let data speak for itself. As for coding: It's a skill that opens doors to new **career opportunities**. You can do lots of things in Excel, but if you value your time -- and you should -- you'll find you can do more, and do it more quickly, with a modern programming language. We like to say we do it because we're lazy, laziness being a synonym here for efficiency. There's more on our [FAQ](http://databootcamp.nyuecon.com/bootcamp_faq). 
    
 **Quick links:**  [Book](https://www.gitbook.com/book/davebackus/test/details) | [Syllabus](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf) | [Project Guide](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf) | Discussion Groups ([UG](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_ug) | [MBA](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_mba))
 
@@ -25,7 +25,7 @@ More concretely, the course is designed to (i) introduce students to sources of 
 
 ## Before the first class 
 
-* Make sure you have a **laptop computer** to use in class.  This is a must.  
+* Make sure you have a **laptop computer** you can install your own programs on.  This is a must.  
 * Take our **entry poll** (click on the [link](https://docs.google.com/forms/d/1N7ugrqIQNHm_e1BLVAtaRMnC8SmSiTDMoYBy_0FYZic/viewform), follow instructions).  
 * Join a **discussion group:** [UG](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_ug) | [MBA](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_mba).
 * Bring a **nameplate** to class.  If you don't have one, use this [template](https://docs.google.com/document/d/18mDKqDO-48wbwYfFEGD0BAYJRsshRRRxR9IEKhekTWM/edit?usp=sharing) and fold it in thirds. 
