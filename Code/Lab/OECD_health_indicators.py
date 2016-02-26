@@ -21,13 +21,13 @@ import pandas as pd
 print('\nPython version: ', sys.version) 
 print('Pandas version: ', pd.__version__, '\n') 
 
+url1 = 'http://www.oecd.org/health/health-systems/'
+url2 = 'OECD-Health-Statistics-2015-Frequently-Requested-Data.xls'
+
 #%%
 """
 Spending data 
 """
-url1 = 'http://www.oecd.org/health/health-systems/'
-url2 = 'OECD-Health-Statistics-2015-Frequently-Requested-Data.xls'
-
 # healthcare spending 
 hc = pd.read_excel(url1+url2, 
                    skiprows=3, sheetname=1, index_col=0, 
@@ -47,7 +47,7 @@ ax.set_title('Healthcare spending', fontsize=14, loc='left')
 ax.set_ylabel('Percent of GDP')
 ax.legend(loc='upper left', fontsize=10, handlelength=2, labelspacing=0.15)
 
-
+#%%
 """
 Doc data 
 """
@@ -58,7 +58,7 @@ docs = pd.read_excel(url1+url2,
                    na_values=['..']) 
 
 # select years 
-docs = docs[[2012]]
+docs = docs[[2013]]
 # mpd.columns = map(str.rstrip, mpd.columns)
 docs.index = [name.rsplit(maxsplit=1)[0] for name in docs.index.tolist()]
 
