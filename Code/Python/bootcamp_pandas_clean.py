@@ -32,16 +32,14 @@ file = url2
 
 ep = pd.read_csv(url, header=0) #, names=variables)
 print('Dimensions:', ep.shape)
-print('Variables:\n', list(ep), sep='')
-
+print('Variables:\n', list(ep), sep='') 
 
 #%%
 # new variable names
 variables = ['Time', 'Program', 'Career', 'Programming experience', 
              'Prob-stat experience', 'Social media', 'Other', 
              'Concentration', 'Interests', 'Why', 'Extra Topics']
-             
-            
+                         
 #%%          
 """
 Chipotle
@@ -87,4 +85,25 @@ print('\nNext 3 variables (data):\n', small[list(range(9,15))].head(), sep='')
       
 #%%
 
-list(weo[list(range(12))])                  
+list(weo[list(range(12))])  
+
+#%%
+"""
+bond yields
+Fed url: http://www.federalreserve.gov/econresdata/researchdata/feds200628.xls
+Converted manually to csv and uploaded.
+Comment:  data has xls extension but is really an xml file, so can't use 
+read_excel.  
+"""
+url = 'http://pages.stern.nyu.edu/~dbackus/Data/feds200628.csv'
+gsw = pd.read_csv(url, 
+                  skiprows=9, 
+#                  nrows=50, 
+                  index_col=0,
+                  usecols=list(range(31)),
+                  parse_dates=0) 
+
+#%%
+print('Index:\n', gsw.index, sep='')
+print('Variable dtypes:\n', gsw.dtypes, sep='')
+             
