@@ -1,30 +1,29 @@
 """
-Python program to play around with the American Time Use Survey from BLS. 
-Goal is to replicate charts found here: 
-http://www.nytimes.com/interactive/2015/01/06/upshot/how-nonemployed-americans-spend-their-weekdays-men-vs-women.html
-Data structure: The data is divided into four files.
-In general, people in the survey are identified by (household, line_no) pairs, 
-where line_no separates people within a household. 
-The respondents file provides attributes of actual ATUS respondents, 
-and their line_nos are always 1. 
-The roster file provides attributes of people in the respondents' households. The activity file provides raw activity data for respondents, and the activity summary file summarizes it.
+American Time Use Survey:  How people spend their time 
 
-# First, grab the respondent and activity files: 
-http://www.bls.gov/tus/special.requests/atusresp_2014.zip 
-http://www.bls.gov/tus/special.requests/atusact_2014.zip.
+Links 
+* http://www.bls.gov/tus/#data
+* http://www.nytimes.com/interactive/2015/01/06/upshot/how-nonemployed-americans-spend-their-weekdays-men-vs-women.html
 
-# Next, load the data into pandas.
 
-import pandas as pd
+Prepared for Data Bootcamp course at NYU  
+* http://databootcamp.nyuecon.com/
+* https://github.com/DaveBackus/Data_Bootcamp/Code/Lab 
 
-from getpass import getuser
-dloadpath = "/users/"+getuser()+"/Downloads"
-
-resp = pd.read_csv(dloadpath+"/atusresp_2014/atusresp_2014.dat")
-act = pd.read_csv(dloadpath+"/atusact_2014/atusact_2014.dat")
+Written by Dave Backus, February 2016 
+Created with Python 3.5 
 """
+import sys 
+import pandas as pd 
+#import matplotlib.pyplot as plt 
+#import numpy as np 
+#import matplotlib.pyplot as plt
+
+print('\nPython version: ', sys.version) 
+print('Pandas version: ', pd.__version__, '\n') 
 
 #%%
+
 
 # Now, let's look for the unemployed people.
 
