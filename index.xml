@@ -260,24 +260,10 @@
 
 &lt;p&gt;&lt;strong&gt;Class Outlines&lt;/strong&gt; can be found under &lt;em&gt;Topic list &amp;amp; links&lt;/em&gt; (look left). &lt;br&gt; &lt;strong&gt;Code Practice&lt;/strong&gt; can be found under &lt;em&gt;Due dates&lt;/em&gt; (ditto).&lt;/p&gt;
 
-&lt;!--
-| [Topic list &amp; links](/bootcamp_outline) | [UG Due Dates](/bootcamp_duedates_ug) | [MBA Due Dates](/bootcamp_duedates_mba) 
---&gt; 
-
 &lt;h2 id=&#34;spring-2016-schedule:ffd489939015ded07a5c1baacc50e9b6&#34;&gt;Spring 2016 schedule&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Undergrad:&lt;/strong&gt;  ECON-UB.0232, Tuesday and Thursday, 2-3:15, KMC 4-80, January 26 to May 5 &lt;br&gt;
 &lt;strong&gt;MBA:&lt;/strong&gt;  ECON-GB.2313, Wednesday nights, 6-9pm, KMC 4-90, February 10 to May 4&lt;/p&gt;
-
-&lt;h2 id=&#34;before-the-first-class:ffd489939015ded07a5c1baacc50e9b6&#34;&gt;Before the first class&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Make sure you have a &lt;strong&gt;laptop computer&lt;/strong&gt; you can install your own programs on.  This is a must.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Take our &lt;strong&gt;entry poll&lt;/strong&gt; (click on the &lt;a href=&#34;https://docs.google.com/forms/d/1N7ugrqIQNHm_e1BLVAtaRMnC8SmSiTDMoYBy_0FYZic/viewform&#34;&gt;link&lt;/a&gt;, follow instructions).&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Join a &lt;strong&gt;discussion group:&lt;/strong&gt; &lt;a href=&#34;https://groups.google.com/forum/#!forum/nyu_data_bootcamp_ug&#34;&gt;UG&lt;/a&gt; | &lt;a href=&#34;https://groups.google.com/forum/#!forum/nyu_data_bootcamp_mba&#34;&gt;MBA&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Bring a &lt;strong&gt;nameplate&lt;/strong&gt; to class.  If you don&amp;rsquo;t have one, use this &lt;a href=&#34;https://docs.google.com/document/d/18mDKqDO-48wbwYfFEGD0BAYJRsshRRRxR9IEKhekTWM/edit?usp=sharing&#34;&gt;template&lt;/a&gt; and fold it in thirds.&lt;/li&gt;
-&lt;li&gt;Non-Stern students:  &lt;strong&gt;&lt;a href=&#34;https://w3.stern.nyu.edu/start/home&#34;&gt;activate your Stern account&lt;/a&gt;&lt;/strong&gt; to get wireless access.  If you have trouble, stop by the Help Desk in the lobby between KMC and Tisch or email &lt;a href=&#34;mailto:helpdesk@stern.nyu.edu&#34;&gt;helpdesk@stern.nyu.edu&lt;/a&gt;.&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
 
 &lt;h2 id=&#34;contact-information:ffd489939015ded07a5c1baacc50e9b6&#34;&gt;Contact information&lt;/h2&gt;
 
@@ -294,6 +280,16 @@
 &lt;ul&gt;
 &lt;li&gt;Our &lt;strong&gt;GitHub repository&lt;/strong&gt; (collection of files): &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp&#34;&gt;Everything&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/tree/master/Code/Python&#34;&gt;Python programs&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/tree/master/Code/IPython&#34;&gt;IPython notebooks&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/tree/master/Code/Lab&#34;&gt;Experiments&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Or &lt;strong&gt;search&lt;/strong&gt;:  &lt;a href=&#34;http://lmgtfy.com/?q=nyu+data+bootcamp&#34;&gt;nyu data bootcamp&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;before-the-first-class:ffd489939015ded07a5c1baacc50e9b6&#34;&gt;Before the first class&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Make sure you have a &lt;strong&gt;laptop computer&lt;/strong&gt; you can install your own programs on.  This is a must.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Take our &lt;strong&gt;entry poll&lt;/strong&gt; (click on the &lt;a href=&#34;https://docs.google.com/forms/d/1N7ugrqIQNHm_e1BLVAtaRMnC8SmSiTDMoYBy_0FYZic/viewform&#34;&gt;link&lt;/a&gt;, follow instructions).&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Join a &lt;strong&gt;discussion group:&lt;/strong&gt; &lt;a href=&#34;https://groups.google.com/forum/#!forum/nyu_data_bootcamp_ug&#34;&gt;UG&lt;/a&gt; | &lt;a href=&#34;https://groups.google.com/forum/#!forum/nyu_data_bootcamp_mba&#34;&gt;MBA&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Bring a &lt;strong&gt;nameplate&lt;/strong&gt; to class.  If you don&amp;rsquo;t have one, use this &lt;a href=&#34;https://docs.google.com/document/d/18mDKqDO-48wbwYfFEGD0BAYJRsshRRRxR9IEKhekTWM/edit?usp=sharing&#34;&gt;template&lt;/a&gt; and fold it in thirds.&lt;/li&gt;
+&lt;li&gt;Non-Stern students:  &lt;strong&gt;&lt;a href=&#34;https://w3.stern.nyu.edu/start/home&#34;&gt;activate your Stern account&lt;/a&gt;&lt;/strong&gt; to get wireless access.  If you have trouble, stop by the Help Desk in the lobby between KMC and Tisch or email &lt;a href=&#34;mailto:helpdesk@stern.nyu.edu&#34;&gt;helpdesk@stern.nyu.edu&lt;/a&gt;.&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
