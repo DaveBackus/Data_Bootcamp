@@ -1,8 +1,9 @@
 """
 Test program for Data Bootcamp course @ NYU Stern 
 """
-import sys                 
+def pocket_change(P, N, D, Q):
+    value = .01*P + .05*N + .1*D + .25*Q 
+    return value
 
-print('Welcome to Data Bootcamp!')
-print('Python version:') 
-print(sys.version)
+change = pocket_change(1, 2, 3, 4)
+print (change)

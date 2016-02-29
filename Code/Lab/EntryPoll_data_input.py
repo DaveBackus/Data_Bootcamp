@@ -27,17 +27,17 @@ url2 = 'Data-Bootcamp-entry-poll_s16.csv'
 url = url1 + url2 
 file = url2 
 
-variables = ['Time', 'Program', 'Career', 'Programming experience', 
-             'Prob-stat experience', 'Social media', 'Other', 
-             'Concentration', 'Interests', 'Why', 'Extra Topics']
-ep = pd.read_csv(url, header=0) #, names=variables)
+variables = ['time', 'program', 'career', 'code_exp', 'stats_exp', 'media', 
+             'other', 'major', 'data', 'why', 'topics']
+ep = pd.read_csv(url, header=0, names=variables)
 print('Dimensions:', ep.shape)
 print('\nData types:\n', ep.dtypes, sep='')
 
 #%%
 # summarize results 
-for var in list(ep):
-    print('\n', var, '\n', ep[var].value_counts(), sep='') 
+for var in list(ep)[1:9]:
+    print('\n')
+    print(var, '\n', ep[var].value_counts(), sep='') 
         
 #%%
 ep[list(ep)[1]].value_counts()
