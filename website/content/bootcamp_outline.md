@@ -9,7 +9,7 @@ The topics in the first half follow **[THE BOOK](https://www.gitbook.com/book/da
 
 ## Topic 1.  Data + Python = Magic!  
 
-**Handouts:**  [Outline](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_intro.pdf) | [Book](https://www.gitbook.com/book/davebackus/test/details) | [Three ideas](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_3ideas.pdf) <br>
+**Handouts:**  [Outline](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_intro.pdf) | [Book](https://www.gitbook.com/book/davebackus/test/details) (Click on blue "Read" button) | [Three ideas](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_3ideas.pdf) <br>
 **Examples:**  [Gapminder](http://www.gapminder.org/world/) | [cancer screening](http://www.vox.com/2015/10/28/9631500/does-mammography-work) | [Uber in NYC](http://fivethirtyeight.com/features/uber-is-serving-new-yorks-outer-boroughs-more-than-taxis-are/) | [medical expenditures](http://www.nihcm.org/pdf/DataBrief3%20Final.pdf) | [mortality](http://www.pnas.org/content/early/2015/10/29/1518393112.full.pdf) | [earthquake](https://jawbone.com/blog/napa-earthquake-effect-on-sleep/) | [Gender pay gap](http://esoltas.blogspot.com/2014/04/how-big-is-gender-pay-gap_10.html) | [Fertility](http://www.randalolson.com/2015/08/23/small-multiples-vs-animated-gifs-for-showing-changes-in-fertility-rates-over-time/) | [Vaccines](http://graphics.wsj.com/infectious-diseases-and-vaccines/) <br> 
 **Summary:**  It's nice to have skills; installing Anaconda; Spyder and Jupyter/IPython; data; questions; idea machines.  
 
@@ -26,15 +26,15 @@ The topics in the first half follow **[THE BOOK](https://www.gitbook.com/book/da
 **Summary:**  True and False; comparisons; conditionals; slicing; loops; function definitions and returns; dictionaries. 
 
 ---
-## Topic 4.  Data input:  Packages and Pandas
+## Topic 4.  Data input:  Packages and Pandas 
 
-**Handouts:**  [Outline](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_pandas-input.pdf) | [Book chapter](https://davebackus.gitbooks.io/test/content/pandas-input.html) | [Code](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_pandas-input.py) (Download "Raw") | [Code Practice #3](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_3.pdf) ([code template](https://raw.githubusercontent.com/DaveBackus/Data_Bootcamp/master/Code/Python/bootcamp_practice_3_template.py)<br>
+**Handouts:**  [Outline](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_pandas-input.pdf) | [Book chapter](https://davebackus.gitbooks.io/test/content/pandas-input.html) | [Code](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_pandas-input.py) (Download "Raw") | [Code Practice #3](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_3.pdf) ([code template](https://raw.githubusercontent.com/DaveBackus/Data_Bootcamp/master/Code/Python/bootcamp_practice_3_template.py)) <br>
 **Summary:**  Packages; import; Pandas; csv files; reading csv/xls files; dataframes; columns; index; APIs.  
 
 ---
 ## Topic 5.  Python graphics:  Matplotlib fundamentals 
 
-**Handouts:**  [Outline](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_graphics.pdf) | [Book chapter](https://davebackus.gitbooks.io/test/content/graphs1.html)| [Code](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_graphics_1.ipynb) (Download "Raw" as ipynb) | Code Practice A <br>
+**Handouts:**  [Outline](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_graphics.pdf) | [Book chapter](https://davebackus.gitbooks.io/test/content/graphs1.html)| [Code](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_graphics_1.ipynb) (Download "Raw" as ipynb) <br>
 **Summary:**  Three approaches to graphics: dataframe plot methods, plot(x,y), and fig/ax objects and methods; lines, scatters, bars, horizontal bars, styles.  
 
 ---
