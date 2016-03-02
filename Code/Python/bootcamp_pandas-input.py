@@ -15,15 +15,13 @@ Created with Python 3.4
 Read csv file from internet (and why we like csv's)
 The result is a data frame:  like a sheet with row and column labels
 """
-import pandas as pd               # redundant, but it's ok to do it again 
+import pandas as pd               
 
 # read file from url
 url1 = 'https://raw.githubusercontent.com/DaveBackus'
 url2 = '/Data_Bootcamp/master/Code/Python/test.csv'
 url  = url1 + url2
-df = pd.read_csv(url, nrows=2)
-
-print('\nurl read (df)\n', df)    # \n tells print to skip a line
+df = pd.read_csv(url)
 
 # if the internet is down 
 #df_fromdict = pd.DataFrame({'name': ['Dave', 'Chase', 'Spencer'], 

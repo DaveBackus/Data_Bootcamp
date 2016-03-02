@@ -2,31 +2,19 @@
 Scratch pad for Data Bootcamp class 
 Type everything here rather than the console 
 """
-import matplotlib.pyplot as plt 
-import pandas.io.data as web
+import pandas as pd 
 
-ff = web.DataReader('F-F_Research_Data_factors', 'famafrench')[1]
-ff.columns = ['xsm', 'smb', 'hml', 'rf']
-ff['rm'] = ff['xsm'] + ff['rf']
-ff = ff[['rm', 'rf']]               # extract rm (market) and rf (riskfree)
-ff.head(5)
-
-
-fig, ax = plt.subplots()
-ff.plot(ax=ax, kind='line', title='Fama-French market and riskfree returns')
-
+print('Pandas version:', pd.__version__)
 
 #%%
-import pandas as pd
-import matplotlib.pyplot as plt  
-data = {'Food': ['French Fries', 'Potato Chips', 'Bacon', 'Pizza', 'Chili Dog'], 
-        'Calories per 100g':  [607, 542, 533, 296, 260]}
-cal  = pd.DataFrame(data)
-cal  = cal.set_index('Food')
-cal
+# read file from url
+url1 = 'https://raw.githubusercontent.com/DaveBackus'
+url2 = '/Data_Bootcamp/master/Code/Python/test.csv'
+url  = url1 + url2
+df = pd.read_csv(url)
 
-#%%
-fig, ax = plt.subplots()
-cal.plot(kind='barh', ax=ax, legend=False)
+# if the internet is down 
+#df_fromdict = pd.DataFrame({'name': ['Dave', 'Chase', 'Spencer'], 
+#            'x1': [1, 4, 5], 'x2': [2, 3, 6], 'x3': [3.5, 4.3, 7.8]}) 
 
 #%%
