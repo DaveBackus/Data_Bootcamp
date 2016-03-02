@@ -334,14 +334,14 @@
 
 &lt;h2 id=&#34;topic-4-data-input-packages-and-pandas:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 4.  Data input:  Packages and Pandas&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_datainputx.pdf&#34;&gt;Outline&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_pandas_1.py&#34;&gt;Code&lt;/a&gt; (Download &amp;ldquo;Raw&amp;rdquo;) | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_3.pdf&#34;&gt;Code Practice #3&lt;/a&gt;&lt;br&gt;
+&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_pandas-input.pdf&#34;&gt;Outline&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Python/bootcamp_pandas_1.py&#34;&gt;Code&lt;/a&gt; (Download &amp;ldquo;Raw&amp;rdquo;) | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_3.pdf&#34;&gt;Code Practice #3&lt;/a&gt;&lt;br&gt;
 &lt;strong&gt;Summary:&lt;/strong&gt;  Packages; import; Pandas; csv files; reading csv/xls files; dataframes; columns; index; APIs.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h2 id=&#34;topic-5-python-graphics-matplotlib-fundamentals:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 5.  Python graphics:  Matplotlib fundamentals&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline | Code | Code Practice A &lt;br&gt;
+&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_graphics.pdf&#34;&gt;Outline&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_graphics_1.ipynb&#34;&gt;Code&lt;/a&gt; (Download &amp;ldquo;Raw&amp;rdquo; as ipynb) | Code Practice A &lt;br&gt;
 &lt;strong&gt;Summary:&lt;/strong&gt;  Three approaches to graphics: dataframe plot methods, plot(x,y), and fig/ax objects and methods; lines, scatters, bars, horizontal bars, styles.&lt;/p&gt;
 
 &lt;hr /&gt;
