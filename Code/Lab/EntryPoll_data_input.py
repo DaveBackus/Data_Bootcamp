@@ -40,10 +40,4 @@ for var in list(ep)[1:9]:
     print(var, '\n', ep[var].value_counts(), sep='') 
         
 #%%
-ep[list(ep)[1]].value_counts()
-
-#%%
-# this doesn't work 
-ep[[1]].value_counts()   
-
-#%%
+ep['media'] = ep['media'].str.split(',')

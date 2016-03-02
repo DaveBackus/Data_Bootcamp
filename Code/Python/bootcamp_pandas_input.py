@@ -63,7 +63,7 @@ pisa = pd.read_excel(url,
 #%%
 pisa = pisa.dropna()                            # drop blank lines 
 pisa.columns = ['Math', 'Reading', 'Science']   # simplify variable names 
-pisa['Math'].plot(kind='barh')
+pisa['Math'].plot(kind='barh', figsize=(5, 12))
 
 #%%
 # UN population data 
@@ -81,6 +81,8 @@ url1 = 'https://raw.githubusercontent.com/fivethirtyeight/data/master/'
 url2 = 'college-majors/recent-grads.csv'
 url = url1 + url2
 df538 = pd.read_csv(url)
+df538 = df538.set_index("Major")
+df538["Median"].plot(kind="barh", figsize=(5, 12))
 
 #%%
 # IMDb movies and parts 
@@ -97,7 +99,7 @@ import datetime as dt           # package to handle dates
 start = dt.datetime(2010, 1, 1)  # start date 
 codes = ['GDPC1', 'PCECC96']    # real GDP, real consumption 
 fred  = web.DataReader(codes, 'fred', start) 
-fred = fred/1000                # convert billions to trillions
+fred = fred/1000                # convert trillions to billions
 
 fred.plot()
 
