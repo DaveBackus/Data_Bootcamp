@@ -9,7 +9,7 @@ US Yield Curve Dynamics
 Repository of materials (not including this file):
 * https://github.com/DaveBackus/Data_Bootcamp
 
-Written by David Cai, June 2015, txc202@nyu.edu 
+Written by David Cai, June 2015, txc202@nyu.edu
 Created with Python 3.4.3
 
 """
@@ -27,7 +27,7 @@ maturity = list(range(1,122))
 def animate(nframe):
     plt.cla() # clear window
     plt.plot(maturity, df.iloc[nframe], label='%s'%dates[nframe]) # graph yield vs maturity, label graph with date
-    plt.xlim(0,120) # Set x-axis range from 0 to 120 months 
+    plt.xlim(0,120) # Set x-axis range from 0 to 120 months
     plt.xlabel('Maturity (months)') # add x-axis label
     plt.ylim(-5,20) # Set y-axis range from -5 to 20 percent
     plt.ylabel('Yield (percentage)') # add y-axis label

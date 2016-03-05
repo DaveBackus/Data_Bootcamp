@@ -1,6 +1,6 @@
 """
-Cooley-Rupert-style business cycle figures for Backus-Ferriere-Zin paper, 
-"Risk and ambiguity in models of business cycles,"  Carnegie-Rochester-NYU 
+Cooley-Rupert-style business cycle figures for Backus-Ferriere-Zin paper,
+"Risk and ambiguity in models of business cycles,"  Carnegie-Rochester-NYU
 conference paper, April 2014.
 
 FRED codes:  ["GDPC1", "PCECC96", "GPDIC96", "OPHNFB"]
@@ -14,7 +14,7 @@ Date: 06/24/2014
 
 TODO: Add labels to the plots
     Increase thickness of current recession
-    Smaller fonts in legend 
+    Smaller fonts in legend
     Identify FRED code?
 """
 from datetime import datetime
@@ -23,10 +23,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 from pandas.io.data import DataReader
 
-# legend control, subject to change 
+# legend control, subject to change
 # http://stackoverflow.com/questions/7125009/how-to-change-legend-size-with-matplotlib-pyplot
 params = {'legend.fontsize': 10,
-          'legend.linewidth': 0.5}  # this one doesn't seem to do anything 
+          'legend.linewidth': 0.5}  # this one doesn't seem to do anything
 plt.rcParams.update(params)
 
 
@@ -130,7 +130,7 @@ def manhandle_freddata(fred_series, nperiods=40,
 
     If you would like to use multiple series, use python's map function:
 
-        map(manhandle_freddata, [list of fred_series])  
+        map(manhandle_freddata, [list of fred_series])
 
     Parameters
     ----------
@@ -165,7 +165,7 @@ def manhandle_freddata(fred_series, nperiods=40,
 
     Examples
     --------
-    >>> rgdp = manhandle_freddata('GDPC1')  # produces real GDP plot 
+    >>> rgdp = manhandle_freddata('GDPC1')  # produces real GDP plot
 
     For more examples see the `examples.ipynb` notebook in this
     directory.
@@ -186,7 +186,7 @@ def manhandle_freddata(fred_series, nperiods=40,
         logged = np.log(chopped_data)
         pct_change = (logged - logged.iloc[0]) * 100.0
 
-    # plot data 
+    # plot data
     fig, (ax) = plt.subplots(1, 1)
     ax.set_ylabel("Percent change from previous peak")
     pct_change.index.name = "Quarters since previous peak"  # becomes x_label
@@ -195,8 +195,8 @@ def manhandle_freddata(fred_series, nperiods=40,
 
     # add line for x-axis and show the plot.
     ax.axhline(y=0, xmin=0, xmax=nperiods, color='k', linewidth=1.5)
-    
-    # if saveshow="save" save plot as pdf file with name = FRED code 
+
+    # if saveshow="save" save plot as pdf file with name = FRED code
     if saveshow=="save":
         fn =  "BFZ_" + fred_series + ".pdf"
         plt.savefig(fn)
@@ -215,7 +215,7 @@ if __name__ == '__main__':
     #                                                   fred_names)
 
 """
-Examples 
+Examples
 manhandle_freddata("GDPC1", saveshow="show")
 manhandle_freddata("GDPC1", saveshow="save")
 """

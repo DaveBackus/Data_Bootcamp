@@ -7,7 +7,7 @@ Execute peaktrough.py first, then run this program.
 Written by Dave Backus under the watchful eye of Chase Coleman and Spencer Lyon
 Date:  July 10, 2014
 """
-# import functions from peaktrough.py. * means all of them 
+# import functions from peaktrough.py. * means all of them
 # generates the msg "UMD has deleted: peaktrough" which means it reloads
 from peaktrough import *
 
@@ -30,7 +30,7 @@ print("yyyy")
 # skip lhs (this doesn't seem to work, not sure why)
 map(lambda s:
     manhandle_freddata(s, saveshow="show"), fred_series)
-    
+
 print("zzzz")
 
 

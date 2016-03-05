@@ -1,23 +1,23 @@
 """
 Created on Wed Feb 10 19:39:54 2016
 @author: Ju
-Modified by Dave Backus 
+Modified by Dave Backus
 """
 import pandas as pd
 from pandas.io.data import DataReader
 import datetime
 
-# small test sample 
+# small test sample
 start = datetime.datetime(2015, 12, 21)
 end = datetime.datetime(2015, 12, 31)
 tickers = ['aapl', 'goog']
 
-# if first argument is a list, this returns a panel 
+# if first argument is a list, this returns a panel
 p = DataReader(tickers, 'yahoo', start, end)
 
 print('Type:', type(p))
 print('Dimensions:', p.shape)
-print('Axis labels:\n', p.describe, sep='')  
+print('Axis labels:\n', p.describe, sep='')
 
 #%%
 close = p['Adj Close']
@@ -25,8 +25,8 @@ c = close.stack().sortlevel(level=1).swaplevel(0,1)
 c
 
 #%%
-# another version:  to_frame does the stacking automatically 
-# can select variable at the start or the end 
+# another version:  to_frame does the stacking automatically
+# can select variable at the start or the end
 df = p.to_frame().swaplevel(0,1).sortlevel(level=0)['Adj Close']
 df
 

@@ -1,5 +1,5 @@
 """
-Sarah's Chipotle code 
+Sarah's Chipotle code
 """
 import pandas as pd
 #import numpy as np
@@ -8,7 +8,7 @@ import pandas as pd
 # first, define a pathway to tell python where this data can be found
 path = 'https://raw.githubusercontent.com/TheUpshot/chipotle/master/orders.tsv'
 # now import the data with pandas' read_table function
-# read_table turns the data into a pandas DataFrame. Assign the dataframe the name df 
+# read_table turns the data into a pandas DataFrame. Assign the dataframe the name df
 df = pd.read_table(path)
 
 # to take a quick look at the first few rows of the data, use the method .head()
@@ -16,21 +16,21 @@ df = pd.read_table(path)
 df.head(10)
 
 # This data isn't well formatted for analysis for a few reasons:
-# 
-# -  The item price has a $ symbol, so python will treat it like a string 
-#     - and we can't do math with strings 
-# 
-# 
+#
+# -  The item price has a $ symbol, so python will treat it like a string
+#     - and we can't do math with strings
+#
+#
 # -  The choice description isn't standardized
 #     - everything is all clumped together
-#     - so you can't do much to learn about the popularity of each item or its correlation with the main order 
-# 
-# 
+#     - so you can't do much to learn about the popularity of each item or its correlation with the main order
+#
+#
 # - Sometimes the same choice_description isn't consistently written out
 #      - for example, row 4 has "Tomatillo-Red Chili Salsa (Hot)"
-#      - but row 7 has "Tomatillo Red Chili Salsa" 
-#      - these are the same menu item, but Python won't recognize that 
-# So now we have 3 main goals: 
+#      - but row 7 has "Tomatillo Red Chili Salsa"
+#      - these are the same menu item, but Python won't recognize that
+# So now we have 3 main goals:
 # 1. change the item_price  so that we can do math with it
 # 2. separate the data in choice_description into different columns
 # 3. standardize the names of the different items so they can be grouped more easily
@@ -53,7 +53,7 @@ df.dtypes
 df = df.replace(to_replace = {'item_price': {'\$': ''}}, regex=True)
 # we used regex=True, otherwise Pandas would have looked for cells where $ was the only thing present
 # problem is, $ is a symbol that has other operations in regular expression
-# so we put a backslash in front of $ to tell regex "just treat $ as a normal character, not as an operator" 
+# so we put a backslash in front of $ to tell regex "just treat $ as a normal character, not as an operator"
 # this is a quirk of regex. If you want to learn more: https://docs.python.org/2/library/re.html
 
 # now take a look
@@ -82,7 +82,7 @@ df[['choice_description']].head(10)
 # this is useless if we wanted to analyize the frequency of each of these sides
 # first, let's get rid of the brackets using the same method we used to get rid of the $ symbol above
 list_of_things_to_replace = ['\[', '\]'] # again, we'll need backslashes in front of the brackets to tell regex to treat them as normal characters
-thing_we_want_to_replace_it_with = '' #t wo quotes with nothing in them means we'll just replace the brackets with nothing 
+thing_we_want_to_replace_it_with = '' #t wo quotes with nothing in them means we'll just replace the brackets with nothing
 df = df.replace(to_replace = list_of_things_to_replace , value = thing_we_want_to_replace_it_with, regex = True) #regex means it'll look for brackets anywhere, otherwise it would look for cells whose only value was [ or ]
 
 df.head()
@@ -123,7 +123,7 @@ least_pop_choices
 # let's try to clean that up with some simple search-and-replace
 # for instance, there are "vegetarian black beans" and "black beans", which should just be the same thing
 # we can use regex for this!
-# with method .replace(), you don't actually have to say "to_replace = " and "value = " 
+# with method .replace(), you don't actually have to say "to_replace = " and "value = "
 # Python will understand the first and second arguments to be these values
 fix_beans = choice_df.replace('Vegetarian Black Beans',
                               'Black Beans', regex=True)
@@ -133,7 +133,7 @@ fix_beans = choice_df.replace('Vegetarian Black Beans',
 # if we want our analysis to group these together, we can use regex again
 # this time we'll use a list in the to_replace arguement
 fix_salsas = fix_rice_beans.replace(['Roasted Chili Corn Salsa','Tomatillo Green Chili (Medium)'],
-                                    'Roasted Chili Corn Salsa (Medium)')                         
+                                    'Roasted Chili Corn Salsa (Medium)')
 
 # further discussion needed about using $, ^, *, ., etc
 

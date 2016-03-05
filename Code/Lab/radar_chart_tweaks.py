@@ -1,5 +1,5 @@
 """
-Playing around with radar chart code from the Matplotlib examples. 
+Playing around with radar chart code from the Matplotlib examples.
 From: http://matplotlib.org/examples/api/radar_chart.html
 """
 import numpy as np
@@ -167,4 +167,4 @@ if __name__ == '__main__':
     plt.figtext(0.5, 0.965, '5-Factor Solution Profiles Across Four Scenarios',
                 ha='center', color='black', weight='bold', size='large')
     plt.show()
-    
+

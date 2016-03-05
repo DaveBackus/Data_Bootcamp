@@ -24,7 +24,7 @@ df_momentum = web.DataReader('F-F_Momentum_Factor', 'famafrench')[1]
 
 # 5-Industry Portfolios
 '''
-This dataset is organized strangely. Using the DataReader produces a dict 
+This dataset is organized strangely. Using the DataReader produces a dict
 object with keys 4, 6, 8, 10, 12, 14, 16 corresponding to the following:
 
     4:      Average Value Weighted Returns (Monthly)
@@ -33,7 +33,7 @@ object with keys 4, 6, 8, 10, 12, 14, 16 corresponding to the following:
     10:     Average Equal Weighted Returns (Annual)
     12:     Number of Firms in Portfolios (Monthly)
     14:     Average Firm Size (Monthly)
-    16:     Sum of BE/Sum of ME (Annual) 
+    16:     Sum of BE/Sum of ME (Annual)
     18:     Value-Weighted Average of BE/ME (Annual)
 
 We will import the monthly data separately. We need to relabel the columns
@@ -61,7 +61,7 @@ df_ind_size.columns = ['Cons_size', 'Manuf_size', 'HiTec_size', 'Hlth_size', 'Ot
 df_ind = df_ind_val.join(df_ind_eq).join(df_ind_firms).join(df_ind_size)
 
 '''
-Now we will merge the four DataFrames we have: df_research, df_momentum, 
+Now we will merge the four DataFrames we have: df_research, df_momentum,
 df_folios, and df_ind. These three are all indexed YYYYMM, but we will then
 re-index them by the dates provided by the more specific YYYY-MM-DD dates
 from the Quandl data.
@@ -140,14 +140,14 @@ following as columns corresponding to the datasets
             _eq refers to Average Equal Weighted Returns
             _firms refers to the Number of Firms in Portfolios
             _size refers to the Average Firm Size
-    
+
     For example, we may call
         df_ff['Hi 10'] or df_ff.HiTec_firms
-    
+
 Additional Notes provided by the authors:
 
     On the Portfolios Formed on Size dataset:
-    
+
         "It contains value- and equal-weighted returns for size portfolios.
         Each record contains returns for:
             Negative (not used)
@@ -157,9 +157,9 @@ Additional Notes provided by the authors:
             5 Quintiles
             10 Deciles
         The portfolios are constructed at the end of Jun.
-    
+
     On the Momentum Factor dataset:
-    
+
         "It contains a momentum factor, constructed from six value-weight
         portfolios formed using independent sorts on size and prior return of
         NYSE, AMEX, and NASDAQ stocks.
@@ -167,16 +167,16 @@ Additional Notes provided by the authors:
         Momentum is the average of the returns on two (big and small) high
         prior return portfolios  minus the average of the returns on two low
         prior return portfolios.
-        
+
         The portfolios are constructed monthly. Big means a firm is above the
         median market cap on the NYSE at the end of the previous month; small
         firms are below the median NYSE market cap. Prior return is measured
         from month -12 to - 2.  Firms in the low prior return portfolio are
-        below the 30th NYSE percentile.  Those in the high portfolio are above 
+        below the 30th NYSE percentile.  Those in the high portfolio are above
         the 70th NYSE percentile.
-    
+
     On the Five-Industry Portfolio dataset:
-    
+
         It contains value- and equal-weighted returns for 5 industry
-        portfolios. The portfolios are constructed at the end of June.    
+        portfolios. The portfolios are constructed at the end of June.
 '''

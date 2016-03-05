@@ -28,7 +28,7 @@ while i < len(questions):
     factorials = factorial(n) / (factorial(r)*factorial(n-r)) #this is the first chunk of the equation
     probability = factorials*pow(theta, r)*pow((1-theta), (n-r))
     rounded_prob = round(probability, 3)
-    print('{}:'.format(questions[i]), rounded_prob)# 
+    print('{}:'.format(questions[i]), rounded_prob)#
     i += 1 #add 1 to the value of i to make sure this loop ends. Doing while loops like this can be risky if you forget to add this part
 #%%
 ###...or we could put it in dictionaries and make a DataFrame:
@@ -37,7 +37,7 @@ dict1 = {'n': Ns, 'theta': thetas, 'r': Rs} #create a dictionary from the lists
 df = pd.DataFrame(data=dict1, index=questions) #create a DataFrame from the dictionary
 #%%
 # we'll have to use scipy.misc.factorial instead of math..factorial because math cannot work with a series, which is what we're using when applying functions to Pandas df columns
-df['probability'] = ( 
+df['probability'] = (
     (sp.misc.factorial(df.n, exact = False)/
     (sp.misc.factorial(df.r, exact=False)*sp.misc.factorial(df.n-df.r, exact=False)))
     *np.power(df.theta, df.r)*np.power(1-df.theta, df.n-df.r)
@@ -58,15 +58,15 @@ sp.stats.distributions.binom.pmf(3, n = 10, p =.2)
 #%%
 
 '''
-2. A chain of motels has adopted a policy of giving a 3% discount to customers who pay in cash 
-rather than by credit cards. Its experience is that 30% of all customers take the discount. Let Y = 
+2. A chain of motels has adopted a policy of giving a 3% discount to customers who pay in cash
+rather than by credit cards. Its experience is that 30% of all customers take the discount. Let Y =
 number of discount takers among the next 20 customers.
     a. Do you think the binomial assumptions are reasonable in this situation?
 '''
 # YES!
 #%%
 '''
- b. Assuming that the binomial probabilities apply, find the probability that exactly 5 of 
+ b. Assuming that the binomial probabilities apply, find the probability that exactly 5 of
 the next 20 customers take the discount.
 '''
 # we already have something for this!
@@ -145,24 +145,24 @@ binom_pdf(20, .3, 5)
 binom_pdf(20, .3, 5, 'or_fewer')
 #%%
 '''
-3. The admissions office of a small, selective liberal-arts college will only offer admission to 
-applicants who have a certain mix of accomplishments, including a combined SAT score of 1,400 
-or more. Based on past records, the head of admissions feels that the probability is 0.66 that an 
-admitted applicant will come to the college. If 500 applicants are admitted, what is the probability 
-that 340 or more will come? Note that “340 or more” means the set of values {340, 341, 342, 
+3. The admissions office of a small, selective liberal-arts college will only offer admission to
+applicants who have a certain mix of accomplishments, including a combined SAT score of 1,400
+or more. Based on past records, the head of admissions feels that the probability is 0.66 that an
+admitted applicant will come to the college. If 500 applicants are admitted, what is the probability
+that 340 or more will come? Note that “340 or more” means the set of values {340, 341, 342,
 343, …, 499, 500}.
 '''
 # this is a great example for when we'd want to use the new binom_pdf function
 # Instead of "R or fewer", we want "R or more"
-# In other words, we want 'P(X => x)' 
+# In other words, we want 'P(X => x)'
 # luckily I already threw in this column!
 #print binom_pdf(500, .66, 339)['P(X => x)'].item()
 print binom_pdf(500, .66, 340, 'at_least')
 # Bam, we're done!
 #%%
 '''
-4. Suppose that a full-repair warranty is offered with each new Power-Up foodprocessor. If the 
-probability that any individual food processor will be returned forneeded warranty repairs within 
+4. Suppose that a full-repair warranty is offered with each new Power-Up foodprocessor. If the
+probability that any individual food processor will be returned forneeded warranty repairs within
 one year is 0.11, and if a certain store sells 83 of these,find the probabilities that...
 
 a. at most 10 food processors will be returned for warranty repairs;
@@ -186,7 +186,7 @@ d. not more than 15 food processors will be returned for warranty repairs.
 binom_pdf(83, .11, 15, 'not_more_than')
 #%%
 '''
-5. The rate of home sales at a small real estate agency is 1.3 per day. We’ll assume that a Poisson 
+5. The rate of home sales at a small real estate agency is 1.3 per day. We’ll assume that a Poisson
 phenomenon can represent these home sales.
 
 a. Find the probability that no homes will be sold on Monday.
@@ -199,7 +199,7 @@ r = 0
 poisson_probability = sp.exp(-mean) * (pow(mean,r)/factorial(r))
 print poisson_probability
 #%%
-# fortunately, a fuction for Poisson probability does exists in scipy  
+# fortunately, a fuction for Poisson probability does exists in scipy
 # http://stackoverflow.com/questions/280797/calculate-poisson-probability-percentage
 no_sales = sp.stats.distributions.poisson.pmf(0, 1.3)
 print no_sales
@@ -226,9 +226,9 @@ print more_than_two_sales
 '''
 (skip question 6 - all verbal answers)
 
-7. It is maintained that, in a quiet equity market with no news, the daily number of shares trades 
-of EquiNimbus Corporation will be approximately normally distributed with mean 280,000 and 
-with standard deviation 32,000. Find the probability that the number of shares traded tomorrow 
+7. It is maintained that, in a quiet equity market with no news, the daily number of shares trades
+of EquiNimbus Corporation will be approximately normally distributed with mean 280,000 and
+with standard deviation 32,000. Find the probability that the number of shares traded tomorrow
 will be at most 325,000.
 '''
 # again, will try it first assuming that there's no existing function for this:

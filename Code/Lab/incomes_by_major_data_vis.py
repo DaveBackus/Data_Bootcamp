@@ -12,7 +12,7 @@ from pylab import savefig
 # Import data into dataframe with read_csv:
 df = pd.read_csv('https://raw.githubusercontent.com/fivethirtyeight/data/master/college-majors/recent-grads.csv')
 #%%
-# sanity check to make sure the import went through ok: 
+# sanity check to make sure the import went through ok:
 df.head()
 #%%
 # look at column names (.tolist() isn't necessary but easier to read)
@@ -25,7 +25,7 @@ df.plot()
 #  disaster. specify the x and y axis, and limit it to the 1st 10 (the df is already sorted by top median income by najor)
 df[:10].plot(x='Major', y='Total')
 #%%
-# still really bad. 
+# still really bad.
 # add rot to rotate the x-axis labels to make them easiery to read
 df[:10].plot(x='Major', y='Total', rot=90)
 #%%
@@ -35,9 +35,9 @@ df[:10].plot(x='Major', y='Total', kind='bar')
 #%%
 # add a title and a label for the y-axis:
 ax = df[:10].plot(
-    x='Major', 
-    y='Total',  
-    kind='bar', 
+    x='Major',
+    y='Total',
+    kind='bar',
     title='Popularity of the Top 10 Earning Majors'
     )
 ax.set_ylabel('Frequency')
@@ -45,9 +45,9 @@ ax.set_ylabel('Frequency')
 #%%
 # Try to view women and men separately, and throw in a legend to distinguish the two:
 ax1 = df[:10].plot(
-    x='Major', 
-    y=['Women', 'Men'],  
-    kind='bar', 
+    x='Major',
+    y=['Women', 'Men'],
+    kind='bar',
     title='Popularity of the Top 10 Earning Majors'
     )
 ax1.set_ylabel('Frequency')
@@ -59,9 +59,9 @@ ax1.legend()
 # change kind='bar' to kind='barh' to make this a little easier to read
 # since we're rotating this chart, change set_ylabel to set_xlabel
 ax2 = df[:10].plot(
-    x='Major', 
-    y=['Women', 'Men'],  
-    kind='barh', 
+    x='Major',
+    y=['Women', 'Men'],
+    kind='barh',
     stacked=True,
     colormap= 'Paired',
     title='Popularity of the Top 10 Earning Majors'
@@ -76,9 +76,9 @@ df['Men+Women'] = df.Men + df.Women
 #%%
 # now plot Total and Men+Women next to each other to see if anything is wrong. They should align perfectly for each Major
 ax3 = df[:10].plot(
-    x='Major', 
-    y=['Men+Women', 'Total'],  
-    kind='barh', 
+    x='Major',
+    y=['Men+Women', 'Total'],
+    kind='barh',
     colormap= 'Paired',
     title='Popularity of the Top 10 Earning Majors'
     )
@@ -87,11 +87,11 @@ ax3.legend()
 #%%
 # the legend is in the way, move it over
 # googled "legend outside plot pandas": http://stackoverflow.com/questions/23556153/how-to-put-legend-outside-the-plot-with-pandas
-# also extend it to the top 20 majors to see if this issue is pervasive 
+# also extend it to the top 20 majors to see if this issue is pervasive
 ax4 = df[:20].plot(
-    x='Major', 
-    y=['Men+Women', 'Total'],  
-    kind='barh', 
+    x='Major',
+    y=['Men+Women', 'Total'],
+    kind='barh',
     colormap = 'Paired',
     title='Popularity of the Top 10 Earning Majors',
     width=.9
@@ -110,18 +110,18 @@ group_df = df.groupby('Major_category').mean()
 group_df
 #%%
 ax5 = group_df.plot(
-    y = 'Median', 
-    kind='barh', 
+    y = 'Median',
+    kind='barh',
     colormap = 'Paired'
     )
 ax5.set_xlabel('Mean of Median Salaries')
 #%%
-# importing seaborn makes graphs just a little more attractive. You don't have to do anything else after you import it - it just works 
+# importing seaborn makes graphs just a little more attractive. You don't have to do anything else after you import it - it just works
 import seaborn as sns
 #%%
 ax6 = group_df.plot(
-    y = 'Median', 
-    kind='barh', 
+    y = 'Median',
+    kind='barh',
     colormap='Paired'
     )
 ax6.set_xlabel('Mean of Median Salaries')
@@ -135,9 +135,9 @@ ax7.set_xlabel('Mean of Median Salaries')
 #%%
 # use grid(False) to get rid of the grid. Use despine() to get rid of the top and right spines
 ax8 = group_df.plot(
-    y = 'Median', 
-    kind='barh', 
-    colormap = 'Paired', 
+    y = 'Median',
+    kind='barh',
+    colormap = 'Paired',
     linewidth = 0
     )
 ax8.set_xlabel('Mean of Median Salaries')
@@ -152,7 +152,7 @@ quartile_df = group_df[['Median','P25th','P75th']].transpose()
 quartile_df
 #%%
 # http://web.stanford.edu/~mwaskom/software/seaborn/generated/seaborn.boxplot.html?highlight=boxplot
-# use seaborn's wrapper for boxplot matplotlib's boxplot 
+# use seaborn's wrapper for boxplot matplotlib's boxplot
 # seaborn lets you just pass a dataframe, whereas matplotlib would need you to pass an array
 sns.set_style('whitegrid')
 sns.boxplot(quartile_df,  vert=False)
