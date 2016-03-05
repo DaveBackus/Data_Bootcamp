@@ -2,11 +2,11 @@
 Matplotlib intro for Data Bootcamp course (graphics)
 
 Three approaches to graphics
-* apply plot method to dataframe 
+* apply plot method to dataframe
 * plot(x,y) function
 * create figure object, apply plot methods to it
 
-Graphics inherently complicated, see these options to get a sense:  
+Graphics inherently complicated, see these options to get a sense:
 http://matplotlib.org/users/customizing.html
 
 Repository of materials (including this file):
@@ -16,9 +16,9 @@ Written by Dave Backus, August 2015
 Created with Python 3.5
 """
 """
-Check versions 
+Check versions
 """
-import sys                             # system module 
+import sys                             # system module
 import pandas as pd                    # data package
 import matplotlib as mpl               # graphics package
 
@@ -28,39 +28,39 @@ print('Matplotlib version: ', mpl.__version__)
 
 #%%
 """
-Datasets 
+Datasets
 * US GDP and consumption ("personal consumption expenditures")
-* Fama-French equity returns 
+* Fama-French equity returns
 """
-# US GDP and consumption 
+# US GDP and consumption
 gdp  = [13271.1, 13773.5, 14234.2, 14613.8, 14873.7, 14830.4, 14418.7,
         14783.8, 15020.6, 15369.2, 15710.3]
 pce  = [8867.6, 9208.2, 9531.8, 9821.7, 10041.6, 10007.2, 9847.0, 10036.3,
         10263.5, 10449.7, 10699.7]
 year = [2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013]
 
-# create dataframe from dictionary 
-us = pd.DataFrame({'gdp': gdp, 'pce': pce}, index=year) 
+# create dataframe from dictionary
+us = pd.DataFrame({'gdp': gdp, 'pce': pce}, index=year)
 
-# Fama-French 
+# Fama-French
 import pandas.io.data as web
 
-# read annual data from website and rename variables 
+# read annual data from website and rename variables
 ff = web.DataReader('F-F_Research_Data_factors', 'famafrench')[1]
 ff.columns = ['xsm', 'smb', 'hml', 'rf']
-ff = ff[['xsm', 'rf']]     # extract xsm and rf 
+ff = ff[['xsm', 'rf']]     # extract xsm and rf
 
 #%%
 """
 Approach 1:  apply plot methods to dataframe
 """
-# US GDP  
+# US GDP
 us.plot()
 us.plot(kind='bar')
 us.plot.barh()
 
 # what would you change?
-# what other kinds of graphs are available?  use 
+# what other kinds of graphs are available?  use
 
 
 
@@ -75,7 +75,7 @@ import matplotlib.pyplot as plt        # pyplot module
 # Exercise:  try each of these
 plt.plot(year, gdp, color='blue', linewidth=2, alpha=0.8)
 plt.plot(year, pce, color='magenta', linewidth=2, alpha=0.5)
-# comment:  if you do this in the console, it comes out as two sep charts 
+# comment:  if you do this in the console, it comes out as two sep charts
 
 # dress up the figure
 plt.title('US Real GDP and Consumption')

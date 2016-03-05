@@ -1,5 +1,5 @@
 """
-Code Practice #3 template 
+Code Practice #3 template
 Data Bootcamp course, NYU Stern, http://databootcamp.nyuecon.com/
 """
 
@@ -20,10 +20,10 @@ Question 2
 """
 url1  = 'http://pages.stern.nyu.edu/~dbackus/Data/'
 url2 = 'Data-Bootcamp-entry-poll_s16.csv'
-url = url1 + url2 
+url = url1 + url2
 
 ep = pd.read_csv(url)
-print('Data types:\n', ep.dtypes, sep='')  
+print('Data types:\n', ep.dtypes, sep='')
 
 #%%
 """
