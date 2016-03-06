@@ -66,6 +66,8 @@ SQL Bootcamp consists of four mandatory sessions, Fridays March 25, April 1, Apr
 
 If you are interested, please sign up for our [Google group](https://groups.google.com/forum/#!forum/nyu_data_bootcamp) to get further information and announcements.  
 
+
+<!--
 #### Spring 2015 edition  
 
 Professors David Backus and Glenn Okun proudly present the 2015 *NYU Stern School of Business SQL Bootcamp*. This five-session non-credit program will be taught by Sarah Beckett-Hile. It follows a popular
@@ -94,6 +96,7 @@ Once you've done this:
 **Webinar.**  We have set up a "webinar" for people who cannot be here in person, 
 including alums and other friends of the school.  Please register [here](https://attendee.gotowebinar.com/register/3554985340709263362) 
 for SQL Bootcamp at NYU Stern School of Business. After registering, you will receive a confirmation email with information about joining the webinar.  The webinar gives you access to a live stream and the ability to ask questions.  
+-->
 
 <!-- 
 **Videos.** The collection:  
