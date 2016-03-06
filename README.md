@@ -14,9 +14,13 @@ More concretely, the course is designed to (i) introduce students to sources of 
 
 You can find more information about the course on the **[course website](http://databootcamp.nyuecon.com/)**.  If you have questions, **email Dave Backus** (db3@nyu.edu) or track him down in his office (KMC 7-68) or at the Malt House.  
 
+The **[Data Bootcamp course](http://databootcamp.nyuecon.com/)** will **NOT** cover SQL databases.  SQL Bootcamp is a separate non-credit course.  Same team, same attitude, different content.  For the **SQL mini-course**, scroll down.  
+
 #### Mini-courses  
 
-For the 2015 mini-course, **[click here](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Markdown/bootcamp_mini_2015.md)**.
+For the 2015 Data Bootcamp mini-course, **[click here](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Markdown/bootcamp_mini_2015.md)**.
+
+For the **SQL Bootcamp** mini-course, scroll down.  
 
 <!-- 
 We ran a non-credit mini-course in 2014 and plan another one for 2015.  The **2015 mini-course** will be held  
@@ -34,8 +38,6 @@ The materials for the **Fall 2014 mini-course** are a little terse, and include 
 
 If you want to download the pdf files, click on the link, then the Raw button at the top.  The code files are imbedded in the pdfs, and also posted in the Code directory (scroll to the top of the page).  
 -->
-
-For the **SQL mini-course**, scroll down.  
 
 
 #### Related information 
@@ -58,9 +60,13 @@ Part of the #nyuecon collection at NYU's Stern School of Business.
 ---
 ### SQL Bootcamp
 
-**Announcement.** The **[Data Bootcamp course](http://databootcamp.nyuecon.com/)** will **NOT** cover SQL databases.  SQL Bootcamp is a separate non-credit course.  Same team, same attitude, different content.  
+We expect to offer this again in Spring 2016. For further information, join our [Google Group](https://groups.google.com/forum/#!forum/nyu_data_bootcamp).  
 
-**Update.**  We expect to offer this again in Spring 2016. For further information, join our [Google Group](https://groups.google.com/forum/#!forum/nyu_data_bootcamp).  
+**Update.**  
+
+#### Spring 2016 edition 
+
+Add content here?  
 
 #### Spring 2015 edition  
 
