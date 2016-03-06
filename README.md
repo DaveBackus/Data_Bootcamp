@@ -16,11 +16,12 @@ You can find more information about the course on the **[course website](http://
 
 The **[Data Bootcamp course](http://databootcamp.nyuecon.com/)** will **NOT** cover SQL databases.  SQL Bootcamp is a separate non-credit course.  Same team, same attitude, different content.  For the **SQL mini-course**, scroll down.  
 
+<!--
 #### Mini-courses  
 
-For the 2015 Data Bootcamp mini-course, **[click here](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Markdown/bootcamp_mini_2015.md)**.
-
+For the 2015 Data Bootcamp mini-course, **[click here](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Markdown/bootcamp_mini_2015.md)**. <br>
 For the **SQL Bootcamp** mini-course, scroll down.  
+--> 
 
 <!-- 
 We ran a non-credit mini-course in 2014 and plan another one for 2015.  The **2015 mini-course** will be held  
