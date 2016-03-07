@@ -1,4 +1,4 @@
-# Data Bootcamp: Topic list & links 
+# Data Bootcamp: Topic outlines & links 
 
 
 A list of topics with links to material used in class.  We expect each topic to take roughly one week -- maybe a little more. 
@@ -34,7 +34,7 @@ The topics in the first half follow **[THE BOOK](https://www.gitbook.com/book/da
 ---
 ## Topic 5.  Python graphics:  Matplotlib fundamentals 
 
-**Handouts:**  [Outline](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_graphics.pdf) | [Book chapter](https://davebackus.gitbooks.io/test/content/graphs1.html)| [Code](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_graphics_1.ipynb) (Download "Raw" as ipynb) <br>
+**Handouts:**  [Outline](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_graphics.pdf) | [Book chapter](https://davebackus.gitbooks.io/test/content/graphs1.html)| [Code](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_graphics_1.ipynb) (Download "Raw" as ipynb) | [Code Practice A](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_practice_a.ipynb) (Download "Raw" as ipynb) <br>
 **Summary:**  Three approaches to graphics: dataframe plot methods, plot(x,y), and fig/ax objects and methods; lines, scatters, bars, horizontal bars, styles.  
 
 ---
@@ -43,7 +43,7 @@ The topics in the first half follow **[THE BOOK](https://www.gitbook.com/book/da
 ---
 ## Topic.  Economic indicators 
 
-**Handouts:**  Outline | Code | [Optional Code Practice A](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_x.pdf)  <br>
+**Handouts:**  Outline | Code | <br>
 **Summary:**  Indicators of current economics conditions; indicators of country environments.  
 
 ---

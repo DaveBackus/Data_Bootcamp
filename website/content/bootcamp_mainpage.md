@@ -10,7 +10,7 @@ More concretely, the course is designed to (i) introduce students to sources of 
    
 **Quick links:**  **[Book](https://www.gitbook.com/book/davebackus/test/details)** | **[Syllabus](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf)** | **[Project Guide](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf)** | Discussion Groups (**[UG](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_ug)** | **[MBA](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_mba)**)
 
-**Class Outlines** can be found under *Topic list & links* (look left). <br> **Code Practice** can be found under *Due dates* (ditto). 
+**Class Outlines** can be found under *Topic outlines & links* (look left). <br> **Code Practice** can be found in the same place -- and under *Due dates* (ditto). 
 
 
 ## Spring 2016 schedule 
@@ -18,6 +18,7 @@ More concretely, the course is designed to (i) introduce students to sources of 
 **Undergrad:**  ECON-UB.0232, Tuesday and Thursday, 2-3:15, KMC 4-80, January 26 to May 5 <br> 
 **MBA:**  ECON-GB.2313, Wednesday nights, 6-9pm, KMC 4-90, February 10 to May 4
 
+**Future:** We expect to offer sections in Fall 2016 and Spring 2017.  
 
 ## Contact information
 
