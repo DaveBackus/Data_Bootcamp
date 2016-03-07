@@ -1,0 +1,37 @@
+[
+  {
+    "id": "deploy-databootcamp",
+    "execute-command": "/home/sglyon/Teaching/Data_Bootcamp/website/deploy.sh",
+    "command-working-directory": "/home/sglyon/Teaching/Data_Bootcamp/website",
+    "trigger-rule":
+    {
+      "and":
+      [
+        {
+          "match":
+          {
+            "type": "payload-hash-sha1",
+            "secret": "databootcamp",
+            "parameter":
+            {
+              "source": "header",
+              "name": "X-Hub-Signature"
+            }
+          }
+        },
+        {
+          "match":
+          {
+            "type": "value",
+            "value": "refs/heads/master",
+            "parameter":
+            {
+              "source": "payload",
+              "name": "ref"
+            }
+          }
+        }
+      ]
+    }
+  }
+]
