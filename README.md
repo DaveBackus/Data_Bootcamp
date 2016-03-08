@@ -63,9 +63,9 @@ Part of the #nyuecon collection at NYU's Stern School of Business.
 
 Back by popular demand:  the second annual SQL Bootcamp @ NYU Stern.  This four-session Amazon-approved course is designed to get Amazon's summer interns up to speed so they can hit the ground running.  Others may find the same skill set useful.  Organized by Professors David Backus and Glenn Okun, the course is designed and delivered by MBA2 **[Sarah Beckett-Hile](https://www.linkedin.com/in/sarahbecketthile)**.  
  
-The 2016 edition of SQL Bootcamp consists of four mandatory sessions, Fridays March 25, April 1, April 8, and April 15.  Each session will run from 1:30 to 4:30pm in room 3-65 of NYU's [Kaufman Management Center](http://web-docs.stern.nyu.edu/old_web/emplibrary/NYUSternLocation.pdf).  
+The 2016 edition of SQL Bootcamp consists of four mandatory sessions:  Fridays March 25, April 1, April 8, and April 15.  Each session will run from 1:30 to (approx) 4:30pm in room 3-65 of NYU's [Kaufman Management Center](http://web-docs.stern.nyu.edu/old_web/emplibrary/NYUSternLocation.pdf).  
 
-If you are interested, please sign up for our [Google group](https://groups.google.com/forum/#!forum/nyu_data_bootcamp) to get further information and announcements.  
+If you are interested, please sign up for our **[Google group](https://groups.google.com/forum/#!forum/nyu_data_bootcamp)** to get further information and announcements.  We expect to post **video** after each class, but are checking now to see whether we can make it accessible outside the school.  
 
 
 <!--
@@ -111,9 +111,9 @@ for SQL Bootcamp at NYU Stern School of Business. After registering, you will re
 Please download before playing. 
 --> 
 
-**Exit poll.** If you use this material, please fill out the (short) [exit poll](https://docs.google.com/forms/d/1ZV9NW2Lum3Tp5jVMJWg8I5gkvVi0NmskdL1bameVmMg/viewform?usp=send_form).
-
 **Questions and comments.** If you have questions or comments about the class, you can post them on the 
-[group](https://groups.google.com/forum/#!forum/nyu_data_bootcamp).  Or contact Dave Backus (db3@nyu.edu).  
+[group](https://groups.google.com/forum/#!forum/nyu_data_bootcamp).  Or contact one of the organizers.   
+
+**Exit poll.** If you use this material, please fill out the (short) [exit poll](https://docs.google.com/forms/d/1ZV9NW2Lum3Tp5jVMJWg8I5gkvVi0NmskdL1bameVmMg/viewform?usp=send_form).
 
 Another product of the #nyuecon Python factory @ NYU Stern.
