@@ -101,7 +101,7 @@
 
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;VizWiz.&lt;/strong&gt; Andy Kriebel&amp;rsquo;s &lt;a href=&#34;http://vizwiz.blogspot.com/&#34;&gt;&amp;ldquo;visualization&amp;rdquo; blog&lt;/a&gt;.  A steady stream of examples and advice, including the invaluable Makeover Monday.  Tagline:  &amp;ldquo;Friends Don&amp;rsquo;t Let Friends Use Pie Charts.&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Data is beautiful.&lt;/strong&gt;  On &lt;a href=&#34;https://www.reddit.com/r/dataisbeautiful/&#34;&gt;Reddit&lt;/a&gt;. Relatively unfiltered, but a great source of ideas.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Data is beautiful.&lt;/strong&gt;  On &lt;a href=&#34;https://www.reddit.com/r/dataisbeautiful/&#34;&gt;Reddit&lt;/a&gt;. Relatively unfiltered, but a good source of ideas.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;more:987d9bf97cab1040fa2beea3138e2fdf&#34;&gt;More&lt;/h2&gt;
@@ -376,7 +376,7 @@
 &lt;h2 id=&#34;topic-distributions-dependence-and-dynamics:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic.  Distributions, dependence, and dynamics&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline | Code  &lt;br&gt;
-&lt;strong&gt;Summary:&lt;/strong&gt;  This is really three topics.  &lt;em&gt;Distributions&lt;/em&gt; are about the frequencies of various outcomes:  stock returns, incomes of individuals, medicial expenses, movie grosses.  Tools include histograms, smoothed versions (kde&amp;rsquo;s), cumulative and log plots. &lt;em&gt;Dependence&lt;/em&gt; is about connections between two variables:  scatterplots, correlation, Anscombe&amp;rsquo;s quartet, Simpson&amp;rsquo;s paradox. &lt;em&gt;Dynamics&lt;/em&gt; is about the relation between variables at two dates:  stock returns this month and next, cross-correlations, the ccf.&lt;/p&gt;
+&lt;strong&gt;Summary:&lt;/strong&gt;  This is really three topics.  &lt;em&gt;Distributions&lt;/em&gt; is about the frequencies of various outcomes:  stock returns, incomes of individuals, medicial expenses, movie grosses.  Tools include histograms, smoothed versions (kde&amp;rsquo;s), cumulative and log plots. &lt;em&gt;Dependence&lt;/em&gt; is about connections between two variables:  scatterplots, correlation, Anscombe&amp;rsquo;s quartet, Simpson&amp;rsquo;s paradox. &lt;em&gt;Dynamics&lt;/em&gt; is about the relation between variables at two dates:  stock returns this month and next, cross-correlations, the ccf.&lt;/p&gt;
 
 &lt;hr /&gt;
 
