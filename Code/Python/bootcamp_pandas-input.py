@@ -108,11 +108,11 @@ from pandas.io import wb            # World Bank api
 var = ['NY.GDP.PCAP.PP.KD']         # GDP per capita
 iso = ['USA', 'FRA', 'JPN', 'CHN', 'IND', 'BRA', 'MEX']  # country codes
 year = 2013
-wb = wb.download(indicator=var, country=iso, start=year, end=year)
+wbdf = wb.download(indicator=var, country=iso, start=year, end=year)
 
 #%%
-wb = wb.reset_index(level='year', drop=True)
-wb.plot(kind='barh')
+wbdf = wbdf.reset_index(level='year', drop=True)
+wbdf.plot(kind='barh')
 
 #%%
 # Fama-French equity returns

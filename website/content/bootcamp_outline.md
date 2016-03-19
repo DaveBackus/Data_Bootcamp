@@ -62,7 +62,7 @@ The topics in the first half follow **[THE BOOK](https://www.gitbook.com/book/da
 ## Topic.  Distributions, dependence, and dynamics 
 
 **Handouts:**  Outline | Code  <br> 
-**Summary:**  This is really three topics.  *Distributions* are about the frequencies of various outcomes:  stock returns, incomes of individuals, medicial expenses, movie grosses.  Tools include histograms, smoothed versions (kde's), cumulative and log plots. *Dependence* is about connections between two variables:  scatterplots, correlation, Anscombe's quartet, Simpson's paradox. *Dynamics* is about the relation between variables at two dates:  stock returns this month and next, cross-correlations, the ccf.  
+**Summary:**  This is really three topics.  *Distributions* is about the frequencies of various outcomes:  stock returns, incomes of individuals, medicial expenses, movie grosses.  Tools include histograms, smoothed versions (kde's), cumulative and log plots. *Dependence* is about connections between two variables:  scatterplots, correlation, Anscombe's quartet, Simpson's paradox. *Dynamics* is about the relation between variables at two dates:  stock returns this month and next, cross-correlations, the ccf.  
 
 ---
 ## Topic.  Demography & healthcare 
