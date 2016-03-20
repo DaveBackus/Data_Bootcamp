@@ -41,11 +41,12 @@ The topics in the first half follow **[THE BOOK](https://www.gitbook.com/book/da
 ## Remaining topics will depend upon interest -- yours and ours. We have almost enough for another course.  If there's something you'd particularly like to see, let us know.  
 
 ---
-## Topic.  Economic indicators 
+## Topic 6.  Review & applications 
 
-**Handouts:**  Outline | Code | <br>
-**Summary:**  Indicators of current economics conditions; indicators of country environments.  
+**Handouts:**  Outline | Code (review | applications) | <br>
+**Summary:**  Exam review, applications to get us thinking interesting datasets and how to work with them. More of the latter after the exam.  
 
+<!--
 ---
 ## Topic.  More Pandas
 
@@ -57,6 +58,7 @@ The topics in the first half follow **[THE BOOK](https://www.gitbook.com/book/da
 
 **Handouts:**  Outline <br> 
 **Summary:**  Using conda, pip, etc.  Applications to Anaconda, Seaborn, Quandl.  
+--> 
 
 ---
 ## Topic.  Distributions, dependence, and dynamics 
