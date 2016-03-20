@@ -352,24 +352,24 @@
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;topic-economic-indicators:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic.  Economic indicators&lt;/h2&gt;
+&lt;h2 id=&#34;topic-6-review-applications:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 6.  Review &amp;amp; applications&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline | Code | &lt;br&gt;
-&lt;strong&gt;Summary:&lt;/strong&gt;  Indicators of current economics conditions; indicators of country environments.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline | Code (review | applications) | &lt;br&gt;
+&lt;strong&gt;Summary:&lt;/strong&gt;  Exam review, applications to get us thinking interesting datasets and how to work with them. More of the latter after the exam.&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;!--
+---
+## Topic.  More Pandas
 
-&lt;h2 id=&#34;topic-more-pandas:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic.  More Pandas&lt;/h2&gt;
+**Handouts:**  Outline | Code &lt;br&gt; 
+**Summary:**  Pandas has incredible facilities for manipulating data, including many of the tools you&#39;ll find in databases.  We&#39;ll look at joins (merging data from different dataframes), groupbys (computing statistics for groups in a dataframe), and multi-indexed data (dataframes with more than two dimensions).  Incredibly useful for day-to-day work in business.  
 
-&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline | Code &lt;br&gt;
-&lt;strong&gt;Summary:&lt;/strong&gt;  Pandas has incredible facilities for manipulating data, including many of the tools you&amp;rsquo;ll find in databases.  We&amp;rsquo;ll look at joins (merging data from different dataframes), groupbys (computing statistics for groups in a dataframe), and multi-indexed data (dataframes with more than two dimensions).  Incredibly useful for day-to-day work in business.&lt;/p&gt;
+---
+## Topic.  Updating and installing packages 
 
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;topic-updating-and-installing-packages:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic.  Updating and installing packages&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline &lt;br&gt;
-&lt;strong&gt;Summary:&lt;/strong&gt;  Using conda, pip, etc.  Applications to Anaconda, Seaborn, Quandl.&lt;/p&gt;
+**Handouts:**  Outline &lt;br&gt; 
+**Summary:**  Using conda, pip, etc.  Applications to Anaconda, Seaborn, Quandl.  
+--&gt; 
 
 &lt;hr /&gt;
 
