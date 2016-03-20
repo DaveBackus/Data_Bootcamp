@@ -343,21 +343,20 @@
 
 &lt;h2 id=&#34;topic-5-python-graphics-matplotlib-fundamentals:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 5.  Python graphics:  Matplotlib fundamentals&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_graphics.pdf&#34;&gt;Outline&lt;/a&gt; | &lt;a href=&#34;https://davebackus.gitbooks.io/test/content/graphs1.html&#34;&gt;Book chapter&lt;/a&gt;| &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_graphics_1.ipynb&#34;&gt;Code&lt;/a&gt; (Download &amp;ldquo;Raw&amp;rdquo; as ipynb) | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_practice_a.ipynb&#34;&gt;Code Practice A&lt;/a&gt; (Download &amp;ldquo;Raw&amp;rdquo; as ipynb) &lt;br&gt;
+&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_graphics.pdf&#34;&gt;Outline&lt;/a&gt; | &lt;a href=&#34;https://davebackus.gitbooks.io/test/content/graphs1.html&#34;&gt;Book chapter&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_graphics_1.ipynb&#34;&gt;Code&lt;/a&gt; (Download &amp;ldquo;Raw&amp;rdquo; as ipynb) | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_practice_a.ipynb&#34;&gt;Code Practice A&lt;/a&gt; (Download &amp;ldquo;Raw&amp;rdquo; as ipynb) &lt;br&gt;
 &lt;strong&gt;Summary:&lt;/strong&gt;  Three approaches to graphics: dataframe plot methods, plot(x,y), and fig/ax objects and methods; lines, scatters, bars, horizontal bars, styles.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;remaining-topics-will-depend-upon-interest-yours-and-ours-we-have-almost-enough-for-another-course-if-there-s-something-you-d-particularly-like-to-see-let-us-know:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Remaining topics will depend upon interest &amp;ndash; yours and ours. We have almost enough for another course.  If there&amp;rsquo;s something you&amp;rsquo;d particularly like to see, let us know.&lt;/h2&gt;
 
 &lt;hr /&gt;
 
 &lt;h2 id=&#34;topic-6-review-applications:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 6.  Review &amp;amp; applications&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline | Code (review | applications) | &lt;br&gt;
-&lt;strong&gt;Summary:&lt;/strong&gt;  Exam review, applications to get us thinking interesting datasets and how to work with them. More of the latter after the exam.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_review.pdf&#34;&gt;Outline&lt;/a&gt; | Code (&lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_exam_practice.ipynb&#34;&gt;review&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_examples.ipynb&#34;&gt;applications&lt;/a&gt;) | &lt;br&gt;
+&lt;strong&gt;Summary:&lt;/strong&gt;  Exam review, followed by applications to get us thinking about interesting datasets and how to work with them.&lt;/p&gt;
 
 &lt;!--
+---
+## Remaining topics will depend upon interest -- yours and ours. We have almost enough for another course.  If there&#39;s something you&#39;d particularly like to see, let us know.  
+
 ---
 ## Topic.  More Pandas
 
@@ -376,7 +375,7 @@
 &lt;h2 id=&#34;topic-distributions-dependence-and-dynamics:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic.  Distributions, dependence, and dynamics&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline | Code  &lt;br&gt;
-&lt;strong&gt;Summary:&lt;/strong&gt;  This is really three topics.  &lt;em&gt;Distributions&lt;/em&gt; is about the frequencies of various outcomes:  stock returns, incomes of individuals, medicial expenses, movie grosses.  Tools include histograms, smoothed versions (kde&amp;rsquo;s), cumulative and log plots. &lt;em&gt;Dependence&lt;/em&gt; is about connections between two variables:  scatterplots, correlation, Anscombe&amp;rsquo;s quartet, Simpson&amp;rsquo;s paradox. &lt;em&gt;Dynamics&lt;/em&gt; is about the relation between variables at two dates:  stock returns this month and next, cross-correlations, the ccf.&lt;/p&gt;
+&lt;strong&gt;Summary:&lt;/strong&gt;  This is really three topics.  &lt;em&gt;Distributions&lt;/em&gt; is about the frequencies of various outcomes:  stock returns, incomes of individuals, medicial expenses, movie grosses.  Tools include histograms, smoothed versions (kde&amp;rsquo;s), cumulative and log plots. &lt;em&gt;Dependence&lt;/em&gt; is about connections between two (or more) variables:  scatterplots, correlation, Anscombe&amp;rsquo;s quartet, Simpson&amp;rsquo;s paradox. &lt;em&gt;Dynamics&lt;/em&gt; is about the relation between variables at two dates:  stock returns this month and next, cross-correlations, the ccf.&lt;/p&gt;
 
 &lt;hr /&gt;
 
