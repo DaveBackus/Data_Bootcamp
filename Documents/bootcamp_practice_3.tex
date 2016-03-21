@@ -2,6 +2,8 @@
 
 \input{../../LaTeX/preamble.tex}
 
+%\printanswers
+
 % document starts here
 \begin{document}
 \parskip=\bigskipamount
@@ -14,7 +16,28 @@
 \centerline{Revised: \today}
 
 {\it Answer each of the questions below.
-We recommend code with comments, printed out and submitted in hardcopy.}
+We recommend code with comments.
+Please submit in hardcopy.}
+
+The data input parts of each question are included in this template:
+
+\vspace{-0.06in}
+{\small
+\url{https://raw.githubusercontent.com/DaveBackus/Data_Bootcamp/master/Code/Python/bootcamp_practice_3_template.py}
+}
+\vspace{-0.06in}
+
+Or just navigate from the GitHub page:  \\
+Code $\Rightarrow$ Python $\Rightarrow$ \verb|bootcamp_practice_3_template.py| $\Rightarrow$ click on Raw button
+
+
+\begin{solution}
+Short answers follows.
+The code is attached; download this pdf file,
+open it with the Adobe Reader or the equivalent,
+and click on the pushpin:
+\attachfile{../Code/Answers/bootcamp_practice_3_answerkey.py}
+\end{solution}
 
 \begin{questions}
 \item Enter and run this code in Spyder to produce the dataframe \texttt{weo}:
@@ -39,8 +62,15 @@ variable PPPPC in the IMF's {\it World Economic Outlook\/} database.
 \item How many rows does it have?  Columns?
 \item What {\tt dtypes} are the variables/columns?  What does this mean?
 \item {\it Challenging.\/}
-Find and apply a method to convert {\tt weo['Year']} to type {\tt float}. 
-{\it Hint:\/} The method begins with the letter {\tt a}. 
+What are each of these expressions?  What type?
+\begin{verbatim}
+weo['Year']
+weo[['Year']]
+weo[[3]]
+\end{verbatim}
+\item {\it Challenging.\/}
+Find and apply a method to convert {\tt weo['Year']} to type {\tt float}.
+{\it Hint:\/} The method begins with the letter {\tt a}.
 \item Describe the result of the statement \texttt{t = weo.tail(3)}.
 What kind of object is \texttt{t}?  What does it look like?
 \item How would you create a new dataframe that consists of the first 4 rows of \texttt{weo}?
@@ -60,21 +90,86 @@ How would you compute means across countries for each year?
 \item {\it Challenging.\/} Change the colors of the lines to green (Brazil), red (Japan),
 and blue (US).
 \item {\it Challenging.\/}
-Do the same plot with a log scale.  
-{\it Hint:\/} Read the documentation for the plot method.  
+Do the same plot with a log scale.
+{\it Hint:\/} Read the documentation for the plot method.
 \item Plot Brazil on its own.
 \end{parts}
 
+\begin{solution}
+\begin{parts}
+\item The {\tt import} statement adds the {\tt pandas} data management package.
+\item Dictionary --- note the curly braces.
+\item The {\tt pd.} identifies {\tt DataFrame} as a pandas function.
+\item Dataframe.
+\item {\tt weo.shape} tells us that {\tt weo} has 7 rows and 4 columns.
+\item {\tt weo.dtypes} generates the output
+\begin{verbatim}
+BRA     float64
+JPN     float64
+USA     float64
+Year      int64
+\end{verbatim}
+So the first three variables are floats, the last one is an integer.
+\item Apply the type function.  The first one is a series, the last two are
+dataframes.
+The difference here is the input.  If the input is a string, it returns a variable.
+If the input is a list, it returns a dataframe.  The content is similar, but they're
+(slightly) different objects.
+This isn't particularly important, other than to remind ourselves that
+the details matter here.
+
+\item We use:  {\tt weo['Year'] = weo['Year'].astype(float)}.
+The right side changes the type to float, then we assign it back to {\tt weo['Year']}.
+
+\item {\tt t = weo.tail(3)}
+is a dataframe consisting of the last three rows of {\tt weo}.
+
+\item {\tt  weo.head(4)}.
+
+\item A series, a single variable (column).
+
+\item Use the statement:  {\tt weo['ratio'] = weo['BRA']/weo['JPN']}.
+
+\item Use: {\tt weo = weo.drop(['ratio'], axis=1)}.
+
+\item We get (and print) the row and column labels with
+\begin{verbatim}
+print('Row labels (index):', weo.index)
+print('Column labels:', weo.columns)
+\end{verbatim}
+
+\item \verb|weo = weo.set_index(['Year'])|.
+
+\item \verb| weo = weo.rename(columns={'BRA': 'Brazil', 'JPN': 'Japan', | \\
+      \verb|                           'USA': 'United States'})|
+
+\item \verb|weo.to_excel('weo.xls')|
+
+\item {\tt print('Country means:', weo.mean(), sep='')}
+
+\item {\tt print('Year means:', weo.mean(axis=1), sep='')}
+
+\item {\tt weo.plot()}
+(The year labels are messed up here, we'll have to fix that/)
+
+\item {\tt weo.plot(color=['green', 'red', 'blue'])}
+
+\item There's an ambiguity here over whether to use logs on the x axis, the y axis, or both.  This does the y axis:  \\ {\tt weo.plot(color=['green', 'red', 'blue'], logy=True)}
+
+\item {\tt weo['Brazil'].plot()}
+
+\end{parts}
+\end{solution}
 
 % ----------------------------------------------------------------------------
-\item Use \verb|read_csv()| to read the responses of our class entry poll from 
+\item Use \verb|read_csv()| to read the responses of our class entry poll from
 
 \vspace{0.1in}
 \centerline{\url{http://pages.stern.nyu.edu/~dbackus/Data/Data-Bootcamp-entry-poll_s16.csv}}
 \vspace{0.1in}
 
 \begin{parts}
-\item Read the file.
+\item Read the file and assign it to the variable {\tt ep}.
 \item Describe its contents.  What are the variables?  The responses?
 \item What data types are the variables?
 \item Change the variable names to something shorter.
@@ -83,8 +178,47 @@ Describe what this code does:
 \begin{verbatim}
 ep[list(ep)[1]].value_counts()
 \end{verbatim}
-{\it Suggestion:\/} Break it into two statements and explain them one at a time.
+{\it Suggestion:\/} Break it into two or more statements and explain them one at a time.
 \end{parts}
+
+\begin{solution}
+\begin{parts}
+\item \verb|ep = pd.read_csv(url)|
+\item You can see them at the source.  The file is a ``dump''
+of questions (the variable names) and answers (the data).
+It's somewhat verbose, which makes it hard to print out and look at.
+
+\item The dtypes are all objects:  strings.
+
+\item The names are so long it's easier to replace all of them with
+\begin{verbatim}
+ep.columns = ['time', 'program', 'career', 'code_exp', 'stats_exp',
+              'media', 'other', 'major', 'data', 'why', 'topics']
+\end{verbatim}
+
+\item This is practice with breaking complicated code into manageable pieces:
+\begin{itemize}
+\item {\tt list(ep)} is a list of variable names, each of them strings
+\item {\tt list(ep)[1]} is the second variable name, \\
+{\tt 'What program are you enrolled in?'},\\
+or its replacement {\tt program}.
+\item {\tt ep[list(ep)[1]]} is the second variable --- a series.
+\item \verb|ep[list(ep)[1]].value_counts()|  applies the
+\verb|value_counts()| method, which lists the number of each response to the question.  Here we get
+\begin{verbatim}
+MBA                             46
+Undergraduate business          36
+Other undergraduate             13
+\end{verbatim}
+and a collection of other responses with one or two each.
+
+\end{itemize}
+
+%\begin{verbatim}
+%\end{verbatim}
+
+\end{parts}
+\end{solution}
 
 
 % ----------------------------------------------------------------------------
@@ -122,9 +256,38 @@ What do they represent?
 \item {\it Challenging.\/}
 Construct horizontal bar charts of the top ten majors sorted, first, by median salary
 and, second, by the salary of the 25th percentile.
+In each case plot just the variable you sorted on.
 \end{parts}
+
+\begin{solution}
+\begin{parts}
+\item Use the code:  \verb|df538 = pd.read_csv(url)|
+
+\item {\tt nrows=10}.
+
+\item The variables are total (the total number for this major),
+median (median salary), P25th (25th percentile salary),
+and P75th (75th percentile salary).
+The last three describe the overall distribution of salaries:
+the 25th, 50th, and 75th percentiles.
+
+\item \verb|df = df.set_index(['Major'])|
+
+\item \verb|h = df.head(10)|
+
+\item \verb|h['Median'].sort_values().plot(kind='barh')|
+\item \verb|h['P25th'].sort_values().plot(kind='barh')|
+
+\end{parts}
+\end{solution}
+
+\item Approximately how long did this assignment take you?
 
 \end{questions}
 
 
+
+\input{../LaTeX/footer.tex}
+
 \end{document}
+

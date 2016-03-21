@@ -40,13 +40,17 @@ The topics in the first half follow **[THE BOOK](https://www.gitbook.com/book/da
 ---
 ## Topic 6.  Review & applications 
 
-**Handouts:**  [Outline](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_review.pdf) | Code ([review](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_exam_practice.ipynb) | [applications](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_examples.ipynb)) | <br>
+**Handouts:**  [Outline](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_review.pdf) | Code ([review](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_exam_practice.ipynb) | [applications](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_examples.ipynb)) <br>
 **Summary:**  Exam review, followed by applications to get us thinking about interesting datasets and how to work with them.  
 
-<!--
+## Topic #7.  Exam
+
+**Handouts:** Exam with answers
+
 ---
 ## Remaining topics will depend upon interest -- yours and ours. We have almost enough for another course.  If there's something you'd particularly like to see, let us know.  
 
+<!--
 ---
 ## Topic.  More Pandas
 

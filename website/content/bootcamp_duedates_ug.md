@@ -16,16 +16,15 @@ Due dates for Data Bootcamp @ NYU Stern, Spring 2016, Undergrad section.  Delive
 [Spring break, have fun]  
 
 
-**March 22** <br> Submit [Revised Project Ideas](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf).  
+**March 22** <br> Recommended but not graded:  [Optional Code Practice A](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_practice_a.ipynb).
 
-**March 29** <br> Exam (75 minutes, in class, bring one page of notes).  Recommended but not graded:  [Optional Code Practice A](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_a.pdf).
 
-**April 5** <br> Nothing due; look for group members and project idea. Recommended but not graded:  [Optional Code Practice B](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_b.pdf).
- 
-**April 12** <br> Submit [Project Proposal](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf).  
+**March 29** <br> Exam (75 minutes, in class, bring one page of notes).  
 
-**April 19** <br> Submit [Data Report](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf).  
+**April 7** <br> Submit [Revised Project Ideas](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf).  
 
-**April 26.** Nothing due.  Recommended but not graded: [Optional Code Practice C](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_c.pdf).
+**April 19** <br> Submit [Project Proposal](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf).  
+
+**April 26.** Submit [Data Report](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf).  This is really a little late; we urge you to think about data from the beginning. Ask for help if you're not sure.  
 
 **May 5** <br> Submit project by email to db3@nyu.edu. The subject line should be "bootcamp project ug".  The file name should be your last names separated by dashes and a short title;  eg, something like *Jones-Smith-Zhang-India.ipynb*. See [Project Guide](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf) for additional information.

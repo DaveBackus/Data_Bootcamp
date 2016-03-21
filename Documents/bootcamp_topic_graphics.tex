@@ -1,0 +1,132 @@
+\documentclass[11pt]{article}
+
+\input{../LaTeX/preamble.tex}
+
+% document starts here
+\begin{document}
+\parskip=\bigskipamount
+\parindent=0.0in
+\thispagestyle{empty}
+\input{../LaTeX/header.tex}
+
+\bigskip\bigskip
+\centerline{\Large \bf Topic Outline:  Matplotlib Graphics}
+\centerline{Revised: \today}
+
+\section*{Materials}
+
+\begin{itemize}
+\item  Today's handouts:  this outline, book chapter, code practice answers, stickers (as needed)
+\item  All posted on {\it Topic outlines \& links\/} page of website (except the stickers)
+\end{itemize}
+
+\section*{Preliminaries}
+
+\begin{itemize}
+\item Tools and buzzwords
+\begin{itemize}
+\item IPython notebooks in Jupyter.
+\item Graphing with Matplotlib: dataframe plot methods, figure and axis objects.
+\end{itemize}
+
+\item What is this?
+\begin{itemize}
+\item Package
+\item Pandas
+\item {\tt import} statement
+\item csv file
+\item A dataframe {\tt df}
+\item {\tt df.shape}
+\item {\tt df.columns}
+\item {\tt df.index}
+\item Dataframe methods:  \verb|set_index|, {\tt rename}, {\tt drop}
+\item The ``x'' and ``y'' variables in the {\tt plot} method
+\item Jupyter
+\end{itemize}
+
+\item {\bf Exercise}
+\begin{itemize}
+\item Put red sticker on your laptop
+
+\item Download IPython notebook
+
+%{\small
+\url{https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_graphics.ipynb}
+%}
+
+and save Raw file in your \verb|Data_Bootcamp| directory
+\item Start Jupyter and open notebook
+\item Run this code:
+\begin{verbatim}
+import pandas as pd
+print('Pandas version: ', pd.__version__)
+\end{verbatim}
+\item Replace red sticker with green when you're set
+\end{itemize}
+
+\needspace{3\baselineskip}
+\item {\bf Known issues}
+\begin{itemize}
+\item Notebook has {\tt .txt} extension.  Solution:  In Jupyter, navigate to the file
+and rename it, removing the extension.
+\item Windows 10 + Chrome sometimes has no right-click Save As option.
+Solution:  Use a different browser.
+\item Some foreign Macs won't run Jupyter.  Solution:  Ask for help. More at StackOverflow: \\
+\url{http://stackoverflow.com/a/19961403/804513}
+
+\end{itemize}
+\end{itemize}
+
+
+\section*{Python graphics:  Introduction to Matplotlib}
+
+We'll follow the notebook:
+\begin{itemize}
+\item Jupyter
+\item Markdown
+\item Preliminaries:  import statements, dataframes to work with
+\item Graphing in Excel
+\item Apply plot methods to dataframes
+\item {\tt plot(x,y)} (skip)
+\item Figure and axis objects
+\item Recap
+\item Bells and whistles
+\item Examples
+\item Review
+\begin{itemize}
+\item Put red sticker on, replace with green when done
+\end{itemize}
+\end{itemize}
+
+
+\begin{comment}
+\section*{Examples}
+
+If time permits, we'll go through some examples of economic and financial data
+and its properties.  It's an IPython notebook that you can view on the GitHub repo:
+the \verb|Code/IPython| directory,
+file \verb|bootcamp_examples.ipynb|.
+\end{comment}
+
+\section*{After class}
+
+\begin{itemize}
+\item Required
+\begin{itemize}
+\item Nothing
+\end{itemize}
+\item Recommended
+\begin{itemize}
+\item {\bf Write}:  After class, write down everything you remember without using your notes
+\item {\bf Review:} Reread the chapter and fill in anything you missed.
+\item Download the {\bf Code Practice A} notebook and work through the questions.
+If you have trouble with the download step, keep practicing with notebooks
+in the {\tt IPython} and {\tt Lab} directories.
+You will need this ability for the exam in a few weeks.
+\end{itemize}
+\end{itemize}
+
+\input{../LaTeX/footer.tex}
+
+\end{document}
+
