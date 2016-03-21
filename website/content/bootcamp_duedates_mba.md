@@ -32,7 +32,7 @@ Recommended but not graded:  [Optional Code Practice B](https://github.com/DaveB
 
 **April 20** <br> Submit [Project Proposal](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf).  
 
-**April 27** <br> Submit [Data Report](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf).  This is really a little late; we urge you to think about data from the beginning. Ask for help if you're not sure.    
+**April 27** <br> Submit [Data Report](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf).  This is really a little late; we urge you to think about data from the beginning. Ask for help if you're not sure you have what you need.    
 
 <!--
 Recommended but not graded: [Optional Code Practice C](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_c.pdf).
