@@ -343,7 +343,7 @@
 
 &lt;h2 id=&#34;topic-5-python-graphics-matplotlib-fundamentals:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 5.  Python graphics:  Matplotlib fundamentals&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_graphics.pdf&#34;&gt;Outline&lt;/a&gt; | &lt;a href=&#34;https://davebackus.gitbooks.io/test/content/graphs1.html&#34;&gt;Book chapter&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_graphics_1.ipynb&#34;&gt;Code&lt;/a&gt; (Download &amp;ldquo;Raw&amp;rdquo; as ipynb) | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_practice_a.ipynb&#34;&gt;Code Practice A&lt;/a&gt; (Download &amp;ldquo;Raw&amp;rdquo; as ipynb) &lt;br&gt;
+&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_graphics.pdf&#34;&gt;Outline&lt;/a&gt; | &lt;a href=&#34;https://davebackus.gitbooks.io/test/content/graphs1.html&#34;&gt;Book chapter&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_graphics.ipynb&#34;&gt;Code&lt;/a&gt; (Download &amp;ldquo;Raw&amp;rdquo; as ipynb) | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_practice_a.ipynb&#34;&gt;Code Practice A&lt;/a&gt; (Download &amp;ldquo;Raw&amp;rdquo; as ipynb) &lt;br&gt;
 &lt;strong&gt;Summary:&lt;/strong&gt;  Three approaches to graphics: dataframe plot methods, plot(x,y), and fig/ax objects and methods; lines, scatters, bars, horizontal bars, styles.&lt;/p&gt;
 
 &lt;hr /&gt;
