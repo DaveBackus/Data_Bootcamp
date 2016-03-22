@@ -34,10 +34,17 @@ import time # to limit the time each graph is shown while streaming
 #import urllib
 #%%
 """
+<<<<<<< Updated upstream:Code/Lab/GSW_bonds_plotly-streaming.py
 1. Read in csv version of Fed data
 """
 df = pd.read_csv('../Data/feds200628.csv', skiprows=9, index_col=0,     # 0!
                      parse_dates=True, na_filter=False)
+=======
+1. Read in csv version of Fed data 
+""" 
+df = pd.read_csv('/Users/sarahbeckett-hile/Desktop/feds200628.csv', skiprows=9, index_col=0,     # 0!
+                     parse_dates=True, na_filter=False)     
+>>>>>>> Stashed changes:Code/Python/bonds_feddata_streaming.py
 #tips = pd.read_csv('feds200805.csv', skiprows=18, index_col=0)
 
 #%%
