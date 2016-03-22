@@ -63,13 +63,7 @@ Part of the #nyuecon collection at NYU's Stern School of Business.
 
 Back by popular demand:  the second annual SQL Bootcamp @ NYU Stern.  This four-session Amazon-approved course is designed to get Amazon's summer interns up to speed so they can hit the ground running.  Others may find the same skill set useful.  Organized by Professors David Backus and Glenn Okun, the course is designed and delivered by MBA2 **[Sarah Beckett-Hile](https://www.linkedin.com/in/sarahbecketthile)**.  
  
-**2016 mini-course.** The 2016 edition of SQL Bootcamp consists of four Friday sessions starting **March 25**.   
-
-**All sessions will run from 1:30-4:30 on Fridays:**
-* March 25
-* April 1
-* April 8
-* April 15
+**2016 mini-course.** The 2016 edition of SQL Bootcamp consists of four Friday sessions starting **March 25 through April 15** and will run from **1:30 to 4:30pm**. 
 
 **Room**: [KMC3-65](http://web-docs.stern.nyu.edu/old_web/emplibrary/NYUSternLocation.pdf)
 
