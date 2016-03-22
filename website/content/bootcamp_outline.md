@@ -43,12 +43,15 @@ The topics in the first half follow **[THE BOOK](https://www.gitbook.com/book/da
 **Handouts:**  [Outline](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_review.pdf) | Code ([review](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_exam_practice.ipynb) | [applications](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_examples.ipynb)) <br>
 **Summary:**  Exam review, followed by applications to get us thinking about interesting datasets and how to work with them.  
 
+---
 ## Topic #7.  Exam
 
 **Handouts:** Exam with answers
 
 ---
-## Remaining topics will depend upon interest -- yours and ours. We have almost enough for another course.  If there's something you'd particularly like to see, let us know.  
+## Remaining topics will depend upon interest -- yours and ours. 
+
+We have almost enough for another course.  If there's something you'd particularly like to see, let us know.  
 
 <!--
 ---
@@ -70,12 +73,15 @@ The topics in the first half follow **[THE BOOK](https://www.gitbook.com/book/da
 **Handouts:**  Outline | Code  <br> 
 **Summary:**  This is really three topics.  *Distributions* is about the frequencies of various outcomes:  stock returns, incomes of individuals, medicial expenses, movie grosses.  Tools include histograms, smoothed versions (kde's), cumulative and log plots. *Dependence* is about connections between two (or more) variables:  scatterplots, correlation, Anscombe's quartet, Simpson's paradox. *Dynamics* is about the relation between variables at two dates:  stock returns this month and next, cross-correlations, the ccf.  
 
+<!--
 ---
 ## Topic.  Demography & healthcare 
 
 **Handouts:**  Outline | Code  <br>
 **Summary:**  The world is getting older -- a lot older.  Basic data for this involves the age distribution and the things that drive it:  mortality (people are dying less), fertility (and having few children).  All of this data is freely available.  <br>
 Healthcare is closely related.  As people age, they consume more healthcare, which raises lots of questions about how to deliver and pay for it.  
+--> 
+
 
 ---
 ## Topic.  Statistics & Machine Learning 

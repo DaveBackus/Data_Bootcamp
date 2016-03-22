@@ -16,7 +16,7 @@ import packages, check versions
 """
 import sys
 import pandas as pd
-#import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 
 print('\nPython version: ', sys.version)
 print('Pandas version: ', pd.__version__, '\n')
@@ -62,13 +62,16 @@ docs = docs[[2013]]
 # mpd.columns = map(str.rstrip, mpd.columns)
 docs.index = [name.rsplit(maxsplit=1)[0] for name in docs.index.tolist()]
 
+#docs.index 
+#%%
 # select countries
 countries = ['Canada', 'France', 'Germany', 'Japan', 'United Kingdom',
              'United States']
 some = docs[docs.index.isin(countries)]
 
 # plot
-ax = some.plot(kind='barh', alpha=0.5, legend=False)
+fig, ax = plt.subplots()
+some.plot(ax=ax, kind='barh', alpha=0.5, legend=False)
 ax.set_title('Number of doctors', fontsize=14, loc='left')
 ax.set_xlabel('Doctors per 1000 Population')
 

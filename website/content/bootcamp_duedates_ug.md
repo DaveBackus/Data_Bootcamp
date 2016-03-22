@@ -19,7 +19,7 @@ Due dates for Data Bootcamp @ NYU Stern, Spring 2016, Undergrad section.  Delive
 **March 22** <br> Recommended but not graded:  [Optional Code Practice A](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_practice_a.ipynb).
 
 
-**March 29** <br> Exam (75 minutes, in class, bring one page of notes).  
+**March 29** <br> Exam (75 minutes, in class, open book, open internet if the wireless is up, bring one page of notes).  
 
 **April 7** <br> Submit [Revised Project Ideas](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf).  
 
