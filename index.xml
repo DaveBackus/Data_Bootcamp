@@ -184,7 +184,7 @@ Recommended but not graded: [Optional Code Practice C](https://github.com/DaveBa
 
 &lt;p&gt;&lt;strong&gt;March 22&lt;/strong&gt; &lt;br&gt; Recommended but not graded:  &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_practice_a.ipynb&#34;&gt;Optional Code Practice A&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;March 29&lt;/strong&gt; &lt;br&gt; Exam (75 minutes, in class, bring one page of notes).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;March 29&lt;/strong&gt; &lt;br&gt; Exam (75 minutes, in class, open book, open internet if the wireless is up, bring one page of notes).&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;April 7&lt;/strong&gt; &lt;br&gt; Submit &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf&#34;&gt;Revised Project Ideas&lt;/a&gt;.&lt;/p&gt;
 
@@ -359,13 +359,17 @@ Recommended but not graded: [Optional Code Practice C](https://github.com/DaveBa
 &lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_review.pdf&#34;&gt;Outline&lt;/a&gt; | Code (&lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_exam_practice.ipynb&#34;&gt;review&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_examples.ipynb&#34;&gt;applications&lt;/a&gt;) &lt;br&gt;
 &lt;strong&gt;Summary:&lt;/strong&gt;  Exam review, followed by applications to get us thinking about interesting datasets and how to work with them.&lt;/p&gt;
 
+&lt;hr /&gt;
+
 &lt;h2 id=&#34;topic-7-exam:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic #7.  Exam&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt; Exam with answers&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;remaining-topics-will-depend-upon-interest-yours-and-ours-we-have-almost-enough-for-another-course-if-there-s-something-you-d-particularly-like-to-see-let-us-know:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Remaining topics will depend upon interest &amp;ndash; yours and ours. We have almost enough for another course.  If there&amp;rsquo;s something you&amp;rsquo;d particularly like to see, let us know.&lt;/h2&gt;
+&lt;h2 id=&#34;remaining-topics-will-depend-upon-interest-yours-and-ours:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Remaining topics will depend upon interest &amp;ndash; yours and ours.&lt;/h2&gt;
+
+&lt;p&gt;We have almost enough for another course.  If there&amp;rsquo;s something you&amp;rsquo;d particularly like to see, let us know.&lt;/p&gt;
 
 &lt;!--
 ---
@@ -388,13 +392,14 @@ Recommended but not graded: [Optional Code Practice C](https://github.com/DaveBa
 &lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline | Code  &lt;br&gt;
 &lt;strong&gt;Summary:&lt;/strong&gt;  This is really three topics.  &lt;em&gt;Distributions&lt;/em&gt; is about the frequencies of various outcomes:  stock returns, incomes of individuals, medicial expenses, movie grosses.  Tools include histograms, smoothed versions (kde&amp;rsquo;s), cumulative and log plots. &lt;em&gt;Dependence&lt;/em&gt; is about connections between two (or more) variables:  scatterplots, correlation, Anscombe&amp;rsquo;s quartet, Simpson&amp;rsquo;s paradox. &lt;em&gt;Dynamics&lt;/em&gt; is about the relation between variables at two dates:  stock returns this month and next, cross-correlations, the ccf.&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;!--
+---
+## Topic.  Demography &amp; healthcare 
 
-&lt;h2 id=&#34;topic-demography-healthcare:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic.  Demography &amp;amp; healthcare&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline | Code  &lt;br&gt;
-&lt;strong&gt;Summary:&lt;/strong&gt;  The world is getting older &amp;ndash; a lot older.  Basic data for this involves the age distribution and the things that drive it:  mortality (people are dying less), fertility (and having few children).  All of this data is freely available.  &lt;br&gt;
-Healthcare is closely related.  As people age, they consume more healthcare, which raises lots of questions about how to deliver and pay for it.&lt;/p&gt;
+**Handouts:**  Outline | Code  &lt;br&gt;
+**Summary:**  The world is getting older -- a lot older.  Basic data for this involves the age distribution and the things that drive it:  mortality (people are dying less), fertility (and having few children).  All of this data is freely available.  &lt;br&gt;
+Healthcare is closely related.  As people age, they consume more healthcare, which raises lots of questions about how to deliver and pay for it.  
+--&gt; 
 
 &lt;hr /&gt;
 
