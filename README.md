@@ -65,8 +65,12 @@ Back by popular demand:  the second annual SQL Bootcamp @ NYU Stern.  This four-
  
 The 2016 edition of SQL Bootcamp consists of four mandatory sessions:  Fridays March 25, April 1, April 8, and April 15.  Each session will run from 1:30 to (approx) 4:30pm in room 3-65 of NYU's [Kaufman Management Center](http://web-docs.stern.nyu.edu/old_web/emplibrary/NYUSternLocation.pdf).  
 
-If you are interested, please sign up for our **[Google group](https://groups.google.com/forum/#!forum/nyu_data_bootcamp)** to get further information and announcements.  We expect to post **video** after each class, but are checking now to make sure we can make it accessible outside the school.  
-
+If you plan to join us:
+* Sign up for our **[Google group](https://groups.google.com/forum/#!forum/nyu_data_bootcamp)** to get further information and announcements.  We expect to post **video** after each class, but are checking now to make sure we can make it accessible outside the school.  
+* Download the class file: [SQL_Bootcamp_Stern_2016](https://www.dropbox.com/s/knjvfqadgkhi9hx/SQL_Bootcamp_Stern_2016.ipynb?dl=1)
+* Download the [syllabus](https://github.com/DaveBackus/Data_Bootcamp/raw/master/Code/SQL/SQL_Bootcamp_Syllabus.pdf)
+* Download the [Cheat Sheet](https://github.com/DaveBackus/Data_Bootcamp/raw/master/Code/SQL/SQLBOOTCAMPCHEATSHEET.pdf), which summarizes concepts
+* Download and install [Anaconda **for Python 3.5**](https://www.continuum.io/downloads) by selecting the 64-Bit Graphical Installer
 
 <!--
 #### Spring 2015 edition  
