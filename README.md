@@ -65,7 +65,7 @@ Back by popular demand:  the second annual SQL Bootcamp @ NYU Stern.  This four-
  
 **2016 mini-course.** The 2016 edition of SQL Bootcamp consists of four Friday sessions starting **March 25**.   
 
-**All sessions will run from 1:30-4:30 on Fridays: **
+**All sessions will run from 1:30-4:30 on Fridays:**
 * March 25
 * April 1
 * April 8
