@@ -21,7 +21,10 @@ Due dates for Data Bootcamp @ NYU Stern, Spring 2016, MBA section.  Deliverables
 **March 30** <br> Exam (75 minutes, in class, open book, open internet if the wireless is up, bring one page of notes).  
 
 
-**April 6** <br> Submit [Revised Project Ideas](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf).   
+**April 6** <br> Submit [Revised Project Ideas](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf).  
+(We're willing to let this one slide a week.  The point is that you should start thinking
+about your project as soon as the exam is over.  But if you want to take another week to think
+about this, do it.)
 
 <!--
 Recommended but not graded:  [Optional Code Practice B](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_b.pdf).

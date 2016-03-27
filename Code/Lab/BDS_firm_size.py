@@ -35,8 +35,16 @@ print('\nVariables and dtypes:\n', raw.dtypes, sep='')
 
 # clean up size labels
 # http://pandas.pydata.org/pandas-docs/stable/text.html#splitting-and-replacing-strings
-raw['fsize'] = raw['fsize'].str.split(n=1).str[1]
+#raw['fsize'] = raw['fsize'].str.split(n=1).str[1]
 #print('\nEdited firm size categories:\n', raw['fsize'].head(12), sep='')
+
+#%%
+"""
+# exam data
+d13 = raw[raw['year2']==2013][['fsize', 'Firms', 'Emp']]
+d13.to_dict('list')
+"""
+
 
 #%%
 """

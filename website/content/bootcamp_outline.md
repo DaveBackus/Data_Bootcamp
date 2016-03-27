@@ -46,12 +46,20 @@ The topics in the first half follow **[THE BOOK](https://www.gitbook.com/book/da
 ---
 ## Topic #7.  Exam
 
-**Handouts:** Exam with answers
+**Posted after class:** Exam with answers 
+
+---
+## Topic #8.  Thinking about projects 
+
+**Handouts:** [Outline](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_projects.pdf) | [Project Examples](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project_examples.pdf) | Code ([current indicators](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_indicators.ipynb) | [demography](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Lab/UN_demography.ipynb)) <br>
+**Summary:**  Projects:  say something interesting with data.  Idea machines. Examples.        
 
 ---
 ## Remaining topics will depend upon interest -- yours and ours. 
 
-We have almost enough for another course.  If there's something you'd particularly like to see, let us know.  
+We have almost enough for another course.  If there's something you'd particularly like to see, let us know.
+
+The general plan is to mix data applications and tools.   
 
 <!--
 ---
