@@ -225,7 +225,7 @@ Recommended but not graded: [Optional Code Practice C](https://github.com/DaveBa
 
 &lt;p&gt;&lt;strong&gt;Is this a standard Python course?&lt;/strong&gt;  No, it’s a data course that uses Python.  We’ll cover aspects of Python related to data analysis, specifically data management and visualization, and ignore the rest.  We estimate the overlap with a typical programming class to be 15-20 percent.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Will this turn me into a programmer?&lt;/strong&gt;  You will come out of the course somewhere between Brad Pitt and Jonah Hill in “&lt;a href=&#34;http://en.wikipedia.org/wiki/Moneyball_(film)&#34;&gt;Moneyball&lt;/a&gt;,&amp;rdquo; with a solid foundation for dealing with whatever data comes your way.  You will not be ready for a career as a programmer, but you will be able to do things with data that Excel users can only dream about.  And you will be able to work effectively with people who know more.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Will this turn me into a programmer?&lt;/strong&gt;  You will come out of the course somewhere between Brad Pitt and Jonah Hill in “&lt;a href=&#34;http://en.wikipedia.org/wiki/Moneyball_(film)&#34;&gt;Moneyball&lt;/a&gt;,&amp;rdquo; with the skills to deal with whatever data comes your way.  You will not be ready for a career as a programmer, but you will be able to do things with data that Excel users can only dream about.  And you will be able to work effectively with people who know more.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Will this turn me into a data scientist?&lt;/strong&gt;  Sadly, no.  But you will have a solid foundation for pursuing the many technical topics that fall under the rubrics data science and machine learning.  See, for example, the extensive collection of courses on &lt;strong&gt;business analytics&lt;/strong&gt; and &lt;strong&gt;data science&lt;/strong&gt; offered by our &lt;a href=&#34;http://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/academic-departments/ioms-dept/&#34;&gt;IOMS&lt;/a&gt; and &lt;a href=&#34;https://www.cs.nyu.edu/web/index.html&#34;&gt;CS&lt;/a&gt; groups.&lt;/p&gt;
 
@@ -372,7 +372,7 @@ Recommended but not graded: [Optional Code Practice C](https://github.com/DaveBa
 
 &lt;h2 id=&#34;topic-8-thinking-about-projects:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic #8.  Thinking about projects&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt; &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_projects.pdf&#34;&gt;Outline&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project_examples.pdf&#34;&gt;Project Examples&lt;/a&gt; | Code (&lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_indicators.ipynb&#34;&gt;current indicators&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Lab/UN_demography.ipynb&#34;&gt;demography&lt;/a&gt;) &lt;br&gt;
+&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt; &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_projects.pdf&#34;&gt;Outline&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project_examples.pdf&#34;&gt;Project Examples&lt;/a&gt; | Code (&lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_indicators.ipynb&#34;&gt;examples&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_indicators.ipynb&#34;&gt;current indicators&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Lab/UN_demography.ipynb&#34;&gt;demography&lt;/a&gt;) &lt;br&gt;
 &lt;strong&gt;Summary:&lt;/strong&gt;  Projects:  say something interesting with data.  Idea machines. Examples.&lt;/p&gt;
 
 &lt;hr /&gt;
@@ -381,7 +381,7 @@ Recommended but not graded: [Optional Code Practice C](https://github.com/DaveBa
 
 &lt;p&gt;We have almost enough for another course.  If there&amp;rsquo;s something you&amp;rsquo;d particularly like to see, let us know.&lt;/p&gt;
 
-&lt;p&gt;The general plan is to mix data applications and tools.&lt;/p&gt;
+&lt;p&gt;The plan is to mix data applications and tools in parallel.&lt;/p&gt;
 
 &lt;!--
 ---
