@@ -18,7 +18,7 @@ Data Bootcamp is about nuts and bolts data analysis.  You will learn about econo
 
 **Is this a standard Python course?**  No, it’s a data course that uses Python.  We’ll cover aspects of Python related to data analysis, specifically data management and visualization, and ignore the rest.  We estimate the overlap with a typical programming class to be 15-20 percent.  
 
-**Will this turn me into a programmer?**  You will come out of the course somewhere between Brad Pitt and Jonah Hill in “[Moneyball](http://en.wikipedia.org/wiki/Moneyball_(film))," with a solid foundation for dealing with whatever data comes your way.  You will not be ready for a career as a programmer, but you will be able to do things with data that Excel users can only dream about.  And you will be able to work effectively with people who know more.  
+**Will this turn me into a programmer?**  You will come out of the course somewhere between Brad Pitt and Jonah Hill in “[Moneyball](http://en.wikipedia.org/wiki/Moneyball_(film))," with the skills to deal with whatever data comes your way.  You will not be ready for a career as a programmer, but you will be able to do things with data that Excel users can only dream about.  And you will be able to work effectively with people who know more.  
 
 **Will this turn me into a data scientist?**  Sadly, no.  But you will have a solid foundation for pursuing the many technical topics that fall under the rubrics data science and machine learning.  See, for example, the extensive collection of courses on **business analytics** and **data science** offered by our [IOMS](http://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/academic-departments/ioms-dept/) and [CS](https://www.cs.nyu.edu/web/index.html) groups.  
 
