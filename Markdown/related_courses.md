@@ -4,7 +4,7 @@ Running list of NYU courses that involve significant amounts of programming.  Or
 
 ## MBA courses
 
-**INFO-GB.2335. Programming in Python.**  A Python programming course:  fundamentals, object oriented programming, web crawling, databases.  [Sample syllabus](http://web-docs.stern.nyu.edu/ioms/SYLLABI/Johar_INFOGB2335_Fall15.pdf).  
+**INFO-GB.2335. Programming in Python.**  A Python programming course:  fundamentals, object oriented programming, website development, web crawling, databases.  [Sample syllabus](http://web-docs.stern.nyu.edu/ioms/SYLLABI/Johar_INFOGB2335_Fall15.pdf).  
 
 **INFO-GB.2336.  Data Science for Business Analytics.** "The technical, programming-oriented version of Data Mining for Business Analytics." [Sample syllabus](http://web-docs.stern.nyu.edu/ioms/SYLLABI/Provost_INFOGB2336_Fall15.pdf).
 
