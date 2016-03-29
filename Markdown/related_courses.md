@@ -24,8 +24,8 @@ http://cs.nyu.edu/webapps/courses/
 
 From Andrew:  
 
-Social Networking, Professor Mishra
+* Social Networking, Professor Mishra
+* Real time and Big Data Analytics, Professor McIntosh
+* Statistical Natural Language Processing, Professor Petrov
 
-Real time and Big Data Analytics, Professor McIntosh
-
-Statistical Natural Language Processing, Professor Petrov
+For undergrads, CS 101 is a more systematic approach to Python and computer science in general.  Overlap with Data Bootcamp is 15-20 percent.  
