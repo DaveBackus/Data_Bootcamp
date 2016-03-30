@@ -18,6 +18,9 @@ Running list of NYU courses that involve significant amounts of programming.  Or
 
 **MKTG-GB.2344. Data-Driven Decision Making.**  "The course is designed to give you working knowledge of basic data analysis and statistical software, and to train you to deal with a wide spectrum of quantitative problems that you are likely to encounter in your workplace."  "Wokring knowledge of sotware" here does not include fundamental training. The [course website](http://www.d3mprof.com/) is a thing of beauty.
 
+**ECON-GB.2162. Sports Analytics.**  Quantitative analysis applied to sports, taught by two professionals.  [Syllabus](http://northyardanalytics.com/ECON-GB.2162.30_Sports_Analytics_in_Practice_Syllabus.pdf).  
+
+
 ## Computer science courses
 
 http://cs.nyu.edu/webapps/courses/
