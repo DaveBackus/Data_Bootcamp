@@ -16,15 +16,38 @@
 \medskip
 {\it As always, the pdf of this document comes with links.}
 
-\medskip
+%\medskip
 If you're having trouble finding a project idea, here are some you could use or adapt.
 Feel free to modify them in any way you find interesting.
+
 
 \section*{Prepackaged projects}
 
 These are relatively well defined projects that extend things we've done in class.
 %
 \begin{itemize}
+\item {\bf Demographics.\/} Delve deeper into the population dynamics of a country
+you find interesting, or compare two or three countries.
+You could start with our
+\href{https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Lab/UN_demography.ipynb}
+{demography notebook},
+where we explore UN data on
+the age distribution of the population, life expectancy, mortality (deaths), and fertility (births).
+
+One example:  Look at the data for China, see where it leads you.
+
+Another one:  Anne Case and Angus Deaton generated a lot of discussion,
+and some controversy, when they documented an increase in mortality of middle-aged white men in the US
+and their causes of death, including suicide and drug overdose.
+Links:
+\href{http://www.nytimes.com/2015/11/03/health/death-rates-rising-for-middle-aged-white-americans-study-finds.html}
+    {New York Times},
+\href{http://www.nytimes.com/2015/11/07/upshot/more-details-on-rising-mortality-among-middle-aged-whites.html}
+    {more Times},
+\href{http://www.pnas.org/content/112/49/15078.full.pdf}{Case-Deaton paper} (look at the graphs),
+\href{http://andrewgelman.com/wp-content/uploads/2017/04/ageadj.pdf}{Gelman-Auerbach paper} (ditto).
+Can you reproduce their work?  Extend it?  Take it in a different direction?
+
 \item {\bf Current economic conditions.\/}  Describe current business conditions in the US.
 (Most banks produce this kind of thing, you should be able to find examples.)
 This might include:
@@ -41,6 +64,11 @@ and FRED codes for some popular indicators.
 You can find more indicators --- and descriptions ---
 on the
 \href{http://www.bloomberg.com/markets/economic-calendar}{Bloomberg economic calendar}.
+
+A variant:  come up with a cool graphic.  We tried a heatmap, but it didn't wow us.
+Another idea is a radar chart, like 
+\href{https://www.frbatlanta.org/chcs/labormarket/}{this one} from the Atlanta Fed.
+This requires some serious coding, but the results would be striking.  
 
 \item {\bf Emerging market opportunities.\/}  An assessment of
 (long-term) business conditions
@@ -81,37 +109,50 @@ but their
 has a good summary of information from other sources.
 \end{itemize}
 
-\item {\bf Demographics.\/} Delve deeper into the population dynamics of a country
-you find interesting, or compare two or three countries.
-You could start with our
-\href{https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Lab/UN_demography.ipynb}
-{demography notebook},
-where we explore UN data on
-the age distribution of the population, life expectancy, mortality (deaths), and fertility (births).
-
-One example:  Look at the data for China, see where it leads you.
-
-Another one:  Anne Case and Angus Deaton generated a lot of discussion,
-and some controversy, when they documented an increase in mortality of middle-aged white men in the US
-and their causes of death, including suicide and drug overdose.
-Some related links:
-%
-\begin{itemize}
-\item
-\href{http://www.nytimes.com/2015/11/03/health/death-rates-rising-for-middle-aged-white-americans-study-finds.html}
-    {New York Times coverage}
-
-\item More
-\href{http://www.nytimes.com/2015/11/07/upshot/more-details-on-rising-mortality-among-middle-aged-whites.html}
-    {New York Times coverage}
-
-\item \href{http://www.pnas.org/content/112/49/15078.full.pdf}{Case-Deaton paper} (look at the graphs)
-
-\item \href{http://andrewgelman.com/wp-content/uploads/2017/04/ageadj.pdf}{Gelman-Auerbach paper} (ditto)
-
 \end{itemize}
-Can you reproduce their work?  Extend it?  Take it in a different direction?
-\end{itemize}
+
+
+\section*{Random ideas} 
+
+All of these need some work, but they seem promising to us:  
+\begin{itemize} 
+\item {\bf Energy prices.\/}  
+They've dropped a lot, but where will they go from here?  We can think of this in terms of supply and demand.  Demand depends primarily on growth:  higher growth means higher demand.  If China grows more slowly, they’ll demand less.  Supply depends on available resources and technologies to develop new sources --- fracking, for example.  These links focus on supply, which seems to be the central issue right now:  
+\href{http://ftalphaville.ft.com/2015/09/11/2139891/oil-absolutely-friggin-everywhere/}{Alphaville},  
+\href{http://econbrowser.com/archives/2014/11/a-glut-of-oil}{Econbrowser}. 
+
+\item {\bf Carbon and energy intensity.}    
+How much energy do countries use?  How much is due to GDP (rich countries use more energy)?  How much to other things?  Can we document the sources of differences in a useful way?  Here are a couple blog posts:
+\href{http://conversableeconomist.blogspot.com/2015/07/global-carbon-intensity-rises-kaya.html}
+{Conversable}, 
+\href{http://econbrowser.com/archives/2014/06/energy-demand-and-gdp}{Econbrowser}.  
+
+\item {\bf How people spend their time.}   
+The American Time Use Study (ATUS) tells us how people spend every hour of the day.  You can imagine marketing interest in how much time people spend watching TV, accessing the internet, etc.  Many other countries have similar data.  Links:
+\href{http://scholar.princeton.edu/sites/default/files/annurev-economics-111809-125129_0.pdf}{survey},  
+\href{http://www.adweek.com/socialtimes/time-spent-online/613474}{Adweek}, \href{http://www.businessinsider.com/how-much-time-people-spend-online-2013-10}{Business Insider} \href{http://www.nber.org/papers/w19549}{academic paper}, \href{http://www.nielsen.com/us/en/insights/news/2014/whats-empowering-the-new-digital-consumer.html}
+{Nielsen}. 
+
+\item {\bf Hong Kong/Shanghai share prices (``Hang Seng AH Premium'').}  
+Shares of some of the same companies are traded in both locations, but at different prices.  Document this over time, showing how the discount on HK shares has varied over time.  Why do you think that is?  Some links:
+\href{http://www.hsi.com.hk/HSI-Net/static/revamp/contents/en/dl_centre/factsheets/FS_AHPe.pdf}
+{report 1},
+\href{http://www.hsi.com.hk/HSI-Net/}{report 2}, 
+\href{http://markets.ft.com/research/Markets/Tearsheets/Summary?s=HSCAHPI:HKG}{FT}, 
+\href{http://www.moneyandbanking.com/commentary/2015/7/6/chinas-stock-market-boom-and-bust}
+{Schoenholtz}.  
+
+\item {\bf Deflation odds.}   
+This is moderately technical, but nevertheless interesting.  Inflation-protected government bonds (TIPS) have coupon and principal that are ties to the consumer price index, but there’s a lower bound:  coupon and principal can never go below their issue values.  So if there’s deflation (negative inflation) over the life of the bond, the payments don’t go down.  That gives the bonds an option-like feature that can be used to infer the (risk-adjusted) probability of deflation.  More at the Atlanta Fed:
+\href{http://macroblog.typepad.com/macroblog/2015/09/5-year-deflation-probability-moves-off-zero.html}
+{blog post}, 
+\href{https://www.frbatlanta.org/research/inflationproject/dp.aspx?d=1&s=blogmb}
+{paper}.  
+
+
+
+
+\end{itemize} 
 
 
 \section*{Data and package projects}
@@ -181,17 +222,24 @@ shows us the Python code.
 \item Airbnb.
 Chase likes this collection of \href{http://insideairbnb.com/index.html}{Airbnb data}
 and is trying to figure out what to do with it.  If you have ideas, get in touch.
+
+\item {College Scorecard.}
+The federal government has posted an enormous collection of material online
+about US colleges:  graduation rates, financial aid, salaries after graduation.
+Links:  the \href{https://collegescorecard.ed.gov/data/}{data page},
+a \href{https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Lab/College_Scorecard_data_input.py}
+{Python program} to read in one of the datasets,
+and a \href{http://www.vox.com/2015/9/12/9314695/college-scorecard-earnings}{readable overview}.
+
 \end{itemize}
 
-If you have your own ideas, all the better.  Or skim the programs in our
-\href{https://github.com/DaveBackus/Data_Bootcamp/tree/master/Code/Lab}{Lab directory}.
-(Some of them are works in progress.)
-Or our
+If you have your own ideas, all the better.  
+Or skim the programs in our
 \href{https://docs.google.com/document/d/1L2ZDKFyyqfOrCGbNcCIE9mmgap4tjkTNuw32hK4c6BI/edit?usp=sharing}
 {sources and apps} collection.
-
-
-\item {\bf College Scorecard.}
+Or our
+\href{https://github.com/DaveBackus/Data_Bootcamp/tree/master/Code/Lab}{Lab directory}.
+(Some of them are works in progress.)
 
 
 \begin{comment}
