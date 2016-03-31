@@ -40,7 +40,7 @@ The topics in the first half follow **[THE BOOK](https://www.gitbook.com/book/da
 ---
 ## Topic 6.  Review & applications 
 
-**Handouts:**  [Outline](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_review.pdf) | Code ([review](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_exam_practice.ipynb) | [applications](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Lab/UN_demography.ipynb)) <br>
+**Handouts:**  [Outline](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_review.pdf) | Code ([review](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_exam_practice.ipynb) | [applications](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Lab/UN_demography.ipynb) | [Airbnb](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Lab/Airbnb_experiments_Chase.ipynb)) <br>
 **Summary:**  Exam review, followed by applications to get us thinking about interesting datasets and how to work with them.  
 
 ---
@@ -51,7 +51,7 @@ The topics in the first half follow **[THE BOOK](https://www.gitbook.com/book/da
 ---
 ## Topic #8.  Thinking about projects 
 
-**Handouts:** [Outline](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_projects.pdf) | [Project Examples](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project_examples.pdf) | Code ([examples](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_indicators.ipynb) | [current indicators](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_indicators.ipynb) | [demography](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Lab/UN_demography.ipynb)) <br>
+**Handouts:** [Outline](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_projects.pdf) | [Project Examples](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project_examples.pdf) | Code ([examples](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_examples.ipynb) | [current indicators](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_indicators.ipynb) | [demography](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/Lab/UN_demography.ipynb)) <br>
 **Summary:**  Projects:  say something interesting with data.  Idea machines. Examples.        
 
 ---
