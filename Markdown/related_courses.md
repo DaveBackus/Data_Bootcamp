@@ -4,7 +4,7 @@ Running list of NYU courses that involve significant amounts of programming.  Or
 
 ## MBA courses
 
-**INFO-GB.2335. Programming in Python.**  A Python programming course:  fundamentals, object oriented programming, web crawling, databases.  [Sample syllabus](http://web-docs.stern.nyu.edu/ioms/SYLLABI/Johar_INFOGB2335_Fall15.pdf).  
+**INFO-GB.2335. Programming in Python.**  A Python programming course:  fundamentals, object oriented programming, website development, web crawling, databases.  [Sample syllabus](http://web-docs.stern.nyu.edu/ioms/SYLLABI/Johar_INFOGB2335_Fall15.pdf).  
 
 **INFO-GB.2336.  Data Science for Business Analytics.** "The technical, programming-oriented version of Data Mining for Business Analytics." [Sample syllabus](http://web-docs.stern.nyu.edu/ioms/SYLLABI/Provost_INFOGB2336_Fall15.pdf).
 
@@ -18,14 +18,17 @@ Running list of NYU courses that involve significant amounts of programming.  Or
 
 **MKTG-GB.2344. Data-Driven Decision Making.**  "The course is designed to give you working knowledge of basic data analysis and statistical software, and to train you to deal with a wide spectrum of quantitative problems that you are likely to encounter in your workplace."  "Wokring knowledge of sotware" here does not include fundamental training. The [course website](http://www.d3mprof.com/) is a thing of beauty.
 
+**ECON-GB.2162. Sports Analytics.**  Quantitative analysis applied to sports, taught by two people who do this for a business.  [Syllabus](http://northyardanalytics.com/ECON-GB.2162.30_Sports_Analytics_in_Practice_Syllabus.pdf).  
+
+
 ## Computer science courses
 
 http://cs.nyu.edu/webapps/courses/
 
 From Andrew:  
 
-Social Networking, Professor Mishra
+* Social Networking, Professor Mishra
+* Real time and Big Data Analytics, Professor McIntosh
+* Statistical Natural Language Processing, Professor Petrov
 
-Real time and Big Data Analytics, Professor McIntosh
-
-Statistical Natural Language Processing, Professor Petrov
+For undergrads, CS 101 is a more systematic approach to Python and computer science in general.  Overlap with Data Bootcamp is 15-20 percent.  
