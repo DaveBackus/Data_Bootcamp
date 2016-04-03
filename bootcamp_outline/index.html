@@ -51,7 +51,7 @@
     },
     "datePublished": "0001-01-01",
     "description": "",
-    "wordCount":  483 
+    "wordCount":  619 
   }
 </script>
 
@@ -227,41 +227,51 @@
 
 <p>We have almost enough for another course.  If there&rsquo;s something you&rsquo;d particularly like to see, let us know.</p>
 
-<p>The plan is to mix data applications and tools in parallel.</p>
-
-<!--
----
-## Topic.  More Pandas
-
-**Handouts:**  Outline | Code <br> 
-**Summary:**  Pandas has incredible facilities for manipulating data, including many of the tools you'll find in databases.  We'll look at joins (merging data from different dataframes), groupbys (computing statistics for groups in a dataframe), and multi-indexed data (dataframes with more than two dimensions).  Incredibly useful for day-to-day work in business.  
-
----
-## Topic.  Updating and installing packages 
-
-**Handouts:**  Outline <br> 
-**Summary:**  Using conda, pip, etc.  Applications to Anaconda, Seaborn, Quandl.  
---> 
+<p>The plan is to mix data applications and tools in parallel.  The topics are generally shorter than before.</p>
 
 <hr />
 
-<h2 id="topic-distributions-dependence-and-dynamics:1f8661465d379c14c98143df8e0e3aac">Topic.  Distributions, dependence, and dynamics</h2>
+<h2 id="topic-9-updating-and-installing-packages:1f8661465d379c14c98143df8e0e3aac">Topic 9.  Updating and installing packages</h2>
+
+<p><strong>Handouts:</strong>  <a href="https://davebackus.gitbooks.io/test/content/conda-pip.html">Book chapter</a> <br>
+<strong>Summary:</strong>  Using conda, pip, etc.  Updating Anaconda, installing Seaborn and Pandas-Datareader.</p>
+
+<hr />
+
+<h2 id="topic-10-pandas-2-cleaning-and-shaping:1f8661465d379c14c98143df8e0e3aac">Topic 10.  Pandas 2: Cleaning and shaping</h2>
+
+<p><strong>Handouts:</strong>  Outline | Book chapter | Code <br>
+<strong>Summary:</strong>  Pandas has incredible facilities for managing data.  We look at selecting variables and observations, manipulating string variables, and transposing or pivoting.</p>
+
+<hr />
+
+<h2 id="topic-11-pandas-3-summarizing-data:1f8661465d379c14c98143df8e0e3aac">Topic 11.  Pandas 3: Summarizing data</h2>
+
+<p><strong>Handouts:</strong>  Outline | Book chapter | Code <br>
+<strong>Summary:</strong>  Statistics (mean, standard deviation, etc), grouping data by categories, counts and statistics by category.</p>
+
+<hr />
+
+<p>The next three topics give this issue some structure.  <em>Distributions</em> is about the frequencies of various outcomes:  stock returns, incomes of individuals, medical expenses, movie grosses.  <em>Dependence</em> is about connections between two (or more) variables.  <em>Dynamics</em> is about the relation between a variable at two different dates.</p>
+
+<hr />
+
+<h2 id="topic-12-distributions:1f8661465d379c14c98143df8e0e3aac">Topic 12.  Distributions</h2>
 
 <p><strong>Handouts:</strong>  Outline | Code  <br>
-<strong>Summary:</strong>  This is really three topics.  <em>Distributions</em> is about the frequencies of various outcomes:  stock returns, incomes of individuals, medicial expenses, movie grosses.  Tools include histograms, smoothed versions (kde&rsquo;s), cumulative and log plots. <em>Dependence</em> is about connections between two (or more) variables:  scatterplots, correlation, Anscombe&rsquo;s quartet, Simpson&rsquo;s paradox. <em>Dynamics</em> is about the relation between variables at two dates:  stock returns this month and next, cross-correlations, the ccf.</p>
+<strong>Summary:</strong>  Some data is usefully described not by (say) its mean or median, but by its range of outcomes.  Examples include equity returns, the age distribution of the population, size of firms, and incomes of individuals.  We describe distributions with histograms, smoothed histograms (kde&rsquo;s), and so on.  We introduce the Numpy package along the way and use ipywidgets in Jupyter to add interactivity to our code.</p>
 
 <!--
----
-## Topic.  Demography & healthcare 
+:  scatterplots, correlation, contour plot, Anscombe's quartet, Simpson's paradox. 
 
-**Handouts:**  Outline | Code  <br>
-**Summary:**  The world is getting older -- a lot older.  Basic data for this involves the age distribution and the things that drive it:  mortality (people are dying less), fertility (and having few children).  All of this data is freely available.  <br>
-Healthcare is closely related.  As people age, they consume more healthcare, which raises lots of questions about how to deliver and pay for it.  
+
+:  stock returns this month and next, cross-correlations, the ccf.
+
 --> 
 
 <hr />
 
-<h2 id="topic-statistics-machine-learning:1f8661465d379c14c98143df8e0e3aac">Topic.  Statistics &amp; Machine Learning</h2>
+<h2 id="topic-13-statistics-machine-learning:1f8661465d379c14c98143df8e0e3aac">Topic 13.  Statistics &amp; Machine Learning</h2>
 
 <p><strong>Handouts:</strong>  Outline | Code  <br>
 <strong>Summary:</strong>  These are whole subjects, not topics, but we thought a brief overview of their history would be useful.  We combine it an application to multivariate regression with two packages, StatsModels (statistics) and Scikit-Learn (machine learning).</p>

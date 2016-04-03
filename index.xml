@@ -381,41 +381,51 @@ Recommended but not graded: [Optional Code Practice C](https://github.com/DaveBa
 
 &lt;p&gt;We have almost enough for another course.  If there&amp;rsquo;s something you&amp;rsquo;d particularly like to see, let us know.&lt;/p&gt;
 
-&lt;p&gt;The plan is to mix data applications and tools in parallel.&lt;/p&gt;
-
-&lt;!--
----
-## Topic.  More Pandas
-
-**Handouts:**  Outline | Code &lt;br&gt; 
-**Summary:**  Pandas has incredible facilities for manipulating data, including many of the tools you&#39;ll find in databases.  We&#39;ll look at joins (merging data from different dataframes), groupbys (computing statistics for groups in a dataframe), and multi-indexed data (dataframes with more than two dimensions).  Incredibly useful for day-to-day work in business.  
-
----
-## Topic.  Updating and installing packages 
-
-**Handouts:**  Outline &lt;br&gt; 
-**Summary:**  Using conda, pip, etc.  Applications to Anaconda, Seaborn, Quandl.  
---&gt; 
+&lt;p&gt;The plan is to mix data applications and tools in parallel.  The topics are generally shorter than before.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;topic-distributions-dependence-and-dynamics:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic.  Distributions, dependence, and dynamics&lt;/h2&gt;
+&lt;h2 id=&#34;topic-9-updating-and-installing-packages:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 9.  Updating and installing packages&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  &lt;a href=&#34;https://davebackus.gitbooks.io/test/content/conda-pip.html&#34;&gt;Book chapter&lt;/a&gt; &lt;br&gt;
+&lt;strong&gt;Summary:&lt;/strong&gt;  Using conda, pip, etc.  Updating Anaconda, installing Seaborn and Pandas-Datareader.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;topic-10-pandas-2-cleaning-and-shaping:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 10.  Pandas 2: Cleaning and shaping&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline | Book chapter | Code &lt;br&gt;
+&lt;strong&gt;Summary:&lt;/strong&gt;  Pandas has incredible facilities for managing data.  We look at selecting variables and observations, manipulating string variables, and transposing or pivoting.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;topic-11-pandas-3-summarizing-data:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 11.  Pandas 3: Summarizing data&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline | Book chapter | Code &lt;br&gt;
+&lt;strong&gt;Summary:&lt;/strong&gt;  Statistics (mean, standard deviation, etc), grouping data by categories, counts and statistics by category.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The next three topics give this issue some structure.  &lt;em&gt;Distributions&lt;/em&gt; is about the frequencies of various outcomes:  stock returns, incomes of individuals, medical expenses, movie grosses.  &lt;em&gt;Dependence&lt;/em&gt; is about connections between two (or more) variables.  &lt;em&gt;Dynamics&lt;/em&gt; is about the relation between a variable at two different dates.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;topic-12-distributions:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 12.  Distributions&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline | Code  &lt;br&gt;
-&lt;strong&gt;Summary:&lt;/strong&gt;  This is really three topics.  &lt;em&gt;Distributions&lt;/em&gt; is about the frequencies of various outcomes:  stock returns, incomes of individuals, medicial expenses, movie grosses.  Tools include histograms, smoothed versions (kde&amp;rsquo;s), cumulative and log plots. &lt;em&gt;Dependence&lt;/em&gt; is about connections between two (or more) variables:  scatterplots, correlation, Anscombe&amp;rsquo;s quartet, Simpson&amp;rsquo;s paradox. &lt;em&gt;Dynamics&lt;/em&gt; is about the relation between variables at two dates:  stock returns this month and next, cross-correlations, the ccf.&lt;/p&gt;
+&lt;strong&gt;Summary:&lt;/strong&gt;  Some data is usefully described not by (say) its mean or median, but by its range of outcomes.  Examples include equity returns, the age distribution of the population, size of firms, and incomes of individuals.  We describe distributions with histograms, smoothed histograms (kde&amp;rsquo;s), and so on.  We introduce the Numpy package along the way and use ipywidgets in Jupyter to add interactivity to our code.&lt;/p&gt;
 
 &lt;!--
----
-## Topic.  Demography &amp; healthcare 
+:  scatterplots, correlation, contour plot, Anscombe&#39;s quartet, Simpson&#39;s paradox. 
 
-**Handouts:**  Outline | Code  &lt;br&gt;
-**Summary:**  The world is getting older -- a lot older.  Basic data for this involves the age distribution and the things that drive it:  mortality (people are dying less), fertility (and having few children).  All of this data is freely available.  &lt;br&gt;
-Healthcare is closely related.  As people age, they consume more healthcare, which raises lots of questions about how to deliver and pay for it.  
+
+:  stock returns this month and next, cross-correlations, the ccf.
+
 --&gt; 
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;topic-statistics-machine-learning:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic.  Statistics &amp;amp; Machine Learning&lt;/h2&gt;
+&lt;h2 id=&#34;topic-13-statistics-machine-learning:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 13.  Statistics &amp;amp; Machine Learning&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline | Code  &lt;br&gt;
 &lt;strong&gt;Summary:&lt;/strong&gt;  These are whole subjects, not topics, but we thought a brief overview of their history would be useful.  We combine it an application to multivariate regression with two packages, StatsModels (statistics) and Scikit-Learn (machine learning).&lt;/p&gt;
