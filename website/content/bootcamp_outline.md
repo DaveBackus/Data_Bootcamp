@@ -59,40 +59,50 @@ The topics in the first half follow **[THE BOOK](https://www.gitbook.com/book/da
 
 We have almost enough for another course.  If there's something you'd particularly like to see, let us know.
 
-The plan is to mix data applications and tools in parallel.     
+The plan is to mix data applications and tools in parallel.  The topics are generally shorter than before.  
 
-<!--
----
-## Topic.  More Pandas
-
-**Handouts:**  Outline | Code <br> 
-**Summary:**  Pandas has incredible facilities for manipulating data, including many of the tools you'll find in databases.  We'll look at joins (merging data from different dataframes), groupbys (computing statistics for groups in a dataframe), and multi-indexed data (dataframes with more than two dimensions).  Incredibly useful for day-to-day work in business.  
 
 ---
-## Topic.  Updating and installing packages 
+## Topic 9.  Updating and installing packages 
 
-**Handouts:**  Outline <br> 
-**Summary:**  Using conda, pip, etc.  Applications to Anaconda, Seaborn, Quandl.  
---> 
+**Handouts:**  [Book chapter](https://davebackus.gitbooks.io/test/content/conda-pip.html) <br> 
+**Summary:**  Using conda, pip, etc.  Updating Anaconda, installing Seaborn and Pandas-Datareader.  
 
 ---
-## Topic.  Distributions, dependence, and dynamics 
+## Topic 10.  Pandas 2: Cleaning and shaping 
+
+**Handouts:**  Outline | Book chapter | Code <br> 
+**Summary:**  Pandas has incredible facilities for managing data.  We look at selecting variables and observations, manipulating string variables, and transposing or pivoting.   
+
+
+---
+## Topic 11.  Pandas 3: Summarizing data 
+
+**Handouts:**  Outline | Book chapter | Code <br> 
+**Summary:**  Statistics (mean, standard deviation, etc), grouping data by categories, counts and statistics by category.    
+
+
+---
+
+The next three topics give this issue some structure.  *Distributions* is about the frequencies of various outcomes:  stock returns, incomes of individuals, medical expenses, movie grosses.  *Dependence* is about connections between two (or more) variables.  *Dynamics* is about the relation between a variable at two different dates. 
+
+---
+## Topic 12.  Distributions 
 
 **Handouts:**  Outline | Code  <br> 
-**Summary:**  This is really three topics.  *Distributions* is about the frequencies of various outcomes:  stock returns, incomes of individuals, medicial expenses, movie grosses.  Tools include histograms, smoothed versions (kde's), cumulative and log plots. *Dependence* is about connections between two (or more) variables:  scatterplots, correlation, Anscombe's quartet, Simpson's paradox. *Dynamics* is about the relation between variables at two dates:  stock returns this month and next, cross-correlations, the ccf.  
+**Summary:**  Some data is usefully described not by (say) its mean or median, but by its range of outcomes.  Examples include equity returns, the age distribution of the population, size of firms, and incomes of individuals.  We describe distributions with histograms, smoothed histograms (kde's), and so on.  We introduce the Numpy package along the way and use ipywidgets in Jupyter to add interactivity to our code.  
+
 
 <!--
----
-## Topic.  Demography & healthcare 
+:  scatterplots, correlation, contour plot, Anscombe's quartet, Simpson's paradox. 
 
-**Handouts:**  Outline | Code  <br>
-**Summary:**  The world is getting older -- a lot older.  Basic data for this involves the age distribution and the things that drive it:  mortality (people are dying less), fertility (and having few children).  All of this data is freely available.  <br>
-Healthcare is closely related.  As people age, they consume more healthcare, which raises lots of questions about how to deliver and pay for it.  
+
+:  stock returns this month and next, cross-correlations, the ccf.
+
 --> 
 
-
 ---
-## Topic.  Statistics & Machine Learning 
+## Topic 13.  Statistics & Machine Learning 
 
 **Handouts:**  Outline | Code  <br>
 **Summary:**  These are whole subjects, not topics, but we thought a brief overview of their history would be useful.  We combine it an application to multivariate regression with two packages, StatsModels (statistics) and Scikit-Learn (machine learning).    
