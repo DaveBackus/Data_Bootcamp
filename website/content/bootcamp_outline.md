@@ -60,45 +60,69 @@ The topics in the first half follow **[THE BOOK](https://www.gitbook.com/book/da
 We have almost enough for another course.  If there's something you'd particularly like to see, let us know.The plan is to mix data applications and tools in parallel.  The topics are generally shorter than before.  
 
 ---
-## Topic 9.  Updating and installing packages 
-
-**Handouts:**  [Book chapter](https://davebackus.gitbooks.io/test/content/conda-pip.html) <br> 
-**Summary:**  Using conda, pip, etc.  Updating Anaconda, installing Seaborn, Plotly, and Pandas-Datareader.  
-
----
-## Topic 10.  Pandas 2: Cleaning and shaping 
+## Topic 9.  Pandas 2: Cleaning and shaping 
 
 **Handouts:**  [Outline](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_pandas-clean-shape.pdf) | Code ([cleaning](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_pandas-clean.ipynb) | [shaping](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_pandas-shape.ipynb)) <br> 
 **Summary:**  Pandas has incredible facilities for managing data.  We look at fixing numbers misidentified as strings, managing missing observations, selecting variables and observations, switching rows and columns, and pivoting.
 
 ---
-## Topic 11.  Pandas 3: Summarizing data 
+## Topic 10.  Pandas 3: Summarizing data 
 
 **Handouts:**  Outline | Book chapter | Code <br> 
 **Summary:**  Statistics (mean, standard deviation, etc), grouping data by categories, counts and statistics by category.    
 
 
 ---
+## Topic 11.  Updating and installing packages 
 
-The next three topics give this issue some structure.  *Distributions* is about the frequencies of various outcomes:  stock returns, incomes of individuals, medical expenses, movie grosses.  *Dependence* is about connections between two (or more) variables.  *Dynamics* is about the relation between a variable at two different dates. 
+**Handouts:**  [Book chapter](https://davebackus.gitbooks.io/test/content/conda-pip.html) <br> 
+**Summary:**  Using conda, pip, etc.  Updating Anaconda, installing Seaborn, Plotly, and Pandas-Datareader.
+
 
 ---
-## Topic 12.  Distributions 
+## Topic.  Advanced graphics with Seaborn and Plotly 
+
+**Handouts:**  Outline | Code  <br> 
+**Summary:** 
+
+---
+## Topic.  Web scraping with Beautiful Soup   
+
+**Handouts:**  Outline | Code  <br> 
+**Summary:** 
+
+---
+
+The next three topics provide some structure for thinking about data.  *Distributions* is about the frequencies of various outcomes:  stock returns, incomes of individuals, medical expenses, movie grosses.  *Dependence* is about connections between two variables, a connection often summarized (incompletely) byt their correlation.  *Dynamics* is about the relation between a variable at two different dates. Is strong economic growth followed by the same?  How do bond ratings evolve?  
+
+---
+## Topic.  Distributions 
 
 **Handouts:**  Outline | Code  <br> 
 **Summary:**  Some data is usefully described not by (say) its mean or median, but by its range of outcomes.  Examples include equity returns, the age distribution of the population, size of firms, and incomes of individuals.  We describe distributions with histograms, smoothed histograms (kde's), and so on.  We introduce the Numpy package along the way and use ipywidgets in Jupyter to add interactivity to our code.  
 
+---
+## Topic.  Dependence
+
+**Handouts:**  Outline | Code  <br> 
+**Summary:** 
+
+---
+## Topic.  Dynamics 
+
+**Handouts:**  Outline | Code  <br> 
+**Summary:** 
+
 
 <!--
 :  scatterplots, correlation, contour plot, Anscombe's quartet, Simpson's paradox. 
-
 
 :  stock returns this month and next, cross-correlations, the ccf.
 
 --> 
 
 ---
-## Topic 13.  Statistics & Machine Learning 
+## Topic.  Statistics & Machine Learning 
 
 **Handouts:**  Outline | Code  <br>
 **Summary:**  These are whole subjects, not topics, but we thought a brief overview of their history would be useful.  We combine it an application to multivariate regression with two packages, StatsModels (statistics) and Scikit-Learn (machine learning).    

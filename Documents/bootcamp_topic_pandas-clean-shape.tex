@@ -16,103 +16,109 @@
 \section*{Materials}
 
 \begin{itemize}
-\item  Today's handouts:  this outline 
+\item  Today's handout:  this outline
 \item  Posted on {\it Topic outlines \& links\/} page of website
 \end{itemize}
 
 
-\section*{Plan for second half of the course}
+\section*{Our approach to the second half of the course}
 
-Comments and suggestions welcome, but here's the current plan.  
-The topics at the end are maybes, they depend on interest and time.    
 \begin{itemize}
-\item Advanced data management with Pandas 
+\item Cover material you find useful 
+\item A menu for you to choose from 
+\item {\bf Ask for help} if you're stuck, either in class or on your project
+\item We'll work small topics and applications into the flow
+\end{itemize}
+
+
+\section*{Current plan}
+
+Here's the current plan, but we welcome comments and suggestions.
+The topics at the end are maybes, they depend on interest and time.
+\begin{itemize}
+\item Advanced data management with Pandas
 \begin{itemize}
 \item Data cleaning:  fixing numbers treated as strings,
-selecting rows and columns, Boolean selection 
-\item Data shaping:  switching rows and columns, pivoting, indexing  
-\item Merging datasets:  combining information from different dataframes/worksheets   
+selecting rows and columns, Boolean selection
+\item Data shaping:  switching rows and columns, pivoting, indexing
+\item Merging datasets:  combining information from different dataframes/worksheets
 \item Summarizing data:  statistics (mean, standard deviation), grouping observations
 \end{itemize}
 
 
-\item Updating and installing Python and packages 
+\item Updating and installing Python and packages
 \begin{itemize}
-\item Conda and Pip 
+\item Conda and Pip
 \end{itemize}
 
 
-\item Advanced graphics 
+\item Advanced graphics
 \begin{itemize}
-\item Packages:  Seaborn and Plotly 
-\item Applications:  maps, animations 
+\item Packages:  Seaborn and Plotly
+\item Applications:  maps, animations
 \end{itemize}
 
 
-\item Web scraping  
+\item Web scraping
 \begin{itemize}
-\item Grabbing data from websites that are not designed for it  
-\item Package:  Beautiful Soup 
-\item Problem:  not easy to do if you don't understand the language of websites (html)  
+\item Grabbing data from websites that are not designed for it
+\item Package:  Beautiful Soup
+\item Problem:  not easy to do if you don't understand the language of websites (html)
 \end{itemize}
 
-\item Distribution, dependence, and dynamics 
+\item Distribution, dependence, and dynamics
 \begin{itemize}
-\item The mean isn't enough, we want to know the range of outcomes. 
-\item Distribution is about outcomes:  equity returns, options, individual incomes, many more.  
+\item The mean isn't enough, we want to know the range of outcomes.
+\item Distribution is about outcomes:  equity returns, options, individual incomes, many more.
 Graphical methods for identifying the ``long tail.''
-\item Dependence is about the relation between two variables, often summarized by correlation.    
+\item Dependence is about the relation between two variables, often summarized by correlation.
 \item Dynamics is about dependence over time:  Are good times followed by good times, or the opposite?
-Examples:  equity returns, economic growth, bond ratings.  
+Examples:  equity returns, economic growth, bond ratings.
+\end{itemize}
+
+\item Overview of statistics and machine learning tools in Python
+\begin{itemize}
+\item Big topics, this will be superficial (but possibly useful) 
+\item Packages:  StatsModels and scikit-learn
 \end{itemize} 
 
 \end{itemize}
 
-\section*{Approach to second half}
+\section*{Pandas 2:  Data cleaning}
 
 \begin{itemize}
-\item Cover material you find useful
-\item A menu for you to choose from
-\item {\bf Ask for help} if you're stuck, either in class or if you use similar methods for your project
-\item Work small topics and applications into the flow 
-\end{itemize} 
-
-
-\section*{Pandas 2:  Data cleaning} 
-
+\item Setup
 \begin{itemize}
-\item Setup 
-\begin{itemize} 
 \item Download IPython notebook
 
 %{\small
-\url{https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_pandas-clean.ipynb} 
+\url{https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_pandas-clean.ipynb}
 %}
 
 and save Raw file in your \verb|Data_Bootcamp| directory
 
-In short:  GitHub $\Rightarrow$ Code $\Rightarrow$ IPython $\Rightarrow$  
+In short:  GitHub $\Rightarrow$ Code $\Rightarrow$ IPython $\Rightarrow$
  \verb|bootcamp_pandas-clean.ipynb| $\Rightarrow$ Raw
- 
-\item Open in Jupyter 
-\end{itemize} 
+
+\item Open in Jupyter
+\end{itemize}
 
 \item {\bf Want operator}
 \begin{itemize}
 \item Keep in mind what we want, then figure out how to get there
-\item Problems:  numbers contain dollar signs or commas, interpreted strings; 
-dataset contains a lot of stuff we don't want; rows and columns and flipped.   
+\item Problems:  numbers contain dollar signs or commas, interpreted as strings;
+dataset contains a lot of stuff we don't want; rows and columns and flipped.
 \end{itemize}
 
 \item String methods
 \begin{itemize}
-\item Fixing oddities in data:  dollar signs, commas, etc. 
+\item Fixing oddities in data:  dollar signs, commas, etc.
 \end{itemize}
 
-\item Missing values 
+\item Missing values
 \begin{itemize}
-\item Identify missing values, then Pandas will automatically work around them 
-\end{itemize} 
+\item Identify missing values, then Pandas will automatically work around them
+\end{itemize}
 
 \item Selecting variables (columns) and observations (rows)
 \begin{itemize}
@@ -121,13 +127,13 @@ dataset contains a lot of stuff we don't want; rows and columns and flipped.
 
 \item Boolean selection
 \begin{itemize}
-\item Things we use 
+\item Things we use
 \item Comparisons, boolean selection, the {\tt isin} method
 \end{itemize}
 
 
 
-\end{itemize} 
+\end{itemize}
 
 
 \section*{Pandas 3:  Data shaping}
@@ -149,21 +155,21 @@ In short:  GitHub $\Rightarrow$ Code $\Rightarrow$ IPython $\Rightarrow$
 \item Open in Jupyter
 \end{itemize}
 
-\item Want operator 
+\item Want operator
 \begin{itemize}
-\item Problem:  Rows and columns are switched, or worse 
+\item Problem:  Rows and columns are switched, or worse
 \end{itemize}
 
 \item Setting and resetting the index
-\item Multi-indexes 
-\item Switching rows and columns, pivoting 
-\item Stacking and unstacking:  essentially the components of pivoting 
+\item Multi-indexes
+\item Switching rows and columns, pivoting
+\item Stacking and unstacking:  essentially the components of pivoting
 \end{itemize}
 
 \section*{After class}
 
 
-Same as last time:  
+Same as last time:
 \begin{itemize}
 \item Required
 \begin{itemize}
