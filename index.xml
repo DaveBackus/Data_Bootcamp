@@ -379,23 +379,21 @@ Recommended but not graded: [Optional Code Practice C](https://github.com/DaveBa
 
 &lt;h2 id=&#34;remaining-topics-will-depend-upon-interest-yours-and-ours:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Remaining topics will depend upon interest &amp;ndash; yours and ours.&lt;/h2&gt;
 
-&lt;p&gt;We have almost enough for another course.  If there&amp;rsquo;s something you&amp;rsquo;d particularly like to see, let us know.&lt;/p&gt;
-
-&lt;p&gt;The plan is to mix data applications and tools in parallel.  The topics are generally shorter than before.&lt;/p&gt;
+&lt;p&gt;We have almost enough for another course.  If there&amp;rsquo;s something you&amp;rsquo;d particularly like to see, let us know.The plan is to mix data applications and tools in parallel.  The topics are generally shorter than before.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h2 id=&#34;topic-9-updating-and-installing-packages:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 9.  Updating and installing packages&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  &lt;a href=&#34;https://davebackus.gitbooks.io/test/content/conda-pip.html&#34;&gt;Book chapter&lt;/a&gt; &lt;br&gt;
-&lt;strong&gt;Summary:&lt;/strong&gt;  Using conda, pip, etc.  Updating Anaconda, installing Seaborn and Pandas-Datareader.&lt;/p&gt;
+&lt;strong&gt;Summary:&lt;/strong&gt;  Using conda, pip, etc.  Updating Anaconda, installing Seaborn, Plotly, and Pandas-Datareader.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h2 id=&#34;topic-10-pandas-2-cleaning-and-shaping:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 10.  Pandas 2: Cleaning and shaping&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline | Book chapter | Code &lt;br&gt;
-&lt;strong&gt;Summary:&lt;/strong&gt;  Pandas has incredible facilities for managing data.  We look at selecting variables and observations, manipulating string variables, and transposing or pivoting.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_pandas-clean-shape.pdf&#34;&gt;Outline&lt;/a&gt; | Code (&lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_pandas-clean.ipynb&#34;&gt;cleaning&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_pandas-shape.ipynb&#34;&gt;shaping&lt;/a&gt;) &lt;br&gt;
+&lt;strong&gt;Summary:&lt;/strong&gt;  Pandas has incredible facilities for managing data.  We look at fixing numbers misidentified as strings, managing missing observations, selecting variables and observations, switching rows and columns, and pivoting.&lt;/p&gt;
 
 &lt;hr /&gt;
 
