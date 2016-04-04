@@ -383,39 +383,66 @@ Recommended but not graded: [Optional Code Practice C](https://github.com/DaveBa
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;topic-9-updating-and-installing-packages:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 9.  Updating and installing packages&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  &lt;a href=&#34;https://davebackus.gitbooks.io/test/content/conda-pip.html&#34;&gt;Book chapter&lt;/a&gt; &lt;br&gt;
-&lt;strong&gt;Summary:&lt;/strong&gt;  Using conda, pip, etc.  Updating Anaconda, installing Seaborn, Plotly, and Pandas-Datareader.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;topic-10-pandas-2-cleaning-and-shaping:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 10.  Pandas 2: Cleaning and shaping&lt;/h2&gt;
+&lt;h2 id=&#34;topic-9-pandas-2-cleaning-and-shaping:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 9.  Pandas 2: Cleaning and shaping&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_pandas-clean-shape.pdf&#34;&gt;Outline&lt;/a&gt; | Code (&lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_pandas-clean.ipynb&#34;&gt;cleaning&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_pandas-shape.ipynb&#34;&gt;shaping&lt;/a&gt;) &lt;br&gt;
 &lt;strong&gt;Summary:&lt;/strong&gt;  Pandas has incredible facilities for managing data.  We look at fixing numbers misidentified as strings, managing missing observations, selecting variables and observations, switching rows and columns, and pivoting.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;topic-11-pandas-3-summarizing-data:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 11.  Pandas 3: Summarizing data&lt;/h2&gt;
+&lt;h2 id=&#34;topic-10-pandas-3-summarizing-data:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 10.  Pandas 3: Summarizing data&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline | Book chapter | Code &lt;br&gt;
 &lt;strong&gt;Summary:&lt;/strong&gt;  Statistics (mean, standard deviation, etc), grouping data by categories, counts and statistics by category.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;The next three topics give this issue some structure.  &lt;em&gt;Distributions&lt;/em&gt; is about the frequencies of various outcomes:  stock returns, incomes of individuals, medical expenses, movie grosses.  &lt;em&gt;Dependence&lt;/em&gt; is about connections between two (or more) variables.  &lt;em&gt;Dynamics&lt;/em&gt; is about the relation between a variable at two different dates.&lt;/p&gt;
+&lt;h2 id=&#34;topic-11-updating-and-installing-packages:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 11.  Updating and installing packages&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  &lt;a href=&#34;https://davebackus.gitbooks.io/test/content/conda-pip.html&#34;&gt;Book chapter&lt;/a&gt; &lt;br&gt;
+&lt;strong&gt;Summary:&lt;/strong&gt;  Using conda, pip, etc.  Updating Anaconda, installing Seaborn, Plotly, and Pandas-Datareader.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;topic-12-distributions:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 12.  Distributions&lt;/h2&gt;
+&lt;h2 id=&#34;topic-advanced-graphics-with-seaborn-and-plotly:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic.  Advanced graphics with Seaborn and Plotly&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline | Code  &lt;br&gt;
+&lt;strong&gt;Summary:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;topic-web-scraping-with-beautiful-soup:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic.  Web scraping with Beautiful Soup&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline | Code  &lt;br&gt;
+&lt;strong&gt;Summary:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The next three topics provide some structure for thinking about data.  &lt;em&gt;Distributions&lt;/em&gt; is about the frequencies of various outcomes:  stock returns, incomes of individuals, medical expenses, movie grosses.  &lt;em&gt;Dependence&lt;/em&gt; is about connections between two variables, a connection often summarized (incompletely) byt their correlation.  &lt;em&gt;Dynamics&lt;/em&gt; is about the relation between a variable at two different dates. Is strong economic growth followed by the same?  How do bond ratings evolve?&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;topic-distributions:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic.  Distributions&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline | Code  &lt;br&gt;
 &lt;strong&gt;Summary:&lt;/strong&gt;  Some data is usefully described not by (say) its mean or median, but by its range of outcomes.  Examples include equity returns, the age distribution of the population, size of firms, and incomes of individuals.  We describe distributions with histograms, smoothed histograms (kde&amp;rsquo;s), and so on.  We introduce the Numpy package along the way and use ipywidgets in Jupyter to add interactivity to our code.&lt;/p&gt;
 
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;topic-dependence:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic.  Dependence&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline | Code  &lt;br&gt;
+&lt;strong&gt;Summary:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;topic-dynamics:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic.  Dynamics&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline | Code  &lt;br&gt;
+&lt;strong&gt;Summary:&lt;/strong&gt;&lt;/p&gt;
+
 &lt;!--
 :  scatterplots, correlation, contour plot, Anscombe&#39;s quartet, Simpson&#39;s paradox. 
-
 
 :  stock returns this month and next, cross-correlations, the ccf.
 
@@ -423,7 +450,7 @@ Recommended but not graded: [Optional Code Practice C](https://github.com/DaveBa
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;topic-13-statistics-machine-learning:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 13.  Statistics &amp;amp; Machine Learning&lt;/h2&gt;
+&lt;h2 id=&#34;topic-statistics-machine-learning:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic.  Statistics &amp;amp; Machine Learning&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline | Code  &lt;br&gt;
 &lt;strong&gt;Summary:&lt;/strong&gt;  These are whole subjects, not topics, but we thought a brief overview of their history would be useful.  We combine it an application to multivariate regression with two packages, StatsModels (statistics) and Scikit-Learn (machine learning).&lt;/p&gt;
