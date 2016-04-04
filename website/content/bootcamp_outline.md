@@ -57,23 +57,19 @@ The topics in the first half follow **[THE BOOK](https://www.gitbook.com/book/da
 ---
 ## Remaining topics will depend upon interest -- yours and ours. 
 
-We have almost enough for another course.  If there's something you'd particularly like to see, let us know.
-
-The plan is to mix data applications and tools in parallel.  The topics are generally shorter than before.  
-
+We have almost enough for another course.  If there's something you'd particularly like to see, let us know.The plan is to mix data applications and tools in parallel.  The topics are generally shorter than before.  
 
 ---
 ## Topic 9.  Updating and installing packages 
 
 **Handouts:**  [Book chapter](https://davebackus.gitbooks.io/test/content/conda-pip.html) <br> 
-**Summary:**  Using conda, pip, etc.  Updating Anaconda, installing Seaborn and Pandas-Datareader.  
+**Summary:**  Using conda, pip, etc.  Updating Anaconda, installing Seaborn, Plotly, and Pandas-Datareader.  
 
 ---
 ## Topic 10.  Pandas 2: Cleaning and shaping 
 
-**Handouts:**  Outline | Book chapter | Code <br> 
-**Summary:**  Pandas has incredible facilities for managing data.  We look at selecting variables and observations, manipulating string variables, and transposing or pivoting.   
-
+**Handouts:**  [Outline](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_pandas-clean-shape.pdf) | Code ([cleaning](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_pandas-clean.ipynb) | [shaping](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_pandas-shape.ipynb)) <br> 
+**Summary:**  Pandas has incredible facilities for managing data.  We look at fixing numbers misidentified as strings, managing missing observations, selecting variables and observations, switching rows and columns, and pivoting.
 
 ---
 ## Topic 11.  Pandas 3: Summarizing data 
