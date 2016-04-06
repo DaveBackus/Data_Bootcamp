@@ -189,7 +189,7 @@ Recommended but not graded: [Optional Code Practice C](https://github.com/DaveBa
 
 &lt;p&gt;&lt;strong&gt;March 29&lt;/strong&gt; &lt;br&gt; Exam (75 minutes, in class, open book, open internet if the wireless is up, bring one page of notes).&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;April 7&lt;/strong&gt; &lt;br&gt; Submit &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf&#34;&gt;Revised Project Ideas&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;April 7&lt;/strong&gt; &lt;br&gt; Submit &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf&#34;&gt;Revised Project Ideas&lt;/a&gt;. &lt;br&gt; (We&amp;rsquo;re willing to let this slide till April 12.  The point is that you should start thinking about your project as soon as the exam is over.  But if you want to take another week to think about this, do it.)&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;April 19&lt;/strong&gt; &lt;br&gt; Submit &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf&#34;&gt;Project Proposal&lt;/a&gt;.&lt;/p&gt;
 
@@ -297,7 +297,7 @@ Recommended but not graded: [Optional Code Practice C](https://github.com/DaveBa
 
 &lt;ul&gt;
 &lt;li&gt;Make sure you have a &lt;strong&gt;laptop computer&lt;/strong&gt; you can install your own programs on.  This is a must.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Take our &lt;strong&gt;entry poll&lt;/strong&gt; (click on the &lt;a href=&#34;https://docs.google.com/forms/d/1N7ugrqIQNHm_e1BLVAtaRMnC8SmSiTDMoYBy_0FYZic/viewform&#34;&gt;link&lt;/a&gt;, follow instructions).&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Take our &lt;strong&gt;&lt;a href=&#34;https://docs.google.com/forms/d/1N7ugrqIQNHm_e1BLVAtaRMnC8SmSiTDMoYBy_0FYZic/viewform&#34;&gt;entry poll&lt;/a&gt;&lt;/strong&gt; (click on the link, follow instructions).&lt;br /&gt;&lt;/li&gt;
 &lt;li&gt;Join a &lt;strong&gt;discussion group:&lt;/strong&gt; &lt;a href=&#34;https://groups.google.com/forum/#!forum/nyu_data_bootcamp_ug&#34;&gt;UG&lt;/a&gt; | &lt;a href=&#34;https://groups.google.com/forum/#!forum/nyu_data_bootcamp_mba&#34;&gt;MBA&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Bring a &lt;strong&gt;nameplate&lt;/strong&gt; to class.  If you don&amp;rsquo;t have one, use this &lt;a href=&#34;https://docs.google.com/document/d/18mDKqDO-48wbwYfFEGD0BAYJRsshRRRxR9IEKhekTWM/edit?usp=sharing&#34;&gt;template&lt;/a&gt; and fold it in thirds.&lt;/li&gt;
 &lt;li&gt;Non-Stern students:  &lt;strong&gt;&lt;a href=&#34;https://w3.stern.nyu.edu/start/home&#34;&gt;activate your Stern account&lt;/a&gt;&lt;/strong&gt; to get wireless access.  If you have trouble, stop by the Help Desk in the lobby between KMC and Tisch or email &lt;a href=&#34;mailto:helpdesk@stern.nyu.edu&#34;&gt;helpdesk@stern.nyu.edu&lt;/a&gt;.&lt;br /&gt;&lt;/li&gt;
@@ -383,14 +383,14 @@ Recommended but not graded: [Optional Code Practice C](https://github.com/DaveBa
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;topic-9-pandas-2-cleaning-and-shaping:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 9.  Pandas 2: Cleaning and shaping&lt;/h2&gt;
+&lt;h2 id=&#34;topic-9-more-pandas-cleaning-and-shaping:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 9.  More Pandas: Cleaning and shaping&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_pandas-clean-shape.pdf&#34;&gt;Outline&lt;/a&gt; | Code (&lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_pandas-clean.ipynb&#34;&gt;cleaning&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_pandas-shape.ipynb&#34;&gt;shaping&lt;/a&gt;) &lt;br&gt;
 &lt;strong&gt;Summary:&lt;/strong&gt;  Pandas has incredible facilities for managing data.  We look at fixing numbers misidentified as strings, managing missing observations, selecting variables and observations, switching rows and columns, and pivoting.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;topic-10-pandas-3-summarizing-data:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 10.  Pandas 3: Summarizing data&lt;/h2&gt;
+&lt;h2 id=&#34;topic-10-more-pandas-summarizing-data:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 10.  More Pandas: Summarizing data&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline | Book chapter | Code &lt;br&gt;
 &lt;strong&gt;Summary:&lt;/strong&gt;  Statistics (mean, standard deviation, etc), grouping data by categories, counts and statistics by category.&lt;/p&gt;
