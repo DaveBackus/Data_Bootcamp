@@ -140,8 +140,7 @@
 
 &lt;p&gt;&lt;strong&gt;April 6&lt;/strong&gt; &lt;br&gt; Submit &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf&#34;&gt;Revised Project Ideas&lt;/a&gt;.&lt;br /&gt;
 (We&amp;rsquo;re willing to let this slide a week.  The point is that you should start thinking
-about your project as soon as the exam is over.  But if you want to take another week to think
-about this, do it.)&lt;/p&gt;
+about your project as soon as the exam is over.  But if you want to take another week to think about this, do it.)&lt;/p&gt;
 
 &lt;!--
 Recommended but not graded:  [Optional Code Practice B](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_b.pdf).
@@ -158,6 +157,8 @@ Recommended but not graded: [Optional Code Practice C](https://github.com/DaveBa
 --&gt; 
 
 &lt;p&gt;&lt;strong&gt;May 4&lt;/strong&gt; &lt;br&gt; Submit project by email to db3@nyu.edu. The subject line should be &amp;ldquo;bootcamp project mba&amp;rdquo;.  The file name should be your last names separated by dashes and a short title;  eg, something like &lt;em&gt;Jones-Smith-Zhang-India.ipynb&lt;/em&gt;. See &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf&#34;&gt;Project Guide&lt;/a&gt; for additional information.&lt;/p&gt;
+
+&lt;p&gt;We&amp;rsquo;re willing to give you another week, but the absolute latest time a project can be submitted is &lt;strong&gt;5pm May 13&lt;/strong&gt;.  No exceptions.  Keep in mind that this is the last possible time, not a target; you&amp;rsquo;re more than welcome to submit your project earlier.  And honestly, you don&amp;rsquo;t want this to drag on any longer.&lt;/p&gt;
 </description>
     </item>
     
@@ -196,6 +197,8 @@ Recommended but not graded: [Optional Code Practice C](https://github.com/DaveBa
 &lt;p&gt;&lt;strong&gt;April 26.&lt;/strong&gt; Submit &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf&#34;&gt;Data Report&lt;/a&gt;.  This is really a little late; we urge you to think about data from the beginning. Ask for help if you&amp;rsquo;re not sure you have what you need.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;May 5&lt;/strong&gt; &lt;br&gt; Submit project by email to db3@nyu.edu. The subject line should be &amp;ldquo;bootcamp project ug&amp;rdquo;.  The file name should be your last names separated by dashes and a short title;  eg, something like &lt;em&gt;Jones-Smith-Zhang-India.ipynb&lt;/em&gt;. See &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf&#34;&gt;Project Guide&lt;/a&gt; for additional information.&lt;/p&gt;
+
+&lt;p&gt;We&amp;rsquo;re willing to give you another week, but the absolute latest time a project can be submitted is &lt;strong&gt;5pm May 13&lt;/strong&gt;.  No exceptions.  Keep in mind that this is the last possible time, not a target; you&amp;rsquo;re more than welcome to submit your project earlier.  And honestly, you don&amp;rsquo;t want this to drag on any longer than this.&lt;/p&gt;
 </description>
     </item>
     
@@ -261,11 +264,13 @@ Recommended but not graded: [Optional Code Practice C](https://github.com/DaveBa
 
 &lt;h1 id=&#34;data-bootcamp:ffd489939015ded07a5c1baacc50e9b6&#34;&gt;Data Bootcamp&lt;/h1&gt;
 
-&lt;p&gt;A course at &lt;strong&gt;NYU Stern&lt;/strong&gt; exploring &lt;strong&gt;economic and financial data&lt;/strong&gt; with the &lt;strong&gt;Python&lt;/strong&gt; programming language. The course was developed by Stern faculty and students with the assistance and support of executives at &lt;strong&gt;Amazon&lt;/strong&gt;. The immediate goal is to train students to succeed as summer interns and full-time employees of technology companies, but the same skills are valued in finance, marketing, consulting, media, and other areas. We think of it as literacy for the modern age and a selling point in finding a job.&lt;/p&gt;
+&lt;p&gt;A course at &lt;strong&gt;NYU Stern&lt;/strong&gt; exploring &lt;strong&gt;economic and financial data&lt;/strong&gt; with the &lt;strong&gt;Python&lt;/strong&gt; programming language. The course was developed by Stern faculty and students with the assistance and support of executives at &lt;strong&gt;Amazon&lt;/strong&gt;. The immediate goal is to train students to succeed as summer interns and full-time employees of technology companies, but the same skills are valued in finance, marketing, consulting, media, and other areas. We think of it as literacy for the modern age.&lt;/p&gt;
 
-&lt;p&gt;More concretely, the course is designed to (i) introduce students to sources of economic, financial, and business data and (ii) give programming newbies a sense of how modern software &amp;ndash; in this case Python &amp;ndash; makes life easier and more interesting. We&amp;rsquo;ll let data speak for itself. As for coding: It&amp;rsquo;s a skill that opens doors to new &lt;strong&gt;career opportunities&lt;/strong&gt;. You can do lots of things in Excel, but if you value your time &amp;ndash; and you should &amp;ndash; you&amp;rsquo;ll find you can do more, and do it more quickly, with a modern programming language. We like to say we do it because we&amp;rsquo;re lazy, laziness being a synonym here for efficiency. There&amp;rsquo;s more on our &lt;a href=&#34;http://databootcamp.nyuecon.com/bootcamp_faq&#34;&gt;FAQ&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;More concretely, the course is designed to (i) introduce students to sources of economic, financial, and business data and (ii) give programming newbies a sense of how modern software &amp;ndash; in this case Python &amp;ndash; makes life easier and more interesting. We&amp;rsquo;ll let data speak for itself. As for coding: It&amp;rsquo;s a skill that opens doors to new &lt;strong&gt;career opportunities&lt;/strong&gt;. You can do lots of things in Excel, but if you value your time &amp;ndash; and you should &amp;ndash; you&amp;rsquo;ll find you can do more, and do it more quickly, with a modern programming language. We like to say we do it because we&amp;rsquo;re lazy, laziness being a synonym here for efficiency.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Quick links:&lt;/strong&gt;  &lt;strong&gt;&lt;a href=&#34;https://www.gitbook.com/book/davebackus/test/details&#34;&gt;Book&lt;/a&gt;&lt;/strong&gt; | &lt;strong&gt;&lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf&#34;&gt;Syllabus&lt;/a&gt;&lt;/strong&gt; | &lt;strong&gt;&lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf&#34;&gt;Project Guide&lt;/a&gt;&lt;/strong&gt; | Discussion Groups (&lt;strong&gt;&lt;a href=&#34;https://groups.google.com/forum/#!forum/nyu_data_bootcamp_ug&#34;&gt;UG&lt;/a&gt;&lt;/strong&gt; | &lt;strong&gt;&lt;a href=&#34;https://groups.google.com/forum/#!forum/nyu_data_bootcamp_mba&#34;&gt;MBA&lt;/a&gt;&lt;/strong&gt;)&lt;/p&gt;
+&lt;p&gt;If that doesn&amp;rsquo;t convince you, there&amp;rsquo;s more on our &lt;a href=&#34;http://databootcamp.nyuecon.com/bootcamp_faq&#34;&gt;FAQ&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Quick links:&lt;/strong&gt;  &lt;strong&gt;&lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_syllabus.pdf&#34;&gt;Syllabus&lt;/a&gt;&lt;/strong&gt; | &lt;strong&gt;&lt;a href=&#34;https://www.gitbook.com/book/davebackus/test/details&#34;&gt;Book&lt;/a&gt;&lt;/strong&gt; | &lt;strong&gt;&lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf&#34;&gt;Project Guide&lt;/a&gt;&lt;/strong&gt; | Discussion Groups (&lt;strong&gt;&lt;a href=&#34;https://groups.google.com/forum/#!forum/nyu_data_bootcamp_ug&#34;&gt;UG&lt;/a&gt;&lt;/strong&gt; | &lt;strong&gt;&lt;a href=&#34;https://groups.google.com/forum/#!forum/nyu_data_bootcamp_mba&#34;&gt;MBA&lt;/a&gt;&lt;/strong&gt;)&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Class Outlines&lt;/strong&gt; can be found under &lt;em&gt;Topic outlines &amp;amp; links&lt;/em&gt; (look left). &lt;br&gt; &lt;strong&gt;Code Practice&lt;/strong&gt; can be found in the same place &amp;ndash; and under &lt;em&gt;Due dates&lt;/em&gt; (ditto).&lt;/p&gt;
 
