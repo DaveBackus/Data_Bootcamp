@@ -60,13 +60,13 @@ The topics in the first half follow **[THE BOOK](https://www.gitbook.com/book/da
 We have almost enough for another course.  If there's something you'd particularly like to see, let us know.The plan is to mix data applications and tools in parallel.  The topics are generally shorter than before.  
 
 ---
-## Topic 9.  Pandas 2: Cleaning and shaping 
+## Topic 9.  More Pandas: Cleaning and shaping 
 
 **Handouts:**  [Outline](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_pandas-clean-shape.pdf) | Code ([cleaning](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_pandas-clean.ipynb) | [shaping](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_pandas-shape.ipynb)) <br> 
 **Summary:**  Pandas has incredible facilities for managing data.  We look at fixing numbers misidentified as strings, managing missing observations, selecting variables and observations, switching rows and columns, and pivoting.
 
 ---
-## Topic 10.  Pandas 3: Summarizing data 
+## Topic 10.  More Pandas: Summarizing data 
 
 **Handouts:**  Outline | Book chapter | Code <br> 
 **Summary:**  Statistics (mean, standard deviation, etc), grouping data by categories, counts and statistics by category.    

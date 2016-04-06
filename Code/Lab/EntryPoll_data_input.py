@@ -5,8 +5,8 @@ Prepared for Data Bootcamp course at NYU
 * http://databootcamp.nyuecon.com/
 * https://github.com/DaveBackus/Data_Bootcamp/Code/Lab
 
-Written by Dave Backus, February 2016
-Created with Python 3.5
+Written by Dave Backus, February 2016 
+Created with Python 3.5 
 """
 """
 import packages, check versions
@@ -27,17 +27,22 @@ url2 = 'Data-Bootcamp-entry-poll_s16.csv'
 url = url1 + url2
 file = url2
 
-variables = ['time', 'program', 'career', 'code_exp', 'stats_exp', 'media',
-             'other', 'major', 'data', 'why', 'topics']
-ep = pd.read_csv(url, header=0, names=variables)
+ep = pd.read_csv(url, header=0)
 print('Dimensions:', ep.shape)
-print('\nData types:\n', ep.dtypes, sep='')
+
+#%%
+# rename variables 
+variables = ['time', 'program', 'career', 'programming', 'stats', 'media',
+             'other', 'major', 'data', 'why', 'topics']
+variables = [var.title() for var in variables]             
+ep.columns = variables     
+ep.dtypes         
+
 
 #%%
 # summarize results
 for var in list(ep)[1:9]:
-    print('\n')
-    print(var, '\n', ep[var].value_counts(), sep='')
+    print('\n', var, '\n', ep[var].value_counts().head(5), sep='')
 
 #%%
 ep['media'] = ep['media'].str.split(',')
