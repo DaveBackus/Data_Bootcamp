@@ -23,8 +23,7 @@ Due dates for Data Bootcamp @ NYU Stern, Spring 2016, MBA section.  Deliverables
 
 **April 6** <br> Submit [Revised Project Ideas](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf).  
 (We're willing to let this slide a week.  The point is that you should start thinking
-about your project as soon as the exam is over.  But if you want to take another week to think
-about this, do it.) 
+about your project as soon as the exam is over.  But if you want to take another week to think about this, do it.) 
 
 <!--
 Recommended but not graded:  [Optional Code Practice B](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_practice_b.pdf).
@@ -42,4 +41,6 @@ Recommended but not graded: [Optional Code Practice C](https://github.com/DaveBa
 --> 
 
 
-**May 4** <br> Submit project by email to db3@nyu.edu. The subject line should be "bootcamp project mba".  The file name should be your last names separated by dashes and a short title;  eg, something like *Jones-Smith-Zhang-India.ipynb*. See [Project Guide](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf) for additional information.
+**May 4** <br> Submit project by email to db3@nyu.edu. The subject line should be "bootcamp project mba".  The file name should be your last names separated by dashes and a short title;  eg, something like *Jones-Smith-Zhang-India.ipynb*. See [Project Guide](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_project.pdf) for additional information. 
+
+We're willing to give you another week, but the absolute latest time a project can be submitted is **5pm May 13**.  No exceptions.  Keep in mind that this is the last possible time, not a target; you're more than welcome to submit your project earlier.  And honestly, you don't want this to drag on any longer.  
