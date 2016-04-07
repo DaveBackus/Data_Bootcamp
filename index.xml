@@ -97,6 +97,8 @@
 &lt;p&gt;Graphics:&lt;/p&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Our World in Data.&lt;/strong&gt; A &lt;a href=&#34;http://ourworldindata.org/&#34;&gt;website&lt;/a&gt; devoted to data visualizations.  There&amp;rsquo;s an economic development tenor, but they cover a broad range of topics:  population, energy, education, and much much more.&lt;/p&gt;&lt;/li&gt;
+
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Flowing Data.&lt;/strong&gt;  Nathan Yau&amp;rsquo;s &lt;a href=&#34;http://flowingdata.com/&#34;&gt;daily graphic&lt;/a&gt;. A good source of ideas and advice.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;VizWiz.&lt;/strong&gt; Andy Kriebel&amp;rsquo;s &lt;a href=&#34;http://vizwiz.blogspot.com/&#34;&gt;&amp;ldquo;visualization&amp;rdquo; blog&lt;/a&gt;.  A steady stream of examples and advice, including the invaluable Makeover Monday.  Tagline:  &amp;ldquo;Friends Don&amp;rsquo;t Let Friends Use Pie Charts.&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
@@ -388,14 +390,21 @@ Recommended but not graded: [Optional Code Practice C](https://github.com/DaveBa
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;topic-9-more-pandas-cleaning-and-shaping:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 9.  More Pandas: Cleaning and shaping&lt;/h2&gt;
+&lt;h2 id=&#34;topic-9-more-pandas-cleaning:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 9.  More Pandas: Cleaning&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_pandas-clean-shape.pdf&#34;&gt;Outline&lt;/a&gt; | Code (&lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_pandas-clean.ipynb&#34;&gt;cleaning&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_pandas-shape.ipynb&#34;&gt;shaping&lt;/a&gt;) &lt;br&gt;
-&lt;strong&gt;Summary:&lt;/strong&gt;  Pandas has incredible facilities for managing data.  We look at fixing numbers misidentified as strings, managing missing observations, selecting variables and observations, switching rows and columns, and pivoting.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_pandas-clean.pdf&#34;&gt;Outline&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_pandas-clean.ipynb&#34;&gt;Code&lt;/a&gt; &lt;br&gt;
+&lt;strong&gt;Summary:&lt;/strong&gt;  Pandas has incredible facilities for managing data.  We look at fixing numbers misidentified as strings, managing missing observations, selecting variables and observations, and the &lt;code&gt;isin&lt;/code&gt; and &lt;code&gt;contains&lt;/code&gt; methods.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;topic-10-more-pandas-summarizing-data:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 10.  More Pandas: Summarizing data&lt;/h2&gt;
+&lt;h2 id=&#34;topic-10-more-pandas-shaping:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 10.  More Pandas: Shaping&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_pandas-clean.pdf&#34;&gt;Outline&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_pandas-shape.ipynb&#34;&gt;Code&lt;/a&gt; &lt;br&gt;
+&lt;strong&gt;Summary:&lt;/strong&gt;  Pandas has incredible facilities for managing data.  We look at fixing numbers misidentified as strings, managing missing observations, selecting variables and observations, and the &lt;code&gt;isin&lt;/code&gt; and &lt;code&gt;contains&lt;/code&gt; methods.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;topic-11-more-pandas-summarizing-data:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 11.  More Pandas: Summarizing data&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline | Book chapter | Code &lt;br&gt;
 &lt;strong&gt;Summary:&lt;/strong&gt;  Statistics (mean, standard deviation, etc), grouping data by categories, counts and statistics by category.&lt;/p&gt;
