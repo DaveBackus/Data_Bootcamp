@@ -1,0 +1,98 @@
+\documentclass[11pt]{article}
+
+\input{../LaTeX/preamble.tex}
+
+% document starts here
+\begin{document}
+\parskip=\bigskipamount
+\parindent=0.0in
+\thispagestyle{empty}
+\input{../LaTeX/header.tex}
+
+\bigskip\bigskip
+\centerline{\Large \bf Topic Outline:  Shaping Data}
+\centerline{Revised: \today}
+
+\section*{Materials}
+
+\begin{itemize}
+\item  Today's handout:  this outline
+\item  Posted on {\it Topic outlines \& links\/} page of website
+\end{itemize}
+
+
+
+\section*{Pandas 3:  Data shaping}
+
+\begin{itemize}
+\item Setup
+\begin{itemize}
+\item Download IPython notebook
+
+%{\small
+\url{https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_pandas-clean.ipynb}
+%}
+
+and save Raw file in your \verb|Data_Bootcamp| directory
+
+In short:  GitHub $\Rightarrow$ Code $\Rightarrow$ IPython $\Rightarrow$
+ \verb|bootcamp_pandas-clean.ipynb| $\Rightarrow$ Raw
+
+\item Open in Jupyter
+\end{itemize}
+
+\item {\bf Want operator}
+\begin{itemize}
+\item Keep in mind what we want, then figure out how to get there
+\item Problems:  numbers contain dollar signs or commas, interpreted as strings;
+missing values not marked;
+dataset contains a lot of stuff we don't want; rows and columns are flipped.
+\end{itemize}
+
+\item String methods
+\begin{itemize}
+\item Fixing oddities in data:  dollar signs, commas, etc.
+\end{itemize}
+
+\item Missing values
+\begin{itemize}
+\item Identify missing values, then Pandas will automatically work around them
+\end{itemize}
+
+\item Selecting variables (columns) and observations (rows)
+\begin{itemize}
+\item Various things we don't use much
+\end{itemize}
+
+\item Boolean selection
+\begin{itemize}
+\item Things we use --- a lot 
+\item Comparisons, boolean selection 
+\item The {\tt isin} and {\tt contains} methods 
+\end{itemize}
+
+
+
+\end{itemize}
+
+
+\section*{After class}
+
+\begin{itemize}
+\item Required
+\begin{itemize}
+\item Submit Revised Project Ideas
+\end{itemize}
+\item Recommended
+\begin{itemize}
+\item Skim Project Guide
+\item Skim Project Examples
+\item Bounce around project ideas with friends
+\end{itemize}
+\end{itemize}
+
+
+\input{../LaTeX/footer.tex}
+
+\end{document}
+

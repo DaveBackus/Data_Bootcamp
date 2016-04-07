@@ -67,7 +67,9 @@ Data journalism:
 
 * Tim Taylor's **Conversable Economist** blog.  Tim's a former journalist, so a better writer than most economists.  He has a [daily post](http://conversableeconomist.blogspot.com/) about a topical economic issue, often with graphs we can use to track down data sources. If you don't recognize a source, ask us about it.  
 
-Graphics:  
+Graphics:
+
+* **Our World in Data.** A [website](http://ourworldindata.org/) devoted to data visualizations.  There's an economic development tenor, but they cover a broad range of topics:  population, energy, education, and much much more.    
 
 * **Flowing Data.**  Nathan Yau's [daily graphic](http://flowingdata.com/). A good source of ideas and advice.  
 
