@@ -38,10 +38,10 @@ print('\nVariables and dtypes:\n', raw.dtypes, sep='')
 #raw['fsize'] = raw['fsize'].str.split(n=1).str[1]
 #print('\nEdited firm size categories:\n', raw['fsize'].head(12), sep='')
 
-#%%
 """
 # exam data
-d13 = raw[raw['year2']==2013][['fsize', 'Firms', 'Emp']]
+years = [2008, 2009, 2010]
+d13 = raw[raw['year2'].isin(years)][['fsize', 'Firms', 'Emp']]
 d13.to_dict('list')
 """
 
@@ -53,23 +53,15 @@ fsize = size category
 Firms = number of firms in category
 firmdeath_firms = number of exits
 """
-# take last two years to play with
-fsz = raw[raw['year2'] >= 2012]
-fsz = fsz[['year2', 'fsize', 'Firms']]
-fsz['Firms'] = fsz['Firms']/10**6
-fsz
+n1 = 2011 
+n2 = 2013
+years = [n1, n2]
+fsz = raw[raw['year2'].isin(years)]
+fsz = fsz[['year2', 'fsize', 'Emp']]
+fszp = fsz.pivot('fsize', 'year2', 'Emp')
+fszp['PctChEmp'] = 100*(fszp[n2]/fszp[n1]-1)
 
-#%%
-fszp = fsz.pivot('fsize', 'year2', 'Firms')
-fszp.plot(kind='barh')
-
-
-#%%
-print('\nColumn labels\n', fsz.columns, sep='')
-print('\nRow labels\n', fsz.index, sep='')
-
-#%%
-fsz.plot()
+fszp['PctChEmp'].plot(kind='barh')
 
 #%%
 # =============================================================================
