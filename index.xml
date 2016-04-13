@@ -406,14 +406,14 @@ Recommended but not graded: [Optional Code Practice C](https://github.com/DaveBa
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;topic-12-updating-and-installing-packages:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 12  Updating and installing packages&lt;/h2&gt;
+&lt;h2 id=&#34;topic-11-updating-and-installing-packages:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 11.  Updating and installing packages&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  &lt;a href=&#34;https://davebackus.gitbooks.io/test/content/conda-pip.html&#34;&gt;Book chapter&lt;/a&gt; &lt;br&gt;
 &lt;strong&gt;Summary:&lt;/strong&gt;  Using conda, pip, etc.  Updating Anaconda, installing Seaborn, Plotly, and Pandas-Datareader.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;topic-11-more-pandas-summarizing-data:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 11.  More Pandas: Summarizing data&lt;/h2&gt;
+&lt;h2 id=&#34;topic-12-more-pandas-summarizing-data:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 12.  More Pandas: Summarizing data&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline | Book chapter | Code &lt;br&gt;
 &lt;strong&gt;Summary:&lt;/strong&gt;  Statistics (mean, standard deviation, etc), grouping data by categories, counts and statistics by category.&lt;/p&gt;
