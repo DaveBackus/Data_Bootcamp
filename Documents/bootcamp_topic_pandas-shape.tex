@@ -16,77 +16,94 @@
 \section*{Materials}
 
 \begin{itemize}
-\item  Today's handout:  this outline
+\item  Today's handout:  this outline, conda/pip chapter 
 \item  Posted on {\it Topic outlines \& links\/} page of website
 \end{itemize}
 
 
+\begin{comment}
 \section*{Review}
 
-What's this?  
+Give an example of
+\begin{itemize}
+\item
+\end{itemize}
+\end{comment}
 
-??
 
 \section*{Pandas 3:  Data shaping}
 
 \begin{itemize}
 \item Setup
 \begin{itemize}
-\item Download IPython notebook
+\item Download IPython notebook and save Raw file in your \verb|Data_Bootcamp| directory
 
-%{\small
-\url{https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_pandas-clean.ipynb}
-%}
-
-and save Raw file in your \verb|Data_Bootcamp| directory
-
-In short:  GitHub $\Rightarrow$ Code $\Rightarrow$ IPython $\Rightarrow$
+Location:  GitHub $\Rightarrow$ Code $\Rightarrow$ IPython $\Rightarrow$
  \verb|bootcamp_pandas-clean.ipynb| $\Rightarrow$ Raw
 
 \item Open in Jupyter
+\item In Cell, click on Run all 
 \end{itemize}
 
-\item {\bf Want operator}
+\item {Want operator}
 \begin{itemize}
 \item Keep in mind what we want, then figure out how to get there
-\item Problems:  numbers contain dollar signs or commas, interpreted as strings;
-missing values not marked;
-dataset contains a lot of stuff we don't want; rows and columns are flipped.
+\item Problems:  rows and columns are flipped, or some variant of that
 \end{itemize}
 
-\item String methods
+\item Example:  WEO data on debt and deficits 
 \begin{itemize}
-\item Fixing oddities in data:  dollar signs, commas, etc.
+\item Wants:  we want them in columns, but they run across rows; 
+we need to refer to 
+series by variable {\bf and} country 
 \end{itemize}
 
-\item Missing values
+\item Setting and resetting the index 
 \begin{itemize}
-\item Identify missing values, then Pandas will automatically work around them
+\item The \verb|set_index| method:  move column(s) into index 
+\item Multi-indexes 
+\item The \verb|reset_index| method:  the reverse 
 \end{itemize}
 
-\item Selecting variables (columns) and observations (rows)
+\item Switching rows and columns 
 \begin{itemize}
-\item Various things we don't use much
+\item The transpose ({\tt T}) method 
+\item Referring to variables with a multi-index
+\item Swapping index levels 
+\item The {\tt xs} method 
 \end{itemize}
 
-\item Boolean selection
+\item Shaping by stacking and unstacking 
 \begin{itemize}
-\item Things we use --- a lot
-\item Comparisons, boolean selection
-\item The {\tt isin} and {\tt contains} methods
+\item The {\tt stack} method:  move columns into the index
+\item The {\tt unstack} method:  move index levels into columns 
+\end{itemize}
+
+\item Shaping by pivoting 
+\begin{itemize}
+\item The {\tt pivot} method:  a shortcut 
+\end{itemize}
+
+\item {\bf Review exercise}
+\begin{itemize}
+\item Put red sticker on your laptop
+\item Work through the review section of the notebook
+\item Ask questions if you're stuck -- or even if you're not
+\item Replace red sticker with green when you're set
+\end{itemize}
+
+
 \end{itemize}
 
 
 
-\end{itemize}
-
-
+\begin{comment} 
 \section*{After class}
 
 \begin{itemize}
 \item Required
 \begin{itemize}
-\item Submit Revised Project Ideas
+\item Continue to work on your project ideas 
 \end{itemize}
 \item Recommended
 \begin{itemize}
@@ -95,7 +112,7 @@ dataset contains a lot of stuff we don't want; rows and columns are flipped.
 \item Bounce around project ideas with friends
 \end{itemize}
 \end{itemize}
-
+\end{comment} 
 
 \input{../LaTeX/footer.tex}
 
