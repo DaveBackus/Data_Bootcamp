@@ -72,14 +72,14 @@ We have almost enough for another course.  If there's something you'd particular
 **Summary:**  Pandas has incredible facilities for managing data.  We look at fixing numbers misidentified as strings, managing missing observations, selecting variables and observations, and the `isin` and `contains` methods.  
 
 ---
-## Topic 12  Updating and installing packages 
+## Topic 11.  Updating and installing packages 
 
 **Handouts:**  [Book chapter](https://davebackus.gitbooks.io/test/content/conda-pip.html) <br> 
 **Summary:**  Using conda, pip, etc.  Updating Anaconda, installing Seaborn, Plotly, and Pandas-Datareader.
 
 
 ---
-## Topic 11.  More Pandas: Summarizing data 
+## Topic 12.  More Pandas: Summarizing data 
 
 **Handouts:**  Outline | Book chapter | Code <br> 
 **Summary:**  Statistics (mean, standard deviation, etc), grouping data by categories, counts and statistics by category.    
