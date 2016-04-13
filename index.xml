@@ -401,8 +401,15 @@ Recommended but not graded: [Optional Code Practice C](https://github.com/DaveBa
 
 &lt;h2 id=&#34;topic-10-more-pandas-shaping:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 10.  More Pandas: Shaping&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_pandas-clean.pdf&#34;&gt;Outline&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_pandas-shape.ipynb&#34;&gt;Code&lt;/a&gt; &lt;br&gt;
+&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_pandas-shape.pdf&#34;&gt;Outline&lt;/a&gt; | &lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_pandas-shape.ipynb&#34;&gt;Code&lt;/a&gt; &lt;br&gt;
 &lt;strong&gt;Summary:&lt;/strong&gt;  Pandas has incredible facilities for managing data.  We look at fixing numbers misidentified as strings, managing missing observations, selecting variables and observations, and the &lt;code&gt;isin&lt;/code&gt; and &lt;code&gt;contains&lt;/code&gt; methods.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;topic-12-updating-and-installing-packages:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 12  Updating and installing packages&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  &lt;a href=&#34;https://davebackus.gitbooks.io/test/content/conda-pip.html&#34;&gt;Book chapter&lt;/a&gt; &lt;br&gt;
+&lt;strong&gt;Summary:&lt;/strong&gt;  Using conda, pip, etc.  Updating Anaconda, installing Seaborn, Plotly, and Pandas-Datareader.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -410,13 +417,6 @@ Recommended but not graded: [Optional Code Practice C](https://github.com/DaveBa
 
 &lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Outline | Book chapter | Code &lt;br&gt;
 &lt;strong&gt;Summary:&lt;/strong&gt;  Statistics (mean, standard deviation, etc), grouping data by categories, counts and statistics by category.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;topic-11-updating-and-installing-packages:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 11.  Updating and installing packages&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  &lt;a href=&#34;https://davebackus.gitbooks.io/test/content/conda-pip.html&#34;&gt;Book chapter&lt;/a&gt; &lt;br&gt;
-&lt;strong&gt;Summary:&lt;/strong&gt;  Using conda, pip, etc.  Updating Anaconda, installing Seaborn, Plotly, and Pandas-Datareader.&lt;/p&gt;
 
 &lt;hr /&gt;
 
