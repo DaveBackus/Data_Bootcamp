@@ -57,7 +57,7 @@ The topics in the first half follow **[THE BOOK](https://www.gitbook.com/book/da
 ---
 ## Remaining topics will depend upon interest -- yours and ours. 
 
-We have almost enough for another course.  If there's something you'd particularly like to see, let us know.The plan is to mix data applications and tools in parallel.  The topics are generally shorter than before.  
+We have almost enough for another course.  If there's something you'd particularly like to see, let us know.The plan is to mix data applications and tools in parallel.  The topics are generally shorter than before.
 
 ---
 ## Topic 9.  More Pandas: Cleaning  
@@ -68,8 +68,14 @@ We have almost enough for another course.  If there's something you'd particular
 ---
 ## Topic 10.  More Pandas: Shaping 
 
-**Handouts:**  [Outline](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_pandas-clean.pdf) | [Code](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_pandas-shape.ipynb) <br> 
+**Handouts:**  [Outline](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Documents/bootcamp_topic_pandas-shape.pdf) | [Code](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_pandas-shape.ipynb) <br> 
 **Summary:**  Pandas has incredible facilities for managing data.  We look at fixing numbers misidentified as strings, managing missing observations, selecting variables and observations, and the `isin` and `contains` methods.  
+
+---
+## Topic 12  Updating and installing packages 
+
+**Handouts:**  [Book chapter](https://davebackus.gitbooks.io/test/content/conda-pip.html) <br> 
+**Summary:**  Using conda, pip, etc.  Updating Anaconda, installing Seaborn, Plotly, and Pandas-Datareader.
 
 
 ---
@@ -77,13 +83,6 @@ We have almost enough for another course.  If there's something you'd particular
 
 **Handouts:**  Outline | Book chapter | Code <br> 
 **Summary:**  Statistics (mean, standard deviation, etc), grouping data by categories, counts and statistics by category.    
-
-
----
-## Topic 11.  Updating and installing packages 
-
-**Handouts:**  [Book chapter](https://davebackus.gitbooks.io/test/content/conda-pip.html) <br> 
-**Summary:**  Using conda, pip, etc.  Updating Anaconda, installing Seaborn, Plotly, and Pandas-Datareader.
 
 
 ---
