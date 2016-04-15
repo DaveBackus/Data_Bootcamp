@@ -75,7 +75,7 @@ If you plan to join us:
 * Download and install [Anaconda **for Python 3.5**](https://www.continuum.io/downloads) by selecting the 64-Bit Graphical Installer
 
 
-**Video links.**  [Class 1](http://nyustern.mediasite.com/Mediasite/Play/cf40e7f1bfa64eb2b73a512a6127f10b1d) | [Class 2](http://nyustern.mediasite.com/Mediasite/Play/a389fa743d9741cf947c572bfa4afbcb1d) | Class 3 | Class 4 
+**Video links.**  [Class 1](http://nyustern.mediasite.com/Mediasite/Play/cf40e7f1bfa64eb2b73a512a6127f10b1d) | [Class 2](http://nyustern.mediasite.com/Mediasite/Play/a389fa743d9741cf947c572bfa4afbcb1d) | [Class 3](http://nyustern.mediasite.com/Mediasite/Play/2279e798cc1b4835b3cd9845ab30618c1d) | Class 4 
 
 <!--
 #### Spring 2015 edition  
