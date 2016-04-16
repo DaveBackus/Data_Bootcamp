@@ -36,7 +36,7 @@ Back by popular demand:  the second annual SQL Bootcamp @ NYU Stern.  This four-
  
 **2016 mini-course.** The 2016 edition of SQL Bootcamp consists of four Friday sessions starting **March 25 through April 15** and will run from **1:30 to 4:30pm**. 
 
-**Room**: [KMC3-65](http://web-docs.stern.nyu.edu/old_web/emplibrary/NYUSternLocation.pdf)
+**Room**: [KMC 3-65](http://web-docs.stern.nyu.edu/old_web/emplibrary/NYUSternLocation.pdf)
 
 If you plan to join us:
 * Sign up for our **[Google group](https://groups.google.com/forum/#!forum/nyu_data_bootcamp)** to get further information and announcements.  
