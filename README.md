@@ -16,36 +16,7 @@ The **[Data Bootcamp course](http://databootcamp.nyuecon.com/)** will **NOT** co
 
 You can find more information about the course on the **[course website](http://databootcamp.nyuecon.com/)**.  If you have questions, **email Dave Backus** (db3@nyu.edu) or track him down in his office (KMC 7-68) or at the Malt House.  
 
-<!--
-#### Mini-courses  
-
-For the 2015 Data Bootcamp mini-course, **[click here](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Markdown/bootcamp_mini_2015.md)**. <br>
-For the **SQL Bootcamp** mini-course, scroll down.  
---> 
-
-<!-- 
-We ran a non-credit mini-course in 2014 and plan another one for 2015.  The **2015 mini-course** will be held  
-
-* Friday, **November 6**, 2-4pm.     
-* Friday, **November 13**, 2-4pm.    
-
-Both sessions will be in **Tisch UC-25** (the upper concourse, one floor below street level). **All welcome, no registration required**.  The sessions will give you a taste of the Python programming language and its capabilities for managing and graphing data.  We'll post **[more information](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Markdown/bootcamp_mini_2015.md)** as we develop it.  
-
-The materials for the **Fall 2014 mini-course** are a little terse, and include mysterious notes to ourselves, but here they are: 
-
-[Session 1](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Notes/mini_class1.pdf) | 
-[Session 2](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Notes/mini_class2.pdf) | 
-[Session 3](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Notes/mini_class3.pdf).
-
-If you want to download the pdf files, click on the link, then the Raw button at the top.  The code files are imbedded in the pdfs, and also posted in the Code directory (scroll to the top of the page).  
--->
-
-
 #### Related information 
-
-<!-- 
-**Our team.**  When we use the word "we" we have in mind the team of Dave Backus, Chase Coleman, Spencer Lyon, and Glenn Okun.  A number of students have helped out as well; see the acknowledgement in [our online book](https://davebackus.gitbooks.io/test/content/).
---> 
 
 **Related courses.** Several students have asked how Data Bootcamp compares to other courses with significant programming content.  I've put together [a list](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Markdown/related_courses.md#related-courses), but I recommend you ask around.  Data Bootcamp does two things that are unusual:  it's newbie-friendly, and there's a strong emphasis on data.  The latter strikes me as important, in the sense that when you learn to program, it's helpful to have a purpose in mind.  Ours is to collect and manage data.  
 
@@ -75,7 +46,7 @@ If you plan to join us:
 * Download and install [Anaconda **for Python 3.5**](https://www.continuum.io/downloads) by selecting the 64-Bit Graphical Installer
 
 
-**Video links.**  [Class 1](http://nyustern.mediasite.com/Mediasite/Play/cf40e7f1bfa64eb2b73a512a6127f10b1d) | [Class 2](http://nyustern.mediasite.com/Mediasite/Play/a389fa743d9741cf947c572bfa4afbcb1d) | [Class 3](http://nyustern.mediasite.com/Mediasite/Play/2279e798cc1b4835b3cd9845ab30618c1d) | Class 4 
+**Video links.**  [Class 1](http://nyustern.mediasite.com/Mediasite/Play/cf40e7f1bfa64eb2b73a512a6127f10b1d) | [Class 2](http://nyustern.mediasite.com/Mediasite/Play/a389fa743d9741cf947c572bfa4afbcb1d) | [Class 3](http://nyustern.mediasite.com/Mediasite/Play/2279e798cc1b4835b3cd9845ab30618c1d) | [Class 4](http://nyustern.mediasite.com/Mediasite/Play/47344f2d9b6c41dd99c869171c7ec3871d)  
 
 <!--
 #### Spring 2015 edition  
