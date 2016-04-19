@@ -49,6 +49,7 @@ march = pd.read_fwf(url_march,
                     header=None)
 march
 
+
 #%%
 g = march.groupby(['HRECORD'])['SEQ', 'POS']
 g

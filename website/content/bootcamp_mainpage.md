@@ -41,10 +41,10 @@ In addition to the quick links at the top, keep in mind:
 
 ## Before the first class 
 
-* Make sure you have a **laptop computer** you can install your own programs on.  This is a must.  
+* Make sure you have a **laptop computer** you can bring to class and install your own programs on.  This is a must.  We will be writing programs in every class.  
 * Take our **[entry poll](https://docs.google.com/forms/d/1N7ugrqIQNHm_e1BLVAtaRMnC8SmSiTDMoYBy_0FYZic/viewform)** (click on the link, follow instructions).  
 * Join a **discussion group:** [UG](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_ug) | [MBA](https://groups.google.com/forum/#!forum/nyu_data_bootcamp_mba).
-* Bring a **nameplate** to class.  If you don't have one, use this [template](https://docs.google.com/document/d/18mDKqDO-48wbwYfFEGD0BAYJRsshRRRxR9IEKhekTWM/edit?usp=sharing) and fold it in thirds. 
+* Bring a **nameplate** to class.  If you don't have one, type your first name in this [template](https://docs.google.com/document/d/18mDKqDO-48wbwYfFEGD0BAYJRsshRRRxR9IEKhekTWM/edit?usp=sharing), print it, and fold it in thirds. 
 * Non-Stern students:  **[activate your Stern account](https://w3.stern.nyu.edu/start/home)** to get wireless access.  If you have trouble, stop by the Help Desk in the lobby between KMC and Tisch or email [helpdesk@stern.nyu.edu](mailto:helpdesk@stern.nyu.edu).  
 
 
