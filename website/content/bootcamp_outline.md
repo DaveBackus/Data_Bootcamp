@@ -81,7 +81,7 @@ We have almost enough for another course.  If there's something you'd particular
 ---
 ## Topic 12.  More Pandas: Combining & summarizing data 
 
-**Handouts:**  Code ([Combining](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_pandas-merge.ipynb)|[Summarizing](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_pandas-summarize.ipynb))<br> 
+**Handouts:**  Code ([combining](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_pandas-merge.ipynb)|[summarizing](https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_pandas-summarize.ipynb))<br> 
 **Summary:**  Combining dataframes (merge, concatenate).  Statistics (mean, median, quantiles), categorical variables, grouping data by categories, counts and statistics by category.    
 
 
