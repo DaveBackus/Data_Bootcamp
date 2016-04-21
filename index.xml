@@ -415,7 +415,7 @@ Recommended but not graded: [Optional Code Practice C](https://github.com/DaveBa
 
 &lt;h2 id=&#34;topic-12-more-pandas-combining-summarizing-data:1f8661465d379c14c98143df8e0e3aac&#34;&gt;Topic 12.  More Pandas: Combining &amp;amp; summarizing data&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Code (&lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_pandas-merge.ipynb&#34;&gt;Combining&lt;/a&gt;|&lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_pandas-summarize.ipynb&#34;&gt;Summarizing&lt;/a&gt;)&lt;br&gt;
+&lt;p&gt;&lt;strong&gt;Handouts:&lt;/strong&gt;  Code (&lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_pandas-merge.ipynb&#34;&gt;combining&lt;/a&gt;|&lt;a href=&#34;https://github.com/DaveBackus/Data_Bootcamp/blob/master/Code/IPython/bootcamp_pandas-summarize.ipynb&#34;&gt;summarizing&lt;/a&gt;)&lt;br&gt;
 &lt;strong&gt;Summary:&lt;/strong&gt;  Combining dataframes (merge, concatenate).  Statistics (mean, median, quantiles), categorical variables, grouping data by categories, counts and statistics by category.&lt;/p&gt;
 
 &lt;hr /&gt;
