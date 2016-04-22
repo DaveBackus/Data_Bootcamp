@@ -36,7 +36,6 @@ df = df[df['Country'].notnull()]
 
 print('Dimensions after dropping bad rows:', df.shape)
 
-
 #%%
 # optional:  drop subtotal columns
 df = df[~df['Country'].str.startswith('Total')]
