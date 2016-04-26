@@ -12,18 +12,21 @@ import pandas as pd
 print('\nPython version: ', sys.version)
 print('Pandas version: ', pd.__version__, '\n')
 
-#%%
 url = 'https://www.adelaide.edu.au/wine-econ/papers/Section_I.xlsx'
-df  = pd.read_excel(url, 
+raw = pd.read_excel(url, 
                     sheetname='Table 1', 
                     skiprows=1, 
                     header=[0,1,2],    # sets column labels
                     parse_cols=[1]+list(range(3,14)),
+                    na_values=['na']
                     )
 
-print('Dimensions of raw data:', df.shape)
+print('Dimensions of raw data:', raw.shape)
+print('Variable dtypes:\n', raw.dtypes, sep='')
 
+#%%
 # splice variable names together (list of 3-tuples -> list) 
+df = raw.copy()
 names = list(df)
 df.columns = [name[0]+name[1]+name[2] for name in names]
 
@@ -36,13 +39,15 @@ df = df[df['Country'].notnull()]
 
 print('Dimensions after dropping bad rows:', df.shape)
 
-#%%
 # optional:  drop subtotal columns
-df = df[~df['Country'].str.startswith('Total')]
+#df = df[~df['Country'].str.startswith('Total')]
 
 # set the index as Country 
 df = df.set_index('Country')
 
-print('Dimensions after dropping "Total" rows:', df.shape)
-df
+df = df.astype(float)
+df.dtypes
+
+#%%
+df[[1]]
 

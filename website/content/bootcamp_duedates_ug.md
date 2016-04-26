@@ -32,4 +32,4 @@ Due dates for Data Bootcamp @ NYU Stern, Spring 2016, Undergrad section.  Delive
 
 We're willing to give you another week, but the absolute latest time a project can be submitted is **5pm May 13**.  No exceptions.  Keep in mind that this is the last possible time, not a target; you're more than welcome to submit your project earlier.  And honestly, you don't want this to drag on any longer than this.  
 
-**There is no final exam.** If NYU schedules an exam time, which they like to do, we still won't have one.  
+**There is no final exam.** If NYU schedules an exam time, which they sometimes do, we still won't have one.  
