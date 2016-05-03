@@ -6,7 +6,7 @@ A course exploring economic and financial data with Python at NYU's Stern School
 
 ---
 
-*April 2016.*  We are offering two sections of **[Data Bootcamp](http://databootcamp.nyuecon.com/)** at NYU Stern in **Fall 2016**, one for undergrads (ECON-UB.0232, Tuesday and Thursday, 2-3:15) and one for MBA students (ECON-GB.2313, Wednesday nights, 6-9pm).  We plan the same for **Spring 2017.** They are standard for-credit courses at NYU.  
+*April 2016.*  We are offering two sections of **[Data Bootcamp](http://databootcamp.nyuecon.com/)** at NYU Stern in **Fall 2016**, one for undergrads (ECON-UB.0232, Tuesday and Thursday, 2-3:15) and one for MBA students (ECON-GB.2313, Wednesday nights, 6-9pm).  We plan the same for **Spring 2017.** They are standard for-credit courses at NYU and will be listed on NYU's online registration system.  
 
 The course was developed by Stern faculty and students with the assistance and support of executives at **Amazon**.  The immediate goal is to train students to succeed as summer interns and full-time employees of technology companies, but the same skills are valued in finance, marketing, consulting, media, and other areas. We think of it as literacy for the modern age and a selling point in finding a job.   
 
