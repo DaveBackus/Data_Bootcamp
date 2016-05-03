@@ -2,7 +2,7 @@
 
 ---
 
-A course exploring economic and financial data with Python at NYU's Stern School of Business.  For current information and links to course material, try the **[Data Bootcamp](http://databootcamp.nyuecon.com/)** website.  
+A course exploring economic and financial data with Python at NYU's Stern School of Business.  For current information and links to course material, try the **[Data Bootcamp website](http://databootcamp.nyuecon.com/)**.  
 
 ---
 
